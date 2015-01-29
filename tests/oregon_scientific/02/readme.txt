@@ -1,6 +1,6 @@
 Owl CM180 Energy sensor
 
-'''bash
+```bash
 pi@raspberrypi ~/rtl_433/build/src $ rtl_433  -r gfile003.data
 Registering protocol[01] Rubicson Temperature Sensor
 Registering protocol[02] Oregon Scientific Weather Sensor
