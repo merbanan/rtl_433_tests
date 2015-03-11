@@ -1,0 +1,75 @@
+WT450H protocol
+
+source from:
+http://ala-paavola.fi/jaakko/doku.php?id=wt450h
+
+ Decode signal from Esic brand wireless thermometer/hygrometer.
+  
+    My sensor/transmitter units are bought at Clas Ohlson,
+    product number 36-1794 (for main unit with one sensor)
+    (http://www.clasohlson.se/link/m3/Product,Product.aspx?artnr=36-1794).
+    Extra sensors are available as 36-1797.
+    These products are manufactured by W.H. Mandolyn International Ltd.
+    The sensor unit has their product ID WT450H, receiver unit WS2015H.
+    All units marked as Esic brand.
+    
+    The signal is FM encoded with clock cycle around 2000 µs
+    No level shift within the clock cycle translates to a logic 0
+    One level shift within the clock cycle translates to a logic 1
+    Each clock cycle begins with a level shift
+    My timing constants defined below are those observed by my program
+    
+    +---+   +---+   +-------+       +  high
+    |   |   |   |   |       |       |
+    |   |   |   |   |       |       |
+    +   +---+   +---+       +-------+  low
+    
+    ^       ^       ^       ^       ^  clock cycle
+    |   1   |   1   |   0   |   0   |  translates as
+    
+    Each transmission is 36 bits long (i.e. 72 ms)
+    
+    Data is transmitted in pure binary values, NOT BCD-coded.
+    
+    Example transmission (House 1, Channel 1, RH 59 %, Temperature 23.5 °C)
+    110000010011001110110100100110011000
+    
+    b00 - b03  (4 bits): Constant, 1100, probably preamble
+    b04 - b07  (4 bits): House code (here: 0001 = HC 1)
+    b08 - b09  (2 bits): Channel code - 1 (here 00 = CC 1)
+    b10 - b12  (3 bits): Constant, 110
+    b13 - b19  (7 bits): Relative humidity (here 0111011 = 59 %)
+    b20 - b34 (15 bits): Temperature (see below)
+    b35 - b35  (1 bit) : Parity (xor of all bits should give 0)
+    
+    The temperature is transmitted as (temp + 50.0) * 128,
+    which equals (temp * 128) + 6400. Adding 50.0 °C makes
+    all values positive, an unsigned 15 bit integer where the
+    first 8 bits correspond to the whole part of the temperature
+    (here 01001001, decimal 73, substract 50 = 23).
+    Remaining 7 bits correspond to the fractional part.
+    
+    To avoid floating point calculations I store the raw temperature value
+    as a signed integer in the variable esicTemp, then transform it to
+    actual temperature * 10 using "esicTemp = (esicTemp - 6400) * 10 / 128",
+    where 6400 is the added 50 times 128.
+    When reporting the temperature I simply print "esicTemp / 10" (integer division,
+    no fraction), followed by a decimal point and "esicTemp % 10" (remainder, which
+    equals first fractional decimal digit).
+    
+    Summary of bit fields:
+    1100 0001 00 110 0111011 010010011001100 0
+     c1   hc  cc  c2    rh          t        p
+     
+    c1, c2 = constant field 1 and 2
+    hc, cc = house code and channel code
+    rh, t  = relative humidity, temperature
+    p      = parity bit
+    
+    Main decoding was done by Oyvind Kaurstad (http://personal.dynator.no/),
+    who reported about his work back in 2006 at
+    http://www.varmepumpsforum.com/vpforum/index.php?topic=3145.msg101023#msg101023
+    (Swedish forum, Oyvind writes in Norwegian).
+    On my request he let me share his findings (a spreadsheet analyzing signals
+    as captured by a digital oscilloscope), which made it quite easy for me to
+    write the actual code that decodes the wireless signal I receive.
