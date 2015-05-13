@@ -1,0 +1,45 @@
+SENSOR: GT-WT-02 (ALDI, Globaltronics..)
+outputfile
+*** signal_start = 113970967, signal_end = 114212857
+signal_len = 241890, pulses = 240
+Iteration 1. t: 135 min: 129 (239) max: 141 (1) delta 9
+Iteration 2. t: 135 min: 129 (239) max: 141 (1) delta 0
+Distance coding: Pulse length 135
+Short distance: 519, long distance: 1028, packet distance: 2257
+p_limit: 135
+[00] {0} 00 : 00000000 
+[01] {37} 34 00 ed 47 60 : 00110100 00000000 11101101 01000111 01100000 
+[02] {1} 00 : 00000000 
+[03] {37} 34 00 ed 47 60 : 00110100 00000000 11101101 01000111 01100000 
+[04] {1} 00 : 00000000 
+[05] {37} 34 00 ed 47 60 : 00110100 00000000 11101101 01000111 01100000 
+[06] {1} 00 : 00000000 
+[07] {37} 34 00 ed 47 60 : 00110100 00000000 11101101 01000111 01100000 
+[08] {1} 00 : 00000000 
+[09] {37} 34 00 ed 47 60 : 00110100 00000000 11101101 01000111 01100000 
+[10] {1} 00 : 00000000 
+[11] {37} 34 00 ed 47 60 : 00110100 00000000 11101101 01000111 01100000 
+[12] {0} 00 : 00000000
+
+/* 2 examp les
+/* [01] {37} 34 00 ed 47 60 : 00110100 00000000 11101101 01000111 01100000
+/* code, BatOK,not-man-send, Channel1, +23,7°C, 35%
+/*
+/* [01] {37} 34 8f 87 15 90 : 00110100 10001111 10000111 00010101 10010000
+/* code, BatOK,not-man-send, Channel1,-12,1°C, 10%
+
+/* SENSOR: GT-WT-02 (ALDI Globaltronics..)
+/* TYP AAAAAAAABCDDEFFFFFFFFFFFFGGGGGGGxxxxx
+/* BIT 0000000001111111111222222222233333333
+/* BIT 1234567890123456789012345678901234567
+/* 
+/* TYPDescriptian
+/* A = Rolling Device Code, Change after battarie
+/* B = Batt 0=OK 1=LOW
+/* C = Manual Send Button Pressed 0=not pressed 1=pressed
+/* D = Chanal 00=CH1, 01=CH2, 11=CH3
+/* E = Temp 0=positiv 1=negativ
+/* F = PositivTemp =12 Bit bin2dez Temp, 
+/* F = negativ Temp = 4095+1- F (12Bit bin2dez) , Factor Divid F / 10 (1Dezimal)
+/* G = Humidity = 7 Bit bin2dez 00-99
+/* x = unknown
