@@ -1,5 +1,5 @@
 Shenzhen Calibeur Industries Co. Ltd Wireless Thermometer RF-104 Temperature/Humidity sensor
- * aka Biltema sensor Art. 84-056
+ * aka Biltema Art. 84-056 (Sold in Denmark)
  * aka ...
 
 NB. Only 3 unique sensors can be detected!
