@@ -12,6 +12,12 @@ $CMD $PRJDIR/rtl_433_tests/tests/cardin/01/S466-TX2_01.data
 $CMD $PRJDIR/rtl_433_tests/tests/cardin/01/S466-TX2_02.data
 $CMD $PRJDIR/rtl_433_tests/tests/dsc/01/gfile001.data
 $CMD $PRJDIR/rtl_433_tests/tests/dsc/01/gfile002.data
+$CMD $PRJDIR/rtl_433_tests/tests/dsc/01/gfile003.data
+$CMD $PRJDIR/rtl_433_tests/tests/dsc/01/gfile004.data
+$CMD $PRJDIR/rtl_433_tests/tests/dsc/01/gfile005.data
+$CMD $PRJDIR/rtl_433_tests/tests/dsc/01/gfile006.data
+$CMD $PRJDIR/rtl_433_tests/tests/dsc/01/gfile007.data
+$CMD $PRJDIR/rtl_433_tests/tests/dsc/01/gfile008.data
 $CMD $PRJDIR/rtl_433_tests/tests/fineoffset/01/gfile001.data
 $CMD $PRJDIR/rtl_433_tests/tests/GT-WT-02/gfile003.data
 $CMD $PRJDIR/rtl_433_tests/tests/lacrosse/01/gfile001.data
@@ -20,6 +26,7 @@ $CMD $PRJDIR/rtl_433_tests/tests/lacrosse/01/gfile006.data
 $CMD $PRJDIR/rtl_433_tests/tests/lacrosse/02/gfile003.data
 $CMD $PRJDIR/rtl_433_tests/tests/lacrosse/02/gfile004.data
 $CMD $PRJDIR/rtl_433_tests/tests/lacrosse/02/gfile010.data
+$CMD $PRJDIR/rtl_433_tests/tests/lacrosse/02/gfile015.data
 $CMD $PRJDIR/rtl_433_tests/tests/oregon_scientific/01/BTHGN129.data
 $CMD $PRJDIR/rtl_433_tests/tests/oregon_scientific/01/BTHR968.data
 $CMD $PRJDIR/rtl_433_tests/tests/oregon_scientific/02/gfile003.data
