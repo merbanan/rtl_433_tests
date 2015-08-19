@@ -135,3 +135,41 @@ $CMD $PRJDIR/rtl_433_tests/tests/brennstuhl_rcs_2044/01/gfile097.data
 $CMD $PRJDIR/rtl_433_tests/tests/brennstuhl_rcs_2044/01/gfile098.data
 $CMD $PRJDIR/rtl_433_tests/tests/brennstuhl_rcs_2044/01/gfile099.data
 $CMD $PRJDIR/rtl_433_tests/tests/brennstuhl_rcs_2044/01/gfile100.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile001.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile002.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile003.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile004.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile005.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile006.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile008.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile009.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile010.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile011.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile012.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile013.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile014.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile015.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile016.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile017.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile018.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile019.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile020.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile021.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile022.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile023.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile024.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile025.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile026.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile027.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile028.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile029.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile030.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile031.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile032.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile033.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile034.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile035.data
+$CMD $PRJDIR/rtl_433_tests/tests/waveman/01/gfile036.data
+
+
+
