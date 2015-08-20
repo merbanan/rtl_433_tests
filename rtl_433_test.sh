@@ -47,6 +47,8 @@ $CMD $PRJDIR/rtl_433_tests/tests/prologue/01/gfile001.data
 $CMD $PRJDIR/rtl_433_tests/tests/UPM/01/gfile001.data
 $CMD $PRJDIR/rtl_433_tests/tests/UPM/01/gfile002.data
 $CMD $PRJDIR/rtl_433_tests/tests/UPM/01/gfile003.data
+$CMD $PRJDIR/rtl_433_tests/tests/valeo/01/gfile001.data
+$CMD $PRJDIR/rtl_433_tests/tests/valeo/01/gfile002.data
 $CMD $PRJDIR/rtl_433_tests/tests/x10/01/record-x10-b1-on-001.data
 $CMD $PRJDIR/rtl_433_tests/tests/x10/01/record-x10-b1-on-002.data
 $CMD $PRJDIR/rtl_433_tests/tests/brennstuhl_rcs_2044/01/gfile002.data
