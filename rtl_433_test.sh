@@ -29,7 +29,6 @@ $CMD $PRJDIR/rtl_433_tests/tests/ec3k/01/gfile004.data
 $CMD $PRJDIR/rtl_433_tests/tests/ec3k/01/gfile005.data
 $CMD $PRJDIR/rtl_433_tests/tests/ec3k/01/gfile006.data
 $CMD $PRJDIR/rtl_433_tests/tests/ec3k/01/gfile007.data
-$CMD $PRJDIR/rtl_433_tests/tests/ec3k/01/gfile008.data
 $CMD $PRJDIR/rtl_433_tests/tests/ec3k/01/gfile009.data
 $CMD $PRJDIR/rtl_433_tests/tests/fineoffset/01/gfile001.data
 $CMD $PRJDIR/rtl_433_tests/tests/GT-WT-02/gfile003.data
