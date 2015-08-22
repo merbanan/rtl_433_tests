@@ -10,6 +10,13 @@ $CMD $PRJDIR/rtl_433_tests/tests/ambient_weather/01/f007th.data
 $CMD $PRJDIR/rtl_433_tests/tests/calibeur/RF104/01/gfile001.data
 $CMD $PRJDIR/rtl_433_tests/tests/cardin/01/S466-TX2_01.data
 $CMD $PRJDIR/rtl_433_tests/tests/cardin/01/S466-TX2_02.data
+$CMD $PRJDIR/rtl_433_tests/tests/chuango/01/gfile001.data
+$CMD $PRJDIR/rtl_433_tests/tests/chuango/01/gfile002.data
+$CMD $PRJDIR/rtl_433_tests/tests/chuango/01/gfile003.data
+$CMD $PRJDIR/rtl_433_tests/tests/chuango/01/gfile004.data
+$CMD $PRJDIR/rtl_433_tests/tests/chuango/01/gfile005.data
+$CMD $PRJDIR/rtl_433_tests/tests/chuango/01/gfile006.data
+$CMD $PRJDIR/rtl_433_tests/tests/chuango/01/gfile007.data
 $CMD $PRJDIR/rtl_433_tests/tests/danfoss/CFR/dfile001.data
 $CMD $PRJDIR/rtl_433_tests/tests/danfoss/CFR/dfile002.data
 $CMD $PRJDIR/rtl_433_tests/tests/danfoss/CFR/dfile003.data
@@ -29,7 +36,6 @@ $CMD $PRJDIR/rtl_433_tests/tests/ec3k/01/gfile004.data
 $CMD $PRJDIR/rtl_433_tests/tests/ec3k/01/gfile005.data
 $CMD $PRJDIR/rtl_433_tests/tests/ec3k/01/gfile006.data
 $CMD $PRJDIR/rtl_433_tests/tests/ec3k/01/gfile007.data
-$CMD $PRJDIR/rtl_433_tests/tests/ec3k/01/gfile008.data
 $CMD $PRJDIR/rtl_433_tests/tests/ec3k/01/gfile009.data
 $CMD $PRJDIR/rtl_433_tests/tests/fineoffset/01/gfile001.data
 $CMD $PRJDIR/rtl_433_tests/tests/GT-WT-02/gfile003.data
@@ -47,6 +53,8 @@ $CMD $PRJDIR/rtl_433_tests/tests/prologue/01/gfile001.data
 $CMD $PRJDIR/rtl_433_tests/tests/UPM/01/gfile001.data
 $CMD $PRJDIR/rtl_433_tests/tests/UPM/01/gfile002.data
 $CMD $PRJDIR/rtl_433_tests/tests/UPM/01/gfile003.data
+$CMD $PRJDIR/rtl_433_tests/tests/valeo/01/gfile001.data
+$CMD $PRJDIR/rtl_433_tests/tests/valeo/01/gfile002.data
 $CMD $PRJDIR/rtl_433_tests/tests/x10/01/record-x10-b1-on-001.data
 $CMD $PRJDIR/rtl_433_tests/tests/x10/01/record-x10-b1-on-002.data
 $CMD $PRJDIR/rtl_433_tests/tests/brennstuhl_rcs_2044/01/gfile002.data
