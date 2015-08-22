@@ -10,6 +10,9 @@ $CMD $PRJDIR/rtl_433_tests/tests/ambient_weather/01/f007th.data
 $CMD $PRJDIR/rtl_433_tests/tests/calibeur/RF104/01/gfile001.data
 $CMD $PRJDIR/rtl_433_tests/tests/cardin/01/S466-TX2_01.data
 $CMD $PRJDIR/rtl_433_tests/tests/cardin/01/S466-TX2_02.data
+$CMD $PRJDIR/rtl_433_tests/tests/chuango/01/gfile001.data
+$CMD $PRJDIR/rtl_433_tests/tests/chuango/01/gfile002.data
+$CMD $PRJDIR/rtl_433_tests/tests/chuango/01/gfile003.data
 $CMD $PRJDIR/rtl_433_tests/tests/danfoss/CFR/dfile001.data
 $CMD $PRJDIR/rtl_433_tests/tests/danfoss/CFR/dfile002.data
 $CMD $PRJDIR/rtl_433_tests/tests/danfoss/CFR/dfile003.data
