@@ -1,0 +1,22 @@
+signal_len = 183766,  pulses = 202
+Iteration 1. t: 107    min: 93 (6)    max: 122 (196)    delta 125
+Iteration 2. t: 107    min: 93 (6)    max: 122 (196)    delta 0
+Distance coding: Pulse length 107
+
+Short distance: 482, long distance: 976, packet distance: 2283
+
+p_limit: 107
+bitbuffer:: Number of rows: 8 
+[00] {2} 00 : 00
+[01] {32} 74 01 20 3c : 01110100 00000001 00100000 00111100 
+[02] {32} 74 01 20 3c : 01110100 00000001 00100000 00111100 
+[03] {32} 74 01 20 3c : 01110100 00000001 00100000 00111100 
+[04] {32} 74 01 20 3c : 01110100 00000001 00100000 00111100 
+[05] {32} 74 01 20 3c : 01110100 00000001 00100000 00111100 
+[06] {32} 74 01 20 3c : 01110100 00000001 00100000 00111100 
+[07] {0} : 
+signal_bszie = 393216  -      sg_index = 2621440
+start_pos    = 1897568  -   buffer_size = 3145728
+*** Saving signal to file gfile002.data
+*** Writing data from 1897568, len 393216
+
