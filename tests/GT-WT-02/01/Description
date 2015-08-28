@@ -37,9 +37,19 @@ p_limit: 135
 /* A = Rolling Device Code, Change after battarie
 /* B = Batt 0=OK 1=LOW
 /* C = Manual Send Button Pressed 0=not pressed 1=pressed
-/* D = Chanal 00=CH1, 01=CH2, 11=CH3
+/* D = Channel 00=CH1, 01=CH2, 11=CH3
 /* E = Temp 0=positiv 1=negativ
-/* F = PositivTemp =12 Bit bin2dez Temp, 
+/* F = PositivTemp = 12 Bit bin2dez Temp, 
 /* F = negativ Temp = 4095+1- F (12Bit bin2dez) , Factor Divid F / 10 (1Dezimal)
-/* G = Humidity = 7 Bit bin2dez 00-99
-/* x = unknown
+/* G = Humidity = 7Bit bin2dez 00-99, Display LL=10%, Display HH=110% (Range 20-90%)
+/* x = checksum
+       bin2dez(Bit1;Bit2;Bit3;Bit4)+ #rolling code
+       bin2dez(Bit5;Bit6;Bit7;Bit8)+ #rolling code
+       bin2dez(Bit9;Bit10;Bit11;Bit12)+ #send, bat , ch
+       bin2dez(Bit13;Bit14;Bit15;Bit16)+ #temp1
+       bin2dez(Bit17;Bit18;Bit19;Bit20)+ #temp2
+       bin2dez(Bit21;Bit22;Bit23;Bit24)+ #temp3
+       bin2dez(Bit25;Bit26;Bit27;Bit28)+ #hum1
+       bin2dez(Bit29;Bit30;Bit31;Bit=„0“) = #hum2
+       bin2dez(Bit32;Bit33;Bit34;Bit35;Bit36;Bit37) #checksum
+       checksum = sum modulo 64
