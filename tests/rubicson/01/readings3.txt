@@ -1,0 +1,74 @@
+I=ID
+B=unk (Channel battery)
+T=temperature
+X=unknown
+
+X1 always F
+
+X2 and X3 might be a checksum
+
+
+II BT TT XX X
+12 11 23 12 3
+
+
+
+ea 8f 6a fa 5 = -15.0
+ea 8f 84 fb e = -12.4
+ea 8f 9e f3 e = -9.8
+ea 8f b3 fa 2 = -7.7
+ea 8f c6 fe e = -5.8
+ea 8f e6 f3 2 = -2.6
+ea 8f f3 f2 b = -1.3
+ea 8f ff f9 f = -0.1
+ea 80 0b fb 5 = 1.1
+ea 80 15 fb 6 = 2.1
+ea 80 1f f5 8 = 3.1
+ea 80 28 f4 4 = 4.0
+ea 80 30 f1 d = 4.8
+ea 80 38 f2 a = 5.6
+ea 80 3f f8 4 = 6.3
+ea 80 46 f7 c = 7.0
+ea 80 4c f9 2 = 7.6
+ea 80 52 f9 1 = 8.2
+ea 80 5d f0 8 = 9.3
+ea 80 62 f2 3 = 9.8
+ea 80 67 f5 4 = 10.3
+ea 80 6b fe 0 = 10.7
+ea 80 6f f6 3 = 11.1
+ea 80 73 fb 9 = 11.5
+ea 80 77 f3 a = 11.9
+ea 80 7a f7 a = 12.2
+ea 80 7e ff 9 = 12.6
+ea 80 82 f5 5 = 13.0
+ea 80 83 fa 1 = 13.1
+ea 80 87 f2 2 = 13.5
+ea 80 8b f9 6 = 13.9
+ea 80 91 f1 6 = 14.5
+ea 80 95 f9 5 = 14.9
+ea 80 98 fd 5 = 15.2
+ea 80 9b ff 8 = 15.5
+ea 80 9e f8 f = 15.8
+ea 80 a2 f8 9 = 16.2
+ea 80 a8 f6 7 = 16.8
+ea 80 a9 f9 3 = 16.9
+ea 80 ad f1 0 = 17.3
+ea 80 b0 f3 e = 17.6
+ea 80 b1 fc a = 17.7
+ea 80 b4 fb d = 18.0
+ea 80 b7 f9 0 = 18.3
+ea 80 ba fd 0 = 18.6
+ea 80 bb f2 4 = 18.7
+ea 80 bc f8 a = 18.8
+ea 80 be f5 3 = 19.0
+ea 80 bf fa 7 = 19.1
+
+0d 80 dd fd 8 = 22.1
+0d 80 e0 f2 a = 22.4
+d5 80 e1 fe b = 22.5
+d5 80 e2 fc 6 = 22.6
+eb 80 e2 f9 b = 22.6
+eb 80 e3 f6 f = 22.7
+28 80 e4 f4 c = 22.8
+28 80 e3 fe 2 = 22.7
+28 80 e5 fb 8 = 22.9
