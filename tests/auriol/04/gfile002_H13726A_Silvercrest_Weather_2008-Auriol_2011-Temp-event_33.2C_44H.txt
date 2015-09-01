@@ -1,0 +1,12 @@
+Sensor temperature event:
+protocol      = Silvercrest Weather (2008)/Auriol (2011)
+trend         = decreasing
+button        = 0
+battery       = OK
+temp          = 33.2
+humidity      = 44
+channel       = 1
+id            = 82
+rid           = 86
+hrid          = 56
+56 43 28 22 20

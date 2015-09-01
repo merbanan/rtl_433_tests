@@ -1,0 +1,11 @@
+Sensor wind event:
+protocol      = Silvercrest Weather (2008)/Auriol (2011)
+button        = 0
+battery       = OK
+wind speed    = 0.20
+wind gust     = 0.60
+direction     = 315
+rid           = 86
+hrid          = 56
+56 68 00 80 e0
+56 6f b9 c0 80
