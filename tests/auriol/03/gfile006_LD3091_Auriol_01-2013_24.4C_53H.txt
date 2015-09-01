@@ -1,0 +1,9 @@
+Sensor temperature event:
+protocol      = Auriol Weather (01/2013)
+battery       = OK
+temp          = 24.4
+humidity      = 53
+channel       = 1
+rid           = 148
+hrid          = 94
+94 80 f4 f3 50
