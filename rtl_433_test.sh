@@ -7,7 +7,7 @@ PRJDIR=~/Projects
 CMD="$PRJDIR/rtl_433/build/src/rtl_433 -r"
 
 ## Find all data files (sort for consistency between runs)
-DATAFILES=$(find $PRJDIR/rtl_433_tests -iname "*.data" | grep xc | sort)
+DATAFILES=$(find $PRJDIR/rtl_433_tests -iname "*.data" | sort)
 
 ## Run though all test data
 for FILE in $DATAFILES
