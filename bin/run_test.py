@@ -33,7 +33,7 @@ def remove_fields(data, fields):
 
 def main():
     parser = argparse.ArgumentParser(description='Test rtl_433')
-    parser.add_argument('-c', '--rtl433-cmd',
+    parser.add_argument('-c', '--rtl433-cmd', default="rtl_433",
                    help='rtl_433 command')
     parser.add_argument('-I', '--ignore-field', default=[], action="append",
                    help='Field to ignore in JSON data')
