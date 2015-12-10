@@ -43,11 +43,22 @@ def main():
     ignore_fields = args.ignore_field
 
     expected_json = find_json()
+    nb_ok = 0
+    nb_fail = 0
     for output_fn in expected_json:
         input_fn = os.path.splitext(output_fn)[0] + ".data"
         if not os.path.isfile(input_fn):
             print("WARNING: Missing '%s'" % input_fn)
             continue
+
+        # Open expected data
+        with open(output_fn, "r") as output_file:
+            try:
+                expected_data = json.load(output_file)
+            except ValueError as err:
+                print("ERROR: invalid json: '%s'" % output_fn)
+                continue
+            expected_data = remove_fields(expected_data, ignore_fields)
 
         # Run rtl_433
         rtl433out, err = run_rtl433(input_fn, rtl_433_cmd)
@@ -58,19 +69,21 @@ def main():
         results = json.loads(rtl433out)
         results = remove_fields(results, ignore_fields)
 
-        # Open expected data
-        with open(output_fn, "r") as output_file:
-            expected_data = json.load(output_file)
-            expected_data = remove_fields(expected_data, ignore_fields)
 
         # Compute the diff
         diff = DeepDiff(expected_data, results)
         if(diff):
+            nb_fail += 1
             print("## Fail with '%s':" % input_fn)
             for error, details in diff.items():
                 print(" %s" %error)
                 for detail in details:
                     print("  * %s" %detail)
+        else:
+            nb_ok += 1
+
+    # print some summary
+    print("%d records tested, %d have fail" % (nb_ok+nb_fail, nb_fail))
 
 if __name__ == '__main__':
     sys.exit(main())
