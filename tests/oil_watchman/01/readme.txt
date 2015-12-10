@@ -110,3 +110,7 @@ gfile022.data:
 At 2.509125: 28 4e cc 8c 80 54 3b  (crc ok 00)
     Unit ID: 0x284ecc8c flags 0x8054 height 59
 
+gfile023.data:
+At 2.520750: 28 4e cc 8c 80 58 3c  (crc ok ce)
+    Unit ID: 0x284ecc8c flags 0x8058 height 60
+
