@@ -26,9 +26,10 @@ def find_json():
     return matches
 
 def remove_fields(data, fields):
-    for field in fields:
-        if field in data:
-            del data[field]
+    for outline in data:
+        for field in fields:
+            if field in outline:
+                del outline[field]
     return data
 
 def main():
@@ -37,10 +38,13 @@ def main():
                    help='rtl_433 command')
     parser.add_argument('-I', '--ignore-field', default=[], action="append",
                    help='Field to ignore in JSON data')
+    parser.add_argument('--first-line', default=False, action="store_true",
+                   help='Only compare the first outputed line of rtl433 with first line of reference json')
     args = parser.parse_args()
 
     rtl_433_cmd = args.rtl433_cmd
     ignore_fields = args.ignore_field
+    first_line = args.first_line
 
     expected_json = find_json()
     nb_ok = 0
@@ -52,9 +56,12 @@ def main():
             continue
 
         # Open expected data
+        expected_data = []
         with open(output_fn, "r") as output_file:
             try:
-                expected_data = json.load(output_file)
+                for json_line in output_file.readlines():
+                    if not json_line.strip(): continue
+                    expected_data.append(json.loads(json_line))
             except ValueError as err:
                 print("ERROR: invalid json: '%s'" % output_fn)
                 continue
@@ -63,12 +70,25 @@ def main():
         # Run rtl_433
         rtl433out, err = run_rtl433(input_fn, rtl_433_cmd)
 
-        # get JSON results, keep only first line for now
+        # get JSON results
         rtl433out = rtl433out.strip()
-        rtl433out = rtl433out.split("\n")[0]
-        results = json.loads(rtl433out)
+        results = []
+        for json_line in rtl433out.split("\n"):
+            if not json_line.strip(): continue
+            try:
+                results.append(json.loads(json_line))
+            except ValueError as err:
+                nb_fail += 1
+                #TODO: factorise error print
+                print("## Fail with '%s': invalid json output" % input_fn)
+                print("%s" % json_line)
+                continue
         results = remove_fields(results, ignore_fields)
 
+        if first_line:
+            if len(results) == 0: results.append({})
+            if len(expected_data) == 0: expected_data.append({})
+            expected_data, results = expected_data[0], results[0]
 
         # Compute the diff
         diff = DeepDiff(expected_data, results)
