@@ -5,4 +5,5 @@ Acurite Test Signals
 - 02 - Acurite 606TX Temperature Sensor
 - 03 - Acurite 592TXR "Tower" Temperature and Humidity Sensor
 - 04 - Acurite 986 Refrigerator / Freezer Thermometer
+- 05 - Acurite 606TX Temperature Sensor
 
