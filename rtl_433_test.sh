@@ -20,6 +20,16 @@ do
     else
         LEVEL=
     fi
-	$CMD $FILE $LEVEL
+
+    # Add a "samplerate" file in case of non-standard samplerate
+    SAMPLERATE_FILE="$(dirname "$FILE")/samplerate"
+    if [[ -r "$SAMPLERATE_FILE" ]] ; then
+        SAMPLERATE="-s $(cat "$SAMPLERATE_FILE")"
+    else
+        SAMPLERATE=
+    fi
+
+#	$CMD $FILE $SAMPLERATE -l 0   # Auto level
+	$CMD $FILE $SAMPLERATE $LEVEL
 done
 
