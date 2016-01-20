@@ -5,13 +5,8 @@ http://jeelabs.org/2011/06/09/rf12-packet-format-and-design/index.html and
 http://jeelabs.org/2011/06/10/rf12-broadcasts-and-acks/index.html
 
 It runs quite fast, so a sample rate of 2500000 was needed to get a 
-reasonable capture.
+reasonable capture. Note that gfile001.data actually needs short_limit
+set to 5.1 (which is kind of hard, as it's an integer) in order to decode
+properly...
 
-The actual data from the first capture isn't known, although there'll be
-a lot of zeroes because few of the sensors were connected.
-
-For gfile002.data the corresponding output on the serial port was:
-
-CT1 CT2 CT3 CT4 VRMS/BATT PULSE                                                 
-1156 1 1077 61 24014 1085                                                       
 
