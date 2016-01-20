@@ -4,7 +4,7 @@
 PRJDIR=~/Projects
 
 ## Test command
-CMD="$PRJDIR/rtl_433/build/src/rtl_433 -r"
+CMD="$PRJDIR/rtl_433/build/src/rtl_433 -q -r"
 
 ## Find all data files (sort for consistency between runs)
 DATAFILES=$(find $PRJDIR/rtl_433_tests -iname "*.data" | sort)
