@@ -9,6 +9,11 @@ CMD="$PRJDIR/rtl_433/build/src/rtl_433 -q -r"
 ## Find all data files (sort for consistency between runs)
 DATAFILES=$(find $PRJDIR/rtl_433_tests -iname "*.data" | sort)
 
+## Custom filters for debug
+#FILTER="-e current_cost -e danfoss -e ec3k -e efergy_e2_classic -e emontx -e oil_watchman"    # FSK files
+#FILTER="-e emontx"     # A single sensor
+#DATAFILES=$(printf -- '%s\n' "${DATAFILES[@]}" | grep $FILTER)
+
 ## Run though all test data
 for FILE in $DATAFILES
 do
