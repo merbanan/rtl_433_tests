@@ -7,3 +7,9 @@ It decodes if we apply two kinds of smoothing to the FM signal:
 
 rtl_433 -r gfile023.data -m 2 -t gfile023.fm && ./fskdemod gfile023.fm
 
+....
+
+gfile455 looks like a failure of the auto-level detection, and starts in
+the middle of a packet.
+
+gfile668 has an emonTx packet *and* a watchman packet in it.
