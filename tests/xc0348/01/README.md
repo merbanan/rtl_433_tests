@@ -1,3 +1,21 @@
+
+******************************************************************
+  This module has been merged with Fine Offset WH1080 module
+******************************************************************
+
+The Digitech XC0348 weather station is a rebranded  Fine Offset WH1080. 
+
+See:
+
+(Digitech XC0348) http://www.productreview.com.au/p/digitech-xc0348-weather-station.html 
+
+(Fine Offset WH1080) http://www.foshk.com/weather_professional/wh1080.htm
+
+A big thanks to Stanisław Pitucha ('viraptor' https://github.com/viraptor ) who started a good work on this device!
+
+------------------------------------------------------------------------------------------
+
+
 Digitech wireless weather station
 =================================
 
@@ -16,3 +34,5 @@ Sample output:
     unknown       = 00 04 5d
 
 Bad quality samples in series 01, requires lower detection level.
+
+
