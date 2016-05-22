@@ -6,15 +6,11 @@ http://www.amazon.de/TFA-Dostmann-Funk-Poolthermometer-Miami-30-3033/dp/B0017CIX
 
 bits from 13 to 25 describes the temperature:
 
+25.1C:
 11010111 01100000 11111011 0111
 
-            |     251     |
-
-with different device id:
+19.7C with different device id:
 01000100 10100000 11000101 0110
-            |     197     |
-
-251/10= 25.1 degrees celsius
 
 if value exceeds 1024, take temperature vill be negative, take 1's complement:
 if (temp>(1<<11)) {
