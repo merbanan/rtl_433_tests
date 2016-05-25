@@ -35,10 +35,19 @@ Another transmitter: (certanly with different device id)
 20.5C:
 11000100 10100000 11001101 0110
 
+04
+======
+changing channels: 1,2,3
 
 Protocol
 ======
-- Bits from 5 to 12: device id
-- Bits from 13 to 25: temperature
-- If the temperature value exceeds 1024, take temperature vill be negative, take 1's complement
+AAAABBBB BBBBCCCC CCCCCCCC DDEE
+
+A: ?
+B: device id (changing only after reset)
+C: templerature
+D: channel number
+E: ? 
+
+If the temperature value exceeds 1024, take temperature vill be negative, take 1's complement
 
