@@ -1,0 +1,366 @@
+Registering protocol "Silvercrest Remote Control"
+Registering protocol "Rubicson Temperature Sensor"
+Registering protocol "Prologue Temperature Sensor"
+Registering protocol "Waveman Switch Transmitter"
+Registering protocol "Steffen Switch Transmitter"
+Registering protocol "ELV EM 1000"
+Registering protocol "ELV WS 2000"
+Registering protocol "LaCrosse TX Temperature / Humidity Sensor"
+Registering protocol "Acurite 5n1 Weather Station"
+Registering protocol "Acurite Temperature and Humidity Sensor"
+Registering protocol "Oregon Scientific Weather Sensor"
+Registering protocol "Mebus 433"
+Registering protocol "Intertechno 433"
+Registering protocol "KlikAanKlikUit Wireless Switch"
+Registering protocol "AlectoV1 Weather Sensor (Alecto WS3500 WS4500 Ventus W155/W044 Oregon)"
+Registering protocol "Cardin S466-TX2"
+Registering protocol "Fine Offset Electronics, WH-2 Sensor"
+Registering protocol "Nexus Temperature & Humidity Sensor"
+Registering protocol "Ambient Weather Temperature Sensor"
+Registering protocol "Calibeur RF-104 Sensor"
+Registering protocol "X10 RF"
+Registering protocol "DSC Security Contact"
+Registering protocol "Brennstuhl RCS 2044"
+Registering protocol "GT-WT-02 Sensor"
+Registering protocol "Danfoss CFR Thermostat"
+Registering protocol "Energy Count 3000 (868.3 MHz)"
+Registering protocol "Valeo Car Key"
+Registering protocol "Chuango Security Technology"
+Registering protocol "Generic Remote SC226x EV1527"
+Registering protocol "TFA-Twin-Plus-30.3049 and Ea2 BL999"
+Registering protocol "Fine Offset WH1080 Weather Station"
+Registering protocol "WT450"
+Registering protocol "LaCrosse WS-2310 Weather Station"
+Registering protocol "Esperanza EWS"
+Registering protocol "Efergy e2 classic"
+Registering protocol "Inovalley kw9015b rain and Temperature weather station"
+Registering protocol "Generic temperature sensor 1"
+Registering protocol "Acurite 592TXR Temperature/Humidity Sensor and 5n1 Weather Station"
+Registering protocol "Acurite 986 Refrigerator / Freezer Thermometer"
+Registering protocol "HIDEKI TS04 Temperature and Humidity Sensor"
+Registering protocol "Watchman Sonic / Apollo Ultrasonic / Beckett Rocket oil tank monitor"
+Registering protocol "CurrentCost Current Sensor"
+Registering protocol "emonTx OpenEnergyMonitor"
+Registering protocol "HT680 Remote control"
+Registering protocol "S3318P Temperature & Humidity Sensor"
+Registering protocol "Akhan 100F14 remote keyless entry"
+Registering protocol "Quhwa"
+Registering protocol "OSv1 Temperature Sensor"
+Registering protocol "Proove"
+Registering protocol "Bresser Thermo-/Hygro-Sensor 3CH"
+Registering protocol "Springfield Temperature and Soil Moisture"
+Registering protocol "Oregon Scientific SL109H Remote Thermal Hygro Sensor"
+Registering protocol "Acurite 606TX Temperature Sensor"
+Registering protocol "TFA pool temperature sensor"
+Registering protocol "Kedsum Temperature & Humidity Sensor"
+Registering protocol "blyss DC5-UK-WH (433.92 MHz)"
+Found 1 device(s):
+  0:  Realtek, RTL2838UHIDIR, SN: 00000001
+
+Using device 0: Generic RTL2832U OEM
+Found Rafael Micro R820T tuner
+Exact sample rate is: 250000.000414 Hz
+[R82XX] PLL not locked!
+Sample rate set to 250000.
+Bit detection level set to 8000.
+Tuner gain set to Auto.
+Reading samples in async mode...
+Tuned to 433920000 Hz.
+*** signal_start = 26965827, signal_end = 26987623
+signal_len = 21796,  pulses = 1
+Distance coding: Pulse length 1795
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 1795
+bitbuffer:: Number of rows: 0 
+*** signal_start = 27220549, signal_end = 27267384
+signal_len = 46835,  pulses = 650
+Iteration 1. t: 12    min: 4 (628)    max: 20 (22)    delta 125
+Iteration 2. t: 10    min: 4 (595)    max: 16 (55)    delta 16
+Iteration 3. t: 8    min: 4 (558)    max: 13 (92)    delta 9
+Iteration 4. t: 7    min: 3 (516)    max: 12 (134)    delta 2
+Iteration 5. t: 7    min: 3 (486)    max: 11 (164)    delta 1
+Iteration 6. t: 7    min: 3 (486)    max: 11 (164)    delta 0
+Pulse coding: Short pulse length 3 - Long pulse length 11
+
+Short distance: 16, long distance: 152, packet distance: 6379
+
+p_limit: 7
+bitbuffer:: Number of rows: 2 
+[00] {2} 00 : 00
+[01] {640} 02 08 01 0c 15 02 9c 8a b6 a2 00 90 8e 96 03 79 71 4a 0d 0b 81 04 00 a0 8b c0 18 62 94 34 2e 03 40 0a 21 d2 10 19 0a 28 90 82 55 40 12 10 47 20 1a 52 40 34 89 22 c4 16 48 c1 38 82 40 10 c0 04 84 20 80 00 80 00 00 00 00 00 04 02 88 00 04 00 
+*** signal_start = 28565586, signal_end = 28588953
+signal_len = 23367,  pulses = 2
+Iteration 1. t: 1649    min: 1380 (1)    max: 1919 (1)    delta 0
+Distance coding: Pulse length 1649
+
+Short distance: 67, long distance: 0, packet distance: 67
+
+p_limit: 1649
+bitbuffer:: Number of rows: 2 
+[00] {0} : 
+[01] {0} : 
+*** signal_start = 30793058, signal_end = 30818952
+signal_len = 25894,  pulses = 3
+Iteration 1. t: 2879    min: 0 (0)    max: 5758 (3)    delta 18412805
+Iteration 2. t: 2879    min: 5758 (3)    max: 0 (0)    delta 66309128
+Iteration 3. t: 2879    min: 5758 (3)    max: 0 (0)    delta 0
+Distance coding: Pulse length 2879
+
+Short distance: 67, long distance: 0, packet distance: 67
+
+p_limit: 2879
+bitbuffer:: Number of rows: 3 
+[00] {0} : 
+[01] {0} : 
+[02] {0} : 
+*** signal_start = 46757205, signal_end = 46777673
+signal_len = 20468,  pulses = 3
+Iteration 1. t: 4    min: 3 (1)    max: 6 (2)    delta 4
+Iteration 2. t: 4    min: 3 (1)    max: 6 (2)    delta 0
+Pulse coding: Short pulse length 3 - Long pulse length 6
+
+Short distance: 82, long distance: 82, packet distance: 369
+
+p_limit: 4
+bitbuffer:: Number of rows: 2 
+[00] {2} c0 : 11
+[01] {1} 00 : 0
+*** signal_start = 60771534, signal_end = 61452387
+signal_len = 680853,  pulses = 744
+Iteration 1. t: 56535    min: 479 (742)    max: 112592 (2)    delta 40868154
+Iteration 2. t: 56535    min: 479 (742)    max: 112592 (2)    delta 0
+Pulse coding: Short pulse length 479 - Long pulse length 112592
+
+Short distance: 27, long distance: 4113, packet distance: 9625
+
+p_limit: 56535
+bitbuffer:: Number of rows: 2 
+[00] {297} 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[01] {447} 00 00 00 00 00 00 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+*** signal_start = 78805693, signal_end = 78828521
+signal_len = 22828,  pulses = 1
+Distance coding: Pulse length 2827
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 2827
+bitbuffer:: Number of rows: 0 
+*** signal_start = 86032938, signal_end = 86064497
+signal_len = 31559,  pulses = 255
+Iteration 1. t: 592    min: 22 (254)    max: 1163 (1)    delta 400
+Iteration 2. t: 592    min: 22 (254)    max: 1163 (1)    delta 0
+Pulse coding: Short pulse length 22 - Long pulse length 1163
+
+Short distance: 11, long distance: 425, packet distance: 859
+
+p_limit: 592
+bitbuffer:: Number of rows: 2 
+[00] {1} 00 : 0
+[01] {254} 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+*** signal_start = 86887670, signal_end = 86913564
+signal_len = 25894,  pulses = 3
+Iteration 1. t: 1914    min: 1914 (1)    max: 1915 (2)    delta 1
+Iteration 2. t: 2872    min: 0 (0)    max: 5745 (3)    delta 18332296
+Iteration 3. t: 2872    min: 5745 (3)    max: 0 (0)    delta 66010050
+Iteration 4. t: 2872    min: 5745 (3)    max: 0 (0)    delta 0
+Distance coding: Pulse length 2872
+
+Short distance: 72, long distance: 0, packet distance: 74
+
+p_limit: 2872
+bitbuffer:: Number of rows: 3 
+[00] {0} : 
+[01] {0} : 
+[02] {0} : 
+*** signal_start = 86987728, signal_end = 87013620
+signal_len = 25892,  pulses = 3
+Iteration 1. t: 2871    min: 0 (0)    max: 5743 (3)    delta 18316980
+Iteration 2. t: 2871    min: 5743 (3)    max: 0 (0)    delta 65964098
+Iteration 3. t: 2871    min: 5743 (3)    max: 0 (0)    delta 0
+Distance coding: Pulse length 2871
+
+Short distance: 74, long distance: 0, packet distance: 74
+
+p_limit: 2871
+bitbuffer:: Number of rows: 3 
+[00] {0} : 
+[01] {0} : 
+[02] {0} : 
+*** signal_start = 87521460, signal_end = 87569710
+signal_len = 48250,  pulses = 153
+Iteration 1. t: 1954    min: 21 (149)    max: 3888 (4)    delta 1221386
+Iteration 2. t: 1954    min: 21 (149)    max: 3888 (4)    delta 0
+Pulse coding: Short pulse length 21 - Long pulse length 3888
+
+Short distance: 1, long distance: 10, packet distance: 8773
+
+p_limit: 1954
+bitbuffer:: Number of rows: 2 
+[00] {1} 00 : 0
+[01] {152} 80 00 00 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 21 
+*** signal_start = 88315574, signal_end = 88341466
+signal_len = 25892,  pulses = 3
+Distance coding: Pulse length 1919
+
+Short distance: 65, long distance: 0, packet distance: 67
+
+p_limit: 1919
+bitbuffer:: Number of rows: 3 
+[00] {0} : 
+[01] {0} : 
+[02] {0} : 
+*** signal_start = 89031910, signal_end = 89080164
+signal_len = 48254,  pulses = 2
+Iteration 1. t: 9743    min: 243 (1)    max: 19244 (1)    delta 0
+Pulse coding: Short pulse length 243 - Long pulse length 19244
+
+Short distance: 8766, long distance: 0, packet distance: 8766
+
+p_limit: 9743
+bitbuffer:: Number of rows: 2 
+[00] {1} 00 : 0
+[01] {1} 80 : 1
+*** signal_start = 90534541, signal_end = 90582796
+signal_len = 48255,  pulses = 2
+Iteration 1. t: 9744    min: 243 (1)    max: 19245 (1)    delta 0
+Pulse coding: Short pulse length 243 - Long pulse length 19245
+
+Short distance: 8766, long distance: 0, packet distance: 8766
+
+p_limit: 9744
+bitbuffer:: Number of rows: 2 
+[00] {1} 00 : 0
+[01] {1} 80 : 1
+*** signal_start = 90771671, signal_end = 90797565
+signal_len = 25894,  pulses = 3
+Iteration 1. t: 2879    min: 0 (0)    max: 5758 (3)    delta 18412805
+Iteration 2. t: 2879    min: 5758 (3)    max: 0 (0)    delta 66309128
+Iteration 3. t: 2879    min: 5758 (3)    max: 0 (0)    delta 0
+Distance coding: Pulse length 2879
+
+Short distance: 67, long distance: 0, packet distance: 67
+
+p_limit: 2879
+bitbuffer:: Number of rows: 3 
+[00] {0} : 
+[01] {0} : 
+[02] {0} : 
+*** signal_start = 92045137, signal_end = 92093392
+signal_len = 48255,  pulses = 2
+Iteration 1. t: 9744    min: 243 (1)    max: 19245 (1)    delta 0
+Pulse coding: Short pulse length 243 - Long pulse length 19245
+
+Short distance: 8766, long distance: 0, packet distance: 8766
+
+p_limit: 9744
+bitbuffer:: Number of rows: 2 
+[00] {1} 00 : 0
+[01] {1} 80 : 1
+*** signal_start = 93547808, signal_end = 93596067
+signal_len = 48259,  pulses = 2
+Iteration 1. t: 9747    min: 244 (1)    max: 19250 (1)    delta 0
+Pulse coding: Short pulse length 244 - Long pulse length 19250
+
+Short distance: 8764, long distance: 0, packet distance: 8764
+
+p_limit: 9747
+bitbuffer:: Number of rows: 2 
+[00] {1} 00 : 0
+[01] {1} 80 : 1
+*** signal_start = 95079321, signal_end = 95106736
+signal_len = 27415,  pulses = 3
+Iteration 1. t: 10    min: 4 (2)    max: 16 (1)    delta 1
+Iteration 2. t: 10    min: 4 (2)    max: 16 (1)    delta 0
+Pulse coding: Short pulse length 4 - Long pulse length 16
+
+Short distance: 22, long distance: 22, packet distance: 7368
+
+p_limit: 10
+bitbuffer:: Number of rows: 2 
+[00] {1} 00 : 0
+[01] {2} 80 : 10
+*** signal_start = 96576342, signal_end = 96596573
+signal_len = 20231,  pulses = 1
+Distance coding: Pulse length 230
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 230
+bitbuffer:: Number of rows: 0 
+*** signal_start = 98078997, signal_end = 98127249
+signal_len = 48252,  pulses = 2
+Iteration 1. t: 9740    min: 240 (1)    max: 19241 (1)    delta 0
+Pulse coding: Short pulse length 240 - Long pulse length 19241
+
+Short distance: 8770, long distance: 0, packet distance: 8770
+
+p_limit: 9740
+bitbuffer:: Number of rows: 2 
+[00] {1} 00 : 0
+[01] {1} 80 : 1
+*** signal_start = 99597377, signal_end = 99645631
+signal_len = 48254,  pulses = 2
+Iteration 1. t: 9742    min: 241 (1)    max: 19244 (1)    delta 0
+Pulse coding: Short pulse length 241 - Long pulse length 19244
+
+Short distance: 8768, long distance: 0, packet distance: 8768
+
+p_limit: 9742
+bitbuffer:: Number of rows: 2 
+[00] {1} 00 : 0
+[01] {1} 80 : 1
+*** signal_start = 113563061, signal_end = 113592295
+signal_len = 29234,  pulses = 32
+Iteration 1. t: 195    min: 133 (28)    max: 258 (4)    delta 505
+Iteration 2. t: 195    min: 133 (28)    max: 258 (4)    delta 0
+Distance coding: Pulse length 195
+
+Short distance: 123, long distance: 251, packet distance: 378
+
+p_limit: 195
+bitbuffer:: Number of rows: 2 
+[00] {6} 00 : 000000
+[01] {24} 04 80 01 : 00000100 10000000 00000001 
+*** signal_start = 113801929, signal_end = 113831165
+signal_len = 29236,  pulses = 32
+Iteration 1. t: 196    min: 130 (28)    max: 262 (4)    delta 404
+Iteration 2. t: 196    min: 130 (28)    max: 262 (4)    delta 0
+Pulse coding: Short pulse length 130 - Long pulse length 262
+
+Short distance: 125, long distance: 259, packet distance: 380
+
+p_limit: 196
+bitbuffer:: Number of rows: 2 
+[00] {7} 02 : 0000001
+[01] {25} 04 80 02 00 : 00000100 10000000 00000010 0
+*** signal_start = 114100960, signal_end = 114130191
+signal_len = 29231,  pulses = 32
+Iteration 1. t: 200    min: 132 (28)    max: 268 (4)    delta 949
+Iteration 2. t: 200    min: 132 (28)    max: 268 (4)    delta 0
+Pulse coding: Short pulse length 132 - Long pulse length 268
+
+Short distance: 124, long distance: 250, packet distance: 356
+
+p_limit: 200
+bitbuffer:: Number of rows: 2 
+[00] {7} 02 : 0000001
+[01] {25} 04 80 02 00 : 00000100 10000000 00000010 0
+*** signal_start = 117022670, signal_end = 117073948
+signal_len = 51278,  pulses = 62
+Iteration 1. t: 183    min: 87 (38)    max: 279 (24)    delta 20
+Iteration 2. t: 183    min: 87 (38)    max: 279 (24)    delta 0
+Pulse coding: Short pulse length 87 - Long pulse length 279
+
+Short distance: 103, long distance: 292, packet distance: 2939
+
+p_limit: 183
+bitbuffer:: Number of rows: 4 
+[00] {1} 00 : 0
+[01] {25} 47 17 42 00 : 01000111 00010111 01000010 0
+[02] {25} 47 17 42 00 : 01000111 00010111 01000010 0
+[03] {11} 47 00 : 01000111 000
+Signal caught, exiting!
+
+User cancel, exiting...

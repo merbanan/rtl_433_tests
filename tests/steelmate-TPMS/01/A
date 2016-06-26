@@ -1,0 +1,2475 @@
+Registering protocol "Silvercrest Remote Control"
+Registering protocol "Rubicson Temperature Sensor"
+Registering protocol "Prologue Temperature Sensor"
+Registering protocol "Waveman Switch Transmitter"
+Registering protocol "Steffen Switch Transmitter"
+Registering protocol "ELV EM 1000"
+Registering protocol "ELV WS 2000"
+Registering protocol "LaCrosse TX Temperature / Humidity Sensor"
+Registering protocol "Acurite 5n1 Weather Station"
+Registering protocol "Acurite Temperature and Humidity Sensor"
+Registering protocol "Oregon Scientific Weather Sensor"
+Registering protocol "Mebus 433"
+Registering protocol "Intertechno 433"
+Registering protocol "KlikAanKlikUit Wireless Switch"
+Registering protocol "AlectoV1 Weather Sensor (Alecto WS3500 WS4500 Ventus W155/W044 Oregon)"
+Registering protocol "Cardin S466-TX2"
+Registering protocol "Fine Offset Electronics, WH-2 Sensor"
+Registering protocol "Nexus Temperature & Humidity Sensor"
+Registering protocol "Ambient Weather Temperature Sensor"
+Registering protocol "Calibeur RF-104 Sensor"
+Registering protocol "X10 RF"
+Registering protocol "DSC Security Contact"
+Registering protocol "Brennstuhl RCS 2044"
+Registering protocol "GT-WT-02 Sensor"
+Registering protocol "Danfoss CFR Thermostat"
+Registering protocol "Energy Count 3000 (868.3 MHz)"
+Registering protocol "Valeo Car Key"
+Registering protocol "Chuango Security Technology"
+Registering protocol "Generic Remote SC226x EV1527"
+Registering protocol "TFA-Twin-Plus-30.3049 and Ea2 BL999"
+Registering protocol "Fine Offset WH1080 Weather Station"
+Registering protocol "WT450"
+Registering protocol "LaCrosse WS-2310 Weather Station"
+Registering protocol "Esperanza EWS"
+Registering protocol "Efergy e2 classic"
+Registering protocol "Inovalley kw9015b rain and Temperature weather station"
+Registering protocol "Generic temperature sensor 1"
+Registering protocol "Acurite 592TXR Temperature/Humidity Sensor and 5n1 Weather Station"
+Registering protocol "Acurite 986 Refrigerator / Freezer Thermometer"
+Registering protocol "HIDEKI TS04 Temperature and Humidity Sensor"
+Registering protocol "Watchman Sonic / Apollo Ultrasonic / Beckett Rocket oil tank monitor"
+Registering protocol "CurrentCost Current Sensor"
+Registering protocol "emonTx OpenEnergyMonitor"
+Registering protocol "HT680 Remote control"
+Registering protocol "S3318P Temperature & Humidity Sensor"
+Registering protocol "Akhan 100F14 remote keyless entry"
+Registering protocol "Quhwa"
+Registering protocol "OSv1 Temperature Sensor"
+Registering protocol "Proove"
+Registering protocol "Bresser Thermo-/Hygro-Sensor 3CH"
+Registering protocol "Springfield Temperature and Soil Moisture"
+Registering protocol "Oregon Scientific SL109H Remote Thermal Hygro Sensor"
+Registering protocol "Acurite 606TX Temperature Sensor"
+Registering protocol "TFA pool temperature sensor"
+Registering protocol "Kedsum Temperature & Humidity Sensor"
+Registering protocol "blyss DC5-UK-WH (433.92 MHz)"
+Found 1 device(s):
+  0:  Realtek, RTL2838UHIDIR, SN: 00000001
+
+Using device 0: Generic RTL2832U OEM
+Found Rafael Micro R820T tuner
+Exact sample rate is: 250000.000414 Hz
+[R82XX] PLL not locked!
+Sample rate set to 250000.
+Bit detection level set to 8000.
+Tuner gain set to Auto.
+Reading samples in async mode...
+Tuned to 433920000 Hz.
+Detected FSK package
+Analyzing pulses...
+Total count:   56,  width:  1918		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:     0 [ 0; 0]	(   0 us)
+ [ 1] count:   38,  width:    12 [10;13]	(  48 us)
+ [ 2] count:   17,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   18,  width:    25 [20;27]	( 100 us)
+ [ 1] count:   36,  width:    12 [12;14]	(  48 us)
+ [ 2] count:    1,  width:    77 [77;77]	( 308 us)
+Pulse period distribution:
+ [ 0] count:   28,  width:    25 [20;27]	( 100 us)
+ [ 1] count:   18,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;51]	( 204 us)
+ [ 3] count:    1,  width:    90 [90;90]	( 360 us)
+Level estimates [high, low]:   9594,    361
+Frequency offsets [F1, F2]:    1762,  -8835	(+6.7 kHz, -33.7 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   56,  width:  1916		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:     0 [ 0; 0]	(   0 us)
+ [ 1] count:   37,  width:    12 [12;14]	(  48 us)
+ [ 2] count:   17,  width:    25 [25;26]	( 100 us)
+ [ 3] count:    1,  width:     2 [ 2; 2]	(   8 us)
+Gap width distribution:
+ [ 0] count:   37,  width:    12 [12;17]	(  48 us)
+ [ 1] count:   17,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    85 [85;85]	( 340 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:    17 [17;17]	(  68 us)
+ [ 1] count:   27,  width:    25 [25;26]	( 100 us)
+ [ 2] count:   18,  width:    38 [38;39]	( 152 us)
+ [ 3] count:    8,  width:    51 [51;52]	( 204 us)
+ [ 4] count:    1,  width:    98 [98;98]	( 392 us)
+Level estimates [high, low]:   8746,    392
+Frequency offsets [F1, F2]:    1594,  -8734	(+6.1 kHz, -33.3 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 7, long_limit: 18, reset_limit: 86, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 3 
+[00] {0} : 
+[01] {54} 00 01 02 7b 2b 44 c8 
+[02] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   55,  width:  1819		( 7.3 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:     0 [ 0; 0]	(   0 us)
+ [ 1] count:   36,  width:    12 [12;14]	(  48 us)
+ [ 2] count:   17,  width:    25 [25;26]	( 100 us)
+ [ 3] count:    1,  width:     5 [ 5; 5]	(  20 us)
+Gap width distribution:
+ [ 0] count:   37,  width:    12 [12;15]	(  48 us)
+ [ 1] count:   17,  width:    26 [25;27]	( 104 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:    15 [15;15]	(  60 us)
+ [ 1] count:   27,  width:    25 [25;26]	( 100 us)
+ [ 2] count:   18,  width:    38 [38;39]	( 152 us)
+ [ 3] count:    8,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:   8878,    418
+Frequency offsets [F1, F2]:    1511,  -8180	(+5.8 kHz, -31.2 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 8, long_limit: 18, reset_limit: 28, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 3 
+[00] {0} : 
+[01] {53} 00 01 02 7b 2b 44 c8 
+[02] {0} : 
+
+Detected OOK package
+Analyzing pulses...
+Total count:    1,  width:    82		( 0.3 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    82 [82;82]	( 328 us)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:   7201,    436
+Frequency offsets [F1, F2]:   -6194,      0	(-23.6 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   57,  width:  1928		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   40,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:     4 [ 4; 4]	(  16 us)
+Gap width distribution:
+ [ 0] count:   38,  width:    13 [12;16]	(  52 us)
+ [ 1] count:   17,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    76 [76;76]	( 304 us)
+Pulse period distribution:
+ [ 0] count:   29,  width:    25 [24;26]	( 100 us)
+ [ 1] count:   19,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    7,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    89 [89;89]	( 356 us)
+Level estimates [high, low]:  16000,    192
+Frequency offsets [F1, F2]:    4365,  -7620	(+16.7 kHz, -29.1 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 8, long_limit: 18, reset_limit: 77, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {56} 00 00 81 34 97 51 26 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   56,  width:  1849		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   40,  width:    12 [11;13]	(  48 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   38,  width:    13 [12;15]	(  52 us)
+ [ 1] count:   17,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   29,  width:    25 [25;26]	( 100 us)
+ [ 1] count:   19,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    7,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:  15965,    219
+Frequency offsets [F1, F2]:    4106,  -7884	(+15.7 kHz, -30.1 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {72} 00 00 7f 75 33 b5 4d ee ca 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   57,  width:  1929		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   40,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:     4 [ 4; 4]	(  16 us)
+Gap width distribution:
+ [ 0] count:   38,  width:    13 [12;14]	(  52 us)
+ [ 1] count:   17,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    77 [77;77]	( 308 us)
+Pulse period distribution:
+ [ 0] count:   29,  width:    25 [24;26]	( 100 us)
+ [ 1] count:   19,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    7,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    90 [90;90]	( 360 us)
+Level estimates [high, low]:  15880,    233
+Frequency offsets [F1, F2]:    4533,  -7934	(+17.3 kHz, -30.3 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 8, long_limit: 18, reset_limit: 78, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {56} 00 00 81 34 97 51 26 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1928		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   43,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    13 [12;15]	(  52 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    82 [82;82]	( 328 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [25;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    95 [95;95]	( 380 us)
+Level estimates [high, low]:  15961,    162
+Frequency offsets [F1, F2]:    2366,  -9157	(+9.0 kHz, -34.9 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1928		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    17 [17;17]	(  68 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    13 [12;15]	(  52 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    76 [76;76]	( 304 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [25;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    89 [89;89]	( 356 us)
+Level estimates [high, low]:  15930,    198
+Frequency offsets [F1, F2]:    3193,  -8939	(+12.2 kHz, -34.1 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 14, long_limit: 21, reset_limit: 77, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {57} 00 00 81 31 85 15 93 00 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   57,  width:  1835		( 7.3 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    12 [12;15]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [25;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:  15866,    195
+Frequency offsets [F1, F2]:    2881,  -8801	(+11.0 kHz, -33.6 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {72} 00 00 7f 45 ea 0d 8d 2e 8b 
+
+Detected OOK package
+Analyzing pulses...
+Total count:    4,  width:  1204		( 4.8 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    15 [15;15]	(  60 us)
+ [ 1] count:    2,  width:    24 [24;24]	(  96 us)
+ [ 2] count:    1,  width:    35 [35;35]	( 140 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   774 [774;774]	(3096 us)
+ [ 1] count:    2,  width:   166 [154;178]	( 664 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:   789 [789;789]	(3156 us)
+ [ 1] count:    2,  width:   195 [189;202]	( 780 us)
+Level estimates [high, low]:   9948,   7086
+Frequency offsets [F1, F2]:   -2814,      0	(-10.7 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 19, long_limit: 29, reset_limit: 775, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {0} : 
+[01] {3} 40 : 010
+
+Detected OOK package
+Analyzing pulses...
+Total count:   10,  width:  2358		( 9.4 ms)
+Pulse width distribution:
+ [ 0] count:    2,  width:    56 [52;61]	( 224 us)
+ [ 1] count:    2,  width:   239 [214;265]	( 956 us)
+ [ 2] count:    2,  width:    44 [41;48]	( 176 us)
+ [ 3] count:    3,  width:    22 [21;26]	(  88 us)
+ [ 4] count:    1,  width:   116 [116;116]	( 464 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   312 [312;312]	(1248 us)
+ [ 1] count:    2,  width:    23 [23;24]	(  92 us)
+ [ 2] count:    1,  width:   506 [506;506]	(2024 us)
+ [ 3] count:    2,  width:   153 [137;170]	( 612 us)
+ [ 4] count:    1,  width:    71 [71;71]	( 284 us)
+ [ 5] count:    1,  width:    30 [30;30]	( 120 us)
+ [ 6] count:    1,  width:   220 [220;220]	( 880 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:   373 [373;373]	(1492 us)
+ [ 1] count:    3,  width:   212 [189;237]	( 848 us)
+ [ 2] count:    2,  width:   519 [485;554]	(2076 us)
+ [ 3] count:    1,  width:    92 [92;92]	( 368 us)
+ [ 4] count:    1,  width:   146 [146;146]	( 584 us)
+ [ 5] count:    1,  width:    45 [45;45]	( 180 us)
+Level estimates [high, low]:   7999,   7516
+Frequency offsets [F1, F2]:   -2416,      0	(-9.2 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   29,  width: 29109		(116.4 ms)
+Pulse width distribution:
+ [ 0] count:    8,  width:    40 [33;47]	( 160 us)
+ [ 1] count:    7,  width:    23 [20;29]	(  92 us)
+ [ 2] count:    2,  width:   125 [121;129]	( 500 us)
+ [ 3] count:    1,  width:   541 [541;541]	(2164 us)
+ [ 4] count:    2,  width:    80 [78;83]	( 320 us)
+ [ 5] count:    1,  width:  6872 [6872;6872]	(27488 us)
+ [ 6] count:    1,  width:   751 [751;751]	(3004 us)
+ [ 7] count:    1,  width:  8894 [8894;8894]	(35576 us)
+ [ 8] count:    1,  width:   332 [332;332]	(1328 us)
+ [ 9] count:    2,  width:    57 [55;59]	( 228 us)
+ [10] count:    1,  width:   427 [427;427]	(1708 us)
+ [11] count:    1,  width:  4587 [4587;4587]	(18348 us)
+ [12] count:    1,  width:   158 [158;158]	( 632 us)
+Gap width distribution:
+ [ 0] count:    4,  width:   156 [131;177]	( 624 us)
+ [ 1] count:    8,  width:    37 [34;40]	( 148 us)
+ [ 2] count:    1,  width:    15 [15;15]	(  60 us)
+ [ 3] count:    2,  width:    28 [28;29]	( 112 us)
+ [ 4] count:    1,  width:    20 [20;20]	(  80 us)
+ [ 5] count:    3,  width:    97 [88;102]	( 388 us)
+ [ 6] count:    1,  width:  1300 [1300;1300]	(5200 us)
+ [ 7] count:    1,  width:  1030 [1030;1030]	(4120 us)
+ [ 8] count:    3,  width:   284 [271;306]	(1136 us)
+ [ 9] count:    2,  width:   448 [427;470]	(1792 us)
+ [10] count:    2,  width:    72 [71;73]	( 288 us)
+Pulse period distribution:
+ [ 0] count:    6,  width:   194 [175;217]	( 776 us)
+ [ 1] count:    3,  width:    94 [87;98]	( 376 us)
+ [ 2] count:    3,  width:    65 [59;75]	( 260 us)
+ [ 3] count:    1,  width:   136 [136;136]	( 544 us)
+ [ 4] count:    4,  width:   513 [482;569]	(2052 us)
+ [ 5] count:    1,  width:  6911 [6911;6911]	(27644 us)
+ [ 6] count:    1,  width:   785 [785;785]	(3140 us)
+ [ 7] count:    1,  width:  8931 [8931;8931]	(35724 us)
+ [ 8] count:    4,  width:   324 [298;369]	(1296 us)
+ [ 9] count:    1,  width:  1359 [1359;1359]	(5436 us)
+ [10] count:    1,  width:  1069 [1069;1069]	(4276 us)
+ [11] count:    1,  width:  4616 [4616;4616]	(18464 us)
+ [12] count:    1,  width:   259 [259;259]	(1036 us)
+Level estimates [high, low]:   8120,   7214
+Frequency offsets [F1, F2]:     552,      0	(+2.1 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   40,  width: 152884		(611.5 ms)
+Pulse width distribution:
+ [ 0] count:    7,  width:    42 [37;53]	( 168 us)
+ [ 1] count:    3,  width:   121 [115;132]	( 484 us)
+ [ 2] count:    3,  width:   194 [167;212]	( 776 us)
+ [ 3] count:    2,  width:    80 [80;81]	( 320 us)
+ [ 4] count:    2,  width: 27637 [24589;30686]	(110548 us)
+ [ 5] count:    4,  width:   483 [446;523]	(1932 us)
+ [ 6] count:    1,  width:  1122 [1122;1122]	(4488 us)
+ [ 7] count:    7,  width:    33 [30;38]	( 132 us)
+ [ 8] count:    1,  width:   290 [290;290]	(1160 us)
+ [ 9] count:    6,  width:    19 [16;22]	(  76 us)
+ [10] count:    1,  width:    10 [10;10]	(  40 us)
+ [11] count:    1,  width:    14 [14;14]	(  56 us)
+ [12] count:    1,  width: 60989 [60989;60989]	(243956 us)
+ [13] count:    1,  width:  9427 [9427;9427]	(37708 us)
+Gap width distribution:
+ [ 0] count:    3,  width:    55 [54;58]	( 220 us)
+ [ 1] count:    5,  width:    26 [24;29]	( 104 us)
+ [ 2] count:    5,  width:    15 [12;17]	(  60 us)
+ [ 3] count:    6,  width:   227 [193;262]	( 908 us)
+ [ 4] count:    2,  width:    40 [39;42]	( 160 us)
+ [ 5] count:    2,  width:   324 [293;355]	(1296 us)
+ [ 6] count:    4,  width:   528 [508;561]	(2112 us)
+ [ 7] count:    5,  width:   127 [107;144]	( 508 us)
+ [ 8] count:    1,  width:    70 [70;70]	( 280 us)
+ [ 9] count:    1,  width: 12507 [12507;12507]	(50028 us)
+ [10] count:    2,  width:   700 [645;755]	(2800 us)
+ [11] count:    1,  width:  1194 [1194;1194]	(4776 us)
+ [12] count:    1,  width:  1583 [1583;1583]	(6332 us)
+ [13] count:    1,  width:    97 [97;97]	( 388 us)
+Pulse period distribution:
+ [ 0] count:    4,  width:    95 [83;111]	( 380 us)
+ [ 1] count:    7,  width:   157 [137;176]	( 628 us)
+ [ 2] count:    2,  width:    51 [47;56]	( 204 us)
+ [ 3] count:    5,  width:   254 [236;284]	(1016 us)
+ [ 4] count:    2,  width: 27658 [24606;30711]	(110632 us)
+ [ 5] count:    9,  width:   583 [500;683]	(2332 us)
+ [ 6] count:    2,  width:  1188 [1161;1216]	(4752 us)
+ [ 7] count:    3,  width:   350 [324;391]	(1400 us)
+ [ 8] count:    1,  width: 61017 [61017;61017]	(244068 us)
+ [ 9] count:    1,  width: 12674 [12674;12674]	(50696 us)
+ [10] count:    1,  width:   772 [772;772]	(3088 us)
+ [11] count:    1,  width:  1599 [1599;1599]	(6396 us)
+ [12] count:    1,  width:  9524 [9524;9524]	(38096 us)
+Level estimates [high, low]:   7943,   6521
+Frequency offsets [F1, F2]:   -1913,      0	(-7.3 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    1,  width:    10		( 0.0 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    10 [10;10]	(  40 us)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15291,   6034
+Frequency offsets [F1, F2]:     380,      0	(+1.4 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   16,  width: 12376		(49.5 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    23 [23;23]	(  92 us)
+ [ 1] count:    2,  width:   440 [438;442]	(1760 us)
+ [ 2] count:    3,  width:   215 [214;218]	( 860 us)
+ [ 3] count:    1,  width:  2197 [2197;2197]	(8788 us)
+ [ 4] count:    3,  width:   119 [109;138]	( 476 us)
+ [ 5] count:    2,  width:    67 [66;69]	( 268 us)
+ [ 6] count:    2,  width:    31 [31;31]	( 124 us)
+ [ 7] count:    1,  width:    12 [12;12]	(  48 us)
+ [ 8] count:    1,  width:    90 [90;90]	( 360 us)
+Gap width distribution:
+ [ 0] count:    8,  width:   200 [167;252]	( 800 us)
+ [ 1] count:    1,  width:    31 [31;31]	( 124 us)
+ [ 2] count:    1,  width:    84 [84;84]	( 336 us)
+ [ 3] count:    1,  width:    12 [12;12]	(  48 us)
+ [ 4] count:    1,  width:    54 [54;54]	( 216 us)
+ [ 5] count:    1,  width:  5521 [5521;5521]	(22084 us)
+ [ 6] count:    1,  width:   137 [137;137]	( 548 us)
+ [ 7] count:    1,  width:   531 [531;531]	(2124 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:   179 [168;190]	( 716 us)
+ [ 1] count:    2,  width:   638 [608;669]	(2552 us)
+ [ 2] count:    6,  width:   249 [230;275]	( 996 us)
+ [ 3] count:    1,  width:  2281 [2281;2281]	(9124 us)
+ [ 4] count:    2,  width:   441 [429;454]	(1764 us)
+ [ 5] count:    1,  width:  5632 [5632;5632]	(22528 us)
+ [ 6] count:    1,  width:   342 [342;342]	(1368 us)
+Level estimates [high, low]:   7857,   6966
+Frequency offsets [F1, F2]:   -1963,      0	(-7.5 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   15,  width:  4189		(16.8 ms)
+Pulse width distribution:
+ [ 0] count:    2,  width:    68 [63;73]	( 272 us)
+ [ 1] count:   11,  width:   111 [89;128]	( 444 us)
+ [ 2] count:    2,  width:   250 [247;254]	(1000 us)
+Gap width distribution:
+ [ 0] count:   12,  width:   149 [128;184]	( 596 us)
+ [ 1] count:    2,  width:   266 [265;268]	(1064 us)
+Pulse period distribution:
+ [ 0] count:   11,  width:   252 [230;275]	(1008 us)
+ [ 1] count:    1,  width:   515 [515;515]	(2060 us)
+ [ 2] count:    2,  width:   384 [382;387]	(1536 us)
+Level estimates [high, low]:  12626,   3520
+Frequency offsets [F1, F2]:    5192,      0	(+19.8 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 89, long_limit: 180, reset_limit: 269, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 3 
+[00] {0} : 
+[01] {1} 00 : 0
+[02] {12} 03 00 : 00000011 0000
+
+Detected OOK package
+Analyzing pulses...
+Total count:   30,  width:  9260		(37.0 ms)
+Pulse width distribution:
+ [ 0] count:   24,  width:   132 [120;136]	( 528 us)
+ [ 1] count:    6,  width:   262 [261;263]	(1048 us)
+Gap width distribution:
+ [ 0] count:   22,  width:   124 [122;135]	( 496 us)
+ [ 1] count:    7,  width:   252 [252;253]	(1008 us)
+Pulse period distribution:
+ [ 0] count:   20,  width:   256 [245;269]	(1024 us)
+ [ 1] count:    4,  width:   514 [513;515]	(2056 us)
+ [ 2] count:    5,  width:   386 [386;387]	(1544 us)
+Level estimates [high, low]:  15921,    210
+Frequency offsets [F1, F2]:    4994,      0	(+19.1 kHz, +0.0 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 132, long_limit: 0, reset_limit: 254, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {36} 01 2e 80 05 80 : 00000001 00101110 10000000 00000101 1000
+
+Detected OOK package
+Analyzing pulses...
+Total count:   30,  width:  9253		(37.0 ms)
+Pulse width distribution:
+ [ 0] count:   24,  width:   129 [107;141]	( 516 us)
+ [ 1] count:    6,  width:   258 [256;261]	(1032 us)
+Gap width distribution:
+ [ 0] count:   22,  width:   127 [118;137]	( 508 us)
+ [ 1] count:    7,  width:   256 [255;259]	(1024 us)
+Pulse period distribution:
+ [ 0] count:   20,  width:   256 [244;259]	(1024 us)
+ [ 1] count:    4,  width:   515 [515;516]	(2060 us)
+ [ 2] count:    5,  width:   385 [385;387]	(1540 us)
+Level estimates [high, low]:  15879,    236
+Frequency offsets [F1, F2]:    5888,      0	(+22.5 kHz, +0.0 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 129, long_limit: 0, reset_limit: 260, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {36} 01 2e 80 05 80 : 00000001 00101110 10000000 00000101 1000
+
+Detected OOK package
+Analyzing pulses...
+Total count:    4,  width:  1098		( 4.4 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    34 [34;34]	( 136 us)
+ [ 1] count:    1,  width:    10 [10;10]	(  40 us)
+ [ 2] count:    1,  width:    22 [22;22]	(  88 us)
+ [ 3] count:    1,  width:    13 [13;13]	(  52 us)
+Gap width distribution:
+ [ 0] count:    2,  width:   425 [414;437]	(1700 us)
+ [ 1] count:    1,  width:   168 [168;168]	( 672 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:   453 [448;459]	(1812 us)
+ [ 1] count:    1,  width:   178 [178;178]	( 712 us)
+Level estimates [high, low]:   7107,    596
+Frequency offsets [F1, F2]:   -1486,      0	(-5.7 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    4,  width:  1334		( 5.3 ms)
+Pulse width distribution:
+ [ 0] count:    2,  width:    49 [47;51]	( 196 us)
+ [ 1] count:    1,  width:   733 [733;733]	(2932 us)
+ [ 2] count:    1,  width:   126 [126;126]	( 504 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   276 [276;276]	(1104 us)
+ [ 1] count:    1,  width:    81 [81;81]	( 324 us)
+ [ 2] count:    1,  width:    20 [20;20]	(  80 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:   327 [327;327]	(1308 us)
+ [ 1] count:    1,  width:   128 [128;128]	( 512 us)
+ [ 2] count:    1,  width:   753 [753;753]	(3012 us)
+Level estimates [high, low]:   9060,   6808
+Frequency offsets [F1, F2]:   -5384,      0	(-20.5 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 87, long_limit: 429, reset_limit: 277, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {3} 20 : 001
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1848		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   44,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   14,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   42,  width:    13 [12;16]	(  52 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   35,  width:    25 [25;26]	( 100 us)
+ [ 1] count:   15,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    7,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:  15980,    224
+Frequency offsets [F1, F2]:    1727,  -9778	(+6.6 kHz, -37.3 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {72} 00 00 7f a7 8d d5 4d 5e 0e 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   59,  width:  1927		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   44,  width:    12 [10;14]	(  48 us)
+ [ 1] count:   14,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:     8 [ 8; 8]	(  32 us)
+Gap width distribution:
+ [ 0] count:   42,  width:    13 [12;15]	(  52 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    71 [71;71]	( 284 us)
+Pulse period distribution:
+ [ 0] count:   35,  width:    25 [24;26]	( 100 us)
+ [ 1] count:   15,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    7,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    84 [84;84]	( 336 us)
+Level estimates [high, low]:  15902,    242
+Frequency offsets [F1, F2]:    2621,  -8501	(+10.0 kHz, -32.4 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 10, long_limit: 18, reset_limit: 72, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {58} 00 00 80 a0 a7 ae 02 00 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1846		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   44,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   14,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   42,  width:    12 [12;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   35,  width:    25 [22;26]	( 100 us)
+ [ 1] count:   15,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    7,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:  15941,    296
+Frequency offsets [F1, F2]:    1830,  -8991	(+7.0 kHz, -34.3 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {72} 00 00 7f a7 8d d5 4d 5e 0e 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   55,  width:  1870		( 7.5 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:     0 [ 0; 0]	(   0 us)
+ [ 1] count:   37,  width:    13 [12;15]	(  52 us)
+ [ 2] count:   16,  width:    25 [25;26]	( 100 us)
+ [ 3] count:    1,  width:     2 [ 2; 2]	(   8 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    17 [17;17]	(  68 us)
+ [ 1] count:   36,  width:    12 [11;13]	(  48 us)
+ [ 2] count:   16,  width:    25 [25;26]	( 100 us)
+ [ 3] count:    1,  width:    90 [90;90]	( 360 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:    17 [17;17]	(  68 us)
+ [ 1] count:   30,  width:    25 [25;26]	( 100 us)
+ [ 2] count:   12,  width:    38 [38;39]	( 152 us)
+ [ 3] count:   10,  width:    51 [51;52]	( 204 us)
+ [ 4] count:    1,  width:   103 [103;103]	( 412 us)
+Level estimates [high, low]:  15901,    587
+Frequency offsets [F1, F2]:    2731,  -8731	(+10.4 kHz, -33.3 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 7, long_limit: 19, reset_limit: 91, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 3 
+[00] {0} : 
+[01] {53} 00 04 09 8c 2d 58 b0 
+[02] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   57,  width:  1927		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   40,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    17 [17;17]	(  68 us)
+Gap width distribution:
+ [ 0] count:   39,  width:    12 [12;13]	(  48 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    76 [76;76]	( 304 us)
+Pulse period distribution:
+ [ 0] count:   33,  width:    25 [22;26]	( 100 us)
+ [ 1] count:   12,  width:    38 [38;39]	( 152 us)
+ [ 2] count:   10,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    89 [89;89]	( 356 us)
+Level estimates [high, low]:  15862,    576
+Frequency offsets [F1, F2]:    5947,  -8849	(+22.7 kHz, -33.8 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 14, long_limit: 21, reset_limit: 77, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {56} 00 00 81 31 85 ab 16 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   56,  width:  1833		( 7.3 ms)
+Pulse width distribution:
+ [ 0] count:   40,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   39,  width:    12 [12;13]	(  48 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   33,  width:    25 [22;26]	( 100 us)
+ [ 1] count:   12,  width:    38 [38;39]	( 152 us)
+ [ 2] count:   10,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:  15878,    567
+Frequency offsets [F1, F2]:    1941,  -9713	(+7.4 kHz, -37.1 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {72} 00 00 7f 45 ea 0d 4d 2e 4b 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   36,  width:  1095		( 4.4 ms)
+Pulse width distribution:
+ [ 0] count:   29,  width:    12 [10;15]	(  48 us)
+ [ 1] count:    7,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   28,  width:    13 [13;16]	(  52 us)
+ [ 1] count:    7,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   23,  width:    25 [24;31]	( 100 us)
+ [ 1] count:   10,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    2,  width:    51 [51;51]	( 204 us)
+Level estimates [high, low]:   7792,    348
+Frequency offsets [F1, F2]:    3334,  -6965	(+12.7 kHz, -26.6 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {43} 00 00 fe ea 66 60 : 00000000 00000000 11111110 11101010 01100110 011
+
+Detected OOK package
+Analyzing pulses...
+Total count:   12,  width:  4650		(18.6 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    25 [25;25]	( 100 us)
+ [ 1] count:    3,  width:   130 [112;142]	( 520 us)
+ [ 2] count:    3,  width:    41 [38;45]	( 164 us)
+ [ 3] count:    3,  width:    18 [17;19]	(  72 us)
+ [ 4] count:    1,  width:   182 [182;182]	( 728 us)
+ [ 5] count:    1,  width:    93 [93;93]	( 372 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   100 [100;100]	( 400 us)
+ [ 1] count:    3,  width:   246 [226;270]	( 984 us)
+ [ 2] count:    3,  width:   540 [507;569]	(2160 us)
+ [ 3] count:    1,  width:   844 [844;844]	(3376 us)
+ [ 4] count:    1,  width:   382 [382;382]	(1528 us)
+ [ 5] count:    1,  width:    24 [24;24]	(  96 us)
+ [ 6] count:    1,  width:    73 [73;73]	( 292 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:   125 [125;125]	( 500 us)
+ [ 1] count:    3,  width:   334 [288;362]	(1336 us)
+ [ 2] count:    4,  width:   572 [547;614]	(2288 us)
+ [ 3] count:    1,  width:   986 [986;986]	(3944 us)
+ [ 4] count:    1,  width:    62 [62;62]	( 248 us)
+ [ 5] count:    1,  width:   166 [166;166]	( 664 us)
+Level estimates [high, low]:   7901,    542
+Frequency offsets [F1, F2]:   -3177,      0	(-12.1 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1927		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;14]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    16 [16;16]	(  64 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    13 [12;14]	(  52 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    76 [76;76]	( 304 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [24;27]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;40]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    89 [89;89]	( 356 us)
+Level estimates [high, low]:  15775,    231
+Frequency offsets [F1, F2]:    7762,  -9004	(+29.6 kHz, -34.3 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 14, long_limit: 20, reset_limit: 77, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 3 
+[00] {52} 00 00 81 31 c6 2b 00 
+[01] {4} 60 : 0110
+[02] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1925		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:     1 [ 1; 1]	(   4 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    12 [12;14]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    90 [90;90]	( 360 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [23;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:   103 [103;103]	( 412 us)
+Level estimates [high, low]:  15888,    283
+Frequency offsets [F1, F2]:    2667,  -8909	(+10.2 kHz, -34.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 6, long_limit: 18, reset_limit: 91, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {57} 00 00 81 31 c6 2b 03 00 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1925		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;14]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:     9 [ 9; 9]	(  36 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    12 [12;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    82 [82;82]	( 328 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [22;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    95 [95;95]	( 380 us)
+Level estimates [high, low]:  15898,    286
+Frequency offsets [F1, F2]:    3165,  -8835	(+12.1 kHz, -33.7 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 10, long_limit: 18, reset_limit: 83, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {57} 00 00 81 31 c6 2b 03 00 
+[01] {0} : 
+
+Detected OOK package
+Analyzing pulses...
+Total count:    3,  width:   317		( 1.3 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    21 [21;21]	(  84 us)
+ [ 1] count:    1,  width:    15 [15;15]	(  60 us)
+ [ 2] count:    1,  width:   131 [131;131]	( 524 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    21 [21;21]	(  84 us)
+ [ 1] count:    1,  width:   129 [129;129]	( 516 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:    42 [42;42]	( 168 us)
+ [ 1] count:    1,  width:   144 [144;144]	( 576 us)
+Level estimates [high, low]:   8622,   4747
+Frequency offsets [F1, F2]:    4735,      0	(+18.1 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 18, long_limit: 76, reset_limit: 130, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {1} 00 : 0
+[01] {1} 80 : 1
+
+Detected FSK package
+Analyzing pulses...
+Total count:   75,  width:  2567		(10.3 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:     0 [ 0; 0]	(   0 us)
+ [ 1] count:   51,  width:    12 [12;14]	(  48 us)
+ [ 2] count:   22,  width:    26 [26;26]	( 104 us)
+ [ 3] count:    1,  width:    77 [77;77]	( 308 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    20 [20;20]	(  80 us)
+ [ 1] count:   51,  width:    13 [12;14]	(  52 us)
+ [ 2] count:   22,  width:    26 [26;27]	( 104 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:    25 [20;27]	( 100 us)
+ [ 1] count:   14,  width:    52 [52;53]	( 208 us)
+ [ 2] count:   16,  width:    39 [38;40]	( 156 us)
+Level estimates [high, low]:  10983,    273
+Frequency offsets [F1, F2]:    7242, -10991	(+27.6 kHz, -41.9 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 19, long_limit: 51, reset_limit: 28, demod_arg: 2
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {74} 00 02 50 d1 06 c0 16 38 53 80 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   57,  width:  1923		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   41,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   38,  width:    12 [12;13]	(  48 us)
+ [ 1] count:   17,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    64 [64;64]	( 256 us)
+Pulse period distribution:
+ [ 0] count:   31,  width:    25 [22;26]	( 100 us)
+ [ 1] count:   15,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    9,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    77 [77;77]	( 308 us)
+Level estimates [high, low]:  12342,    169
+Frequency offsets [F1, F2]:    4882,  -8677	(+18.6 kHz, -33.1 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   56,  width:  1844		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:     0 [ 0; 0]	(   0 us)
+ [ 1] count:   39,  width:    12 [12;14]	(  48 us)
+ [ 2] count:   16,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   18,  width:    25 [20;26]	( 100 us)
+ [ 1] count:   37,  width:    12 [12;13]	(  48 us)
+Pulse period distribution:
+ [ 0] count:   31,  width:    25 [20;26]	( 100 us)
+ [ 1] count:   15,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    9,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:  10713,    226
+Frequency offsets [F1, F2]:    4381,  -8818	(+16.7 kHz, -33.6 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {72} 00 00 7f a7 8d 55 4d 5e f6 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   56,  width:  1841		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:     0 [ 0; 0]	(   0 us)
+ [ 1] count:   39,  width:    12 [12;14]	(  48 us)
+ [ 2] count:   16,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   38,  width:    12 [12;16]	(  48 us)
+ [ 1] count:   17,  width:    25 [25;27]	( 100 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:    16 [16;16]	(  64 us)
+ [ 1] count:   30,  width:    25 [25;26]	( 100 us)
+ [ 2] count:   15,  width:    38 [38;39]	( 152 us)
+ [ 3] count:    9,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:   9458,    259
+Frequency offsets [F1, F2]:    1985,  -9374	(+7.6 kHz, -35.8 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   31,  width:  8803		(35.2 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    73 [73;73]	( 292 us)
+ [ 1] count:   26,  width:   117 [108;123]	( 468 us)
+ [ 2] count:    4,  width:   246 [240;250]	( 984 us)
+Gap width distribution:
+ [ 0] count:   26,  width:   139 [134;149]	( 556 us)
+ [ 1] count:    4,  width:   269 [264;276]	(1076 us)
+Pulse period distribution:
+ [ 0] count:   24,  width:   254 [218;269]	(1016 us)
+ [ 1] count:    2,  width:   514 [504;525]	(2056 us)
+ [ 2] count:    4,  width:   386 [383;389]	(1544 us)
+Level estimates [high, low]:  11383,    276
+Frequency offsets [F1, F2]:    6470,      0	(+24.7 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 95, long_limit: 181, reset_limit: 277, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {0} : 
+[01] {30} 08 88 00 10 : 00001000 10001000 00000000 000100
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1926		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;14]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:     2 [ 2; 2]	(   8 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    12 [12;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    90 [90;90]	( 360 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [22;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:   103 [103;103]	( 412 us)
+Level estimates [high, low]:  15954,    190
+Frequency offsets [F1, F2]:    2247,  -9031	(+8.6 kHz, -34.5 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 7, long_limit: 18, reset_limit: 91, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {57} 00 00 81 31 c6 2b 21 00 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1925		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:     9 [ 9; 9]	(  36 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    12 [12;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    83 [83;83]	( 332 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [22;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    95 [95;95]	( 380 us)
+Level estimates [high, low]:  15930,    223
+Frequency offsets [F1, F2]:    5111,  -8807	(+19.5 kHz, -33.6 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 10, long_limit: 18, reset_limit: 84, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {57} 00 00 81 31 c6 2b 21 00 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1926		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:     6 [ 6; 6]	(  24 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    12 [12;14]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    86 [86;86]	( 344 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [23;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    99 [99;99]	( 396 us)
+Level estimates [high, low]:  15930,    228
+Frequency offsets [F1, F2]:    3089,  -9679	(+11.8 kHz, -36.9 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 9, long_limit: 18, reset_limit: 87, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {57} 00 00 81 31 c6 2b 21 00 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   74,  width:  2399		( 9.6 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:     0 [ 0; 0]	(   0 us)
+ [ 1] count:   56,  width:    13 [13;14]	(  52 us)
+ [ 2] count:   16,  width:    26 [26;26]	( 104 us)
+ [ 3] count:    1,  width:     2 [ 2; 2]	(   8 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    58 [58;58]	( 232 us)
+ [ 1] count:   56,  width:    12 [12;13]	(  48 us)
+ [ 2] count:   15,  width:    26 [26;26]	( 104 us)
+ [ 3] count:    1,  width:    76 [76;76]	( 304 us)
+Pulse period distribution:
+ [ 0] count:    6,  width:    53 [52;58]	( 212 us)
+ [ 1] count:   45,  width:    26 [26;27]	( 104 us)
+ [ 2] count:   21,  width:    39 [39;39]	( 156 us)
+ [ 3] count:    1,  width:    89 [89;89]	( 356 us)
+Level estimates [high, low]:  11131,     48
+Frequency offsets [F1, F2]:    5203, -13177	(+19.8 kHz, -50.3 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 7, long_limit: 19, reset_limit: 77, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 3 
+[00] {0} : 
+[01] {72} 00 02 49 04 84 09 01 8c 2a 
+[02] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   62,  width:  1987		( 7.9 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    17 [17;17]	(  68 us)
+ [ 1] count:   44,  width:    12 [12;13]	(  48 us)
+ [ 2] count:    1,  width:    50 [50;50]	( 200 us)
+ [ 3] count:   15,  width:    24 [24;25]	(  96 us)
+ [ 4] count:    1,  width:    35 [35;35]	( 140 us)
+Gap width distribution:
+ [ 0] count:   44,  width:    12 [12;13]	(  48 us)
+ [ 1] count:   17,  width:    24 [24;25]	(  96 us)
+Pulse period distribution:
+ [ 0] count:   35,  width:    25 [24;30]	( 100 us)
+ [ 1] count:   19,  width:    37 [37;38]	( 148 us)
+ [ 2] count:    1,  width:    75 [75;75]	( 300 us)
+ [ 3] count:    6,  width:    49 [49;50]	( 196 us)
+Level estimates [high, low]:   8831,     66
+Frequency offsets [F1, F2]:   -1872, -13592	(-7.1 kHz, -51.9 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   63,  width:  1996		( 8.0 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:     0 [ 0; 0]	(   0 us)
+ [ 1] count:   45,  width:    12 [12;13]	(  48 us)
+ [ 2] count:    2,  width:    44 [40;49]	( 176 us)
+ [ 3] count:   15,  width:    24 [24;25]	(  96 us)
+Gap width distribution:
+ [ 0] count:   45,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   17,  width:    24 [24;25]	(  96 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:    10 [10;10]	(  40 us)
+ [ 1] count:   35,  width:    24 [24;25]	(  96 us)
+ [ 2] count:   19,  width:    37 [37;38]	( 148 us)
+ [ 3] count:    1,  width:    74 [74;74]	( 296 us)
+ [ 4] count:    6,  width:    50 [50;50]	( 200 us)
+Level estimates [high, low]:  15921,     43
+Frequency offsets [F1, F2]:     268, -13760	(+1.0 kHz, -52.5 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 18, long_limit: 34, reset_limit: 26, demod_arg: 2
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 3 
+[00] {5} 00 : 00000
+[01] {56} c4 1a 0c a1 00 28 84 
+[02] {0} : 
+
+Detected OOK package
+Analyzing pulses...
+Total count:    1,  width:    10		( 0.0 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    10 [10;10]	(  40 us)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:   3827,    379
+Frequency offsets [F1, F2]:    2840,      0	(+10.8 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   10,  width:  1872		( 7.5 ms)
+Pulse width distribution:
+ [ 0] count:   10,  width:    11 [10;13]	(  44 us)
+Gap width distribution:
+ [ 0] count:    9,  width:   195 [194;197]	( 780 us)
+Pulse period distribution:
+ [ 0] count:    9,  width:   206 [206;208]	( 824 us)
+Level estimates [high, low]:   8086,    303
+Frequency offsets [F1, F2]:   17085,      0	(+65.2 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   63,  width: 18568		(74.3 ms)
+Pulse width distribution:
+ [ 0] count:   50,  width:   133 [132;137]	( 532 us)
+ [ 1] count:   13,  width:   256 [256;258]	(1024 us)
+Gap width distribution:
+ [ 0] count:   48,  width:   110 [108;112]	( 440 us)
+ [ 1] count:   14,  width:   231 [230;233]	( 924 us)
+Pulse period distribution:
+ [ 0] count:   42,  width:   244 [242;247]	( 976 us)
+ [ 1] count:   13,  width:   366 [364;368]	(1464 us)
+ [ 2] count:    7,  width:   488 [488;490]	(1952 us)
+Level estimates [high, low]:  15896,    192
+Frequency offsets [F1, F2]:    3170,      0	(+12.1 kHz, +0.0 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 133, long_limit: 0, reset_limit: 234, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {76} 00 00 00 46 2c b6 99 00 05 60 
+
+Detected OOK package
+Analyzing pulses...
+Total count:   67,  width: 18566		(74.3 ms)
+Pulse width distribution:
+ [ 0] count:   58,  width:   133 [131;135]	( 532 us)
+ [ 1] count:    9,  width:   255 [254;257]	(1020 us)
+Gap width distribution:
+ [ 0] count:   56,  width:   110 [109;113]	( 440 us)
+ [ 1] count:   10,  width:   232 [231;234]	( 928 us)
+Pulse period distribution:
+ [ 0] count:   50,  width:   244 [242;247]	( 976 us)
+ [ 1] count:   13,  width:   365 [364;369]	(1460 us)
+ [ 2] count:    3,  width:   487 [486;489]	(1948 us)
+Level estimates [high, low]:  15901,    148
+Frequency offsets [F1, F2]:    3077,      0	(+11.7 kHz, +0.0 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 133, long_limit: 0, reset_limit: 235, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {76} 00 00 00 46 cc b6 9e 00 00 00 
+
+Detected OOK package
+Analyzing pulses...
+Total count:   61,  width: 18155		(72.6 ms)
+Pulse width distribution:
+ [ 0] count:   34,  width:    93 [75;109]	( 372 us)
+ [ 1] count:    1,  width:    17 [17;17]	(  68 us)
+ [ 2] count:   11,  width:    63 [52;72]	( 252 us)
+ [ 3] count:    4,  width:    41 [38;43]	( 164 us)
+ [ 4] count:   10,  width:   207 [171;232]	( 828 us)
+ [ 5] count:    1,  width:   151 [151;151]	( 604 us)
+Gap width distribution:
+ [ 0] count:   42,  width:   158 [134;194]	( 632 us)
+ [ 1] count:    4,  width:   209 [202;227]	( 836 us)
+ [ 2] count:   12,  width:   286 [268;337]	(1144 us)
+ [ 3] count:    1,  width:   528 [528;528]	(2112 us)
+ [ 4] count:    1,  width:   408 [408;408]	(1632 us)
+Pulse period distribution:
+ [ 0] count:   37,  width:   239 [193;283]	( 956 us)
+ [ 1] count:   17,  width:   373 [286;441]	(1492 us)
+ [ 2] count:    1,  width:   180 [180;180]	( 720 us)
+ [ 3] count:    5,  width:   511 [473;600]	(2044 us)
+Level estimates [high, low]:   8291,   1250
+Frequency offsets [F1, F2]:    2126,      0	(+8.1 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   57,  width:  1848		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   40,  width:    13 [12;16]	(  52 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   31,  width:    25 [24;27]	( 100 us)
+ [ 1] count:   19,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    6,  width:    51 [51;51]	( 204 us)
+Level estimates [high, low]:  15996,    148
+Frequency offsets [F1, F2]:    4138,  -8714	(+15.8 kHz, -33.2 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {72} 00 00 7f 75 33 35 8d ee 8a 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   57,  width:  1848		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   40,  width:    13 [12;16]	(  52 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   31,  width:    25 [25;26]	( 100 us)
+ [ 1] count:   19,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    6,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:  15984,    170
+Frequency offsets [F1, F2]:    3988,  -7548	(+15.2 kHz, -28.8 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {72} 00 00 7f 75 33 35 8d ee 8a 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1928		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:     4 [ 4; 4]	(  16 us)
+Gap width distribution:
+ [ 0] count:   40,  width:    13 [12;16]	(  52 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    76 [76;76]	( 304 us)
+Pulse period distribution:
+ [ 0] count:   31,  width:    25 [25;26]	( 100 us)
+ [ 1] count:   19,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    6,  width:    51 [51;51]	( 204 us)
+ [ 3] count:    1,  width:    89 [89;89]	( 356 us)
+Level estimates [high, low]:  15953,    207
+Frequency offsets [F1, F2]:    3771,  -8074	(+14.4 kHz, -30.8 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 8, long_limit: 18, reset_limit: 77, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {57} 00 00 81 34 96 28 93 00 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1926		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:     1 [ 1; 1]	(   4 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    12 [12;14]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    91 [91;91]	( 364 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [22;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:   104 [104;104]	( 416 us)
+Level estimates [high, low]:  15940,    194
+Frequency offsets [F1, F2]:    1284,  -9605	(+4.9 kHz, -36.6 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 6, long_limit: 18, reset_limit: 92, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {57} 00 00 81 31 c6 1b 11 00 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   57,  width:  1834		( 7.3 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    13 [12;14]	(  52 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [23;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:  15980,    206
+Frequency offsets [F1, F2]:    1223,  -9179	(+4.7 kHz, -35.0 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {72} 00 00 7f 45 ea f5 f5 2e 73 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1924		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   43,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    12 [12;14]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    77 [77;77]	( 308 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [23;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    90 [90;90]	( 360 us)
+Level estimates [high, low]:  16002,    217
+Frequency offsets [F1, F2]:    3072,  -9658	(+11.7 kHz, -36.8 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   55,  width:  4205		(16.8 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:   114 [114;114]	( 456 us)
+ [ 1] count:   41,  width:    30 [23;34]	( 120 us)
+ [ 2] count:   13,  width:    62 [58;64]	( 248 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    30 [27;38]	( 120 us)
+ [ 1] count:   13,  width:    59 [58;65]	( 236 us)
+Pulse period distribution:
+ [ 0] count:    8,  width:   125 [121;152]	( 500 us)
+ [ 1] count:   34,  width:    60 [59;63]	( 240 us)
+ [ 2] count:   12,  width:    91 [90;93]	( 364 us)
+Level estimates [high, low]:  15326,    214
+Frequency offsets [F1, F2]:   -1938,      0	(-7.4 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 46, long_limit: 88, reset_limit: 66, demod_arg: 2
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {0} : 
+[01] {54} 08 20 84 30 8c 32 80 
+
+Detected OOK package
+Analyzing pulses...
+Total count:    6,  width:  2087		( 8.3 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    14 [14;14]	(  56 us)
+ [ 1] count:    1,  width:    68 [68;68]	( 272 us)
+ [ 2] count:    2,  width:    45 [45;46]	( 180 us)
+ [ 3] count:    2,  width:   124 [123;125]	( 496 us)
+Gap width distribution:
+ [ 0] count:    2,  width:   298 [267;329]	(1192 us)
+ [ 1] count:    1,  width:   625 [625;625]	(2500 us)
+ [ 2] count:    2,  width:   222 [214;231]	( 888 us)
+Pulse period distribution:
+ [ 0] count:    4,  width:   337 [312;356]	(1348 us)
+ [ 1] count:    1,  width:   693 [693;693]	(2772 us)
+Level estimates [high, low]:   7929,   4143
+Frequency offsets [F1, F2]:  -11250,      0	(-42.9 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   30,  width:  9293		(37.2 ms)
+Pulse width distribution:
+ [ 0] count:   20,  width:    95 [79;101]	( 380 us)
+ [ 1] count:    1,  width:   216 [216;216]	( 864 us)
+ [ 2] count:    6,  width:   138 [125;152]	( 552 us)
+ [ 3] count:    1,  width:    39 [39;39]	( 156 us)
+ [ 4] count:    2,  width:    60 [55;66]	( 240 us)
+Gap width distribution:
+ [ 0] count:   12,  width:   123 [120;127]	( 492 us)
+ [ 1] count:    1,  width:  1053 [1053;1053]	(4212 us)
+ [ 2] count:   15,  width:   223 [182;266]	( 892 us)
+ [ 3] count:    1,  width:   286 [286;286]	(1144 us)
+Pulse period distribution:
+ [ 0] count:   11,  width:   220 [219;222]	( 880 us)
+ [ 1] count:    1,  width:  1154 [1154;1154]	(4616 us)
+ [ 2] count:   17,  width:   332 [285;375]	(1328 us)
+Level estimates [high, low]:   8000,    484
+Frequency offsets [F1, F2]:  -11376,      0	(-43.4 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   69,  width: 25207		(100.8 ms)
+Pulse width distribution:
+ [ 0] count:    2,  width:    32 [32;33]	( 128 us)
+ [ 1] count:    2,  width:    23 [22;25]	(  92 us)
+ [ 2] count:   36,  width:    96 [74;115]	( 384 us)
+ [ 3] count:    4,  width:   123 [116;130]	( 492 us)
+ [ 4] count:   23,  width:   209 [170;217]	( 836 us)
+ [ 5] count:    2,  width:   154 [152;157]	( 616 us)
+Gap width distribution:
+ [ 0] count:    3,  width:  1000 [860;1088]	(4000 us)
+ [ 1] count:    1,  width:   436 [436;436]	(1744 us)
+ [ 2] count:   39,  width:   226 [184;251]	( 904 us)
+ [ 3] count:   22,  width:   126 [121;150]	( 504 us)
+ [ 4] count:    2,  width:   180 [179;182]	( 720 us)
+ [ 5] count:    1,  width:   576 [576;576]	(2304 us)
+Pulse period distribution:
+ [ 0] count:    3,  width:  1029 [882;1120]	(4116 us)
+ [ 1] count:    1,  width:   461 [461;461]	(1844 us)
+ [ 2] count:   63,  width:   331 [319;353]	(1324 us)
+ [ 3] count:    1,  width:   673 [673;673]	(2692 us)
+Level estimates [high, low]:   8113,    352
+Frequency offsets [F1, F2]:  -11319,      0	(-43.2 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   31,  width: 10850		(43.4 ms)
+Pulse width distribution:
+ [ 0] count:   22,  width:    90 [72;97]	( 360 us)
+ [ 1] count:    3,  width:    57 [54;61]	( 228 us)
+ [ 2] count:    3,  width:   168 [160;176]	( 672 us)
+ [ 3] count:    2,  width:   130 [125;135]	( 520 us)
+ [ 4] count:    1,  width:    24 [24;24]	(  96 us)
+Gap width distribution:
+ [ 0] count:   10,  width:   128 [126;138]	( 512 us)
+ [ 1] count:    5,  width:   176 [165;198]	( 704 us)
+ [ 2] count:    1,  width:  1054 [1054;1054]	(4216 us)
+ [ 3] count:   13,  width:   238 [228;274]	( 952 us)
+ [ 4] count:    1,  width:  1578 [1578;1578]	(6312 us)
+Pulse period distribution:
+ [ 0] count:   11,  width:   219 [182;256]	( 876 us)
+ [ 1] count:    1,  width:  1146 [1146;1146]	(4584 us)
+ [ 2] count:   17,  width:   330 [312;355]	(1320 us)
+ [ 3] count:    1,  width:  1639 [1639;1639]	(6556 us)
+Level estimates [high, low]:   8093,    209
+Frequency offsets [F1, F2]:  -11400,      0	(-43.5 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    8,  width:  2780		(11.1 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    59 [59;59]	( 236 us)
+ [ 1] count:    3,  width:    93 [90;99]	( 372 us)
+ [ 2] count:    1,  width:   140 [140;140]	( 560 us)
+ [ 3] count:    3,  width:   206 [200;211]	( 824 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   613 [613;613]	(2452 us)
+ [ 1] count:    3,  width:   227 [203;248]	( 908 us)
+ [ 2] count:    3,  width:   129 [124;134]	( 516 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:   672 [672;672]	(2688 us)
+ [ 1] count:    6,  width:   334 [321;343]	(1336 us)
+Level estimates [high, low]:   9601,   4048
+Frequency offsets [F1, F2]:  -11323,      0	(-43.2 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   68,  width: 21874		(87.5 ms)
+Pulse width distribution:
+ [ 0] count:   41,  width:   102 [93;105]	( 408 us)
+ [ 1] count:   25,  width:   218 [214;221]	( 872 us)
+ [ 2] count:    2,  width:   139 [139;140]	( 556 us)
+Gap width distribution:
+ [ 0] count:   36,  width:   119 [116;127]	( 476 us)
+ [ 1] count:    1,  width:  1048 [1048;1048]	(4192 us)
+ [ 2] count:   30,  width:   220 [200;249]	( 880 us)
+Pulse period distribution:
+ [ 0] count:   11,  width:   219 [218;220]	( 876 us)
+ [ 1] count:    1,  width:  1151 [1151;1151]	(4604 us)
+ [ 2] count:   55,  width:   331 [322;344]	(1324 us)
+Level estimates [high, low]:   8031,    495
+Frequency offsets [F1, F2]:  -11275,      0	(-43.0 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 120, long_limit: 178, reset_limit: 1049, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 3 
+[00] {64} 00 02 3e c4 02 99 e3 fc 
+[01] {0} : 
+[02] {2} 00 : 00
+
+Detected OOK package
+Analyzing pulses...
+Total count:   19,  width:  5577		(22.3 ms)
+Pulse width distribution:
+ [ 0] count:   18,  width:    88 [74;106]	( 352 us)
+ [ 1] count:    1,  width:    48 [48;48]	( 192 us)
+Gap width distribution:
+ [ 0] count:   11,  width:   132 [126;145]	( 528 us)
+ [ 1] count:    1,  width:  1058 [1058;1058]	(4232 us)
+ [ 2] count:    6,  width:   238 [231;252]	( 952 us)
+Pulse period distribution:
+ [ 0] count:   11,  width:   220 [212;233]	( 880 us)
+ [ 1] count:    1,  width:  1139 [1139;1139]	(4556 us)
+ [ 2] count:    6,  width:   326 [308;354]	(1304 us)
+Level estimates [high, low]:   8186,    180
+Frequency offsets [F1, F2]:  -11434,      0	(-43.6 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    2,  width:   406		( 1.6 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    95 [95;95]	( 380 us)
+ [ 1] count:    1,  width:    62 [62;62]	( 248 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   249 [249;249]	( 996 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:   344 [344;344]	(1376 us)
+Level estimates [high, low]:   8571,   3574
+Frequency offsets [F1, F2]:  -10387,      0	(-39.6 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with fixed gap
+Attempting demodulation... short_limit: 78, long_limit: 250, reset_limit: 250, demod_arg: 0
+pulse_demod_pwm(): Analyzer Device
+bitbuffer:: Number of rows: 1 
+[00] {2} 40 : 01
+
+Detected OOK package
+Analyzing pulses...
+Total count:   73,  width: 24950		(99.8 ms)
+Pulse width distribution:
+ [ 0] count:   40,  width:    94 [80;107]	( 376 us)
+ [ 1] count:   29,  width:   209 [207;213]	( 836 us)
+ [ 2] count:    1,  width:    15 [15;15]	(  60 us)
+ [ 3] count:    2,  width:    66 [61;72]	( 264 us)
+ [ 4] count:    1,  width:   127 [127;127]	( 508 us)
+Gap width distribution:
+ [ 0] count:   40,  width:   122 [118;129]	( 488 us)
+ [ 1] count:    3,  width:   970 [906;1053]	(3880 us)
+ [ 2] count:   28,  width:   229 [199;284]	( 916 us)
+ [ 3] count:    1,  width:   561 [561;561]	(2244 us)
+Pulse period distribution:
+ [ 0] count:   11,  width:   217 [215;220]	( 868 us)
+ [ 1] count:    3,  width:  1028 [967;1151]	(4112 us)
+ [ 2] count:   57,  width:   328 [307;364]	(1312 us)
+ [ 3] count:    1,  width:   668 [668;668]	(2672 us)
+Level estimates [high, low]:   9695,    146
+Frequency offsets [F1, F2]:  -11416,      0	(-43.5 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   11,  width:  2211		( 8.8 ms)
+Pulse width distribution:
+ [ 0] count:   10,  width:    89 [85;94]	( 356 us)
+ [ 1] count:    1,  width:    22 [22;22]	(  88 us)
+Gap width distribution:
+ [ 0] count:   10,  width:   129 [124;140]	( 516 us)
+Pulse period distribution:
+ [ 0] count:   10,  width:   218 [212;225]	( 872 us)
+Level estimates [high, low]:   8121,    187
+Frequency offsets [F1, F2]:  -11374,      0	(-43.4 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with fixed gap
+Attempting demodulation... short_limit: 55, long_limit: 141, reset_limit: 141, demod_arg: 0
+pulse_demod_pwm(): Analyzer Device
+bitbuffer:: Number of rows: 1 
+[00] {11} 00 20 : 00000000 001
+
+Detected FSK package
+Analyzing pulses...
+Total count:   71,  width:  2333		( 9.3 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:     0 [ 0; 0]	(   0 us)
+ [ 1] count:   52,  width:    13 [13;16]	(  52 us)
+ [ 2] count:   18,  width:    26 [26;26]	( 104 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    57 [57;57]	( 228 us)
+ [ 1] count:   51,  width:    12 [11;13]	(  48 us)
+ [ 2] count:   18,  width:    26 [26;26]	( 104 us)
+Pulse period distribution:
+ [ 0] count:   11,  width:    52 [52;57]	( 208 us)
+ [ 1] count:   43,  width:    26 [26;27]	( 104 us)
+ [ 2] count:   16,  width:    39 [39;39]	( 156 us)
+Level estimates [high, low]:  13358,    217
+Frequency offsets [F1, F2]:    5387, -12844	(+20.6 kHz, -49.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    2,  width:  1255		( 5.0 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    28 [28;28]	( 112 us)
+ [ 1] count:    1,  width:  1066 [1066;1066]	(4264 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   161 [161;161]	( 644 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:   189 [189;189]	( 756 us)
+Level estimates [high, low]:   9019,   5176
+Frequency offsets [F1, F2]:   -9850,      0	(-37.6 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with fixed gap
+Attempting demodulation... short_limit: 547, long_limit: 162, reset_limit: 162, demod_arg: 0
+pulse_demod_pwm(): Analyzer Device
+bitbuffer:: Number of rows: 1 
+[00] {2} 80 : 10
+
+Detected OOK package
+Analyzing pulses...
+Total count:    1,  width:   541		( 2.2 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:   541 [541;541]	(2164 us)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  10772,   5336
+Frequency offsets [F1, F2]:   -9228,      0	(-35.2 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   72,  width:  2405		( 9.6 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:     0 [ 0; 0]	(   0 us)
+ [ 1] count:   53,  width:    13 [12;15]	(  52 us)
+ [ 2] count:   18,  width:    26 [26;26]	( 104 us)
+Gap width distribution:
+ [ 0] count:    2,  width:    58 [57;60]	( 232 us)
+ [ 1] count:   51,  width:    12 [11;13]	(  48 us)
+ [ 2] count:   18,  width:    26 [26;26]	( 104 us)
+Pulse period distribution:
+ [ 0] count:   11,  width:    52 [52;60]	( 208 us)
+ [ 1] count:   43,  width:    26 [26;27]	( 104 us)
+ [ 2] count:   16,  width:    39 [39;39]	( 156 us)
+ [ 3] count:    1,  width:    70 [70;70]	( 280 us)
+Level estimates [high, low]:  15970,    170
+Frequency offsets [F1, F2]:    6156, -12886	(+23.5 kHz, -49.2 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   56,  width:  1845		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   40,  width:    12 [10;15]	(  48 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   38,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   17,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   31,  width:    25 [20;26]	( 100 us)
+ [ 1] count:   15,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    9,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:  13649,    233
+Frequency offsets [F1, F2]:    1815,  -9513	(+6.9 kHz, -36.3 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {72} 00 00 7f a7 8d 55 4d 5e f6 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   37,  width:  1113		( 4.5 ms)
+Pulse width distribution:
+ [ 0] count:   30,  width:    12 [10;14]	(  48 us)
+ [ 1] count:    7,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   29,  width:    12 [11;13]	(  48 us)
+ [ 1] count:    7,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   26,  width:    25 [21;26]	( 100 us)
+ [ 1] count:    7,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    3,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:   8285,    240
+Frequency offsets [F1, F2]:    2291,  -8374	(+8.7 kHz, -31.9 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {44} 00 00 7f a7 8d 50 : 00000000 00000000 01111111 10100111 10001101 0101
+
+Detected FSK package
+Analyzing pulses...
+Total count:   57,  width:  1835		( 7.3 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    13 [12;16]	(  52 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [24;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:  15906,    215
+Frequency offsets [F1, F2]:    1494,  -8929	(+5.7 kHz, -34.1 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {72} 00 00 7f 45 ea f5 0d 2e f3 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   57,  width:  1835		( 7.3 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    13 [12;15]	(  52 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [24;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:  15970,    233
+Frequency offsets [F1, F2]:    2783,  -8708	(+10.6 kHz, -33.2 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {72} 00 00 7f 45 ea f5 0d 2e f3 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1927		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [11;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:     4 [ 4; 4]	(  16 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    12 [12;15]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    87 [87;87]	( 348 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:    25 [25;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    8,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:   100 [100;100]	( 400 us)
+Level estimates [high, low]:  15899,    234
+Frequency offsets [F1, F2]:    1124,  -9884	(+4.3 kHz, -37.7 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 8, long_limit: 18, reset_limit: 88, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {57} 00 00 81 31 c6 2b 21 00 
+[01] {0} : 
+
+Detected OOK package
+Analyzing pulses...
+Total count:   15,  width: 20838		(83.4 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:   178 [178;178]	( 712 us)
+ [ 1] count:    1,  width:   841 [841;841]	(3364 us)
+ [ 2] count:   11,  width:  1076 [1070;1079]	(4304 us)
+ [ 3] count:    1,  width:   403 [403;403]	(1612 us)
+ [ 4] count:    1,  width:    18 [18;18]	(  72 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    32 [32;32]	( 128 us)
+ [ 1] count:   12,  width:   625 [620;645]	(2500 us)
+ [ 2] count:    1,  width:    19 [19;19]	(  76 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:   210 [210;210]	( 840 us)
+ [ 1] count:   12,  width:  1682 [1471;1715]	(6728 us)
+ [ 2] count:    1,  width:   422 [422;422]	(1688 us)
+Level estimates [high, low]:   8107,   3087
+Frequency offsets [F1, F2]:   -1539,      0	(-5.9 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    9,  width: 11149		(44.6 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    22 [22;22]	(  88 us)
+ [ 1] count:    5,  width:  1064 [1043;1071]	(4256 us)
+ [ 2] count:    1,  width:   558 [558;558]	(2232 us)
+ [ 3] count:    1,  width:    89 [89;89]	( 356 us)
+ [ 4] count:    1,  width:    10 [10;10]	(  40 us)
+Gap width distribution:
+ [ 0] count:    2,  width:   903 [893;913]	(3612 us)
+ [ 1] count:    5,  width:   631 [627;635]	(2524 us)
+ [ 2] count:    1,  width:   185 [185;185]	( 740 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:   958 [935;982]	(3832 us)
+ [ 1] count:    5,  width:  1695 [1677;1705]	(6780 us)
+ [ 2] count:    1,  width:   743 [743;743]	(2972 us)
+Level estimates [high, low]:   7852,   5515
+Frequency offsets [F1, F2]:   -7012,      0	(-26.7 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    4,  width:   776		( 3.1 ms)
+Pulse width distribution:
+ [ 0] count:    2,  width:   226 [219;233]	( 904 us)
+ [ 1] count:    1,  width:    44 [44;44]	( 176 us)
+ [ 2] count:    1,  width:    70 [70;70]	( 280 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    34 [34;34]	( 136 us)
+ [ 1] count:    1,  width:    44 [44;44]	( 176 us)
+ [ 2] count:    1,  width:   132 [132;132]	( 528 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:   265 [263;267]	(1060 us)
+ [ 1] count:    1,  width:   176 [176;176]	( 704 us)
+Level estimates [high, low]:   7930,    752
+Frequency offsets [F1, F2]:   -3753,      0	(-14.3 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 57, long_limit: 148, reset_limit: 133, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {2} c0 : 11
+[01] {1} 00 : 0
+
+Detected OOK package
+Analyzing pulses...
+Total count:    3,  width:  3819		(15.3 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    40 [40;40]	( 160 us)
+ [ 1] count:    2,  width:  1770 [1630;1910]	(7080 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   160 [160;160]	( 640 us)
+ [ 1] count:    1,  width:    79 [79;79]	( 316 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:   200 [200;200]	( 800 us)
+ [ 1] count:    1,  width:  1709 [1709;1709]	(6836 us)
+Level estimates [high, low]:  13021,   5755
+Frequency offsets [F1, F2]:   -6901,      0	(-26.3 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   98,  width: 14711		(58.8 ms)
+Pulse width distribution:
+ [ 0] count:   51,  width:    86 [82;87]	( 344 us)
+ [ 1] count:   37,  width:    62 [61;63]	( 248 us)
+ [ 2] count:    5,  width:    25 [25;25]	( 100 us)
+ [ 3] count:    5,  width:   125 [125;125]	( 500 us)
+Gap width distribution:
+ [ 0] count:   54,  width:    85 [70;88]	( 340 us)
+ [ 1] count:   43,  width:    62 [61;63]	( 248 us)
+Pulse period distribution:
+ [ 0] count:   71,  width:   156 [147;174]	( 624 us)
+ [ 1] count:   16,  width:   124 [124;125]	( 496 us)
+ [ 2] count:    5,  width:    95 [95;96]	( 380 us)
+ [ 3] count:    5,  width:   211 [211;212]	( 844 us)
+Level estimates [high, low]:   8371,    417
+Frequency offsets [F1, F2]:    7582,  -7337	(+28.9 kHz, -28.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    4,  width:  1102		( 4.4 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:   601 [601;601]	(2404 us)
+ [ 1] count:    1,  width:    14 [14;14]	(  56 us)
+ [ 2] count:    2,  width:   141 [135;147]	( 564 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   163 [163;163]	( 652 us)
+ [ 1] count:    1,  width:    16 [16;16]	(  64 us)
+ [ 2] count:    1,  width:    26 [26;26]	( 104 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:   764 [764;764]	(3056 us)
+ [ 1] count:    1,  width:    30 [30;30]	( 120 us)
+ [ 2] count:    1,  width:   161 [161;161]	( 644 us)
+Level estimates [high, low]:   7770,    426
+Frequency offsets [F1, F2]:   -2019,      0	(-7.7 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 77, long_limit: 371, reset_limit: 164, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {1} 80 : 1
+[01] {2} 00 : 00
+
+Detected OOK package
+Analyzing pulses...
+Total count:   13,  width:  4842		(19.4 ms)
+Pulse width distribution:
+ [ 0] count:    3,  width:   242 [216;267]	( 968 us)
+ [ 1] count:    1,  width:    19 [19;19]	(  76 us)
+ [ 2] count:    3,  width:    74 [70;78]	( 296 us)
+ [ 3] count:    1,  width:   949 [949;949]	(3796 us)
+ [ 4] count:    2,  width:   490 [488;493]	(1960 us)
+ [ 5] count:    1,  width:   383 [383;383]	(1532 us)
+ [ 6] count:    1,  width:   690 [690;690]	(2760 us)
+ [ 7] count:    1,  width:   143 [143;143]	( 572 us)
+Gap width distribution:
+ [ 0] count:    3,  width:    13 [13;14]	(  52 us)
+ [ 1] count:    3,  width:    43 [36;49]	( 172 us)
+ [ 2] count:    1,  width:    28 [28;28]	( 112 us)
+ [ 3] count:    4,  width:    90 [86;98]	( 360 us)
+ [ 4] count:    1,  width:   167 [167;167]	( 668 us)
+Pulse period distribution:
+ [ 0] count:    3,  width:   288 [252;332]	(1152 us)
+ [ 1] count:    1,  width:    33 [33;33]	( 132 us)
+ [ 2] count:    1,  width:   104 [104;104]	( 416 us)
+ [ 3] count:    1,  width:   963 [963;963]	(3852 us)
+ [ 4] count:    2,  width:   503 [469;537]	(2012 us)
+ [ 5] count:    2,  width:   697 [660;734]	(2788 us)
+ [ 6] count:    2,  width:   167 [159;176]	( 668 us)
+Level estimates [high, low]:   8121,    488
+Frequency offsets [F1, F2]:   -2122,      0	(-8.1 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   99,  width: 14845		(59.4 ms)
+Pulse width distribution:
+ [ 0] count:   51,  width:    86 [86;92]	( 344 us)
+ [ 1] count:   38,  width:    62 [61;63]	( 248 us)
+ [ 2] count:    5,  width:    24 [24;25]	(  96 us)
+ [ 3] count:    5,  width:   124 [124;125]	( 496 us)
+Gap width distribution:
+ [ 0] count:   54,  width:    85 [70;87]	( 340 us)
+ [ 1] count:   44,  width:    62 [61;63]	( 248 us)
+Pulse period distribution:
+ [ 0] count:   72,  width:   156 [148;179]	( 624 us)
+ [ 1] count:   16,  width:   124 [123;125]	( 496 us)
+ [ 2] count:    5,  width:    95 [95;96]	( 380 us)
+ [ 3] count:    5,  width:   211 [211;212]	( 844 us)
+Level estimates [high, low]:   8304,    329
+Frequency offsets [F1, F2]:    7276,  -7629	(+27.8 kHz, -29.1 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    4,  width:  1227		( 4.9 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:   786 [786;786]	(3144 us)
+ [ 1] count:    2,  width:    62 [57;68]	( 248 us)
+ [ 2] count:    1,  width:    40 [40;40]	( 160 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    32 [32;32]	( 128 us)
+ [ 1] count:    1,  width:   182 [182;182]	( 728 us)
+ [ 2] count:    1,  width:    62 [62;62]	( 248 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:   818 [818;818]	(3272 us)
+ [ 1] count:    1,  width:   239 [239;239]	( 956 us)
+ [ 2] count:    1,  width:   130 [130;130]	( 520 us)
+Level estimates [high, low]:   8292,    611
+Frequency offsets [F1, F2]:    1914,      0	(+7.3 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 51, long_limit: 424, reset_limit: 183, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {3} 80 : 100
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:  108,  width: 16222		(64.9 ms)
+Pulse width distribution:
+ [ 0] count:   56,  width:    86 [86;101]	( 344 us)
+ [ 1] count:   42,  width:    61 [61;63]	( 244 us)
+ [ 2] count:    5,  width:    25 [25;26]	( 100 us)
+ [ 3] count:    5,  width:   124 [124;125]	( 496 us)
+Gap width distribution:
+ [ 0] count:   59,  width:    85 [70;87]	( 340 us)
+ [ 1] count:   48,  width:    62 [61;63]	( 248 us)
+Pulse period distribution:
+ [ 0] count:   79,  width:   156 [147;188]	( 624 us)
+ [ 1] count:   18,  width:   123 [123;124]	( 492 us)
+ [ 2] count:    5,  width:    96 [96;96]	( 384 us)
+ [ 3] count:    5,  width:   211 [211;211]	( 844 us)
+Level estimates [high, low]:  15253,    280
+Frequency offsets [F1, F2]:    6596,  -7702	(+25.2 kHz, -29.4 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:  108,  width: 16233		(64.9 ms)
+Pulse width distribution:
+ [ 0] count:    6,  width:   121 [109;125]	( 484 us)
+ [ 1] count:   55,  width:    86 [86;96]	( 344 us)
+ [ 2] count:   42,  width:    62 [61;63]	( 248 us)
+ [ 3] count:    5,  width:    25 [25;25]	( 100 us)
+Gap width distribution:
+ [ 0] count:   59,  width:    85 [70;87]	( 340 us)
+ [ 1] count:   48,  width:    62 [61;63]	( 248 us)
+Pulse period distribution:
+ [ 0] count:   79,  width:   156 [147;196]	( 624 us)
+ [ 1] count:   18,  width:   124 [123;125]	( 496 us)
+ [ 2] count:    5,  width:    95 [95;96]	( 380 us)
+ [ 3] count:    5,  width:   211 [211;212]	( 844 us)
+Level estimates [high, low]:  15169,    307
+Frequency offsets [F1, F2]:    6536,  -9007	(+24.9 kHz, -34.4 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:  108,  width: 16229		(64.9 ms)
+Pulse width distribution:
+ [ 0] count:    6,  width:   122 [113;125]	( 488 us)
+ [ 1] count:   55,  width:    86 [86;88]	( 344 us)
+ [ 2] count:   42,  width:    61 [61;63]	( 244 us)
+ [ 3] count:    5,  width:    24 [24;25]	(  96 us)
+Gap width distribution:
+ [ 0] count:   59,  width:    85 [71;87]	( 340 us)
+ [ 1] count:   48,  width:    62 [62;63]	( 248 us)
+Pulse period distribution:
+ [ 0] count:   97,  width:   150 [124;200]	( 600 us)
+ [ 1] count:    5,  width:    95 [95;96]	( 380 us)
+ [ 2] count:    5,  width:   211 [211;211]	( 844 us)
+Level estimates [high, low]:  15475,    286
+Frequency offsets [F1, F2]:    6714,  -7861	(+25.6 kHz, -30.0 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   83,  width: 12371		(49.5 ms)
+Pulse width distribution:
+ [ 0] count:   34,  width:    62 [61;63]	( 248 us)
+ [ 1] count:   41,  width:    86 [79;87]	( 344 us)
+ [ 2] count:    4,  width:    25 [25;25]	( 100 us)
+ [ 3] count:    4,  width:   124 [124;125]	( 496 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    62 [61;71]	( 248 us)
+ [ 1] count:   41,  width:    86 [86;87]	( 344 us)
+Pulse period distribution:
+ [ 0] count:   72,  width:   148 [123;174]	( 592 us)
+ [ 1] count:    6,  width:   198 [173;212]	( 792 us)
+ [ 2] count:    4,  width:    95 [95;96]	( 380 us)
+Level estimates [high, low]:  10578,   6941
+Frequency offsets [F1, F2]:    6969,  -7647	(+26.6 kHz, -29.2 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:  108,  width: 16213		(64.9 ms)
+Pulse width distribution:
+ [ 0] count:   56,  width:    86 [86;95]	( 344 us)
+ [ 1] count:   42,  width:    62 [61;63]	( 248 us)
+ [ 2] count:    5,  width:    25 [25;25]	( 100 us)
+ [ 3] count:    5,  width:   124 [124;125]	( 496 us)
+Gap width distribution:
+ [ 0] count:   59,  width:    85 [70;87]	( 340 us)
+ [ 1] count:   48,  width:    61 [61;63]	( 244 us)
+Pulse period distribution:
+ [ 0] count:   79,  width:   156 [147;178]	( 624 us)
+ [ 1] count:   18,  width:   124 [123;125]	( 496 us)
+ [ 2] count:    5,  width:    95 [95;96]	( 380 us)
+ [ 3] count:    5,  width:   211 [211;212]	( 844 us)
+Level estimates [high, low]:  15016,    345
+Frequency offsets [F1, F2]:    6934,  -7791	(+26.5 kHz, -29.7 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:  125,  width: 18059		(72.2 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:   173 [173;173]	( 692 us)
+ [ 1] count:    5,  width:   124 [124;125]	( 496 us)
+ [ 2] count:   43,  width:    86 [86;87]	( 344 us)
+ [ 3] count:   71,  width:    62 [61;63]	( 248 us)
+ [ 4] count:    4,  width:    24 [24;26]	(  96 us)
+ [ 5] count:    1,  width:    41 [41;41]	( 164 us)
+Gap width distribution:
+ [ 0] count:   73,  width:    62 [61;77]	( 248 us)
+ [ 1] count:   51,  width:    86 [85;87]	( 344 us)
+Pulse period distribution:
+ [ 0] count:   18,  width:   187 [173;235]	( 748 us)
+ [ 1] count:  106,  width:   138 [101;174]	( 552 us)
+Level estimates [high, low]:   8368,    266
+Frequency offsets [F1, F2]:    7216,  -7996	(+27.5 kHz, -30.5 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    2,  width:   267		( 1.1 ms)
+Pulse width distribution:
+ [ 0] count:    2,  width:    92 [86;98]	( 368 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    83 [83;83]	( 332 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:   181 [181;181]	( 724 us)
+Level estimates [high, low]:   7650,    415
+Frequency offsets [F1, F2]:    1755,      0	(+6.7 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected FSK package
+Analyzing pulses...
+Total count:  280,  width: 40044		(160.2 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:     0 [ 0; 0]	(   0 us)
+ [ 1] count:  164,  width:    61 [50;63]	( 244 us)
+ [ 2] count:   95,  width:    86 [86;87]	( 344 us)
+ [ 3] count:   10,  width:    24 [24;25]	(  96 us)
+ [ 4] count:   10,  width:   124 [124;125]	( 496 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    38 [38;38]	( 152 us)
+ [ 1] count:  166,  width:    62 [61;77]	( 248 us)
+ [ 2] count:  112,  width:    86 [85;87]	( 344 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:    38 [38;38]	( 152 us)
+ [ 1] count:  208,  width:   135 [123;173]	( 540 us)
+ [ 2] count:   60,  width:   179 [172;212]	( 716 us)
+ [ 3] count:   10,  width:   101 [101;102]	( 404 us)
+Level estimates [high, low]:   8240,   6390
+Frequency offsets [F1, F2]:    7362,  -7894	(+28.1 kHz, -30.1 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   14,  width:  4357		(17.4 ms)
+Pulse width distribution:
+ [ 0] count:    4,  width:   234 [197;268]	( 936 us)
+ [ 1] count:    3,  width:    44 [38;48]	( 176 us)
+ [ 2] count:    2,  width:   511 [467;556]	(2044 us)
+ [ 3] count:    2,  width:   122 [116;129]	( 488 us)
+ [ 4] count:    3,  width:    28 [24;32]	( 112 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    83 [83;83]	( 332 us)
+ [ 1] count:    2,  width:   215 [200;231]	( 860 us)
+ [ 2] count:    3,  width:    16 [14;17]	(  64 us)
+ [ 3] count:    1,  width:    39 [39;39]	( 156 us)
+ [ 4] count:    1,  width:    65 [65;65]	( 260 us)
+ [ 5] count:    1,  width:   158 [158;158]	( 632 us)
+ [ 6] count:    2,  width:   112 [107;118]	( 448 us)
+ [ 7] count:    2,  width:   442 [417;468]	(1768 us)
+Pulse period distribution:
+ [ 0] count:    6,  width:   297 [278;316]	(1188 us)
+ [ 1] count:    1,  width:   214 [214;214]	( 856 us)
+ [ 2] count:    4,  width:   508 [455;595]	(2032 us)
+ [ 3] count:    2,  width:   150 [146;155]	( 600 us)
+Level estimates [high, low]:   8025,   6577
+Frequency offsets [F1, F2]:   -4658,      0	(-17.8 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   16,  width:  4108		(16.4 ms)
+Pulse width distribution:
+ [ 0] count:    3,  width:    21 [19;25]	(  84 us)
+ [ 1] count:    3,  width:   177 [160;193]	( 708 us)
+ [ 2] count:    1,  width:    62 [62;62]	( 248 us)
+ [ 3] count:    4,  width:   118 [103;132]	( 472 us)
+ [ 4] count:    2,  width:   294 [283;305]	(1176 us)
+ [ 5] count:    1,  width:    88 [88;88]	( 352 us)
+ [ 6] count:    1,  width:    33 [33;33]	( 132 us)
+ [ 7] count:    1,  width:    14 [14;14]	(  56 us)
+Gap width distribution:
+ [ 0] count:    1,  width:  1160 [1160;1160]	(4640 us)
+ [ 1] count:    2,  width:   102 [94;110]	( 408 us)
+ [ 2] count:    2,  width:    70 [68;73]	( 280 us)
+ [ 3] count:    1,  width:   241 [241;241]	( 964 us)
+ [ 4] count:    3,  width:    32 [31;34]	( 128 us)
+ [ 5] count:    5,  width:    48 [44;53]	( 192 us)
+ [ 6] count:    1,  width:   171 [171;171]	( 684 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:  1180 [1180;1180]	(4720 us)
+ [ 1] count:    5,  width:   327 [288;361]	(1308 us)
+ [ 2] count:    4,  width:   143 [130;156]	( 572 us)
+ [ 3] count:    2,  width:    61 [59;63]	( 244 us)
+ [ 4] count:    2,  width:   239 [224;254]	( 956 us)
+ [ 5] count:    1,  width:   106 [106;106]	( 424 us)
+Level estimates [high, low]:   8004,   6429
+Frequency offsets [F1, F2]:     552,      0	(+2.1 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   20,  width:  8358		(33.4 ms)
+Pulse width distribution:
+ [ 0] count:    3,  width:    14 [13;15]	(  56 us)
+ [ 1] count:    1,  width:    44 [44;44]	( 176 us)
+ [ 2] count:    2,  width:    32 [31;34]	( 128 us)
+ [ 3] count:    2,  width:   192 [184;201]	( 768 us)
+ [ 4] count:    1,  width:   299 [299;299]	(1196 us)
+ [ 5] count:    3,  width:   126 [114;136]	( 504 us)
+ [ 6] count:    2,  width:   795 [776;815]	(3180 us)
+ [ 7] count:    3,  width:   408 [400;423]	(1632 us)
+ [ 8] count:    1,  width:  1968 [1968;1968]	(7872 us)
+ [ 9] count:    1,  width:    66 [66;66]	( 264 us)
+ [10] count:    1,  width:    24 [24;24]	(  96 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   164 [164;164]	( 656 us)
+ [ 1] count:    1,  width:   242 [242;242]	( 968 us)
+ [ 2] count:    1,  width:   326 [326;326]	(1304 us)
+ [ 3] count:    4,  width:    97 [86;109]	( 388 us)
+ [ 4] count:    2,  width:    26 [24;29]	( 104 us)
+ [ 5] count:    5,  width:    48 [43;53]	( 192 us)
+ [ 6] count:    2,  width:    64 [61;68]	( 256 us)
+ [ 7] count:    2,  width:    19 [18;20]	(  76 us)
+ [ 8] count:    1,  width:   681 [681;681]	(2724 us)
+Pulse period distribution:
+ [ 0] count:    4,  width:   195 [173;229]	( 780 us)
+ [ 1] count:    4,  width:   321 [286;360]	(1284 us)
+ [ 2] count:    2,  width:   134 [132;136]	( 536 us)
+ [ 3] count:    3,  width:   802 [705;862]	(3208 us)
+ [ 4] count:    3,  width:   460 [451;476]	(1840 us)
+ [ 5] count:    1,  width:  2059 [2059;2059]	(8236 us)
+ [ 6] count:    2,  width:    80 [75;86]	( 320 us)
+Level estimates [high, low]:   7912,    803
+Frequency offsets [F1, F2]:     591,      0	(+2.3 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    1,  width:    11		( 0.0 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    11 [11;11]	(  44 us)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15169,   6681
+Frequency offsets [F1, F2]:    1109,      0	(+4.2 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    1,  width:    30		( 0.1 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    30 [30;30]	( 120 us)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  13306,   7159
+Frequency offsets [F1, F2]:    2716,      0	(+10.4 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    7,  width: 12486		(49.9 ms)
+Pulse width distribution:
+ [ 0] count:    2,  width:   145 [132;159]	( 580 us)
+ [ 1] count:    1,  width:   552 [552;552]	(2208 us)
+ [ 2] count:    1,  width:  9175 [9175;9175]	(36700 us)
+ [ 3] count:    1,  width:   108 [108;108]	( 432 us)
+ [ 4] count:    1,  width:    33 [33;33]	( 132 us)
+ [ 5] count:    1,  width:    14 [14;14]	(  56 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    90 [90;90]	( 360 us)
+ [ 1] count:    2,  width:    22 [20;24]	(  88 us)
+ [ 2] count:    1,  width:   152 [152;152]	( 608 us)
+ [ 3] count:    1,  width:    39 [39;39]	( 156 us)
+ [ 4] count:    1,  width:  1988 [1988;1988]	(7952 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:   249 [249;249]	( 996 us)
+ [ 1] count:    1,  width:   576 [576;576]	(2304 us)
+ [ 2] count:    1,  width:  9327 [9327;9327]	(37308 us)
+ [ 3] count:    1,  width:   171 [171;171]	( 684 us)
+ [ 4] count:    1,  width:   128 [128;128]	( 512 us)
+ [ 5] count:    1,  width:  2021 [2021;2021]	(8084 us)
+Level estimates [high, low]:   7937,   7284
+Frequency offsets [F1, F2]:    2398,      0	(+9.1 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:   12,  width:  8805		(35.2 ms)
+Pulse width distribution:
+ [ 0] count:    2,  width:    82 [80;84]	( 328 us)
+ [ 1] count:    2,  width:   128 [119;137]	( 512 us)
+ [ 2] count:    1,  width:    12 [12;12]	(  48 us)
+ [ 3] count:    4,  width:    32 [29;34]	( 128 us)
+ [ 4] count:    1,  width:   829 [829;829]	(3316 us)
+ [ 5] count:    1,  width:  4128 [4128;4128]	(16512 us)
+ [ 6] count:    1,  width:  1805 [1805;1805]	(7220 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   209 [209;209]	( 836 us)
+ [ 1] count:    3,  width:   150 [149;152]	( 600 us)
+ [ 2] count:    2,  width:    21 [20;23]	(  84 us)
+ [ 3] count:    2,  width:   105 [95;115]	( 420 us)
+ [ 4] count:    1,  width:    75 [75;75]	( 300 us)
+ [ 5] count:    1,  width:    38 [38;38]	( 152 us)
+ [ 6] count:    1,  width:   456 [456;456]	(1824 us)
+Pulse period distribution:
+ [ 0] count:    4,  width:   270 [232;293]	(1080 us)
+ [ 1] count:    1,  width:    35 [35;35]	( 140 us)
+ [ 2] count:    2,  width:   138 [128;149]	( 552 us)
+ [ 3] count:    1,  width:   107 [107;107]	( 428 us)
+ [ 4] count:    1,  width:   867 [867;867]	(3468 us)
+ [ 5] count:    1,  width:  4148 [4148;4148]	(16592 us)
+ [ 6] count:    1,  width:  2261 [2261;2261]	(9044 us)
+Level estimates [high, low]:   8045,   7481
+Frequency offsets [F1, F2]:     141,      0	(+0.5 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   50,  width:  1602		( 6.4 ms)
+Pulse width distribution:
+ [ 0] count:   37,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   13,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   36,  width:    12 [12;13]	(  48 us)
+ [ 1] count:   13,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   29,  width:    25 [22;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    6,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:   8144,     43
+Frequency offsets [F1, F2]:    1402,  -8485	(+5.3 kHz, -32.4 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {63} 00 00 7f 45 5a 8d 8d ee 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1928		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:     2 [ 2; 2]	(   8 us)
+Gap width distribution:
+ [ 0] count:   40,  width:    13 [12;14]	(  52 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    78 [78;78]	( 312 us)
+Pulse period distribution:
+ [ 0] count:   31,  width:    25 [24;26]	( 100 us)
+ [ 1] count:   19,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    6,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    91 [91;91]	( 364 us)
+Level estimates [high, low]:  15952,     80
+Frequency offsets [F1, F2]:    3449,  -7948	(+13.2 kHz, -30.3 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 7, long_limit: 18, reset_limit: 79, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {57} 00 00 81 34 96 28 93 00 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   58,  width:  1929		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [11;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:     2 [ 2; 2]	(   8 us)
+Gap width distribution:
+ [ 0] count:   40,  width:    13 [12;15]	(  52 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    78 [78;78]	( 312 us)
+Pulse period distribution:
+ [ 0] count:   31,  width:    25 [25;27]	( 100 us)
+ [ 1] count:   19,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    6,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    91 [91;91]	( 364 us)
+Level estimates [high, low]:  15944,     85
+Frequency offsets [F1, F2]:    3672,  -8877	(+14.0 kHz, -33.9 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 7, long_limit: 18, reset_limit: 79, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {57} 00 00 81 34 96 28 93 00 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   57,  width:  1849		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    12 [11;13]	(  48 us)
+ [ 1] count:   15,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   40,  width:    13 [12;15]	(  52 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   31,  width:    25 [24;26]	( 100 us)
+ [ 1] count:   19,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    6,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:  15991,    104
+Frequency offsets [F1, F2]:    3602,  -8125	(+13.7 kHz, -31.0 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 12, long_limit: 0, reset_limit: 27, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {72} 00 00 7f 75 33 35 8d ee 8a 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   57,  width:  1928		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   40,  width:    12 [10;13]	(  48 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:     3 [ 3; 3]	(  12 us)
+Gap width distribution:
+ [ 0] count:   39,  width:    12 [12;15]	(  48 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    90 [90;90]	( 360 us)
+Pulse period distribution:
+ [ 0] count:   32,  width:    25 [24;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    9,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:   103 [103;103]	( 412 us)
+Level estimates [high, low]:  15960,     97
+Frequency offsets [F1, F2]:    1693,  -8920	(+6.5 kHz, -34.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 7, long_limit: 18, reset_limit: 91, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {56} 00 00 81 31 a6 1b 32 
+[01] {0} : 
+
+Detected FSK package
+Analyzing pulses...
+Total count:   57,  width:  1925		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   41,  width:    12 [11;13]	(  48 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   39,  width:    12 [12;14]	(  48 us)
+ [ 1] count:   16,  width:    25 [25;26]	( 100 us)
+ [ 2] count:    1,  width:    77 [77;77]	( 308 us)
+Pulse period distribution:
+ [ 0] count:   32,  width:    25 [25;26]	( 100 us)
+ [ 1] count:   14,  width:    38 [38;39]	( 152 us)
+ [ 2] count:    9,  width:    51 [51;52]	( 204 us)
+ [ 3] count:    1,  width:    89 [89;89]	( 356 us)
+Level estimates [high, low]:  15414,    104
+Frequency offsets [F1, F2]:    2393,  -8903	(+9.1 kHz, -34.0 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   23,  width:   599		( 2.4 ms)
+Pulse width distribution:
+ [ 0] count:   22,  width:    12 [10;14]	(  48 us)
+ [ 1] count:    1,  width:    26 [26;26]	( 104 us)
+Gap width distribution:
+ [ 0] count:   21,  width:    12 [10;13]	(  48 us)
+ [ 1] count:    1,  width:    25 [25;25]	( 100 us)
+Pulse period distribution:
+ [ 0] count:   20,  width:    25 [20;26]	( 100 us)
+ [ 1] count:    2,  width:    38 [38;39]	( 152 us)
+Level estimates [high, low]:   8157,    139
+Frequency offsets [F1, F2]:    1486,  -8301	(+5.7 kHz, -31.7 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+Analyzing pulses...
+Total count:   39,  width:  1205		( 4.8 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:     0 [ 0; 0]	(   0 us)
+ [ 1] count:   29,  width:    12 [12;13]	(  48 us)
+ [ 2] count:    9,  width:    25 [25;26]	( 100 us)
+Gap width distribution:
+ [ 0] count:   29,  width:    12 [10;13]	(  48 us)
+ [ 1] count:    9,  width:    25 [25;26]	( 100 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:    10 [10;10]	(  40 us)
+ [ 1] count:   23,  width:    25 [25;26]	( 100 us)
+ [ 2] count:   11,  width:    38 [38;39]	( 152 us)
+ [ 3] count:    3,  width:    51 [51;52]	( 204 us)
+Level estimates [high, low]:   7788,    182
+Frequency offsets [F1, F2]:    3704,  -7270	(+14.1 kHz, -27.7 kHz)
+Guessing modulation: No clue...
+
+Signal caught, exiting!
+
+User cancel, exiting...
