@@ -1,0 +1,2499 @@
+Registering protocol "infineon tpms (TP37)"
+Found 1 device(s):
+  0:  Realtek, RTL2838UHIDIR, SN: 00000001
+
+Using device 0: Generic RTL2832U OEM
+Found Rafael Micro R820T tuner
+Exact sample rate is: 1000000.026491 Hz
+[R82XX] PLL not locked!
+Sample rate set to 1000000.
+Bit detection level set to 8000.
+Tuner gain set to Auto.
+Reading samples in async mode...
+Tuned to 433920000 Hz.
+Detected OOK package
+Analyzing pulses...
+Total count:    3,  width: 23570		(23.6 ms)
+Pulse width distribution:
+ [ 0] count:    3,  width:  7663 [7662;7664]	(7663 us)
+Gap width distribution:
+ [ 0] count:    2,  width:   290 [289;291]	( 290 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:  7953 [7951;7955]	(7953 us)
+Level estimates [high, low]:  15960,    361
+Frequency offsets [F1, F2]:   -1836,      0	(-28.0 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 55 55 55 15 54 56 d5 54 a9 55 ff ff ff ff f8 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 55 55 55 15 54 56 d5 54 a9 55 ff ff ff ff f8 
+Analyzing pulses...
+Total count:   44,  width:  5146		( 5.1 ms)
+Pulse width distribution:
+ [ 0] count:   38,  width:    47 [43;55]	(  47 us)
+ [ 1] count:    6,  width:   100 [96;112]	( 100 us)
+Gap width distribution:
+ [ 0] count:   35,  width:    56 [51;60]	(  56 us)
+ [ 1] count:    7,  width:   107 [98;110]	( 107 us)
+ [ 2] count:    1,  width:    41 [41;41]	(  41 us)
+Pulse period distribution:
+ [ 0] count:   32,  width:   103 [97;109]	( 103 us)
+ [ 1] count:    9,  width:   153 [148;161]	( 153 us)
+ [ 2] count:    2,  width:   205 [205;205]	( 205 us)
+Level estimates [high, low]:  15924,    454
+Frequency offsets [F1, F2]:   10103,  -4034	(+154.2 kHz, -61.6 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {129} 54 aa aa aa aa aa a5 aa aa aa aa 8a d5 55 44 57 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {129} 54 aa aa aa aa aa a5 aa aa aa aa 8a d5 55 44 57 80 
+Analyzing pulses...
+Total count:   63,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   52,  width:    46 [42;56]	(  46 us)
+ [ 1] count:   10,  width:    98 [89;108]	(  98 us)
+ [ 2] count:    1,  width:     4 [ 4; 4]	(   4 us)
+Gap width distribution:
+ [ 0] count:   50,  width:    56 [46;65]	(  56 us)
+ [ 1] count:   11,  width:   107 [100;114]	( 107 us)
+ [ 2] count:    1,  width:   269 [269;269]	( 269 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   102 [96;111]	( 102 us)
+ [ 1] count:   13,  width:   153 [147;160]	( 153 us)
+ [ 2] count:    4,  width:   206 [202;211]	( 206 us)
+ [ 3] count:    1,  width:   316 [316;316]	( 316 us)
+Level estimates [high, low]:  15941,    401
+Frequency offsets [F1, F2]:    2182,  -3587	(+33.3 kHz, -54.7 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 25, long_limit: 72, reset_limit: 270, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {62} 00 00 81 34 80 09 00 60 
+[01] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {126} 52 aa aa a5 55 55 49 0a 95 55 55 56 aa aa 22 bc 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {126} 52 aa aa a5 55 55 49 0a 95 55 55 56 aa aa 22 bc 
+Analyzing pulses...
+Total count:   63,  width:  7674		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   51,  width:    46 [37;56]	(  46 us)
+ [ 1] count:   10,  width:    99 [96;103]	(  99 us)
+ [ 2] count:    1,  width:    58 [58;58]	(  58 us)
+ [ 3] count:    1,  width:     5 [ 5; 5]	(   5 us)
+Gap width distribution:
+ [ 0] count:   48,  width:    56 [46;63]	(  56 us)
+ [ 1] count:    2,  width:    42 [41;43]	(  42 us)
+ [ 2] count:   11,  width:   107 [102;110]	( 107 us)
+ [ 3] count:    1,  width:   269 [269;269]	( 269 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   102 [92;112]	( 102 us)
+ [ 1] count:   13,  width:   154 [147;161]	( 154 us)
+ [ 2] count:    4,  width:   207 [204;213]	( 207 us)
+ [ 3] count:    1,  width:   314 [314;314]	( 314 us)
+Level estimates [high, low]:  15888,    364
+Frequency offsets [F1, F2]:    3041,  -3351	(+46.4 kHz, -51.1 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {118} 54 a5 54 93 ff ff ff ff ff ff ff ff ff ff fc 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {118} 54 a5 54 93 ff ff ff ff ff ff ff ff ff ff fc 
+Analyzing pulses...
+Total count:   18,  width:  7674		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   14,  width:    51 [42;61]	(  51 us)
+ [ 1] count:    2,  width:    39 [39;39]	(  39 us)
+ [ 2] count:    1,  width:   105 [105;105]	( 105 us)
+ [ 3] count:    1,  width:     3 [ 3; 3]	(   3 us)
+Gap width distribution:
+ [ 0] count:   15,  width:    53 [42;61]	(  53 us)
+ [ 1] count:    1,  width:   100 [100;100]	( 100 us)
+ [ 2] count:    1,  width:  5865 [5865;5865]	(5865 us)
+Pulse period distribution:
+ [ 0] count:   15,  width:   103 [96;112]	( 103 us)
+ [ 1] count:    1,  width:   154 [154;154]	( 154 us)
+ [ 2] count:    1,  width:  5970 [5970;5970]	(5970 us)
+Level estimates [high, low]:  15944,    357
+Frequency offsets [F1, F2]:    9928,  -2429	(+151.5 kHz, -37.1 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 29 55 54 4a aa b2 aa 25 55 55 56 aa ff ff f8 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 29 55 54 4a aa b2 aa 25 55 55 56 aa ff ff f8 
+Analyzing pulses...
+Total count:   53,  width:  6278		( 6.3 ms)
+Pulse width distribution:
+ [ 0] count:   45,  width:    47 [41;56]	(  47 us)
+ [ 1] count:    8,  width:    99 [94;105]	(  99 us)
+Gap width distribution:
+ [ 0] count:   42,  width:    56 [47;62]	(  56 us)
+ [ 1] count:    9,  width:   105 [103;108]	( 105 us)
+ [ 2] count:    1,  width:    41 [41;41]	(  41 us)
+Pulse period distribution:
+ [ 0] count:   38,  width:   103 [92;112]	( 103 us)
+ [ 1] count:   11,  width:   152 [147;160]	( 152 us)
+ [ 2] count:    3,  width:   204 [200;206]	( 204 us)
+Level estimates [high, low]:  15866,    338
+Frequency offsets [F1, F2]:    9136,  -3745	(+139.4 kHz, -57.1 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 55 52 95 55 2a b6 aa 7f ff ff ff ff ff ff 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 55 52 95 55 2a b6 aa 7f ff ff ff ff ff ff 80 
+Analyzing pulses...
+Total count:   34,  width:  7671		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   27,  width:    48 [42;61]	(  48 us)
+ [ 1] count:    6,  width:    98 [95;107]	(  98 us)
+ [ 2] count:    1,  width:     2 [ 2; 2]	(   2 us)
+Gap width distribution:
+ [ 0] count:   26,  width:    54 [40;62]	(  54 us)
+ [ 1] count:    6,  width:   106 [96;111]	( 106 us)
+ [ 2] count:    1,  width:  3706 [3706;3706]	(3706 us)
+Pulse period distribution:
+ [ 0] count:   23,  width:   102 [97;112]	( 102 us)
+ [ 1] count:    7,  width:   154 [147;161]	( 154 us)
+ [ 2] count:    2,  width:   203 [199;207]	( 203 us)
+ [ 3] count:    1,  width:  3813 [3813;3813]	(3813 us)
+Level estimates [high, low]:  15944,    373
+Frequency offsets [F1, F2]:    9151,  -4087	(+139.6 kHz, -62.4 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 25, long_limit: 73, reset_limit: 3707, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {33} 00 00 81 34 80 : 00000000 00000000 10000001 00110100 1
+[01] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 55 55 15 28 ac aa aa aa ab ff ff ff ff fc 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 55 55 15 28 ac aa aa aa ab ff ff ff ff fc 
+Analyzing pulses...
+Total count:   45,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   37,  width:    46 [42;54]	(  46 us)
+ [ 1] count:    6,  width:    98 [90;104]	(  98 us)
+ [ 2] count:    1,  width:    16 [16;16]	(  16 us)
+ [ 3] count:    1,  width:    10 [10;10]	(  10 us)
+Gap width distribution:
+ [ 0] count:   36,  width:    57 [51;59]	(  57 us)
+ [ 1] count:    7,  width:   104 [103;108]	( 104 us)
+ [ 2] count:    1,  width:  2561 [2561;2561]	(2561 us)
+Pulse period distribution:
+ [ 0] count:   32,  width:   103 [98;110]	( 103 us)
+ [ 1] count:    9,  width:   152 [147;160]	( 152 us)
+ [ 2] count:    2,  width:   206 [200;212]	( 206 us)
+ [ 3] count:    1,  width:  2577 [2577;2577]	(2577 us)
+Level estimates [high, low]:  15885,    394
+Frequency offsets [F1, F2]:    9862,  -2396	(+150.5 kHz, -36.6 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {128} 55 55 49 54 55 55 4b 55 55 52 aa a9 55 55 4a af 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {128} 55 55 49 54 55 55 4b 55 55 52 aa a9 55 55 4a af 
+Analyzing pulses...
+Total count:   63,  width:  7674		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   52,  width:    47 [40;53]	(  47 us)
+ [ 1] count:   10,  width:    98 [92;108]	(  98 us)
+ [ 2] count:    1,  width:     5 [ 5; 5]	(   5 us)
+Gap width distribution:
+ [ 0] count:   50,  width:    56 [51;62]	(  56 us)
+ [ 1] count:   11,  width:   105 [97;115]	( 105 us)
+ [ 2] count:    1,  width:   269 [269;269]	( 269 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   102 [96;110]	( 102 us)
+ [ 1] count:   14,  width:   156 [147;191]	( 156 us)
+ [ 2] count:    3,  width:   210 [206;218]	( 210 us)
+ [ 3] count:    1,  width:   320 [320;320]	( 320 us)
+Level estimates [high, low]:  15968,    348
+Frequency offsets [F1, F2]:    3423,  -2735	(+52.2 kHz, -41.7 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 26, long_limit: 72, reset_limit: 270, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {62} 00 00 81 34 80 09 00 60 
+[01] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {127} 52 aa aa a5 55 51 5b 55 55 54 a8 56 aa aa b5 5e 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {127} 52 aa aa a5 55 51 5b 55 55 54 a8 56 aa aa b5 5e 
+Analyzing pulses...
+Total count:   62,  width:  7399		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   51,  width:    47 [44;57]	(  47 us)
+ [ 1] count:   10,  width:    97 [94;103]	(  97 us)
+ [ 2] count:    1,  width:    62 [62;62]	(  62 us)
+Gap width distribution:
+ [ 0] count:   49,  width:    55 [46;59]	(  55 us)
+ [ 1] count:   11,  width:   106 [97;111]	( 106 us)
+ [ 2] count:    1,  width:    43 [43;43]	(  43 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   102 [96;110]	( 102 us)
+ [ 1] count:   13,  width:   154 [148;161]	( 154 us)
+ [ 2] count:    4,  width:   204 [199;209]	( 204 us)
+Level estimates [high, low]:  15987,    363
+Frequency offsets [F1, F2]:    2506,  -4051	(+38.2 kHz, -61.8 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 54, long_limit: 79, reset_limit: 112, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 7 
+[00] {0} : 
+[01] {18} 00 01 00 : 00000000 00000001 00
+[02] {11} 13 40 : 00010011 010
+[03] {7} 80 : 1000000
+[04] {1} 00 : 0
+[05] {13} 24 00 : 00100100 00000
+[06] {6} 60 : 011000
+
+Detected OOK package
+Analyzing pulses...
+Total count:    3,  width: 23561		(23.6 ms)
+Pulse width distribution:
+ [ 0] count:    3,  width:  7662 [7661;7664]	(7662 us)
+Gap width distribution:
+ [ 0] count:    2,  width:   286 [285;288]	( 286 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:  7950 [7949;7951]	(7950 us)
+Level estimates [high, low]:  15959,    388
+Frequency offsets [F1, F2]:   -1543,      0	(-23.5 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    3,  width: 23561		(23.6 ms)
+Pulse width distribution:
+ [ 0] count:    3,  width:  7661 [7661;7662]	(7661 us)
+Gap width distribution:
+ [ 0] count:    2,  width:   288 [285;292]	( 288 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:  7950 [7946;7954]	(7950 us)
+Level estimates [high, low]:  15972,    348
+Frequency offsets [F1, F2]:   -1800,      0	(-27.5 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {121} 4a aa 55 54 52 a2 b6 ff ff ff ff ff ff ff ff 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {121} 4a aa 55 54 52 a2 b6 ff ff ff ff ff ff ff ff 80 
+Analyzing pulses...
+Total count:   30,  width:  7675		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   24,  width:    47 [42;55]	(  47 us)
+ [ 1] count:    4,  width:    99 [96;103]	(  99 us)
+ [ 2] count:    1,  width:    63 [63;63]	(  63 us)
+ [ 3] count:    1,  width:     1 [ 1; 1]	(   1 us)
+Gap width distribution:
+ [ 0] count:   22,  width:    56 [51;64]	(  56 us)
+ [ 1] count:    5,  width:   105 [100;110]	( 105 us)
+ [ 2] count:    1,  width:    40 [40;40]	(  40 us)
+ [ 3] count:    1,  width:  4274 [4274;4274]	(4274 us)
+Pulse period distribution:
+ [ 0] count:   21,  width:   103 [94;114]	( 103 us)
+ [ 1] count:    5,  width:   153 [147;161]	( 153 us)
+ [ 2] count:    2,  width:   204 [204;205]	( 204 us)
+ [ 3] count:    1,  width:  4329 [4329;4329]	(4329 us)
+Level estimates [high, low]:  15844,    465
+Frequency offsets [F1, F2]:   11278,  -2729	(+172.1 kHz, -41.6 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 55 55 55 15 55 56 df ff ff ff ff ff ff ff e0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 55 55 55 15 55 56 df ff ff ff ff ff ff ff e0 
+Analyzing pulses...
+Total count:   30,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   25,  width:    45 [43;56]	(  45 us)
+ [ 1] count:    4,  width:    96 [91;103]	(  96 us)
+ [ 2] count:    1,  width:     3 [ 3; 3]	(   3 us)
+Gap width distribution:
+ [ 0] count:   23,  width:    57 [51;59]	(  57 us)
+ [ 1] count:    5,  width:   110 [103;114]	( 110 us)
+ [ 2] count:    1,  width:  4271 [4271;4271]	(4271 us)
+Pulse period distribution:
+ [ 0] count:   21,  width:   103 [100;107]	( 103 us)
+ [ 1] count:    5,  width:   154 [148;160]	( 154 us)
+ [ 2] count:    2,  width:   210 [209;211]	( 210 us)
+ [ 3] count:    1,  width:  4315 [4315;4315]	(4315 us)
+Level estimates [high, low]:  15925,    398
+Frequency offsets [F1, F2]:    9503,  -3577	(+145.0 kHz, -54.6 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 24, long_limit: 70, reset_limit: 4272, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {29} 00 00 81 30 : 00000000 00000000 10000001 00110
+[01] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 55 55 55 55 52 55 55 55 55 0a d7 ff ff fc 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 55 55 55 55 52 55 55 55 55 0a d7 ff ff fc 
+Analyzing pulses...
+Total count:   51,  width:  6025		( 6.0 ms)
+Pulse width distribution:
+ [ 0] count:   41,  width:    45 [42;51]	(  45 us)
+ [ 1] count:    8,  width:    98 [95;103]	(  98 us)
+ [ 2] count:    1,  width:    35 [35;35]	(  35 us)
+ [ 3] count:    1,  width:    12 [12;12]	(  12 us)
+Gap width distribution:
+ [ 0] count:   39,  width:    57 [51;61]	(  57 us)
+ [ 1] count:    9,  width:   105 [103;111]	( 105 us)
+ [ 2] count:    1,  width:    79 [79;79]	(  79 us)
+ [ 3] count:    1,  width:    45 [45;45]	(  45 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:   103 [96;109]	( 103 us)
+ [ 1] count:   12,  width:   150 [129;161]	( 150 us)
+ [ 2] count:    3,  width:   205 [205;206]	( 205 us)
+ [ 3] count:    1,  width:    80 [80;80]	(  80 us)
+Level estimates [high, low]:  15943,    398
+Frequency offsets [F1, F2]:   12211,  -2425	(+186.3 kHz, -37.0 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {124} 55 2a aa 94 25 45 2d 15 55 52 aa a5 4a a8 aa f0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {124} 55 2a aa 94 25 45 2d 15 55 52 aa a5 4a a8 aa f0 
+Analyzing pulses...
+Total count:   63,  width:  7674		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   52,  width:    49 [43;60]	(  49 us)
+ [ 1] count:   10,  width:   100 [96;103]	( 100 us)
+ [ 2] count:    1,  width:     5 [ 5; 5]	(   5 us)
+Gap width distribution:
+ [ 0] count:   49,  width:    54 [45;59]	(  54 us)
+ [ 1] count:    1,  width:    42 [42;42]	(  42 us)
+ [ 2] count:   11,  width:   102 [97;108]	( 102 us)
+ [ 3] count:    1,  width:   269 [269;269]	( 269 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   103 [97;110]	( 103 us)
+ [ 1] count:   13,  width:   153 [149;160]	( 153 us)
+ [ 2] count:    4,  width:   204 [199;211]	( 204 us)
+ [ 3] count:    1,  width:   315 [315;315]	( 315 us)
+Level estimates [high, low]:  15863,    392
+Frequency offsets [F1, F2]:    2917,  -2972	(+44.5 kHz, -45.4 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 27, long_limit: 74, reset_limit: 270, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {62} 00 00 81 34 80 09 00 60 
+[01] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 52 a9 2a aa a2 96 a8 55 55 50 5a 54 ab 15 e0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 52 a9 2a aa a2 96 a8 55 55 50 5a 54 ab 15 e0 
+Analyzing pulses...
+Total count:   63,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   52,  width:    48 [44;59]	(  48 us)
+ [ 1] count:   10,  width:   101 [97;109]	( 101 us)
+ [ 2] count:    1,  width:     3 [ 3; 3]	(   3 us)
+Gap width distribution:
+ [ 0] count:   50,  width:    54 [42;59]	(  54 us)
+ [ 1] count:   11,  width:   105 [98;109]	( 105 us)
+ [ 2] count:    1,  width:   265 [265;265]	( 265 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   102 [95;109]	( 102 us)
+ [ 1] count:   13,  width:   154 [148;160]	( 154 us)
+ [ 2] count:    4,  width:   206 [204;212]	( 206 us)
+ [ 3] count:    1,  width:   316 [316;316]	( 316 us)
+Level estimates [high, low]:  15918,    397
+Frequency offsets [F1, F2]:    2923,  -2245	(+44.6 kHz, -34.3 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 25, long_limit: 74, reset_limit: 266, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {62} 00 00 81 34 80 09 00 60 
+[01] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {125} 25 54 aa 55 55 52 da aa a5 55 55 5a aa aa 55 78 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {125} 25 54 aa 55 55 52 da aa a5 55 55 5a aa aa 55 78 
+Analyzing pulses...
+Total count:   63,  width:  7670		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   52,  width:    49 [45;58]	(  49 us)
+ [ 1] count:   10,  width:    97 [95;103]	(  97 us)
+ [ 2] count:    1,  width:     4 [ 4; 4]	(   4 us)
+Gap width distribution:
+ [ 0] count:   50,  width:    53 [42;59]	(  53 us)
+ [ 1] count:   11,  width:   105 [96;110]	( 105 us)
+ [ 2] count:    1,  width:   270 [270;270]	( 270 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   103 [96;109]	( 103 us)
+ [ 1] count:   13,  width:   153 [148;161]	( 153 us)
+ [ 2] count:    4,  width:   205 [204;207]	( 205 us)
+ [ 3] count:    1,  width:   316 [316;316]	( 316 us)
+Level estimates [high, low]:  15862,    359
+Frequency offsets [F1, F2]:    2525,  -2521	(+38.5 kHz, -38.5 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 26, long_limit: 73, reset_limit: 271, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {62} 00 00 81 34 80 09 00 60 
+[01] {0} : 
+
+Detected OOK package
+Analyzing pulses...
+Total count:    3,  width: 23570		(23.6 ms)
+Pulse width distribution:
+ [ 0] count:    3,  width:  7662 [7662;7663]	(7662 us)
+Gap width distribution:
+ [ 0] count:    2,  width:   291 [290;292]	( 291 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:  7953 [7952;7955]	(7953 us)
+Level estimates [high, low]:  15986,    341
+Frequency offsets [F1, F2]:   -1461,      0	(-22.3 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 4a aa aa 25 2a b2 aa aa a9 55 52 92 a5 89 e0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 4a aa aa 25 2a b2 aa aa a9 55 52 92 a5 89 e0 
+Analyzing pulses...
+Total count:   63,  width:  7672		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   51,  width:    48 [40;58]	(  48 us)
+ [ 1] count:   10,  width:    98 [96;103]	(  98 us)
+ [ 2] count:    1,  width:    63 [63;63]	(  63 us)
+ [ 3] count:    1,  width:    11 [11;11]	(  11 us)
+Gap width distribution:
+ [ 0] count:   49,  width:    54 [45;59]	(  54 us)
+ [ 1] count:   11,  width:   107 [103;114]	( 107 us)
+ [ 2] count:    1,  width:    40 [40;40]	(  40 us)
+ [ 3] count:    1,  width:   262 [262;262]	( 262 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   102 [95;109]	( 102 us)
+ [ 1] count:   13,  width:   155 [148;161]	( 155 us)
+ [ 2] count:    4,  width:   203 [199;207]	( 203 us)
+ [ 3] count:    1,  width:   307 [307;307]	( 307 us)
+Level estimates [high, low]:  16000,    311
+Frequency offsets [F1, F2]:    2704,  -2975	(+41.3 kHz, -45.4 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {130} 55 55 55 55 55 55 56 d1 85 55 54 aa 55 55 56 2b c0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {130} 55 55 55 55 55 55 56 d1 85 55 54 aa 55 55 56 2b c0 
+Analyzing pulses...
+Total count:   63,  width:  7672		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   47,  width:    46 [42;56]	(  46 us)
+ [ 1] count:    4,  width:    59 [57;63]	(  59 us)
+ [ 2] count:   10,  width:   100 [96;108]	( 100 us)
+ [ 3] count:    1,  width:    36 [36;36]	(  36 us)
+ [ 4] count:    1,  width:     1 [ 1; 1]	(   1 us)
+Gap width distribution:
+ [ 0] count:   45,  width:    56 [46;61]	(  56 us)
+ [ 1] count:   11,  width:   107 [103;119]	( 107 us)
+ [ 2] count:    5,  width:    43 [40;44]	(  43 us)
+ [ 3] count:    1,  width:   274 [274;274]	( 274 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   103 [94;109]	( 103 us)
+ [ 1] count:   13,  width:   153 [147;169]	( 153 us)
+ [ 2] count:    4,  width:   204 [200;206]	( 204 us)
+ [ 3] count:    1,  width:   325 [325;325]	( 325 us)
+Level estimates [high, low]:  15910,    336
+Frequency offsets [F1, F2]:    2173,  -4922	(+33.2 kHz, -75.1 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 55 55 55 15 54 56 55 55 5f ff ff ff ff ff f8 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 55 55 55 15 54 56 55 55 5f ff ff ff ff ff f8 
+Analyzing pulses...
+Total count:   38,  width:  7671		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   31,  width:    45 [41;55]	(  45 us)
+ [ 1] count:    6,  width:    99 [96;103]	(  99 us)
+ [ 2] count:    1,  width:     8 [ 8; 8]	(   8 us)
+Gap width distribution:
+ [ 0] count:   30,  width:    57 [52;64]	(  57 us)
+ [ 1] count:    6,  width:   106 [102;110]	( 106 us)
+ [ 2] count:    1,  width:  3289 [3289;3289]	(3289 us)
+Pulse period distribution:
+ [ 0] count:   26,  width:   103 [100;109]	( 103 us)
+ [ 1] count:    8,  width:   154 [148;162]	( 154 us)
+ [ 2] count:    2,  width:   205 [205;205]	( 205 us)
+ [ 3] count:    1,  width:  3337 [3337;3337]	(3337 us)
+Level estimates [high, low]:  15910,    300
+Frequency offsets [F1, F2]:    9012,  -2325	(+137.5 kHz, -35.5 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 26, long_limit: 72, reset_limit: 3290, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {37} 00 00 81 34 80 : 00000000 00000000 10000001 00110100 10000
+[01] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {129} 54 aa aa aa 2a aa ad aa aa aa aa a5 aa aa ad 57 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {129} 54 aa aa aa 2a aa ad aa aa aa aa a5 aa aa ad 57 80 
+Analyzing pulses...
+Total count:   63,  width:  7674		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   52,  width:    46 [40;55]	(  46 us)
+ [ 1] count:   10,  width:    97 [92;103]	(  97 us)
+ [ 2] count:    1,  width:     5 [ 5; 5]	(   5 us)
+Gap width distribution:
+ [ 0] count:   50,  width:    56 [50;65]	(  56 us)
+ [ 1] count:   11,  width:   107 [103;110]	( 107 us)
+ [ 2] count:    1,  width:   259 [259;259]	( 259 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   103 [98;115]	( 103 us)
+ [ 1] count:   13,  width:   153 [148;161]	( 153 us)
+ [ 2] count:    4,  width:   202 [200;205]	( 202 us)
+ [ 3] count:    1,  width:   308 [308;308]	( 308 us)
+Level estimates [high, low]:  15939,    345
+Frequency offsets [F1, F2]:    4309,  -2773	(+65.8 kHz, -42.3 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 25, long_limit: 71, reset_limit: 260, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {62} 00 00 81 34 80 09 00 60 
+[01] {0} : 
+
+Detected OOK package
+Analyzing pulses...
+Total count:    2,  width: 15610		(15.6 ms)
+Pulse width distribution:
+ [ 0] count:    2,  width:  7662 [7661;7664]	(7662 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   285 [285;285]	( 285 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:  7949 [7949;7949]	(7949 us)
+Level estimates [high, low]:  15941,    337
+Frequency offsets [F1, F2]:   -2173,      0	(-33.2 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    3,  width: 23564		(23.6 ms)
+Pulse width distribution:
+ [ 0] count:    3,  width:  7662 [7662;7664]	(7662 us)
+Gap width distribution:
+ [ 0] count:    2,  width:   288 [285;291]	( 288 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:  7951 [7947;7955]	(7951 us)
+Level estimates [high, low]:  15879,    318
+Frequency offsets [F1, F2]:   -1531,      0	(-23.4 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {127} 55 55 55 52 aa aa ad aa aa aa aa a5 4a aa ad 5e 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {127} 55 55 55 52 aa aa ad aa aa aa aa a5 4a aa ad 5e 
+Analyzing pulses...
+Total count:   61,  width:  7400		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   49,  width:    46 [44;56]	(  46 us)
+ [ 1] count:   11,  width:    96 [92;103]	(  96 us)
+ [ 2] count:    1,  width:    58 [58;58]	(  58 us)
+Gap width distribution:
+ [ 0] count:   48,  width:    56 [46;59]	(  56 us)
+ [ 1] count:   12,  width:   107 [98;113]	( 107 us)
+Pulse period distribution:
+ [ 0] count:   41,  width:   103 [98;109]	( 103 us)
+ [ 1] count:   15,  width:   153 [148;160]	( 153 us)
+ [ 2] count:    4,  width:   204 [201;210]	( 204 us)
+Level estimates [high, low]:  15889,    395
+Frequency offsets [F1, F2]:    3808,  -2812	(+58.1 kHz, -42.9 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 52, long_limit: 77, reset_limit: 114, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 5 
+[00] {0} : 
+[01] {39} 00 01 02 69 14 : 00000000 00000001 00000010 01101001 0001010
+[02] {6} 48 : 010010
+[03] {0} : 
+[04] {12} 00 80 : 00000000 1000
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 2a aa aa a8 ad ab 0a aa aa a5 2a a9 5a bc 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 2a aa aa a8 ad ab 0a aa aa a5 2a a9 5a bc 
+Analyzing pulses...
+Total count:   61,  width:  7400		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   48,  width:    46 [39;54]	(  46 us)
+ [ 1] count:   11,  width:    97 [88;106]	(  97 us)
+ [ 2] count:    1,  width:    33 [33;33]	(  33 us)
+ [ 3] count:    1,  width:    59 [59;59]	(  59 us)
+Gap width distribution:
+ [ 0] count:   47,  width:    56 [45;66]	(  56 us)
+ [ 1] count:   12,  width:   108 [103;121]	( 108 us)
+ [ 2] count:    1,  width:    41 [41;41]	(  41 us)
+Pulse period distribution:
+ [ 0] count:   41,  width:   103 [91;114]	( 103 us)
+ [ 1] count:   15,  width:   154 [148;172]	( 154 us)
+ [ 2] count:    4,  width:   203 [197;206]	( 203 us)
+Level estimates [high, low]:  15947,    384
+Frequency offsets [F1, F2]:    3841,  -2431	(+58.6 kHz, -37.1 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {128} 55 55 55 55 55 54 56 d5 55 55 55 56 aa aa ab 4f 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {128} 55 55 55 55 55 54 56 d5 55 55 55 56 aa aa ab 4f 
+Analyzing pulses...
+Total count:   62,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   50,  width:    46 [40;52]	(  46 us)
+ [ 1] count:   11,  width:    96 [95;100]	(  96 us)
+ [ 2] count:    1,  width:     4 [ 4; 4]	(   4 us)
+Gap width distribution:
+ [ 0] count:   48,  width:    57 [51;62]	(  57 us)
+ [ 1] count:   12,  width:   108 [105;109]	( 108 us)
+ [ 2] count:    1,  width:   270 [270;270]	( 270 us)
+Pulse period distribution:
+ [ 0] count:   41,  width:   102 [97;108]	( 102 us)
+ [ 1] count:   15,  width:   154 [147;161]	( 154 us)
+ [ 2] count:    4,  width:   204 [203;205]	( 204 us)
+ [ 3] count:    1,  width:   321 [321;321]	( 321 us)
+Level estimates [high, low]:  15977,    310
+Frequency offsets [F1, F2]:    2921,  -3300	(+44.6 kHz, -50.4 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 25, long_limit: 71, reset_limit: 271, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {61} 00 00 81 34 8a 24 00 40 
+[01] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {122} e9 24 aa ea aa aa d8 51 55 55 54 f5 55 55 ab c0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {122} e9 24 aa ea aa aa d8 51 55 55 54 f5 55 55 ab c0 
+Analyzing pulses...
+Total count:   61,  width:  7398		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:    2,  width:    18 [18;18]	(  18 us)
+ [ 1] count:    1,  width:    10 [10;10]	(  10 us)
+ [ 2] count:   45,  width:    46 [38;53]	(  46 us)
+ [ 3] count:   11,  width:    96 [80;104]	(  96 us)
+ [ 4] count:    2,  width:    28 [26;30]	(  28 us)
+Gap width distribution:
+ [ 0] count:   13,  width:   110 [102;121]	( 110 us)
+ [ 1] count:   43,  width:    57 [52;64]	(  57 us)
+ [ 2] count:    2,  width:    41 [41;42]	(  41 us)
+ [ 3] count:    2,  width:    85 [78;93]	(  85 us)
+Pulse period distribution:
+ [ 0] count:   41,  width:   105 [92;139]	( 105 us)
+ [ 1] count:    2,  width:    79 [71;87]	(  79 us)
+ [ 2] count:   13,  width:   155 [153;160]	( 155 us)
+ [ 3] count:    4,  width:   208 [205;219]	( 208 us)
+Level estimates [high, low]:  15886,    353
+Frequency offsets [F1, F2]:    2155,  -3269	(+32.9 kHz, -49.9 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {127} 55 55 55 55 55 55 56 d1 52 d5 55 56 95 55 56 9e 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {127} 55 55 55 55 55 55 56 d1 52 d5 55 56 95 55 56 9e 
+Analyzing pulses...
+Total count:   62,  width:  7672		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   47,  width:    46 [39;51]	(  46 us)
+ [ 1] count:   10,  width:    97 [96;103]	(  97 us)
+ [ 2] count:    4,  width:    60 [58;62]	(  60 us)
+ [ 3] count:    1,  width:     8 [ 8; 8]	(   8 us)
+Gap width distribution:
+ [ 0] count:   47,  width:    55 [45;59]	(  55 us)
+ [ 1] count:   11,  width:   108 [102;110]	( 108 us)
+ [ 2] count:    1,  width:    41 [41;41]	(  41 us)
+ [ 3] count:    1,  width:   159 [159;159]	( 159 us)
+ [ 4] count:    1,  width:   258 [258;258]	( 258 us)
+Pulse period distribution:
+ [ 0] count:   42,  width:   102 [96;110]	( 102 us)
+ [ 1] count:   13,  width:   154 [148;160]	( 154 us)
+ [ 2] count:    5,  width:   207 [199;219]	( 207 us)
+ [ 3] count:    1,  width:   318 [318;318]	( 318 us)
+Level estimates [high, low]:  15867,    363
+Frequency offsets [F1, F2]:    4182,  -3098	(+63.8 kHz, -47.3 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    1,  width:  7660		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:  7660 [7660;7660]	(7660 us)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15970,    387
+Frequency offsets [F1, F2]:   -2675,      0	(-40.8 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 55 55 15 55 56 d5 52 aa aa ad 55 55 2d 3c 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 55 55 15 55 56 d5 52 aa aa ad 55 55 2d 3c 
+Analyzing pulses...
+Total count:   62,  width:  7675		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   50,  width:    47 [38;56]	(  47 us)
+ [ 1] count:   11,  width:    97 [94;102]	(  97 us)
+ [ 2] count:    1,  width:     3 [ 3; 3]	(   3 us)
+Gap width distribution:
+ [ 0] count:   47,  width:    55 [51;60]	(  55 us)
+ [ 1] count:   12,  width:   108 [103;109]	( 108 us)
+ [ 2] count:    1,  width:    42 [42;42]	(  42 us)
+ [ 3] count:    1,  width:   272 [272;272]	( 272 us)
+Pulse period distribution:
+ [ 0] count:   41,  width:   102 [94;109]	( 102 us)
+ [ 1] count:   15,  width:   154 [147;160]	( 154 us)
+ [ 2] count:    4,  width:   203 [197;207]	( 203 us)
+ [ 3] count:    1,  width:   322 [322;322]	( 322 us)
+Level estimates [high, low]:  15906,    399
+Frequency offsets [F1, F2]:    3703,  -3303	(+56.5 kHz, -50.4 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 25, long_limit: 72, reset_limit: 273, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {61} 00 00 81 34 8a 24 00 40 
+[01] {0} : 
+
+Detected OOK package
+Analyzing pulses...
+Total count:    2,  width: 15608		(15.6 ms)
+Pulse width distribution:
+ [ 0] count:    2,  width:  7661 [7660;7663]	(7661 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   285 [285;285]	( 285 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:  7948 [7948;7948]	(7948 us)
+Level estimates [high, low]:  15993,    400
+Frequency offsets [F1, F2]:   -1950,      0	(-29.8 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 49 54 aa aa 55 25 50 aa aa aa d4 a5 4b 57 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 49 54 aa aa 55 25 50 aa aa aa d4 a5 4b 57 80 
+Analyzing pulses...
+Total count:   62,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   48,  width:    46 [37;54]	(  46 us)
+ [ 1] count:   11,  width:    98 [95;109]	(  98 us)
+ [ 2] count:    2,  width:    60 [58;63]	(  60 us)
+ [ 3] count:    1,  width:    17 [17;17]	(  17 us)
+Gap width distribution:
+ [ 0] count:   45,  width:    56 [51;66]	(  56 us)
+ [ 1] count:   12,  width:   107 [98;111]	( 107 us)
+ [ 2] count:    3,  width:    41 [40;44]	(  41 us)
+ [ 3] count:    1,  width:   256 [256;256]	( 256 us)
+Pulse period distribution:
+ [ 0] count:   41,  width:   102 [93;113]	( 102 us)
+ [ 1] count:   15,  width:   154 [148;161]	( 154 us)
+ [ 2] count:    4,  width:   205 [204;207]	( 205 us)
+ [ 3] count:    1,  width:   302 [302;302]	( 302 us)
+Level estimates [high, low]:  15987,    298
+Frequency offsets [F1, F2]:    4233,  -2279	(+64.6 kHz, -34.8 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 55 4a 5d 2a a2 b6 aa aa a2 45 2a aa aa b5 78 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 55 4a 5d 2a a2 b6 aa aa a2 45 2a aa aa b5 78 
+Analyzing pulses...
+Total count:   61,  width:  7674		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   47,  width:    45 [36;54]	(  45 us)
+ [ 1] count:    3,  width:    62 [60;65]	(  62 us)
+ [ 2] count:   10,  width:   100 [96;110]	( 100 us)
+ [ 3] count:    1,  width:     5 [ 5; 5]	(   5 us)
+Gap width distribution:
+ [ 0] count:   44,  width:    57 [51;68]	(  57 us)
+ [ 1] count:    3,  width:    42 [40;44]	(  42 us)
+ [ 2] count:    2,  width:   251 [233;270]	( 251 us)
+ [ 3] count:   11,  width:   107 [97;115]	( 107 us)
+Pulse period distribution:
+ [ 0] count:   40,  width:   102 [94;112]	( 102 us)
+ [ 1] count:    2,  width:   300 [287;314]	( 300 us)
+ [ 2] count:   14,  width:   152 [133;161]	( 152 us)
+ [ 3] count:    4,  width:   205 [205;206]	( 205 us)
+Level estimates [high, low]:  15906,    320
+Frequency offsets [F1, F2]:    3102,  -3668	(+47.3 kHz, -56.0 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    1,  width:  7661		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:  7661 [7661;7661]	(7661 us)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15855,    334
+Frequency offsets [F1, F2]:   -1166,      0	(-17.8 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 55 2a aa aa a8 ad aa a9 55 55 4a aa 7f ff e0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 55 2a aa aa a8 ad aa a9 55 55 4a aa 7f ff e0 
+Analyzing pulses...
+Total count:   55,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   39,  width:    47 [40;58]	(  47 us)
+ [ 1] count:    4,  width:    60 [59;63]	(  60 us)
+ [ 2] count:   10,  width:    98 [96;105]	(  98 us)
+ [ 3] count:    1,  width:    18 [18;18]	(  18 us)
+ [ 4] count:    1,  width:     3 [ 3; 3]	(   3 us)
+Gap width distribution:
+ [ 0] count:   40,  width:    55 [43;59]	(  55 us)
+ [ 1] count:    2,  width:    40 [40;41]	(  40 us)
+ [ 2] count:   11,  width:   106 [99;112]	( 106 us)
+ [ 3] count:    1,  width:  1126 [1126;1126]	(1126 us)
+Pulse period distribution:
+ [ 0] count:   35,  width:   102 [95;110]	( 102 us)
+ [ 1] count:   15,  width:   154 [148;161]	( 154 us)
+ [ 2] count:    3,  width:   205 [204;207]	( 205 us)
+ [ 3] count:    1,  width:  1144 [1144;1144]	(1144 us)
+Level estimates [high, low]:  15969,    360
+Frequency offsets [F1, F2]:    9085,  -2557	(+138.6 kHz, -39.0 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {128} 55 55 55 55 55 28 a5 aa aa a8 aa ad 55 55 56 af 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {128} 55 55 55 55 55 28 a5 aa aa a8 aa ad 55 55 56 af 
+Analyzing pulses...
+Total count:   61,  width:  7399		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   49,  width:    46 [41;58]	(  46 us)
+ [ 1] count:   11,  width:    97 [93;107]	(  97 us)
+ [ 2] count:    1,  width:    61 [61;61]	(  61 us)
+Gap width distribution:
+ [ 0] count:   48,  width:    56 [43;60]	(  56 us)
+ [ 1] count:   12,  width:   106 [101;112]	( 106 us)
+Pulse period distribution:
+ [ 0] count:   41,  width:   103 [96;113]	( 103 us)
+ [ 1] count:   15,  width:   153 [147;160]	( 153 us)
+ [ 2] count:    4,  width:   203 [199;205]	( 203 us)
+Level estimates [high, low]:  15941,    360
+Frequency offsets [F1, F2]:    2168,  -3287	(+33.1 kHz, -50.2 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 53, long_limit: 79, reset_limit: 113, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 5 
+[00] {0} : 
+[01] {24} 00 01 02 : 00000000 00000001 00000010 
+[02] {5} d0 : 11010
+[03] {8} 8a : 10001010 
+[04] {20} 48 00 80 : 01001000 00000000 1000
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {128} 55 55 55 55 55 55 56 d5 54 aa aa ad 55 55 56 af 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {128} 55 55 55 55 55 55 56 d5 54 aa aa ad 55 55 56 af 
+Analyzing pulses...
+Total count:   62,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   50,  width:    46 [43;51]	(  46 us)
+ [ 1] count:   11,  width:    96 [96;98]	(  96 us)
+ [ 2] count:    1,  width:    11 [11;11]	(  11 us)
+Gap width distribution:
+ [ 0] count:   48,  width:    56 [51;60]	(  56 us)
+ [ 1] count:   12,  width:   109 [108;110]	( 109 us)
+ [ 2] count:    1,  width:   262 [262;262]	( 262 us)
+Pulse period distribution:
+ [ 0] count:   41,  width:   102 [97;109]	( 102 us)
+ [ 1] count:   15,  width:   154 [147;161]	( 154 us)
+ [ 2] count:    4,  width:   205 [205;207]	( 205 us)
+ [ 3] count:    1,  width:   310 [310;310]	( 310 us)
+Level estimates [high, low]:  15860,    361
+Frequency offsets [F1, F2]:    3677,  -2755	(+56.1 kHz, -42.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 28, long_limit: 71, reset_limit: 263, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {61} 00 00 81 34 8a 24 00 40 
+[01] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 4a 52 aa 95 55 64 2a a8 aa aa c9 55 57 a7 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 4a 52 aa 95 55 64 2a a8 aa aa c9 55 57 a7 80 
+Analyzing pulses...
+Total count:   61,  width:  7399		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   47,  width:    46 [37;57]	(  46 us)
+ [ 1] count:    2,  width:    35 [34;36]	(  35 us)
+ [ 2] count:   10,  width:    98 [96;105]	(  98 us)
+ [ 3] count:    1,  width:    59 [59;59]	(  59 us)
+ [ 4] count:    1,  width:    27 [27;27]	(  27 us)
+Gap width distribution:
+ [ 0] count:   46,  width:    56 [49;67]	(  56 us)
+ [ 1] count:    1,  width:    78 [78;78]	(  78 us)
+ [ 2] count:   11,  width:   107 [99;112]	( 107 us)
+ [ 3] count:    1,  width:    42 [42;42]	(  42 us)
+ [ 4] count:    1,  width:   178 [178;178]	( 178 us)
+Pulse period distribution:
+ [ 0] count:   40,  width:   102 [85;114]	( 102 us)
+ [ 1] count:   16,  width:   152 [129;161]	( 152 us)
+ [ 2] count:    4,  width:   205 [200;210]	( 205 us)
+Level estimates [high, low]:  15982,    303
+Frequency offsets [F1, F2]:    3000,  -3744	(+45.8 kHz, -57.1 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {127} 55 55 55 52 95 55 5b 55 55 55 55 5a aa aa ad 5e 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {127} 55 55 55 52 95 55 5b 55 55 55 55 5a aa aa ad 5e 
+Analyzing pulses...
+Total count:   61,  width:  7406		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   49,  width:    47 [43;54]	(  47 us)
+ [ 1] count:   11,  width:    96 [95;97]	(  96 us)
+ [ 2] count:    1,  width:    59 [59;59]	(  59 us)
+Gap width distribution:
+ [ 0] count:   48,  width:    55 [51;59]	(  55 us)
+ [ 1] count:   12,  width:   108 [103;110]	( 108 us)
+Pulse period distribution:
+ [ 0] count:   41,  width:   102 [95;110]	( 102 us)
+ [ 1] count:   15,  width:   155 [148;161]	( 155 us)
+ [ 2] count:    4,  width:   203 [199;207]	( 203 us)
+Level estimates [high, low]:  15886,    397
+Frequency offsets [F1, F2]:    5435,  -2713	(+82.9 kHz, -41.4 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 53, long_limit: 77, reset_limit: 111, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 3 
+[00] {58} 00 00 81 34 8a 24 00 40 
+[01] {1} 00 : 0
+[02] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 55 55 55 55 56 d5 54 d5 54 56 aa a5 2d 3c 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 55 55 55 55 56 d5 54 d5 54 56 aa a5 2d 3c 
+Analyzing pulses...
+Total count:   61,  width:  7397		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   48,  width:    46 [36;52]	(  46 us)
+ [ 1] count:   11,  width:    96 [91;107]	(  96 us)
+ [ 2] count:    2,  width:    60 [60;61]	(  60 us)
+Gap width distribution:
+ [ 0] count:   47,  width:    56 [46;61]	(  56 us)
+ [ 1] count:   12,  width:   108 [99;115]	( 108 us)
+ [ 2] count:    1,  width:    42 [42;42]	(  42 us)
+Pulse period distribution:
+ [ 0] count:   41,  width:   103 [96;117]	( 103 us)
+ [ 1] count:   15,  width:   153 [143;167]	( 153 us)
+ [ 2] count:    4,  width:   205 [204;206]	( 205 us)
+Level estimates [high, low]:  15912,    354
+Frequency offsets [F1, F2]:    1923,  -3265	(+29.3 kHz, -49.8 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 53, long_limit: 78, reset_limit: 116, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 3 
+[00] {33} 00 00 81 34 80 : 00000000 00000000 10000001 00110100 1
+[01] {5} 28 : 00101
+[02] {21} 24 00 40 : 00100100 00000000 01000
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {127} 4a aa 95 55 55 55 5b 54 2a 2a aa da aa aa ad 5e 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {127} 4a aa 95 55 55 55 5b 54 2a 2a aa da aa aa ad 5e 
+Analyzing pulses...
+Total count:   61,  width:  7412		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   46,  width:    46 [44;53]	(  46 us)
+ [ 1] count:    4,  width:    60 [58;62]	(  60 us)
+ [ 2] count:   11,  width:    96 [84;109]	(  96 us)
+Gap width distribution:
+ [ 0] count:   45,  width:    56 [51;59]	(  56 us)
+ [ 1] count:    3,  width:    40 [39;41]	(  40 us)
+ [ 2] count:   12,  width:   108 [101;122]	( 108 us)
+Pulse period distribution:
+ [ 0] count:   41,  width:   102 [96;108]	( 102 us)
+ [ 1] count:   16,  width:   157 [148;192]	( 157 us)
+ [ 2] count:    3,  width:   206 [205;208]	( 206 us)
+Level estimates [high, low]:  15923,    329
+Frequency offsets [F1, F2]:    4548,  -3144	(+69.4 kHz, -48.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 53, long_limit: 78, reset_limit: 123, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 6 
+[00] {9} 00 00 : 00000000 0
+[01] {1} 00 : 0
+[02] {3} 00 : 000
+[03] {27} 81 34 8a 20 : 10000001 00110100 10001010 001
+[04] {16} 40 04 : 01000000 00000100 
+[05] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {128} 55 55 55 55 15 55 52 51 0a a8 aa ad 55 55 56 af 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {128} 55 55 55 55 15 55 52 51 0a a8 aa ad 55 55 56 af 
+Analyzing pulses...
+Total count:   62,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   49,  width:    47 [43;58]	(  47 us)
+ [ 1] count:   11,  width:    98 [93;103]	(  98 us)
+ [ 2] count:    1,  width:    59 [59;59]	(  59 us)
+ [ 3] count:    1,  width:     7 [ 7; 7]	(   7 us)
+Gap width distribution:
+ [ 0] count:   46,  width:    55 [45;61]	(  55 us)
+ [ 1] count:   12,  width:   106 [102;112]	( 106 us)
+ [ 2] count:    2,  width:    42 [41;44]	(  42 us)
+ [ 3] count:    1,  width:   267 [267;267]	( 267 us)
+Pulse period distribution:
+ [ 0] count:   41,  width:   102 [94;111]	( 102 us)
+ [ 1] count:   15,  width:   154 [148;160]	( 154 us)
+ [ 2] count:    4,  width:   203 [197;206]	( 203 us)
+ [ 3] count:    1,  width:   310 [310;310]	( 310 us)
+Level estimates [high, low]:  15989,    328
+Frequency offsets [F1, F2]:    3470,  -4070	(+52.9 kHz, -62.1 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {122} 55 55 55 55 55 55 56 d5 54 aa aa ad 53 7f ff c0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {122} 55 55 55 55 55 55 56 d5 54 aa aa ad 53 7f ff c0 
+Analyzing pulses...
+Total count:   54,  width:  6688		( 6.7 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    46 [39;64]	(  46 us)
+ [ 1] count:   10,  width:    96 [96;98]	(  96 us)
+ [ 2] count:    1,  width:    13 [13;13]	(  13 us)
+ [ 3] count:    1,  width:    30 [30;30]	(  30 us)
+Gap width distribution:
+ [ 0] count:   40,  width:    56 [43;59]	(  56 us)
+ [ 1] count:   12,  width:   107 [101;111]	( 107 us)
+ [ 2] count:    1,  width:   160 [160;160]	( 160 us)
+Pulse period distribution:
+ [ 0] count:   34,  width:   103 [96;124]	( 103 us)
+ [ 1] count:   15,  width:   154 [148;160]	( 154 us)
+ [ 2] count:    4,  width:   208 [205;214]	( 208 us)
+Level estimates [high, low]:  15946,    396
+Frequency offsets [F1, F2]:    8758,  -3656	(+133.6 kHz, -55.8 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {127} 55 4b fd 55 55 55 25 55 55 55 55 52 aa aa b5 5e 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {127} 55 4b fd 55 55 55 25 55 55 55 55 52 aa aa b5 5e 
+Analyzing pulses...
+Total count:   60,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   46,  width:    46 [41;56]	(  46 us)
+ [ 1] count:    1,  width:    12 [12;12]	(  12 us)
+ [ 2] count:    1,  width:    31 [31;31]	(  31 us)
+ [ 3] count:   10,  width:    97 [95;103]	(  97 us)
+ [ 4] count:    1,  width:    58 [58;58]	(  58 us)
+ [ 5] count:    1,  width:     2 [ 2; 2]	(   2 us)
+Gap width distribution:
+ [ 0] count:   45,  width:    56 [48;64]	(  56 us)
+ [ 1] count:    1,  width:   407 [407;407]	( 407 us)
+ [ 2] count:   11,  width:   107 [103;111]	( 107 us)
+ [ 3] count:    1,  width:    44 [44;44]	(  44 us)
+ [ 4] count:    1,  width:   271 [271;271]	( 271 us)
+Pulse period distribution:
+ [ 0] count:   40,  width:   102 [95;114]	( 102 us)
+ [ 1] count:    1,  width:   419 [419;419]	( 419 us)
+ [ 2] count:   13,  width:   152 [148;161]	( 152 us)
+ [ 3] count:    4,  width:   208 [202;211]	( 208 us)
+ [ 4] count:    1,  width:   323 [323;323]	( 323 us)
+Level estimates [high, low]:  16000,    337
+Frequency offsets [F1, F2]:    3377,  -2610	(+51.5 kHz, -39.8 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    2,  width: 15607		(15.6 ms)
+Pulse width distribution:
+ [ 0] count:    2,  width:  7661 [7661;7662]	(7661 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   284 [284;284]	( 284 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:  7945 [7945;7945]	(7945 us)
+Level estimates [high, low]:  15876,    322
+Frequency offsets [F1, F2]:   -1965,      0	(-30.0 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 4a a9 48 aa aa b6 aa 97 ff ff ff ff ff ff 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 4a a9 48 aa aa b6 aa 97 ff ff ff ff ff ff 80 
+Analyzing pulses...
+Total count:   38,  width:  7675		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   30,  width:    47 [37;57]	(  47 us)
+ [ 1] count:    6,  width:    97 [95;101]	(  97 us)
+ [ 2] count:    1,  width:    13 [13;13]	(  13 us)
+ [ 3] count:    1,  width:     7 [ 7; 7]	(   7 us)
+Gap width distribution:
+ [ 0] count:   30,  width:    55 [47;59]	(  55 us)
+ [ 1] count:    6,  width:   108 [103;110]	( 108 us)
+ [ 2] count:    1,  width:  3328 [3328;3328]	(3328 us)
+Pulse period distribution:
+ [ 0] count:   26,  width:   103 [95;111]	( 103 us)
+ [ 1] count:    8,  width:   151 [147;154]	( 151 us)
+ [ 2] count:    2,  width:   207 [206;208]	( 207 us)
+ [ 3] count:    1,  width:  3341 [3341;3341]	(3341 us)
+Level estimates [high, low]:  15874,    292
+Frequency offsets [F1, F2]:    9070,  -3327	(+138.4 kHz, -50.8 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {126} 54 aa 55 55 55 51 4b 55 54 aa a4 56 aa a9 62 bc 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {126} 54 aa 55 55 55 51 4b 55 54 aa a4 56 aa a9 62 bc 
+Analyzing pulses...
+Total count:   63,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   51,  width:    46 [37;54]	(  46 us)
+ [ 1] count:   10,  width:    98 [94;106]	(  98 us)
+ [ 2] count:    1,  width:    61 [61;61]	(  61 us)
+ [ 3] count:    1,  width:    17 [17;17]	(  17 us)
+Gap width distribution:
+ [ 0] count:   50,  width:    56 [48;66]	(  56 us)
+ [ 1] count:   11,  width:   106 [100;111]	( 106 us)
+ [ 2] count:    1,  width:   257 [257;257]	( 257 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   103 [96;112]	( 103 us)
+ [ 1] count:   13,  width:   154 [148;160]	( 154 us)
+ [ 2] count:    4,  width:   203 [197;206]	( 203 us)
+ [ 3] count:    1,  width:   302 [302;302]	( 302 us)
+Level estimates [high, low]:  15948,    337
+Frequency offsets [F1, F2]:    3743,  -2433	(+57.1 kHz, -37.1 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {129} 55 55 4a aa aa aa a5 aa aa a9 55 55 aa aa ad 57 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {129} 55 55 4a aa aa aa a5 aa aa a9 55 55 aa aa ad 57 80 
+Analyzing pulses...
+Total count:   62,  width:  7398		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   51,  width:    46 [43;52]	(  46 us)
+ [ 1] count:   10,  width:    96 [91;103]	(  96 us)
+ [ 2] count:    1,  width:    62 [62;62]	(  62 us)
+Gap width distribution:
+ [ 0] count:   49,  width:    56 [51;64]	(  56 us)
+ [ 1] count:   11,  width:   107 [102;110]	( 107 us)
+ [ 2] count:    1,  width:    41 [41;41]	(  41 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   103 [95;114]	( 103 us)
+ [ 1] count:   13,  width:   153 [147;161]	( 153 us)
+ [ 2] count:    4,  width:   203 [199;206]	( 203 us)
+Level estimates [high, low]:  15939,    300
+Frequency offsets [F1, F2]:    2298,  -2895	(+35.1 kHz, -44.2 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 54, long_limit: 79, reset_limit: 111, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {24} 00 00 81 : 00000000 00000000 10000001 
+[01] {37} 69 00 12 00 c0 : 01101001 00000000 00010010 00000000 11000
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {123} 54 aa a5 48 95 45 25 54 52 95 51 5a aa 5b 55 e0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {123} 54 aa a5 48 95 45 25 54 52 95 51 5a aa 5b 55 e0 
+Analyzing pulses...
+Total count:   62,  width:  7398		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   49,  width:    46 [42;53]	(  46 us)
+ [ 1] count:    1,  width:    35 [35;35]	(  35 us)
+ [ 2] count:   10,  width:   101 [92;108]	( 101 us)
+ [ 3] count:    1,  width:    62 [62;62]	(  62 us)
+ [ 4] count:    1,  width:    24 [24;24]	(  24 us)
+Gap width distribution:
+ [ 0] count:   49,  width:    56 [45;68]	(  56 us)
+ [ 1] count:   11,  width:   105 [98;110]	( 105 us)
+ [ 2] count:    1,  width:    41 [41;41]	(  41 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   102 [87;120]	( 102 us)
+ [ 1] count:   13,  width:   154 [147;160]	( 154 us)
+ [ 2] count:    4,  width:   204 [200;207]	( 204 us)
+Level estimates [high, low]:  15914,    302
+Frequency offsets [F1, F2]:    3162,  -3161	(+48.2 kHz, -48.2 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 55 55 55 5f ff ff ff ff ff ff ff ff ff ff e0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 55 55 55 5f ff ff ff ff ff ff ff ff ff ff e0 
+Analyzing pulses...
+Total count:   20,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   16,  width:    45 [44;51]	(  45 us)
+ [ 1] count:    1,  width:    98 [98;98]	(  98 us)
+ [ 2] count:    1,  width:    63 [63;63]	(  63 us)
+ [ 3] count:    1,  width:    32 [32;32]	(  32 us)
+ [ 4] count:    1,  width:     6 [ 6; 6]	(   6 us)
+Gap width distribution:
+ [ 0] count:   16,  width:    56 [51;58]	(  56 us)
+ [ 1] count:    1,  width:   108 [108;108]	( 108 us)
+ [ 2] count:    1,  width:    40 [40;40]	(  40 us)
+ [ 3] count:    1,  width:  5683 [5683;5683]	(5683 us)
+Pulse period distribution:
+ [ 0] count:   16,  width:   103 [102;107]	( 103 us)
+ [ 1] count:    2,  width:   151 [149;153]	( 151 us)
+ [ 2] count:    1,  width:  5715 [5715;5715]	(5715 us)
+Level estimates [high, low]:  15908,    317
+Frequency offsets [F1, F2]:   12925,  -4013	(+197.2 kHz, -61.2 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {122} 55 55 52 4a 95 d5 6d 55 55 55 4f ff ff ff ff c0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {122} 55 55 52 4a 95 d5 6d 55 55 55 4f ff ff ff ff c0 
+Analyzing pulses...
+Total count:   43,  width:  5145		( 5.1 ms)
+Pulse width distribution:
+ [ 0] count:   36,  width:    46 [40;55]	(  46 us)
+ [ 1] count:    6,  width:    96 [94;98]	(  96 us)
+ [ 2] count:    1,  width:    60 [60;60]	(  60 us)
+Gap width distribution:
+ [ 0] count:   34,  width:    57 [46;66]	(  57 us)
+ [ 1] count:    1,  width:    40 [40;40]	(  40 us)
+ [ 2] count:    6,  width:   107 [103;109]	( 107 us)
+ [ 3] count:    1,  width:   206 [206;206]	( 206 us)
+Pulse period distribution:
+ [ 0] count:   31,  width:   103 [94;113]	( 103 us)
+ [ 1] count:    8,  width:   152 [148;155]	( 152 us)
+ [ 2] count:    3,  width:   220 [204;251]	( 220 us)
+Level estimates [high, low]:  15957,    300
+Frequency offsets [F1, F2]:    9044,  -3081	(+138.0 kHz, -47.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 53, long_limit: 78, reset_limit: 207, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 6 
+[00] {0} : 
+[01] {11} 00 00 : 00000000 000
+[02] {4} 10 : 0001
+[03] {1} 00 : 0
+[04] {22} 26 90 00 : 00100110 10010000 000000
+[05] {0} : 
+
+Detected OOK package
+Analyzing pulses...
+Total count:    3,  width: 23563		(23.6 ms)
+Pulse width distribution:
+ [ 0] count:    3,  width:  7662 [7661;7664]	(7662 us)
+Gap width distribution:
+ [ 0] count:    2,  width:   288 [285;292]	( 288 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:  7951 [7946;7956]	(7951 us)
+Level estimates [high, low]:  15919,    281
+Frequency offsets [F1, F2]:   -2170,      0	(-33.1 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 4a aa aa a5 2a b2 55 55 4a aa ad 55 55 6a 78 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 4a aa aa a5 2a b2 55 55 4a aa ad 55 55 6a 78 
+Analyzing pulses...
+Total count:   62,  width:  7400		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   50,  width:    46 [37;54]	(  46 us)
+ [ 1] count:   10,  width:    96 [94;100]	(  96 us)
+ [ 2] count:    2,  width:    58 [58;59]	(  58 us)
+Gap width distribution:
+ [ 0] count:   50,  width:    56 [50;60]	(  56 us)
+ [ 1] count:   11,  width:   107 [98;113]	( 107 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   102 [95;111]	( 102 us)
+ [ 1] count:   13,  width:   153 [149;163]	( 153 us)
+ [ 2] count:    4,  width:   208 [206;213]	( 208 us)
+Level estimates [high, low]:  15926,    320
+Frequency offsets [F1, F2]:    2790,  -3641	(+42.6 kHz, -55.6 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 52, long_limit: 77, reset_limit: 114, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 7 
+[00] {20} 00 00 80 : 00000000 00000000 1000
+[01] {1} 00 : 0
+[02] {16} 9a 40 : 10011010 01000000 
+[03] {0} : 
+[04] {1} 00 : 0
+[05] {18} 48 03 00 : 01001000 00000011 00
+[06] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {128} 55 55 55 55 55 2a ad aa aa a4 aa ab 55 55 5a af 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {128} 55 55 55 55 55 2a ad aa aa a4 aa ab 55 55 5a af 
+Analyzing pulses...
+Total count:   62,  width:  7399		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   52,  width:    47 [40;58]	(  47 us)
+ [ 1] count:   10,  width:    96 [95;98]	(  96 us)
+Gap width distribution:
+ [ 0] count:   50,  width:    55 [45;62]	(  55 us)
+ [ 1] count:   11,  width:   108 [102;110]	( 108 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   103 [96;111]	( 103 us)
+ [ 1] count:   13,  width:   153 [147;161]	( 153 us)
+ [ 2] count:    4,  width:   203 [200;206]	( 203 us)
+Level estimates [high, low]:  15975,    286
+Frequency offsets [F1, F2]:    3836,  -2384	(+58.5 kHz, -36.4 kHz)
+Guessing modulation: Manchester coding
+Attempting demodulation... short_limit: 47, long_limit: 0, reset_limit: 111, demod_arg: 0
+pulse_demod_manchester_zerobit(): Analyzer Device 
+bitbuffer:: Number of rows: 1 
+[00] {72} 00 00 7f 75 33 ff 1d 00 2c 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {128} 55 55 55 55 15 55 56 55 55 55 55 55 2a 92 5a af 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {128} 55 55 55 55 15 55 56 55 55 55 55 55 2a 92 5a af 
+Analyzing pulses...
+Total count:   63,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   52,  width:    47 [40;57]	(  47 us)
+ [ 1] count:   10,  width:    96 [91;103]	(  96 us)
+ [ 2] count:    1,  width:    16 [16;16]	(  16 us)
+Gap width distribution:
+ [ 0] count:   47,  width:    57 [49;63]	(  57 us)
+ [ 1] count:   11,  width:   104 [97;113]	( 104 us)
+ [ 2] count:    3,  width:    41 [41;42]	(  41 us)
+ [ 3] count:    1,  width:   259 [259;259]	( 259 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   104 [97;114]	( 104 us)
+ [ 1] count:   13,  width:   151 [147;159]	( 151 us)
+ [ 2] count:    4,  width:   202 [195;206]	( 202 us)
+ [ 3] count:    1,  width:   299 [299;299]	( 299 us)
+Level estimates [high, low]:  15922,    296
+Frequency offsets [F1, F2]:    4226,  -2627	(+64.5 kHz, -40.1 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 31, long_limit: 71, reset_limit: 260, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {62} 00 00 81 34 80 09 00 60 
+[01] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 55 55 55 54 a9 ff ff ff ff ff ff ff ff ff e0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 55 55 55 54 a9 ff ff ff ff ff ff ff ff ff e0 
+Analyzing pulses...
+Total count:   24,  width:  2630		( 2.6 ms)
+Pulse width distribution:
+ [ 0] count:   21,  width:    46 [41;51]	(  46 us)
+ [ 1] count:    2,  width:   101 [97;105]	( 101 us)
+ [ 2] count:    1,  width:    61 [61;61]	(  61 us)
+Gap width distribution:
+ [ 0] count:   20,  width:    57 [52;62]	(  57 us)
+ [ 1] count:    2,  width:   104 [100;108]	( 104 us)
+ [ 2] count:    1,  width:    41 [41;41]	(  41 us)
+Pulse period distribution:
+ [ 0] count:   20,  width:   103 [97;113]	( 103 us)
+ [ 1] count:    3,  width:   151 [149;154]	( 151 us)
+Level estimates [high, low]:  15912,    311
+Frequency offsets [F1, F2]:    9841,  -2554	(+150.2 kHz, -39.0 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 53, long_limit: 81, reset_limit: 109, demod_arg: 1
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {20} 00 00 80 : 00000000 00000000 1000
+[01] {3} 20 : 001
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {126} 5a a9 55 54 55 55 5b 55 55 55 55 56 ff ff ff fc 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {126} 5a a9 55 54 55 55 5b 55 55 55 55 56 ff ff ff fc 
+Analyzing pulses...
+Total count:   49,  width:  7672		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   38,  width:    46 [42;57]	(  46 us)
+ [ 1] count:    1,  width:    35 [35;35]	(  35 us)
+ [ 2] count:    1,  width:    26 [26;26]	(  26 us)
+ [ 3] count:    8,  width:    97 [92;103]	(  97 us)
+ [ 4] count:    1,  width:     3 [ 3; 3]	(   3 us)
+Gap width distribution:
+ [ 0] count:   38,  width:    56 [42;60]	(  56 us)
+ [ 1] count:    9,  width:   107 [93;114]	( 107 us)
+ [ 2] count:    1,  width:  1959 [1959;1959]	(1959 us)
+Pulse period distribution:
+ [ 0] count:   33,  width:   102 [82;109]	( 102 us)
+ [ 1] count:   12,  width:   153 [128;168]	( 153 us)
+ [ 2] count:    2,  width:   206 [205;207]	( 206 us)
+ [ 3] count:    1,  width:  2051 [2051;2051]	(2051 us)
+Level estimates [high, low]:  15894,    325
+Frequency offsets [F1, F2]:    7815,  -2400	(+119.3 kHz, -36.6 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 55 55 55 55 57 ff ff ff ff ff ff ff ff ff f8 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 55 55 55 55 57 ff ff ff ff ff ff ff ff ff f8 
+Analyzing pulses...
+Total count:   26,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   22,  width:    47 [44;55]	(  47 us)
+ [ 1] count:    1,  width:    94 [94;94]	(  94 us)
+ [ 2] count:    1,  width:    21 [21;21]	(  21 us)
+ [ 3] count:    1,  width:    12 [12;12]	(  12 us)
+ [ 4] count:    1,  width:     1 [ 1; 1]	(   1 us)
+Gap width distribution:
+ [ 0] count:   21,  width:    55 [51;59]	(  55 us)
+ [ 1] count:    3,  width:   112 [111;115]	( 112 us)
+ [ 2] count:    1,  width:  4989 [4989;4989]	(4989 us)
+Pulse period distribution:
+ [ 0] count:   20,  width:   102 [101;108]	( 102 us)
+ [ 1] count:    4,  width:   153 [133;170]	( 153 us)
+ [ 2] count:    1,  width:  5001 [5001;5001]	(5001 us)
+Level estimates [high, low]:  15915,    338
+Frequency offsets [F1, F2]:   10620,  -1770	(+162.1 kHz, -27.0 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 25 55 4a aa a1 f6 aa aa aa a9 6a a9 7f ff 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 25 55 4a aa a1 f6 aa aa aa a9 6a a9 7f ff 80 
+Analyzing pulses...
+Total count:   55,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   41,  width:    47 [40;57]	(  47 us)
+ [ 1] count:    9,  width:    96 [93;107]	(  96 us)
+ [ 2] count:    3,  width:    59 [59;60]	(  59 us)
+ [ 3] count:    1,  width:    13 [13;13]	(  13 us)
+ [ 4] count:    1,  width:     2 [ 2; 2]	(   2 us)
+Gap width distribution:
+ [ 0] count:   41,  width:    56 [45;63]	(  56 us)
+ [ 1] count:    2,  width:    40 [40;41]	(  40 us)
+ [ 2] count:    9,  width:   106 [96;110]	( 106 us)
+ [ 3] count:    1,  width:   309 [309;309]	( 309 us)
+ [ 4] count:    1,  width:  1029 [1029;1029]	(1029 us)
+Pulse period distribution:
+ [ 0] count:   36,  width:   102 [92;113]	( 102 us)
+ [ 1] count:   15,  width:   157 [148;196]	( 157 us)
+ [ 2] count:    1,  width:   369 [369;369]	( 369 us)
+ [ 3] count:    1,  width:   204 [204;204]	( 204 us)
+ [ 4] count:    1,  width:  1042 [1042;1042]	(1042 us)
+Level estimates [high, low]:  15902,    299
+Frequency offsets [F1, F2]:    8381,  -2940	(+127.9 kHz, -44.9 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {121} 54 a5 55 54 55 55 5b 56 3f ff ff ff ff ff ff 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {121} 54 a5 55 54 55 55 5b 56 3f ff ff ff ff ff ff 80 
+Analyzing pulses...
+Total count:   35,  width:  4226		( 4.2 ms)
+Pulse width distribution:
+ [ 0] count:   26,  width:    48 [44;69]	(  48 us)
+ [ 1] count:    6,  width:    99 [96;107]	(  99 us)
+ [ 2] count:    2,  width:    32 [29;36]	(  32 us)
+ [ 3] count:    1,  width:    11 [11;11]	(  11 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    31 [31;31]	(  31 us)
+ [ 1] count:   25,  width:    55 [45;59]	(  55 us)
+ [ 2] count:    6,  width:   109 [102;119]	( 109 us)
+ [ 3] count:    1,  width:    41 [41;41]	(  41 us)
+ [ 4] count:    1,  width:   179 [179;179]	( 179 us)
+Pulse period distribution:
+ [ 0] count:   23,  width:   102 [94;109]	( 102 us)
+ [ 1] count:    8,  width:   154 [148;169]	( 154 us)
+ [ 2] count:    3,  width:   206 [204;208]	( 206 us)
+Level estimates [high, low]:  15963,    344
+Frequency offsets [F1, F2]:   11074,  -2832	(+169.0 kHz, -43.2 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 55 55 15 55 56 d5 55 45 55 56 aa 92 5a bc 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 55 55 15 55 56 d5 55 45 55 56 aa 92 5a bc 
+Analyzing pulses...
+Total count:   62,  width:  7670		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   48,  width:    45 [43;52]	(  45 us)
+ [ 1] count:    2,  width:    59 [59;59]	(  59 us)
+ [ 2] count:   11,  width:    98 [96;109]	(  98 us)
+ [ 3] count:    1,  width:     1 [ 1; 1]	(   1 us)
+Gap width distribution:
+ [ 0] count:   47,  width:    56 [46;60]	(  56 us)
+ [ 1] count:    1,  width:    44 [44;44]	(  44 us)
+ [ 2] count:   12,  width:   108 [96;110]	( 108 us)
+ [ 3] count:    1,  width:   267 [267;267]	( 267 us)
+Pulse period distribution:
+ [ 0] count:   41,  width:   102 [97;109]	( 102 us)
+ [ 1] count:   15,  width:   154 [152;157]	( 154 us)
+ [ 2] count:    4,  width:   205 [205;207]	( 205 us)
+ [ 3] count:    1,  width:   318 [318;318]	( 318 us)
+Level estimates [high, low]:  15993,    339
+Frequency offsets [F1, F2]:    2346,  -2970	(+35.8 kHz, -45.3 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    3,  width: 23564		(23.6 ms)
+Pulse width distribution:
+ [ 0] count:    3,  width:  7664 [7663;7665]	(7664 us)
+Gap width distribution:
+ [ 0] count:    2,  width:   285 [283;288]	( 285 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:  7950 [7948;7953]	(7950 us)
+Level estimates [high, low]:  15958,    317
+Frequency offsets [F1, F2]:   -2768,      0	(-42.2 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {122} 55 2a aa 55 52 aa 96 aa 2a aa 55 6a a5 4b ff c0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {122} 55 2a aa 55 52 aa 96 aa 2a aa 55 6a a5 4b ff c0 
+Analyzing pulses...
+Total count:   58,  width:  6961		( 7.0 ms)
+Pulse width distribution:
+ [ 0] count:   46,  width:    47 [43;58]	(  47 us)
+ [ 1] count:    1,  width:    62 [62;62]	(  62 us)
+ [ 2] count:   10,  width:    98 [95;103]	(  98 us)
+ [ 3] count:    1,  width:    17 [17;17]	(  17 us)
+Gap width distribution:
+ [ 0] count:   45,  width:    55 [48;63]	(  55 us)
+ [ 1] count:    1,  width:    41 [41;41]	(  41 us)
+ [ 2] count:   11,  width:   108 [103;111]	( 108 us)
+Pulse period distribution:
+ [ 0] count:   39,  width:   102 [94;113]	( 102 us)
+ [ 1] count:   15,  width:   153 [149;161]	( 153 us)
+ [ 2] count:    3,  width:   207 [206;211]	( 207 us)
+Level estimates [high, low]:  15955,    275
+Frequency offsets [F1, F2]:    7642,  -4121	(+116.6 kHz, -62.9 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 55 55 4a 2a aa a5 95 55 55 42 92 a9 55 3d e0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 55 55 4a 2a aa a5 95 55 55 42 92 a9 55 3d e0 
+Analyzing pulses...
+Total count:   60,  width:  7399		( 7.4 ms)
+Pulse width distribution:
+ [ 0] count:   47,  width:    46 [38;56]	(  46 us)
+ [ 1] count:   11,  width:   100 [96;108]	( 100 us)
+ [ 2] count:    1,  width:    70 [70;70]	(  70 us)
+ [ 3] count:    1,  width:    21 [21;21]	(  21 us)
+Gap width distribution:
+ [ 0] count:   45,  width:    56 [46;63]	(  56 us)
+ [ 1] count:   12,  width:   107 [98;115]	( 107 us)
+ [ 2] count:    1,  width:    38 [38;38]	(  38 us)
+ [ 3] count:    1,  width:   170 [170;170]	( 170 us)
+Pulse period distribution:
+ [ 0] count:   39,  width:   102 [97;113]	( 102 us)
+ [ 1] count:   16,  width:   155 [149;191]	( 155 us)
+ [ 2] count:    4,  width:   212 [205;221]	( 212 us)
+Level estimates [high, low]:  15985,    306
+Frequency offsets [F1, F2]:    3679,  -3062	(+56.1 kHz, -46.7 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 55 55 55 17 ff ff ff ff ff ff ff ff ff ff e0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 55 55 55 17 ff ff ff ff ff ff ff ff ff ff e0 
+Analyzing pulses...
+Total count:   20,  width:  2216		( 2.2 ms)
+Pulse width distribution:
+ [ 0] count:   16,  width:    47 [44;55]	(  47 us)
+ [ 1] count:    2,  width:    60 [58;62]	(  60 us)
+ [ 2] count:    1,  width:   106 [106;106]	( 106 us)
+ [ 3] count:    1,  width:    20 [20;20]	(  20 us)
+Gap width distribution:
+ [ 0] count:   15,  width:    56 [49;59]	(  56 us)
+ [ 1] count:    2,  width:    42 [41;44]	(  42 us)
+ [ 2] count:    1,  width:    98 [98;98]	(  98 us)
+ [ 3] count:    1,  width:   185 [185;185]	( 185 us)
+Pulse period distribution:
+ [ 0] count:   16,  width:   103 [99;109]	( 103 us)
+ [ 1] count:    2,  width:   154 [153;155]	( 154 us)
+ [ 2] count:    1,  width:   240 [240;240]	( 240 us)
+Level estimates [high, low]:  15979,    354
+Frequency offsets [F1, F2]:   11104,  -2433	(+169.4 kHz, -37.1 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    3,  width: 23567		(23.6 ms)
+Pulse width distribution:
+ [ 0] count:    3,  width:  7661 [7660;7663]	(7661 us)
+Gap width distribution:
+ [ 0] count:    2,  width:   291 [291;292]	( 291 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:  7953 [7952;7955]	(7953 us)
+Level estimates [high, low]:  16004,    320
+Frequency offsets [F1, F2]:   -2637,      0	(-40.2 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    3,  width: 23560		(23.6 ms)
+Pulse width distribution:
+ [ 0] count:    3,  width:  7661 [7660;7662]	(7661 us)
+Gap width distribution:
+ [ 0] count:    2,  width:   288 [285;291]	( 288 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:  7949 [7945;7953]	(7949 us)
+Level estimates [high, low]:  15949,    357
+Frequency offsets [F1, F2]:   -1993,      0	(-30.4 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 55 55 4a 2a 55 49 45 15 55 42 8a aa aa af 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 55 55 4a 2a 55 49 45 15 55 42 8a aa aa af 80 
+Analyzing pulses...
+Total count:   60,  width:  7671		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   46,  width:    47 [41;58]	(  47 us)
+ [ 1] count:   13,  width:   100 [92;107]	( 100 us)
+ [ 2] count:    1,  width:    15 [15;15]	(  15 us)
+Gap width distribution:
+ [ 0] count:   44,  width:    55 [44;64]	(  55 us)
+ [ 1] count:   13,  width:   106 [103;114]	( 106 us)
+ [ 2] count:    1,  width:    43 [43;43]	(  43 us)
+ [ 3] count:    1,  width:   307 [307;307]	( 307 us)
+Pulse period distribution:
+ [ 0] count:   35,  width:   102 [97;108]	( 102 us)
+ [ 1] count:   21,  width:   154 [148;161]	( 154 us)
+ [ 2] count:    2,  width:   205 [205;206]	( 205 us)
+ [ 3] count:    1,  width:   404 [404;404]	( 404 us)
+Level estimates [high, low]:  15958,    321
+Frequency offsets [F1, F2]:    3637,  -2627	(+55.5 kHz, -40.1 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 31, long_limit: 73, reset_limit: 308, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {59} 00 00 81 34 8a 24 48 20 
+[01] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {120} 55 55 52 aa aa aa ad a2 0a a2 aa 8a 8a 95 5f 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {120} 55 55 52 aa aa aa ad a2 0a a2 aa 8a 8a 95 5f 
+Analyzing pulses...
+Total count:   59,  width:  7349		( 7.3 ms)
+Pulse width distribution:
+ [ 0] count:   42,  width:    45 [40;52]	(  45 us)
+ [ 1] count:    2,  width:    33 [33;34]	(  33 us)
+ [ 2] count:   13,  width:   100 [95;108]	( 100 us)
+ [ 3] count:    2,  width:    62 [62;63]	(  62 us)
+Gap width distribution:
+ [ 0] count:   43,  width:    56 [46;70]	(  56 us)
+ [ 1] count:   13,  width:   107 [98;122]	( 107 us)
+ [ 2] count:    2,  width:    42 [41;44]	(  42 us)
+Pulse period distribution:
+ [ 0] count:   35,  width:   102 [91;113]	( 102 us)
+ [ 1] count:   21,  width:   155 [148;163]	( 155 us)
+ [ 2] count:    2,  width:   206 [206;207]	( 206 us)
+Level estimates [high, low]:  15919,    355
+Frequency offsets [F1, F2]:    2872,  -3004	(+43.8 kHz, -45.8 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 55 55 55 55 55 2d aa aa 8a aa aa aa aa ab e0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 55 55 55 55 55 2d aa aa 8a aa aa aa aa ab e0 
+Analyzing pulses...
+Total count:   59,  width:  7346		( 7.3 ms)
+Pulse width distribution:
+ [ 0] count:   46,  width:    47 [44;58]	(  47 us)
+ [ 1] count:   13,  width:    96 [92;103]	(  96 us)
+Gap width distribution:
+ [ 0] count:   44,  width:    56 [42;63]	(  56 us)
+ [ 1] count:   13,  width:   107 [102;110]	( 107 us)
+ [ 2] count:    1,  width:    43 [43;43]	(  43 us)
+Pulse period distribution:
+ [ 0] count:   35,  width:   103 [97;114]	( 103 us)
+ [ 1] count:   21,  width:   153 [147;160]	( 153 us)
+ [ 2] count:    2,  width:   206 [206;206]	( 206 us)
+Level estimates [high, low]:  15937,    363
+Frequency offsets [F1, F2]:    3316,  -4033	(+50.6 kHz, -61.5 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {124} 55 55 55 53 55 55 56 51 45 44 55 55 55 55 55 f0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {124} 55 55 55 53 55 55 56 51 45 44 55 55 55 55 55 f0 
+Analyzing pulses...
+Total count:   60,  width:  7674		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   46,  width:    47 [38;59]	(  47 us)
+ [ 1] count:    1,  width:    68 [68;68]	(  68 us)
+ [ 2] count:   12,  width:    98 [95;103]	(  98 us)
+ [ 3] count:    1,  width:     2 [ 2; 2]	(   2 us)
+Gap width distribution:
+ [ 0] count:   44,  width:    56 [44;66]	(  56 us)
+ [ 1] count:    1,  width:    40 [40;40]	(  40 us)
+ [ 2] count:   13,  width:   108 [103;140]	( 108 us)
+ [ 3] count:    1,  width:   323 [323;323]	( 323 us)
+Pulse period distribution:
+ [ 0] count:   35,  width:   102 [96;109]	( 102 us)
+ [ 1] count:   23,  width:   158 [132;206]	( 158 us)
+ [ 2] count:    1,  width:   419 [419;419]	( 419 us)
+Level estimates [high, low]:  15993,    321
+Frequency offsets [F1, F2]:    3269,  -3544	(+49.9 kHz, -54.1 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 55 55 55 55 55 2d aa a9 15 ff ff ff ff ff 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 55 55 55 55 55 2d aa a9 15 ff ff ff ff ff 80 
+Analyzing pulses...
+Total count:   40,  width:  4889		( 4.9 ms)
+Pulse width distribution:
+ [ 0] count:   30,  width:    45 [42;55]	(  45 us)
+ [ 1] count:    8,  width:    96 [93;103]	(  96 us)
+ [ 2] count:    1,  width:    35 [35;35]	(  35 us)
+ [ 3] count:    1,  width:    59 [59;59]	(  59 us)
+Gap width distribution:
+ [ 0] count:   31,  width:    57 [51;68]	(  57 us)
+ [ 1] count:    8,  width:   109 [102;112]	( 109 us)
+Pulse period distribution:
+ [ 0] count:   25,  width:   102 [93;105]	( 102 us)
+ [ 1] count:   12,  width:   155 [152;161]	( 155 us)
+ [ 2] count:    2,  width:   206 [205;207]	( 206 us)
+Level estimates [high, low]:  15872,    337
+Frequency offsets [F1, F2]:    9289,  -1932	(+141.7 kHz, -29.5 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 54 aa aa aa aa a4 a2 a5 bf ff ff ff ff ff e0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 54 aa aa aa aa a4 a2 a5 bf ff ff ff ff ff e0 
+Analyzing pulses...
+Total count:   38,  width:  4542		( 4.5 ms)
+Pulse width distribution:
+ [ 0] count:   30,  width:    48 [43;57]	(  48 us)
+ [ 1] count:    7,  width:    96 [81;103]	(  96 us)
+ [ 2] count:    1,  width:    11 [11;11]	(  11 us)
+Gap width distribution:
+ [ 0] count:   30,  width:    54 [44;59]	(  54 us)
+ [ 1] count:    7,  width:   109 [102;125]	( 109 us)
+Pulse period distribution:
+ [ 0] count:   25,  width:   102 [96;110]	( 102 us)
+ [ 1] count:   10,  width:   154 [132;179]	( 154 us)
+ [ 2] count:    2,  width:   209 [205;213]	( 209 us)
+Level estimates [high, low]:  15878,    252
+Frequency offsets [F1, F2]:    9040,  -3532	(+137.9 kHz, -53.9 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 29, long_limit: 72, reset_limit: 126, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {37} 00 00 81 34 88 : 00000000 00000000 10000001 00110100 10001
+[01] {0} : 
+
+Detected OOK package
+Analyzing pulses...
+Total count:    3,  width: 23563		(23.6 ms)
+Pulse width distribution:
+ [ 0] count:    3,  width:  7663 [7662;7665]	(7663 us)
+Gap width distribution:
+ [ 0] count:    2,  width:   286 [284;288]	( 286 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:  7950 [7949;7952]	(7950 us)
+Level estimates [high, low]:  15962,    273
+Frequency offsets [F1, F2]:   -1771,      0	(-27.0 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 54 95 55 51 5b 4e aa 88 aa ad 55 54 aa bc 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 54 95 55 51 5b 4e aa 88 aa ad 55 54 aa bc 
+Analyzing pulses...
+Total count:   62,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   49,  width:    45 [42;51]	(  45 us)
+ [ 1] count:   11,  width:    99 [96;105]	(  99 us)
+ [ 2] count:    1,  width:    22 [22;22]	(  22 us)
+ [ 3] count:    1,  width:    16 [16;16]	(  16 us)
+Gap width distribution:
+ [ 0] count:   47,  width:    57 [51;61]	(  57 us)
+ [ 1] count:   12,  width:   107 [102;110]	( 107 us)
+ [ 2] count:    1,  width:    72 [72;72]	(  72 us)
+ [ 3] count:    1,  width:   258 [258;258]	( 258 us)
+Pulse period distribution:
+ [ 0] count:   40,  width:   102 [97;109]	( 102 us)
+ [ 1] count:   17,  width:   154 [132;177]	( 154 us)
+ [ 2] count:    3,  width:   205 [204;206]	( 205 us)
+ [ 3] count:    1,  width:   303 [303;303]	( 303 us)
+Level estimates [high, low]:  15976,    338
+Frequency offsets [F1, F2]:    4465,  -2513	(+68.1 kHz, -38.3 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {127} 55 55 55 55 55 55 56 d1 45 55 55 56 aa aa 95 5e 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {127} 55 55 55 55 55 55 56 d1 45 55 55 56 aa aa 95 5e 
+Analyzing pulses...
+Total count:   62,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   50,  width:    47 [44;68]	(  47 us)
+ [ 1] count:   11,  width:    97 [96;103]	(  97 us)
+ [ 2] count:    1,  width:     3 [ 3; 3]	(   3 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    34 [34;34]	(  34 us)
+ [ 1] count:   47,  width:    56 [50;58]	(  56 us)
+ [ 2] count:   12,  width:   106 [97;110]	( 106 us)
+ [ 3] count:    1,  width:   272 [272;272]	( 272 us)
+Pulse period distribution:
+ [ 0] count:   40,  width:   103 [97;111]	( 103 us)
+ [ 1] count:   17,  width:   154 [153;159]	( 154 us)
+ [ 2] count:    3,  width:   203 [198;206]	( 203 us)
+ [ 3] count:    1,  width:   316 [316;316]	( 316 us)
+Level estimates [high, low]:  15938,    355
+Frequency offsets [F1, F2]:    2830,  -3612	(+43.2 kHz, -55.1 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 25, long_limit: 72, reset_limit: 273, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {61} 00 00 81 34 8a 14 04 00 
+[01] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {124} 55 6a aa aa ea aa ad aa ab d7 ff ff ff ff ff f0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {124} 55 6a aa aa ea aa ad aa ab d7 ff ff ff ff ff f0 
+Analyzing pulses...
+Total count:   40,  width:  7672		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   28,  width:    46 [44;53]	(  46 us)
+ [ 1] count:    1,  width:    31 [31;31]	(  31 us)
+ [ 2] count:    6,  width:    93 [78;97]	(  93 us)
+ [ 3] count:    2,  width:    15 [14;17]	(  15 us)
+ [ 4] count:    1,  width:    66 [66;66]	(  66 us)
+ [ 5] count:    1,  width:    10 [10;10]	(  10 us)
+ [ 6] count:    1,  width:     2 [ 2; 2]	(   2 us)
+Gap width distribution:
+ [ 0] count:   29,  width:    57 [51;71]	(  57 us)
+ [ 1] count:    7,  width:   108 [103;110]	( 108 us)
+ [ 2] count:    1,  width:   167 [167;167]	( 167 us)
+ [ 3] count:    1,  width:   868 [868;868]	( 868 us)
+ [ 4] count:    1,  width:  2212 [2212;2212]	(2212 us)
+Pulse period distribution:
+ [ 0] count:   24,  width:   103 [89;116]	( 103 us)
+ [ 1] count:    9,  width:   153 [131;181]	( 153 us)
+ [ 2] count:    3,  width:   199 [188;205]	( 199 us)
+ [ 3] count:    1,  width:    76 [76;76]	(  76 us)
+ [ 4] count:    1,  width:   915 [915;915]	( 915 us)
+ [ 5] count:    1,  width:  2222 [2222;2222]	(2222 us)
+Level estimates [high, low]:  15891,    439
+Frequency offsets [F1, F2]:    7975,  -2133	(+121.7 kHz, -32.5 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 4a a9 54 2a a2 db 54 25 55 2a d5 55 55 55 e0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 4a a9 54 2a a2 db 54 25 55 2a d5 55 55 55 e0 
+Analyzing pulses...
+Total count:   62,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   50,  width:    46 [43;54]	(  46 us)
+ [ 1] count:   10,  width:    98 [92;107]	(  98 us)
+ [ 2] count:    1,  width:    77 [77;77]	(  77 us)
+ [ 3] count:    1,  width:     5 [ 5; 5]	(   5 us)
+Gap width distribution:
+ [ 0] count:   47,  width:    56 [51;59]	(  56 us)
+ [ 1] count:   12,  width:   109 [103;119]	( 109 us)
+ [ 2] count:    1,  width:    41 [41;41]	(  41 us)
+ [ 3] count:    1,  width:   269 [269;269]	( 269 us)
+Pulse period distribution:
+ [ 0] count:   40,  width:   102 [95;109]	( 102 us)
+ [ 1] count:   19,  width:   160 [148;201]	( 160 us)
+ [ 2] count:    1,  width:   203 [203;203]	( 203 us)
+ [ 3] count:    1,  width:   312 [312;312]	( 312 us)
+Level estimates [high, low]:  15998,    319
+Frequency offsets [F1, F2]:    3408,  -3347	(+52.0 kHz, -51.1 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 4a 55 55 55 55 4b 44 2a aa aa 94 aa aa a5 e0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {123} 55 4a 55 55 55 55 4b 44 2a aa aa 94 aa aa a5 e0 
+Analyzing pulses...
+Total count:   62,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   49,  width:    46 [39;55]	(  46 us)
+ [ 1] count:   11,  width:    99 [96;104]	(  99 us)
+ [ 2] count:    1,  width:    35 [35;35]	(  35 us)
+ [ 3] count:    1,  width:     1 [ 1; 1]	(   1 us)
+Gap width distribution:
+ [ 0] count:   47,  width:    56 [50;68]	(  56 us)
+ [ 1] count:   12,  width:   107 [102;113]	( 107 us)
+ [ 2] count:    1,  width:    44 [44;44]	(  44 us)
+ [ 3] count:    1,  width:   273 [273;273]	( 273 us)
+Pulse period distribution:
+ [ 0] count:   40,  width:   103 [96;114]	( 103 us)
+ [ 1] count:   17,  width:   152 [147;161]	( 152 us)
+ [ 2] count:    3,  width:   208 [199;216]	( 208 us)
+ [ 3] count:    1,  width:   324 [324;324]	( 324 us)
+Level estimates [high, low]:  15871,    342
+Frequency offsets [F1, F2]:    2987,  -3069	(+45.6 kHz, -46.8 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 55 2a aa a8 ac ab d5 54 52 ad 52 a2 aa bc 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {126} 55 55 55 2a aa a8 ac ab d5 54 52 ad 52 a2 aa bc 
+Analyzing pulses...
+Total count:   62,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   48,  width:    46 [43;52]	(  46 us)
+ [ 1] count:   10,  width:    99 [93;108]	(  99 us)
+ [ 2] count:    1,  width:    60 [60;60]	(  60 us)
+ [ 3] count:    1,  width:    22 [22;22]	(  22 us)
+ [ 4] count:    1,  width:    79 [79;79]	(  79 us)
+ [ 5] count:    1,  width:     9 [ 9; 9]	(   9 us)
+Gap width distribution:
+ [ 0] count:   47,  width:    56 [51;60]	(  56 us)
+ [ 1] count:   12,  width:   107 [97;117]	( 107 us)
+ [ 2] count:    1,  width:    81 [81;81]	(  81 us)
+ [ 3] count:    1,  width:   265 [265;265]	( 265 us)
+Pulse period distribution:
+ [ 0] count:   40,  width:   102 [95;108]	( 102 us)
+ [ 1] count:   17,  width:   155 [137;177]	( 155 us)
+ [ 2] count:    3,  width:   205 [205;206]	( 205 us)
+ [ 3] count:    1,  width:   310 [310;310]	( 310 us)
+Level estimates [high, low]:  15983,    306
+Frequency offsets [F1, F2]:    2385,  -3378	(+36.4 kHz, -51.5 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 52 aa 54 4a aa b2 8a aa a2 a8 b5 55 55 55 78 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 52 aa 54 4a aa b2 8a aa a2 a8 b5 55 55 55 78 
+Analyzing pulses...
+Total count:   62,  width:  7674		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   50,  width:    47 [41;70]	(  47 us)
+ [ 1] count:   11,  width:    99 [94;107]	(  99 us)
+ [ 2] count:    1,  width:    10 [10;10]	(  10 us)
+Gap width distribution:
+ [ 0] count:    2,  width:    36 [32;40]	(  36 us)
+ [ 1] count:   46,  width:    56 [47;61]	(  56 us)
+ [ 2] count:   12,  width:   107 [102;115]	( 107 us)
+ [ 3] count:    1,  width:   264 [264;264]	( 264 us)
+Pulse period distribution:
+ [ 0] count:   40,  width:   103 [97;109]	( 103 us)
+ [ 1] count:   17,  width:   154 [149;161]	( 154 us)
+ [ 2] count:    3,  width:   203 [199;206]	( 203 us)
+ [ 3] count:    1,  width:   309 [309;309]	( 309 us)
+Level estimates [high, low]:  15983,    303
+Frequency offsets [F1, F2]:    5392,  -2441	(+82.3 kHz, -37.2 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 28, long_limit: 73, reset_limit: 265, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {61} 00 00 81 34 8a 14 04 00 
+[01] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 52 aa aa 2a 55 5b 55 55 7a f5 5a aa aa aa 78 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {125} 55 52 aa aa 2a 55 5b 55 55 7a f5 5a aa aa aa 78 
+Analyzing pulses...
+Total count:   61,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   46,  width:    47 [43;58]	(  47 us)
+ [ 1] count:   11,  width:    95 [84;102]	(  95 us)
+ [ 2] count:    2,  width:    34 [31;38]	(  34 us)
+ [ 3] count:    1,  width:    12 [12;12]	(  12 us)
+ [ 4] count:    1,  width:     3 [ 3; 3]	(   3 us)
+Gap width distribution:
+ [ 0] count:   46,  width:    55 [50;59]	(  55 us)
+ [ 1] count:   11,  width:   107 [103;110]	( 107 us)
+ [ 2] count:    1,  width:   141 [141;141]	( 141 us)
+ [ 3] count:    1,  width:   191 [191;191]	( 191 us)
+ [ 4] count:    1,  width:   271 [271;271]	( 271 us)
+Pulse period distribution:
+ [ 0] count:   38,  width:   103 [95;110]	( 103 us)
+ [ 1] count:   17,  width:   153 [141;172]	( 153 us)
+ [ 2] count:    4,  width:   205 [203;206]	( 205 us)
+ [ 3] count:    1,  width:   322 [322;322]	( 322 us)
+Level estimates [high, low]:  15887,    328
+Frequency offsets [F1, F2]:    2718,  -4635	(+41.5 kHz, -70.7 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 54 aa 55 55 55 5b 45 57 ff ff ff ff ff ff 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 54 aa 55 55 55 5b 45 57 ff ff ff ff ff ff 80 
+Analyzing pulses...
+Total count:   36,  width:  4231		( 4.2 ms)
+Pulse width distribution:
+ [ 0] count:   27,  width:    46 [41;57]	(  46 us)
+ [ 1] count:    2,  width:    59 [57;61]	(  59 us)
+ [ 2] count:    6,  width:    97 [93;102]	(  97 us)
+ [ 3] count:    1,  width:    19 [19;19]	(  19 us)
+Gap width distribution:
+ [ 0] count:   27,  width:    56 [51;60]	(  56 us)
+ [ 1] count:    2,  width:    41 [40;42]	(  41 us)
+ [ 2] count:    6,  width:   107 [101;113]	( 107 us)
+Pulse period distribution:
+ [ 0] count:   25,  width:   102 [95;108]	( 102 us)
+ [ 1] count:    8,  width:   155 [149;162]	( 155 us)
+ [ 2] count:    2,  width:   203 [201;206]	( 203 us)
+Level estimates [high, low]:  15857,    303
+Frequency offsets [F1, F2]:   10949,  -3575	(+167.1 kHz, -54.6 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {122} 55 55 55 55 3f ff ff ff ff ff ff ff ff ff ff c0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {122} 55 55 55 55 3f ff ff ff ff ff ff ff ff ff ff c0 
+Analyzing pulses...
+Total count:   19,  width:  7672		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   16,  width:    47 [44;58]	(  47 us)
+ [ 1] count:    1,  width:   108 [108;108]	( 108 us)
+ [ 2] count:    1,  width:    19 [19;19]	(  19 us)
+ [ 3] count:    1,  width:     2 [ 2; 2]	(   2 us)
+Gap width distribution:
+ [ 0] count:   15,  width:    55 [51;59]	(  55 us)
+ [ 1] count:    1,  width:    96 [96;96]	(  96 us)
+ [ 2] count:    1,  width:    41 [41;41]	(  41 us)
+ [ 3] count:    1,  width:  5803 [5803;5803]	(5803 us)
+Pulse period distribution:
+ [ 0] count:   15,  width:   103 [100;109]	( 103 us)
+ [ 1] count:    2,  width:   151 [149;154]	( 151 us)
+ [ 2] count:    1,  width:  5822 [5822;5822]	(5822 us)
+Level estimates [high, low]:  15885,    331
+Frequency offsets [F1, F2]:    9483,  -2758	(+144.7 kHz, -42.1 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {125} ea aa a5 55 55 55 4b 55 55 11 54 59 55 55 55 78 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {125} ea aa a5 55 55 55 4b 55 55 11 54 59 55 55 55 78 
+Analyzing pulses...
+Total count:   62,  width:  7672		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:    2,  width:    17 [17;18]	(  17 us)
+ [ 1] count:    1,  width:    23 [23;23]	(  23 us)
+ [ 2] count:   45,  width:    46 [42;52]	(  46 us)
+ [ 3] count:    3,  width:    59 [59;60]	(  59 us)
+ [ 4] count:   11,  width:   100 [96;110]	( 100 us)
+Gap width distribution:
+ [ 0] count:   13,  width:   106 [96;110]	( 106 us)
+ [ 1] count:   47,  width:    55 [45;64]	(  55 us)
+ [ 2] count:    1,  width:   257 [257;257]	( 257 us)
+Pulse period distribution:
+ [ 0] count:   40,  width:   102 [87;125]	( 102 us)
+ [ 1] count:   17,  width:   153 [148;160]	( 153 us)
+ [ 2] count:    3,  width:   205 [205;206]	( 205 us)
+ [ 3] count:    1,  width:   308 [308;308]	( 308 us)
+Level estimates [high, low]:  15975,    362
+Frequency offsets [F1, F2]:    3624,  -2374	(+55.3 kHz, -36.2 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {122} 55 55 55 55 55 54 52 42 a5 55 5f ff ff ff ff c0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {122} 55 55 55 55 55 54 52 42 a5 55 5f ff ff ff ff c0 
+Analyzing pulses...
+Total count:   42,  width:  5094		( 5.1 ms)
+Pulse width distribution:
+ [ 0] count:   34,  width:    46 [42;60]	(  46 us)
+ [ 1] count:    8,  width:    99 [97;103]	(  99 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    40 [40;40]	(  40 us)
+ [ 1] count:   32,  width:    56 [51;62]	(  56 us)
+ [ 2] count:    8,  width:   106 [103;110]	( 106 us)
+Pulse period distribution:
+ [ 0] count:   27,  width:   102 [95;108]	( 102 us)
+ [ 1] count:   12,  width:   154 [148;160]	( 154 us)
+ [ 2] count:    2,  width:   209 [205;213]	( 209 us)
+Level estimates [high, low]:  15864,    369
+Frequency offsets [F1, F2]:    9140,  -2672	(+139.5 kHz, -40.8 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package
+Analyzing pulses...
+Total count:    3,  width: 23560		(23.6 ms)
+Pulse width distribution:
+ [ 0] count:    3,  width:  7661 [7661;7662]	(7661 us)
+Gap width distribution:
+ [ 0] count:    2,  width:   287 [284;291]	( 287 us)
+Pulse period distribution:
+ [ 0] count:    2,  width:  7949 [7946;7953]	(7949 us)
+Level estimates [high, low]:  15985,    297
+Frequency offsets [F1, F2]:   -1733,      0	(-26.4 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {127} 55 54 95 54 52 aa b2 8a aa aa aa a9 55 55 55 5e 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {127} 55 54 95 54 52 aa b2 8a aa aa aa a9 55 55 55 5e 
+Analyzing pulses...
+Total count:   63,  width:  7675		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   47,  width:    46 [43;53]	(  46 us)
+ [ 1] count:    5,  width:    59 [58;62]	(  59 us)
+ [ 2] count:   10,  width:    99 [96;104]	(  99 us)
+ [ 3] count:    1,  width:    16 [16;16]	(  16 us)
+Gap width distribution:
+ [ 0] count:   50,  width:    55 [44;61]	(  55 us)
+ [ 1] count:   11,  width:   104 [97;110]	( 104 us)
+ [ 2] count:    1,  width:   258 [258;258]	( 258 us)
+Pulse period distribution:
+ [ 0] count:   43,  width:   103 [97;112]	( 103 us)
+ [ 1] count:   15,  width:   153 [148;161]	( 153 us)
+ [ 2] count:    3,  width:   203 [200;206]	( 203 us)
+ [ 3] count:    1,  width:   303 [303;303]	( 303 us)
+Level estimates [high, low]:  15954,    274
+Frequency offsets [F1, F2]:    3336,  -2580	(+50.9 kHz, -39.4 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {127} 55 55 55 55 55 55 56 d1 55 4a 92 ab 55 55 55 5e 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {127} 55 55 55 55 55 55 56 d1 55 4a 92 ab 55 55 55 5e 
+Analyzing pulses...
+Total count:   63,  width:  7672		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   52,  width:    46 [44;56]	(  46 us)
+ [ 1] count:   10,  width:    97 [96;102]	(  97 us)
+ [ 2] count:    1,  width:    13 [13;13]	(  13 us)
+Gap width distribution:
+ [ 0] count:   50,  width:    56 [51;59]	(  56 us)
+ [ 1] count:   11,  width:   108 [107;109]	( 108 us)
+ [ 2] count:    1,  width:   260 [260;260]	( 260 us)
+Pulse period distribution:
+ [ 0] count:   43,  width:   102 [96;110]	( 102 us)
+ [ 1] count:   15,  width:   154 [148;160]	( 154 us)
+ [ 2] count:    3,  width:   205 [205;206]	( 205 us)
+ [ 3] count:    1,  width:   305 [305;305]	( 305 us)
+Level estimates [high, low]:  15936,    335
+Frequency offsets [F1, F2]:    3314,  -2443	(+50.6 kHz, -37.3 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 29, long_limit: 71, reset_limit: 261, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {62} 00 00 81 34 80 05 01 20 
+[01] {0} : 
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 4a 92 55 25 55 b5 55 49 2a aa d5 55 55 57 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {121} 55 4a 92 55 25 55 b5 55 49 2a aa d5 55 55 57 80 
+Analyzing pulses...
+Total count:   63,  width:  7672		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   51,  width:    46 [44;57]	(  46 us)
+ [ 1] count:    1,  width:    70 [70;70]	(  70 us)
+ [ 2] count:   10,  width:    96 [95;97]	(  96 us)
+ [ 3] count:    1,  width:     4 [ 4; 4]	(   4 us)
+Gap width distribution:
+ [ 0] count:   49,  width:    55 [44;59]	(  55 us)
+ [ 1] count:    1,  width:    39 [39;39]	(  39 us)
+ [ 2] count:   11,  width:   108 [108;110]	( 108 us)
+ [ 3] count:    1,  width:   270 [270;270]	( 270 us)
+Pulse period distribution:
+ [ 0] count:   43,  width:   102 [96;110]	( 102 us)
+ [ 1] count:   15,  width:   153 [152;154]	( 153 us)
+ [ 2] count:    3,  width:   206 [205;207]	( 206 us)
+ [ 3] count:    1,  width:   316 [316;316]	( 316 us)
+Level estimates [high, low]:  15868,    352
+Frequency offsets [F1, F2]:    2543,  -3733	(+38.8 kHz, -57.0 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {124} 55 54 bd 4a a9 55 6d 55 55 55 2a a5 55 42 aa f0 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {124} 55 54 bd 4a a9 55 6d 55 55 55 2a a5 55 42 aa f0 
+Analyzing pulses...
+Total count:   61,  width:  7673		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   50,  width:    47 [43;59]	(  47 us)
+ [ 1] count:   10,  width:    98 [95;108]	(  98 us)
+ [ 2] count:    1,  width:     7 [ 7; 7]	(   7 us)
+Gap width distribution:
+ [ 0] count:   47,  width:    55 [41;63]	(  55 us)
+ [ 1] count:    2,  width:   261 [255;267]	( 261 us)
+ [ 2] count:   11,  width:   107 [102;110]	( 107 us)
+Pulse period distribution:
+ [ 0] count:   40,  width:   102 [96;115]	( 102 us)
+ [ 1] count:    2,  width:   308 [304;313]	( 308 us)
+ [ 2] count:   15,  width:   154 [147;162]	( 154 us)
+ [ 3] count:    3,  width:   207 [205;211]	( 207 us)
+Level estimates [high, low]:  15982,    315
+Frequency offsets [F1, F2]:    2957,  -2315	(+45.1 kHz, -35.3 kHz)
+Guessing modulation: Pulse Width Modulation with startbit/delimiter
+Attempting demodulation... short_limit: 27, long_limit: 72, reset_limit: 268, demod_arg: 0
+pulse_demod_pwm_ternary(): Analyzer Device 
+bitbuffer:: Number of rows: 2 
+[00] {60} 00 02 04 d2 00 14 04 80 
+[01] {0} : 
+
+Detected OOK package
+Analyzing pulses...
+Total count:    2,  width: 15611		(15.6 ms)
+Pulse width distribution:
+ [ 0] count:    2,  width:  7662 [7661;7664]	(7662 us)
+Gap width distribution:
+ [ 0] count:    1,  width:   286 [286;286]	( 286 us)
+Pulse period distribution:
+ [ 0] count:    1,  width:  7950 [7950;7950]	(7950 us)
+Level estimates [high, low]:  15872,    330
+Frequency offsets [F1, F2]:   -2615,      0	(-39.9 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {121} 52 aa 55 55 57 ff ff ff ff ff ff ff ff ff ff 80 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {121} 52 aa 55 55 57 ff ff ff ff ff ff ff ff ff ff 80 
+Analyzing pulses...
+Total count:   23,  width:  7672		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   18,  width:    45 [42;61]	(  45 us)
+ [ 1] count:    1,  width:    60 [60;60]	(  60 us)
+ [ 2] count:    1,  width:    97 [97;97]	(  97 us)
+ [ 3] count:    1,  width:    20 [20;20]	(  20 us)
+ [ 4] count:    1,  width:    10 [10;10]	(  10 us)
+ [ 5] count:    1,  width:    13 [13;13]	(  13 us)
+Gap width distribution:
+ [ 0] count:   19,  width:    56 [45;61]	(  56 us)
+ [ 1] count:    1,  width:   109 [109;109]	( 109 us)
+ [ 2] count:    1,  width:   344 [344;344]	( 344 us)
+ [ 3] count:    1,  width:  5129 [5129;5129]	(5129 us)
+Pulse period distribution:
+ [ 0] count:   18,  width:   102 [96;109]	( 102 us)
+ [ 1] count:    2,  width:   152 [151;154]	( 152 us)
+ [ 2] count:    1,  width:   364 [364;364]	( 364 us)
+ [ 3] count:    1,  width:  5139 [5139;5139]	(5139 us)
+Level estimates [high, low]:  15923,    407
+Frequency offsets [F1, F2]:   10533,  -2405	(+160.7 kHz, -36.7 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {125} 52 aa aa aa aa 55 5b 54 2a 95 50 a5 52 aa d5 78 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {125} 52 aa aa aa aa 55 5b 54 2a 95 50 a5 52 aa d5 78 
+Analyzing pulses...
+Total count:   63,  width:  7671		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:   50,  width:    46 [41;58]	(  46 us)
+ [ 1] count:    2,  width:    59 [58;61]	(  59 us)
+ [ 2] count:   10,  width:    98 [94;106]	(  98 us)
+ [ 3] count:    1,  width:     3 [ 3; 3]	(   3 us)
+Gap width distribution:
+ [ 0] count:   50,  width:    56 [41;66]	(  56 us)
+ [ 1] count:   11,  width:   107 [97;112]	( 107 us)
+ [ 2] count:    1,  width:   273 [273;273]	( 273 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   102 [94;115]	( 102 us)
+ [ 1] count:   13,  width:   155 [152;161]	( 155 us)
+ [ 2] count:    4,  width:   205 [205;206]	( 205 us)
+ [ 3] count:    1,  width:   314 [314;314]	( 314 us)
+Level estimates [high, low]:  15891,    381
+Frequency offsets [F1, F2]:    3768,  -3217	(+57.5 kHz, -49.1 kHz)
+Guessing modulation: No clue...
+
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {126} e9 2a aa aa aa a2 96 a8 55 4a aa a5 55 55 62 bc 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {126} e9 2a aa aa aa a2 96 a8 55 4a aa a5 55 55 62 bc 
+Analyzing pulses...
+Total count:   63,  width:  7672		( 7.7 ms)
+Pulse width distribution:
+ [ 0] count:    1,  width:    18 [18;18]	(  18 us)
+ [ 1] count:    2,  width:    13 [12;14]	(  13 us)
+ [ 2] count:   50,  width:    46 [43;53]	(  46 us)
+ [ 3] count:   10,  width:   100 [96;107]	( 100 us)
+Gap width distribution:
+ [ 0] count:   12,  width:   107 [97;117]	( 107 us)
+ [ 1] count:   48,  width:    56 [50;62]	(  56 us)
+ [ 2] count:    1,  width:    42 [42;42]	(  42 us)
+ [ 3] count:    1,  width:   262 [262;262]	( 262 us)
+Pulse period distribution:
+ [ 0] count:   44,  width:   102 [76;135]	( 102 us)
+ [ 1] count:   13,  width:   154 [147;162]	( 154 us)
+ [ 2] count:    4,  width:   207 [200;211]	( 207 us)
+ [ 3] count:    1,  width:   307 [307;307]	( 307 us)
+Level estimates [high, low]:  15859,    321
+Frequency offsets [F1, F2]:    3699,  -2882	(+56.4 kHz, -44.0 kHz)
+Guessing modulation: No clue...
+
+Signal caught, exiting!
+Detected FSK package
+bitbuffer:: Number of rows: 1 
+[00] {120} 55 55 2a a5 4b ff ff ff ff ff ff ff ff ff ff 
+pulse_demod_pcm(): infineon tpms (TP37) 
+bitbuffer:: Number of rows: 1 
+[00] {120} 55 55 2a a5 4b ff ff ff ff ff ff ff ff ff ff 
+Analyzing pulses...
+Total count:   21,  width:  2216		( 2.2 ms)
+Pulse width distribution:
+ [ 0] count:   20,  width:    48 [44;71]	(  48 us)
+ [ 1] count:    1,  width:    95 [95;95]	(  95 us)
+Gap width distribution:
+ [ 0] count:    1,  width:    29 [29;29]	(  29 us)
+ [ 1] count:   18,  width:    55 [50;59]	(  55 us)
+ [ 2] count:    1,  width:   110 [110;110]	( 110 us)
+Pulse period distribution:
+ [ 0] count:   18,  width:   102 [95;109]	( 102 us)
+ [ 1] count:    2,  width:   158 [154;162]	( 158 us)
+Level estimates [high, low]:  15897,    337
+Frequency offsets [F1, F2]:   10488,  -3329	(+160.0 kHz, -50.8 kHz)
+Guessing modulation: No clue...
+
+
+User cancel, exiting...
