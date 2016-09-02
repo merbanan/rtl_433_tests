@@ -22,10 +22,10 @@ Everything is documented here:
 http://www.airspayce.com/mikem/arduino/RadioHead/classRH__ASK.html
 
 
+Notes about data:
 
-
-Provided recorded samples are basically a unsigned int counter 
+* 01: Provided recorded samples are basically a unsigned int counter 
 which starts counting from 0. Bitrate is set to 500 bps but can be 
 defined in a wide range.
+* 02: Bitrate to 2000bps (RadioHead default), msg is "hello" in ASCII
 
-Different message lengths and bps can be provided.
