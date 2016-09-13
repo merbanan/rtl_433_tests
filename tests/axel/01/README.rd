@@ -1,14 +1,8 @@
-<<<<<<< HEAD
 ==========================================================================
 Axel wireless temperature sensor
 ==========================================================================
 
-<<<<<<< 120ad8b2a0fb1db456ed903d643a7d536dbb28a7
-Folder 01 contains test files and informaton about Axel wireless temperature sensor. I have used Astrometa DVB-T / DVB-T2 usb-device in my Raspberry Pi model B (Raspbian OS) to collect all the binary data with command: "./rtl_433 -a".
-=======
-This folder contains test files and informaton about Axel wireless temperature sensor.
-I have used Astrometa DVB-T / DVB-T2 usb-device in my Raspberry Pi model B (Raspbian OS) to collect all the data with command: "./rtl_433 -a".
->>>>>>> Updated Readme.rd file
+This folder contains test files and informaton about Axel wireless temperature sensor. I have used Astrometa DVB-T / DVB-T2 usb-device in my Raspberry Pi model B (Raspbian OS) to collect all the data with command: "./rtl_433 -a".
 
 ==========================================================================
 Here are some commands and scripts I have used to convert temperature binary data to decimal values and automatically inserting values to a local sqlite3 database.
@@ -94,12 +88,3 @@ sqlite> select * from temp;
 6|2016-09-13 08:50:01|12.5
 
 ==========================================================================
-=======
-Axel wireless temperature sensor
-=============
-
-This folder contains test files and informaton about Axel wireless temperature sensor.
-I have used Astrometa DVB-T / DVB-T2 usb-device in my Raspberry Pi model B (Raspbian OS) to collect all the data with command: "./rtl_433 -a".
-
-
->>>>>>> da54cb0fe76b8210e2bdc459a680826f55456b1e
