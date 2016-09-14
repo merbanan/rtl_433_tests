@@ -2,15 +2,10 @@
 Axel wireless temperature sensor
 ==========================================================================
 
-<<<<<<< HEAD
 Folder 01 contains test files and information about Axel wireless temperature sensor. I have used Astrometa DVB-T / DVB-T2 usb-device in my Raspberry Pi model B (Raspbian OS) to collect all the binary data with command: "./rtl_433 -a".
 
 Folder 02 contains PHP-scripts to read temperature values from sqlite-database and to create a line graph using JpGraph-library.
 
-=======
-Folder 01 contains test files and informaton about Axel wireless temperature sensor. I have used Astrometa DVB-T / DVB-T2 usb-device in my Raspberry Pi model B (Raspbian OS) to collect all the binary data with command: "./rtl_433 -a".
-
->>>>>>> upstream/master
 ==========================================================================
 Here are some commands and scripts I have used to convert temperature binary data to decimal values and automatically inserting values to a local sqlite3 database.
 ==========================================================================
