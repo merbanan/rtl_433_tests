@@ -24,7 +24,8 @@ EOF;
    $array_string_timestamp = "";
    while($row = $ret->fetchArray(SQLITE3_ASSOC) ){
      $array_string_temperature[] = $row["temperature"];
-     $array_string_timestamp[] = date('G:i', strtotime(getLocaltime($row["timestamp"])));
+     $time_string = date('Y-m-d H:i', strtotime(getLocaltime($row["timestamp"])));
+     $array_string_timestamp[] = strtotime($time_string);
    }
 
    $db->close();
@@ -35,7 +36,7 @@ $xdata = array_reverse($array_string_timestamp);
  function getLocaltime($utc_time)
   {
     $utc_date = DateTime::createFromFormat(
-                'Y-m-d G:i:s', 
+                'Y-m-d H:i:s', 
                 $utc_time, 
                 new DateTimeZone('UTC')
     );
@@ -43,25 +44,24 @@ $xdata = array_reverse($array_string_timestamp);
     $local_date = $utc_date;
     $local_date->setTimeZone(new DateTimeZone('Europe/Helsinki'));
 
-    $timestamp_string = $local_date->format('Y-m-d G:i:s'); 
+    $timestamp_string = $local_date->format('Y-m-d H:i:s'); 
     return $timestamp_string;
   }
 
 require_once('jpgraph/jpgraph.php');
 require_once('jpgraph/jpgraph_line.php');
-//require_once('jpgraph/jpgraph_date.php');
+require_once('jpgraph/jpgraph_date.php');
 
 // Create the graph. These two calls are always required
 $graph = new Graph(800,600);
-$graph->SetScale('textlin');
-$graph->title->SetFont(FF_FONT2);
-$graph->title->Set("Temperature data last 24 hours");
-$graph->yaxis->SetFont(FF_FONT2);
-$graph->xaxis->SetTickLabels($xdata);
-$graph->xaxis->SetTextTickInterval(24,0);
+$graph->SetScale('datlin');
+$graph->xaxis->scale->SetTimeAlign(HOURADJ_1);
+$graph->xaxis->scale->SetDateFormat('H:i');
+$graph->xaxis->SetLabelAngle(90);
 $graph->xgrid->Show(true);
+
 // Create the linear plot
-$lineplot=new LinePlot($ydata);
+$lineplot=new LinePlot($ydata,$xdata);
 $lineplot->SetColor('blue');
 
 // Add the plot to the graph
@@ -71,3 +71,4 @@ $graph->Add($lineplot);
 $graph->StrokeCSIM("temp_graph.php");
 
 ?>
+
