@@ -21,7 +21,7 @@ acurite_th_609_001.data: temp = 26.2°C, Humidity = 76%
 acurite_th_609_002.data: temp = -9.5°C, humidity = 41%
 acurite_th_609_003.data: temp = -9.9°C, humidity = 44%
 acurite_th_609_004.data: temp = -18.9°C, humidity = 71%
+acurite_th_609_lowbatt.data: temp = 21.8°C, humidity = 67%
 
-To Do
------
-- Capture low battery status (if it sends it)
+
+
