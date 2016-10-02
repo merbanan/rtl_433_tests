@@ -7,3 +7,4 @@ Acurite Test Signals
 - 04 - Acurite 986 Refrigerator / Freezer Thermometer (Device 40)
 - 05 - Acurite 606TX Temperature Sensor (Device 54)
 - 06 - Acurite 609A1TX Temperature and Humidity sensor (Device 11)
+- 07 - Acurite 6045M Lightning Detector (Device 39)
