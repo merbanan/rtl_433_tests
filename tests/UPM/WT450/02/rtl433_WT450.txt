@@ -1,0 +1,56 @@
+Tuner gain set to Auto.
+Reading samples in async mode...
+Tuned to 433920000 Hz.
+AcuRite Rain Gauge Total Rain is 1409.5mm
+Raw Message: 34 7b 03 00 00
+pwm_d_decode(): Acurite 896 Rain Gauge 
+bitbuffer:: Number of rows: 1 
+[00] {25} 34 7b 03 00 : 00110100 01111011 00000011 0
+2015-10-02 23:45:18 WT450 sensor: House Code 1, Channel 1, Temperature 21.56 C, Humidity 0 %
+pulse_demod_clock_bits(): WT450 
+bitbuffer:: Number of rows: 1 
+[00] {36} c1 70 04 77 10 : 11000001 01110000 00000100 01110111 0001
+2015-10-02 23:45:18 WT450 sensor: House Code 1, Channel 1, Temperature 21.58 C, Humidity 0 %
+pulse_demod_clock_bits(): WT450 
+bitbuffer:: Number of rows: 1 
+[00] {36} c1 70 04 77 40 : 11000001 01110000 00000100 01110111 0100
+AcuRite Rain Gauge Total Rain is 1408.5mm
+Raw Message: 34 7b 01 00 00
+pwm_d_decode(): Acurite 896 Rain Gauge 
+bitbuffer:: Number of rows: 1 
+[00] {26} 34 7b 01 00 : 00110100 01111011 00000001 00
+2015-10-02 23:45:19 WT450 sensor: House Code 1, Channel 1, Temperature 21.61 C, Humidity 0 %
+pulse_demod_clock_bits(): WT450 
+bitbuffer:: Number of rows: 1 
+[00] {36} c1 70 04 77 b0 : 11000001 01110000 00000100 01110111 1011
+AcuRite Rain Gauge Total Rain is 325.5mm
+Raw Message: 34 c2 8b 00 00
+pwm_d_decode(): Acurite 896 Rain Gauge 
+bitbuffer:: Number of rows: 1 
+[00] {26} 34 c2 8b 00 : 00110100 11000010 10001011 00
+2015-10-02 23:45:46 WT450 sensor: House Code 1, Channel 0, Temperature 21.33 C, Humidity 30 %
+pulse_demod_clock_bits(): WT450 
+bitbuffer:: Number of rows: 1 
+[00] {36} c1 31 e4 74 30 : 11000001 00110001 11100100 01110100 0011
+2015-10-02 23:45:46 WT450 sensor: House Code 1, Channel 0, Temperature 21.35 C, Humidity 30 %
+pulse_demod_clock_bits(): WT450 
+bitbuffer:: Number of rows: 1 
+[00] {36} c1 31 e4 74 60 : 11000001 00110001 11100100 01110100 0110
+2015-10-02 23:45:46 WT450 sensor: House Code 1, Channel 0, Temperature 21.36 C, Humidity 30 %
+pulse_demod_clock_bits(): WT450 
+bitbuffer:: Number of rows: 1 
+[00] {36} c1 31 e4 74 90 : 11000001 00110001 11100100 01110100 1001
+2015-10-02 23:45:57 WT450 sensor: House Code 1, Channel 2, Temperature 21.41 C, Humidity 57 %
+pulse_demod_clock_bits(): WT450 
+bitbuffer:: Number of rows: 1 
+[00] {36} c1 bb 94 75 20 : 11000001 10111011 10010100 01110101 0010
+2015-10-02 23:45:57 WT450 sensor: House Code 1, Channel 2, Temperature 21.43 C, Humidity 57 %
+pulse_demod_clock_bits(): WT450 
+bitbuffer:: Number of rows: 1 
+[00] {36} c1 bb 94 75 70 : 11000001 10111011 10010100 01110101 0111
+2015-10-02 23:45:57 WT450 sensor: House Code 1, Channel 2, Temperature 21.44 C, Humidity 57 %
+pulse_demod_clock_bits(): WT450 
+bitbuffer:: Number of rows: 1 
+[00] {36} c1 bb 94 75 80 : 11000001 10111011 10010100 01110101 1000
+^CSignal caught, exiting!
+

@@ -1,0 +1,4 @@
+Remote button event:
+model = Silvercrest Wireless Doorbell
+id    = 194fad00
+19 4f ad 00
