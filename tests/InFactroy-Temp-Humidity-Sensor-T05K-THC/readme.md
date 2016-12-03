@@ -1,6 +1,6 @@
 # InFactroy Temperature & Humidity Sensor
 
-// Photos
+![alt tag](https://raw.githubusercontent.com/gbraux/rtl_433_tests/master/tests/InFactroy-Temp-Humidity-Sensor-T05K-THC/front.JPG)
 
 This InFactory branded sensor comes with several Wheather Stations sold by Pearl (pearl.fr or pearl.de). This looks like generic chinese made products.
 - Page where you can buy an additionnal sensor (this is what I bought) : https://www.pearl.fr/article/NC3981/station-meteo-radiopilotee-avec-capteur-exterieur-et-ecran-couleur-portrait
