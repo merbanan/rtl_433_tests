@@ -2,12 +2,12 @@
 
 // Photos
 
-This InFactory branded sensor comes with several Wheather Stations sold by Pearl (pearl.fr or pearl.de). This looks like generec chinese made products.
+This InFactory branded sensor comes with several Wheather Stations sold by Pearl (pearl.fr or pearl.de). This looks like generic chinese made products.
 - Page where you can buy an additionnal sensor (this is what I bought) : https://www.pearl.fr/article/NC3981/station-meteo-radiopilotee-avec-capteur-exterieur-et-ecran-couleur-portrait
 - Supported Weather Stations : https://www.pearl.fr/article/NC3981/station-meteo-radiopilotee-avec-capteur-exterieur-et-ecran-couleur-portrait & https://www.pearl.fr/article/PV8796/station-meteo-radiopilotee-avec-capteur-exterieur-et-ecran-led-couleur
 - FCC Radio Certification documents (you can get the manual, pictures ...) : https://fccid.io/WEC-1502 (the certified version is the TXC, which only seems to have temperature sensor, not humidity)
 
-Not that I do NOT have the weather base station, and the sensor do NOT have any king of lcd screen to get the current Temp/Humidity 
+Note that I do NOT have the weather base station, and the sensor do NOT have any kind of lcd screen to get the current Temp/Humidity 
 
 ##My initial findings
 
@@ -25,7 +25,7 @@ N = Those 3 bits never ever changed
 
 ##Datas
 
-I grabbed the following datas. Notice that I think that there is a glitch in my RTL_433 setup, as a -A shows empty frame.
+I grabbed the following datas. Notice that I think that there is a glitch in my RTL_433 setup, as a -A (bellow) shows empty frame. May be the same for my *.data files.
 
 ```
 *** signal_start = 1436510, signal_end = 1718418
@@ -46,7 +46,7 @@ bitbuffer:: Number of rows: 6
 [05] {45} 08 00 00 00 00 00 : 00001000 00000000 00000000 00000000 00000000 00000
 ```
 
-But if I use -D, I am getting datas
+But if I use -D, I am getting the frame !
 
 ```
 Detected OOK package
@@ -78,7 +78,6 @@ Level estimates [high, low]:  16087,     58
 Frequency offsets [F1, F2]:    6157,      0     (+23.5 kHz, +0.0 kHz)
 Guessing modulation: No clue...
 ```
-
 
 Some datas.
 
