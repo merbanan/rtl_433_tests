@@ -7,8 +7,10 @@ The sensor appears to be Hideki, according to Certpedia:
 
 2603104000_31-E0204.pdf is the closest device I was wable to find what comes to manual.
 
-´´rtl_433 -p 42 -a -t -f 433075000
+rtl_433 -p 42 -a -t -f 433075000
 
+
+```
 Found 2 device(s):
   0:  Realtek, RTL2838UHIDIR, SN: 00000001
   1:  Realtek, RTL2838UHIDIR, SN: 00000001
@@ -54,6 +56,6 @@ bitbuffer:: Number of rows: 3
 signal_bszie = 262144  -      sg_index = 0
 start_pos    = 2744126  -   buffer_size = 3145728
 *** Saving signal to file gfile010.data
-*** Writing data from 2744126, len 262144´´
-
+*** Writing data from 2744126, len 262144
+```
 
