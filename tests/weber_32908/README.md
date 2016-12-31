@@ -5,6 +5,7 @@ See images from the sensor and main unit. User manual also attached.
 
 These are samples from a single Weber #32908 oven/grill sensor, taken with BaseN Spime Enabler (based on Olimex iMX233 plus BaseN IO board) and generic R820T SDR stick.
 
+```
 p_limit: 172
 bitbuffer:: Number of rows: 2
 [00] {116} ff ff 92 75 a9 75 f4 bd 75 af b2 5b 75 ff 40
@@ -47,3 +48,4 @@ signal_bszie = 262144  -      sg_index = 524288
 start_pos    = 29858  -   buffer_size = 3145728
 *** Saving signal to file gfile049.data
 *** Writing data from 29858, len 262144
+```
