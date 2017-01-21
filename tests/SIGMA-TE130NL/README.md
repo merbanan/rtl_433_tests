@@ -1,7 +1,7 @@
 SIGMA TE 130NL
 ==============
 
-Temperature only Sensor/Receiver using Hitachi TS-12.
+Temperature only Sensor/Receiver using HIDEKI TS-12 weather sensor.
 
 Assembled in 2004. Seems same model was published from Honeywell.
 
