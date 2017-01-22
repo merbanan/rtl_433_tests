@@ -5,6 +5,15 @@ Temperature only Sensor/Receiver using HIDEKI TS-12 weather sensor.
 
 Assembled in 2004. Seems same model was published from Honeywell.
 
+I've tried to decode signal but still stucked with decoding the temperature value...
+
+What I've discovered so far:
+
+1. Sender uses HIDEKI TS-12 chipset
+2. Signal interval is aprox. 20-30secs
+3. Data is sent 3 times each interval (perhaps this means there is no CRC?)
+4. First three byte seems to be the device ID, (e1 01 17). When replacing the battery (aprox. after 5 secs.) the device ID is renewed.
+
 Probe:
 ------
 
