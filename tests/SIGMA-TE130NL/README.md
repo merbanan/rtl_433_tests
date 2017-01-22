@@ -1,7 +1,7 @@
 SIGMA TE 130NL
 ==============
 
-Temperature only Sensor/Receiver using HIDEKI TS-12 weather sensor.
+Temperature only Sensor/Receiver using HIDEKI temperature sensor.
 
 Assembled in 2004. Seems same model was published from Honeywell.
 
@@ -9,10 +9,11 @@ I've tried to decode signal but still stucked with decoding the temperature valu
 
 What I've discovered so far:
 
-1. Sender uses HIDEKI TS-12 chipset
+1. Sender uses HIDEKI TS02 chipset. FCCID [1] points to TS02 but on circuit it is labelled as TS12-MAIN / TS12-KEY.
 2. Signal interval is aprox. 20-30secs
 3. Data is sent 3 times each interval (perhaps this means there is no CRC?)
-4. First three byte seems to be the device ID, (e1 01 17). When replacing the battery (aprox. after 5 secs.) the device ID is renewed.
+4. First three byte seems to be the device ID (e1 01 17). When replacing the battery (aprox. after 5 secs.) the device ID is renewed.
+5. Discovered timing diagram of sensor [2] 
 
 Probe:
 ------
@@ -85,4 +86,7 @@ Probe:
 	bitbuffer:: Number of rows: 2 
 	[00] {56} e1 01 17 04 08 62 44 
 	[01] {0} : 
+
+[1] https://fccid.io/Q9PTS02-C
+[2] https://fccid.io/document.php?id=350860
 
