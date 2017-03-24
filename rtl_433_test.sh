@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## Your git project directory
-PRJDIR=~/Projects
+PRJDIR=~/Code
 
 ## Test command
 CMD="$PRJDIR/rtl_433/build/src/rtl_433 -G -q -r"	# Enable all decoders, Quiet mode
