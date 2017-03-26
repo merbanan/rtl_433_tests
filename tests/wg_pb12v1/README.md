@@ -4,6 +4,10 @@ WG-PB12v1
 A summary of the recording captures for the testing/characterising of the
 WG-PB12v1 temperature sensor.
 
+The captures included in this test are not complete. There are unknown values
+of the bit stream. The only ones included are those that well known (ie 
+temperature and sensor ID).
+
 Also included are pictures of the WG-PB12v1 base station, temperature sensor 
 and the PCB of the temperature sensor.
 
