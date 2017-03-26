@@ -4,6 +4,8 @@ WG-PB12v1
 A summary of the recording captures for the testing/characterising of the
 WG-PB12v1 temperature sensor.
 
+Also included are pictures of the WG-PB12v1 base station, temperature sensor 
+and the PCB of the temperature sensor.
 
 Folder 01 - Temperature
 ---
