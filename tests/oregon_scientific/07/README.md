@@ -1,6 +1,6 @@
 # WGR968 Anemometer
 
-![WGR968 Anemometer](https://./Oregon-Scientific_WGR968_Anemometer.jpg)
+![WGR968 Anemometer](https://Oregon-Scientific_WGR968_Anemometer.jpg)
 
 This directory contains sample files for the Oregon Scientific WGR968 anemometer, showing the problem with out-of-sequence decoding of the nibbles for wind direction "quadrant" in the devices/oregon_scientific.c file.
 
