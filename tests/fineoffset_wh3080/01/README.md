@@ -23,4 +23,3 @@ are weather sensors samples.
 
 This 433Mhz station version uses 88 bit long messages, is marked as "Pass 15" and is (re)branded as "Froggit".
 
-
