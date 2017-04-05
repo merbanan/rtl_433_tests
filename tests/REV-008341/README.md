@@ -1,3 +1,5 @@
+# REV Model Number : 008341
+
 gfile001.data
 gfile002.data A/1/OFF
 gfile003.data A/1/ON
