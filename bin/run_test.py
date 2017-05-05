@@ -11,8 +11,8 @@ import json
 
 from deepdiff import DeepDiff
 
-def run_rtl433(input_fn, rtl_433_cmd="rtl_433"):
-    cmd = [rtl_433_cmd, '-F', 'json', '-r', input_fn]
+def run_rtl433(input_fn, rtl_433_cmd="rtl_433", samplerate=250000):
+    cmd = [rtl_433_cmd, '-F', 'json', '-s', str(samplerate), '-r', input_fn]
     # print(" ".join(cmd))
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     out, err = p.communicate()
@@ -56,6 +56,12 @@ def main():
             print("WARNING: Missing '%s'" % input_fn)
             continue
 
+        samplerate = 250000
+        samplerate_fn = os.path.join(os.path.dirname(output_fn), "samplerate")
+        if os.path.isfile(samplerate_fn):
+            with open(samplerate_fn, "r") as samplerate_file:
+                samplerate = int(samplerate_file.readline())
+
         # Open expected data
         expected_data = []
         with open(output_fn, "r") as output_file:
@@ -70,7 +76,7 @@ def main():
             expected_data = remove_fields(expected_data, ignore_fields)
 
         # Run rtl_433
-        rtl433out, err = run_rtl433(input_fn, rtl_433_cmd)
+        rtl433out, err = run_rtl433(input_fn, rtl_433_cmd, samplerate)
 
         # get JSON results
         rtl433out = rtl433out.strip()
