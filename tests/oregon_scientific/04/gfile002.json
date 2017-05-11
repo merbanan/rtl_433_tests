@@ -1,1 +1,1 @@
-{"time" : "2015-12-11 00:19:04", "model" : "Thermo Hygro RF Clock Sensor RTGN318", "id" : 52, "channel" : 1, "battery" : "OK", "temperature_C" : 24.600000, "humidity" : 43}
+{"time" : "@0.262144s", "brand" : "OS", "model" : "RTGN318", "id" : 52, "channel" : 1, "battery" : "OK", "temperature_C" : 24.600, "humidity" : 43}
