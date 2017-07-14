@@ -1,0 +1,3 @@
+FSK 8 byte Manchester encoded TPMS with simple checksum.
+Seen on Ford Fiesta, Focus, ...
+Manufacturers would be VDO and Lear.
