@@ -1,1 +1,0 @@
-Pulse status - Openned
