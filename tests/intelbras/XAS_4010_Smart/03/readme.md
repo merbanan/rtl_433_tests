@@ -1,1 +1,1 @@
-Pulse status - Openned
+Pulse (monitoring) status - Open
