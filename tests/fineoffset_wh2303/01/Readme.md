@@ -83,8 +83,76 @@ ID: 120721 = ./**433_988MHz**/gfile001.data + gfile002.data
 
 
 
-Spectrum Captured Using GQRX with an airspy.
+Spectrum Captured Using GQRX with an Airspy.
 
-Station Info pdf included.
+**PS. $./rtl_433 -f 433892e3 -A** yields the following results - >
+
+Detected FSK package	@ 2017-10-19 20:46:01
+
+	Analyzing pulses...
+	Total count:   45,  width:  2799		(11.2 ms)
+	Pulse width distribution:
+	 [ 0] count:    3,  width:    28 [28;29]	( 112 us)
+	 [ 1] count:   37,  width:    14 [14;15]	(  56 us)
+	 [ 2] count:    2,  width:    43 [43;43]	( 172 us)
+	 [ 3] count:    2,  width:    58 [58;58]	( 232 us)
+	 [ 4] count:    1,  width:    73 [73;73]	( 292 us)
+	Gap width distribution:
+	 [ 0] count:   26,  width:    14 [14;16]	(  56 us)
+	 [ 1] count:    5,  width:    43 [43;44]	( 172 us)
+	 [ 2] count:    6,  width:    65 [58;73]	( 260 us)
+	 [ 3] count:    3,  width:    29 [29;29]	( 116 us)
+	 [ 4] count:    2,  width:   123 [116;131]	( 492 us)
+	 [ 5] count:    1,  width:   232 [232;232]	( 928 us)
+	 [ 6] count:    1,  width:   348 [348;348]	(1392 us)
+	Pulse period distribution:
+	 [ 0] count:    4,  width:    43 [43;44]	( 172 us)
+	 [ 1] count:   21,  width:    29 [29;29]	( 116 us)
+	 [ 2] count:    9,  width:    64 [58;73]	( 256 us)
+	 [ 3] count:    6,  width:    89 [87;101]	( 356 us)
+	 [ 4] count:    2,  width:   137 [130;145]	( 548 us)
+	 [ 5] count:    1,  width:   247 [247;247]	( 988 us)
+	 [ 6] count:    1,  width:   362 [362;362]	(1448 us)
+	Level estimates [high, low]:  15953,    113
+	Frequency offsets [F1, F2]:   22978,  -6544	(+87.7 kHz, -25.0 kHz)
+	Guessing modulation: Pulse Code Modulation (Not Return to Zero)
+	Attempting demodulation... short_limit: 14, long_limit: 14, reset_limit: 14336, demod_arg: 0
+	pulse_demod_pcm(): Analyzer Device 
+	bitbuffer:: Number of rows: 1 
+	[00] {198} d5 55 55 55 55 16 ea 12 51 10 f1 06 20 82 00 80 7d 00 00 40 00 00 10 f3 a0 
+
+Detected FSK package	@ 2017-10-19 20:46:49
+
+	Analyzing pulses...
+	Total count:   47,  width:  2799		(11.2 ms)
+	Pulse width distribution:
+	 [ 0] count:    3,  width:    29 [29;29]	( 116 us)
+	 [ 1] count:   39,  width:    14 [14;15]	(  56 us)
+	 [ 2] count:    1,  width:    43 [43;43]	( 172 us)
+	 [ 3] count:    4,  width:    69 [58;73]	( 276 us)
+	Gap width distribution:
+	 [ 0] count:   31,  width:    14 [14;15]	(  56 us)
+	 [ 1] count:    4,  width:    43 [43;43]	( 172 us)
+	 [ 2] count:    4,  width:    69 [58;73]	( 276 us)
+	 [ 3] count:    3,  width:    29 [29;29]	( 116 us)
+	 [ 4] count:    2,  width:   123 [116;131]	( 492 us)
+	 [ 5] count:    1,  width:   232 [232;232]	( 928 us)
+	 [ 6] count:    1,  width:   363 [363;363]	(1452 us)
+	Pulse period distribution:
+	 [ 0] count:    5,  width:    43 [43;44]	( 172 us)
+	 [ 1] count:   25,  width:    29 [29;29]	( 116 us)
+	 [ 2] count:    5,  width:    60 [58;72]	( 240 us)
+	 [ 3] count:    3,  width:   130 [116;145]	( 520 us)
+	 [ 4] count:    6,  width:    87 [87;87]	( 348 us)
+	 [ 5] count:    1,  width:   247 [247;247]	( 988 us)
+	 [ 6] count:    1,  width:   377 [377;377]	(1508 us)
+	Level estimates [high, low]:  15979,     95
+	Frequency offsets [F1, F2]:   22680,  -4768	(+86.5 kHz, -18.2 kHz)
+	Guessing modulation: Pulse Code Modulation (Not Return to Zero)
+	Attempting demodulation... short_limit: 14, long_limit: 14, reset_limit: 14336, demod_arg: 0
+	pulse_demod_pcm(): Analyzer Device 
+	bitbuffer:: Number of rows: 1 
+	[00] {198} d5 55 55 55 55 16 ea 12 51 15 f1 05 a0 82 00 80 7d 00 00 40 00 00 0b cf a0 
+
 
 
