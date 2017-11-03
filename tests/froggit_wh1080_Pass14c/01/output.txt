@@ -1,0 +1,380 @@
+
+root@srvaws:/home/pi# rtl_433 -f 868200000 -l 0 -a -t
+Registering protocol "Silvercrest Remote Control"
+Registering protocol "Rubicson Temperature Sensor"
+Registering protocol "Prologue Temperature Sensor"
+Registering protocol "Waveman Switch Transmitter"
+Registering protocol "Steffen Switch Transmitter"
+Registering protocol "ELV EM 1000"
+Registering protocol "ELV WS 2000"
+Registering protocol "LaCrosse TX Temperature / Humidity Sensor"
+Registering protocol "Acurite 5n1 Weather Station"
+Registering protocol "Acurite Temperature and Humidity Sensor"
+Registering protocol "Oregon Scientific Weather Sensor"
+Registering protocol "Mebus 433"
+Registering protocol "Intertechno 433"
+Registering protocol "KlikAanKlikUit Wireless Switch"
+Registering protocol "AlectoV1 Weather Sensor (Alecto WS3500 WS4500 Ventus W155/W044 Oregon)"
+Registering protocol "Cardin S466-TX2"
+Registering protocol "Fine Offset Electronics, WH-2 Sensor"
+Registering protocol "Nexus Temperature & Humidity Sensor"
+Registering protocol "Ambient Weather Temperature Sensor"
+Registering protocol "Calibeur RF-104 Sensor"
+Registering protocol "X10 RF"
+Registering protocol "DSC Security Contact"
+Registering protocol "Brennstuhl RCS 2044"
+Registering protocol "GT-WT-02 Sensor"
+Registering protocol "Danfoss CFR Thermostat"
+Registering protocol "Energy Count 3000 (868.3 MHz)"
+Registering protocol "Valeo Car Key"
+Registering protocol "Chuango Security Technology"
+Registering protocol "Generic Remote SC226x EV1527"
+Registering protocol "TFA-Twin-Plus-30.3049 and Ea2 BL999"
+Registering protocol "Fine Offset WH1080 Weather Station"
+Registering protocol "WT450"
+Registering protocol "LaCrosse WS-2310 Weather Station"
+Registering protocol "Esperanza EWS"
+Registering protocol "Efergy e2 classic"
+Registering protocol "Inovalley kw9015b rain and Temperature weather station"
+Registering protocol "Generic temperature sensor 1"
+Registering protocol "Acurite 592TXR Temperature/Humidity Sensor and 5n1 Weather Station"
+Registering protocol "Acurite 986 Refrigerator / Freezer Thermometer"
+Registering protocol "HIDEKI TS04 Temperature and Humidity Sensor"
+Registering protocol "Watchman Sonic / Apollo Ultrasonic / Beckett Rocket oil tank monitor"
+Registering protocol "CurrentCost Current Sensor"
+Registering protocol "emonTx OpenEnergyMonitor"
+Registering protocol "HT680 Remote control"
+Registering protocol "S3318P Temperature & Humidity Sensor"
+Registering protocol "Akhan 100F14 remote keyless entry"
+Registering protocol "Quhwa"
+Registering protocol "OSv1 Temperature Sensor"
+Registering protocol "Proove"
+Registering protocol "Bresser Thermo-/Hygro-Sensor 3CH"
+Found 1 device(s):
+  0:  Realtek, RTL2838UHIDIR, SN: 00000001
+
+Using device 0: Generic RTL2832U OEM
+Found Rafael Micro R820T tuner
+Exact sample rate is: 250000.000414 Hz
+[R82XX] PLL not locked!
+Sample rate set to 250000.
+Bit detection level set to 0.
+Tuner gain set to Auto.
+Reading samples in async mode...
+Tuned to 868200000 Hz.
+*** signal_start = 1142896, signal_end = 2340847
+signal_len = 1197951,  pulses = 89
+Iteration 1. t: 564610    min: 296 (88)    max: 1128925 (1)    delta 29929
+Iteration 2. t: 564610    min: 296 (88)    max: 1128925 (1)    delta 0
+Pulse coding: Short pulse length 296 - Long pulse length 1128925
+
+Short distance: 240, long distance: 241, packet distance: 1901
+
+p_limit: 564610
+bitbuffer:: Number of rows: 2
+[00] {1} 80 : 1
+[01] {88} 00 00 00 00 00 00 00 00 00 00 00
+signal_bszie = 2490368  -      sg_index = 1835008
+start_pos    = -954404  -   buffer_size = 3145728
+restart_pos = 2191324
+*** Saving signal to file gfile001.data
+*** Writing data from 2191324, len 954404
+*** Writing data from 0, len 1535964
+*** signal_start = 3776231, signal_end = 3897497
+signal_len = 121266,  pulses = 174
+Iteration 1. t: 246    min: 124 (50)    max: 368 (124)    delta 10
+Iteration 2. t: 246    min: 124 (50)    max: 368 (124)    delta 0
+Pulse coding: Short pulse length 124 - Long pulse length 368
+
+Short distance: 240, long distance: 241, packet distance: 7750
+
+p_limit: 246
+bitbuffer:: Number of rows: 2
+[00] {87} 00 ae fb 15 ad ff ff ff ff e3 b6
+[01] {87} 00 ae fb 15 ad ff ff ff ff e3 b6
+signal_bszie = 262144  -      sg_index = 1835008
+start_pos    = 1241392  -   buffer_size = 3145728
+*** Saving signal to file gfile002.data
+*** Writing data from 1241392, len 262144
+
+*** signal_start = 39801117, signal_end = 39865433
+signal_len = 64316,  pulses = 87
+Iteration 1. t: 246    min: 124 (35)    max: 368 (52)    delta 10
+Iteration 2. t: 246    min: 124 (35)    max: 368 (52)    delta 0
+Pulse coding: Short pulse length 124 - Long pulse length 368
+
+Short distance: 240, long distance: 0, packet distance: 241
+
+p_limit: 246
+bitbuffer:: Number of rows: 25
+[00] {1} 00 : 0
+[01] {1} 00 : 0
+[02] {1} 00 : 0
+[03] {1} 00 : 0
+[04] {1} 00 : 0
+[05] {1} 00 : 0
+[06] {1} 00 : 0
+[07] {1} 00 : 0
+[08] {1} 80 : 1
+[09] {1} 00 : 0
+[10] {1} 00 : 0
+[11] {1} 00 : 0
+[12] {1} 80 : 1
+[13] {1} 80 : 1
+[14] {1} 80 : 1
+[15] {1} 00 : 0
+[16] {1} 80 : 1
+[17] {1} 80 : 1
+[18] {1} 80 : 1
+[19] {1} 00 : 0
+[20] {1} 80 : 1
+[21] {1} 00 : 0
+[22] {1} 80 : 1
+[23] {1} 00 : 0
+[24] {63} f1 af f3 d3 77 b9 75 f2
+signal_bszie = 131072  -      sg_index = 1310720
+start_pos    = 956592  -   buffer_size = 3145728
+*** Saving signal to file gfile003.data
+*** Writing data from 956592, len 131072
+
+*** signal_start = 51801785, signal_end = 51917190
+signal_len = 115405,  pulses = 174
+Iteration 1. t: 246    min: 124 (74)    max: 368 (100)    delta 10
+Iteration 2. t: 246    min: 124 (74)    max: 368 (100)    delta 0
+Pulse coding: Short pulse length 124 - Long pulse length 368
+
+Short distance: 239, long distance: 241, packet distance: 7750
+
+p_limit: 246
+bitbuffer:: Number of rows: 2
+[00] {87} 00 8e ea f1 af 57 d3 77 b9 75 a6
+[01] {87} 00 8e ea f1 af 57 d3 77 b9 75 a6
+signal_bszie = 262144  -      sg_index = 262144
+start_pos    = -236790  -   buffer_size = 3145728
+restart_pos = 2908938
+*** Saving signal to file gfile004.data
+*** Writing data from 2908938, len 236790
+*** Writing data from 0, len 25354
+
+*** signal_start = 63802668, signal_end = 63866011
+signal_len = 63343,  pulses = 87
+Iteration 1. t: 246    min: 125 (39)    max: 368 (48)    delta 13
+Iteration 2. t: 246    min: 125 (39)    max: 368 (48)    delta 0
+Pulse coding: Short pulse length 125 - Long pulse length 368
+
+Short distance: 240, long distance: 0, packet distance: 241
+
+p_limit: 246
+bitbuffer:: Number of rows: 25
+[00] {1} 00 : 0
+[01] {1} 00 : 0
+[02] {1} 00 : 0
+[03] {1} 00 : 0
+[04] {1} 00 : 0
+[05] {1} 00 : 0
+[06] {1} 00 : 0
+[07] {1} 00 : 0
+[08] {1} 80 : 1
+[09] {1} 00 : 0
+[10] {1} 00 : 0
+[11] {1} 00 : 0
+[12] {1} 80 : 1
+[13] {1} 80 : 1
+[14] {1} 80 : 1
+[15] {1} 00 : 0
+[16] {1} 80 : 1
+[17] {1} 80 : 1
+[18] {1} 80 : 1
+[19] {1} 00 : 0
+[20] {1} 80 : 1
+[21] {1} 00 : 0
+[22] {1} 80 : 1
+[23] {1} 00 : 0
+[24] {63} f1 ad 7b d3 77 b9 74 e0
+signal_bszie = 131072  -      sg_index = 2097152
+start_pos    = 1771828  -   buffer_size = 3145728
+*** Saving signal to file gfile005.data
+*** Writing data from 1771828, len 131072
+*** signal_start = 75803213, signal_end = 75918620
+signal_len = 115407,  pulses = 174
+Iteration 1. t: 246    min: 124 (74)    max: 368 (100)    delta 9
+Iteration 2. t: 246    min: 124 (74)    max: 368 (100)    delta 0
+Pulse coding: Short pulse length 124 - Long pulse length 368
+
+Short distance: 240, long distance: 241, packet distance: 7749
+
+p_limit: 246
+bitbuffer:: Number of rows: 2
+[00] {87} 00 8e ea f1 9f 9f d3 77 b9 75 54
+[01] {87} 00 8e ea f1 9f 9f d3 77 b9 75 54
+signal_bszie = 262144  -      sg_index = 1048576
+start_pos    = 580150  -   buffer_size = 3145728
+*** Saving signal to file gfile006.data
+*** Writing data from 580150, len 262144
+*** signal_start = 87803709, signal_end = 87867538
+signal_len = 63829,  pulses = 87
+Iteration 1. t: 246    min: 124 (37)    max: 368 (50)    delta 9
+Iteration 2. t: 246    min: 124 (37)    max: 368 (50)    delta 0
+Pulse coding: Short pulse length 124 - Long pulse length 368
+
+Short distance: 240, long distance: 0, packet distance: 241
+
+p_limit: 246
+bitbuffer:: Number of rows: 25
+[00] {1} 00 : 0
+[01] {1} 00 : 0
+[02] {1} 00 : 0
+[03] {1} 00 : 0
+[04] {1} 00 : 0
+[05] {1} 00 : 0
+[06] {1} 00 : 0
+[07] {1} 00 : 0
+[08] {1} 80 : 1
+[09] {1} 00 : 0
+[10] {1} 00 : 0
+[11] {1} 00 : 0
+[12] {1} 80 : 1
+[13] {1} 80 : 1
+[14] {1} 80 : 1
+[15] {1} 00 : 0
+[16] {1} 80 : 1
+[17] {1} 80 : 1
+[18] {1} 80 : 1
+[19] {1} 00 : 0
+[20] {1} 80 : 1
+[21] {1} 00 : 0
+[22] {1} 80 : 1
+[23] {1} 00 : 0
+[24] {63} f1 9d cf d3 77 b9 74 76
+signal_bszie = 131072  -      sg_index = 2883584
+start_pos    = 2588962  -   buffer_size = 3145728
+*** Saving signal to file gfile007.data
+*** Writing data from 2588962, len 131072
+*** signal_start = 99804211, signal_end = 99925477
+signal_len = 121266,  pulses = 174
+Iteration 1. t: 246    min: 124 (50)    max: 369 (124)    delta 5
+Iteration 2. t: 246    min: 124 (50)    max: 369 (124)    delta 0
+Pulse coding: Short pulse length 124 - Long pulse length 369
+
+Short distance: 240, long distance: 241, packet distance: 7748
+
+p_limit: 246
+bitbuffer:: Number of rows: 2
+[00] {87} 00 ae fb 13 af ff ff ff ff e1 6e
+[01] {87} 00 ae fb 13 af ff ff ff ff e1 6e
+signal_bszie = 262144  -      sg_index = 1835008
+start_pos    = 1407944  -   buffer_size = 3145728
+*** Saving signal to file gfile008.data
+*** Writing data from 1407944, len 262144
+*** signal_start = 111805026, signal_end = 111871785
+signal_len = 66759,  pulses = 87
+Iteration 1. t: 246    min: 124 (25)    max: 369 (62)    delta 5
+Iteration 2. t: 246    min: 124 (25)    max: 369 (62)    delta 0
+Pulse coding: Short pulse length 124 - Long pulse length 369
+
+Short distance: 240, long distance: 0, packet distance: 241
+
+p_limit: 246
+bitbuffer:: Number of rows: 25
+[00] {1} 00 : 0
+[01] {1} 00 : 0
+[02] {1} 00 : 0
+[03] {1} 00 : 0
+[04] {1} 00 : 0
+[05] {1} 00 : 0
+[06] {1} 00 : 0
+[07] {1} 00 : 0
+[08] {1} 80 : 1
+[09] {1} 00 : 0
+[10] {1} 80 : 1
+[11] {1} 00 : 0
+[12] {1} 80 : 1
+[13] {1} 80 : 1
+[14] {1} 80 : 1
+[15] {1} 00 : 0
+[16] {1} 80 : 1
+[17] {1} 80 : 1
+[18] {1} 80 : 1
+[19] {1} 80 : 1
+[20] {1} 80 : 1
+[21] {1} 00 : 0
+[22] {1} 80 : 1
+[23] {1} 80 : 1
+[24] {63} 15 af ff ff ff ff e1 7a
+signal_bszie = 262144  -      sg_index = 524288
+start_pos    = 134736  -   buffer_size = 3145728
+*** Saving signal to file gfile009.data
+*** Writing data from 134736, len 262144
+*** signal_start = 123805662, signal_end = 123926928
+signal_len = 121266,  pulses = 174
+Iteration 1. t: 246    min: 124 (50)    max: 368 (124)    delta 10
+Iteration 2. t: 246    min: 124 (50)    max: 368 (124)    delta 0
+Pulse coding: Short pulse length 124 - Long pulse length 368
+
+Short distance: 240, long distance: 241, packet distance: 7751
+
+p_limit: 246
+bitbuffer:: Number of rows: 2
+[00] {87} 00 ae fb 15 af ff ff ff ff e1 7a
+[01] {87} 00 ae fb 15 af ff ff ff ff e1 7a
+signal_bszie = 262144  -      sg_index = 2621440
+start_pos    = 2224926  -   buffer_size = 3145728
+*** Saving signal to file gfile010.data
+*** Writing data from 2224926, len 262144
+*** signal_start = 135806484, signal_end = 135873243
+signal_len = 66759,  pulses = 87
+Iteration 1. t: 246    min: 124 (25)    max: 368 (62)    delta 10
+Iteration 2. t: 246    min: 124 (25)    max: 368 (62)    delta 0
+Pulse coding: Short pulse length 124 - Long pulse length 368
+
+Short distance: 240, long distance: 0, packet distance: 241
+
+p_limit: 246
+bitbuffer:: Number of rows: 25
+[00] {1} 00 : 0
+[01] {1} 00 : 0
+[02] {1} 00 : 0
+[03] {1} 00 : 0
+[04] {1} 00 : 0
+[05] {1} 00 : 0
+[06] {1} 00 : 0
+[07] {1} 00 : 0
+[08] {1} 80 : 1
+[09] {1} 00 : 0
+[10] {1} 80 : 1
+[11] {1} 00 : 0
+[12] {1} 80 : 1
+[13] {1} 80 : 1
+[14] {1} 80 : 1
+[15] {1} 00 : 0
+[16] {1} 80 : 1
+[17] {1} 80 : 1
+[18] {1} 80 : 1
+[19] {1} 80 : 1
+[20] {1} 80 : 1
+[21] {1} 00 : 0
+[22] {1} 80 : 1
+[23] {1} 80 : 1
+[24] {63} 15 af ff ff ff ff e1 7a
+signal_bszie = 262144  -      sg_index = 1310720
+start_pos    = 951732  -   buffer_size = 3145728
+*** Saving signal to file gfile011.data
+*** Writing data from 951732, len 262144
+*** signal_start = 147807371, signal_end = 147928638
+signal_len = 121267,  pulses = 174
+Iteration 1. t: 246    min: 124 (50)    max: 369 (124)    delta 5
+Iteration 2. t: 246    min: 124 (50)    max: 369 (124)    delta 0
+Pulse coding: Short pulse length 124 - Long pulse length 369
+
+Short distance: 240, long distance: 241, packet distance: 7748
+
+p_limit: 246
+bitbuffer:: Number of rows: 2
+[00] {87} 00 ae fb 15 af ff ff ff ff e1 7a
+[01] {87} 00 ae fb 15 af ff ff ff ff e1 7a
+signal_bszie = 262144  -      sg_index = 262144
+start_pos    = -103302  -   buffer_size = 3145728
+restart_pos = 3042426
+*** Saving signal to file gfile012.data
+*** Writing data from 3042426, len 103302
+*** Writing data from 0, len 158842
