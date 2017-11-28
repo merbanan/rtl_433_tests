@@ -27,46 +27,14 @@ Actually the tank is at 24-25%
 - My purpose is to get the communication between SR and SR_P and get tank level .
 - First is to get packet "readable" for further investigation
 
-- In folder 01 are stored grabbed signals from the SR_P when the SR 
-  is NOT in listening mode. Acting on the reed sensor I get 15 different 
-  signals spaced 1sec each other. 
-  - First test is from gfile001 to gfile015 
-    - gfile001 seems to be an FSK packet
-    - gfile002 to 005 are OOK package (maybe a wakeup signal)
-    - gfile006 another FSK package
-    - gfile007 OOK package
-    - gfile008 and 009 FSK package
-    - gfile010 and 011 OOK
-    - gfile012 FSK
-    - gfile013 and 014 OOK
-    - gfile015 FSK
-  - Second Test gfile016 to 030
-    - all OOK
-  - Third Test gfile031 to 045
-    - gfile031 OOK
-    - gfile032 FSK
-    - gfile033 to 042 OOK
-    - gfile043 FSK
-    - gfile044 OOK
-    - gfile045 FSK
+- In folder 01 are stored first grabbed signals at different sample rate 
 
-- In folder 02 are stored the files when the SR is in receiving/test mode. 
-  Every time i've used the reed on the SR_P the SR beeps and i get 
-  2 transmissions (before were 15)
-  -First Test gfile045 and 046
-   - 045 FSK
-   - 046 OOK
-  -Other Tests
-   - 047 to 049 FSK
+- In folder 02 are stored the latest files grabbed. Sample rate is 2M 
+  
+A spanish manual of the device can be found at: https://fccid.io/ANATEL/04171-13-04439/Manual-EASY-READ-SRP-BRA/8D3562AD-1F22-4A62-B89C-6C89D599ADB5
 
-   - 050 OOK
-   - 051 FSK
+Actual data investigation is stuck on clock recovery. I've found a 101010etc 
+preamble but no success on detrmine sync word, data and crc
 
-   - 052 OOK
-   - 053 FSK
-
-   - 054 OOK
-   - 055 FSK
-
-   - 056 OOK
-   - 057 FSK
+Device make 3 transmission at time, didn't know if all from sender (SR_P) or
+also from receiver (SR)
