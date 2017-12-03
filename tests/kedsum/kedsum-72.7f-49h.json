@@ -1,1 +1,1 @@
-{"time" : "@1.048576s", "model" : "S3318P Temperature & Humidity Sensor", "id" : 201, "channel" : 1, "battery" : "OK", "button" : 1, "temperature_F" : 72.700, "humidity" : 49}
+{"time" : "@1.048576s", "model" : "Kedsum Temperature & Humidity Sensor", "channel" : 1, "temperature_F" : 72.700, "humidity" : 49}
