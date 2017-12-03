@@ -11,8 +11,11 @@ import json
 
 from deepdiff import DeepDiff
 
-def run_rtl433(input_fn, rtl_433_cmd="rtl_433", samplerate=250000):
-    cmd = [rtl_433_cmd, '-F', 'json', '-s', str(samplerate), '-r', input_fn]
+def run_rtl433(input_fn, rtl_433_cmd="rtl_433", samplerate=250000, protocol=None):
+    args = ['-F', 'json', '-s', str(samplerate), '-r', input_fn]
+    if protocol:
+        args = ['-R', str(protocol)] + args
+    cmd = [rtl_433_cmd] + args
     # print(" ".join(cmd))
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     out, err = p.communicate()
@@ -62,6 +65,12 @@ def main():
             with open(samplerate_fn, "r") as samplerate_file:
                 samplerate = int(samplerate_file.readline())
 
+        protocol = None
+        protocol_fn = os.path.join(os.path.dirname(output_fn), "protocol")
+        if os.path.isfile(protocol_fn):
+            with open(protocol_fn, "r") as protocol_file:
+                protocol = int(protocol_file.readline())
+
         # Open expected data
         expected_data = []
         with open(output_fn, "r") as output_file:
@@ -76,7 +85,7 @@ def main():
             expected_data = remove_fields(expected_data, ignore_fields)
 
         # Run rtl_433
-        rtl433out, err = run_rtl433(input_fn, rtl_433_cmd, samplerate)
+        rtl433out, err = run_rtl433(input_fn, rtl_433_cmd, samplerate, protocol)
 
         # get JSON results
         rtl433out = rtl433out.strip()
