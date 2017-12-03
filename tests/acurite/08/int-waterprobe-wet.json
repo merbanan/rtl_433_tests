@@ -1,3 +1,1 @@
-{"time" : "@0.000000s", "model" : "00276rm", "probe" : 1, "id" : 5583, "battery" : "OK", "temperature_C" : 20.600, "temperature_F" : 69.080, "humidity" : 46, "water" : 1}
-{"time" : "@0.000000s", "model" : "00276rm", "probe" : 1, "id" : 5583, "battery" : "OK", "temperature_C" : 20.600, "temperature_F" : 69.080, "humidity" : 46, "water" : 1}
-{"time" : "@0.000000s", "model" : "00276rm", "probe" : 1, "id" : 5583, "battery" : "OK", "temperature_C" : 20.600, "temperature_F" : 69.080, "humidity" : 46, "water" : 1}
+{"time" : "@0.000000s", "model" : "00276rm", "probe" : 1, "id" : 5583, "battery" : "OK", "temperature_C" : 20.600, "humidity" : 46, "water" : 1, "mic" : "CRC"}
