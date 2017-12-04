@@ -93,7 +93,7 @@ def main():
         rtl433out, err = run_rtl433(input_fn, rtl_433_cmd, samplerate, protocol)
 
         # get JSON results
-        rtl433out = rtl433out.strip()
+        rtl433out = rtl433out.decode('utf8').strip()
         results = []
         for json_line in rtl433out.split("\n"):
             if not json_line.strip():
