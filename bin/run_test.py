@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-# -*- coding:utf-8 -*-
+
+"""Compare actual output lines of rtl_433 with reference json."""
 
 import sys
 import os
@@ -11,28 +12,40 @@ import json
 
 from deepdiff import DeepDiff
 
-def run_rtl433(input_fn, rtl_433_cmd="rtl_433", samplerate=250000):
-    cmd = [rtl_433_cmd, '-F', 'json', '-s', str(samplerate), '-r', input_fn]
+
+def run_rtl433(input_fn, rtl_433_cmd="rtl_433",
+               samplerate=250000, protocol=None):
+    """Run rtl_433 and return output."""
+    args = ['-F', 'json', '-s', str(samplerate), '-r', input_fn]
+    if protocol:
+        args = ['-R', str(protocol)] + args
+    cmd = [rtl_433_cmd] + args
     # print(" ".join(cmd))
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     out, err = p.communicate()
     return (out, err)
 
+
 def find_json():
+    """Find all reference json files recursive."""
     matches = []
     for root, dirnames, filenames in os.walk('tests'):
         for filename in fnmatch.filter(filenames, '*.json'):
             matches.append(os.path.join(root, filename))
     return matches
 
+
 def remove_fields(data, fields):
+    """Remove all data fields to be ignored."""
     for outline in data:
         for field in fields:
             if field in outline:
                 del outline[field]
     return data
 
+
 def main():
+    """Check all reference json files vs actual output."""
     parser = argparse.ArgumentParser(description='Test rtl_433')
     parser.add_argument('-c', '--rtl433-cmd', default="rtl_433",
                         help='rtl_433 command')
@@ -56,11 +69,22 @@ def main():
             print("WARNING: Missing '%s'" % input_fn)
             continue
 
+        ignore_fn = os.path.join(os.path.dirname(output_fn), "ignore")
+        if os.path.isfile(ignore_fn):
+            print("WARNING: Ignoring '%s'" % input_fn)
+            continue
+
         samplerate = 250000
         samplerate_fn = os.path.join(os.path.dirname(output_fn), "samplerate")
         if os.path.isfile(samplerate_fn):
             with open(samplerate_fn, "r") as samplerate_file:
                 samplerate = int(samplerate_file.readline())
+
+        protocol = None
+        protocol_fn = os.path.join(os.path.dirname(output_fn), "protocol")
+        if os.path.isfile(protocol_fn):
+            with open(protocol_fn, "r") as protocol_file:
+                protocol = int(protocol_file.readline())
 
         # Open expected data
         expected_data = []
@@ -76,10 +100,11 @@ def main():
             expected_data = remove_fields(expected_data, ignore_fields)
 
         # Run rtl_433
-        rtl433out, err = run_rtl433(input_fn, rtl_433_cmd, samplerate)
+        rtl433out, err = run_rtl433(input_fn, rtl_433_cmd,
+                                    samplerate, protocol)
 
         # get JSON results
-        rtl433out = rtl433out.strip()
+        rtl433out = rtl433out.decode('utf8').strip()
         results = []
         for json_line in rtl433out.split("\n"):
             if not json_line.strip():
@@ -114,7 +139,8 @@ def main():
             nb_ok += 1
 
     # print some summary
-    print("%d records tested, %d have fail" % (nb_ok+nb_fail, nb_fail))
+    print("%d records tested, %d have failed" % (nb_ok+nb_fail, nb_fail))
+    return nb_fail
 
 
 if __name__ == '__main__':
