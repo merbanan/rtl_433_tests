@@ -59,6 +59,11 @@ def main():
             print("WARNING: Missing '%s'" % input_fn)
             continue
 
+        ignore_fn = os.path.join(os.path.dirname(output_fn), "ignore")
+        if os.path.isfile(ignore_fn):
+            print("WARNING: Ignoring '%s'" % input_fn)
+            continue
+
         samplerate = 250000
         samplerate_fn = os.path.join(os.path.dirname(output_fn), "samplerate")
         if os.path.isfile(samplerate_fn):
@@ -123,8 +128,8 @@ def main():
             nb_ok += 1
 
     # print some summary
-    print("%d records tested, %d have fail" % (nb_ok+nb_fail, nb_fail))
-
+    print("%d records tested, %d have failed" % (nb_ok+nb_fail, nb_fail))
+    return nb_fail
 
 if __name__ == '__main__':
     sys.exit(main())
