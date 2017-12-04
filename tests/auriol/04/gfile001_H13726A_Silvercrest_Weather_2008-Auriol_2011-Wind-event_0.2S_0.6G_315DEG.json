@@ -1,0 +1,1 @@
+{"time" : "@0.786432s", "model" : "AlectoV1 Wind Sensor", "id" : 106, "channel" : 1, "battery" : "OK", "wind_speed" : 0.200, "wind_gust" : 0.600, "wind_direction" : 315, "mic" : "CHECKSUM"}
