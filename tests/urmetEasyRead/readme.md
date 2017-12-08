@@ -30,6 +30,10 @@ Actually the tank is at 24-25%
 - In folder 01 are stored first grabbed signals at different sample rate 
 
 - In folder 02 are stored the latest files grabbed. Sample rate is 2M 
+
+- In folder 03 there are newest files (grabbed the same of folder 02) but renamed including   timestamp
+
+- In folder tool there are: grc flow chart used for demod, python code for demod, python code for decode (work in progress)
   
 A spanish manual of the device can be found at: https://fccid.io/ANATEL/04171-13-04439/Manual-EASY-READ-SRP-BRA/8D3562AD-1F22-4A62-B89C-6C89D599ADB5
 
@@ -38,3 +42,7 @@ preamble but no success on detrmine sync word, data and crc
 
 Device make 3 transmission at time, didn't know if all from sender (SR_P) or
 also from receiver (SR)
+
+Update 2017-8-12
+Transmission are daily
+Assuming that packet could contain a timestamp, new data is renamed including creation time. (Tank level is now between 15-20%) 
