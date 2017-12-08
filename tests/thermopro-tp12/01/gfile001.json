@@ -1,2 +1,1 @@
-{"time" : "@1.048576s", "model" : "Mebus/433", "id" : 24, "battery" : "LOW", "channel" : 4, "unknown1" : 1, "unknown2" : 11, "temperature_C" : -150.300, "humidity" : -79}
 {"time" : "@1.048576s", "model" : "Thermopro TP12 Thermometer", "id" : 56, "temperature_1_C" : 43.400, "temperature_2_C" : 24.300}
