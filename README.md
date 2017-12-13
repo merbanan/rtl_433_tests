@@ -24,7 +24,7 @@ Contributing:
 Run rtl_433 with `rtl_433 -a -t` and wait for you signal to be detected. When it is detected 
 note what gfile name it has. This file can now be run through rtl_433 offline:
 
-    $ rtl_433 -r gfile001.data
+    $ rtl_433 -r g001.cu8
 
 You can also add `-a` or `-A` to see what it looks like in analyze mode.
 
