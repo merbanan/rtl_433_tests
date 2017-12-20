@@ -46,3 +46,20 @@ also from receiver (SR)
 Update 2017-8-12
 Transmission are daily
 Assuming that packet could contain a timestamp, new data is renamed including creation time. (Tank level is now between 15-20%) 
+
+Update 2017-20-12
+Progress:
+- found syncword d391d391
+- found "a packet identification": 1c 30 00 00 57 1c or 30 00 00 53 or 1c 30 00 00 4b
+- found device ulei c0 00 00 59 a0
+- packets with 1c 30 00 00 53 have full timestamp
+- other packets have bytes 19 descending during time (so data is probably here), byte 18 is always 1, 
+- also byte 26 is descendig except for two value in all the list
+Considerations:
+-- Assuming that byte 19 is data and converting it to decimal I get now (with a tank level of 14-25% or less) 133, so I can think that is 13.3%. That makes the maximum resolution of byte 19 = ff = 255 = 25,5%. So, To rappresent 100% there are two possibility: or the 01 at byte 18 is a multiplier or bytes from 20 to 25 (always at 0) are more level data. 
+-- Byte 26 needs more investigation because there are two packets were it is not descending, but if converted to decimal is more similiar to tank level 14-15% --> 148
+Notes: 
+-Problems with grabbing, a lot of unwanted data (6000gfile/day)
+-folder 04 sample rate is 1024k
+-Added decoding tool for new sample rate
+-Now testing grabbing @ 250000 sample rate
