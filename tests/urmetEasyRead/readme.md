@@ -64,3 +64,4 @@ Notes:
 -Added decoding tool for new sample rate
 -Now testing grabbing @ 250000 sample rate
 -Help needed in converting that steps to rtl_433 device
+

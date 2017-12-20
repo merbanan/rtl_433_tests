@@ -1,2 +1,2 @@
-{"time" : "@0.262144s", "model" : "OSv1 Temperature Sensor", "sid" : 9, "channel" : 1, "battery" : "OK", "temperature_C" : 39.600}
-{"time" : "@0.524288s", "model" : "OSv1 Temperature Sensor", "sid" : 9, "channel" : 1, "battery" : "OK", "temperature_C" : 39.600}
+{"time" : "@0.262144s", "brand": "OS", "model" : "OSv1 Temperature Sensor", "sid" : 9, "channel" : 1, "battery" : "OK", "temperature_C" : 39.600}
+{"time" : "@0.524288s", "brand": "OS", "model" : "OSv1 Temperature Sensor", "sid" : 9, "channel" : 1, "battery" : "OK", "temperature_C" : 39.600}

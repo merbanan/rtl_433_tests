@@ -7,7 +7,7 @@ PRJDIR=~/Projects
 CMD="$PRJDIR/rtl_433/build/src/rtl_433 -G -q -r"	# Enable all decoders, Quiet mode
 
 ## Find all data files (sort for consistency between runs)
-DATAFILES=$(find $PRJDIR/rtl_433_tests -iname "*.data" | sort)
+DATAFILES=$(find $PRJDIR/rtl_433_tests -iname "*.cu8" | sort)
 
 ## Custom filters for debug
 #FILTER="-e current_cost -e danfoss -e ec3k -e efergy_e2_classic -e emontx -e fineoffset_wh25 -e oil_watchman -e steelmate-TPMS"    # FSK files

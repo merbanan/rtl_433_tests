@@ -64,7 +64,7 @@ def main():
     nb_ok = 0
     nb_fail = 0
     for output_fn in expected_json:
-        input_fn = os.path.splitext(output_fn)[0] + ".data"
+        input_fn = os.path.splitext(output_fn)[0] + ".cu8"
         if not os.path.isfile(input_fn):
             print("WARNING: Missing '%s'" % input_fn)
             continue
