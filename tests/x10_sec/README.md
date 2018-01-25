@@ -14,9 +14,9 @@ The DS10A seems to send each signal five (5) times to ensure it is
 received.  Hence, decoding this recording yields five (5) CLOSE
 messages followed by five (5) OPEN messages.
 
-      Test Recording File: x10_sec-DS10A-closex5-openx5.250k.cu8
-     Test DS10A Device ID: 0xf58e
-  DOOR/WINDOW CLOSED Code: 0x84
+    Test Recording File: x10_sec-DS10A-closex5-openx5.250k.cu8
+    Test DS10A Device ID: 0xf58e
+    DOOR/WINDOW CLOSED Code: 0x84
     DOOR/WINDOW OPEN Code: 0x04
 
 Would you like to know more?
