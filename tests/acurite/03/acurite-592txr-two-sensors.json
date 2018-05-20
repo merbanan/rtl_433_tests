@@ -1,6 +1,6 @@
-{"time" : "@0.000000s", "model" : "Acurite tower sensor", "id" : 9884, "channel" : "B", "temperature_C" : 22.800, "humidity" : 66, "battery" : 1, "status" : 132}
-{"time" : "@0.000000s", "model" : "Acurite tower sensor", "id" : 9884, "channel" : "B", "temperature_C" : 22.800, "humidity" : 66, "battery" : 1, "status" : 132}
-{"time" : "@0.000000s", "model" : "Acurite tower sensor", "id" : 9884, "channel" : "B", "temperature_C" : 22.800, "humidity" : 66, "battery" : 1, "status" : 132}
-{"time" : "@0.524288s", "model" : "Acurite tower sensor", "id" : 12053, "channel" : "C", "temperature_C" : 21.000, "humidity" : 73, "battery" : 0, "status" : 68}
-{"time" : "@0.524288s", "model" : "Acurite tower sensor", "id" : 12053, "channel" : "C", "temperature_C" : 21.000, "humidity" : 73, "battery" : 0, "status" : 68}
-{"time" : "@0.524288s", "model" : "Acurite tower sensor", "id" : 12053, "channel" : "C", "temperature_C" : 21.000, "humidity" : 73, "battery" : 0, "status" : 68}
+{"time" : "@0.000000s", "model" : "Acurite tower sensor", "id" : 9884, "sensor_id" : 9884, "channel" : "B", "temperature_C" : 22.800, "humidity" : 66, "battery" : 1, "status" : 132}
+{"time" : "@0.000000s", "model" : "Acurite tower sensor", "id" : 9884, "sensor_id" : 9884, "channel" : "B", "temperature_C" : 22.800, "humidity" : 66, "battery" : 1, "status" : 132}
+{"time" : "@0.000000s", "model" : "Acurite tower sensor", "id" : 9884, "sensor_id" : 9884, "channel" : "B", "temperature_C" : 22.800, "humidity" : 66, "battery" : 1, "status" : 132}
+{"time" : "@0.524288s", "model" : "Acurite tower sensor", "id" : 12053, "sensor_id" : 12053, "channel" : "C", "temperature_C" : 21.000, "humidity" : 73, "battery" : 0, "status" : 68}
+{"time" : "@0.524288s", "model" : "Acurite tower sensor", "id" : 12053, "sensor_id" : 12053, "channel" : "C", "temperature_C" : 21.000, "humidity" : 73, "battery" : 0, "status" : 68}
+{"time" : "@0.524288s", "model" : "Acurite tower sensor", "id" : 12053, "sensor_id" : 12053, "channel" : "C", "temperature_C" : 21.000, "humidity" : 73, "battery" : 0, "status" : 68}
