@@ -1,2 +1,2 @@
-{"time" : "@0.262144s", "model" : "Fine Offset Electronics, WH0530 Temperature/Rain sensor", "id" : 14, "temperature_C" : 25.000, "rain" : 8.100, "mic" : "CRC"}
-{"time" : "@0.262144s", "model" : "Fine Offset Electronics, WH0530 Temperature/Rain sensor", "id" : 14, "temperature_C" : 25.000, "rain" : 8.100, "mic" : "CRC"}
+{"time" : "@0.262144s", "model" : "Fine Offset Electronics, WH0530 Temperature/Rain sensor", "id" : 14, "temperature_C" : 25.000, "rain" : 8.072, "battery" : "OK", "mic" : "CRC"}
+{"time" : "@0.262144s", "model" : "Fine Offset Electronics, WH0530 Temperature/Rain sensor", "id" : 14, "temperature_C" : 25.000, "rain" : 8.072, "battery" : "OK", "mic" : "CRC"}
