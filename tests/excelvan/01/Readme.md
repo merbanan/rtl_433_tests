@@ -1,14 +1,16 @@
-# Excelvan Wireless Weather Station (transmitter model WH2A)
+# Excelvan Wireless Weather Station 433MHz (transmitter model WH2A)
 
-Here is a sample of rtl_433 readings from Excelvan Wireless Weather Station. The Station external sensor provides temperature and humidity.
+Here is a sample of rtl_433 signal recordings from the transmitter model WH2 of the Excelvan Wireless Weather Station. The transmitter provides temperature and humidity.
 
-[Wireless weather station webpage at vendor site](http://www.excelvan.com/product-g_93.html)
+Link to [Wireless weather station webpage at vendor site](http://www.excelvan.com/product-g_93.html)
 
 Note, readings from day 3 may be of higher quality: command issued rtl_433 -G -a -t to load all 102 device decoding protocols and very accurate observation of external temperature sensor readings versus captured files.
 
-## Readings from day 1:
+A pattern in the filesize of the samples is easily observable: every two files of 131072 bytes are followed by one file that doubles the filesize, 262144 bytes. This pattern occurs with the readings in any day 1, 2 or 3.
 
-A pattern in the filesize of the samples is easily observable: every two files of 131072 bytes are followed by one file that doubles the filesize, 262144 bytes. This pattern occurs with the readings in any day 1, 2 or 3. Excelvan wireless weather station is supposed/enforced to be the only item transmitting in 433MHz.
+Excelvan wireless weather station is supposed/enforced to be the only piece of harware transmitting in 433MHz.
+
+## Readings from day 1:
 
 ```bash
 pi@raspberrypi:~/excelvan_signals $ ls -al
