@@ -1,6 +1,8 @@
-# Excelvan Wireless Weather Station
+# Excelvan Wireless Weather Station (transmitter model WH2A)
 
 Here is a sample of rtl_433 readings from Excelvan Wireless Weather Station. The Station external sensor provides temperature and humidity.
+
+[Wireless weather station webpage at vendor site](http://www.excelvan.com/product-g_93.html)
 
 Note, readings from day 3 may be of higher quality: command issued rtl_433 -G -a -t to load all 102 device decoding protocols and very accurate observation of external temperature sensor readings versus captured files.
 
