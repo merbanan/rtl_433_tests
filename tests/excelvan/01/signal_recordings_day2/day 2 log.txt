@@ -1,0 +1,477 @@
+log2
+pi@raspberrypi:~/excelvan_signals2 $ rtl_433 -a -t
+Registering protocol [1] "Rubicson Temperature Sensor"
+Registering protocol [2] "Prologue Temperature Sensor"
+Registering protocol [3] "Waveman Switch Transmitter"
+Registering protocol [4] "LaCrosse TX Temperature / Humidity Sensor"
+Registering protocol [5] "Acurite 609TXC Temperature and Humidity Sensor"
+Registering protocol [6] "Oregon Scientific Weather Sensor"
+Registering protocol [7] "KlikAanKlikUit Wireless Switch"
+Registering protocol [8] "AlectoV1 Weather Sensor (Alecto WS3500 WS4500 Ventus W155/W044 Oregon)"
+Registering protocol [9] "Cardin S466-TX2"
+Registering protocol [10] "Fine Offset Electronics, WH2 Temperature/Humidity Sensor"
+Registering protocol [11] "Nexus Temperature & Humidity Sensor"
+Registering protocol [12] "Ambient Weather Temperature Sensor"
+Registering protocol [13] "Calibeur RF-104 Sensor"
+Registering protocol [14] "DSC Security Contact"
+Registering protocol [15] "GT-WT-02 Sensor"
+Registering protocol [16] "Danfoss CFR Thermostat"
+Registering protocol [17] "Chuango Security Technology"
+Registering protocol [18] "Generic Remote SC226x EV1527"
+Registering protocol [19] "TFA-Twin-Plus-30.3049 and Ea2 BL999"
+Registering protocol [20] "Fine Offset Electronics WH1080/WH3080 Weather Station"
+Registering protocol [21] "WT450"
+Registering protocol [22] "LaCrosse WS-2310 Weather Station"
+Registering protocol [23] "Esperanza EWS"
+Registering protocol [24] "Efergy e2 classic"
+Registering protocol [25] "Generic temperature sensor 1"
+Registering protocol [26] "WG-PB12V1"
+Registering protocol [27] "Acurite 592TXR Temp/Humidity, 5n1 Weather Station, 6045 Lightning"
+Registering protocol [28] "Acurite 986 Refrigerator / Freezer Thermometer"
+Registering protocol [29] "HIDEKI TS04 Temperature, Humidity, Wind and Rain Sensor"
+Registering protocol [30] "Watchman Sonic / Apollo Ultrasonic / Beckett Rocket oil tank monitor"
+Registering protocol [31] "CurrentCost Current Sensor"
+Registering protocol [32] "emonTx OpenEnergyMonitor"
+Registering protocol [33] "HT680 Remote control"
+Registering protocol [34] "S3318P Temperature & Humidity Sensor"
+Registering protocol [35] "Akhan 100F14 remote keyless entry"
+Registering protocol [36] "Quhwa"
+Registering protocol [37] "OSv1 Temperature Sensor"
+Registering protocol [38] "Proove"
+Registering protocol [39] "Bresser Thermo-/Hygro-Sensor 3CH"
+Registering protocol [40] "Springfield Temperature and Soil Moisture"
+Registering protocol [41] "Oregon Scientific SL109H Remote Thermal Hygro Sensor"
+Registering protocol [42] "Acurite 606TX Temperature Sensor"
+Registering protocol [43] "TFA pool temperature sensor"
+Registering protocol [44] "Kedsum Temperature & Humidity Sensor"
+Registering protocol [45] "blyss DC5-UK-WH (433.92 MHz)"
+Registering protocol [46] "Steelmate TPMS"
+Registering protocol [47] "Schrader TPMS"
+Registering protocol [48] "Elro DB286A Doorbell"
+Registering protocol [49] "Efergy Optical"
+Registering protocol [50] "Honda Car Key"
+Registering protocol [51] "Fine Offset Electronics, XC0400"
+Registering protocol [52] "Radiohead ASK"
+Registering protocol [53] "Kerui PIR Sensor"
+Registering protocol [54] "Fine Offset WH1050 Weather Station"
+Registering protocol [55] "Honeywell Door/Window Sensor"
+Registering protocol [56] "Maverick ET-732/733 BBQ Sensor"
+Registering protocol [57] "LaCrosse TX141-Bv2/TX141TH-Bv2 sensor"
+Registering protocol [58] "Acurite 00275rm,00276rm Temp/Humidity with optional probe"
+Registering protocol [59] "LaCrosse TX35DTH-IT Temperature sensor"
+Registering protocol [60] "LaCrosse TX29IT Temperature sensor"
+Registering protocol [61] "Vaillant calorMatic 340f Central Heating Control"
+Registering protocol [62] "Fine Offset Electronics, WH25 Temperature/Humidity/Pressure Sensor"
+Registering protocol [63] "Fine Offset Electronics, WH0530 Temperature/Rain Sensor"
+Registering protocol [64] "IBIS beacon"
+Registering protocol [65] "Oil Ultrasonic STANDARD FSK"
+Registering protocol [66] "Citroen TPMS"
+Registering protocol [67] "Oil Ultrasonic STANDARD ASK"
+Registering protocol [68] "Thermopro TP11 Thermometer"
+Registering protocol [69] "Solight TE44"
+Registering protocol [70] "Wireless Smoke and Heat Detector GS 558"
+Registering protocol [71] "Generic wireless motion sensor"
+Registering protocol [72] "Toyota TPMS"
+Registering protocol [73] "Ford TPMS"
+Registering protocol [74] "Renault TPMS"
+Registering protocol [75] "FT-004-B Temperature Sensor"
+Registering protocol [76] "Ford Car Key"
+Registering protocol [77] "Philips outdoor temperature sensor"
+Registering protocol [78] "Schrader TPMS EG53MA4"
+Registering protocol [79] "Nexa"
+Registering protocol [80] "Thermopro TP12 Thermometer"
+Registering protocol [81] "GE Color Effects"
+Registering protocol [82] "X10 Security"
+Registering protocol [83] "Interlogix GE UTC Security Devices"
+Registered 83 out of 102 device decoding protocols
+Found 1 device(s)
+
+trying device  0:  Realtek, RTL2838UHIDIR, SN: 00000001
+Detached kernel driver
+Found Fitipower FC0012 tuner
+Using device 0: Generic RTL2832U OEM
+Exact sample rate is: 250000.000414 Hz
+Sample rate set to 250000.
+Bit detection level set to 0 (Auto).
+Tuner gain set to Auto.
+Reading samples in async mode...
+Tuned to 433920000 Hz.
+*** signal_start = 8800964, signal_end = 8847213
+signal_len = 46249,  pulses = 70
+Iteration 1. t: 215    min: 94 (45)    max: 336 (25)    delta 9553
+Iteration 2. t: 219    min: 97 (46)    max: 341 (24)    delta 34
+Iteration 3. t: 223    min: 100 (47)    max: 346 (23)    delta 34
+Iteration 4. t: 223    min: 100 (47)    max: 346 (23)    delta 0
+Pulse coding: Short pulse length 100 - Long pulse length 346
+
+Short distance: 5, long distance: 36, packet distance: 244
+
+p_limit: 223
+bitbuffer:: Number of rows: 25
+[00] {1} 00 : 0
+[01] {1} 00 : 0
+[02] {1} 00 : 0
+[03] {1} 00 : 0
+[04] {1} 00 : 0
+[05] {1} 00 : 0
+[06] {1} 00 : 0
+[07] {1} 80 : 1
+[08] {1} 00 : 0
+[09] {4} 80 : 1000
+[10] {1} 80 : 1
+[11] {1} 00 : 0
+[12] {1} 80 : 1
+[13] {1} 00 : 0
+[14] {2} 00 : 00
+[15] {1} 80 : 1
+[16] {1} 00 : 0
+[17] {1} 00 : 0
+[18] {4} 80 : 1000
+[19] {2} 00 : 00
+[20] {1} 80 : 1
+[21] {1} 80 : 1
+[22] {1} 00 : 0
+[23] {2} 40 : 01
+[24] {1} 80 : 1
+... Maximum number of rows reached. Message is likely truncated.
+signal_bszie = 131072  -      sg_index = 2097152
+start_pos    = 1834712  -   buffer_size = 3145728
+*** Saving signal to file g001_433.92M_250k.cu8
+*** Writing data from 1834712, len 131072
+*** signal_start = 20801499, signal_end = 20847730
+signal_len = 46231,  pulses = 135
+Iteration 1. t: 177    min: 26 (119)    max: 329 (16)    delta 1945
+Iteration 2. t: 177    min: 26 (119)    max: 329 (16)    delta 0
+Pulse coding: Short pulse length 26 - Long pulse length 329
+
+Short distance: 7, long distance: 264, packet distance: 921
+
+p_limit: 177
+bitbuffer:: Number of rows: 9
+[00] {7} 00 : 0000000
+[01] {25} 08 00 00 00 : 00001000 00000000 00000000 0
+[02] {11} 01 40 : 00000001 010
+[03] {18} c0 00 00 : 11000000 00000000 00
+[04] {8} 60 : 01100000
+[05] {30} 20 00 02 00 : 00100000 00000000 00000010 000000
+[06] {27} 20 00 00 e0 : 00100000 00000000 00000000 111
+[07] {7} c0 : 1100000
+[08] {2} 40 : 01
+signal_bszie = 131072  -      sg_index = 1048576
+start_pos    = 669922  -   buffer_size = 3145728
+*** Saving signal to file g002_433.92M_250k.cu8
+*** Writing data from 669922, len 131072
+*** signal_start = 32802007, signal_end = 32912470
+signal_len = 110463,  pulses = 168
+Iteration 1. t: 245    min: 125 (91)    max: 366 (77)    delta 5354
+Iteration 2. t: 247    min: 126 (92)    max: 368 (76)    delta 5
+Iteration 3. t: 247    min: 126 (92)    max: 368 (76)    delta 0
+Pulse coding: Short pulse length 126 - Long pulse length 368
+
+Short distance: 1, long distance: 241, packet distance: 5857
+
+p_limit: 247
+bitbuffer:: Number of rows: 3
+[00] {55} 01 6b 3d c5 84 dc d2
+[01] {55} 01 6b 3d c5 84 dc d2
+[02] {58} 01 6b 3a 91 61 23 9a 40
+signal_bszie = 262144  -      sg_index = 0
+start_pos    = 2648234  -   buffer_size = 3145728
+*** Saving signal to file g003_433.92M_250k.cu8
+*** Writing data from 2648234, len 262144
+*** signal_start = 44802537, signal_end = 44848789
+signal_len = 46252,  pulses = 55
+Iteration 1. t: 250    min: 128 (29)    max: 372 (26)    delta 5
+Iteration 2. t: 250    min: 128 (29)    max: 372 (26)    delta 0
+Pulse coding: Short pulse length 128 - Long pulse length 372
+
+Short distance: 236, long distance: 236, packet distance: 238
+
+p_limit: 250
+bitbuffer:: Number of rows: 25
+[00] {1} 00 : 0
+[01] {1} 00 : 0
+[02] {1} 00 : 0
+[03] {1} 00 : 0
+[04] {1} 00 : 0
+[05] {1} 00 : 0
+[06] {1} 00 : 0
+[07] {2} 80 : 10
+[08] {1} 80 : 1
+[09] {1} 80 : 1
+[10] {1} 00 : 0
+[11] {1} 80 : 1
+[12] {1} 00 : 0
+[13] {1} 80 : 1
+[14] {1} 80 : 1
+[15] {2} 00 : 00
+[16] {1} 80 : 1
+[17] {1} 80 : 1
+[18] {1} 80 : 1
+[19] {1} 80 : 1
+[20] {1} 00 : 0
+[21] {1} 80 : 1
+[22] {1} 80 : 1
+[23] {1} 80 : 1
+[24] {1} c0 : 1
+... Maximum number of rows reached. Message is likely truncated.
+signal_bszie = 131072  -      sg_index = 1835008
+start_pos    = 1486120  -   buffer_size = 3145728
+*** Saving signal to file g004_433.92M_250k.cu8
+*** Writing data from 1486120, len 131072
+*** signal_start = 56803074, signal_end = 56849082
+signal_len = 46008,  pulses = 55
+Iteration 1. t: 249    min: 127 (30)    max: 371 (25)    delta 8
+Iteration 2. t: 249    min: 127 (30)    max: 371 (25)    delta 0
+Pulse coding: Short pulse length 127 - Long pulse length 371
+
+Short distance: 235, long distance: 235, packet distance: 238
+
+p_limit: 249
+bitbuffer:: Number of rows: 25
+[00] {1} 00 : 0
+[01] {1} 00 : 0
+[02] {1} 00 : 0
+[03] {1} 00 : 0
+[04] {1} 00 : 0
+[05] {1} 00 : 0
+[06] {1} 00 : 0
+[07] {1} 80 : 1
+[08] {1} 00 : 0
+[09] {1} 80 : 1
+[10] {1} 80 : 1
+[11] {1} 00 : 0
+[12] {1} 80 : 1
+[13] {1} 00 : 0
+[14] {1} 80 : 1
+[15] {1} 80 : 1
+[16] {1} 00 : 0
+[17] {1} 00 : 0
+[18] {1} 80 : 1
+[19] {1} 80 : 1
+[20] {1} 80 : 1
+[21] {1} 80 : 1
+[22] {1} 00 : 0
+[23] {1} 80 : 1
+[24] {1} 80 : 1
+... Maximum number of rows reached. Message is likely truncated.
+signal_bszie = 131072  -      sg_index = 786432
+start_pos    = 320882  -   buffer_size = 3145728
+*** Saving signal to file g005_433.92M_250k.cu8
+*** Writing data from 320882, len 131072
+*** signal_start = 68803614, signal_end = 68913348
+signal_len = 109734,  pulses = 165
+Iteration 1. t: 250    min: 128 (90)    max: 372 (75)    delta 8
+Iteration 2. t: 250    min: 128 (90)    max: 372 (75)    delta 0
+Pulse coding: Short pulse length 128 - Long pulse length 372
+
+Short distance: 235, long distance: 237, packet distance: 5853
+
+p_limit: 250
+bitbuffer:: Number of rows: 3
+[00] {55} 01 6b 3d c3 84 86 7a
+[01] {55} 01 6b 3d c3 84 86 7a
+[02] {55} 01 6b 3d c3 84 86 7a
+signal_bszie = 262144  -      sg_index = 2883584
+start_pos    = 2298246  -   buffer_size = 3145728
+*** Saving signal to file g006_433.92M_250k.cu8
+*** Writing data from 2298246, len 262144
+*** signal_start = 80804158, signal_end = 80850168
+signal_len = 46010,  pulses = 55
+Iteration 1. t: 251    min: 129 (30)    max: 373 (25)    delta 2
+Iteration 2. t: 251    min: 129 (30)    max: 373 (25)    delta 0
+Pulse coding: Short pulse length 129 - Long pulse length 373
+
+Short distance: 235, long distance: 235, packet distance: 237
+
+p_limit: 251
+bitbuffer:: Number of rows: 25
+[00] {1} 00 : 0
+[01] {1} 00 : 0
+[02] {1} 00 : 0
+[03] {1} 00 : 0
+[04] {1} 00 : 0
+[05] {2} 00 : 00
+[06] {1} 80 : 1
+[07] {1} 00 : 0
+[08] {1} 80 : 1
+[09] {1} 80 : 1
+[10] {1} 00 : 0
+[11] {1} 80 : 1
+[12] {1} 00 : 0
+[13] {1} 80 : 1
+[14] {1} 80 : 1
+[15] {1} 00 : 0
+[16] {1} 00 : 0
+[17] {1} 80 : 1
+[18] {1} 80 : 1
+[19] {1} 80 : 1
+[20] {1} 80 : 1
+[21] {1} 00 : 0
+[22] {1} 80 : 1
+[23] {1} 80 : 1
+[24] {2} c0 : 11
+... Maximum number of rows reached. Message is likely truncated.
+signal_bszie = 131072  -      sg_index = 1572864
+start_pos    = 1137134  -   buffer_size = 3145728
+*** Saving signal to file g007_433.92M_250k.cu8
+*** Writing data from 1137134, len 131072
+*** signal_start = 92804705, signal_end = 92850715
+signal_len = 46010,  pulses = 55
+Iteration 1. t: 250    min: 128 (30)    max: 373 (25)    delta 1
+Iteration 2. t: 250    min: 128 (30)    max: 373 (25)    delta 0
+Pulse coding: Short pulse length 128 - Long pulse length 373
+
+Short distance: 235, long distance: 235, packet distance: 237
+
+p_limit: 250
+bitbuffer:: Number of rows: 25
+[00] {1} 00 : 0
+[01] {1} 00 : 0
+[02] {1} 00 : 0
+[03] {1} 00 : 0
+[04] {1} 00 : 0
+[05] {1} 00 : 0
+[06] {1} 00 : 0
+[07] {1} 80 : 1
+[08] {1} 00 : 0
+[09] {1} 80 : 1
+[10] {1} 80 : 1
+[11] {2} 40 : 01
+[12] {1} 00 : 0
+[13] {1} 80 : 1
+[14] {1} 80 : 1
+[15] {1} 00 : 0
+[16] {1} 00 : 0
+[17] {1} 80 : 1
+[18] {1} 80 : 1
+[19] {1} 80 : 1
+[20] {1} 80 : 1
+[21] {1} 00 : 0
+[22] {1} 80 : 1
+[23] {1} 80 : 1
+[24] {1} c0 : 1
+... Maximum number of rows reached. Message is likely truncated.
+signal_bszie = 131072  -      sg_index = 262144
+start_pos    = -27596  -   buffer_size = 3145728
+restart_pos = 3118132
+*** Saving signal to file g008_433.92M_250k.cu8
+*** Writing data from 3118132, len 27596
+*** Writing data from 0, len 103476
+*** signal_start = 104805255, signal_end = 104914988
+signal_len = 109733,  pulses = 165
+Iteration 1. t: 250    min: 128 (90)    max: 372 (75)    delta 5
+Iteration 2. t: 250    min: 128 (90)    max: 372 (75)    delta 0
+Pulse coding: Short pulse length 128 - Long pulse length 372
+
+Short distance: 236, long distance: 238, packet distance: 5854
+
+p_limit: 250
+bitbuffer:: Number of rows: 3
+[00] {55} 01 6b 3d c1 85 6f 60
+[01] {55} 01 6b 3d c1 85 6f 60
+[02] {55} 01 6b 3d c1 85 6f 60
+signal_bszie = 262144  -      sg_index = 2359296
+start_pos    = 1949782  -   buffer_size = 3145728
+*** Saving signal to file g009_433.92M_250k.cu8
+*** Writing data from 1949782, len 262144
+*** signal_start = 116805807, signal_end = 116851818
+signal_len = 46011,  pulses = 55
+Iteration 1. t: 251    min: 129 (30)    max: 373 (25)    delta 5
+Iteration 2. t: 251    min: 129 (30)    max: 373 (25)    delta 0
+Pulse coding: Short pulse length 129 - Long pulse length 373
+
+Short distance: 235, long distance: 235, packet distance: 237
+
+p_limit: 251
+bitbuffer:: Number of rows: 25
+[00] {1} 00 : 0
+[01] {1} 00 : 0
+[02] {1} 00 : 0
+[03] {1} 00 : 0
+[04] {2} 00 : 00
+[05] {1} 00 : 0
+[06] {1} 80 : 1
+[07] {1} 00 : 0
+[08] {1} 80 : 1
+[09] {1} 80 : 1
+[10] {1} 00 : 0
+[11] {1} 80 : 1
+[12] {1} 00 : 0
+[13] {1} 80 : 1
+[14] {2} 80 : 10
+[15] {1} 00 : 0
+[16] {1} 80 : 1
+[17] {1} 80 : 1
+[18] {1} 80 : 1
+[19] {1} 80 : 1
+[20] {1} 00 : 0
+[21] {1} 80 : 1
+[22] {1} 80 : 1
+[23] {1} 80 : 1
+[24] {1} c0 : 1
+... Maximum number of rows reached. Message is likely truncated.
+signal_bszie = 131072  -      sg_index = 1048576
+start_pos    = 788690  -   buffer_size = 3145728
+*** Saving signal to file g010_433.92M_250k.cu8
+*** Writing data from 788690, len 131072
+*** signal_start = 128806364, signal_end = 128852369
+signal_len = 46005,  pulses = 55
+Iteration 1. t: 247    min: 126 (30)    max: 369 (25)    delta 18
+Iteration 2. t: 247    min: 126 (30)    max: 369 (25)    delta 0
+Pulse coding: Short pulse length 126 - Long pulse length 369
+
+Short distance: 238, long distance: 238, packet distance: 240
+
+p_limit: 247
+bitbuffer:: Number of rows: 25
+[00] {1} 00 : 0
+[01] {1} 00 : 0
+[02] {1} 00 : 0
+[03] {1} 00 : 0
+[04] {1} 00 : 0
+[05] {1} 00 : 0
+[06] {1} 00 : 0
+[07] {1} 80 : 1
+[08] {1} 00 : 0
+[09] {1} 80 : 1
+[10] {1} 80 : 1
+[11] {1} 00 : 0
+[12] {1} 80 : 1
+[13] {1} 00 : 0
+[14] {1} 80 : 1
+[15] {1} 80 : 1
+[16] {1} 00 : 0
+[17] {1} 00 : 0
+[18] {1} 80 : 1
+[19] {1} 80 : 1
+[20] {1} 80 : 1
+[21] {1} 80 : 1
+[22] {1} 00 : 0
+[23] {1} 80 : 1
+[24] {1} 80 : 1
+... Maximum number of rows reached. Message is likely truncated.
+signal_bszie = 131072  -      sg_index = 0
+start_pos    = 2769696  -   buffer_size = 3145728
+*** Saving signal to file g011_433.92M_250k.cu8
+*** Writing data from 2769696, len 131072
+*** signal_start = 140806917, signal_end = 140916650
+signal_len = 109733,  pulses = 165
+Iteration 1. t: 251    min: 129 (90)    max: 373 (75)    delta 10
+Iteration 2. t: 251    min: 129 (90)    max: 373 (75)    delta 0
+Pulse coding: Short pulse length 129 - Long pulse length 373
+
+Short distance: 235, long distance: 237, packet distance: 5853
+
+p_limit: 251
+bitbuffer:: Number of rows: 3
+[00] {55} 01 6b 3d c1 85 6f 60
+[01] {55} 01 6b 3d c1 85 6f 60
+[02] {55} 01 6b 3d c1 85 6f 60
+signal_bszie = 262144  -      sg_index = 2097152
+start_pos    = 1601362  -   buffer_size = 3145728
+*** Saving signal to file g012_433.92M_250k.cu8
+*** Writing data from 1601362, len 262144
+^CSignal caught, exiting!
+Reattached kernel driver
+pi@raspberrypi:~/excelvan_signals2 $
