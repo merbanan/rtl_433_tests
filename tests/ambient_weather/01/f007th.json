@@ -1,5 +1,5 @@
-{"time" : "@0.000000s", "model" : "Ambient Weather F007TH Thermo-Hygrometer", "device" : 37, "channel" : 5, "battery" : "Low", "temperature_F" : 67.800, "humidity" : 35}
-{"time" : "@0.524288s", "model" : "Ambient Weather F007TH Thermo-Hygrometer", "device" : 180, "channel" : 4, "battery" : "Low", "temperature_F" : 45.300, "humidity" : 41}
-{"time" : "@1.048576s", "model" : "Ambient Weather F007TH Thermo-Hygrometer", "device" : 226, "channel" : 2, "battery" : "Ok", "temperature_F" : 53.400, "humidity" : 44}
-{"time" : "@1.572864s", "model" : "Ambient Weather F007TH Thermo-Hygrometer", "device" : 254, "channel" : 1, "battery" : "Low", "temperature_F" : 66.800, "humidity" : 39}
-{"time" : "@2.097152s", "model" : "Ambient Weather F007TH Thermo-Hygrometer", "device" : 134, "channel" : 3, "battery" : "Low", "temperature_F" : 54.000, "humidity" : 59}
+{"time" : "@0.000000s", "model" : "Ambient Weather F007TH Thermo-Hygrometer", "device" : 37, "channel" : 5, "battery" : "Low", "temperature_F" : 67.800, "humidity" : 35, "mic" : "CRC"}
+{"time" : "@0.524288s", "model" : "Ambient Weather F007TH Thermo-Hygrometer", "device" : 180, "channel" : 4, "battery" : "Low", "temperature_F" : 45.300, "humidity" : 41, "mic" : "CRC"}
+{"time" : "@1.048576s", "model" : "Ambient Weather F007TH Thermo-Hygrometer", "device" : 226, "channel" : 2, "battery" : "Ok", "temperature_F" : 53.400, "humidity" : 44, "mic" : "CRC"}
+{"time" : "@1.572864s", "model" : "Ambient Weather F007TH Thermo-Hygrometer", "device" : 254, "channel" : 1, "battery" : "Low", "temperature_F" : 66.800, "humidity" : 39, "mic" : "CRC"}
+{"time" : "@2.097152s", "model" : "Ambient Weather F007TH Thermo-Hygrometer", "device" : 134, "channel" : 3, "battery" : "Low", "temperature_F" : 54.000, "humidity" : 59, "mic" : "CRC"}
