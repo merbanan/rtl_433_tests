@@ -12,5 +12,5 @@ https://www.hyundai-electronics.cz/cidlo-pro-meteostanice-hyundai-ws-senzor-stri
 * button to select temperature units °C/°F, TX-button (force send)
 * External temperature sensor probe
 
-![Hyundai WS SENZOR Front on left](ws-senzor-front.jpg)
-![Hyundai WS SENZOR Rear on right](ws-senzor-rear.jpg)
+![Hyundai WS SENZOR Front on left](ws-sensor-front.jpg)
+![Hyundai WS SENZOR Rear on right](ws-sensor-rear.jpg)
