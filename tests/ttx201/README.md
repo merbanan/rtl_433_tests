@@ -4,7 +4,6 @@ https://shop.emos.cz/2603108000-bezdratovy-teplomer-ttn303 (no English site)
 * Manufacturer: Ewig Industries Macao
 * Model No.: TTX201
 * Maybe same as Ewig TTX201M (FCC ID: N9ZTTX201M)
-
 * Measurable range: -20 °C ~ +50 °C
 * 2 x 1.5 V AAA/LR4 battery
 * Transmit Interval: every ~61s
@@ -39,12 +38,14 @@ A complete message is 444 bits:
   B = battery status (0 = OK, 1 = low)
   C = 3-bit channel, 0-4
   X = 3-bit packet index, 0-7
-  T = 12-bit signed temperature10 in Celsius
+  T = 12-bit signed temperature \* 10 in Celsius
   M = 8-bit postmark, always 0x14
   J = 8-bit packet separator, always 0xF8
 ```
 
-Sample received raw data package:
+## Sample data
+
+Received raw data package:
 ```
   bitbuffer:: Number of rows: 1
   [00] {444} 00 00 06 f0 80 00 41 c5 3e 1c c2 00 11 07 14 f8 77 08 00 84 1c 53 e1 ec 20 03 10 71 4f 87 f0 80 10 41 c5 3e 20 c2 00 51 07 14 f8 87 08 01 84 1c 53 e2 2c 20 07 10 71 40 
