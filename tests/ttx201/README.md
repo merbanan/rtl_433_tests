@@ -38,7 +38,7 @@ A complete message is 444 bits:
   B = battery status (0 = OK, 1 = low)
   C = 3-bit channel, 0-4
   X = 3-bit packet index, 0-7
-  T = 12-bit signed temperature \* 10 in Celsius
+  T = 12-bit signed temperature * 10 in Celsius
   M = 8-bit postmark, always 0x14
   J = 8-bit packet separator, always 0xF8
 ```
