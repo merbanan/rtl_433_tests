@@ -1,0 +1,3 @@
+{"time" : "@0.000000s", "model" : "HIDEKI Wind sensor", "rc" : 2, "channel" : 4, "battery" : "OK", "temperature_C" : 15.400, "windstrength" : 0.000, "winddirection" : 45.000}
+{"time" : "@0.524288s", "model" : "HIDEKI Wind sensor", "rc" : 2, "channel" : 4, "battery" : "OK", "temperature_C" : 15.400, "windstrength" : 0.000, "winddirection" : 45.000}
+{"time" : "@0.524288s", "model" : "HIDEKI Wind sensor", "rc" : 2, "channel" : 4, "battery" : "OK", "temperature_C" : 15.400, "windstrength" : 0.000, "winddirection" : 45.000}
