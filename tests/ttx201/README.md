@@ -4,6 +4,7 @@ https://shop.emos.cz/2603108000-bezdratovy-teplomer-ttn303 (no English site)
 * Manufacturer: Ewig Industries Macao
 * Model No.: TTX201
 * Maybe same as Ewig TTX201M (FCC ID: N9ZTTX201M)
+* Uses 4-bit Microcontroller TM8722
 * Measurable range: -20 °C ~ +50 °C
 * 2 x 1.5 V AAA/LR4 battery
 * Transmit Interval: every ~61s
@@ -12,26 +13,27 @@ https://shop.emos.cz/2603108000-bezdratovy-teplomer-ttn303 (no English site)
 * LED is blinking on every TX
 * button to select channel, reset button
 
-Manchester Encoding, pulse width: 460 us, gap width 1508 us.
+Manchester Encoding, pulse width: 500 us, interpacket gap width 1500 us.
 
-A complete message is 444 bits:
+A complete message is 445 bits:
 ```
-  PPPPPPPP PPPP
-    KKKKKK IIIIIIII S???BCCC ?XXXTTTT TTTTTTTT MMMMMMMM JJJJJJJJ  (repeated 7 times)
-    KKKKKK IIIIIIII S???BCCC ?XXXTTTT TTTTTTTT MMMMMMMM      (last packet without J)
+     PPPPPPPP PPPPPPPP P
+  LL LLKKKKKK IIIIIIII S???BCCC ?XXXTTTT TTTTTTTT MMMMMMMM JJJJ  (repeated 7 times)
+  LL LLKKKKKK IIIIIIII S???BCCC ?XXXTTTT TTTTTTTT MMMMMMMM       (last packet without J)
 ```
 
-20-bit initial preamble, always 0
+17-bit initial preamble, always 0
 ```
-  PPPPPPPP PPPP = 0x0000 0x00
+  PPPPPPPP PPPPPPPP P = 0x00 0x00 0
 ```
 
 54-bit data packet format
 ```
-  0   1    2   3    4   5    6   7    8   9    10  11   12  13  (nibbles #, aligned to 8-bit)
-  ..KKKKKK IIIIIIII S???BCCC ?XXXTTTT TTTTTTTT MMMMMMMM JJJJJJJJ
+  0    1   2    3   4    5   6    7   8    9   10   11  12   13  (nibbles #, aligned to 8-bit values)
+  ..LL LLKKKKKK IIIIIIII S???BCCC ?XXXTTTT TTTTTTTT MMMMMMMM JJJJ
 
-  K = 6-bit checksum, sum of nibbles 2-11
+  L = 4-bit start of packet, always 0
+  K = 6-bit checksum, sum of nibbles 3-12
   I = 8-bit sensor ID
   S = startup (0 = normal operation, 1 = reset or battery changed)
   ? = unknown, always 0
@@ -40,28 +42,37 @@ A complete message is 444 bits:
   X = 3-bit packet index, 0-7
   T = 12-bit signed temperature * 10 in Celsius
   M = 8-bit postmark, always 0x14
-  J = 8-bit packet separator, always 0xF8
+  J = 4-bit packet separator, always 0xF
 ```
 
 ## Sample data
 
 Received raw data package:
 ```
-  bitbuffer:: Number of rows: 1
-  [00] {444} 00 00 06 f0 80 00 41 c5 3e 1c c2 00 11 07 14 f8 77 08 00 84 1c 53 e1 ec 20 03 10 71 4f 87 f0 80 10 41 c5 3e 20 c2 00 51 07 14 f8 87 08 01 84 1c 53 e2 2c 20 07 10 71 40 
+bitbuffer:: Number of rows: 10 
+[00] {17} 00 00 00             : 00000000 00000000 0
+[01] {54} 07 30 80 00 42 05 3c 
+[02] {54} 07 70 80 04 42 05 3c 
+[03] {54} 07 b0 80 08 42 05 3c 
+[04] {54} 07 f0 80 0c 42 05 3c 
+[05] {54} 08 30 80 10 42 05 3c 
+[06] {54} 08 70 80 14 42 05 3c 
+[07] {54} 08 b0 80 18 42 05 3c 
+[08] {50} 08 f0 80 1c 42 05 00 : 00001000 11110000 10000000 00011100 01000010 00000101 00
+[09] { 1} 00                   : 0
 ```
 
 Decoded:
 ```
-  K   I    S    B  C    X   T    M     J
-  27  194  0x0  0  0x0  0   263  0x14  0xf8
-  28  194  0x0  0  0x0  1   263  0x14  0xf8
-  29  194  0x0  0  0x0  2   263  0x14  0xf8
-  30  194  0x0  0  0x0  3   263  0x14  0xf8
-  31  194  0x0  0  0x0  4   263  0x14  0xf8
-  32  194  0x0  0  0x0  5   263  0x14  0xf8
-  33  194  0x0  0  0x0  6   263  0x14  0xf8
-  34  194  0x0  0  0x0  7   263  0x14
+ r  cs    K   ID    S   B  C  X    T    M     J
+ 1  28    28  194  0x0  0  0  0   264  0x14  0xf
+ 2  29    29  194  0x0  0  0  1   264  0x14  0xf
+ 3  30    30  194  0x0  0  0  2   264  0x14  0xf
+ 4  31    31  194  0x0  0  0  3   264  0x14  0xf
+ 5  32    32  194  0x0  0  0  4   264  0x14  0xf
+ 6  33    33  194  0x0  0  0  5   264  0x14  0xf
+ 7  34    34  194  0x0  0  0  6   264  0x14  0xf
+ 8  35    35  194  0x0  0  0  7   264  0x14
 ```
 
 ```
