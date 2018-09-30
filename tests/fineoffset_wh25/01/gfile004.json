@@ -1,1 +1,1 @@
-{"time" : "@0.000000s", "model" : "Fine Offset Electronics, WH25", "id" : 80, "temperature_C" : 24.100, "humidity" : 35, "pressure_hPa" : 1016.100, "mic" : "CHECKSUM"}
+{"time" : "@0.000000s", "model" : "Fine Offset Electronics, WH25", "id" : 80, "temperature_C" : 24.100, "humidity" : 35, "pressure_hPa" : 1016.100, "battery" : "OK", "mic" : "CHECKSUM"}
