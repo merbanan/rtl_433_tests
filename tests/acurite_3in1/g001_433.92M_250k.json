@@ -1,0 +1,2 @@
+{"time" : "@0.000000s", "model" : "Acurite 3n1 sensor", "sensor_id" : 7992, "channel" : "A", "sequence_num" : 1, "battery" : "OK", "message_type" : 32, "wind_speed_mph" : 7.000, "temperature_F" : 30.300, "humidity" : 43}
+{"time" : "@0.000000s", "model" : "Acurite 3n1 sensor", "sensor_id" : 7992, "channel" : "A", "sequence_num" : 1, "battery" : "OK", "message_type" : 32, "wind_speed_mph" : 7.000, "temperature_F" : 30.300, "humidity" : 43}
