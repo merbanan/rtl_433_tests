@@ -8,7 +8,7 @@
  Bit 1 : 1970us pulse with 3888 us gap
  Bit 0 : 1970us pulse with 1936 us gap
  
- Demoding with -X "tfa_test:OOK_PPM_RAW:2900:5000:36500"
+ Demoding with -X "tfa_test:OOK_PPM_RAW:2900:6000:36500"
  
  74 bit (2 bit preamble and 72 bit data => 9 bytes => 18 nibbles)
  
