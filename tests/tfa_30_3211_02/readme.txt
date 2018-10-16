@@ -2,7 +2,7 @@
  TFA 30.3211.02 
  
  1970us pulse with variable gap (third pulse 3920 us)
- 
+
  Above 79% humidity, gap after third pulse is 5848 us (see sample 008)
  
  Bit 1 : 1970us pulse with 3888 us gap
@@ -23,4 +23,4 @@
      t = Second digit temperatur
      u = Third digit temperatur
      N = Negative temperatur
-     
+  
