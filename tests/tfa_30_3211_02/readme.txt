@@ -1,5 +1,4 @@
-
- TFA 30.3211.02 
+TFA 30.3211.02 
  
  1970us pulse with variable gap (third pulse 3920 us)
 
@@ -23,4 +22,3 @@
      t = Second digit temperatur
      u = Third digit temperatur
      N = Negative temperatur
-  
