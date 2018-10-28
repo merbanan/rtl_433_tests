@@ -1,137 +1,31 @@
 g001_433.917M_250k.cu8, XC0324:Reference Values, Temperature  8.4 C, sensor id 56
+g001_433.922M_250k.cu8, XC0324:Reference Values, Temperature 15.9 C, sensor id 64
 g002_433.917M_250k.cu8, XC0324:Reference Values, Temperature  8.5 C, sensor id 56
-g003_433.917M_250k.cu8, XC0324:Reference Values, Temperature  8.5 C, sensor id 56
-g004_433.917M_250k.cu8, XC0324:Reference Values, Temperature  8.5 C, sensor id 56
 g005_433.917M_250k.cu8, XC0324:Reference Values, Temperature  8.6 C, sensor id 56
-g006_433.917M_250k.cu8, XC0324:Reference Values, Temperature  8.6 C, sensor id 56
-g007_433.917M_250k.cu8, XC0324:Reference Values, Temperature  8.6 C, sensor id 56
-g008_433.917M_250k.cu8, XC0324:Reference Values, Temperature  8.6 C, sensor id 56
-g009_433.917M_250k.cu8, XC0324:Reference Values, Temperature  8.6 C, sensor id 56
-g010_433.917M_250k.cu8, XC0324:Reference Values, Temperature  8.6 C, sensor id 56
 g011_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g012_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.9 C, sensor id 64
-g013_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g014_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.9 C, sensor id 64
+g011_433.92M_250k.cu8, XC0324:Reference Values, Temperature 16.0 C, sensor id 56
+g012_433.922M_250k.cu8, XC0324:Reference Values, Temperature 21.6 C, sensor id 64
+g013_433.92M_250k.cu8, XC0324:Reference Values, Temperature 15.9 C, sensor id 56
 g015_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.3 C, sensor id 56
-g016_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.9 C, sensor id 64
-g017_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g017_433.922M_250k.cu8, XC0324:Reference Values, Temperature 17.5 C, sensor id 56
 g017_433.92M_250k.cu8, XC0324:Reference Values, Temperature 15.8 C, sensor id 56
-g018_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.0 C, sensor id 64
-g019_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g020_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.0 C, sensor id 64
-g021_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g022_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.1 C, sensor id 64
-g023_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g024_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.1 C, sensor id 64
-g025_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g026_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.1 C, sensor id 64
-g027_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g028_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.1 C, sensor id 64
-g029_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g030_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.1 C, sensor id 64
-g031_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g032_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.0 C, sensor id 64
-g033_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g034_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.0 C, sensor id 64
-g035_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g036_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.0 C, sensor id 64
-g037_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g038_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.0 C, sensor id 64
-g039_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g040_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.0 C, sensor id 64
-g041_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g042_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.0 C, sensor id 64
-g043_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g044_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.0 C, sensor id 64
+g019_433.92M_250k.cu8, XC0324:Reference Values, Temperature 15.7 C, sensor id 56
+g021_433.92M_250k.cu8, XC0324:Reference Values, Temperature 15.6 C, sensor id 56
+g023_433.92M_250k.cu8, XC0324:Reference Values, Temperature 15.5 C, sensor id 56
+g025_433.92M_250k.cu8, XC0324:Reference Values, Temperature 15.3 C, sensor id 56
+g027_433.92M_250k.cu8, XC0324:Reference Values, Temperature 15.4 C, sensor id 56
+g031_433.92M_250k.cu8, XC0324:Reference Values, Temperature 15.2 C, sensor id 56
+g035_433.92M_250k.cu8, XC0324:Reference Values, Temperature 15.1 C, sensor id 56
+g037_433.92M_250k.cu8, XC0324:Reference Values, Temperature 15.0 C, sensor id 56
+g039_433.92M_250k.cu8, XC0324:Reference Values, Temperature 14.9 C, sensor id 56
+g043_433.92M_250k.cu8, XC0324:Reference Values, Temperature 14.8 C, sensor id 56
 g045_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.5 C, sensor id 56
-g046_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.0 C, sensor id 64
-g047_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.5 C, sensor id 56
-g048_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.0 C, sensor id 64
-g049_433.917M_250k.cu8, XC0324:Reference Values, Temperature 11.4 C, sensor id 56
-g050_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.0 C, sensor id 64
-g051_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.9 C, sensor id 64
-g052_433.917M_250k.cu8, XC0324:Reference Values, Temperature 12.2 C, sensor id 56
-g053_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.9 C, sensor id 64
-g054_433.917M_250k.cu8, XC0324:Reference Values, Temperature 12.3 C, sensor id 56
-g055_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g056_433.917M_250k.cu8, XC0324:Reference Values, Temperature 12.2 C, sensor id 56
-g057_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.9 C, sensor id 64
-g058_433.917M_250k.cu8, XC0324:Reference Values, Temperature 12.2 C, sensor id 56
-g059_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.9 C, sensor id 64
-g060_433.917M_250k.cu8, XC0324:Reference Values, Temperature 12.2 C, sensor id 56
-g061_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.4 C, sensor id 56
-g062_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g063_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.4 C, sensor id 56
-g064_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g065_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.3 C, sensor id 56
-g066_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g067_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.3 C, sensor id 56
-g068_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g069_433.917M_250k.cu8, XC0324:Reference Values, Temperature 17.3 C, sensor id 56
-g070_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g071_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.2 C, sensor id 56
-g072_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g073_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.2 C, sensor id 56
-g074_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g075_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.2 C, sensor id 56
-g076_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g077_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.2 C, sensor id 56
-g078_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g079_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.2 C, sensor id 56
-g080_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.9 C, sensor id 56
-g081_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.9 C, sensor id 56
-g082_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.9 C, sensor id 56
-g083_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.9 C, sensor id 56
-g084_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.8 C, sensor id 56
-g085_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g086_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.6 C, sensor id 56
-g087_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g088_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.5 C, sensor id 56
-g089_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g090_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.5 C, sensor id 56
-g091_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g092_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g092_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g092_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g092_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g092_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g092_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g092_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g092_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g092_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g092_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g093_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.4 C, sensor id 56
-g094_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g095_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.4 C, sensor id 56
-g096_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.1 C, sensor id 56
-g097_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g098_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.1 C, sensor id 56
-g099_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g099_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g100_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.0 C, sensor id 56
-g101_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g102_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.0 C, sensor id 56
-g103_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g104_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.0 C, sensor id 56
-g105_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g106_433.917M_250k.cu8, XC0324:Reference Values, Temperature 14.7 C, sensor id 56
-g107_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g108_433.917M_250k.cu8, XC0324:Reference Values, Temperature 14.7 C, sensor id 56
-g109_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g110_433.917M_250k.cu8, XC0324:Reference Values, Temperature 14.7 C, sensor id 56
-g111_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g112_433.917M_250k.cu8, XC0324:Reference Values, Temperature 14.7 C, sensor id 56
-g113_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g114_433.917M_250k.cu8, XC0324:Reference Values, Temperature 14.7 C, sensor id 56
-g115_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g116_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.5 C, sensor id 56
-g117_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.4 C, sensor id 64
-g118_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.6 C, sensor id 56
-g119_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.4 C, sensor id 64
-g120_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.6 C, sensor id 56
-g121_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.4 C, sensor id 64
-g122_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.6 C, sensor id 56
-g123_433.917M_250k.cu8, XC0324:Reference Values, Bad transmission, 
-g124_433.917M_250k.cu8, XC0324:Reference Values, Temperature 16.5 C, sensor id 56
-g125_433.917M_250k.cu8, XC0324:Reference Values, Temperature 15.4 C, sensor id 64
+g047_433.92M_250k.cu8, XC0324:Reference Values, Temperature 14.7 C, sensor id 56
+g053_433.92M_250k.cu8, XC0324:Reference Values, Temperature 14.6 C, sensor id 56
+g055_433.92M_250k.cu8, XC0324:Reference Values, Temperature 14.5 C, sensor id 56
+g057_433.92M_250k.cu8, XC0324:Reference Values, Temperature 14.4 C, sensor id 56
+g061_433.92M_250k.cu8, XC0324:Reference Values, Temperature 14.3 C, sensor id 56
+g063_433.92M_250k.cu8, XC0324:Reference Values, Temperature 14.2 C, sensor id 56
+g066_433.92M_250k.cu8, XC0324:Reference Values, Temperature 11.2 C, sensor id 64
+g068_433.92M_250k.cu8, XC0324:Reference Values, Temperature 11.5 C, sensor id 64
+g069_433.92M_250k.cu8, XC0324:Reference Values, Temperature 14.1 C, sensor id 56
+g070_433.92M_250k.cu8, XC0324:Reference Values, Temperature 11.7 C, sensor id 64
