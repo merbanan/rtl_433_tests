@@ -10,7 +10,7 @@ On b9f6d5 could we try to read air loss and battery?
 
 Status 128 is normal/idle pressure report after move/accelerate.
 Status 132 appear after fast air loss i did not catch that signal.
-Status 176 is probably low battery or some kind of that. It appears few times when you cut off battery and then put in back. (but this reads was forced by wake singal)
+Status 176 is probably low battery or some kind of that. It appears few times when you cut off battery and then put in back and when voltage is below 1.9V (probably sensor reset). Reads with status 176 was forced by wake singal.
 Status 160 is Wake. Status after send Wake up signal.
 
 0b9f6d5-low-battery.cu8
