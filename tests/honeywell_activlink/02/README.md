@@ -6,15 +6,9 @@ Australian variants are also reported to use this same frequency.
 European variants seem to operate at or near 868 MHz, thought I haven't personally tested
 these systems.  However, their data frame seems to be the same format.
 
-[There's some](https://livewell.honeywellhome.com/en/support/alarm-support/ )  
-[indication](https://livewell.honeywellhome.com/en/support/alarm-support/ ) 
-that this protocol may be based on the Friedland / Response 868MHz alarm system.  
-[This FAQ](https://livewell.honeywellhome.com/en/support/doorbell-support/) 
+[There's some](https://livewell.honeywellhome.com/en/support/alarm-support/) [indication](https://livewell.honeywellhome.com/en/support/alarm-support/) that this protocol may be based on the Friedland / Response 868MHz alarm system.  [This FAQ](https://livewell.honeywellhome.com/en/support/doorbell-support/) 
 indicates that the 868MHz variants of the Honeywell ActivLink system is compatible 
-with the Friedland Libra+ Wirefree Doorbell system.  
-[An IQ sample from this system](https://www.sigidwiki.com/wiki/Friedland_Libra%2B_48249SL_wireless_doorbell)
-is available at the [Signal Identification Guide wiki](https://www.sigidwiki.com/wiki/Signal_Identification_Guide)
-and should be analyzed further.
+with the Friedland Libra+ Wirefree Doorbell system.  [An IQ sample from this system](https://www.sigidwiki.com/wiki/Friedland_Libra%2B_48249SL_wireless_doorbell) is available at the [Signal Identification Guide wiki](https://www.sigidwiki.com/wiki/Signal_Identification_Guide) and should be analyzed further.
 
 Data below applies to the 916.8 MHz systems I've tested and and signal submissions I've
 been able to review.  If you'd like to get in touch with me to 
@@ -47,7 +41,7 @@ the signals I've collected so far, this seems to be how bits are being used.
 	# .... .... .... .... .... .... .... .... .... ..XX .... .... ALERT (00 = normal, 01 or 10 = right-left halo light pattern, 11 = full volume alarm)
 	# .... .... .... .... .... .... .... .... .... .... ...X .... SECRET KNOCK (0 = default, 1 if doorbell is pressed 3x rapidly)
 	# .... .... .... .... .... .... .... .... .... .... .... X... RELAY (1 if signal is a retransmission of a received transmission, only some models)
-	# .... .... .... .... .... .... .... .... .... .... .... .X.. FLAG UNKNOWN (0 = default, but 1 is accepted and I don't oberserve any effects)
+	# .... .... .... .... .... .... .... .... .... .... .... .X.. FLAG UNKNOWN (0 = default, but 1 is accepted and I don't observe any effects)
 	# .... .... .... .... .... .... .... .... .... .... .... ..X. LOWBAT (1 if battery is low, receiver gives low battery alert)
 	# .... .... .... .... .... .... .... .... .... .... .... ...X PARITY (LSB of count of set bits in previous 47 bits)
 
@@ -175,10 +169,8 @@ Here's an incomplete list of devices and kits known or suspected to use this sig
 
 ### Contact Me
 
-I'm actively working to understand this protocol and documenting what I find in 
-[This Honeywell Wireless Doorbell GitHub](https://github.com/klohner/honeywell-wireless-doorbell).
+I'm actively working to understand this protocol and documenting what I find in [This Honeywell Wireless Doorbell GitHub](https://github.com/klohner/honeywell-wireless-doorbell).
  
-[Please contact me](https://docs.google.com/forms/d/e/1FAIpQLSdp9HEu3CN5-piqU99VRzgcrQNJJ2AkFsnU2TQhqLPHvdzj4g/viewform?usp=sf_link)
-if you'd like to help.
+[Please contact me](https://docs.google.com/forms/d/e/1FAIpQLSdp9HEu3CN5-piqU99VRzgcrQNJJ2AkFsnU2TQhqLPHvdzj4g/viewform?usp=sf_link) if you'd like to help.
 
 --Karl Lohner.
