@@ -1,7 +1,6 @@
 ## Honeywell "ActivLink" Wireless Chimes
 
-North American variants of this device operate at 916.8 MHz FSK 50kHz deviation.  
-Australian variants are also reported to use this same frequency.
+North American variants of this device operate at 916.8 MHz FSK 50kHz deviation. Australian variants are also reported to use this same frequency.
 
 European variants seem to operate at or near 868 MHz, thought I haven't personally tested
 these systems.  However, their data frame seems to be the same format.
