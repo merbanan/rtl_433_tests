@@ -1,1 +1,1 @@
-{"time" : "@0.786432s", "model" : "Springfield Temperature & Moisture", "sid" : 212, "channel" : 1, "battery" : "OK", "transmit" : "AUTO", "temperature_C" : 20.800, "moisture" : 0}
+{"time" : "@0.524288s", "model" : "Springfield Temperature & Moisture", "sid" : 212, "channel" : 1, "battery" : "OK", "transmit" : "AUTO", "temperature_C" : 20.800, "moisture" : 0, "mic" : "CHECKSUM"}
