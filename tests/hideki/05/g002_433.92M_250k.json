@@ -1,3 +1,3 @@
-{"time" : "@0.000000s", "model" : "HIDEKI Temperature sensor", "rc" : 14, "channel" : 3, "battery" : "OK", "temperature_C" : 9.700, "mic" : "CRC"}
-{"time" : "@0.000000s", "model" : "HIDEKI Temperature sensor", "rc" : 14, "channel" : 3, "battery" : "OK", "temperature_C" : 9.700, "mic" : "CRC"}
-{"time" : "@0.000000s", "model" : "HIDEKI Temperature sensor", "rc" : 14, "channel" : 3, "battery" : "OK", "temperature_C" : 9.700, "mic" : "CRC"}
+{"time" : "@0.164116s", "model" : "HIDEKI Temperature sensor", "rc" : 14, "channel" : 3, "battery" : "OK", "temperature_C" : 9.700, "mic" : "CRC"}
+{"time" : "@0.289484s", "model" : "HIDEKI Temperature sensor", "rc" : 14, "channel" : 3, "battery" : "OK", "temperature_C" : 9.700, "mic" : "CRC"}
+{"time" : "@0.414492s", "model" : "HIDEKI Temperature sensor", "rc" : 14, "channel" : 3, "battery" : "OK", "temperature_C" : 9.700, "mic" : "CRC"}
