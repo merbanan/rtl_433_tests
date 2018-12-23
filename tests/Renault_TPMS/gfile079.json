@@ -1,1 +1,1 @@
-{"time" : "@0.000000s", "model" : "Renault", "type" : "TPMS", "id" : "72a7a4", "flags" : "d9", "code" : "3534 bc58", "mic" : "CRC"}
+{"time" : "@0.212592s", "model" : "Renault", "type" : "TPMS", "id" : "72a7a4", "flags" : "36", "pressure_kPa" : 231.000, "temperature_C" : 23.000, "mic" : "CRC"}
