@@ -3,6 +3,8 @@ Alecto WS 1200
 
 A Thermometer with clock and wireless rain unit with temperature sensor.
 
+Manual available at
+https://www.alecto.nl/media/blfa_files/WS-1200_manual_NL-FR-DE-GB_V2.2_8712412532964.pdf
 
 Format notes
 ------------
@@ -18,8 +20,15 @@ The (m) part changes on message change, so it could be a checksum.
 Flex decoder
 ------------
 
-`rtl_433 -X 'n=name,m=OOK_PWM,s=500,l=1500,r=1000,g=10000,t=400,repeats=1,y=0'`
-This command works, but I set g to 10000 without knowing what it does.
+A transmission is two packets (repeats) 36 ms apart.
+Encoding is PWM with fixed gap length.
+Short pulse of 500 us with 950 us gap (1500 us period),
+Long pulse of 1500 us with 950 us gap (2500 us period).
+
+`rtl_433 -X 'n=Alecto-WS-1200,m=OOK_PWM,s=500,l=1500,r=37000,g=1100,t=400'`
+
+The gap limit (g) here is slightly longer than the expected gap (950 us).
+The reset limit (r) should be slightly longer than the packet distance, but 37 ms is too long.
 
 File comments
 -------------
