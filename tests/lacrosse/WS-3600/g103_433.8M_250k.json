@@ -1,0 +1,8 @@
+{"time" : "@0.301252s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 196, "temperature_C" : 0.200}
+{"time" : "@0.567128s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 196, "humidity" : 87}
+{"time" : "@0.830444s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 196, "rainfall_mm" : 18.648}
+{"time" : "@1.094620s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 196, "wind_speed_ms" : 0.000, "wind_direction" : 180.000}
+{"time" : "@1.626856s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 196, "temperature_C" : 0.200}
+{"time" : "@1.893704s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 196, "humidity" : 87}
+{"time" : "@2.156044s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 196, "rainfall_mm" : 18.648}
+{"time" : "@2.425212s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 196, "wind_speed_ms" : 0.000, "wind_direction" : 180.000}

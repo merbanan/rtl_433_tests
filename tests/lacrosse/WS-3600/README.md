@@ -1,5 +1,10 @@
+Lacrosse Weather Station WS-3600 with Sensor TX13 --> lacrossews.c
+
 More info regarding the protocol:
 http://makin-things.com/articles/decoding-lacrosse-weather-sensor-rf-transmissions/ (2019: no longer online, use archive.org)
+
+More about the station: (german)
+http://wiki.wetterstationen.info/index.php?title=LaCrosse_WS3600
 	
 Do note that these weather stations are often not precisely tuned to 433.9 MHz, 
 you might need to start rtl_433 with a command like "rtl_433 -f 433800000".
