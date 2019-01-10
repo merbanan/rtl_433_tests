@@ -1,4 +1,5 @@
 Lacrosse Weather Station WS-3600 with Sensor TX13 --> lacrossews.c
+------------------
 
 More info regarding the protocol:
 http://makin-things.com/articles/decoding-lacrosse-weather-sensor-rf-transmissions/ (2019: no longer online, use archive.org)
