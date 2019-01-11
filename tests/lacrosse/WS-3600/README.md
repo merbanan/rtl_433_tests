@@ -39,6 +39,7 @@ Example Data WS-3600
 rtl_433 -r g014_433.8M_250k.cu8 -A
 
 ```
+[...]
 time      : @1.893632s   brand     : LaCrosse
 model     : WS-3600      ws_id     : 6             id        : 196
 Humidity  : 87
@@ -63,4 +64,5 @@ bitbuffer:: Number of rows: 1
 [00] {52} 06 1c 4f e8 7b 78 d0
 
 Detected OOK package    @2.155968s
+[...]
 ```
