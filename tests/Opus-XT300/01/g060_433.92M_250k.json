@@ -1,1 +1,1 @@
-{"time" : "@0.259920s", "model" : "Opus/Imagintronix XT300 Soil Moisture", "channel" : 1, "temperature_C" : 25.000, "moisture" : 5, "mic" : "CHECKSUM"}
+{"time" : "@0.259920s", "model" : "Opus-XT300", "channel" : 1, "temperature_C" : 25, "moisture" : 5, "mic" : "CHECKSUM"}
