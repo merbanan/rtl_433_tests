@@ -1,3 +1,7 @@
+Github Issue#:
+
+#965 ( https://github.com/merbanan/rtl_433/issues/965 )
+
 Sensor:
 
 TFA Dostmann
