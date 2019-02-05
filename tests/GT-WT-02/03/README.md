@@ -1,5 +1,32 @@
 
-GT-WT02 is not decoded too. So here are the samples for the GT-WT02:
+__GT-WT02__ is not decoded too. So here are the samples for the GT-WT02:
+
+<pre>
+Corrections:
+Bit 11+12: channel-code 00=Ch1, 01==Ch2, 10=Ch3 (not 11!)
+Bit 25: belongs to the humidity (7bit in total),
+Bit 32: unclear (always set to "1" in my tests???)
+</pre>
+
+So likely the right (better?) decoding:
+<pre><code>
+/* SENSOR: GT-WT-02 (ALDI Globaltronics..)
+/*                XX              X      X (X-bits to correct?)
+/* TYP AAAAAAAA BCDDEFFF FFFFFFFF gGGGGGG?xxxxx
+/* BIT 00000000 01111111 11122222 2222233333333
+/* BIT 12345678 90123456 78901234 5678901234567
+/* 
+/* TYPDescriptian
+/* A = Rolling Device Code, Change after battarie
+/* B = Batt 0=OK 1=LOW
+/* C = Manual Send Button Pressed 0=not pressed 1=pressed
+/* D = Channel 00=CH1, 01=CH2, 10=CH3
+/* E = Temp 0=positiv 1=negativ
+/* F = PositivTemp = 12 Bit bin2dez Temp, 
+/* F = negativ Temp = 4095+1- F (12Bit bin2dez) , Factor Divid F / 10 (1Dezimal)
+/* G = Humidity = 7Bit bin2dez 00-99, Display LL=10%, Display HH=110% (Range 20-90%)
+/* x = checksum
+</code></pre>
 
 __GT-WT02 - Battery-OK, No-Button, Channel 2, 21,1 °C, 31%__
 
