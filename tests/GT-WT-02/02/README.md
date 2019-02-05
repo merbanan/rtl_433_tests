@@ -30,6 +30,7 @@ bitbuffer:: Number of rows: 10
 
 
 __Battery-Low, Channel 1, 3,3 °C, 66%:__
+
 <code>
 *** signal_start = 34589571, signal_end = 34831207, signal_len = 241636, pulses_found = 240
 Iteration 1. t: 142    min: 141 (9)    max: 143 (231)    delta 4
@@ -57,6 +58,7 @@ bitbuffer:: Number of rows: 13
 </code>
 
 __Battery-Low, Channel 1, 3,1 °C, 66%:__
+
 <code>
 *** signal_start = 32475023, signal_end = 32722728, signal_len = 247705, pulses_found = 240
 Iteration 1. t: 142    min: 142 (4)    max: 143 (236)    delta 4
