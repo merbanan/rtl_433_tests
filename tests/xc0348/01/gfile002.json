@@ -1,1 +1,1 @@
-{"time" : "@0.000000s", "model" : "Fine Offset Electronics WH1080/WH3080 Weather Station", "msg_type" : 0, "id" : 133, "temperature_C" : 5.900, "humidity" : 95, "direction_str" : "NW", "direction_deg" : "315", "speed" : 1.224, "gust" : 2.448, "rain" : 335.100, "battery" : "OK", "mic" : "CRC"}
+{"time" : "@0.042004s", "model" : "Fine Offset Electronics WH1080/WH3080 Weather Station", "msg_type" : 0, "id" : 133, "temperature_C" : 5.900, "humidity" : 95, "direction_deg" : 315, "speed" : 1.224, "gust" : 2.448, "rain" : 335.100, "battery" : "OK", "mic" : "CRC"}

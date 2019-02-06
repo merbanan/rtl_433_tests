@@ -1,3 +1,3 @@
-{"time" : "@0.000000s", "model" : "Fine Offset Electronics WH3080 Weather Station", "msg_type" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 92210.602, "wm" : 135.008, "fc" : 8569.759, "mic" : "CRC"}
-{"time" : "@0.000000s", "model" : "Fine Offset Electronics WH3080 Weather Station", "msg_type" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 92210.602, "wm" : 135.008, "fc" : 8569.759, "mic" : "CRC"}
-{"time" : "@0.000000s", "model" : "Fine Offset Electronics WH3080 Weather Station", "msg_type" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 92210.602, "wm" : 135.008, "fc" : 8569.759, "mic" : "CRC"}
+{"time" : "@0.050624s", "model" : "Fine Offset Electronics WH3080 Weather Station", "msg_type" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 92210.602, "wm" : 135.008, "mic" : "CRC"}
+{"time" : "@0.203672s", "model" : "Fine Offset Electronics WH3080 Weather Station", "msg_type" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 92210.602, "wm" : 135.008, "mic" : "CRC"}
+{"time" : "@0.356732s", "model" : "Fine Offset Electronics WH3080 Weather Station", "msg_type" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 92210.602, "wm" : 135.008, "mic" : "CRC"}
