@@ -2,6 +2,7 @@ TFA Dostmann 30.3196 T/H outdoor sensor
 =======================================
 
 https://www.tfa-dostmann.de/en/produkt/temperature-humidity-transmitter-11/
+https://clientmedia.trade-server.net/1768_tfadost/media/7/86/3786.pdf
 
 The device comes with 'TFA Modus Plus' (indoor) base station.
 Up to three outdoor sensors can be operated
@@ -42,25 +43,35 @@ Here are some findings:
 
 - A data row consists of 64 bits (8 Bytes).
 
+- LSB of byte is first bit sent.
+
 - First two bytes seem to be always 0xFF.
 
 - Third byte seems to be always 0xA8.
 
-- Last two bytes vary, maybe check sum?
-
-- Not shure, maybe channel number is coded in MSBs part of fourth byte.
+- Last two bytes vary strongly, maybe check sum?
 
 - Temperature (Celsius) is found in bits 0-1 of fourth byte and
   bits 0-7 of fifth byte. ( Value = 10 * ( T + 40) )
   (Bit 0 is LSB, 7 is MSB)
 
-- Humidity is found in bits 0-6[7?] of sixth byte.
+- Humidity is found in bits 0-6 of sixth byte.
+
+- Bit 7 of sixth byte seems to indicate 'low battery' if set.
+
+- Bits 4-5 of fourth byte represent channel numbers:
+  Bits 5 4 | Ch.
+  --------------
+       0 0 | 1
+       0 1 | 2
+       1 0 | 3
 
 - At the start there is a ~ 600 us low signal (see e.g., rtl_record.wav).
 
-- Long pulse is 520 us, short pulse is ~ 240 us.
+- Long pulse is ~ 520 us, short pulse is ~ 240 us.
 
-- The data row is repeated four times with a ~ 720 us gap (low signal).
+- The data row is repeated four times with ~ 720 us gaps (low signal)
+  in between.
 
 ----
 
