@@ -9,12 +9,12 @@ This InFactory branded sensor comes with several Wheather Stations sold by Pearl
 
 Note that I do NOT have the weather base station, and the sensor do NOT have any kind of lcd screen to get the current Temp/Humidity 
 
-##My initial findings
+## Initial findings
 
 Sensor is transmiting 5 bytes with PWM OOK encoding + a few 0000 for preamb. Those 5 bytes are transmitted 6 times, every minute.
 The PWM values looks the same as Esperanza EWS and Oregon, so RTL_433 tries to decode the frame using those decoders, but without success.
 
-##Frame Structure
+## Frame Structure
 
 Not a lot of answers here, I need help ;-)
 
@@ -23,7 +23,19 @@ IIIIIIII ???????? ???????? ???????? ?????NNN
 I = Sensor ID. Resets to a new value after battery is removed.
 N = Those 3 bits never ever changed
 
-##Datas
+## Sensor (front)
+![](front.JPG)
+
+## Sensor (back)
+![](rear.JPG)
+
+## Sensor (inner)
+![](inside.JPG)
+
+## PCB (details)
+![](PCB_details.JPG)
+
+## Data
 
 I grabbed the following datas. Notice that I think that there is a glitch in my RTL_433 setup, as a -A (bellow) shows empty frame. May be the same for my *.data files.
 

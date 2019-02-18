@@ -16,13 +16,13 @@ http://www.pearl.de/a-PV8796-3041.shtml
 | gfile001.data   | 20.5          |   73           |
 
 ## Weather Station
-![](https://github.com/siriuzwhite/rtl_433_tests/blob/master/tests/infactory_PV-8796-675/STATION.jpg?raw=true)
+![](STATION.jpg)
 
 ## Sensor (front)
-![](https://github.com/siriuzwhite/rtl_433_tests/blob/master/tests/infactory_PV-8796-675/SENSOR_FRONT.jpg?raw=true)
+![](SENSOR_FRONT.jpg)
 
 ## Sensor (back)
-![](https://github.com/siriuzwhite/rtl_433_tests/blob/master/tests/infactory_PV-8796-675/SENSOR_BACK.jpg?raw=true)
+![](SENSOR_BACK.jpg)
 
 ## Sensor (inner)
-![](https://github.com/siriuzwhite/rtl_433_tests/blob/master/tests/infactory_PV-8796-675/SENSOR_INNER.jpg?raw=true)
+![](SENSOR_INNER.jpg)
