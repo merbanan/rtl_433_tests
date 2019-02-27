@@ -1,6 +1,6 @@
-{"time" : "@0.000000s", "model" : "Schrader", "type" : "TPMS", "flags" : "03", "id" : "03A38B2", "pressure_bar" : 3.150, "temperature_C" : 23.000, "mic" : "CRC"}
-{"time" : "@0.262144s", "model" : "Schrader", "type" : "TPMS", "flags" : "03", "id" : "03A38B2", "pressure_bar" : 3.150, "temperature_C" : 23.000, "mic" : "CRC"}
-{"time" : "@0.262144s", "model" : "Schrader", "type" : "TPMS", "flags" : "03", "id" : "03A38B2", "pressure_bar" : 3.150, "temperature_C" : 23.000, "mic" : "CRC"}
-{"time" : "@0.262144s", "model" : "Schrader", "type" : "TPMS", "flags" : "03", "id" : "03A38B2", "pressure_bar" : 3.150, "temperature_C" : 23.000, "mic" : "CRC"}
-{"time" : "@0.524288s", "model" : "Schrader", "type" : "TPMS", "flags" : "03", "id" : "03A38B2", "pressure_bar" : 3.150, "temperature_C" : 23.000, "mic" : "CRC"}
-{"time" : "@0.524288s", "model" : "Schrader", "type" : "TPMS", "flags" : "03", "id" : "03A38B2", "pressure_bar" : 3.150, "temperature_C" : 23.000, "mic" : "CRC"}
+{"time" : "@0.157764s", "model" : "Schrader", "type" : "TPMS", "flags" : "03", "id" : "03A38B2", "pressure_kPa" : 315.000, "temperature_C" : 23.000, "mic" : "CRC"}
+{"time" : "@0.278284s", "model" : "Schrader", "type" : "TPMS", "flags" : "03", "id" : "03A38B2", "pressure_kPa" : 315.000, "temperature_C" : 23.000, "mic" : "CRC"}
+{"time" : "@0.378752s", "model" : "Schrader", "type" : "TPMS", "flags" : "03", "id" : "03A38B2", "pressure_kPa" : 315.000, "temperature_C" : 23.000, "mic" : "CRC"}
+{"time" : "@0.489020s", "model" : "Schrader", "type" : "TPMS", "flags" : "03", "id" : "03A38B2", "pressure_kPa" : 315.000, "temperature_C" : 23.000, "mic" : "CRC"}
+{"time" : "@0.619352s", "model" : "Schrader", "type" : "TPMS", "flags" : "03", "id" : "03A38B2", "pressure_kPa" : 315.000, "temperature_C" : 23.000, "mic" : "CRC"}
+{"time" : "@0.729636s", "model" : "Schrader", "type" : "TPMS", "flags" : "03", "id" : "03A38B2", "pressure_kPa" : 315.000, "temperature_C" : 23.000, "mic" : "CRC"}
