@@ -1,1 +1,1 @@
-{"time" : "@0.786432s", "model" : "S3318P Temperature & Humidity Sensor", "id" : 160, "channel" : 3, "battery" : "LOW", "button" : 0, "temperature_F" : 21.300, "humidity" : 80}
+{"time" : "@0.109852s", "model" : "S3318P Temperature & Humidity Sensor", "id" : 160, "channel" : 3, "battery" : "LOW", "button" : 0, "temperature_F" : 21.300, "humidity" : 80, "mic" : "CRC"}
