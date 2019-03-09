@@ -1,4 +1,1 @@
-{"time" : "@0.524288s", "model" : "TFA-Twin-Plus-30.3049", "id" : 7, "channel" : 1, "battery" : "OK", "temperature_C" : 23.900, "humidity" : 56}
-{"time" : "@0.524288s", "model" : "TFA-Twin-Plus-30.3049", "id" : 7, "channel" : 1, "battery" : "OK", "temperature_C" : 23.900, "humidity" : 56}
-{"time" : "@0.524288s", "model" : "TFA-Twin-Plus-30.3049", "id" : 7, "channel" : 1, "battery" : "OK", "temperature_C" : 23.900, "humidity" : 56}
-{"time" : "@0.524288s", "model" : "TFA-Twin-Plus-30.3049", "id" : 7, "channel" : 1, "battery" : "OK", "temperature_C" : 23.900, "humidity" : 56}
+{"time" : "@0.206760s", "model" : "TFA-Twin-Plus-30.3049", "id" : 7, "channel" : 1, "battery" : "OK", "temperature_C" : 23.900, "humidity" : 56, "mic" : "CHECKSUM"}
