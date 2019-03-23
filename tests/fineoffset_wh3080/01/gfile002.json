@@ -1,1 +1,1 @@
-{"time" : "@0.300212s", "model" : "Fine Offset Electronics WH1080/WH3080 Weather Station", "msg_type" : 1, "id" : 45, "signal" : "DCF77", "hours" : 12, "minutes" : 6, "seconds" : 28, "year" : 2017, "month" : 4, "day" : 4, "mic" : "CRC"}
+{"time" : "@0.300212s", "model" : "Fine Offset Electronics WH1080/WH3080 Weather Station", "msg_type" : 1, "id" : 45, "signal" : "DCF77", "radio_clock" : "2017-04-04T12:06:28", "mic" : "CRC"}
