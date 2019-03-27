@@ -1,0 +1,106 @@
+Replacement Wind Sensor (anemometer) for WMR Series Weather Stations
+
+
+Supplied with:
+
+Wind speed and direction sensor
+Right angle bracket for sensor mount on your existing mast / post
+AA batteries
+
+Suitable for the following series of weather stations:
+
+WMR80
+WMR86 including N, NS, NX and NSX
+WMR88
+WMR89
+WMR100
+WMR180
+WMR200 
+
+Features:
+
+Dimensions (L x W x H) 178 x 76 x 214 mm (7 x 3 x 8.4 inches)
+Weight 100 g (0.22 lbs) without battery
+Wind speed unit m/s, kph, mph, knots
+Speed accuracy 2 m/s ~ 10 m/s (+/- 3 m/s)
+10 m/s ~ 56 m/s (+/- 10%)
+Direction accuracy 16 positions
+Transmission of Approx. every 14 seconds wind speed signal
+Records maximum speed gust
+Battery 2 x UM-3 (AA) 1.5V batteries
+
+
+
+rtl_433 -X "n=WGR800X,m=OOK_MC_ZEROBIT,s=440,l=0,r=2400"
+
+time      : 2019-03-27 19:28:46
+model     : WGR800X      count     : 1             num_rows  : 1             rows      :
+len       : 335          data      : 000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8
+codes     : {335}000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8
+
+
+time      : 2019-03-27 19:29:14
+model     : WGR800X      count     : 1             num_rows  : 1             rows      :
+len       : 335          data      : 000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8
+codes     : {335}000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8
+
+
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+
+I think is the format.
+
+PRE:24h SYNC:h ID:16h CHAN:h BAT:h ROLL:h DIR:d DIR:d GUST:dd AVG:dd CRC:24h
+
+http://triq.net/bitbench?c=%5B-X%20%22name%3Dtest%2Cmodulation%3DFSK_PCM%2Cs%3D120%2Cl%3D120%2Cs%3D120%2Cr%3D9000%22%5D&c=&c=7aaaaaaaf554b34ad2b2d4b32ab2%20%5BThis%20was%20captured%20days%20before%20without%20knowing%20I%20had%20it.%20Represents%20the%20highest%20pressure%20before%20any%20deflations%5D&c=&c=7aaaaaaaf354b34ad2b2d4b2d354%20%5BDeflate%5D%20%5BTemp%20was%2025c%5D&c=7aaaaaaaf354b34ad2b2d4b2d2b2%20%5BDeflate%5D&c=7aaaaaaaf354b34ad2b2d4b2ccd2%20%5BDeflate%5D&c=7aaaaaaaf354b34ad2b2d4b2b52a%20%5BDeflate%5D&c=7aaaaaaaf354b34ad2b2d4b2b34a%20%5BDeflate%5D&c=7aaaaaaaf354b34ad2b2d4b2b2b4%20%5BDeflate%5D&c=7aaaaaaaf354b34ad2b2d4b2acd4%20%5BDeflate%5D%20%5BTemp%20was%2025c%5D&c=&c=7aaaaaaaf4d4b34ad2b2d4b2ad34%20%5BReport%5D%20%5BTemp%20was%2025c%5D&c=7aaaaaaaf4d4b34ad2b2d4b2ad34%20%5BReport%5D&c=7aaaaaaaf4d4b34ad2b2d4b2ad52%20%5BReport%5D&c=7aaaaaaaf4d4b34ad2b2d4b2ad52%20%5BReport%5D&c=7aaaaaaaf4d4b34ad2b2d4b2ad52%20%5BReport%5D%20%5BTemp%20was%2025c%5D&c=%5BRound%202%5D&c=7aaaaaaaf354b34ad2b2d4b2aaca%20%5BDeflate%5D&c=&c=7aaaaaaaf4d4b34ad2b2d4ad54ca%20%5Bg004%20-%20Just%20before%20cooling%5D&c=7aaaaaaaf4d4b34ad2b2d4ad54ca%20%5Bg007%5D&c=7aaaaaaaf4d4b34ad2b2d4ad5534%20%5Bg008%5D&c=7aaaaaaaf4d4b34ad2b2d4ad5534%20%5Bg010%20coldest%3F%5D&c=&c=7aaaaaaaf4d4b34ad2b2d4ad5534%20%5BFairly%20stable%5D&c=7aaaaaaaf4d4b34ad2b2d4ad54ac%20%5Bg017%20-%20let%20a%20little%20air%20out%20just%20before%5D&c=7aaaaaaaf4d4b34ad2b2d4ad5354%20%5Bg023%20let%20a%20bit%20more%20air%20just%20before%2C%2023c%3F%5D&c=&c=7aaaaaaaf4d4b34ad2b2d4ad54ac%20%5Bg052%20-%3E%20Let%20out%20air%5D&c=7aaaaaaaf4d4b34ad2b2d4ad5354%20%5Bg054%20%3D%20result.%5D&c=7aaaaaaaf4d4b34ad2b2d4ad5354%20%5Bg067%20-%3E%20Let%20out%20TINY%20amount%20of%20air%5D&c=7aaaaaaaf4d4b34ad2b2d4ad532a%20%5Bg069%20%3D%20result%5D&c=&c=7aaaaaaaf4d4b34ad2b2d4ad52b2%20%5Bg083%20-%20Let%20a%20bunch%20of%20air%20out%20to%20reset%20the%20panic%20mode.%20Tire%20on%20balcony%20to%20cool.%5D&c=7aaaaaaaf4d4b34ad2b2d4ad3554%20%5Bg085%5D&c=7aaaaaaaf4d4b34ad2b2d4ad3554%20%5Bg086%20Pressure%20stabilized.%20Time%20for%20cooling.%5D&c=7aaaaaaaf4d4b34ad2b2d4ad352a%20%5Bg093%5D&c=7aaaaaaaf4d4b34ad2b2d4ad34cc%20%5Bg116%20around%209%20degrees%20outside%20rubber%5D&c=7aaaaaaaf4d4b34ad2b2d4ad34b2%20%5Bg123%5D&c=7aaaaaaaf4d4b34ed2b2d4ad334a%20%5Bg150%5D&c=7aaaaaaaf4d4b34ad2b2d4ad332c%20%5Bg167%5D&c=7aaaaaaaf4d4b34ad2b2d4ad32d2%20%5Bg201%20Rubber%200%20degrees%5D&f=PRE%3A32hh%20MODE%3Ahh%20TPMS_ID%3F%3A32h%20UNKNOWN%3A12h%20PRESSURE%3A24h
+
+
+
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+
+000000b122400e00069010005804
+000000b122400e00069010005804
+000000b122400e00069010005804
+000000b122400e00069010005804
+
+rtl_433 -X "n=WGR800X,m=OOK_MC_ZEROBIT,s=440,l=2400,r=2400,preamble={24}"
+rtl_433 version 18.12-153-g8f48151 branch master at 201903221617 inputs file rtl_tcp RTL-SDR
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/pi/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+
+        Consider using "-M newmodel" to transition to new model keys. This will become the default someday.
+        A table of changes and discussion is at https://github.com/merbanan/rtl_433/pull/986.
+
+Registered 98 out of 122 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 62-64 67-71 73-100 102-103 108-116 119 121 ]
+Detached kernel driver
+Found Rafael Micro R820T tuner
+Exact sample rate is: 250000.000414 Hz
+[R82XX] PLL not locked!
+Sample rate set to 250000 S/s.
+Tuner gain set to Auto.
+Tuned to 433.920MHz.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2019-03-26 22:01:01
+model     : WGR800X      count     : 1             num_rows  : 1             rows      :
+len       : 311          data      : b122400e0006000000197c 000000b122400e0006000000197c 000000b122400e0006000000197c
+codes     : {311}b122400e0006000000197c 000000b122400e0006000000197c000000b122400e0006000000197c
+
+
+
+b122400e0006000000197c
+b122400e0006000000197c
+b122400e0006000000197c
+
+
+000000b122400e00069010005804
+000000b122400e00069010005804
