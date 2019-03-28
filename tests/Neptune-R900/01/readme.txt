@@ -81,6 +81,35 @@ In binary: 00110 10110 11100 10110 11101
 In hex: 35 b9 6e (followed by an extra 1 bit)
 
 
+As far as I can tell, R900 is a Neptune specific protocol.
+
+My meter is labeled:
+Neptune E-Coder)R900i
+Neptune R900 v4
+Model R900M
+Part No. RW2F13
+FCCID P2SR900M
+IC 4171B-R900M
+IFT RCPNER914-116
+Internal Software 2008
+
+Here are some relevant links:
+Product Page: 
+https://www.neptunetg.com/products/endpointsmius/e-coderr900i/
+Information PDF (page 2): 
+https://www.neptunetg.com/globalassets/products/literature/19-003084-ps-e-coderr900i-01.19.pdf
+https://www.neptunetg.com/globalassets/products/literature/19-003084-ps-e-coder-r900i-v5-01.19.pdf
+Installation and Maintenance (pages 16, 17, 21, 45-46):
+https://www.neptunetg.com/globalassets/products/literature/publication_e-coderr900i-10.15.pdf
+Installation and maintenance (pages 14, 15, 24, 41, 42):
+https://www.neptunetg.com/globalassets/products/literature/publication_im-e-coder-r900i-12.18.pdf
+RTLAMR r900 source: 
+https://github.com/bemasher/rtlamr/blob/master/r900/r900.go
+RTLAMR r900 message description: 
+https://github.com/bemasher/rtlamr/wiki/Protocol#r900-consumption-message
+RTLAMR r900 flag description comment: 
+https://github.com/bemasher/rtlamr/issues/29#issuecomment-97622287
+
 
 
 
