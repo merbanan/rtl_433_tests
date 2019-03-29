@@ -71,6 +71,7 @@ In hex: 84 06 2d fa 00
 NoUse: 100001(bin) - 33(dec) [Days]
 BackFlow: 00(bin) - 0(dec) [2 for High, 1 for Low, 0 for None]
 Consumption: 062dfa(hex) - 404986(dec) [Cubic Feet x100, meter reads 4049.86]
+Unkn3: 00(bin) - 0(dec)
 Leak: 0000(bin) - 0(dec) [Days]
 LeakNow: 00(bin) - 0(dec) [2 for Continuous, 1 for Intermittent, 0 for None]
 
@@ -111,12 +112,51 @@ RTLAMR r900 flag description comment:
 https://github.com/bemasher/rtlamr/issues/29#issuecomment-97622287
 
 
+Sample file contents:
 
+g018_912.6M_1000k.cu8
+ID: 1545911110
+Unkn1: 163
+NoUse: 33
+BackFlow: 0
+Consumption: 404986
+Unkn3:0
+Leak: 0
+LeakNow:0
 
+g002_913.08M_250k.cu8 
+g004_913.1M_1000k.cu8 
+g001_913.12M_250k.cu8
+ID: 1545911110
+Unkn1: 163
+NoUse: 33
+BackFlow: 0
+Consumption: 405841
+Unkn3:0
+Leak: 0
+LeakNow:0
 
+g002_912.9M_250k.cu8
+g003_912.9M_250k.cu8
+ID: 1545911110
+Unkn1: 163
+NoUse: 33
+BackFlow: 0
+Consumption: 405886
+Unkn3:0
+Leak: 0
+LeakNow:0
 
-
-
+g006_912.9M_250k.cu8
+g008_912.9M_250k.cu8
+ID: 1545911110
+Unkn1: 163
+NoUse: 33
+BackFlow: 0
+Consumption: 406128
+Unkn3: 0
+Leak: 0
+LeakNow:0
 
 
 
