@@ -112,9 +112,14 @@ RTLAMR r900 flag description comment:
 https://github.com/bemasher/rtlamr/issues/29#issuecomment-97622287
 
 
-Sample file contents:
+Sample file contents (Note these captures only differ in the consumption value and thus only differ in the fourth quarter of the payload, except for the last five bits, and what comes after, except for g018_912.6M_1000k which also differs in last five bits of the third quarter)
 
 g018_912.6M_1000k.cu8
+Raw Payload (after preamble, before checksum):
+01011001011010101100001101011001
+11001010011010011100110000111100
+01101010011010100011110000110110
+10101100100100110110101000110011
 ID: 1545911110
 Unkn1: 163
 NoUse: 33
@@ -127,6 +132,11 @@ LeakNow:0
 g002_913.08M_250k.cu8 
 g004_913.1M_1000k.cu8 
 g001_913.12M_250k.cu8
+Raw Payload (after preamble, before checksum):
+01011001011010101100001101011001
+11001010011010011100110000111100
+01101010011010100011110000111100
+00110110110001100101011000110011
 ID: 1545911110
 Unkn1: 163
 NoUse: 33
@@ -138,17 +148,27 @@ LeakNow:0
 
 g002_912.9M_250k.cu8
 g003_912.9M_250k.cu8
+Raw Payload (after preamble, before checksum):
+01011001011010101100001101011001
+11001010011010011100110000111100
+01101010011010100011110000111100
+00111010110010100101011000110011
 ID: 1545911110
 Unkn1: 163
 NoUse: 33
 BackFlow: 0
-Consumption: 405886
+Consumption: 406105
 Unkn3:0
 Leak: 0
 LeakNow:0
 
 g006_912.9M_250k.cu8
 g008_912.9M_250k.cu8
+Raw Payload (after preamble, before checksum):
+01011001011010101100001101011001
+11001010011010011100110000111100
+01101010011010100011110000111100
+00111010101010100011001100110011
 ID: 1545911110
 Unkn1: 163
 NoUse: 33
