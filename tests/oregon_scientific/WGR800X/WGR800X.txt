@@ -1,0 +1,103 @@
+Replacement Wind Sensor (anemometer) for WMR Series Weather Stations
+
+
+Supplied with:
+
+Wind speed and direction sensor
+Right angle bracket for sensor mount on your existing mast / post
+AA batteries
+
+Suitable for the following series of weather stations:
+
+WMR80
+WMR86 including N, NS, NX and NSX
+WMR88
+WMR89
+WMR100
+WMR180
+WMR200 
+
+Features:
+
+Dimensions (L x W x H) 178 x 76 x 214 mm (7 x 3 x 8.4 inches)
+Weight 100 g (0.22 lbs) without battery
+Wind speed unit m/s, kph, mph, knots
+Speed accuracy 2 m/s ~ 10 m/s (+/- 3 m/s)
+10 m/s ~ 56 m/s (+/- 10%)
+Direction accuracy 16 positions
+Transmission of Approx. every 14 seconds wind speed signal
+Records maximum speed gust
+Battery 2 x UM-3 (AA) 1.5V batteries
+
+
+
+rtl_433 -X "n=WGR800X,m=OOK_MC_ZEROBIT,s=440,l=0,r=2400"
+
+time      : 2019-03-27 19:28:46
+model     : WGR800X      count     : 1             num_rows  : 1             rows      :
+len       : 335          data      : 000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8
+codes     : {335}000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8
+
+
+time      : 2019-03-27 19:29:14
+model     : WGR800X      count     : 1             num_rows  : 1             rows      :
+len       : 335          data      : 000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8
+codes     : {335}000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8000000b122400e0e06000000f9e8
+
+
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+
+I think is the format.
+
+PRE:24h SYNC:h ID:16h CHAN:h BAT:h ROLL:h DIR:d DIR:d GUST:dd AVG:dd CRC:24h
+
+
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+000000b122400e0006000000197c
+
+000000b122400e00069010005804
+000000b122400e00069010005804
+000000b122400e00069010005804
+000000b122400e00069010005804
+
+rtl_433 -X "n=WGR800X,m=OOK_MC_ZEROBIT,s=440,l=2400,r=2400,preamble={24}"
+rtl_433 version 18.12-153-g8f48151 branch master at 201903221617 inputs file rtl_tcp RTL-SDR
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/pi/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+
+        Consider using "-M newmodel" to transition to new model keys. This will become the default someday.
+        A table of changes and discussion is at https://github.com/merbanan/rtl_433/pull/986.
+
+Registered 98 out of 122 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 62-64 67-71 73-100 102-103 108-116 119 121 ]
+Detached kernel driver
+Found Rafael Micro R820T tuner
+Exact sample rate is: 250000.000414 Hz
+[R82XX] PLL not locked!
+Sample rate set to 250000 S/s.
+Tuner gain set to Auto.
+Tuned to 433.920MHz.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2019-03-26 22:01:01
+model     : WGR800X      count     : 1             num_rows  : 1             rows      :
+len       : 311          data      : b122400e0006000000197c 000000b122400e0006000000197c 000000b122400e0006000000197c
+codes     : {311}b122400e0006000000197c 000000b122400e0006000000197c000000b122400e0006000000197c
+
+
+
+b122400e0006000000197c
+b122400e0006000000197c
+b122400e0006000000197c
+
+
+000000b122400e00069010005804
+000000b122400e00069010005804
