@@ -1,0 +1,12 @@
+tire starting at 30psi
+this tire was on the floor so possibly the coldest
+
+let our air to 26psi
+g001-g016
+
+let out some more air
+capture during this
+g017
+end at 20psi
+stop capture at g049
+

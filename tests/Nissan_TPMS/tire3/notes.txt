@@ -1,0 +1,9 @@
+tire 3 starting at 30psi
+deflate some air
+
+around 26.5 psi
+should be captured somewhere in g007-g016
+
+let a bunch of air out again
+22psi
+g017-g030 should have that data

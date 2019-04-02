@@ -1,0 +1,12 @@
+starting pressure ~31psi
+
+samples 8,9, 11,12,13?
+26psi after letting out air
+
+g031 start of next deflate, starting at  26psi, ending at 24psi
+24psi should be in g040
+A
+C
+A
+
+
