@@ -25,7 +25,7 @@ The raw bits, assuming each bit is 732 us, would be this message:
 ```
 
 The `1100` at the beginning of each row is the SYNC.  Following that, groupings of 4 raw bits decode to logical bits using PWM. 
-Raw bits `1000` decodes to logical bit `0`, and raw bits `1110` decodes to logical bit `1`. 
+Raw bits `1000` decode to logical bit `0`, and raw bits `1110` decode to logical bit `1`. 
 The PWM demodulated data, repeated 5 times between the SYNC bits, is the 14 bits `01001000110010`. 
 
 Data layout (14 bits):
