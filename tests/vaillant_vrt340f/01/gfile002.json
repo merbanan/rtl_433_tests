@@ -1,2 +1,2 @@
-{"time" : "@0.262144s", "model" : "Vaillant VRT340f Central Heating Thermostat", "device" : 28150, "heating" : "OFF", "heating_temp" : 0, "water" : "ON", "battery" : "Ok"}
-{"time" : "@0.524288s", "model" : "Vaillant VRT340f Central Heating Thermostat", "device" : 28150, "heating" : "OFF", "heating_temp" : 0, "water" : "ON", "battery" : "Ok"}
+{"time" : "@0.280576s", "model" : "Vaillant VRT340f Central Heating Thermostat", "device" : 28150, "heating" : "OFF", "heating_temp" : 0, "water" : "ON", "battery" : "OK"}
+{"time" : "@0.530012s", "model" : "Vaillant VRT340f Central Heating Thermostat", "device" : 28150, "heating" : "OFF", "heating_temp" : 0, "water" : "ON", "battery" : "OK"}

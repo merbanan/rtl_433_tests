@@ -1,10 +1,10 @@
-{"time" : "@0.217288s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 185, "temperature_C" : -1.500}
-{"time" : "@0.570696s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 185, "humidity" : 82}
-{"time" : "@0.920564s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 185, "rainfall_mm" : 0.000}
-{"time" : "@1.279216s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 185, "wind_speed_ms" : 0.200, "wind_direction" : 135.000}
-{"time" : "@1.630420s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 185, "gust_speed_ms" : 0.600, "wind_direction" : 135.000}
-{"time" : "@1.979308s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 185, "temperature_C" : -1.500}
-{"time" : "@2.417916s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 185, "humidity" : 82}
-{"time" : "@2.767796s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 185, "rainfall_mm" : 0.000}
-{"time" : "@3.125220s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 185, "wind_speed_ms" : 0.200, "wind_direction" : 135.000}
-{"time" : "@3.475448s", "brand" : "LaCrosse", "model" : "WS-3600", "ws_id" : 6, "id" : 185, "gust_speed_ms" : 0.600, "wind_direction" : 135.000}
+{"time" : "@0.217288s", "model" : "LaCrosse-WS3600", "id" : 185, "temperature_C" : -1.500}
+{"time" : "@0.570696s", "model" : "LaCrosse-WS3600", "id" : 185, "humidity" : 82}
+{"time" : "@0.920564s", "model" : "LaCrosse-WS3600", "id" : 185, "rainfall_mm" : 0.000}
+{"time" : "@1.279216s", "model" : "LaCrosse-WS3600", "id" : 185, "wind_speed_ms" : 0.200, "wind_direction" : 135.000}
+{"time" : "@1.630420s", "model" : "LaCrosse-WS3600", "id" : 185, "gust_speed_ms" : 0.600, "wind_direction" : 135.000}
+{"time" : "@1.979308s", "model" : "LaCrosse-WS3600", "id" : 185, "temperature_C" : -1.500}
+{"time" : "@2.417916s", "model" : "LaCrosse-WS3600", "id" : 185, "humidity" : 82}
+{"time" : "@2.767796s", "model" : "LaCrosse-WS3600", "id" : 185, "rainfall_mm" : 0.000}
+{"time" : "@3.125220s", "model" : "LaCrosse-WS3600", "id" : 185, "wind_speed_ms" : 0.200, "wind_direction" : 135.000}
+{"time" : "@3.475448s", "model" : "LaCrosse-WS3600", "id" : 185, "gust_speed_ms" : 0.600, "wind_direction" : 135.000}
