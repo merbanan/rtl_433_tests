@@ -41,6 +41,8 @@ Data layout (14 bits):
 
 Temperature in Celcius = (bin2dec(bits 12,7,6,11,10,9,8) + ((bin2dec(bits 4,3,2,1,0) - 10) / 10 ) - 41
 
+Published range of device is -29.9C to 69.9C
+
 ## Decoding using the `rtl_433` flex spec
 
 `rtl_433 -r g015_433.92M_250k.cu8 -R 0 -X 'n=WTR001,m=OOK_PWM,s=732,l=2196,y=1464,r=2928,bits=14,invert'`
