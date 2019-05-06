@@ -30,7 +30,7 @@ The PWM demodulated data, repeated 5 times between the SYNC bits, is the 14 bits
 
 Data layout (14 bits):
 
-    DDDDDXTTTTTTTP
+    DDDDDXTT TTTTTP
 
 | Ordered Bits     | Description
 |------------------|-------------
