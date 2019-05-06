@@ -2,6 +2,8 @@
 
 <img src="WTR001_receiver.jpg" alt="WTR001 Receiver" height="240"> <img src="WTR001_sensor.jpg" alt="WTR001 Sensor" height="240">
 
+[Companion WTR001 User Manual](WTR001_user_manual.pdf)
+
 ## Signal and Message Format
 
 The signal is broadcast near 433.92 MHz as ASK/OOK.  Raw bits are 732 us in length, and may be 
