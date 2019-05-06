@@ -1,8 +1,6 @@
 # Test data for Companion WTR001 Temperature Sensor
 
-<img src="WTR001_receiver.jpg" alt="WTR001 Receiver" height="240">
-
-<img src="WTR001_sensor.jpg" alt="WTR001 Sensor" height="240">
+| <img src="WTR001_receiver.jpg" alt="WTR001 Receiver" height="240"> | <img src="WTR001_sensor.jpg" alt="WTR001 Sensor" height="240">
 
 ## Signal and Message Format
 
