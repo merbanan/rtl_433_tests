@@ -154,7 +154,9 @@ selector switch is in AV1, AV2, or TV positions) under certain conditions.
 | 0x11 | [0] |
 | 0x12 | [DASH] |
 | 0x13 | [ENTER] |
-| 0x14 - 0x1F |  |
+| 0x14 | [DASH REPEAT <sup>[5](#fn5)</sup> |
+| 0x15 | [ENTER REPEAT |
+| 0x16 - 0x1F |  |
 | 0x20 | [MENU] |
 | 0x21 | [UP] |
 | 0x22 | [DOWN] |
@@ -166,9 +168,9 @@ selector switch is in AV1, AV2, or TV positions) under certain conditions.
 | 0x28 | [GUIDE] |
 | 0x29 | [ACTIVE] |
 | 0x2A | [LIST] |
-| 0x2B |  |
-| 0x2C |  |
-| 0x2D |  |
+| 0x2B | LIST REPEAT |
+| 0x2C | INFO REPEAT |
+| 0x2D | GUIDE REPEAT |
 | 0x2E | [INFO] |
 | 0x2F |  |
 | 0x30 | [VCR PLAY] |
@@ -179,34 +181,61 @@ selector switch is in AV1, AV2, or TV positions) under certain conditions.
 | 0x35 | [VCR REC] |
 | 0x36 | [VCR BACK] |
 | 0x37 | [VCR SKIP] |
-| 0x38 - 0x40 |  |
+| 0x38 | [VCR SKIP REPEAT] |
+| 0x3A | [VCR PLAY REPEAT] |
+| 0x3B | [VCR PAUSE REPEAT] |
+| 0x3C | [VCR RWD REPEAT] |
+| 0x3D | [VCR FFD REPEAT] |
+| 0x3E | [VCR REC REPEAT] |
+| 0x3F | [VCR BACK REPEAT] |
+| 0x40 |  |
 | 0x41 | [RED] |
 | 0x42 | [YELLOW] |
 | 0x43 | [GREEN] |
 | 0x44 | [BLUE] |
-| 0x45 - 0x4F |  |
+| 0x45 | [MENU REPEAT] |
+| 0x46 | [ACTIVE REPEAT] |
+| 0x4A | [RED REPEAT] |
+| 0x4B | [YELLOW REPEAT] |
+| 0x4C | [GREEN REPEAT] |
+| 0x4D | [BLUE REPEAT] |
+| 0x4E |  |
+| 0x4F |  |
 | 0x50 |  |
-| 0x51 | [TV: VCR {all} and just switched from other input - maybe alert to switch to other mode?] <sup>[3](#fn1)</sup> |
-| 0x52 - 0x59 |  |
+| 0x51 | [TV: VCR {all} and just switched from other input - maybe alert to switch to other mode?] <sup>[3](#fn3)</sup> |
+| 0x52 - 0x58 |  |
+| 0x59 | [VOLUME UP/DOWN/MUTE ALERT] Maybe alert that no device set to handle volume controls? Sends exactly 3 rows each press<sup>[1](#fn1)</sup> |
 | 0x5A | [AV1/AV2/TV: FORMAT,PWR,VCR {all}, EXIT, U/D/L/R/SEL, MENU, CH U/D/PREV, 0-9/DASH/ENTER] <sup>[1](#fn1)</sup> |
 | 0x5B | [DTV&TV POWER ON/OFF], [TV INPUT], [VOLUME UP/DOWN/MUTE] <sup>[1](#fn1)</sup> |
 | 0x5C | [AV1/AV2/TV: TV INPUT, DTV&TV POWER ON/OFF, VOL U/D/M - maybe alert that no TV IR Programmed?] <sup>[1](#fn1)</sup> |
 | 0x5D | [TV:  GUIDE, ACTIVE, LIST, BACK, INFO, R/G/Y/B] <sup>[1](#fn1)</sup> |
 | 0x5E | [AV1: GUIDE, ACTIVE, LIST, BACK, INFO, R/G/Y/B] <sup>[1](#fn1)</sup> |
 | 0x5F | [AV2: GUIDE, ACTIVE, LIST, BACK, INFO, R/G/Y/B] <sup>[1](#fn1)</sup> |
-| 0x60 - 0x6F |  |
+| 0x60 | [0 REPEAT] |
+| 0x61 | [1 REPEAT] |
+| 0x62 | [2 REPEAT] |
+| 0x63 | [3 REPEAT] |
+| 0x64 | [4 REPEAT] |
+| 0x65 | [5 REPEAT] |
+| 0x66 | [6 REPEAT] |
+| 0x67 | [7 REPEAT] |
+| 0x68 | [8 REPEAT] |
+| 0x69 | [9 REPEAT] |
+| 0x6A - 0x6F |  |
 | 0x70 - 0x72 |  |
 | 0x73 | [FORMAT] |
-| 0x74 - 0x7F |  |
-| 0x80 | [DTV: DTV&TV POWER ON] <sup>[2](#fn1)</sup> |
-| 0x81 | [DTV: DTV&TV POWER OFF] <sup>[2](#fn1)</sup> |
+| 0x74 | [] |
+| 0x75 | [FORMAT REPEAT] |
+| 0x76 - 0x7F |  |
+| 0x80 | [DTV: DTV&TV POWER ON] <sup>[2](#fn2)</sup> |
+| 0x81 | [DTV: DTV&TV POWER OFF] <sup>[2](#fn2)</sup> |
 | 0x82 - 0x8F |  |
 | 0x90 - 0x9F |  |
 | 0xA0 - 0xAF |  |
 | 0xB0 - 0xBF |  |
 | 0xC0 - 0xCF |  |
 | 0xD0 - 0xD5 |  |
-| 0xD6 | [SELECT RELEASE] <sup>[4](#fn1)</sup> |
+| 0xD6 | [SELECT RELEASE] <sup>[4](#fn4)</sup> |
 | 0xD7 - 0xDF |  |
 | 0xE0 - 0xEF |  |
 | 0xF0 - 0xFF |  |
@@ -214,18 +243,21 @@ selector switch is in AV1, AV2, or TV positions) under certain conditions.
 <a name="fn1">[1]</a> If none of the AV1/AV2/TV switch configurations are
 programmed with a Mfg/Model Device IR code.
 
-<a name="fn1">[2]</a> If any of AV1/AV2/TV switch configurations are programmed
+<a name="fn2">[2]</a> If any of AV1/AV2/TV switch configurations are programmed
 with a Mfg/Model Device IR code, DTV: DTV&TV ON/OFF send separate codes and the
 TV Input button no longer sends an RF code
 
-<a name="fn1">[3]</a> If any of the VCR control buttons have been pressed in any
+<a name="fn3">[3]</a> If any of the VCR control buttons have been pressed in any
 of the DTV/AV1/AV2 switch settings, then switched to the IR programmed TV
 setting, and then any of the VCR control buttons pressed, the device sends this
 code the first (and only the first) time a VCR control button is pressed in that
 mode.
 
-<a name="fn1">[4]</a> Sent once with a long SYNC when the select button is
+<a name="fn4">[4]</a> Sent once with a long SYNC when the select button is
 released.
+
+<a name="fn5">[5]</a> Several buttons switch to another code if the button is
+held down for several seconds.
 
 </p>
 </details>
