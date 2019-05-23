@@ -154,8 +154,8 @@ selector switch is in AV1, AV2, or TV positions) under certain conditions.
 | 0x11 | [0] |
 | 0x12 | [DASH] |
 | 0x13 | [ENTER] |
-| 0x14 | [DASH REPEAT <sup>[5](#fn5)</sup> |
-| 0x15 | [ENTER REPEAT |
+| 0x14 | [DASH REPEAT] <sup>[5](#fn5)</sup> |
+| 0x15 | [ENTER REPEAT] |
 | 0x16 - 0x1F |  |
 | 0x20 | [MENU] |
 | 0x21 | [UP] |
@@ -168,9 +168,9 @@ selector switch is in AV1, AV2, or TV positions) under certain conditions.
 | 0x28 | [GUIDE] |
 | 0x29 | [ACTIVE] |
 | 0x2A | [LIST] |
-| 0x2B | LIST REPEAT |
-| 0x2C | INFO REPEAT |
-| 0x2D | GUIDE REPEAT |
+| 0x2B | LIST REPEAT] |
+| 0x2C | INFO REPEAT] |
+| 0x2D | GUIDE REPEAT] |
 | 0x2E | [INFO] |
 | 0x2F |  |
 | 0x30 | [VCR PLAY] |
