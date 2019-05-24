@@ -55,68 +55,72 @@ By default, the remote control operates in IR mode. To put the remote control in
 
 ## Signal ##
 
-Each button press on the remote sends an FSK signal centered near 433.92 MHz
-with mark and space frequencies +/- 50 kHz from center.  Raw bits are about 600
-μs in length.
+The device uses a FSK to transmit a PCM signal TRANSMISSION.  Its FSK signal
+seems to be centered around 433.92 MHz with its MARK and SPACE frequencies
+each +/- 50 kHz from that center point.
 
-Each button press on the device sends out complete repetitions of the data as
-rows for as long as the button is held down.  It is possible that the row is
-only sent once if the button press is extremely brief.
+A full signal TRANMISSION consists of ROWS, which are collections of SYMBOLS.
+SYMBOLS, both the higher-frequency MARK (`1`) and lower-frequency SPACE
+(`0`), have a width of 600μs.  If there is more than one ROW in a single
+TRANSMISSION, there will be a GAP of 27,600μs of silence between each ROW.
 
-The row is repeated for as long as the button is held down, each repetition
-separated by 46 bits of gap silence (46 * 600μs = 27,600μs).  Upon release of
-the button on the remote, the signal completes any row it is currently sending
-and stops transmitting.
-
-For each button press on the remote, the very first row in the signal sent can
-be determined in its series of repetitions by its use of a Long SYNC pattern.
-Repetitions of the row for that button press use a Short SYNC.  A general sense
-of how long the button was held can be determined by counting the repetitions of
-the row in the signal.
-
-The exception to this is the `[SELECT]` button.  It sends rows with the code for
-`[SELECT]` as expected, but upon this button's release, the device sends a
-single row with a Long SYNC and the <code>[SELECT&nbsp;RELEASE]</code> button
-ID.
+A TRANSMISSION may be generated in response to an EVENT on the remote.  Observed
+EVENTS that may trigger a TRANSMISSION seem limited to manual button presses.
 
 ## Row Format ##
 
-Signals contain one or more rows, each separated by a gap. Row format is SYNC +
-DATA + EOR.
+Each ROW in the TRANSMISSION consists of two ordered parts -- its SYNC and its
+MESSAGE.  Each ROW is expected to be complete; the device does not seem to ever
+truncate a signal inside of a ROW.
 
-There are two types of SYNC bursts used, a "short" SYNC and a "long" SYNC.
+The SYNC may be either a LONG SYNC or a SHORT SYNC. The LONG SYNC consists of
+SYMBOLS `000111111111100`.  It is used in each row to signify that the MESSAGE
+which follows will be the first time this unique MESSAGE will be seen in
+this TRANSMISSION.
 
-A Short SYNC is 3 raw space bits + 5 raw mark bits + 2 raw space bits
-(`0001111100`). However, the very first row in the group of repetitions uses a
-Long SYNC: 3 space bits + 10 mark bits + 2 space bits (`000111111111100`).
+However, if a unique MESSAGE is to be sent more than once in a
+TRANSMISSION, each subsequent ROW with this repeated MESSAGE will send a
+SHORT SYNC instead of a LONG SYNC.  A SHORT SYNC consists of SYMBOLS
+`0001111100`.
 
-DATA is of variable raw bit length, but will always decode to 40 bits of logical
-data. The encoding method is a bit unusual. DATA may be deliniated at each
-transition from a space bit to a mark bit to yeild raw data units.  These data
-units are either 2, 3, or 4 bits in length.
+ROWS are typically repeated for the duration of the EVENT (a button push on the
+remote) and a ROW is allowed to finish sending even if the EVENT ends before the
+ROW is completely sent.
 
-After 20 data units, there is a single unit of 1 raw mark bit followed by 3 raw
-space bits ('1000') to signify the End Of Row (EOR).
+ROWS in any single TRANSMISSION usually contain the same MESSAGE, however this
+is not always the case.  TRANSMISSIONS may be one ROW for some short EVENTS,
+although some specific EVENTS generate TRANSMISSIONS of three rows, regardless
+the duration of the EVENT.  Single TRANSMISSIONS have been observed to swtich
+from one MESSAGE to another.  This seems to happen for specific buttons, such as
+the [SELECT] button, which sends a single ROW containing a LONG SYNC and a
+MESSAGE that encodes a new [SELECT RELEASE] MESSAGE.  Some buttons send one
+MESSAGE during the initial duration of the EVENT, but then switch to a new
+MESSAGE if the EVENT continues. Some TRANSMISSIONS stop sending ROWS after a
+duration even if the EVENT continues.
 
-| Unit of Raw Bits | Decoded Logical Data Bits |
-|------------------|---------------------------|
-| `10`   | `00` |
-| `100`  | `01` |
-| `110`  | `10` |
-| `1100` | `11` |
-| `1000` | `EOR` |
+LOGICAL DATA in the MESSAGE may be decoded from the ROW using some sort of
+Differential Pulse Width Modulation (DPWM) method.  Between each SYMBOL
+transition (both `1` to `0` and `0` to `1`) consider the number of SYMBOLS.  If
+there is only one SYMBOL, the LOGICAL DATA bit is a `0`.  If there are two
+SYMBOLS, the LOGICAL DATA bit is a `1`.  If there is 3 or more SYMBOLS, this is
+not DATA - it is a sync pulse.  If a sync pulse is found (and is followed by
+more SYMBOLS i.e. the SYMBOL does not occur at the end of the ROW), both it and
+the one or two contiguous SYMBOLS after it are ignored and LOGICAL DATA would
+resume decoding from that next transition.
 
-## Row Interpretation ##
+## Logical Data Interpretation ##
 
-Once decoded, the 40 bits of data may be interpreted as 10 nibbles (0-9):
+After decoding, there should be 40 bits (5 bytes) of LOGICAL DATA.
 
-`MM DD DD DB BC`
+LOGICAL DATA layout in nibbles:
 
-| Nibble # | Letter | Description |
-|----------|--------|-------------|
-| 0 - 1    | MM     | Model? Seems to always be 0x10 |
-| 2 - 6    | DDDDD  | Device ID. 0x00000 - 0xF423F are valid (000000 - 999999 in decimal) |
-| 7 - 8    | BB     | Button Code. 0x00 - 0xFF maps to specific buttons or functions |
+MM DD DD DB BC
+
+| Nibble # | Letter | Description                                                                |
+|----------|--------|-------------                                                               |
+| 0 - 1    | MM     | Model? Seems to always be 0x10                                             |
+| 2 - 6    | DDDDD  | Device ID. 0x00000 - 0xF423F are valid (000000 - 999999 in decimal)        |
+| 7 - 8    | BB     | Button Code. 0x00 - 0xFF maps to specific buttons or functions             |
 | 9        | C      | Checksum. Least Significant Nibble of sum of previous 9 nibbles, 0x0 - 0xF |
 
 ## Button Code Mapping ##
@@ -277,7 +281,7 @@ Using `rtl_433` with the flex spec, here is the data in the signal:
 ![DirecTV g004 flex spec](directv_g004_flex_spec.png)
 
 Let's focus on the first row in that signal, `{70}1ff94aa66b4aacad20`.
-Here's what this looks like in binary:
+Here's what these symbols look like in binary:
 
 `0001111111111001010010101010011001101011010010101010110010101101001000`
 
@@ -286,20 +290,24 @@ Here's a representation of that part of the signal (as seen in
 
 ![DirecTV g004 signal rep1](directv_g004_signal_rep1.png)
 
-The first part of that signal row, `000111111111100`, is a Long SYNC.  Because
-there are 10 (instead of 5) raw mark bits, this row would be the first (or only)
+The first part of that signal row, `000111111111100`, is a LONG SYNC.  Because
+there are 10 (instead of 5) `1` SYMBOLS, this row would be the first (or only)
 repetition sent for this button press on the remote.
 
-Next, the raw DATA bits,
-`1010010101010011001101011010010101010110010101101001000` can be split into its
-20 raw data units and its End Of Row unit at each transition from space to mark
-bits:
+Next, the MESSAGE SYMBOLS.
 
-<code>10 100 10 10 10 100 1100 110 10 110 100 10 10 10 10 1100 10 10 110 100 1000</code>
+<code>1010010101010011001101011010010101010110010101101001000</code>
 
-Decoding these raw data units into their logical bits, we get:
+Decoding these SYMBOLS into their LOGICAL bits, we get:
 
-<code>00&nbsp;&nbsp;01&nbsp;00&nbsp;00&nbsp;00&nbsp;&nbsp;01&nbsp;&nbsp;&nbsp;11&nbsp;&nbsp;10&nbsp;00&nbsp;&nbsp;10&nbsp;&nbsp;01&nbsp;00&nbsp;00&nbsp;00&nbsp;00&nbsp;&nbsp;&nbsp;11&nbsp;00&nbsp;00&nbsp;&nbsp;10&nbsp;&nbsp;01&nbsp;&nbsp;EOR</code>
+<code>0001&nbsp;00000001&nbsp;1&nbsp;1&nbsp;1&nbsp;0001&nbsp;001&nbsp;000000001&nbsp;1&nbsp;00001&nbsp;001&nbsp;0X</code>
+
+We've reprented the final `000` SYMBOL decoding as `X` as this is not valid
+data.  Also, the actual function of the `1` SYMBOL just before the final `000`
+SYMBOLS is to act as a delimiter to the DATA, so we should ignore that decoded
+LOGICAL `0` bit just before the `X`.
+
+Our final decoded LOGICAL result is: `0001000000011110001001000000001100001001`
 
 Taking those 40 bits and representing as hex, we get:
 
