@@ -328,7 +328,7 @@ idea of how long the button was held down.
 
 ## Sample Library
 
-| .cu8 Sample | Raw Data | Logical Data | Device ID / Button ID / Button Name|
+| .cu8 Sample | ROW SYMBOLS | LOGICAL Data | Device ID / Button ID / Button Name|
 |------------|----------|--------------|----------------|
 | [01/g001_433.92M_250k.cu8](01/g001_433.92M_250k.cu8) | `{64}1ff94aaaaaab49a8`, `{59}1f2955555569350` × 4, `{66}1ff94aaaaaac934a0` | `0x1000000258` × 5, `0x1000000d64` | `000000` / `0x25` × 5, `0xd6` / `[SELECT]` × 5, <code>[SELECT&nbsp;RELEASE]</code> |
 | [01/g002_433.92M_250k.cu8](01/g002_433.92M_250k.cu8) | `{65}1ff94aaaaaab4a640`, `{60}1f29555555694c8` × 3 | `0x1000000247` × 4 | `000000` / `0x24` / `[RIGHT]` |
