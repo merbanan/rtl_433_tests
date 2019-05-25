@@ -1,21 +1,19 @@
 # Test data for Companion WTR001 Temperature Sensor
 
-<img src="WTR001_receiver.jpg" alt="WTR001 Receiver" height="240"> <img src="WTR001_sensor.jpg" alt="WTR001 Sensor" height="240"> <img src="WTR001_specs.png" alt="WTR001 Specifications" height="240">
-
-
+<img src="WTR001_receiver.jpg" alt="WTR001 Receiver" height="240"> <img src="WTR001_sensor.jpg" alt="WTR001 Sensor" height="240">
 
 [Companion WTR001 Instruction Manual](https://www.manualslib.com/manual/1105005/Companion-Wtr001.html)
 
 ## Signal and Message Format
 
-The signal is broadcast near 433.92 MHz as ASK/OOK.  Raw bits are 732 us in length, and may be 
+The signal is broadcast near 433.92 MHz as ASK/OOK.  Raw bits are 732 μs in length, and may be 
 demodulated using PWM over 4 raw bits.
 
 Here's a view of pulses and gaps of the signal found in [01/g015_433.92M_250k.cu8](01/g015_433.92M_250k.cu8):
 
-<img src="message_example.png" alt="WTR001 Message Example" width="875">
+<img src="WTR001_demodulated_signal.png" alt="WTR001 Message Example" width="875">
 
-The raw bits, assuming each bit is 732 us, would be this message:
+The raw bits, assuming each bit is 732 μs, would be this message:
 
 ```
 1100 10001110100010001110100010001000111011101000100011101000
@@ -49,8 +47,7 @@ Published range of device is -29.9C to 69.9C
 
 `rtl_433 -r g015_433.92M_250k.cu8 -R 0 -X 'n=WTR001,m=OOK_PWM,s=732,l=2196,y=1464,r=2928,bits=14,invert'`
 
-![](message_example_rtl_433_flex.png)
-
+![](WTR001_rtl_433_flex.png)
 
 ## Sample Library
 
