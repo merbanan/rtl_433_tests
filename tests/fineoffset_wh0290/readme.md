@@ -18,18 +18,25 @@ rtl_433 -F json -R 0 -X 'n=PM25,m=FSK_PCM,s=58,l=58,r=1500,preamble=aaaa2dd4' -r
 ```
 
 Has the usual fine offset padding a preamble aa aa followed by 2d d4, samples with the padding and preamble removed:
--  9: cc 40 5a 40 64 15 61 9
-- 10: cc 40 64 40 6e e4 44 1
-- 11: cc 40 6e 40 78 df 53 9
-- 12: cc 40 78 40 82 87 0f 9
-- 14: cc 40 8c 40 96 d3 83 9
+-  9: 42 cc 40 5a 40 64 15 61 9
+- 10: 42 cc 40 64 40 6e e4 44 1
+- 11: 42 cc 40 6e 40 78 df 53 9
+- 12: 42 cc 40 78 40 82 87 0f 9
+- 14: 42 cc 40 8c 40 96 d3 83 9
+- 41: 42 cc 41 9a 41 ae c1 99 9
 
-Based on other fine offset devices:
+Data layout:
+```
+      aa 2d d4 42 cc 41 9a 41 ae c1 99 9
+               FF DD ?P PP ?A AA ?? CC
+```
+  - F: 8 bit Family Code?
+  - D: 8 bit device id?
+  - ?: 2 bits ?
+  - P: 14 bit PM2.5 reading in ug/m3
+  - ?: 2 bits ?
+  - A: 14 bit PM10 reading in ug/m3
+  - ?: 8 bits ?
+  - C: 8 bit Checksum of previous 7 bytes (binary sum truncated to 8 bit)
 
-2D D4 DD II PP ?? ?? ?? ?? ?
-
-DD: Device ID CC?
-II: Device Identifier?
-PP: PM2.5 reading.
-
-I haven't been able to capture any readings higher than 14, the readings I have collected correspond to 5th and 6th bytes after the preamble, but I'm not sure yet how values higher than 25 are handled.
+This is advertised as a 2.5u monitor, but the [Honeywell HPM](https://sensing.honeywell.com/sensors/particle-sensors/HPM-series) sensor appears to have 10u capability as well, it looks like it may be sending the 10u reading as well.  I haven't been able to capture any readings higher than 45, the readings I have collected correspond to 3rd and 4th bytes. The advertised maximum range is 999u, so I'm guessing 14 bits are used (0000.0 - 9999.0, 0x0000 - 0x2706). In all of my sample the first two bits in byte 3 are always 01 (01.. ....), maybe one of those is the battery indicator, but they seem to repeat on the 10u reading.
