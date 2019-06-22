@@ -135,6 +135,8 @@ def main():
                 print(" %s" % error)
                 for detail in details:
                     print("  * %s" % detail)
+            print(" Expected: " + str(expected_data))
+            print("  But got: " + str(results))
         else:
             nb_ok += 1
 
