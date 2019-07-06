@@ -1,1 +1,1 @@
-{"time" : "@0.524288s", "model" : "LaCrosse TX141-Bv2 sensor", "id" : 117, "temperature_C" : 20.700, "battery" : "OK", "test" : "No"}
+{"time" : "@0.212780s", "model" : "LaCrosse TX141-Bv2 sensor", "id" : 117, "channel" : 1, "temperature_C" : 20.700, "battery" : "OK", "test" : "No"}
