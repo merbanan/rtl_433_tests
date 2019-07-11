@@ -23,13 +23,13 @@ def run_rtl433(input_fn, rtl_433_cmd="rtl_433",
     # print(" ".join(cmd))
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     out, err = p.communicate()
-    return (out, err)
+    return (out, err, p.returncode)
 
 
 def find_json():
     """Find all reference json files recursive."""
     matches = []
-    for root, dirnames, filenames in os.walk('tests'):
+    for root, _dirnames, filenames in os.walk('tests'):
         for filename in fnmatch.filter(filenames, '*.json'):
             matches.append(os.path.join(root, filename))
     return matches
@@ -100,8 +100,11 @@ def main():
             expected_data = remove_fields(expected_data, ignore_fields)
 
         # Run rtl_433
-        rtl433out, err = run_rtl433(input_fn, rtl_433_cmd,
-                                    samplerate, protocol)
+        rtl433out, err, exitcode = run_rtl433(input_fn, rtl_433_cmd,
+                                              samplerate, protocol)
+
+        if exitcode:
+            print("ERROR: Exited with %d '%s'" % (exitcode, input_fn))
 
         # get JSON results
         rtl433out = rtl433out.decode('utf8').strip()
