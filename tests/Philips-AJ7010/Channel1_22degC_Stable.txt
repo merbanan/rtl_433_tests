@@ -1,0 +1,10 @@
+
+[g001] {40}ffa568d518, {40}ffa568d532, {40}ffa568d518
+[g004] {40}ffa573d503, {40}ffa573d529, {40}ffa573d503
+[g005] {40}ffa578d508, {40}ffa578d522, {40}ffa578d508
+[g006] {40}ffa583d5f3, {40}ffa583d5d9, {40}ffa583d5f3
+[g010] {40}ffa58ad5fa, {40}ffa58ad5d0, {40}ffa58ad5fa
+[g012] {40}ffa59bd5eb, {40}ffa59bd5c1, {40}ffa59bd5eb
+[g013] {40}ffa5a1d5d1, {40}ffa5a1d5fb, {40}ffa5a1d5d1
+[g014] {40}ffa5a6d5d6, {40}ffa5a6d5fc, {40}ffa5a6d5d6
+[g016] {40}ffa5edd59d, {40}ffa5edd5b7, {40}ffa5edd59d
