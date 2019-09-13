@@ -16,13 +16,13 @@ http://www.pearl.de/a-PV8796-3041.shtml
 | gfile001.data   | 20.5          |   73           |
 
 ## Weather Station
-![](STATION.jpg)
+![](station.jpg)
 
 ## Sensor (front)
-![](SENSOR_FRONT.jpg)
+![](front.jpg)
 
 ## Sensor (back)
-![](SENSOR_BACK.jpg)
+![](back.jpg)
 
 ## Sensor (inner)
-![](SENSOR_INNER.jpg)
+![](inside.jpg)

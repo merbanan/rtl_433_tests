@@ -1,4 +1,4 @@
-https://github.com/merbanan/rtl_433_tests/tree/master/tests
+Etekcity Wireless Electrical Household Appliances
 
 This is the output for 433 Mhz Wireless remote Outlets.
 In this example, I have turned Outlet #4 on, then off twice. The capture rtl_433 capture files shows that as well.

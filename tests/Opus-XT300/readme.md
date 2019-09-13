@@ -1,4 +1,4 @@
-## Opus/Imagintronix XH300 / XT300 Soil Moisture Sensor
+# Opus/Imagintronix XH300 / XT300 Soil Moisture Sensor
 
 https://www.plantcaretools.com/product/wireless-moisture-monitor/
 
