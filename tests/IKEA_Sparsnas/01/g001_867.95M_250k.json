@@ -1,1 +1,1 @@
-{"time" : "@0.191136s", "model" : "IKEA Sparsnäs Energy Meter Monitor", "id" : 617633, "pulses_per_kwh" : 1000, "sequence" : 1375, "battery" : 100, "cumulative_kWh" : 3577.564, "effect" : 1158, "pulses" : 3577564, "mode" : 1, "mic" : "CRC"}
+{"time" : "@0.191136s", "model" : "Ikea-Sparsnas", "id" : 617633, "pulses_per_kwh" : 1000, "sequence" : 1375, "battery" : 100, "cumulative_kWh" : 3577.564, "effect" : 1158, "pulses" : 3577564, "mode" : 1, "mic" : "CRC"}

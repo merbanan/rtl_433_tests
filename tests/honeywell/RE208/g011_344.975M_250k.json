@@ -1,8 +1,8 @@
-{"time" : "@0.000000s", "model" : "Honeywell Door/Window Sensor", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
-{"time" : "@0.000000s", "model" : "Honeywell Door/Window Sensor", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
-{"time" : "@0.524288s", "model" : "Honeywell Door/Window Sensor", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
-{"time" : "@0.524288s", "model" : "Honeywell Door/Window Sensor", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
-{"time" : "@0.524288s", "model" : "Honeywell Door/Window Sensor", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
-{"time" : "@1.048576s", "model" : "Honeywell Door/Window Sensor", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
-{"time" : "@1.048576s", "model" : "Honeywell Door/Window Sensor", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
-{"time" : "@1.048576s", "model" : "Honeywell Door/Window Sensor", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
+{"time" : "@0.000000s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
+{"time" : "@0.000000s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
+{"time" : "@0.524288s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
+{"time" : "@0.524288s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
+{"time" : "@0.524288s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
+{"time" : "@1.048576s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
+{"time" : "@1.048576s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
+{"time" : "@1.048576s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}

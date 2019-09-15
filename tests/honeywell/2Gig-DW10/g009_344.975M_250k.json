@@ -1,6 +1,6 @@
-{"time" : "@0.000000s", "model" : "Honeywell Door/Window Sensor", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
-{"time" : "@0.000000s", "model" : "Honeywell Door/Window Sensor", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
-{"time" : "@0.000000s", "model" : "Honeywell Door/Window Sensor", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
-{"time" : "@0.524288s", "model" : "Honeywell Door/Window Sensor", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
-{"time" : "@0.524288s", "model" : "Honeywell Door/Window Sensor", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
-{"time" : "@0.524288s", "model" : "Honeywell Door/Window Sensor", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
+{"time" : "@0.000000s", "model" : "Honeywell-Security", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
+{"time" : "@0.000000s", "model" : "Honeywell-Security", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
+{"time" : "@0.000000s", "model" : "Honeywell-Security", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
+{"time" : "@0.524288s", "model" : "Honeywell-Security", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
+{"time" : "@0.524288s", "model" : "Honeywell-Security", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
+{"time" : "@0.524288s", "model" : "Honeywell-Security", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}

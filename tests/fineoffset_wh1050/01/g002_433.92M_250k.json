@@ -1,1 +1,1 @@
-{"time" : "@0.058536s", "model" : "Fine Offset WH1050 weather station", "id" : 57, "temperature_C" : 20.200, "humidity" : 75, "speed" : 0.000, "gust" : 0.000, "rain" : 13.500, "battery" : "OK", "mic" : "CRC"}
+{"time" : "@0.058536s", "model" : "Fineoffset-WH1050", "id" : 57, "battery_ok" : 1, "temperature_C" : 20.200, "humidity" : 75, "wind_avg_km_h" : 0.000, "wind_max_km_h" : 0.000, "rain_mm" : 13.500, "mic" : "CRC"}

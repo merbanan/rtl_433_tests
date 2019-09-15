@@ -1,16 +1,16 @@
-{"time" : "@0.290268s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@0.462028s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@0.605264s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@0.777040s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@0.920288s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@1.092060s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@1.206796s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@1.350032s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@1.521808s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@1.665060s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@1.836852s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@2.008636s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@2.123360s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@2.266608s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@2.438384s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
-{"time" : "@2.553132s", "model" : "Schrader Electronics EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@0.290268s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@0.462028s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@0.605264s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@0.777040s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@0.920288s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@1.092060s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@1.206796s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@1.350032s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@1.521808s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@1.665060s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@1.836852s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@2.008636s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@2.123360s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@2.266608s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@2.438384s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
+{"time" : "@2.553132s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c900070", "id" : "2EAAF9", "pressure_kPa" : 0.000, "temperature_F" : 90.000, "mic" : "CHECKSUM"}
