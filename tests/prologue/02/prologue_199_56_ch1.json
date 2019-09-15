@@ -1,1 +1,1 @@
-{"time" : "@0.786432s", "model" : "Prologue sensor", "id" : 5, "rid" : 37, "channel" : 1, "battery" : "OK", "button" : 0, "temperature_C" : 19.900, "humidity" : 56}
+{"time" : "@0.131360s", "model" : "Prologue-TH", "subtype" : 5, "id" : 37, "channel" : 1, "battery_ok" : 1, "temperature_C" : 19.900, "button" : 0, "humidity" : 56}

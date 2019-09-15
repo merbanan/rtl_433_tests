@@ -1,1 +1,1 @@
-{"time" : "@0.105080s", "model" : "Esperanza EWS", "id" : 1, "channel" : 1, "temperature_F" : 53.100, "humidity" : 76, "mic" : "CRC"}
+{"time" : "@0.105080s", "model" : "Esperanza-EWS", "id" : 1, "channel" : 1, "temperature_F" : 53.100, "humidity" : 76, "mic" : "CRC"}

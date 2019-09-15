@@ -1,2 +1,2 @@
-{"time" : "@0.000000s", "model" : "Interlogix", "id" : "a7106d", "device_type" : "contact", "raw_message" : "cd15b8", "battery" : "OK", "switch1" : "OPEN", "switch2" : "OPEN", "switch3" : "CLOSED", "switch4" : "OPEN", "switch5" : "OPEN"}
-{"time" : "@0.000000s", "model" : "Interlogix", "id" : "a7106d", "device_type" : "contact", "raw_message" : "cd15b8", "battery" : "OK", "switch1" : "OPEN", "switch2" : "OPEN", "switch3" : "CLOSED", "switch4" : "OPEN", "switch5" : "OPEN"}
+{"time" : "@0.279016s", "model" : "Interlogix-Security", "subtype" : "contact", "id" : "a7106d", "battery_ok" : 1, "switch1" : "OPEN", "switch2" : "OPEN", "switch3" : "CLOSED", "switch4" : "OPEN", "switch5" : "OPEN", "raw_message" : "cd15b8"}
+{"time" : "@0.465616s", "model" : "Interlogix-Security", "subtype" : "contact", "id" : "a7106d", "battery_ok" : 1, "switch1" : "OPEN", "switch2" : "OPEN", "switch3" : "CLOSED", "switch4" : "OPEN", "switch5" : "OPEN", "raw_message" : "cd15b8"}

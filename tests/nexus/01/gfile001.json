@@ -1,1 +1,1 @@
-{"time" : "@0.786432s", "model" : "Nexus Temperature/Humidity", "id" : 181, "battery" : "LOW", "channel" : 2, "temperature_C" : 19.000, "humidity" : 71}
+{"time" : "@0.091892s", "model" : "Nexus-TH", "id" : 181, "channel" : 2, "battery_ok" : 0, "temperature_C" : 19.000, "humidity" : 71}

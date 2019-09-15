@@ -1,1 +1,1 @@
-{"time" : "@0.069288s", "model" : "LaCrosse TX141TH-Bv2 sensor", "id" : 67, "channel" : 0, "temperature_C" : 9.300, "humidity" : 73, "battery" : "OK", "test" : "No"}
+{"time" : "@0.069288s", "model" : "LaCrosse-TX141THBv2", "id" : 67, "channel" : 0, "battery_ok" : 1, "temperature_C" : 9.300, "humidity" : 73, "test" : "No"}

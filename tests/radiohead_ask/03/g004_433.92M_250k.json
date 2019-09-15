@@ -1,1 +1,1 @@
-{"time" : "@0.524288s", "model" : "Sensible Living Plant Moisture", "house_id" : 2, "module_id" : 24621, "sensor_type" : 1, "sensor_count" : 1, "alarms" : 0, "sensor_value" : 1000, "battery_voltage" : 296, "mic" : "CRC"}
+{"time" : "@0.284604s", "model" : "SensibleLiving-Moisture", "house_id" : 2, "module_id" : 24621, "sensor_type" : 1, "sensor_count" : 1, "alarms" : 0, "sensor_value" : 1000, "battery_mV" : 2960, "mic" : "CRC"}

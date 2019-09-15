@@ -1,1 +1,1 @@
-{"time" : "@0.524288s", "model" : "00276rm", "probe" : 0, "id" : 5583, "battery" : "LOW", "temperature_C" : 20.600, "humidity" : 47, "mic" : "CRC"}
+{"time" : "@0.301340s", "model" : "Acurite-00276rm", "subtype" : 0, "id" : 5583, "battery_ok" : 0, "temperature_C" : 20.600, "humidity" : 47, "mic" : "CRC"}

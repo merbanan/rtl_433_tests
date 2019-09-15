@@ -1,1 +1,1 @@
-{"time" : "@0.223416s", "model" : "TFA-Twin-Plus-30.3049", "id" : 7, "channel" : 1, "battery" : "OK", "temperature_C" : 23.600, "humidity" : 55, "mic" : "CHECKSUM"}
+{"time" : "@0.223416s", "model" : "TFA-TwinPlus", "id" : 7, "channel" : 1, "battery_ok" : 1, "temperature_C" : 23.600, "humidity" : 55, "mic" : "CHECKSUM"}

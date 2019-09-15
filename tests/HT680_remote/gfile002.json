@@ -1,6 +1,6 @@
-{"time" : "@0.000000s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01Z1ZZZ", "address" : 961082, "button1" : "", "button2" : "PRESSED", "button3" : "PRESSED", "button4" : ""}
-{"time" : "@0.000000s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01Z1ZZZ", "address" : 961082, "button1" : "", "button2" : "PRESSED", "button3" : "PRESSED", "button4" : ""}
-{"time" : "@0.524288s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01Z1ZZZ", "address" : 961082, "button1" : "", "button2" : "PRESSED", "button3" : "PRESSED", "button4" : ""}
-{"time" : "@0.524288s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01Z1ZZZ", "address" : 961082, "button1" : "", "button2" : "PRESSED", "button3" : "PRESSED", "button4" : ""}
-{"time" : "@0.524288s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01Z1ZZZ", "address" : 961082, "button1" : "", "button2" : "PRESSED", "button3" : "PRESSED", "button4" : ""}
-{"time" : "@0.524288s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01Z1ZZZ", "address" : 961082, "button1" : "", "button2" : "PRESSED", "button3" : "PRESSED", "button4" : ""}
+{"time" : "@0.390500s", "model" : "HT680-Remote", "id" : 961082, "button1" : "", "button2" : "PRESSED", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01Z1ZZZ"}
+{"time" : "@0.447720s", "model" : "HT680-Remote", "id" : 961082, "button1" : "", "button2" : "PRESSED", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01Z1ZZZ"}
+{"time" : "@0.504968s", "model" : "HT680-Remote", "id" : 961082, "button1" : "", "button2" : "PRESSED", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01Z1ZZZ"}
+{"time" : "@0.562228s", "model" : "HT680-Remote", "id" : 961082, "button1" : "", "button2" : "PRESSED", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01Z1ZZZ"}
+{"time" : "@0.619492s", "model" : "HT680-Remote", "id" : 961082, "button1" : "", "button2" : "PRESSED", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01Z1ZZZ"}
+{"time" : "@0.676772s", "model" : "HT680-Remote", "id" : 961082, "button1" : "", "button2" : "PRESSED", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01Z1ZZZ"}

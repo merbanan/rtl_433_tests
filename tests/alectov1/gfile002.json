@@ -1,1 +1,1 @@
-{"time" : "@0.786432s", "model" : "AlectoV1 Temperature Sensor", "id" : 44, "channel" : 1, "battery" : "OK", "temperature_C" : 28.800, "humidity" : 36, "mic" : "CHECKSUM"}
+{"time" : "@0.238760s", "model" : "AlectoV1-Temperature", "id" : 44, "channel" : 1, "battery_ok" : 1, "temperature_C" : 28.800, "humidity" : 36, "mic" : "CHECKSUM"}

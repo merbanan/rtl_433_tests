@@ -1,2 +1,2 @@
-{"time" : "@0.253640s", "model" : "HIDEKI TS04 sensor", "rc" : 0, "channel" : 5, "battery" : "OK", "temperature_C" : 25.700, "humidity" : 66, "mic" : "CRC"}
-{"time" : "@0.396216s", "model" : "HIDEKI TS04 sensor", "rc" : 0, "channel" : 5, "battery" : "OK", "temperature_C" : 25.700, "humidity" : 66, "mic" : "CRC"}
+{"time" : "@0.253640s", "model" : "Hideki-TS04", "id" : 0, "channel" : 5, "battery_ok" : 1, "temperature_C" : 25.700, "humidity" : 66, "mic" : "CRC"}
+{"time" : "@0.396216s", "model" : "Hideki-TS04", "id" : 0, "channel" : 5, "battery_ok" : 1, "temperature_C" : 25.700, "humidity" : 66, "mic" : "CRC"}

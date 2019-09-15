@@ -1,1 +1,1 @@
-{"time" : "@0.323764s", "model" : "Alecto-WS1200v1", "id" : 145, "temperature_C" : 24.700, "rain" : 0.900, "battery" : "OK", "mic" : "CRC"}
+{"time" : "@0.323764s", "model" : "Alecto-WS1200v1", "id" : 145, "battery_ok" : 1, "temperature_C" : 24.700, "rain" : 0.900, "mic" : "CRC"}

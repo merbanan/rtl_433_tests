@@ -1,2 +1,2 @@
-{"time" : "@0.000000s", "brand" : "LaCrosse", "model" : "TX29-IT", "id" : 10, "battery" : "OK", "newbattery" : 1, "temperature_C" : 23.800, "mic" : "CRC"}
-{"time" : "@0.000000s", "brand" : "LaCrosse", "model" : "TX35DTH-IT", "id" : 26, "battery" : "OK", "newbattery" : 1, "temperature_C" : 24.100, "humidity" : 34, "mic" : "CRC"}
+{"time" : "@0.127256s", "brand" : "LaCrosse", "model" : "LaCrosse-TX29IT", "id" : 10, "battery_ok" : 1, "newbattery" : 1, "temperature_C" : 23.800, "mic" : "CRC"}
+{"time" : "@0.213772s", "brand" : "LaCrosse", "model" : "LaCrosse-TX35DTHIT", "id" : 26, "battery_ok" : 1, "newbattery" : 1, "temperature_C" : 24.100, "humidity" : 34, "mic" : "CRC"}

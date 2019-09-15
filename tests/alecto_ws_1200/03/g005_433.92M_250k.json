@@ -1,2 +1,2 @@
-{"time" : "@0.281468s", "model" : "Alecto-WS1200v2 DCF", "id" : 79, "battery" : "OK", "radio_clock" : "2001-24-05T42:58:3c", "mic" : "CRC"}
-{"time" : "@0.511144s", "model" : "Alecto-WS1200v2 DCF", "id" : 79, "battery" : "OK", "radio_clock" : "2001-24-05T42:58:3c", "mic" : "CRC"}
+{"time" : "@0.281468s", "model" : "Alecto-WS1200v2 DCF", "id" : 79, "battery_ok" : 1, "radio_clock" : "2001-24-05T42:58:3c", "mic" : "CRC"}
+{"time" : "@0.511144s", "model" : "Alecto-WS1200v2 DCF", "id" : 79, "battery_ok" : 1, "radio_clock" : "2001-24-05T42:58:3c", "mic" : "CRC"}

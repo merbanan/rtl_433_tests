@@ -1,1 +1,1 @@
-{"time" : "@0.786432s", "model" : "Nexus Temperature", "id" : 129, "battery" : "LOW", "channel" : 1, "temperature_C" : 24.400}
+{"time" : "@0.183084s", "model" : "Nexus-T", "id" : 129, "channel" : 1, "battery_ok" : 0, "temperature_C" : 24.400}

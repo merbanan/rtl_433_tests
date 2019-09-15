@@ -1,1 +1,1 @@
-{"time" : "@0.786432s", "model" : "RF-tech", "id" : 26, "battery" : "LOW", "button" : 1, "temperature_C" : 17.500}
+{"time" : "@0.103848s", "model" : "RF-tech", "id" : 26, "battery_ok" : 0, "temperature_C" : 17.500, "button" : 1}

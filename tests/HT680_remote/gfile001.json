@@ -1,9 +1,9 @@
-{"time" : "@0.000000s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ", "address" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : ""}
-{"time" : "@0.000000s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ", "address" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : ""}
-{"time" : "@0.000000s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ", "address" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : ""}
-{"time" : "@0.000000s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ", "address" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : ""}
-{"time" : "@0.524288s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ", "address" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : ""}
-{"time" : "@0.524288s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ", "address" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : ""}
-{"time" : "@0.524288s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ", "address" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : ""}
-{"time" : "@0.524288s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ", "address" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : ""}
-{"time" : "@0.524288s", "model" : "HT680 Remote control", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ", "address" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : ""}
+{"time" : "@0.243916s", "model" : "HT680-Remote", "id" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ"}
+{"time" : "@0.301128s", "model" : "HT680-Remote", "id" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ"}
+{"time" : "@0.358376s", "model" : "HT680-Remote", "id" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ"}
+{"time" : "@0.415644s", "model" : "HT680-Remote", "id" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ"}
+{"time" : "@0.472912s", "model" : "HT680-Remote", "id" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ"}
+{"time" : "@0.530184s", "model" : "HT680-Remote", "id" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ"}
+{"time" : "@0.587460s", "model" : "HT680-Remote", "id" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ"}
+{"time" : "@0.644732s", "model" : "HT680-Remote", "id" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ"}
+{"time" : "@0.702008s", "model" : "HT680-Remote", "id" : 961082, "button1" : "PRESSED", "button2" : "", "button3" : "PRESSED", "button4" : "", "tristate" : "1ZZZZZ01ZZZ01ZZ1ZZ"}

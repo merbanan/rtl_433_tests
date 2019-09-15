@@ -1,1 +1,1 @@
-{"time" : "@0.000000s", "model" : "Emos TTX201", "id" : 194, "channel" : 1, "battery" : "OK", "temperature_C" : 29.000, "mic" : "CHECKSUM"}
+{"time" : "@0.008148s", "model" : "Emos-TTX201", "id" : 194, "channel" : 1, "battery_ok" : 1, "temperature_C" : 29.000, "mic" : "CHECKSUM"}

@@ -1,1 +1,1 @@
-{"time" : "@0.000000s", "model" : "Fine Offset WH24", "id" : 191, "temperature_C" : 11.800, "humidity" : 78, "wind_dir_deg" : 266, "wind_speed_ms" : 1.120, "gust_speed_ms" : 2.240, "rainfall_mm" : 22.200, "uv" : 1, "uvi" : 0, "light_lux" : 0.000, "battery" : "OK", "mic" : "CRC"}
+{"time" : "@0.210812s", "model" : "Fineoffset-WH24", "id" : 191, "battery_ok" : 1, "temperature_C" : 11.800, "humidity" : 78, "wind_dir_deg" : 266, "wind_avg_m_s" : 1.120, "wind_max_m_s" : 2.240, "rain_mm" : 22.200, "uv" : 1, "uvi" : 0, "light_lux" : 0.000, "mic" : "CRC"}

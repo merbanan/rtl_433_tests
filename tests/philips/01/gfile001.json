@@ -1,1 +1,1 @@
-{"time" : "@1.048576s", "model" : "Philips outdoor temperature sensor", "channel" : 3, "temperature_C" : 24.300, "battery" : "OK"}
+{"time" : "@0.092552s", "model" : "Philips-Temperature", "channel" : 3, "battery_ok" : 1, "temperature_C" : 24.300}

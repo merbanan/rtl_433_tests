@@ -1,1 +1,1 @@
-{"time" : "@0.152704s", "model" : "Kedsum Temperature & Humidity Sensor", "id" : 71, "channel" : 1, "battery" : "OK", "flags" : 129, "temperature_F" : 62.700, "humidity" : 61, "mic" : "CRC"}
+{"time" : "@0.152704s", "model" : "Kedsum-TH", "id" : 71, "channel" : 1, "battery_ok" : 1, "flags" : 129, "temperature_F" : 62.700, "humidity" : 61, "mic" : "CRC"}

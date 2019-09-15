@@ -1,3 +1,3 @@
-{"time" : "@0.152484s", "model" : "HIDEKI Rain sensor", "rc" : 0, "channel" : 4, "battery" : "OK", "rain_mm" : 663.600, "mic" : "CRC"}
-{"time" : "@0.280060s", "model" : "HIDEKI Rain sensor", "rc" : 0, "channel" : 4, "battery" : "OK", "rain_mm" : 663.600, "mic" : "CRC"}
-{"time" : "@0.405076s", "model" : "HIDEKI Rain sensor", "rc" : 0, "channel" : 4, "battery" : "OK", "rain_mm" : 663.600, "mic" : "CRC"}
+{"time" : "@0.152484s", "model" : "Hideki-Rain", "id" : 0, "channel" : 4, "battery_ok" : 1, "rain_mm" : 663.600, "mic" : "CRC"}
+{"time" : "@0.280060s", "model" : "Hideki-Rain", "id" : 0, "channel" : 4, "battery_ok" : 1, "rain_mm" : 663.600, "mic" : "CRC"}
+{"time" : "@0.405076s", "model" : "Hideki-Rain", "id" : 0, "channel" : 4, "battery_ok" : 1, "rain_mm" : 663.600, "mic" : "CRC"}

@@ -1,2 +1,2 @@
-{"time" : "@0.051200s", "model" : "IBIS beacon", "id" : 8131, "counter" : 515, "code" : "9143d06f9271fc30000000000000000000000002000002030fa06b6e", "mic" : "CRC"}
-{"time" : "@0.179200s", "model" : "IBIS beacon", "id" : 8131, "counter" : 515, "code" : "9143d06f9271fc30000000000000000000000002000002030fa06b6e", "mic" : "CRC"}
+{"time" : "@0.028178s", "model" : "IBIS-Beacon", "id" : 8131, "counter" : 515, "code" : "9143d06f9271fc30000000000000000000000002000002030fa06b6e", "mic" : "CRC"}
+{"time" : "@0.160184s", "model" : "IBIS-Beacon", "id" : 8131, "counter" : 515, "code" : "9143d06f9271fc30000000000000000000000002000002030fa06b6e", "mic" : "CRC"}

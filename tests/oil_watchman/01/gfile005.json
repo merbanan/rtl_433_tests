@@ -1,1 +1,1 @@
-{"time" : "@0.000000s", "model" : "Oil Watchman", "id" : 684148751, "flags" : 128, "maybetemp" : 17, "temperature_C" : 20.000, "binding_countdown" : 0, "depth" : 0}
+{"time" : "@0.081456s", "model" : "Oil-SonicSmart", "id" : 684148751, "flags" : 128, "maybetemp" : 17, "temperature_C" : 20.000, "binding_countdown" : 0, "depth_cm" : 0}

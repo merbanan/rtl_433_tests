@@ -1,10 +1,7 @@
-{"time" : "@0.524288s", "model" : "Oregon Scientific SL109H", "id" : 134, "channel" : 2, "temperature_C" : 26.800, "humidity" : 45, "status" : 0, "mic" : "CHECKSUM"}
-{"time" : "@0.524288s", "model" : "Oregon Scientific SL109H", "id" : 134, "channel" : 2, "temperature_C" : 26.800, "humidity" : 45, "status" : 0, "mic" : "CHECKSUM"}
-{"time" : "@0.524288s", "model" : "Oregon Scientific SL109H", "id" : 134, "channel" : 2, "temperature_C" : 26.800, "humidity" : 45, "status" : 0, "mic" : "CHECKSUM"}
-{"time" : "@0.524288s", "model" : "Oregon Scientific SL109H", "id" : 134, "channel" : 2, "temperature_C" : 26.800, "humidity" : 45, "status" : 0, "mic" : "CHECKSUM"}
-{"time" : "@0.524288s", "model" : "Acurite 609TXC Sensor", "id" : 94, "battery" : "OK", "status" : 1, "temperature_C" : 22.600, "humidity" : 55}
-{"time" : "@0.524288s", "model" : "Acurite 609TXC Sensor", "id" : 94, "battery" : "OK", "status" : 1, "temperature_C" : 22.600, "humidity" : 55}
-{"time" : "@0.524288s", "model" : "Acurite 609TXC Sensor", "id" : 94, "battery" : "OK", "status" : 1, "temperature_C" : 22.600, "humidity" : 55}
-{"time" : "@1.048576s", "model" : "Acurite 609TXC Sensor", "id" : 94, "battery" : "OK", "status" : 1, "temperature_C" : 22.600, "humidity" : 55}
-{"time" : "@1.048576s", "model" : "Acurite 609TXC Sensor", "id" : 94, "battery" : "OK", "status" : 1, "temperature_C" : 22.600, "humidity" : 55}
-{"time" : "@1.048576s", "model" : "Acurite 609TXC Sensor", "id" : 94, "battery" : "OK", "status" : 1, "temperature_C" : 22.600, "humidity" : 55}
+{"time" : "@0.133180s", "model" : "Oregon-SL109H", "id" : 134, "channel" : 2, "temperature_C" : 26.800, "humidity" : 45, "status" : 0, "mic" : "CHECKSUM"}
+{"time" : "@0.672996s", "model" : "Acurite-609TXC", "id" : 94, "battery_ok" : 1, "temperature_C" : 22.600, "humidity" : 55, "status" : 1}
+{"time" : "@0.774428s", "model" : "Acurite-609TXC", "id" : 94, "battery_ok" : 1, "temperature_C" : 22.600, "humidity" : 55, "status" : 1}
+{"time" : "@0.875876s", "model" : "Acurite-609TXC", "id" : 94, "battery_ok" : 1, "temperature_C" : 22.600, "humidity" : 55, "status" : 1}
+{"time" : "@0.977320s", "model" : "Acurite-609TXC", "id" : 94, "battery_ok" : 1, "temperature_C" : 22.600, "humidity" : 55, "status" : 1}
+{"time" : "@1.078764s", "model" : "Acurite-609TXC", "id" : 94, "battery_ok" : 1, "temperature_C" : 22.600, "humidity" : 55, "status" : 1}
+{"time" : "@1.180208s", "model" : "Acurite-609TXC", "id" : 94, "battery_ok" : 1, "temperature_C" : 22.600, "humidity" : 55, "status" : 1}

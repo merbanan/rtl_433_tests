@@ -1,1 +1,1 @@
-{"time" : "@0.524288s", "model" : "Bresser 3CH sensor", "id" : 43, "channel" : 1, "battery" : "OK", "temperature_F" : 40.700, "humidity" : 78, "mic" : "CHECKSUM"}
+{"time" : "@0.155928s", "model" : "Bresser-3CH", "id" : 43, "channel" : 1, "battery_ok" : 1, "temperature_F" : 40.700, "humidity" : 78, "mic" : "CHECKSUM"}

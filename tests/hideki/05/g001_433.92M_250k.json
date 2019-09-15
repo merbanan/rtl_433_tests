@@ -1,2 +1,2 @@
-{"time" : "@0.164108s", "model" : "HIDEKI Temperature sensor", "rc" : 14, "channel" : 3, "battery" : "OK", "temperature_C" : 8.800, "mic" : "CRC"}
-{"time" : "@0.414504s", "model" : "HIDEKI Temperature sensor", "rc" : 14, "channel" : 3, "battery" : "OK", "temperature_C" : 8.800, "mic" : "CRC"}
+{"time" : "@0.164108s", "model" : "Hideki-Temperature", "id" : 14, "channel" : 3, "battery_ok" : 1, "temperature_C" : 8.800, "mic" : "CRC"}
+{"time" : "@0.414504s", "model" : "Hideki-Temperature", "id" : 14, "channel" : 3, "battery_ok" : 1, "temperature_C" : 8.800, "mic" : "CRC"}

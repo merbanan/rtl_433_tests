@@ -1,1 +1,1 @@
-{"time" : "@0.262144s", "brand" : "OS", "model" : "WGR968", "id" : 183, "channel" : 0, "battery" : "OK", "gust" : 3.600, "average" : 1.800, "direction" : 318.000}
+{"time" : "@0.087296s", "brand" : "OS", "model" : "Oregon-WGR968", "id" : 183, "channel" : 0, "battery_ok" : 1, "wind_max_m_s" : 3.600, "wind_avg_m_s" : 1.800, "wind_dir_deg" : 318.000}

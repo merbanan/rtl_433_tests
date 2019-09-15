@@ -1,2 +1,2 @@
-{"time" : "@0.308832s", "model" : "Alecto-WS1200v2", "id" : 103, "temperature_C" : 22.800, "rain" : 0.900, "battery" : "OK", "mic" : "CRC"}
-{"time" : "@0.524820s", "model" : "Alecto-WS1200v2", "id" : 103, "temperature_C" : 22.800, "rain" : 0.900, "battery" : "OK", "mic" : "CRC"}
+{"time" : "@0.308832s", "model" : "Alecto-WS1200v2", "id" : 103, "battery_ok" : 1, "temperature_C" : 22.800, "rain" : 0.900, "mic" : "CRC"}
+{"time" : "@0.524820s", "model" : "Alecto-WS1200v2", "id" : 103, "battery_ok" : 1, "temperature_C" : 22.800, "rain" : 0.900, "mic" : "CRC"}

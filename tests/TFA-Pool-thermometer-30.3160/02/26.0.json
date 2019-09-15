@@ -1,1 +1,1 @@
-{"time" : "@0.786432s", "model" : "TFA pool temperature sensor", "id" : 169, "channel" : 1, "temperature_C" : 26.000}
+{"time" : "@0.063084s", "model" : "TFA-Pool", "id" : 169, "channel" : 1, "temperature_C" : 26.000}

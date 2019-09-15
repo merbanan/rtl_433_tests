@@ -1,1 +1,1 @@
-{"time" : "@0.524288s", "model" : "AmbientWeather-TX8300", "id" : 0, "channel" : 1, "battery" : 2, "temperature_C" : 14.200, "humidity" : 81, "mic" : "CHECKSUM"}
+{"time" : "@0.295068s", "model" : "AmbientWeather-TX8300", "id" : 0, "channel" : 1, "battery" : 2, "temperature_C" : 14.200, "humidity" : 81, "mic" : "CHECKSUM"}

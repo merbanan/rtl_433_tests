@@ -1,8 +1,4 @@
-{"time" : "@0.000000s", "model" : "Maverick-ET73x", "id" : 6769, "status" : "init", "temperature1_C" : 26.000, "temperature2_C" : 26.000}
-{"time" : "@0.000000s", "model" : "Maverick-ET73x", "id" : 6769, "status" : "init", "temperature1_C" : 26.000, "temperature2_C" : 26.000}
-{"time" : "@0.000000s", "model" : "Maverick-ET73x", "id" : 6769, "status" : "init", "temperature1_C" : 26.000, "temperature2_C" : 26.000}
-{"time" : "@0.000000s", "model" : "Maverick-ET73x", "id" : 6769, "status" : "init", "temperature1_C" : 26.000, "temperature2_C" : 26.000}
-{"time" : "@0.000000s", "model" : "Maverick-ET73x", "id" : 6769, "status" : "init", "temperature1_C" : 26.000, "temperature2_C" : 26.000}
-{"time" : "@0.000000s", "model" : "Maverick-ET73x", "id" : 6769, "status" : "init", "temperature1_C" : 26.000, "temperature2_C" : 26.000}
-{"time" : "@0.000000s", "model" : "Maverick-ET73x", "id" : 6769, "status" : "init", "temperature1_C" : 26.000, "temperature2_C" : 26.000}
-{"time" : "@0.000000s", "model" : "Maverick-ET73x", "id" : 6769, "status" : "init", "temperature1_C" : 26.000, "temperature2_C" : 26.000}
+{"time" : "@0.095920s", "model" : "Maverick-ET73x", "id" : 6769, "status" : "init", "temperature_1_C" : 26.000, "temperature_2_C" : 26.000}
+{"time" : "@0.095920s", "model" : "Maverick-ET73x", "id" : 6769, "status" : "init", "temperature_1_C" : 26.000, "temperature_2_C" : 26.000}
+{"time" : "@0.095920s", "model" : "Maverick-ET73x", "id" : 6769, "status" : "init", "temperature_1_C" : 26.000, "temperature_2_C" : 26.000}
+{"time" : "@0.095920s", "model" : "Maverick-ET73x", "id" : 6769, "status" : "init", "temperature_1_C" : 26.000, "temperature_2_C" : 26.000}

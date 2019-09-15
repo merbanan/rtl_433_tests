@@ -1,1 +1,1 @@
-{"time" : "@0.000000s", "model" : "Interlogix", "id" : "4ca9b0", "device_type" : "motion", "raw_message" : "81d5b0", "battery" : "OK", "switch1" : "CLOSED", "switch2" : "OPEN", "switch3" : "OPEN", "switch4" : "OPEN", "switch5" : "OPEN"}
+{"time" : "@0.203684s", "model" : "Interlogix-Security", "subtype" : "motion", "id" : "4ca9b0", "battery_ok" : 1, "switch1" : "CLOSED", "switch2" : "OPEN", "switch3" : "OPEN", "switch4" : "OPEN", "switch5" : "OPEN", "raw_message" : "81d5b0"}

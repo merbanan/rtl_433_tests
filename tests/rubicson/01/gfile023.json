@@ -1,1 +1,1 @@
-{"time" : "@0.786432s", "model" : "Rubicson Temperature Sensor", "id" : 45, "channel" : 1, "battery" : "OK", "temperature_C" : 23.600, "mic" : "CRC"}
+{"time" : "@0.091224s", "model" : "Rubicson-Temperature", "id" : 45, "channel" : 1, "battery_ok" : 1, "temperature_C" : 23.600, "mic" : "CRC"}

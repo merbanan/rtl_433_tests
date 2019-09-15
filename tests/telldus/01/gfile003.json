@@ -1,1 +1,1 @@
-{"time" : "@0.000000s", "model" : "Telldus/Proove thermometer", "id" : 151, "temperature_C" : 21.000, "humidity" : 45, "mic" : "CRC"}
+{"time" : "@0.131744s", "model" : "Fineoffset-TelldusProove", "id" : 151, "temperature_C" : 21.000, "humidity" : 45, "mic" : "CRC"}

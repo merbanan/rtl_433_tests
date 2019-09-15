@@ -1,1 +1,1 @@
-{"time" : "@0.140232s", "model" : "Fineoffset-WH32B", "id" : 250, "temperature_C" : 23.000, "humidity" : 37, "pressure_hPa" : 997.200, "battery" : "OK", "mic" : "CHECKSUM"}
+{"time" : "@0.140232s", "model" : "Fineoffset-WH32B", "id" : 250, "battery_ok" : 1, "temperature_C" : 23.000, "humidity" : 37, "pressure_hPa" : 997.200, "mic" : "CHECKSUM"}

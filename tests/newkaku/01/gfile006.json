@@ -1,5 +1,5 @@
-{"time" : "@0.000000s", "model" : "KlikAanKlikUit Wireless Switch", "id" : 19529034, "unit" : 2, "group_call" : "No", "command" : "Off", "dim" : "No", "dim_value" : 0}
-{"time" : "@0.000000s", "model" : "KlikAanKlikUit Wireless Switch", "id" : 19529034, "unit" : 2, "group_call" : "No", "command" : "Off", "dim" : "No", "dim_value" : 0}
-{"time" : "@0.262144s", "model" : "KlikAanKlikUit Wireless Switch", "id" : 19529034, "unit" : 2, "group_call" : "No", "command" : "Off", "dim" : "No", "dim_value" : 0}
-{"time" : "@0.262144s", "model" : "KlikAanKlikUit Wireless Switch", "id" : 19529034, "unit" : 2, "group_call" : "No", "command" : "Off", "dim" : "No", "dim_value" : 0}
-{"time" : "@0.262144s", "model" : "KlikAanKlikUit Wireless Switch", "id" : 19529034, "unit" : 2, "group_call" : "No", "command" : "Off", "dim" : "No", "dim_value" : 0}
+{"time" : "@0.066144s", "model" : "KlikAanKlikUit-Switch", "id" : 19529034, "unit" : 2, "group_call" : "No", "command" : "Off", "dim" : "No", "dim_value" : 0}
+{"time" : "@0.151944s", "model" : "KlikAanKlikUit-Switch", "id" : 19529034, "unit" : 2, "group_call" : "No", "command" : "Off", "dim" : "No", "dim_value" : 0}
+{"time" : "@0.237756s", "model" : "KlikAanKlikUit-Switch", "id" : 19529034, "unit" : 2, "group_call" : "No", "command" : "Off", "dim" : "No", "dim_value" : 0}
+{"time" : "@0.323560s", "model" : "KlikAanKlikUit-Switch", "id" : 19529034, "unit" : 2, "group_call" : "No", "command" : "Off", "dim" : "No", "dim_value" : 0}
+{"time" : "@0.409348s", "model" : "KlikAanKlikUit-Switch", "id" : 19529034, "unit" : 2, "group_call" : "No", "command" : "Off", "dim" : "No", "dim_value" : 0}

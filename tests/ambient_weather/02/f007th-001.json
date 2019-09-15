@@ -1,1 +1,1 @@
-{"time" : "@0.293728s", "model" : "Ambient Weather F007TH Thermo-Hygrometer", "device" : 169, "channel" : 1, "battery" : "OK", "temperature_F" : -4.600, "humidity" : 19, "mic" : "CRC"}
+{"time" : "@0.293728s", "model" : "Ambientweather-F007TH", "id" : 169, "channel" : 1, "battery_ok" : 1, "temperature_F" : -4.600, "humidity" : 19, "mic" : "CRC"}

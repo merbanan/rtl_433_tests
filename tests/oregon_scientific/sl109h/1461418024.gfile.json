@@ -1,4 +1,1 @@
-{"time" : "@0.524288s", "model" : "Oregon Scientific SL109H", "id" : 134, "channel" : 2, "temperature_C" : 19.800, "humidity" : 80, "status" : 8, "mic" : "CHECKSUM"}
-{"time" : "@0.524288s", "model" : "Oregon Scientific SL109H", "id" : 134, "channel" : 2, "temperature_C" : 19.800, "humidity" : 80, "status" : 8, "mic" : "CHECKSUM"}
-{"time" : "@0.524288s", "model" : "Oregon Scientific SL109H", "id" : 134, "channel" : 2, "temperature_C" : 19.800, "humidity" : 80, "status" : 8, "mic" : "CHECKSUM"}
-{"time" : "@0.524288s", "model" : "Oregon Scientific SL109H", "id" : 134, "channel" : 2, "temperature_C" : 19.800, "humidity" : 80, "status" : 8, "mic" : "CHECKSUM"}
+{"time" : "@0.245440s", "model" : "Oregon-SL109H", "id" : 134, "channel" : 2, "temperature_C" : 19.800, "humidity" : 80, "status" : 8, "mic" : "CHECKSUM"}

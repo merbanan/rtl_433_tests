@@ -1,1 +1,1 @@
-{"time" : "@0.000000s", "model" : "RadioHead ASK", "len" : 5, "to" : 255, "from" : 255, "id" : 0, "flags" : 0, "payload" : [104, 101, 108, 108, 111], "mic" : "CRC"}
+{"time" : "@0.125796s", "model" : "RadioHead-ASK", "len" : 5, "to" : 255, "from" : 255, "id" : 0, "flags" : 0, "payload" : [104, 101, 108, 108, 111], "mic" : "CRC"}

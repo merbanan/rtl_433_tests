@@ -1,6 +1,6 @@
 {"time" : "@0.308872s", "model" : "LaCrosse-WS3600", "id" : 185, "temperature_C" : -0.900}
 {"time" : "@0.576948s", "model" : "LaCrosse-WS3600", "id" : 185, "humidity" : 79}
-{"time" : "@0.843068s", "model" : "LaCrosse-WS3600", "id" : 185, "wind_speed_ms" : 0.000, "wind_direction" : 22.500}
+{"time" : "@0.843068s", "model" : "LaCrosse-WS3600", "id" : 185, "wind_avg_m_s" : 0.000, "wind_dir_deg" : 22.500}
 {"time" : "@1.371040s", "model" : "LaCrosse-WS3600", "id" : 185, "temperature_C" : -0.900}
 {"time" : "@1.639112s", "model" : "LaCrosse-WS3600", "id" : 185, "humidity" : 79}
-{"time" : "@1.905236s", "model" : "LaCrosse-WS3600", "id" : 185, "wind_speed_ms" : 0.000, "wind_direction" : 22.500}
+{"time" : "@1.905236s", "model" : "LaCrosse-WS3600", "id" : 185, "wind_avg_m_s" : 0.000, "wind_dir_deg" : 22.500}

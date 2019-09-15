@@ -1,1 +1,1 @@
-{"time" : "@0.161728s", "model" : "Bresser-5in1", "id" : 118, "temperature_C" : 7.900, "humidity" : 92, "wind_gust" : 1.400, "wind_speed" : 2.300, "wind_dir_deg" : 0.000, "rain_mm" : 10.400, "mic" : "CHECKSUM"}
+{"time" : "@0.161728s", "model" : "Bresser-5in1", "id" : 118, "temperature_C" : 7.900, "humidity" : 92, "wind_max_m_s" : 1.400, "wind_avg_m_s" : 2.300, "wind_dir_deg" : 0.000, "rain_mm" : 10.400, "mic" : "CHECKSUM"}

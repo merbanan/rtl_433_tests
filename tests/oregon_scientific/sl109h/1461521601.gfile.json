@@ -1,2 +1,1 @@
-{"time" : "@0.524288s", "model" : "Oregon Scientific SL109H", "id" : 197, "channel" : 1, "temperature_C" : 27.100, "humidity" : 42, "status" : 0, "mic" : "CHECKSUM"}
-{"time" : "@0.524288s", "model" : "Oregon Scientific SL109H", "id" : 197, "channel" : 1, "temperature_C" : 27.100, "humidity" : 42, "status" : 0, "mic" : "CHECKSUM"}
+{"time" : "@0.426716s", "model" : "Oregon-SL109H", "id" : 197, "channel" : 1, "temperature_C" : 27.100, "humidity" : 42, "status" : 0, "mic" : "CHECKSUM"}

@@ -1,1 +1,1 @@
-{"time" : "@0.000000s", "model" : "emonTx", "node" : 8, "ct1" : 1283, "ct2" : 0, "ct3" : 1181, "ct4" : 61, "Vrms/batt" : 237.490000, "pulse" : 45144}
+{"time" : "@0.016185s", "model" : "emonTx-Energy", "node" : 8, "ct1" : 1283, "ct2" : 0, "ct3" : 1181, "ct4" : 61, "batt_Vrms" : 237.490, "pulse" : 45144}

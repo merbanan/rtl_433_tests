@@ -1,1 +1,1 @@
-{"time" : "@0.000000s", "model" : "DSC Contact", "id" : 2280838, "closed" : 0, "event" : 1, "tamper" : 0, "battery_low" : 0, "xactivity" : 0, "xtamper1" : 0, "xtamper2" : 0, "exception" : 0, "esn" : "22cd86", "status" : 129, "status_hex" : "81", "mic" : "CRC"}
+{"time" : "@0.195512s", "model" : "DSC-Security", "id" : 2280838, "closed" : 0, "event" : 1, "tamper" : 0, "battery_ok" : 1, "xactivity" : 0, "xtamper1" : 0, "xtamper2" : 0, "exception" : 0, "esn" : "22cd86", "status" : 129, "status_hex" : "81", "mic" : "CRC"}
