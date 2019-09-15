@@ -1,5 +1,4 @@
-
-Weber #32908 Grill/Oven cooking sensor
+# Weber #32908 Grill/Oven cooking sensor
 
 See images from the sensor and main unit. User manual also attached.
 

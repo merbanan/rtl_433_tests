@@ -1,5 +1,4 @@
-Acurite 6045M (06045M) Lightning Detector
-================================
+# Acurite 6045M (06045M) Lightning Detector
 
 Lighting detector, with temperature and humidity sensor.
 
@@ -13,14 +12,13 @@ Manufacturer's link:
 - https://www.acurite.com/lightning-detector-with-temperature-and-humidity.html
 
 
-Data files
-----------
+## Data files
+
 * acurite_6045_001.data - 75% humidity, 95 strikes, distance 10?, other bits t.b.d.
 * acurite_6045_002.data - 75% humidity, 95 strikes, distance 10?, other bits t.b.d.
 
 
-General Notes
--------------
+## General Notes
 
 * Sends (according to Acurite docs):
   * Lightning strike count

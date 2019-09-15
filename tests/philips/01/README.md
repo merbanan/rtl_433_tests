@@ -1,5 +1,4 @@
-Philips outdoor temperature sensor
-==================================
+# Philips outdoor temperature sensor
 
 gfile001.data: Channel 3, Temperature 24.3 C, Battery OK
 gfile002.data: Channel 1, Temperature 25.7 C, Battery OK

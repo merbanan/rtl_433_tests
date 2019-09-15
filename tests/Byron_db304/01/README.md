@@ -1,14 +1,17 @@
 # Byron DB304 Doorchime
----
+
 Instructions: http://media.chbyron.eu/file/pdf/1312464841_DB304_instructions_221110.pdf
 
 gfiles contain example button pushes, each is a 5 byte code repeated 16 times
 
 eg.
+```
 17 fb ff dc 39 17 fb ff dc 39 17 fb ff dc 39 17 fb ff dc 39 17 fb ff dc 39 17 fb ff dc 39 17 fb ff dc 39 17 fb ff dc 39 17 fb ff dc 39 17 fb ff dc 39 17 fb ff dc 39 17 fb ff dc 39 17 fb ff dc 39 17 fb ff dc 39 17 fb ff dc 39 17 fb 
+```
 
 From a sample of 150 pushes, only the following 27 unique codes are received.
 
+```
 17 fb ff dc 35
 17 fb ff dc 39
 17 fb ff dc 3f
@@ -37,3 +40,4 @@ db 37 ff dc eb
 db 37 ff dc ed
 db 37 ff dc fb
 f9 15 ff dc db
+```

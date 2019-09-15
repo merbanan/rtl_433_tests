@@ -1,6 +1,8 @@
-Please consider supporting this device. It would help a lot for sick and/or handicapped people. 
+# RT26 Wristband transmitter
 
-<h1>RT26 Wristband transmitter</h1> {868.3 MHz button to page caregiver}
+The RT26 Wristband transmitter is a 868.3 MHz button to page caregiver.
+
+Please consider supporting this device. It would help a lot for sick and/or handicapped people. 
 
 > "The RT26 wristband transmitter has been specially adapted to the requirements of people in need of care. The large push button makes it easy to operate.
 > Switching electrical devices on and off with a 1-button operation or activating paging systems are among the standard application areas of this transmitter.

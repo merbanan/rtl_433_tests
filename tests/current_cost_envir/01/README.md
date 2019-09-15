@@ -1,4 +1,4 @@
-CurrentCost EnviR Transmitter
+# CurrentCost EnviR Transmitter
 
 The EnviR is an updated model of the CurrentCost TX transmitter. 
 

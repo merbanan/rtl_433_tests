@@ -1,4 +1,4 @@
-# Sample files for the GT-WT-03
+# GT-WT-03
 
 Recorded with
 

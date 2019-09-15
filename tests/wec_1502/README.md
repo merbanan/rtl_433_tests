@@ -1,4 +1,4 @@
-Fuzhou Emax Temperature Sensor (Taylor, AccuTemp, ...)
+# Fuzhou Emax Temperature Sensor (Taylor, AccuTemp, ...)
 
 ``` 
 /*

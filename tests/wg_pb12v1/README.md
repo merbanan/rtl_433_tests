@@ -1,5 +1,4 @@
-WG-PB12v1
-===
+# WG-PB12v1
 
 A summary of the recording captures for the testing/characterising of the
 WG-PB12v1 temperature sensor.

@@ -1,4 +1,4 @@
-# Add support for EV1527 4-button universal remote
+# EV1527 4-button universal remote
 
 This folder contains sample recordings from _two_ *EV1527-based key fob universal remote*s.
 For both, a sequence of pressing `A`, `B`, `C` and `D` has been recorded.

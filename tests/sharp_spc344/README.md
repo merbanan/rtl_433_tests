@@ -1,3 +1,5 @@
+# Sharp SPC344
+
 Transmitter unit for a Sharp SPC344 weather sensor FCC ID: OQH-000000-06-007
 Manufactured by Chung's Electronic Co. Ltd.
 

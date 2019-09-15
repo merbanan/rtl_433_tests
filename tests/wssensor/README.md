@@ -1,4 +1,5 @@
 # Hyundai WS SENZOR Remote Temperature Sensor for weather stations
+
 https://www.hyundai-electronics.cz/cidlo-pro-meteostanice-hyundai-ws-senzor-stribrne/z68589/ (no English site)
 
 * Manufacturer: Hyundai Corporation, Seoul, Korea

@@ -1,10 +1,7 @@
+# Fine Offset Electronics WH3080 weather station samples
 
-
-## Fine Offset Electronics WH3080 weather station samples
-======================================================
-
-- gfile001.data 
-- gfile003.data 
+- gfile001.data
+- gfile003.data
 - gfile005.data
 - gfile008.data
 - gfile009.data
@@ -15,13 +12,11 @@ all are UV/Light samples;
 
 ---
 
-
 - gfile002.data are datetime samples;
-
 
 ---
 
-- gfile004.data 
+- gfile004.data
 - gfile006.data
 - gfile007.data
 - gfile010.data
@@ -31,7 +26,6 @@ all are UV/Light samples;
 all are weather sensors samples.
 
 ---
-
 
 This 433Mhz station version uses 88 bit long messages, is marked as "Pass 15" and is (re)branded as "Froggit WH3080SE".
 

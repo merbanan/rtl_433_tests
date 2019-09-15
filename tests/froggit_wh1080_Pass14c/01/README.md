@@ -1,3 +1,5 @@
+# Froggit WH1080
+
 I have bought a Froggit WH1080 replacement part (See here: http://www.froggit.de/product_info.php/language/en/info/p145_ersatz-ausseneinheit-komplett-wh1080-solar.html)
 
 It behaves a little diffrent than the other known wh1080's.

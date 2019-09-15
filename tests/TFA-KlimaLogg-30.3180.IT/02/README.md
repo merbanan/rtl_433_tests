@@ -1,6 +1,6 @@
-Github Issue#:
+# TFA Dostmann/Wertheim 30.3180.IT
 
-#965 ( https://github.com/merbanan/rtl_433/issues/965 )
+Github Issue: #965 ( https://github.com/merbanan/rtl_433/issues/965 )
 
 Sensor:
 
@@ -34,6 +34,7 @@ rtl_433 -M newmodel -f 868.25M -s 1536000 -a -S all -g 50
 
 Output of tfrec (although not at time of capturing the signals above - but this illustrates what comes out. I get quite a few BAD signals with tfrec - shitty receiver? (it was cheap...)):
 
+```
 $ tfrec -D -f 868250 -g 50 -T 1
 Registering demod for TFA_1 KlimaLoggPro
 Found Fitipower FC0012 tuner
@@ -68,3 +69,5 @@ Allocating 15 zero-copy buffers
 #023 1555416808  2d d4 1d 71 86 34 21 60 20 56 e5           TFA1 ID 1d71 +23.4 33% seq 2 lowbat 0 RSSI 72
 #024 1555416810  2d d4 7d 60 86 34 23 60 00 56 91           TFA1 ID 7d60 +23.4 35% seq 0 lowbat 0 RSSI 79
 #025 1555416811  2d d4 7f 4a 86 35 21 60 40 56 4d           TFA1 ID 7f4a +23.5 33% seq 4 lowbat 0 RSSI 80
+```
+

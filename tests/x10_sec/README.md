@@ -1,5 +1,4 @@
-X10 Security Sensor Devices
-===========================
+# X10 Security Sensor Devices
 
 These signals were captured from an X10 DS10A door/window sensor
 equipped with a reed switch and magnet for X10 security systems.
@@ -19,8 +18,7 @@ messages followed by five (5) OPEN messages.
     DOOR/WINDOW CLOSED Code: 0x84
     DOOR/WINDOW OPEN Code: 0x04
 
-Would you like to know more?
-----------------------------
+## Would you like to know more?
 
 Information on the X10 security protocol is available, although it
 is not as well-known as the home automation variant.  X10 security

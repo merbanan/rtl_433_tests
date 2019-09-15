@@ -10,7 +10,7 @@ The same PCB is used by the generic black 4-button 433MHz remote, with a differe
 
 ![photo](photo.jpg)
 
-### Captures:
+## Captures:
 
 ```
 $ rtl_433 -f 315000000 -a -t
@@ -27,7 +27,7 @@ g006_315M_250k.cu8 | C
 g007_315M_250k.cu8 | D
 g008_315M_250k.cu8 | D
 
-### Analyze mode:
+## Analyze mode:
 
 Plain OOK with fixed period of 1800 us, long pulse 1380 us, short pulse 485 us.
 Use e.g. -X name:OOK_PWM:484:1380:13616:1292:358:0

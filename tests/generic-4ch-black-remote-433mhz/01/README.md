@@ -10,7 +10,7 @@ The same PCB is used by the generic black 4-button 315MHz remote, with a differe
 
 ![photo](photo.jpg)
 
-### Captures:
+## Captures:
 
 ```
 $ rtl_433 -f 433920000 -a -t
@@ -27,7 +27,7 @@ g006_433.92M_250k.cu8 | C
 g007_433.92M_250k.cu8 | D
 g008_433.92M_250k.cu8 | D
 
-### Analyze mode:
+## Analyze mode:
 
 This is an interesting test case as the samples are very distorted. AM is rather low with high spikes.
 

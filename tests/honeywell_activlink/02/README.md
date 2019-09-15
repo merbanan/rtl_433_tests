@@ -1,4 +1,4 @@
-## Honeywell "ActivLink" Wireless Chimes
+# Honeywell "ActivLink" Wireless Chimes
 
 North American variants of this device operate at 916.8 MHz FSK 50kHz deviation. Australian variants are also reported to use this same frequency.
 
@@ -44,14 +44,14 @@ the signals I've collected so far, this seems to be how bits are being used.
 	# .... .... .... .... .... .... .... .... .... .... .... ..X. LOWBAT (1 if battery is low, receiver gives low battery alert)
 	# .... .... .... .... .... .... .... .... .... .... .... ...X PARITY (LSB of count of set bits in previous 47 bits)
 
-### Data Frame Device ID Notes:
+## Data Frame Device ID Notes:
 For simplicity, the full Device ID for the device might just be the first 
 4 bytes.  Device Type should be included as part of the Device ID since if 
 it is changed, a receiver would no longer recognize the signal as being from 
 the same device.  Bits after byte 4 that seem to be part of the Key ID are
 always 0 on all devices I've seen.
 
-### Data Frame KEY UNKNOWN 0 Notes:
+## Data Frame KEY UNKNOWN 0 Notes:
 These bits are 0 in all devices I've seen.  Some preliminary tests with
 generating artificial signals seems to indicate that if these bits are not
 0, the receiver does not seem to recognize the signal as a previously
@@ -59,7 +59,7 @@ recognized device.  So, these bits are either part of the device ID, or they
 simply must be 0 for the receiver to accept the signal as valid.  Further
 testing here is required.
 
-### Data Frame DEVICE TYPE Notes:
+## Data Frame DEVICE TYPE Notes:
 For all devices I've tested, it seems that only the two bits specified for this
 field change depending on the type of device used to generate the signal.
 It seems logical that perhaps the the width of this field is more than two
@@ -67,21 +67,21 @@ bits.  It might even be all of the 4th byte.  I have no data to confirm this,
 though.  For all devices I've seen, though, only these two bits of the 4th 
 byte might be anything other than 0.
 
-### Data Frame ALERT Notes:
+## Data Frame ALERT Notes:
 On some receivers, such as the Honeywell RDWL917AX, an alert type of 01 or
 10 forces the receiver to display a blinking right and left pattern, instead
 of the normal full perimeter LED blinking.
 
-### Data Frame RELAY Notes:
+## Data Frame RELAY Notes:
 On some receiver models, such as the "Honeywell RDWL917AX", the base receiver 
 will immediately retransmit a valid received signal if the RELAY bit is NOT 
 set. The data in the retransmitted signal will be modified with the RELAY bit 
 set. This seems to be an effort to extend a signal to more distant receivers.
 
-### Devices using this signal
+## Devices using this signal
 Here's an incomplete list of devices and kits known or suspected to use this signal.
 
-#### North American models
+### North American models
 - RCA902N1004/N Wireless Motion Detector
 - RDWL311A 3 Series Portable Wireless Doorbell & Push Button
 - RDWL313A 3 Series Portable Wireless Doorbell with Strobe Light & Push Button
@@ -108,7 +108,7 @@ Here's an incomplete list of devices and kits known or suspected to use this sig
 - RCWL3505A1005/N Decor Customizable Wood Wireless Doorbell / Door Chime and Push Button
 - RCWL3506A1003/N Decor Wireless Door Chime
 
-#### Australian models (916.8 MHz)
+### Australian models (916.8 MHz)
 - DC917NGA Wireless portable MP3 doorbell with range extender, customisable melodies and push button – Grey
 - DC515NA Wireless portable doorbell with halo light, sleep mode and push button – White
 - DC515NGA Wireless portable doorbell with halo light, sleep mode and push button – Grey
@@ -120,7 +120,7 @@ Here's an incomplete list of devices and kits known or suspected to use this sig
 - DCP511A Wireless push button with nameplate and LED confidence light – Offset Landscape, White
 - DCP511GA Wireless push button with nameplate and LED confidence light – Offset Landscape, Grey
 
-#### European models
+### European models
 
 - DW915SG Wired and wireless doorbell with range extender, sleep mode and halo light – Grey
 - DW915S Wired and wireless doorbell with range extender, sleep mode and halo light – White
@@ -166,7 +166,7 @@ Here's an incomplete list of devices and kits known or suspected to use this sig
 - HS3BS1S Wireless battery siren
 - L430S Wireless Motion Sensor (IP54) – White
 
-### Contact Me
+## Contact Me
 
 I'm actively working to understand this protocol and documenting what I find in [This Honeywell Wireless Doorbell GitHub](https://github.com/klohner/honeywell-wireless-doorbell).
  

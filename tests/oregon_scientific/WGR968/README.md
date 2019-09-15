@@ -23,7 +23,3 @@ to:-
 
 <code>float quadrant = (((msg[4] &0x0f)*10) + ((msg[4]>>4)&0x0f) + (((msg[5]>>4)&0x0f)*100));</code>
 
-
- 
-
-

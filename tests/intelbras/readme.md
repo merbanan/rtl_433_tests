@@ -1,4 +1,4 @@
-Description:
+# Intelbras brand
 
 Intelbras is a popular brazillian brand and manufacturer for burglar alarms and several other devices.
 

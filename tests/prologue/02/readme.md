@@ -1,4 +1,4 @@
-
+# cheap temp/hum sensor
 
 * cheap temp/hum sensors bought on AliExpress: http://www.aliexpress.com/item/Fashion-Portable-New-Arrival-Super-Quality-Wireless-Digital-In-Outdoor-Weather-Station-Humidity-Temperature-Remote-Sensor/32337745334.html
 * 3 channels

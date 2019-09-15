@@ -1,3 +1,5 @@
+# Dish network receiver
+
 Dish network receivers use IR, UHF, or IR/UHF remotes. The remote used to create
 this driver was model "6.3", FCC id DKNFSK03. These signals were captured 
 on or around 384 MHz - the FCC device test report claims there are 9 discrete

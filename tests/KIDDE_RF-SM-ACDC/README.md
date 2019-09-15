@@ -1,3 +1,5 @@
+# Kidde Wireless AC Powered Smoke Alarm
+
 The Kidde Wireless AC Powered Smoke Alarm makes it easy to expand the coverage of a current interconnected system. 
 Simply replace one interconnected smoke alarm with the Kidde Wireless AC powered alarm. 
 Kidde Wireless Battery Powered Smoke Alarms can be installed in additional rooms that need extra protection. 

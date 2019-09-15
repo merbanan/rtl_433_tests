@@ -1,5 +1,4 @@
-Fine Offset WH65B
-=================
+# Fine Offset WH65B
 
 This is the sensor array for the Fine Offset WH2900.
 

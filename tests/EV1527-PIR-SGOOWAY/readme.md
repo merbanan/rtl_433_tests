@@ -1,4 +1,4 @@
-# Improve support for cheap EV1527 based PIR sensor
+# Cheap EV1527 based PIR sensor
 
 EV1527 based devices are supported (at least?) in the _Generic remote_ [30] and _Wireless Smoke and Heat Detector GS 558 protocol_ [86]
 

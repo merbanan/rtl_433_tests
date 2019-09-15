@@ -1,5 +1,4 @@
-beckett rocket TEK377A
-======================
+# beckett rocket TEK377A
 
 I recorded creating the test files using a measuring tape and the sonic range finder.  The recoding shows the depth on a measuring tape, the receiver and the output of of rtl_433
 

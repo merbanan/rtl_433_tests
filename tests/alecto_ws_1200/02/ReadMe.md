@@ -1,13 +1,11 @@
-Alecto WS 1200 - Version 2.0
-----------------------------
+# Alecto WS 1200 - Version 2.0
 
 A Thermometer with clock and wireless rain unit with temperature sensor.
 
 Manual available at
 https://www.alecto.nl/media/blfa_files/WS-1200_manual_NL-FR-DE-GB_V2.2_8712412532964.pdf
 
-Format notes
-------------
+## Format notes
 
 The rain unit counts in 0.3 mm steps. The sensor counter increases from 
 0 to 65536(R, little endian), the display keeps the difference. Temperatue is transmitted as 
@@ -24,9 +22,7 @@ Example:
 11111110011110001000010011011010000000000000000111111111110101011010100001101001110100110001000  
   1   1ssssiiiiiiiiB?ttttttttttrrrrrrrrrrrrrrrr   1   1ccccccccmmmmmmmm   d   d   d   d   d   d  
 
-
-Flex decoder
-------------
+## Flex decoder
 
 A transmission is two packets (repeats) 36 ms apart.
 Encoding is PWM with fixed gap length.
@@ -38,9 +34,7 @@ Long pulse of 1500 us with 950 us gap (2500 us period).
 The gap limit (g) here is slightly longer than the expected gap (950 us).
 The reset limit (r) should be slightly longer than the packet distance, but 37 ms is too long.
 
-
-Training of station to the sensor
----------------------------------
+## Training of station to the sensor
 
 The sensor sends first a normal signal with d set 0 (maybe because DCF77 signal is not yet decoded?)
 
@@ -75,8 +69,7 @@ Binary:
 See folder 03 for a pairing procedure with signals.
 
 
-File comments
--------------
+## File comments
 
 g001_433.92M_250k.cu8	Temp: 30.9 Celsius	Rain: 80.4 mm  
 Bitbuffer: [00] {95} fe 65 a5 8a 24 03 fe fa b0 a6 18 8c  
@@ -162,8 +155,7 @@ identical to g009_433.92M_250k.cu8
   1   1ssssiiiiiiiiB?ttttttttttrrrrrrrrrrrrrrrr   1   1ccccccccmmmmmmmm   d   d   d   d   d   d  
 
 
-More bitbuffer results
-----------------------
+## More bitbuffer results
 
 [00] {95} fe 65 a2 b7 92 01 fe 14 60 a3 e4 52  
 [00] {95} fe 65 a2 b9 92 01 ff 31 7e a3 e4 52  

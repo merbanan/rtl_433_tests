@@ -1,4 +1,4 @@
-Professional Wireless Pool Thermometer WT0122
+# Professional Wireless Pool Thermometer WT0122
 
 This is my second unit. The first one I bought decoded as "Nexus Temperature & Humidity Sensor" 
 but this one is not recognized.

@@ -1,3 +1,4 @@
+# Digitech XC0348 weather station
 
 ******************************************************************
   This module has been merged with Fine Offset WH1080 module
@@ -15,9 +16,7 @@ A big thanks to Stanisław Pitucha ('viraptor' https://github.com/viraptor ) who
 
 ------------------------------------------------------------------------------------------
 
-
-Digitech wireless weather station
-=================================
+## Digitech wireless weather station
 
 Reporting temperature, rain, humidity, wind, pressure.
 

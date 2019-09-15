@@ -1,4 +1,4 @@
-Honeywell (Ademco) 5811 Window/Door Contact Transmitter
+# Honeywell (Ademco) 5811 Window/Door Contact Transmitter
 
 - Operates on 345.000 Mhz
 

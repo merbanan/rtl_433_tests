@@ -1,5 +1,4 @@
-Acurite Test Signals
-====================
+# Acurite Test Signals
 
 - 01 - Acurite 5-n-1 Weather Station (Device 09 & 39)
 - 02 - Acurite 606TX Temperature Sensor

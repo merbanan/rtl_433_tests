@@ -1,4 +1,4 @@
-__Globaltronics (GT) WT-02__ samples:
+# Globaltronics (GT) WT-02
 
 decoding:
 <pre><code>

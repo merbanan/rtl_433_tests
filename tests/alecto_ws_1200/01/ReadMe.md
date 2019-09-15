@@ -1,13 +1,11 @@
-Alecto WS 1200 - Version 1.0
-----------------------------
+# Alecto WS 1200 - Version 1.0
 
 A Thermometer with clock and wireless rain unit with temperature sensor.
 
 Manual available at
 https://www.alecto.nl/media/blfa_files/WS-1200_manual_NL-FR-DE-GB_V2.2_8712412532964.pdf
 
-Format notes
-------------
+## Format notes
 
 The rain unit counts in 0.3 mm steps. The sensor counter increases from 
 0 to 65536(R, little endian), the display keeps the difference. Temperatue is transmitted as 
@@ -24,8 +22,7 @@ Example:
   1   1ssssiiiiiiiiB?ttttttttttrrrrrrrrrrrrrrrr   1   1cccccccc  
 
 
-Flex decoder
-------------
+## Flex decoder
 
 A transmission is two packets (repeats) 36 ms apart.
 Encoding is PWM with fixed gap length.
@@ -38,9 +35,9 @@ The gap limit (g) here is slightly longer than the expected gap (950 us).
 The reset limit (r) should be slightly longer than the packet distance, but 37 ms is too long.
 
 
-File comments
--------------
+## File comments
 
+```
 g001_433.92M_250k.cu8	Temp: 24.5 Celsius	Rain: 0.0 mm  
 Bitbuffer: [00] {63} fe 72 25 0a 00 01 fe 20  
 Binary:  
@@ -95,4 +92,4 @@ Binary:
                      -400 / 10   * 0.3  
                         29.2      3.0  
 
-
+```

@@ -1,3 +1,5 @@
+# GT-WT-03
+
 This GT-WT-03 was bought from Aldi Germany in 2018.
 
 He shows temperature, humidity, battery alarm and channel 1, 2 or 3.

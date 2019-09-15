@@ -1,4 +1,4 @@
-Sample files from Cotech 4 channel remote 36-6010
+# Cotech 4 channel remote 36-6010
 
 Device address: 0x0f0f
 

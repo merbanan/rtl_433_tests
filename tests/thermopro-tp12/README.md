@@ -1,9 +1,8 @@
-ThermoPro TP-12 Wireless Meat Thermometer
-=========================================
+# ThermoPro TP-12 Wireless Meat Thermometer
+
 [Product page](https://itronicsmall.com/products/thermopro-tp-12)
 
-Data capture log
-================
+## Data capture log
 
     Total count:  714,  width: 273019		(1092.1 ms)
     Pulse width distribution:
@@ -49,8 +48,7 @@ Layout appears to be:
                                            low bits 1   2    low bits
                                                     hi bits
 
-Analysis
-========
+## Analysis
 
 The modulation for the TP-12 seems to be the same as the TP-11.  The format
 is similar, just with more bits.

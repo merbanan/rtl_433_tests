@@ -1,5 +1,5 @@
-Ascot PO6335/R29
-================
+# Ascot PO6335/R29
+
 This Ascot Humidity/Temperature SN:PO6335 TYPE:R29 was bought from Aldi UK in 2008.
 
 It's worked reliably since then.  I have been meaning to get around it to the rtl_433 list for some time, and recently, following a battery change, decided to grab the data.

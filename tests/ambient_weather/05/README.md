@@ -1,3 +1,5 @@
+# Ambient Weather TX-8300/8339 Wireless Thermometer
+
 Data for Ambient Weather TX-8300/8339 Wireless Thermometer
 
 URL: https://www.ambientweather.com/amtx8300.html
@@ -5,7 +7,7 @@ FCC: https://fccid.io/OQH-000000-13-01
 
 Output is temperature and (I think) battery status and it supports one of three different 433 MHz channels.
 
-# Decoded output
+## Decoded output
 
 Seems to decodeable like this:
 

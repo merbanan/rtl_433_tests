@@ -1,8 +1,7 @@
-Lacrosse Weather Station WS-3600 with Sensor TX13
-===========================================================
+# Lacrosse Weather Station WS-3600 with Sensor TX13
 
-Device Info
------------
+## Device Info
+
 manual: https://www.heavyweather.info/new_english_us/3600pdf/WS3600uk_manual.pdf
 
 more info in german: http://wiki.wetterstationen.info/index.php?title=LaCrosse_WS3600

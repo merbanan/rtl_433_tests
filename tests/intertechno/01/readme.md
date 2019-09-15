@@ -1,3 +1,5 @@
+# Intertechno ITT-1500 remote
+
 Test signals off an intertechno ITT-1500 remote sold together with ITR-1500 remote controlled outlets.
 
 PPM Modulation: Pulse 220µs, short gap 350µs, long gap 1400µs

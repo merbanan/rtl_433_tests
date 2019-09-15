@@ -1,28 +1,23 @@
-DSC 433 Mhz Security Contacts
-=============================
+# DSC 433 Mhz Security Contacts
 
 Recording of a DSC (Digital Security Controls) door/window security
 contact Model: for an alarm system.  433 Mhz used with Power Series
 and Alexor security systems.  The same protocol is used by many
 other 433 mhz contacts (sensors) from DSC.
 
-Product Info
-------------
+## Product Info
+
 * Manufacturer Page: http://www.dsc.com/index.php?n=products&o=view&id=113
 * Amazon Page: http://www.amazon.com/B000V9XTBM
 
-Protocol Information
---------------------
+## Protocol Information
 
 The FCC ID is F5300NB912, the report actually includes
 the protocol information.
 
 https://apps.fcc.gov/eas/GetApplicationAttachment.html?id=100988
- 
 
-
-Unusual On Off Keying (OOK) Protocol
-------------------------------------
+## Unusual On Off Keying (OOK) Protocol
 
 These devices use a slightly unusual On-Off Keying scheme presumably
 to save power.  Nothing is sent during zero bits.   If there are
@@ -49,14 +44,10 @@ There are 48 bits in the packet including the leading 4 sync 1
 bits. This makes the packet 48 x 500 uS bits long plus the 2.5 mS
 preamble for a total packet length of 26.5 ms.
 
-
-rtl_433 Status
---------------
+## rtl_433 Status
 
 As of June 2015, this isn't currently decoded by rtl_433, a custom
 demodulator needs to be written.  I (rct) am ready to implement this
 but was waiting for the updated, more flexible plug-in / demodulator
 architecture.
-
-
 

@@ -1,13 +1,11 @@
-Alecto WS 1200 - Version 2.0
-----------------------------
+# Alecto WS 1200 - Version 2.0
 
 A Thermometer with clock and wireless rain unit with temperature sensor.
 
 Manual available at
 https://www.alecto.nl/media/blfa_files/WS-1200_manual_NL-FR-DE-GB_V2.2_8712412532964.pdf
 
-Format notes
-------------
+## Format notes
 
 The rain unit counts in 0.3 mm steps. The sensor counter increases from 
 0 to 65536(R, little endian), the display keeps the difference. Temperatue is transmitted as 
@@ -24,9 +22,7 @@ Example:
 111111100111100010000100110110100000000000000001111111111101010110101000011010011101001100010000  
   1   1ssssiiiiiiiiB?ttttttttttrrrrrrrrrrrrrrrr   1   1ccccccccmmmmmmmm   d   d   d   d   d   d  
 
-
-Flex decoder
-------------
+## Flex decoder
 
 A transmission is two packets (repeats) 36 ms apart.
 Encoding is PWM with fixed gap length.
@@ -38,9 +34,7 @@ Long pulse of 1500 us with 950 us gap (2500 us period).
 The gap limit (g) here is slightly longer than the expected gap (950 us).
 The reset limit (r) should be slightly longer than the packet distance, but 37 ms is too long.
 
-
-Training of station to the sensor
----------------------------------
+## Training of station to the sensor
 
 The sensor sends first a normal signal with d set 0 (maybe because DCF77 signal is not yet decoded?)
 
@@ -99,8 +93,7 @@ Binary:
 See folder 02 for a the signal decoding.  
 
 
-Once at night the time signal is send again to resync:  
-------------------------------------------------------
+## Once at night the time signal is send again to resync:  
 
 At 2:00 the sensor stops sending signals (probably to decode DCF77 
 signals) and sends out for time signals to resync once ready.

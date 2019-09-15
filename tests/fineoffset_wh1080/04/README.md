@@ -1,5 +1,4 @@
-Digitech wireless weather station
-=================================
+# Digitech wireless weather station
 
 Reporting temperature, rain, humidity, wind, pressure.
 

@@ -1,3 +1,5 @@
+# GE/Interlogix sensors
+
 These tests are for GE/Interlogix sensors and include:
 
 pir motion sensor

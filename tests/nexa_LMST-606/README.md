@@ -1,5 +1,4 @@
-NEXA LMST-606 Magnetic sensor
------------------------------
+# NEXA LMST-606 Magnetic sensor
 
 ![NEXA LMST-606](https://github.com/LinuxChristian/rtl_433_tests/blob/79afdf7ff1f9528cccc54212f703ca171042e960/tests/nexa_LMST-606/nexa_magnetic_sensor.jpg "NEXA LMST-606")
 
@@ -24,15 +23,14 @@ The sent packet length is thus 64 bits.
 
 The ON packet structure is very similar but encoded 72-bits.
 
-Files
---------
+## Files
+
 Two examples are included using the same sensor,
 
 * gfile001.data : OPEN-state
 * gfile002.data : CLOSED-state
 
+## External information
 
-External information
----------------------
 * Product webpage: https://www.nexa.se/vara-produkter/system-nexa/sensorer/lmst-606#tab-id-1
 * General NEXA protocol: http://elektronikforumet.com/wiki/index.php/RF_Protokoll_-_Nexa_sj%C3%A4lvl%C3%A4rande

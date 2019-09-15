@@ -1,14 +1,14 @@
-Github Issue#:
+# TFA Dostmann 30.3180.IT
 
-#965 ( https://github.com/merbanan/rtl_433/issues/965 )
+Github Issue: #965 ( https://github.com/merbanan/rtl_433/issues/965 )
 
 Sensor:
 
-TFA Dostmann
-Kat Nr.: 30.3180.IT
-ID:3F14
-Date:7/25/2016
-V34
+- TFA Dostmann
+- Kat Nr.: 30.3180.IT
+- ID:3F14
+- Date:7/25/2016
+- V34
 
 https://www.conrad.de/de/tfa-303180it-thermo-hygro-funksensor-fuer-klimalogg-pro-passend-fuer-details-tfa-303039it-klimalogg-bestnr-1240367-396443.html
 
@@ -25,6 +25,7 @@ https://www.ebay.de/itm/Mini-Digital-USB2-0-TV-Stick-SDR-Tuner-Receiver-DVBT-DAB
 
 Output of tfrec:
 
+```
 ./tfrec -D -g 50 -T 1
 Found Rafael Micro R820T tuner
 Registering demod for TFA_1 KlimaLoggPro
@@ -41,3 +42,4 @@ START READ THREAD
 #006 1549220310  2d d4 3f 14 85 92 2b 60 d0 56 89           ID 3f14 +19.2 43%  seq d lowbat 0 RSSI 76
 #007 1549220321  2d d4 3f 14 85 92 2c 60 e0 56 a9           ID 3f14 +19.2 44%  seq e lowbat 0 RSSI 76
 #008 1549220331  2d d4 3f 14 85 92 2c 60 f0 56 c7           ID 3f14 +19.2 44%  seq f lowbat 0 RSSI 76
+```

@@ -1,5 +1,4 @@
-Acurite 592TXR "Tower" Temperature and Humidity Sensor
-======================================================
+# Acurite 592TXR "Tower" Temperature and Humidity Sensor
 
 Other Model Numbers: 00592TXR, 06002RM, 11126-592TXR
 

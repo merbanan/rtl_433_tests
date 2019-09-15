@@ -1,5 +1,4 @@
-RF-tech temperature sensor
-==========================
+# RF-tech temperature sensor
 
 Also marked INFRA 217S34.
 Ewig Industries Macao.

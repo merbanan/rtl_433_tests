@@ -1,3 +1,5 @@
+# Euroster 3000txrx
+
 Used to control central heating boiler and electrical heating appliances (16A relay). Programming on a weekly basis reduces energy expenses, whilst ensuring comfort at particular time periods.
 
 http://www.euroster.pl/en/produkty/room-thermostats/programmable/euroster-3000txrx/269

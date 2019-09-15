@@ -1,4 +1,4 @@
-Telldus F007TPH
+# Telldus F007TPH
 
 This device has 2 sensors for temperature, 1 for humidity
 

@@ -1,4 +1,5 @@
 # Emos TTX201 Remote Temperature Sensor
+
 https://shop.emos.cz/2603108000-bezdratovy-teplomer-ttn303 (no English site)
 
 * Manufacturer: Ewig Industries Macao

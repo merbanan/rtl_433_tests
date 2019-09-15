@@ -1,5 +1,4 @@
-SIGMA TE 130NL
-==============
+# SIGMA TE 130NL
 
 Temperature only Sensor/Receiver using HIDEKI temperature sensor.
 

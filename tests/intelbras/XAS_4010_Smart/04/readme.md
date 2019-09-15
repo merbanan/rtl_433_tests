@@ -1,1 +1,1 @@
-Pulse (monitoring) status - Closed
+# Pulse (monitoring) status - Closed
