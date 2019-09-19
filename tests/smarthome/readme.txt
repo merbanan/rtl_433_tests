@@ -8,3 +8,8 @@ I also recorded another device of the same kind that operates a different shutte
 - UP up_other_g002_433.92M_250k.cu8 
 - DOWN dn_other_g005_433.92M_250k.cu8
 - STOP stop_other_g003_433.92M_250k.cu8 
+
+The device says the model number is DC305A, but there is a variety of compatible devices
+
+This device: http://www.smart-home.hu/index.php?option=com_jshopping&controller=product&task=view&category_id=11&product_id=21&Itemid=171&lang=en
+Others: http://www.smart-home.hu/index.php?option=com_content&view=article&id=15&Itemid=171&lang=en
