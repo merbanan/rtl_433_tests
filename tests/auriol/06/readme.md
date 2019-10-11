@@ -63,3 +63,6 @@ temp: 19,0
 humidity: 95%
 bat: low
 channel: 3
+
+20191010_7h_log.txt
+7 hours log in json, channel 3 and battery changes from ok to low
