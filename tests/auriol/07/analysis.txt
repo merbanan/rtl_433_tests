@@ -1,0 +1,2539 @@
+Test mode active. Reading samples from file: g001_433.91xM_250k.cu8
+Detected OOK package	@0.162756s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.162756s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: 14.6 C
+Rel. Humidity: 67 %
+Analyzing pulses...
+Total count:  444,  width: 810.28 ms		(202570 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  496 us [476;516]	( 124 S)
+ [ 1] count:    1,  width:  248 us [248;248]	(  62 S)
+Gap width distribution:
+ [ 0] count:  132,  width: 1940 us [1928;1960]	( 485 S)
+ [ 1] count:  300,  width:  964 us [952;976]	( 241 S)
+ [ 2] count:   11,  width: 3892 us [3892;3900]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  132,  width: 2440 us [2432;2464]	( 610 S)
+ [ 1] count:  300,  width: 1464 us [1452;1480]	( 366 S)
+ [ 2] count:   11,  width: 4376 us [4368;4388]	(1094 S)
+Level estimates [high, low]:  15913,      3
+RSSI: -0.1 dB SNR: 37.2 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:    -662,      0	(-2.5 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 248, long_width: 496, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=248,l=496,r=3904,g=1964,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 30693, signal_end = 253260, signal_len = 222567, pulses_found = 444
+Iteration 1. t: 94    min: 63 (1)    max: 125 (443)    delta 16
+Iteration 2. t: 94    min: 63 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 94
+
+Short distance: 240, long distance: 484, packet distance: 973
+
+p_limit: 94
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 80 92 a4 30 : 10010000 10000000 10010010 10100100 0011
+[01] {36} 90 80 92 a4 30 : 10010000 10000000 10010010 10100100 0011
+[02] {36} 90 80 92 a4 30 : 10010000 10000000 10010010 10100100 0011
+[03] {36} 90 80 92 a4 30 : 10010000 10000000 10010010 10100100 0011
+[04] {36} 90 80 92 a4 30 : 10010000 10000000 10010010 10100100 0011
+[05] {36} 90 80 92 a4 30 : 10010000 10000000 10010010 10100100 0011
+[06] {36} 90 80 92 a4 30 : 10010000 10000000 10010010 10100100 0011
+[07] {36} 90 80 92 a4 30 : 10010000 10000000 10010010 10100100 0011
+[08] {36} 90 80 92 a4 30 : 10010000 10000000 10010010 10100100 0011
+[09] {36} 90 80 92 a4 30 : 10010000 10000000 10010010 10100100 0011
+[10] {36} 90 80 92 a4 30 : 10010000 10000000 10010010 10100100 0011
+[11] {36} 90 80 92 a4 30 : 10010000 10000000 10010010 10100100 0011
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g002_433.91xM_250k.cu8
+Detected OOK package	@0.104172s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.104172s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : true
+Temperature: 15.4 C
+Rel. Humidity: 63 %
+Analyzing pulses...
+Total count:  444,  width: 868.86 ms		(217216 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  488 us [476;508]	( 122 S)
+ [ 1] count:    1,  width:  244 us [244;244]	(  61 S)
+Gap width distribution:
+ [ 0] count:  192,  width: 1948 us [1944;1968]	( 487 S)
+ [ 1] count:  240,  width:  972 us [968;980]	( 243 S)
+ [ 2] count:   11,  width: 3900 us [3900;3908]	( 975 S)
+Pulse period distribution:
+ [ 0] count:  192,  width: 2440 us [2436;2460]	( 610 S)
+ [ 1] count:  240,  width: 1464 us [1460;1468]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4376;4384]	(1095 S)
+Level estimates [high, low]:  15904,      3
+RSSI: -0.1 dB SNR: 37.2 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:   -1074,      0	(-4.1 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 244, long_width: 488, reset_limit: 3912, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=244,l=488,r=3912,g=1972,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 16047, signal_end = 253260, signal_len = 237213, pulses_found = 444
+Iteration 1. t: 92    min: 62 (1)    max: 123 (443)    delta 4
+Iteration 2. t: 92    min: 62 (1)    max: 123 (443)    delta 0
+Distance coding: Pulse length 92
+
+Short distance: 242, long distance: 486, packet distance: 975
+
+p_limit: 92
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 c0 9a a3 f0 : 10010000 11000000 10011010 10100011 1111
+[01] {36} 90 c0 9a a3 f0 : 10010000 11000000 10011010 10100011 1111
+[02] {36} 90 c0 9a a3 f0 : 10010000 11000000 10011010 10100011 1111
+[03] {36} 90 c0 9a a3 f0 : 10010000 11000000 10011010 10100011 1111
+[04] {36} 90 c0 9a a3 f0 : 10010000 11000000 10011010 10100011 1111
+[05] {36} 90 c0 9a a3 f0 : 10010000 11000000 10011010 10100011 1111
+[06] {36} 90 c0 9a a3 f0 : 10010000 11000000 10011010 10100011 1111
+[07] {36} 90 c0 9a a3 f0 : 10010000 11000000 10011010 10100011 1111
+[08] {36} 90 c0 9a a3 f0 : 10010000 11000000 10011010 10100011 1111
+[09] {36} 90 c0 9a a3 f0 : 10010000 11000000 10011010 10100011 1111
+[10] {36} 90 c0 9a a3 f0 : 10010000 11000000 10011010 10100011 1111
+[11] {36} 90 c0 9a a3 f0 : 10010000 11000000 10011010 10100011 1111
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g003_433.91xM_250k.cu8
+Detected OOK package	@0.127568s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.127568s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : LOW
+Channel   : 1
+Button    : false
+Temperature: 16.7 C
+Rel. Humidity: 61 %
+Analyzing pulses...
+Total count:  444,  width: 845.47 ms		(211367 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [476;516]	( 125 S)
+ [ 1] count:    1,  width:  256 us [256;256]	(  64 S)
+Gap width distribution:
+ [ 0] count:  168,  width: 1940 us [1928;1964]	( 485 S)
+ [ 1] count:  264,  width:  960 us [952;976]	( 240 S)
+ [ 2] count:   11,  width: 3896 us [3888;3904]	( 974 S)
+Pulse period distribution:
+ [ 0] count:  168,  width: 2440 us [2428;2460]	( 610 S)
+ [ 1] count:  264,  width: 1464 us [1452;1480]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4372;4388]	(1095 S)
+Level estimates [high, low]:  15999,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:    1118,      0	(+4.3 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 256, long_width: 500, reset_limit: 3908, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=256,l=500,r=3908,g=1968,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 21895, signal_end = 253261, signal_len = 231366, pulses_found = 444
+Iteration 1. t: 95    min: 65 (1)    max: 126 (443)    delta 9
+Iteration 2. t: 95    min: 65 (1)    max: 126 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 973
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 00 a7 a3 d0 : 10010000 00000000 10100111 10100011 1101
+[01] {36} 90 00 a7 a3 d0 : 10010000 00000000 10100111 10100011 1101
+[02] {36} 90 00 a7 a3 d0 : 10010000 00000000 10100111 10100011 1101
+[03] {36} 90 00 a7 a3 d0 : 10010000 00000000 10100111 10100011 1101
+[04] {36} 90 00 a7 a3 d0 : 10010000 00000000 10100111 10100011 1101
+[05] {36} 90 00 a7 a3 d0 : 10010000 00000000 10100111 10100011 1101
+[06] {36} 90 00 a7 a3 d0 : 10010000 00000000 10100111 10100011 1101
+[07] {36} 90 00 a7 a3 d0 : 10010000 00000000 10100111 10100011 1101
+[08] {36} 90 00 a7 a3 d0 : 10010000 00000000 10100111 10100011 1101
+[09] {36} 90 00 a7 a3 d0 : 10010000 00000000 10100111 10100011 1101
+[10] {36} 90 00 a7 a3 d0 : 10010000 00000000 10100111 10100011 1101
+[11] {36} 90 00 a7 a3 d0 : 10010000 00000000 10100111 10100011 1101
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g004_433.91xM_250k.cu8
+Detected OOK package	@0.115848s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.115848s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : LOW
+Channel   : 1
+Button    : true
+Temperature: 16.7 C
+Rel. Humidity: 61 %
+Analyzing pulses...
+Total count:  444,  width: 857.19 ms		(214297 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [476;516]	( 125 S)
+ [ 1] count:    1,  width:  252 us [252;252]	(  63 S)
+Gap width distribution:
+ [ 0] count:  180,  width: 1940 us [1928;1960]	( 485 S)
+ [ 1] count:  252,  width:  960 us [952;976]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3884;3908]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  180,  width: 2440 us [2428;2464]	( 610 S)
+ [ 1] count:  252,  width: 1464 us [1452;1476]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4372;4392]	(1095 S)
+Level estimates [high, low]:  15938,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:     369,      0	(+1.4 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 252, long_width: 500, reset_limit: 3912, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=252,l=500,r=3912,g=1964,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 18965, signal_end = 253260, signal_len = 234295, pulses_found = 444
+Iteration 1. t: 94    min: 64 (1)    max: 125 (443)    delta 16
+Iteration 2. t: 94    min: 64 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 94
+
+Short distance: 240, long distance: 484, packet distance: 973
+
+p_limit: 94
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 40 a7 a3 d0 : 10010000 01000000 10100111 10100011 1101
+[01] {36} 90 40 a7 a3 d0 : 10010000 01000000 10100111 10100011 1101
+[02] {36} 90 40 a7 a3 d0 : 10010000 01000000 10100111 10100011 1101
+[03] {36} 90 40 a7 a3 d0 : 10010000 01000000 10100111 10100011 1101
+[04] {36} 90 40 a7 a3 d0 : 10010000 01000000 10100111 10100011 1101
+[05] {36} 90 40 a7 a3 d0 : 10010000 01000000 10100111 10100011 1101
+[06] {36} 90 40 a7 a3 d0 : 10010000 01000000 10100111 10100011 1101
+[07] {36} 90 40 a7 a3 d0 : 10010000 01000000 10100111 10100011 1101
+[08] {36} 90 40 a7 a3 d0 : 10010000 01000000 10100111 10100011 1101
+[09] {36} 90 40 a7 a3 d0 : 10010000 01000000 10100111 10100011 1101
+[10] {36} 90 40 a7 a3 d0 : 10010000 01000000 10100111 10100011 1101
+[11] {36} 90 40 a7 a3 d0 : 10010000 01000000 10100111 10100011 1101
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g005_433.91xM_250k.cu8
+Detected OOK package	@0.162752s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.162752s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: 6.9 C
+Rel. Humidity: 50 %
+Analyzing pulses...
+Total count:  444,  width: 810.28 ms		(202571 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [480;520]	( 125 S)
+ [ 1] count:    1,  width:  256 us [256;256]	(  64 S)
+Gap width distribution:
+ [ 0] count:  132,  width: 1936 us [1928;1952]	( 484 S)
+ [ 1] count:  300,  width:  960 us [952;984]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3888;3900]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  132,  width: 2440 us [2428;2456]	( 610 S)
+ [ 1] count:  300,  width: 1464 us [1452;1488]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4372;4388]	(1095 S)
+Level estimates [high, low]:  15931,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:   -1540,      0	(-5.9 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 256, long_width: 500, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=256,l=500,r=3904,g=1956,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 30691, signal_end = 253260, signal_len = 222569, pulses_found = 444
+Iteration 1. t: 95    min: 65 (1)    max: 126 (443)    delta 9
+Iteration 2. t: 95    min: 65 (1)    max: 126 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 80 45 a3 20 : 10010000 10000000 01000101 10100011 0010
+[01] {36} 90 80 45 a3 20 : 10010000 10000000 01000101 10100011 0010
+[02] {36} 90 80 45 a3 20 : 10010000 10000000 01000101 10100011 0010
+[03] {36} 90 80 45 a3 20 : 10010000 10000000 01000101 10100011 0010
+[04] {36} 90 80 45 a3 20 : 10010000 10000000 01000101 10100011 0010
+[05] {36} 90 80 45 a3 20 : 10010000 10000000 01000101 10100011 0010
+[06] {36} 90 80 45 a3 20 : 10010000 10000000 01000101 10100011 0010
+[07] {36} 90 80 45 a3 20 : 10010000 10000000 01000101 10100011 0010
+[08] {36} 90 80 45 a3 20 : 10010000 10000000 01000101 10100011 0010
+[09] {36} 90 80 45 a3 20 : 10010000 10000000 01000101 10100011 0010
+[10] {36} 90 80 45 a3 20 : 10010000 10000000 01000101 10100011 0010
+[11] {36} 90 80 45 a3 20 : 10010000 10000000 01000101 10100011 0010
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g006_433.91xM_250k.cu8
+Detected OOK package	@0.080716s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.080716s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: -2.5 C
+Rel. Humidity: 49 %
+Analyzing pulses...
+Total count:  444,  width: 892.32 ms		(223080 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [476;516]	( 125 S)
+ [ 1] count:    1,  width:  260 us [260;260]	(  65 S)
+Gap width distribution:
+ [ 0] count:  216,  width: 1940 us [1928;1964]	( 485 S)
+ [ 1] count:  216,  width:  960 us [952;972]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3884;3900]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  216,  width: 2440 us [2428;2464]	( 610 S)
+ [ 1] count:  216,  width: 1464 us [1452;1476]	( 366 S)
+ [ 2] count:   11,  width: 4376 us [4372;4388]	(1094 S)
+Level estimates [high, low]:  15879,      3
+RSSI: -0.1 dB SNR: 37.2 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:     478,      0	(+1.8 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 260, long_width: 500, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=260,l=500,r=3904,g=1968,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 10181, signal_end = 253260, signal_len = 243079, pulses_found = 444
+Iteration 1. t: 95    min: 65 (1)    max: 125 (443)    delta 16
+Iteration 2. t: 95    min: 65 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 239, long distance: 484, packet distance: 972
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 8f e7 a3 10 : 10010000 10001111 11100111 10100011 0001
+[01] {36} 90 8f e7 a3 10 : 10010000 10001111 11100111 10100011 0001
+[02] {36} 90 8f e7 a3 10 : 10010000 10001111 11100111 10100011 0001
+[03] {36} 90 8f e7 a3 10 : 10010000 10001111 11100111 10100011 0001
+[04] {36} 90 8f e7 a3 10 : 10010000 10001111 11100111 10100011 0001
+[05] {36} 90 8f e7 a3 10 : 10010000 10001111 11100111 10100011 0001
+[06] {36} 90 8f e7 a3 10 : 10010000 10001111 11100111 10100011 0001
+[07] {36} 90 8f e7 a3 10 : 10010000 10001111 11100111 10100011 0001
+[08] {36} 90 8f e7 a3 10 : 10010000 10001111 11100111 10100011 0001
+[09] {36} 90 8f e7 a3 10 : 10010000 10001111 11100111 10100011 0001
+[10] {36} 90 8f e7 a3 10 : 10010000 10001111 11100111 10100011 0001
+[11] {36} 90 8f e7 a3 10 : 10010000 10001111 11100111 10100011 0001
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g007_433.91xM_250k.cu8
+Detected OOK package	@0.092432s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.092432s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: -9.4 C
+Rel. Humidity: 47 %
+Analyzing pulses...
+Total count:  444,  width: 880.60 ms		(220151 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [476;516]	( 125 S)
+ [ 1] count:    1,  width:  252 us [252;252]	(  63 S)
+Gap width distribution:
+ [ 0] count:  204,  width: 1940 us [1928;1960]	( 485 S)
+ [ 1] count:  228,  width:  960 us [952;976]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3884;3904]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  204,  width: 2440 us [2428;2460]	( 610 S)
+ [ 1] count:  228,  width: 1464 us [1452;1480]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4372;4392]	(1095 S)
+Level estimates [high, low]:  15956,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:     382,      0	(+1.5 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 252, long_width: 500, reset_limit: 3908, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=252,l=500,r=3908,g=1964,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 13112, signal_end = 253260, signal_len = 240148, pulses_found = 444
+Iteration 1. t: 94    min: 63 (1)    max: 125 (443)    delta 16
+Iteration 2. t: 94    min: 63 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 94
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 94
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 8f a2 a2 f0 : 10010000 10001111 10100010 10100010 1111
+[01] {36} 90 8f a2 a2 f0 : 10010000 10001111 10100010 10100010 1111
+[02] {36} 90 8f a2 a2 f0 : 10010000 10001111 10100010 10100010 1111
+[03] {36} 90 8f a2 a2 f0 : 10010000 10001111 10100010 10100010 1111
+[04] {36} 90 8f a2 a2 f0 : 10010000 10001111 10100010 10100010 1111
+[05] {36} 90 8f a2 a2 f0 : 10010000 10001111 10100010 10100010 1111
+[06] {36} 90 8f a2 a2 f0 : 10010000 10001111 10100010 10100010 1111
+[07] {36} 90 8f a2 a2 f0 : 10010000 10001111 10100010 10100010 1111
+[08] {36} 90 8f a2 a2 f0 : 10010000 10001111 10100010 10100010 1111
+[09] {36} 90 8f a2 a2 f0 : 10010000 10001111 10100010 10100010 1111
+[10] {36} 90 8f a2 a2 f0 : 10010000 10001111 10100010 10100010 1111
+[11] {36} 90 8f a2 a2 f0 : 10010000 10001111 10100010 10100010 1111
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g008_433.91xM_250k.cu8
+Detected OOK package	@0.104136s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.104136s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: -20.3 C
+Rel. Humidity: 42 %
+Analyzing pulses...
+Total count:  444,  width: 868.90 ms		(217225 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [480;512]	( 125 S)
+ [ 1] count:    1,  width:  256 us [256;256]	(  64 S)
+Gap width distribution:
+ [ 0] count:  192,  width: 1936 us [1928;1952]	( 484 S)
+ [ 1] count:  240,  width:  960 us [952;980]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3888;3904]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  192,  width: 2440 us [2428;2460]	( 610 S)
+ [ 1] count:  240,  width: 1464 us [1452;1484]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4376;4392]	(1095 S)
+Level estimates [high, low]:  15978,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:    -862,      0	(-3.3 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 256, long_width: 500, reset_limit: 3908, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=256,l=500,r=3908,g=1956,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 16037, signal_end = 253260, signal_len = 237223, pulses_found = 444
+Iteration 1. t: 95    min: 65 (1)    max: 126 (443)    delta 9
+Iteration 2. t: 95    min: 65 (1)    max: 126 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 8f 35 a2 a0 : 10010000 10001111 00110101 10100010 1010
+[01] {36} 90 8f 35 a2 a0 : 10010000 10001111 00110101 10100010 1010
+[02] {36} 90 8f 35 a2 a0 : 10010000 10001111 00110101 10100010 1010
+[03] {36} 90 8f 35 a2 a0 : 10010000 10001111 00110101 10100010 1010
+[04] {36} 90 8f 35 a2 a0 : 10010000 10001111 00110101 10100010 1010
+[05] {36} 90 8f 35 a2 a0 : 10010000 10001111 00110101 10100010 1010
+[06] {36} 90 8f 35 a2 a0 : 10010000 10001111 00110101 10100010 1010
+[07] {36} 90 8f 35 a2 a0 : 10010000 10001111 00110101 10100010 1010
+[08] {36} 90 8f 35 a2 a0 : 10010000 10001111 00110101 10100010 1010
+[09] {36} 90 8f 35 a2 a0 : 10010000 10001111 00110101 10100010 1010
+[10] {36} 90 8f 35 a2 a0 : 10010000 10001111 00110101 10100010 1010
+[11] {36} 90 8f 35 a2 a0 : 10010000 10001111 00110101 10100010 1010
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g009_433.91xM_250k.cu8
+Detected OOK package	@0.115860s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.115860s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: -18.2 C
+Rel. Humidity: 50 %
+Analyzing pulses...
+Total count:  444,  width: 857.18 ms		(214294 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [484;512]	( 125 S)
+ [ 1] count:    1,  width:  256 us [256;256]	(  64 S)
+Gap width distribution:
+ [ 0] count:  180,  width: 1936 us [1932;1948]	( 484 S)
+ [ 1] count:  252,  width:  960 us [952;976]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3888;3900]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  180,  width: 2440 us [2428;2460]	( 610 S)
+ [ 1] count:  252,  width: 1464 us [1460;1484]	( 366 S)
+ [ 2] count:   11,  width: 4384 us [4372;4392]	(1096 S)
+Level estimates [high, low]:  15970,      3
+RSSI: -0.1 dB SNR: 37.3 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:   -1494,      0	(-5.7 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 256, long_width: 500, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=256,l=500,r=3904,g=1952,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 18968, signal_end = 253260, signal_len = 234292, pulses_found = 444
+Iteration 1. t: 95    min: 64 (1)    max: 126 (443)    delta 9
+Iteration 2. t: 95    min: 64 (1)    max: 126 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 8f 4a a3 20 : 10010000 10001111 01001010 10100011 0010
+[01] {36} 90 8f 4a a3 20 : 10010000 10001111 01001010 10100011 0010
+[02] {36} 90 8f 4a a3 20 : 10010000 10001111 01001010 10100011 0010
+[03] {36} 90 8f 4a a3 20 : 10010000 10001111 01001010 10100011 0010
+[04] {36} 90 8f 4a a3 20 : 10010000 10001111 01001010 10100011 0010
+[05] {36} 90 8f 4a a3 20 : 10010000 10001111 01001010 10100011 0010
+[06] {36} 90 8f 4a a3 20 : 10010000 10001111 01001010 10100011 0010
+[07] {36} 90 8f 4a a3 20 : 10010000 10001111 01001010 10100011 0010
+[08] {36} 90 8f 4a a3 20 : 10010000 10001111 01001010 10100011 0010
+[09] {36} 90 8f 4a a3 20 : 10010000 10001111 01001010 10100011 0010
+[10] {36} 90 8f 4a a3 20 : 10010000 10001111 01001010 10100011 0010
+[11] {36} 90 8f 4a a3 20 : 10010000 10001111 01001010 10100011 0010
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+Test mode active. Reading samples from file: g010_433.91xM_250k.cu8
+Detected OOK package	@0.127576s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.127576s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: -19.0 C
+Rel. Humidity: 50 %
+Analyzing pulses...
+Total count:  444,  width: 845.46 ms		(211365 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [480;520]	( 125 S)
+ [ 1] count:    1,  width:  256 us [256;256]	(  64 S)
+Gap width distribution:
+ [ 0] count:  168,  width: 1936 us [1928;1948]	( 484 S)
+ [ 1] count:  264,  width:  960 us [952;984]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3888;3900]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  168,  width: 2440 us [2428;2456]	( 610 S)
+ [ 1] count:  264,  width: 1464 us [1452;1488]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4372;4388]	(1095 S)
+Level estimates [high, low]:  15986,      4
+RSSI: -0.1 dB SNR: 36.0 dB Noise: -36.1 dB
+Frequency offsets [F1, F2]:   -1061,      0	(-4.0 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 256, long_width: 500, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=256,l=500,r=3904,g=1952,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 21897, signal_end = 253260, signal_len = 231363, pulses_found = 444
+Iteration 1. t: 95    min: 64 (1)    max: 126 (443)    delta 9
+Iteration 2. t: 95    min: 64 (1)    max: 126 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 8f 42 a3 20 : 10010000 10001111 01000010 10100011 0010
+[01] {36} 90 8f 42 a3 20 : 10010000 10001111 01000010 10100011 0010
+[02] {36} 90 8f 42 a3 20 : 10010000 10001111 01000010 10100011 0010
+[03] {36} 90 8f 42 a3 20 : 10010000 10001111 01000010 10100011 0010
+[04] {36} 90 8f 42 a3 20 : 10010000 10001111 01000010 10100011 0010
+[05] {36} 90 8f 42 a3 20 : 10010000 10001111 01000010 10100011 0010
+[06] {36} 90 8f 42 a3 20 : 10010000 10001111 01000010 10100011 0010
+[07] {36} 90 8f 42 a3 20 : 10010000 10001111 01000010 10100011 0010
+[08] {36} 90 8f 42 a3 20 : 10010000 10001111 01000010 10100011 0010
+[09] {36} 90 8f 42 a3 20 : 10010000 10001111 01000010 10100011 0010
+[10] {36} 90 8f 42 a3 20 : 10010000 10001111 01000010 10100011 0010
+[11] {36} 90 8f 42 a3 20 : 10010000 10001111 01000010 10100011 0010
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g011_433.91xM_250k.cu8
+Detected OOK package	@0.092424s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.092424s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: -19.7 C
+Rel. Humidity: 50 %
+Analyzing pulses...
+Total count:  444,  width: 880.61 ms		(220153 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [488;516]	( 125 S)
+ [ 1] count:    1,  width:  256 us [256;256]	(  64 S)
+Gap width distribution:
+ [ 0] count:  204,  width: 1936 us [1928;1952]	( 484 S)
+ [ 1] count:  228,  width:  960 us [952;984]	( 240 S)
+ [ 2] count:   11,  width: 3888 us [3884;3896]	( 972 S)
+Pulse period distribution:
+ [ 0] count:  204,  width: 2440 us [2428;2452]	( 610 S)
+ [ 1] count:  228,  width: 1464 us [1452;1488]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4376;4388]	(1095 S)
+Level estimates [high, low]:  15972,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:    -968,      0	(-3.7 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 256, long_width: 500, reset_limit: 3900, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=256,l=500,r=3900,g=1956,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 13108, signal_end = 253260, signal_len = 240152, pulses_found = 444
+Iteration 1. t: 95    min: 64 (1)    max: 126 (443)    delta 9
+Iteration 2. t: 95    min: 64 (1)    max: 126 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 8f 3b a3 20 : 10010000 10001111 00111011 10100011 0010
+[01] {36} 90 8f 3b a3 20 : 10010000 10001111 00111011 10100011 0010
+[02] {36} 90 8f 3b a3 20 : 10010000 10001111 00111011 10100011 0010
+[03] {36} 90 8f 3b a3 20 : 10010000 10001111 00111011 10100011 0010
+[04] {36} 90 8f 3b a3 20 : 10010000 10001111 00111011 10100011 0010
+[05] {36} 90 8f 3b a3 20 : 10010000 10001111 00111011 10100011 0010
+[06] {36} 90 8f 3b a3 20 : 10010000 10001111 00111011 10100011 0010
+[07] {36} 90 8f 3b a3 20 : 10010000 10001111 00111011 10100011 0010
+[08] {36} 90 8f 3b a3 20 : 10010000 10001111 00111011 10100011 0010
+[09] {36} 90 8f 3b a3 20 : 10010000 10001111 00111011 10100011 0010
+[10] {36} 90 8f 3b a3 20 : 10010000 10001111 00111011 10100011 0010
+[11] {36} 90 8f 3b a3 20 : 10010000 10001111 00111011 10100011 0010
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g012_433.91xM_250k.cu8
+Detected OOK package	@0.104148s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.104148s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: -20.0 C
+Rel. Humidity: 53 %
+Analyzing pulses...
+Total count:  444,  width: 868.89 ms		(217222 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [476;516]	( 125 S)
+ [ 1] count:    1,  width:  248 us [248;248]	(  62 S)
+Gap width distribution:
+ [ 0] count:  192,  width: 1940 us [1928;1964]	( 485 S)
+ [ 1] count:  240,  width:  960 us [948;976]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3884;3904]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  192,  width: 2440 us [2428;2468]	( 610 S)
+ [ 1] count:  240,  width: 1464 us [1452;1480]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4368;4396]	(1095 S)
+Level estimates [high, low]:  15969,      3
+RSSI: -0.1 dB SNR: 37.3 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:     -13,      0	(-0.0 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 248, long_width: 500, reset_limit: 3908, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=248,l=500,r=3908,g=1968,t=100,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 16041, signal_end = 253260, signal_len = 237219, pulses_found = 444
+Iteration 1. t: 94    min: 63 (1)    max: 125 (443)    delta 16
+Iteration 2. t: 94    min: 63 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 94
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 94
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 8f 38 a3 50 : 10010000 10001111 00111000 10100011 0101
+[01] {36} 90 8f 38 a3 50 : 10010000 10001111 00111000 10100011 0101
+[02] {36} 90 8f 38 a3 50 : 10010000 10001111 00111000 10100011 0101
+[03] {36} 90 8f 38 a3 50 : 10010000 10001111 00111000 10100011 0101
+[04] {36} 90 8f 38 a3 50 : 10010000 10001111 00111000 10100011 0101
+[05] {36} 90 8f 38 a3 50 : 10010000 10001111 00111000 10100011 0101
+[06] {36} 90 8f 38 a3 50 : 10010000 10001111 00111000 10100011 0101
+[07] {36} 90 8f 38 a3 50 : 10010000 10001111 00111000 10100011 0101
+[08] {36} 90 8f 38 a3 50 : 10010000 10001111 00111000 10100011 0101
+[09] {36} 90 8f 38 a3 50 : 10010000 10001111 00111000 10100011 0101
+[10] {36} 90 8f 38 a3 50 : 10010000 10001111 00111000 10100011 0101
+[11] {36} 90 8f 38 a3 50 : 10010000 10001111 00111000 10100011 0101
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g013_433.91xM_250k.cu8
+Detected OOK package	@0.104132s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.104132s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: -20.7 C
+Rel. Humidity: 53 %
+Analyzing pulses...
+Total count:  444,  width: 868.90 ms		(217226 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [476;516]	( 125 S)
+ [ 1] count:    1,  width:  260 us [260;260]	(  65 S)
+Gap width distribution:
+ [ 0] count:  192,  width: 1940 us [1928;1964]	( 485 S)
+ [ 1] count:  240,  width:  960 us [948;976]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3880;3904]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  192,  width: 2440 us [2428;2464]	( 610 S)
+ [ 1] count:  240,  width: 1464 us [1452;1476]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4368;4388]	(1095 S)
+Level estimates [high, low]:  15901,      3
+RSSI: -0.1 dB SNR: 37.2 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:    -497,      0	(-1.9 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 260, long_width: 500, reset_limit: 3908, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=260,l=500,r=3908,g=1968,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 16035, signal_end = 253260, signal_len = 237225, pulses_found = 444
+Iteration 1. t: 95    min: 66 (1)    max: 125 (443)    delta 16
+Iteration 2. t: 95    min: 66 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 973
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 8f 31 a3 50 : 10010000 10001111 00110001 10100011 0101
+[01] {36} 90 8f 31 a3 50 : 10010000 10001111 00110001 10100011 0101
+[02] {36} 90 8f 31 a3 50 : 10010000 10001111 00110001 10100011 0101
+[03] {36} 90 8f 31 a3 50 : 10010000 10001111 00110001 10100011 0101
+[04] {36} 90 8f 31 a3 50 : 10010000 10001111 00110001 10100011 0101
+[05] {36} 90 8f 31 a3 50 : 10010000 10001111 00110001 10100011 0101
+[06] {36} 90 8f 31 a3 50 : 10010000 10001111 00110001 10100011 0101
+[07] {36} 90 8f 31 a3 50 : 10010000 10001111 00110001 10100011 0101
+[08] {36} 90 8f 31 a3 50 : 10010000 10001111 00110001 10100011 0101
+[09] {36} 90 8f 31 a3 50 : 10010000 10001111 00110001 10100011 0101
+[10] {36} 90 8f 31 a3 50 : 10010000 10001111 00110001 10100011 0101
+[11] {36} 90 8f 31 a3 50 : 10010000 10001111 00110001 10100011 0101
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g014_433.91xM_250k.cu8
+Detected OOK package	@0.127572s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.127572s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: -23.2 C
+Rel. Humidity: 52 %
+Analyzing pulses...
+Total count:  444,  width: 845.46 ms		(211366 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [480;516]	( 125 S)
+ [ 1] count:    1,  width:  256 us [256;256]	(  64 S)
+Gap width distribution:
+ [ 0] count:  168,  width: 1936 us [1928;1952]	( 484 S)
+ [ 1] count:  264,  width:  960 us [952;984]	( 240 S)
+ [ 2] count:   11,  width: 3888 us [3884;3904]	( 972 S)
+Pulse period distribution:
+ [ 0] count:  168,  width: 2440 us [2428;2456]	( 610 S)
+ [ 1] count:  264,  width: 1464 us [1452;1488]	( 366 S)
+ [ 2] count:   11,  width: 4376 us [4372;4388]	(1094 S)
+Level estimates [high, low]:  15879,      3
+RSSI: -0.1 dB SNR: 37.2 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:    -905,      0	(-3.5 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 256, long_width: 500, reset_limit: 3908, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=256,l=500,r=3908,g=1956,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 21895, signal_end = 253260, signal_len = 231365, pulses_found = 444
+Iteration 1. t: 95    min: 64 (1)    max: 126 (443)    delta 9
+Iteration 2. t: 95    min: 64 (1)    max: 126 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 8f 18 a3 40 : 10010000 10001111 00011000 10100011 0100
+[01] {36} 90 8f 18 a3 40 : 10010000 10001111 00011000 10100011 0100
+[02] {36} 90 8f 18 a3 40 : 10010000 10001111 00011000 10100011 0100
+[03] {36} 90 8f 18 a3 40 : 10010000 10001111 00011000 10100011 0100
+[04] {36} 90 8f 18 a3 40 : 10010000 10001111 00011000 10100011 0100
+[05] {36} 90 8f 18 a3 40 : 10010000 10001111 00011000 10100011 0100
+[06] {36} 90 8f 18 a3 40 : 10010000 10001111 00011000 10100011 0100
+[07] {36} 90 8f 18 a3 40 : 10010000 10001111 00011000 10100011 0100
+[08] {36} 90 8f 18 a3 40 : 10010000 10001111 00011000 10100011 0100
+[09] {36} 90 8f 18 a3 40 : 10010000 10001111 00011000 10100011 0100
+[10] {36} 90 8f 18 a3 40 : 10010000 10001111 00011000 10100011 0100
+[11] {36} 90 8f 18 a3 40 : 10010000 10001111 00011000 10100011 0100
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g015_433.91xM_250k.cu8
+Detected OOK package	@0.115872s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.115872s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: -1.6 C
+Rel. Humidity: 68 %
+Analyzing pulses...
+Total count:  444,  width: 857.16 ms		(214291 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [480;520]	( 125 S)
+ [ 1] count:    1,  width:  256 us [256;256]	(  64 S)
+Gap width distribution:
+ [ 0] count:  180,  width: 1936 us [1928;1952]	( 484 S)
+ [ 1] count:  252,  width:  960 us [948;992]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3888;3900]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  180,  width: 2440 us [2428;2456]	( 610 S)
+ [ 1] count:  252,  width: 1464 us [1452;1488]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4372;4388]	(1095 S)
+Level estimates [high, low]:  15939,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:    -613,      0	(-2.3 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 256, long_width: 500, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=256,l=500,r=3904,g=1956,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 18970, signal_end = 253260, signal_len = 234290, pulses_found = 444
+Iteration 1. t: 95    min: 65 (1)    max: 125 (443)    delta 16
+Iteration 2. t: 95    min: 65 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 8f f0 a4 40 : 10010000 10001111 11110000 10100100 0100
+[01] {36} 90 8f f0 a4 40 : 10010000 10001111 11110000 10100100 0100
+[02] {36} 90 8f f0 a4 40 : 10010000 10001111 11110000 10100100 0100
+[03] {36} 90 8f f0 a4 40 : 10010000 10001111 11110000 10100100 0100
+[04] {36} 90 8f f0 a4 40 : 10010000 10001111 11110000 10100100 0100
+[05] {36} 90 8f f0 a4 40 : 10010000 10001111 11110000 10100100 0100
+[06] {36} 90 8f f0 a4 40 : 10010000 10001111 11110000 10100100 0100
+[07] {36} 90 8f f0 a4 40 : 10010000 10001111 11110000 10100100 0100
+[08] {36} 90 8f f0 a4 40 : 10010000 10001111 11110000 10100100 0100
+[09] {36} 90 8f f0 a4 40 : 10010000 10001111 11110000 10100100 0100
+[10] {36} 90 8f f0 a4 40 : 10010000 10001111 11110000 10100100 0100
+[11] {36} 90 8f f0 a4 40 : 10010000 10001111 11110000 10100100 0100
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g016_433.91xM_250k.cu8
+Detected OOK package	@0.092436s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.092436s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: -3.6 C
+Rel. Humidity: 69 %
+Analyzing pulses...
+Total count:  444,  width: 880.60 ms		(220150 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [480;516]	( 125 S)
+ [ 1] count:    1,  width:  252 us [252;252]	(  63 S)
+Gap width distribution:
+ [ 0] count:  204,  width: 1940 us [1928;1960]	( 485 S)
+ [ 1] count:  228,  width:  960 us [952;976]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3888;3908]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  204,  width: 2440 us [2428;2464]	( 610 S)
+ [ 1] count:  228,  width: 1464 us [1452;1476]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4376;4392]	(1095 S)
+Level estimates [high, low]:  15994,      1
+RSSI: -0.1 dB SNR: 42.0 dB Noise: -42.1 dB
+Frequency offsets [F1, F2]:   -1346,      0	(-5.1 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 252, long_width: 500, reset_limit: 3912, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=252,l=500,r=3912,g=1964,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 13112, signal_end = 253261, signal_len = 240149, pulses_found = 444
+Iteration 1. t: 95    min: 65 (1)    max: 125 (443)    delta 16
+Iteration 2. t: 95    min: 65 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 8f dc a4 50 : 10010000 10001111 11011100 10100100 0101
+[01] {36} 90 8f dc a4 50 : 10010000 10001111 11011100 10100100 0101
+[02] {36} 90 8f dc a4 50 : 10010000 10001111 11011100 10100100 0101
+[03] {36} 90 8f dc a4 50 : 10010000 10001111 11011100 10100100 0101
+[04] {36} 90 8f dc a4 50 : 10010000 10001111 11011100 10100100 0101
+[05] {36} 90 8f dc a4 50 : 10010000 10001111 11011100 10100100 0101
+[06] {36} 90 8f dc a4 50 : 10010000 10001111 11011100 10100100 0101
+[07] {36} 90 8f dc a4 50 : 10010000 10001111 11011100 10100100 0101
+[08] {36} 90 8f dc a4 50 : 10010000 10001111 11011100 10100100 0101
+[09] {36} 90 8f dc a4 50 : 10010000 10001111 11011100 10100100 0101
+[10] {36} 90 8f dc a4 50 : 10010000 10001111 11011100 10100100 0101
+[11] {36} 90 8f dc a4 50 : 10010000 10001111 11011100 10100100 0101
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g017_433.91xM_250k.cu8
+Detected OOK package	@0.092436s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.092436s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: -0.8 C
+Rel. Humidity: 82 %
+Analyzing pulses...
+Total count:  444,  width: 880.60 ms		(220150 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [476;516]	( 125 S)
+ [ 1] count:    1,  width:  256 us [256;256]	(  64 S)
+Gap width distribution:
+ [ 0] count:  204,  width: 1936 us [1924;1952]	( 484 S)
+ [ 1] count:  228,  width:  960 us [948;988]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3888;3900]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  204,  width: 2440 us [2428;2456]	( 610 S)
+ [ 1] count:  228,  width: 1464 us [1452;1488]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4368;4388]	(1095 S)
+Level estimates [high, low]:  16007,      3
+RSSI: -0.1 dB SNR: 37.3 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:    -810,      0	(-3.1 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 256, long_width: 500, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=256,l=500,r=3904,g=1956,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 13113, signal_end = 253261, signal_len = 240148, pulses_found = 444
+Iteration 1. t: 95    min: 65 (1)    max: 126 (443)    delta 9
+Iteration 2. t: 95    min: 65 (1)    max: 126 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 8f f8 a5 20 : 10010000 10001111 11111000 10100101 0010
+[01] {36} 90 8f f8 a5 20 : 10010000 10001111 11111000 10100101 0010
+[02] {36} 90 8f f8 a5 20 : 10010000 10001111 11111000 10100101 0010
+[03] {36} 90 8f f8 a5 20 : 10010000 10001111 11111000 10100101 0010
+[04] {36} 90 8f f8 a5 20 : 10010000 10001111 11111000 10100101 0010
+[05] {36} 90 8f f8 a5 20 : 10010000 10001111 11111000 10100101 0010
+[06] {36} 90 8f f8 a5 20 : 10010000 10001111 11111000 10100101 0010
+[07] {36} 90 8f f8 a5 20 : 10010000 10001111 11111000 10100101 0010
+[08] {36} 90 8f f8 a5 20 : 10010000 10001111 11111000 10100101 0010
+[09] {36} 90 8f f8 a5 20 : 10010000 10001111 11111000 10100101 0010
+[10] {36} 90 8f f8 a5 20 : 10010000 10001111 11111000 10100101 0010
+[11] {36} 90 8f f8 a5 20 : 10010000 10001111 11111000 10100101 0010
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g018_433.91xM_250k.cu8
+Detected OOK package	@0.186184s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.186184s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: 0.1 C
+Rel. Humidity: 76 %
+Analyzing pulses...
+Total count:  444,  width: 786.85 ms		(196713 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [476;520]	( 125 S)
+ [ 1] count:    1,  width:  260 us [260;260]	(  65 S)
+Gap width distribution:
+ [ 0] count:  108,  width: 1940 us [1928;1952]	( 485 S)
+ [ 1] count:  324,  width:  964 us [948;988]	( 241 S)
+ [ 2] count:   11,  width: 3896 us [3884;3904]	( 974 S)
+Pulse period distribution:
+ [ 0] count:  108,  width: 2440 us [2428;2460]	( 610 S)
+ [ 1] count:  324,  width: 1464 us [1452;1492]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4372;4392]	(1095 S)
+Level estimates [high, low]:  16003,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:     319,      0	(+1.2 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 260, long_width: 500, reset_limit: 3908, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=260,l=500,r=3908,g=1956,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 36549, signal_end = 253261, signal_len = 216712, pulses_found = 444
+Iteration 1. t: 95    min: 66 (1)    max: 125 (443)    delta 25
+Iteration 2. t: 95    min: 66 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 973
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 80 01 a4 c0 : 10010000 10000000 00000001 10100100 1100
+[01] {36} 90 80 01 a4 c0 : 10010000 10000000 00000001 10100100 1100
+[02] {36} 90 80 01 a4 c0 : 10010000 10000000 00000001 10100100 1100
+[03] {36} 90 80 01 a4 c0 : 10010000 10000000 00000001 10100100 1100
+[04] {36} 90 80 01 a4 c0 : 10010000 10000000 00000001 10100100 1100
+[05] {36} 90 80 01 a4 c0 : 10010000 10000000 00000001 10100100 1100
+[06] {36} 90 80 01 a4 c0 : 10010000 10000000 00000001 10100100 1100
+[07] {36} 90 80 01 a4 c0 : 10010000 10000000 00000001 10100100 1100
+[08] {36} 90 80 01 a4 c0 : 10010000 10000000 00000001 10100100 1100
+[09] {36} 90 80 01 a4 c0 : 10010000 10000000 00000001 10100100 1100
+[10] {36} 90 80 01 a4 c0 : 10010000 10000000 00000001 10100100 1100
+[11] {36} 90 80 01 a4 c0 : 10010000 10000000 00000001 10100100 1100
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g019_433.91xM_250k.cu8
+Detected OOK package	@0.115888s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.115888s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: 20.6 C
+Rel. Humidity: 61 %
+Analyzing pulses...
+Total count:  444,  width: 857.15 ms		(214287 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [480;512]	( 125 S)
+ [ 1] count:    1,  width:  252 us [252;252]	(  63 S)
+Gap width distribution:
+ [ 0] count:  180,  width: 1940 us [1928;1960]	( 485 S)
+ [ 1] count:  252,  width:  960 us [952;972]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3884;3900]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  180,  width: 2440 us [2428;2468]	( 610 S)
+ [ 1] count:  252,  width: 1464 us [1452;1476]	( 366 S)
+ [ 2] count:   11,  width: 4376 us [4372;4388]	(1094 S)
+Level estimates [high, low]:  16002,      4
+RSSI: -0.1 dB SNR: 36.0 dB Noise: -36.1 dB
+Frequency offsets [F1, F2]:    -721,      0	(-2.8 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 252, long_width: 500, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=252,l=500,r=3904,g=1964,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 18974, signal_end = 253261, signal_len = 234287, pulses_found = 444
+Iteration 1. t: 94    min: 64 (1)    max: 125 (443)    delta 9
+Iteration 2. t: 94    min: 64 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 94
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 94
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 80 ce a3 d0 : 10010000 10000000 11001110 10100011 1101
+[01] {36} 90 80 ce a3 d0 : 10010000 10000000 11001110 10100011 1101
+[02] {36} 90 80 ce a3 d0 : 10010000 10000000 11001110 10100011 1101
+[03] {36} 90 80 ce a3 d0 : 10010000 10000000 11001110 10100011 1101
+[04] {36} 90 80 ce a3 d0 : 10010000 10000000 11001110 10100011 1101
+[05] {36} 90 80 ce a3 d0 : 10010000 10000000 11001110 10100011 1101
+[06] {36} 90 80 ce a3 d0 : 10010000 10000000 11001110 10100011 1101
+[07] {36} 90 80 ce a3 d0 : 10010000 10000000 11001110 10100011 1101
+[08] {36} 90 80 ce a3 d0 : 10010000 10000000 11001110 10100011 1101
+[09] {36} 90 80 ce a3 d0 : 10010000 10000000 11001110 10100011 1101
+[10] {36} 90 80 ce a3 d0 : 10010000 10000000 11001110 10100011 1101
+[11] {36} 90 80 ce a3 d0 : 10010000 10000000 11001110 10100011 1101
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g020_433.91xM_250k.cu8
+Detected OOK package	@0.127596s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.127596s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: 30.7 C
+Rel. Humidity: 46 %
+Analyzing pulses...
+Total count:  444,  width: 845.44 ms		(211360 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [480;516]	( 125 S)
+ [ 1] count:    1,  width:  256 us [256;256]	(  64 S)
+Gap width distribution:
+ [ 0] count:  168,  width: 1936 us [1928;1948]	( 484 S)
+ [ 1] count:  264,  width:  960 us [956;984]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3888;3900]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  168,  width: 2440 us [2428;2452]	( 610 S)
+ [ 1] count:  264,  width: 1464 us [1456;1488]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4376;4388]	(1095 S)
+Level estimates [high, low]:  15964,      3
+RSSI: -0.1 dB SNR: 37.3 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:   -2084,      0	(-8.0 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 256, long_width: 500, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=256,l=500,r=3904,g=1952,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 21902, signal_end = 253260, signal_len = 231358, pulses_found = 444
+Iteration 1. t: 95    min: 65 (1)    max: 125 (443)    delta 9
+Iteration 2. t: 95    min: 65 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 973
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 81 33 a2 e0 : 10010000 10000001 00110011 10100010 1110
+[01] {36} 90 81 33 a2 e0 : 10010000 10000001 00110011 10100010 1110
+[02] {36} 90 81 33 a2 e0 : 10010000 10000001 00110011 10100010 1110
+[03] {36} 90 81 33 a2 e0 : 10010000 10000001 00110011 10100010 1110
+[04] {36} 90 81 33 a2 e0 : 10010000 10000001 00110011 10100010 1110
+[05] {36} 90 81 33 a2 e0 : 10010000 10000001 00110011 10100010 1110
+[06] {36} 90 81 33 a2 e0 : 10010000 10000001 00110011 10100010 1110
+[07] {36} 90 81 33 a2 e0 : 10010000 10000001 00110011 10100010 1110
+[08] {36} 90 81 33 a2 e0 : 10010000 10000001 00110011 10100010 1110
+[09] {36} 90 81 33 a2 e0 : 10010000 10000001 00110011 10100010 1110
+[10] {36} 90 81 33 a2 e0 : 10010000 10000001 00110011 10100010 1110
+[11] {36} 90 81 33 a2 e0 : 10010000 10000001 00110011 10100010 1110
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g021_433.91xM_250k.cu8
+Detected OOK package	@0.127596s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.127596s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: 34.8 C
+Rel. Humidity: 46 %
+Analyzing pulses...
+Total count:  444,  width: 845.44 ms		(211360 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [484;512]	( 125 S)
+ [ 1] count:    1,  width:  252 us [252;252]	(  63 S)
+Gap width distribution:
+ [ 0] count:  168,  width: 1936 us [1928;1948]	( 484 S)
+ [ 1] count:  264,  width:  960 us [952;980]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3884;3900]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  168,  width: 2440 us [2428;2460]	( 610 S)
+ [ 1] count:  264,  width: 1464 us [1452;1484]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4372;4392]	(1095 S)
+Level estimates [high, low]:  15893,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:   -1293,      0	(-4.9 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 252, long_width: 500, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=252,l=500,r=3904,g=1952,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 21902, signal_end = 253260, signal_len = 231358, pulses_found = 444
+Iteration 1. t: 95    min: 64 (1)    max: 126 (443)    delta 9
+Iteration 2. t: 95    min: 64 (1)    max: 126 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 81 5c a2 e0 : 10010000 10000001 01011100 10100010 1110
+[01] {36} 90 81 5c a2 e0 : 10010000 10000001 01011100 10100010 1110
+[02] {36} 90 81 5c a2 e0 : 10010000 10000001 01011100 10100010 1110
+[03] {36} 90 81 5c a2 e0 : 10010000 10000001 01011100 10100010 1110
+[04] {36} 90 81 5c a2 e0 : 10010000 10000001 01011100 10100010 1110
+[05] {36} 90 81 5c a2 e0 : 10010000 10000001 01011100 10100010 1110
+[06] {36} 90 81 5c a2 e0 : 10010000 10000001 01011100 10100010 1110
+[07] {36} 90 81 5c a2 e0 : 10010000 10000001 01011100 10100010 1110
+[08] {36} 90 81 5c a2 e0 : 10010000 10000001 01011100 10100010 1110
+[09] {36} 90 81 5c a2 e0 : 10010000 10000001 01011100 10100010 1110
+[10] {36} 90 81 5c a2 e0 : 10010000 10000001 01011100 10100010 1110
+[11] {36} 90 81 5c a2 e0 : 10010000 10000001 01011100 10100010 1110
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g022_433.91xM_250k.cu8
+Detected OOK package	@0.151024s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.151024s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: 40.3 C
+Rel. Humidity: 36 %
+Analyzing pulses...
+Total count:  444,  width: 822.01 ms		(205503 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [484;512]	( 125 S)
+ [ 1] count:    1,  width:  252 us [252;252]	(  63 S)
+Gap width distribution:
+ [ 0] count:  144,  width: 1936 us [1932;1948]	( 484 S)
+ [ 1] count:  288,  width:  960 us [952;984]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3884;3904]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  144,  width: 2440 us [2428;2452]	( 610 S)
+ [ 1] count:  288,  width: 1464 us [1452;1484]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4376;4392]	(1095 S)
+Level estimates [high, low]:  15951,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:   -1397,      0	(-5.3 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 252, long_width: 500, reset_limit: 3908, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=252,l=500,r=3908,g=1952,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 27758, signal_end = 253260, signal_len = 225502, pulses_found = 444
+Iteration 1. t: 94    min: 64 (1)    max: 125 (443)    delta 9
+Iteration 2. t: 94    min: 64 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 94
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 94
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 81 93 a2 40 : 10010000 10000001 10010011 10100010 0100
+[01] {36} 90 81 93 a2 40 : 10010000 10000001 10010011 10100010 0100
+[02] {36} 90 81 93 a2 40 : 10010000 10000001 10010011 10100010 0100
+[03] {36} 90 81 93 a2 40 : 10010000 10000001 10010011 10100010 0100
+[04] {36} 90 81 93 a2 40 : 10010000 10000001 10010011 10100010 0100
+[05] {36} 90 81 93 a2 40 : 10010000 10000001 10010011 10100010 0100
+[06] {36} 90 81 93 a2 40 : 10010000 10000001 10010011 10100010 0100
+[07] {36} 90 81 93 a2 40 : 10010000 10000001 10010011 10100010 0100
+[08] {36} 90 81 93 a2 40 : 10010000 10000001 10010011 10100010 0100
+[09] {36} 90 81 93 a2 40 : 10010000 10000001 10010011 10100010 0100
+[10] {36} 90 81 93 a2 40 : 10010000 10000001 10010011 10100010 0100
+[11] {36} 90 81 93 a2 40 : 10010000 10000001 10010011 10100010 0100
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g023_433.91xM_250k.cu8
+Detected OOK package	@0.115868s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.115868s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: 44.5 C
+Rel. Humidity: 22 %
+Analyzing pulses...
+Total count:  444,  width: 857.17 ms		(214292 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [480;516]	( 125 S)
+ [ 1] count:    1,  width:  256 us [256;256]	(  64 S)
+Gap width distribution:
+ [ 0] count:  180,  width: 1936 us [1928;1948]	( 484 S)
+ [ 1] count:  252,  width:  960 us [956;984]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3888;3900]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  180,  width: 2440 us [2432;2452]	( 610 S)
+ [ 1] count:  252,  width: 1464 us [1452;1492]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4372;4388]	(1095 S)
+Level estimates [high, low]:  15923,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:   -1655,      0	(-6.3 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 256, long_width: 500, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=256,l=500,r=3904,g=1952,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 18971, signal_end = 253260, signal_len = 234289, pulses_found = 444
+Iteration 1. t: 94    min: 64 (1)    max: 125 (443)    delta 9
+Iteration 2. t: 94    min: 64 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 94
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 94
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 81 bd a1 60 : 10010000 10000001 10111101 10100001 0110
+[01] {36} 90 81 bd a1 60 : 10010000 10000001 10111101 10100001 0110
+[02] {36} 90 81 bd a1 60 : 10010000 10000001 10111101 10100001 0110
+[03] {36} 90 81 bd a1 60 : 10010000 10000001 10111101 10100001 0110
+[04] {36} 90 81 bd a1 60 : 10010000 10000001 10111101 10100001 0110
+[05] {36} 90 81 bd a1 60 : 10010000 10000001 10111101 10100001 0110
+[06] {36} 90 81 bd a1 60 : 10010000 10000001 10111101 10100001 0110
+[07] {36} 90 81 bd a1 60 : 10010000 10000001 10111101 10100001 0110
+[08] {36} 90 81 bd a1 60 : 10010000 10000001 10111101 10100001 0110
+[09] {36} 90 81 bd a1 60 : 10010000 10000001 10111101 10100001 0110
+[10] {36} 90 81 bd a1 60 : 10010000 10000001 10111101 10100001 0110
+[11] {36} 90 81 bd a1 60 : 10010000 10000001 10111101 10100001 0110
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g024_433.91xM_250k.cu8
+Detected OOK package	@0.127580s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.127580s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: 46.7 C
+Rel. Humidity: 19 %
+Analyzing pulses...
+Total count:  444,  width: 845.46 ms		(211364 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [484;516]	( 125 S)
+ [ 1] count:    1,  width:  248 us [248;248]	(  62 S)
+Gap width distribution:
+ [ 0] count:  168,  width: 1940 us [1928;1960]	( 485 S)
+ [ 1] count:  264,  width:  960 us [952;972]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3888;3900]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  168,  width: 2440 us [2432;2456]	( 610 S)
+ [ 1] count:  264,  width: 1464 us [1452;1476]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4380;4392]	(1095 S)
+Level estimates [high, low]:  15975,     13
+RSSI: -0.1 dB SNR: 30.9 dB Noise: -31.0 dB
+Frequency offsets [F1, F2]:   -1514,      0	(-5.8 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 248, long_width: 500, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=248,l=500,r=3904,g=1964,t=100,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 21898, signal_end = 253260, signal_len = 231362, pulses_found = 444
+Iteration 1. t: 94    min: 63 (1)    max: 125 (443)    delta 9
+Iteration 2. t: 94    min: 63 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 94
+
+Short distance: 240, long distance: 484, packet distance: 973
+
+p_limit: 94
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 81 d3 a1 30 : 10010000 10000001 11010011 10100001 0011
+[01] {36} 90 81 d3 a1 30 : 10010000 10000001 11010011 10100001 0011
+[02] {36} 90 81 d3 a1 30 : 10010000 10000001 11010011 10100001 0011
+[03] {36} 90 81 d3 a1 30 : 10010000 10000001 11010011 10100001 0011
+[04] {36} 90 81 d3 a1 30 : 10010000 10000001 11010011 10100001 0011
+[05] {36} 90 81 d3 a1 30 : 10010000 10000001 11010011 10100001 0011
+[06] {36} 90 81 d3 a1 30 : 10010000 10000001 11010011 10100001 0011
+[07] {36} 90 81 d3 a1 30 : 10010000 10000001 11010011 10100001 0011
+[08] {36} 90 81 d3 a1 30 : 10010000 10000001 11010011 10100001 0011
+[09] {36} 90 81 d3 a1 30 : 10010000 10000001 11010011 10100001 0011
+[10] {36} 90 81 d3 a1 30 : 10010000 10000001 11010011 10100001 0011
+[11] {36} 90 81 d3 a1 30 : 10010000 10000001 11010011 10100001 0011
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g025_433.91xM_250k.cu8
+Detected OOK package	@0.162720s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.162720s
+model     : Auriol-AFW2A1
+id        : 144
+Battery   : OK
+Channel   : 1
+Button    : false
+Temperature: 53.7 C
+Rel. Humidity: 12 %
+Analyzing pulses...
+Total count:  444,  width: 810.32 ms		(202579 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [484;516]	( 125 S)
+ [ 1] count:    1,  width:  256 us [256;256]	(  64 S)
+Gap width distribution:
+ [ 0] count:  132,  width: 1936 us [1932;1952]	( 484 S)
+ [ 1] count:  300,  width:  960 us [952;984]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3888;3896]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  132,  width: 2440 us [2428;2456]	( 610 S)
+ [ 1] count:  300,  width: 1464 us [1452;1488]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4376;4392]	(1095 S)
+Level estimates [high, low]:  15972,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:   -2228,      0	(-8.5 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 256, long_width: 500, reset_limit: 3900, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=256,l=500,r=3900,g=1956,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 30684, signal_end = 253260, signal_len = 222576, pulses_found = 444
+Iteration 1. t: 95    min: 64 (1)    max: 126 (443)    delta 4
+Iteration 2. t: 95    min: 64 (1)    max: 126 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 90 82 19 a0 c0 : 10010000 10000010 00011001 10100000 1100
+[01] {36} 90 82 19 a0 c0 : 10010000 10000010 00011001 10100000 1100
+[02] {36} 90 82 19 a0 c0 : 10010000 10000010 00011001 10100000 1100
+[03] {36} 90 82 19 a0 c0 : 10010000 10000010 00011001 10100000 1100
+[04] {36} 90 82 19 a0 c0 : 10010000 10000010 00011001 10100000 1100
+[05] {36} 90 82 19 a0 c0 : 10010000 10000010 00011001 10100000 1100
+[06] {36} 90 82 19 a0 c0 : 10010000 10000010 00011001 10100000 1100
+[07] {36} 90 82 19 a0 c0 : 10010000 10000010 00011001 10100000 1100
+[08] {36} 90 82 19 a0 c0 : 10010000 10000010 00011001 10100000 1100
+[09] {36} 90 82 19 a0 c0 : 10010000 10000010 00011001 10100000 1100
+[10] {36} 90 82 19 a0 c0 : 10010000 10000010 00011001 10100000 1100
+[11] {36} 90 82 19 a0 c0 : 10010000 10000010 00011001 10100000 1100
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g026_433.91xM_250k.cu8
+Detected OOK package	@0.080788s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.080788s
+model     : Auriol-AFW2A1
+id        : 213
+Battery   : OK
+Channel   : 2
+Button    : false
+Temperature: 17.5 C
+Rel. Humidity: 52 %
+Analyzing pulses...
+Total count:  444,  width: 892.25 ms		(223062 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [476;516]	( 125 S)
+ [ 1] count:    1,  width:  260 us [260;260]	(  65 S)
+Gap width distribution:
+ [ 0] count:  216,  width: 1936 us [1924;1956]	( 484 S)
+ [ 1] count:  216,  width:  964 us [948;992]	( 241 S)
+ [ 2] count:   11,  width: 3896 us [3888;3904]	( 974 S)
+Pulse period distribution:
+ [ 0] count:  216,  width: 2440 us [2428;2452]	( 610 S)
+ [ 1] count:  216,  width: 1464 us [1452;1488]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4380;4392]	(1095 S)
+Level estimates [high, low]:  15931,      3
+RSSI: -0.1 dB SNR: 37.3 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:      27,      0	(+0.1 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 260, long_width: 500, reset_limit: 3908, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=260,l=500,r=3908,g=1960,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 10200, signal_end = 253260, signal_len = 243060, pulses_found = 444
+Iteration 1. t: 95    min: 65 (1)    max: 125 (443)    delta 25
+Iteration 2. t: 95    min: 65 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 240, long distance: 484, packet distance: 973
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} d5 90 af a3 40 : 11010101 10010000 10101111 10100011 0100
+[01] {36} d5 90 af a3 40 : 11010101 10010000 10101111 10100011 0100
+[02] {36} d5 90 af a3 40 : 11010101 10010000 10101111 10100011 0100
+[03] {36} d5 90 af a3 40 : 11010101 10010000 10101111 10100011 0100
+[04] {36} d5 90 af a3 40 : 11010101 10010000 10101111 10100011 0100
+[05] {36} d5 90 af a3 40 : 11010101 10010000 10101111 10100011 0100
+[06] {36} d5 90 af a3 40 : 11010101 10010000 10101111 10100011 0100
+[07] {36} d5 90 af a3 40 : 11010101 10010000 10101111 10100011 0100
+[08] {36} d5 90 af a3 40 : 11010101 10010000 10101111 10100011 0100
+[09] {36} d5 90 af a3 40 : 11010101 10010000 10101111 10100011 0100
+[10] {36} d5 90 af a3 40 : 11010101 10010000 10101111 10100011 0100
+[11] {36} d5 90 af a3 40 : 11010101 10010000 10101111 10100011 0100
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g027_433.91xM_250k.cu8
+Detected OOK package	@0.069076s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.069076s
+model     : Auriol-AFW2A1
+id        : 213
+Battery   : OK
+Channel   : 2
+Button    : true
+Temperature: 17.5 C
+Rel. Humidity: 52 %
+Analyzing pulses...
+Total count:  444,  width: 903.96 ms		(225990 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  496 us [472;516]	( 124 S)
+ [ 1] count:    1,  width:  252 us [252;252]	(  63 S)
+Gap width distribution:
+ [ 0] count:  228,  width: 1940 us [1928;1956]	( 485 S)
+ [ 1] count:  204,  width:  964 us [952;988]	( 241 S)
+ [ 2] count:   11,  width: 3892 us [3880;3900]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  228,  width: 2440 us [2428;2460]	( 610 S)
+ [ 1] count:  204,  width: 1464 us [1452;1488]	( 366 S)
+ [ 2] count:   11,  width: 4376 us [4368;4388]	(1094 S)
+Level estimates [high, low]:  15906,      1
+RSSI: -0.1 dB SNR: 42.0 dB Noise: -42.1 dB
+Frequency offsets [F1, F2]:    -188,      0	(-0.7 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 252, long_width: 496, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=252,l=496,r=3904,g=1960,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 7273, signal_end = 253260, signal_len = 245987, pulses_found = 444
+Iteration 1. t: 94    min: 63 (1)    max: 125 (443)    delta 16
+Iteration 2. t: 94    min: 63 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 94
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 94
+bitbuffer:: Number of rows: 12 
+[00] {36} d5 d0 af a3 40 : 11010101 11010000 10101111 10100011 0100
+[01] {36} d5 d0 af a3 40 : 11010101 11010000 10101111 10100011 0100
+[02] {36} d5 d0 af a3 40 : 11010101 11010000 10101111 10100011 0100
+[03] {36} d5 d0 af a3 40 : 11010101 11010000 10101111 10100011 0100
+[04] {36} d5 d0 af a3 40 : 11010101 11010000 10101111 10100011 0100
+[05] {36} d5 d0 af a3 40 : 11010101 11010000 10101111 10100011 0100
+[06] {36} d5 d0 af a3 40 : 11010101 11010000 10101111 10100011 0100
+[07] {36} d5 d0 af a3 40 : 11010101 11010000 10101111 10100011 0100
+[08] {36} d5 d0 af a3 40 : 11010101 11010000 10101111 10100011 0100
+[09] {36} d5 d0 af a3 40 : 11010101 11010000 10101111 10100011 0100
+[10] {36} d5 d0 af a3 40 : 11010101 11010000 10101111 10100011 0100
+[11] {36} d5 d0 af a3 40 : 11010101 11010000 10101111 10100011 0100
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+rtl_433 version 19.08-100-g9ad8c83d branch master at 201911091711 inputs file rtl_tcp RTL-SDR SoapySDR
+
+
+Test mode active. Reading samples from file: g028_433.91xM_250k.cu8
+Detected OOK package	@0.115856s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.115856s
+model     : Auriol-AFW2A1
+id        : 213
+Battery   : LOW
+Channel   : 2
+Button    : false
+Temperature: 19.6 C
+Rel. Humidity: 51 %
+Analyzing pulses...
+Total count:  444,  width: 857.18 ms		(214295 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [476;516]	( 125 S)
+ [ 1] count:    1,  width:  264 us [264;264]	(  66 S)
+Gap width distribution:
+ [ 0] count:  180,  width: 1936 us [1924;1960]	( 484 S)
+ [ 1] count:  252,  width:  960 us [948;976]	( 240 S)
+ [ 2] count:   11,  width: 3896 us [3888;3904]	( 974 S)
+Pulse period distribution:
+ [ 0] count:  180,  width: 2440 us [2428;2468]	( 610 S)
+ [ 1] count:  252,  width: 1464 us [1452;1480]	( 366 S)
+ [ 2] count:   11,  width: 4384 us [4372;4392]	(1096 S)
+Level estimates [high, low]:  15886,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:    -231,      0	(-0.9 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 264, long_width: 500, reset_limit: 3908, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=264,l=500,r=3908,g=1964,t=92,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 18968, signal_end = 253260, signal_len = 234292, pulses_found = 444
+Iteration 1. t: 96    min: 66 (1)    max: 126 (443)    delta 16
+Iteration 2. t: 96    min: 66 (1)    max: 126 (443)    delta 0
+Distance coding: Pulse length 96
+
+Short distance: 239, long distance: 484, packet distance: 973
+
+p_limit: 96
+bitbuffer:: Number of rows: 12 
+[00] {36} d5 10 c4 a3 30 : 11010101 00010000 11000100 10100011 0011
+[01] {36} d5 10 c4 a3 30 : 11010101 00010000 11000100 10100011 0011
+[02] {36} d5 10 c4 a3 30 : 11010101 00010000 11000100 10100011 0011
+[03] {36} d5 10 c4 a3 30 : 11010101 00010000 11000100 10100011 0011
+[04] {36} d5 10 c4 a3 30 : 11010101 00010000 11000100 10100011 0011
+[05] {36} d5 10 c4 a3 30 : 11010101 00010000 11000100 10100011 0011
+[06] {36} d5 10 c4 a3 30 : 11010101 00010000 11000100 10100011 0011
+[07] {36} d5 10 c4 a3 30 : 11010101 00010000 11000100 10100011 0011
+[08] {36} d5 10 c4 a3 30 : 11010101 00010000 11000100 10100011 0011
+[09] {36} d5 10 c4 a3 30 : 11010101 00010000 11000100 10100011 0011
+[10] {36} d5 10 c4 a3 30 : 11010101 00010000 11000100 10100011 0011
+[11] {36} d5 10 c4 a3 30 : 11010101 00010000 11000100 10100011 0011
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g029_433.91xM_250k.cu8
+Detected OOK package	@0.104144s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.104144s
+model     : Auriol-AFW2A1
+id        : 213
+Battery   : LOW
+Channel   : 2
+Button    : true
+Temperature: 19.3 C
+Rel. Humidity: 51 %
+Analyzing pulses...
+Total count:  444,  width: 868.89 ms		(217223 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [480;512]	( 125 S)
+ [ 1] count:    1,  width:  252 us [252;252]	(  63 S)
+Gap width distribution:
+ [ 0] count:  192,  width: 1940 us [1932;1960]	( 485 S)
+ [ 1] count:  240,  width:  960 us [952;976]	( 240 S)
+ [ 2] count:   11,  width: 3892 us [3884;3904]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  192,  width: 2440 us [2428;2464]	( 610 S)
+ [ 1] count:  240,  width: 1464 us [1452;1476]	( 366 S)
+ [ 2] count:   11,  width: 4380 us [4372;4392]	(1095 S)
+Level estimates [high, low]:  15931,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:    -124,      0	(-0.5 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 252, long_width: 500, reset_limit: 3908, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=252,l=500,r=3908,g=1964,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 16038, signal_end = 253260, signal_len = 237222, pulses_found = 444
+Iteration 1. t: 94    min: 63 (1)    max: 125 (443)    delta 16
+Iteration 2. t: 94    min: 63 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 94
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 94
+bitbuffer:: Number of rows: 12 
+[00] {36} d5 50 c1 a3 30 : 11010101 01010000 11000001 10100011 0011
+[01] {36} d5 50 c1 a3 30 : 11010101 01010000 11000001 10100011 0011
+[02] {36} d5 50 c1 a3 30 : 11010101 01010000 11000001 10100011 0011
+[03] {36} d5 50 c1 a3 30 : 11010101 01010000 11000001 10100011 0011
+[04] {36} d5 50 c1 a3 30 : 11010101 01010000 11000001 10100011 0011
+[05] {36} d5 50 c1 a3 30 : 11010101 01010000 11000001 10100011 0011
+[06] {36} d5 50 c1 a3 30 : 11010101 01010000 11000001 10100011 0011
+[07] {36} d5 50 c1 a3 30 : 11010101 01010000 11000001 10100011 0011
+[08] {36} d5 50 c1 a3 30 : 11010101 01010000 11000001 10100011 0011
+[09] {36} d5 50 c1 a3 30 : 11010101 01010000 11000001 10100011 0011
+[10] {36} d5 50 c1 a3 30 : 11010101 01010000 11000001 10100011 0011
+[11] {36} d5 50 c1 a3 30 : 11010101 01010000 11000001 10100011 0011
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g030_433.91xM_250k.cu8
+Detected OOK package	@0.104220s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.104220s
+model     : Auriol-AFW2A1
+id        : 35
+Battery   : OK
+Channel   : 3
+Button    : false
+Temperature: 17.0 C
+Rel. Humidity: 55 %
+Analyzing pulses...
+Total count:  444,  width: 868.82 ms		(217204 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [480;516]	( 125 S)
+ [ 1] count:    1,  width:  252 us [252;252]	(  63 S)
+Gap width distribution:
+ [ 0] count:  240,  width:  960 us [948;980]	( 240 S)
+ [ 1] count:  192,  width: 1940 us [1928;1964]	( 485 S)
+ [ 2] count:   11,  width: 3892 us [3884;3904]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  240,  width: 1464 us [1452;1480]	( 366 S)
+ [ 1] count:  192,  width: 2440 us [2428;2464]	( 610 S)
+ [ 2] count:   11,  width: 4380 us [4372;4392]	(1095 S)
+Level estimates [high, low]:  15986,      3
+RSSI: -0.1 dB SNR: 37.3 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:     339,      0	(+1.3 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 252, long_width: 500, reset_limit: 3908, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=252,l=500,r=3908,g=1968,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 16057, signal_end = 253260, signal_len = 237203, pulses_found = 444
+Iteration 1. t: 94    min: 64 (1)    max: 125 (443)    delta 16
+Iteration 2. t: 94    min: 64 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 94
+
+Short distance: 240, long distance: 484, packet distance: 973
+
+p_limit: 94
+bitbuffer:: Number of rows: 12 
+[00] {36} 23 a0 aa a3 70 : 00100011 10100000 10101010 10100011 0111
+[01] {36} 23 a0 aa a3 70 : 00100011 10100000 10101010 10100011 0111
+[02] {36} 23 a0 aa a3 70 : 00100011 10100000 10101010 10100011 0111
+[03] {36} 23 a0 aa a3 70 : 00100011 10100000 10101010 10100011 0111
+[04] {36} 23 a0 aa a3 70 : 00100011 10100000 10101010 10100011 0111
+[05] {36} 23 a0 aa a3 70 : 00100011 10100000 10101010 10100011 0111
+[06] {36} 23 a0 aa a3 70 : 00100011 10100000 10101010 10100011 0111
+[07] {36} 23 a0 aa a3 70 : 00100011 10100000 10101010 10100011 0111
+[08] {36} 23 a0 aa a3 70 : 00100011 10100000 10101010 10100011 0111
+[09] {36} 23 a0 aa a3 70 : 00100011 10100000 10101010 10100011 0111
+[10] {36} 23 a0 aa a3 70 : 00100011 10100000 10101010 10100011 0111
+[11] {36} 23 a0 aa a3 70 : 00100011 10100000 10101010 10100011 0111
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g031_433.91xM_250k.cu8
+Detected OOK package	@0.092496s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.092496s
+model     : Auriol-AFW2A1
+id        : 35
+Battery   : OK
+Channel   : 3
+Button    : true
+Temperature: 16.9 C
+Rel. Humidity: 55 %
+Analyzing pulses...
+Total count:  444,  width: 880.54 ms		(220135 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [484;516]	( 125 S)
+ [ 1] count:    1,  width:  252 us [252;252]	(  63 S)
+Gap width distribution:
+ [ 0] count:  228,  width:  960 us [952;976]	( 240 S)
+ [ 1] count:  204,  width: 1940 us [1928;1960]	( 485 S)
+ [ 2] count:   11,  width: 3892 us [3884;3900]	( 973 S)
+Pulse period distribution:
+ [ 0] count:  228,  width: 1464 us [1452;1480]	( 366 S)
+ [ 1] count:  204,  width: 2440 us [2428;2464]	( 610 S)
+ [ 2] count:   11,  width: 4380 us [4368;4392]	(1095 S)
+Level estimates [high, low]:  15931,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:     286,      0	(+1.1 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 252, long_width: 500, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=252,l=500,r=3904,g=1964,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 13128, signal_end = 253260, signal_len = 240132, pulses_found = 444
+Iteration 1. t: 94    min: 64 (1)    max: 125 (443)    delta 16
+Iteration 2. t: 94    min: 64 (1)    max: 125 (443)    delta 0
+Distance coding: Pulse length 94
+
+Short distance: 240, long distance: 484, packet distance: 972
+
+p_limit: 94
+bitbuffer:: Number of rows: 12 
+[00] {36} 23 e0 a9 a3 70 : 00100011 11100000 10101001 10100011 0111
+[01] {36} 23 e0 a9 a3 70 : 00100011 11100000 10101001 10100011 0111
+[02] {36} 23 e0 a9 a3 70 : 00100011 11100000 10101001 10100011 0111
+[03] {36} 23 e0 a9 a3 70 : 00100011 11100000 10101001 10100011 0111
+[04] {36} 23 e0 a9 a3 70 : 00100011 11100000 10101001 10100011 0111
+[05] {36} 23 e0 a9 a3 70 : 00100011 11100000 10101001 10100011 0111
+[06] {36} 23 e0 a9 a3 70 : 00100011 11100000 10101001 10100011 0111
+[07] {36} 23 e0 a9 a3 70 : 00100011 11100000 10101001 10100011 0111
+[08] {36} 23 e0 a9 a3 70 : 00100011 11100000 10101001 10100011 0111
+[09] {36} 23 e0 a9 a3 70 : 00100011 11100000 10101001 10100011 0111
+[10] {36} 23 e0 a9 a3 70 : 00100011 11100000 10101001 10100011 0111
+[11] {36} 23 e0 a9 a3 70 : 00100011 11100000 10101001 10100011 0111
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g032_433.91xM_250k.cu8
+Detected OOK package	@0.115844s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.115844s
+model     : Auriol-AFW2A1
+id        : 35
+Battery   : LOW
+Channel   : 3
+Button    : false
+Temperature: 19.7 C
+Rel. Humidity: 55 %
+Analyzing pulses...
+Total count:  444,  width: 857.19 ms		(214298 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [484;516]	( 125 S)
+ [ 1] count:    1,  width:  260 us [260;260]	(  65 S)
+Gap width distribution:
+ [ 0] count:  252,  width:  960 us [948;976]	( 240 S)
+ [ 1] count:  180,  width: 1936 us [1924;1960]	( 484 S)
+ [ 2] count:   11,  width: 3888 us [3884;3896]	( 972 S)
+Pulse period distribution:
+ [ 0] count:  252,  width: 1464 us [1452;1480]	( 366 S)
+ [ 1] count:  180,  width: 2440 us [2428;2468]	( 610 S)
+ [ 2] count:   11,  width: 4376 us [4372;4388]	(1094 S)
+Level estimates [high, low]:  15872,      3
+RSSI: -0.1 dB SNR: 37.2 dB Noise: -37.4 dB
+Frequency offsets [F1, F2]:    -767,      0	(-2.9 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 260, long_width: 500, reset_limit: 3900, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=260,l=500,r=3900,g=1964,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 18963, signal_end = 253260, signal_len = 234297, pulses_found = 444
+Iteration 1. t: 96    min: 66 (1)    max: 126 (443)    delta 9
+Iteration 2. t: 96    min: 66 (1)    max: 126 (443)    delta 0
+Distance coding: Pulse length 96
+
+Short distance: 239, long distance: 483, packet distance: 972
+
+p_limit: 96
+bitbuffer:: Number of rows: 12 
+[00] {36} 23 20 c5 a3 70 : 00100011 00100000 11000101 10100011 0111
+[01] {36} 23 20 c5 a3 70 : 00100011 00100000 11000101 10100011 0111
+[02] {36} 23 20 c5 a3 70 : 00100011 00100000 11000101 10100011 0111
+[03] {36} 23 20 c5 a3 70 : 00100011 00100000 11000101 10100011 0111
+[04] {36} 23 20 c5 a3 70 : 00100011 00100000 11000101 10100011 0111
+[05] {36} 23 20 c5 a3 70 : 00100011 00100000 11000101 10100011 0111
+[06] {36} 23 20 c5 a3 70 : 00100011 00100000 11000101 10100011 0111
+[07] {36} 23 20 c5 a3 70 : 00100011 00100000 11000101 10100011 0111
+[08] {36} 23 20 c5 a3 70 : 00100011 00100000 11000101 10100011 0111
+[09] {36} 23 20 c5 a3 70 : 00100011 00100000 11000101 10100011 0111
+[10] {36} 23 20 c5 a3 70 : 00100011 00100000 11000101 10100011 0111
+[11] {36} 23 20 c5 a3 70 : 00100011 00100000 11000101 10100011 0111
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
+
+Test mode active. Reading samples from file: g033_433.91xM_250k.cu8
+Detected OOK package	@0.127568s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : @0.127568s
+model     : Auriol-AFW2A1
+id        : 35
+Battery   : LOW
+Channel   : 3
+Button    : true
+Temperature: 19.3 C
+Rel. Humidity: 54 %
+Analyzing pulses...
+Total count:  444,  width: 845.47 ms		(211367 S)
+Pulse width distribution:
+ [ 0] count:  443,  width:  500 us [480;520]	( 125 S)
+ [ 1] count:    1,  width:  256 us [256;256]	(  64 S)
+Gap width distribution:
+ [ 0] count:  264,  width:  960 us [952;980]	( 240 S)
+ [ 1] count:  168,  width: 1936 us [1928;1948]	( 484 S)
+ [ 2] count:   11,  width: 3888 us [3884;3900]	( 972 S)
+Pulse period distribution:
+ [ 0] count:  264,  width: 1464 us [1452;1488]	( 366 S)
+ [ 1] count:  168,  width: 2440 us [2428;2452]	( 610 S)
+ [ 2] count:   11,  width: 4380 us [4372;4396]	(1095 S)
+Level estimates [high, low]:  16002,      2
+RSSI: -0.1 dB SNR: 39.0 dB Noise: -39.1 dB
+Frequency offsets [F1, F2]:   -1670,      0	(-6.4 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with multiple packets
+Attempting demodulation... short_width: 256, long_width: 500, reset_limit: 3904, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=256,l=500,r=3904,g=1952,t=96,y=0'
+pulse_demod_pwm(): Analyzer Device 
+bitbuffer:: Number of rows: 12 
+[00] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[01] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[02] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[03] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[04] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[05] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[06] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[07] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[08] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[09] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[10] {37} 00 00 00 00 00 : 00000000 00000000 00000000 00000000 00000
+[11] {37} 00 00 00 00 08 : 00000000 00000000 00000000 00000000 00001
+
+*** signal_start = 21895, signal_end = 253261, signal_len = 231366, pulses_found = 444
+Iteration 1. t: 95    min: 65 (1)    max: 126 (443)    delta 9
+Iteration 2. t: 95    min: 65 (1)    max: 126 (443)    delta 0
+Distance coding: Pulse length 95
+
+Short distance: 239, long distance: 483, packet distance: 972
+
+p_limit: 95
+bitbuffer:: Number of rows: 12 
+[00] {36} 23 60 c1 a3 60 : 00100011 01100000 11000001 10100011 0110
+[01] {36} 23 60 c1 a3 60 : 00100011 01100000 11000001 10100011 0110
+[02] {36} 23 60 c1 a3 60 : 00100011 01100000 11000001 10100011 0110
+[03] {36} 23 60 c1 a3 60 : 00100011 01100000 11000001 10100011 0110
+[04] {36} 23 60 c1 a3 60 : 00100011 01100000 11000001 10100011 0110
+[05] {36} 23 60 c1 a3 60 : 00100011 01100000 11000001 10100011 0110
+[06] {36} 23 60 c1 a3 60 : 00100011 01100000 11000001 10100011 0110
+[07] {36} 23 60 c1 a3 60 : 00100011 01100000 11000001 10100011 0110
+[08] {36} 23 60 c1 a3 60 : 00100011 01100000 11000001 10100011 0110
+[09] {36} 23 60 c1 a3 60 : 00100011 01100000 11000001 10100011 0110
+[10] {36} 23 60 c1 a3 60 : 00100011 01100000 11000001 10100011 0110
+[11] {36} 23 60 c1 a3 60 : 00100011 01100000 11000001 10100011 0110
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
