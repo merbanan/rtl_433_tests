@@ -10,7 +10,7 @@
 | Relative humidity resolution: | 1% | |
 | Transmission frequencies: | 433 MHz | ch1:~433919300, ch2:~433915200, ch3:~433918000, various? |
 | Transmission output: | < 10 dBm | < 10 mW |
-| Wireless range: | max. 100 m (open area) | Fantastic link budget. Maybe with 17.3 cm wire. (7500/Frequency in Hz) |
+| Wireless range: | max. 100 m (open area) | Fantastic link budget. Maybe with 17.3 cm wire. (7500/Frequency in MHz) |
 | Protection type: | IPX4 (splashproof) | Not protected from (continuous) rain. |
 
 filesize: 524288 bytes  
