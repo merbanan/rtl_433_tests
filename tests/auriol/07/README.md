@@ -15,12 +15,11 @@
 
 filesize: 524288 bytes  
   
-write analysis and pulse in one file:  
-for i in $(seq 001 001 033); do rtl_433 -r g$(printf "%.3d\n" "$i")_433.91xM_250k.cu8 -A -a >>analysis.txt 2>&1; done  
-  
-working flex decoder:  
-for i in $(seq 001 001 033); do rtl_433 -R 0 -r g$(printf "%.3d\n" "$i")_433.91xM_250k.cu8 -X "n=auriol_afw2a1,m=OOK_PPM,s=512,l=1472,g=1984,r=3912,t=0,y=0"; done  
-  
+write all in one file:  
+for i in $(seq 001 001 040); do rtl_433 -vv -R 142 -r g$(printf "%.3d\n" "$i")_433.91xM_250k.cu8 -M level -A -a  >>analysis.txt 2>&1; done  
+   
+working flex decoder:   
+-X "n=auriol_afw2a1,m=OOK_PPM,s=576,l=1536,g=2012,r=3954,t=0,y=0"  
   
 file:g001_433.919M_250k.cu8  id:144 ch:1  temperature_C:14.6   rhumidity:67  battery:ok   button:false  
 file:g002_433.919M_250k.cu8  id:144 ch:1  temperature_C:15.4   rhumidity:63  battery:ok   button:true  
@@ -48,13 +47,22 @@ file:g023_433.919M_250k.cu8  id:144 ch:1  temperature_C:44.5   rhumidity:22  bat
 file:g024_433.919M_250k.cu8  id:144 ch:1  temperature_C:46.7   rhumidity:19  battery:ok   button:false  
 file:g025_433.919M_250k.cu8  id:144 ch:1  temperature_C:53.7   rhumidity:12  battery:ok   button:false  
 
-file:g026_433.915M_250k.cu8  id:213 ch:2  temperature_C:17.5   rhumidity:52  battery:ok   button:false
-file:g027_433.915M_250k.cu8  id:213 ch:2  temperature_C:17.5   rhumidity:52  battery:ok   button:true
-file:g028_433.915M_250k.cu8  id:213 ch:2  temperature_C:20.1   rhumidity:51  battery:low  button:false
-file:g029_433.915M_250k.cu8  id:213 ch:2  temperature_C:19.3   rhumidity:51  battery:low  button:true
-
-file:g030_433.918M_250k.cu8  id:35  ch:3  temperature_C:17.0   rhumidity:55  battery:ok   button:false
-file:g031_433.918M_250k.cu8  id:35  ch:3  temperature_C:16.9   rhumidity:55  battery:ok   button:true
-file:g032_433.918M_250k.cu8  id:35  ch:3  temperature_C:19.7   rhumidity:55  battery:low  button:false
-file:g033_433.918M_250k.cu8  id:35  ch:3  temperature_C:19.3   rhumidity:54  battery:low  button:true
-
+file:g026_433.915M_250k.cu8  id:213 ch:2  temperature_C:17.5   rhumidity:52  battery:ok   button:false  
+file:g027_433.915M_250k.cu8  id:213 ch:2  temperature_C:17.5   rhumidity:52  battery:ok   button:true  
+file:g028_433.915M_250k.cu8  id:213 ch:2  temperature_C:20.1   rhumidity:51  battery:low  button:false  
+file:g029_433.915M_250k.cu8  id:213 ch:2  temperature_C:19.3   rhumidity:51  battery:low  button:true  
+  
+file:g030_433.918M_250k.cu8  id:35  ch:3  temperature_C:17.0   rhumidity:55  battery:ok   button:false  
+file:g031_433.918M_250k.cu8  id:35  ch:3  temperature_C:16.9   rhumidity:55  battery:ok   button:true  
+file:g032_433.918M_250k.cu8  id:35  ch:3  temperature_C:19.7   rhumidity:55  battery:low  button:false  
+file:g033_433.918M_250k.cu8  id:35  ch:3  temperature_C:19.3   rhumidity:54  battery:low  button:true  
+file:g034_433.918M_250k.cu8  id:35  ch:3  temperature_C:-25.5  rhumidity:32  battery:ok   button:false  
+file:g035_433.918M_250k.cu8  id:35  ch:3  temperature_C:-25.7  rhumidity:32  battery:ok   button:false  
+file:g036_433.918M_250k.cu8  id:35  ch:3  temperature_C:-25.8  rhumidity:32  battery:ok   button:false  
+file:g037_433.918M_250k.cu8  id:35  ch:3  temperature_C:-26.0  rhumidity:32  battery:ok   button:false  
+file:g038_433.918M_250k.cu8  id:35  ch:3  temperature_C:-0.4   rhumidity:51  battery:ok   button:false  
+file:g039_433.918M_250k.cu8  id:35  ch:3  temperature_C:6.7    rhumidity:59  battery:ok   button:true  
+  
+weak signals:  
+file:g040_433.918M_250k.cu8  id:213  ch:2  temperature_C:17.7  rhumidity:54  battery:ok   button:false   RSSI:-12.1dB   SNR:18.2dB   Noise:-30.4dB  
+  
