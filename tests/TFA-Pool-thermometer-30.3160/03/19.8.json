@@ -1,1 +1,1 @@
-{"time" : "@0.063860s", "model" : "TFA-Pool", "id" : 74, "channel" : 1, "temperature_C" : 19.800}
+{"time" : "@0.063860s", "model" : "TFA-Pool", "id" : 74, "channel" : 1, "battery_ok" : 1, "temperature_C" : 19.800, "mic" : "CHECKSUM"}
