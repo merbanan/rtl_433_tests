@@ -21,7 +21,8 @@ https://github.com/CapnBry/Powermon433/blob/master/arduino/Powermon433/Powermon4
 
 capture:
 rtl_433 -S unknown
-
+capture limesdr:
+rtl_433 -d "" -g "" -S unknown
 
 analyze:
 rtl_433 -A -r g00* -X "name=blueline,modulation=OOK_PPM,short=2000,long=4000,sync=500,gap=7000,reset=58000"
