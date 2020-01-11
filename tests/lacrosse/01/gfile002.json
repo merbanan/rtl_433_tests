@@ -1,2 +1,2 @@
-{"time" : "@0.273208s", "model" : "LaCrosse-TX", "id" : 48, "humidity" : 31.000}
-{"time" : "@0.393088s", "model" : "LaCrosse-TX", "id" : 48, "humidity" : 31.000}
+{"time" : "@0.273208s", "model" : "LaCrosse-TX", "id" : 48, "humidity" : 31.000, "mic" : "PARITY"}
+{"time" : "@0.393088s", "model" : "LaCrosse-TX", "id" : 48, "humidity" : 31.000, "mic" : "PARITY"}
