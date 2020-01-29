@@ -1,1 +1,1 @@
-{"time" : "@0.073384s", "model" : "LaCrosse-TX141W", "id" : 393344, "channel" : 0, "battery_ok" : 1, "temperature_C" : 24.400, "humidity" : 42, "test" : 1}
+{"time" : "@0.073384s", "model" : "LaCrosse-TX141W", "id" : 393344, "channel" : 0, "battery_ok" : 1, "temperature_C" : 24.400, "humidity" : 42, "test" : 1, "mic" : "CRC"}

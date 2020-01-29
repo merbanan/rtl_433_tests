@@ -1,2 +1,2 @@
-{"time" : "@0.068528s", "model" : "LaCrosse-TX141W", "id" : 87617, "channel" : 0, "battery_ok" : 1, "temperature_C" : 6.700, "humidity" : 81, "test" : 0}
-{"time" : "@0.068528s", "model" : "LaCrosse-TX141W", "id" : 87617, "channel" : 0, "battery_ok" : 1, "wind_avg_km_h" : 0.000, "wind_dir_deg" : 0, "test" : 0}
+{"time" : "@0.068528s", "model" : "LaCrosse-TX141W", "id" : 87617, "channel" : 0, "battery_ok" : 1, "temperature_C" : 6.700, "humidity" : 81, "test" : 0, "mic" : "CRC"}
+{"time" : "@0.068528s", "model" : "LaCrosse-TX141W", "id" : 87617, "channel" : 0, "battery_ok" : 1, "wind_avg_km_h" : 0.000, "wind_dir_deg" : 0, "test" : 0, "mic" : "CRC"}
