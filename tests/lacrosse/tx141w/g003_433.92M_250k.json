@@ -1,0 +1,2 @@
+{"time" : "@0.068524s", "model" : "LaCrosse-TX141W", "id" : 87617, "channel" : 0, "battery_ok" : 1, "temperature_C" : 6.600, "humidity" : 80, "test" : 0}
+{"time" : "@0.068524s", "model" : "LaCrosse-TX141W", "id" : 87617, "channel" : 0, "battery_ok" : 1, "wind_avg_km_h" : 2.100, "wind_dir_deg" : 0, "test" : 0}
