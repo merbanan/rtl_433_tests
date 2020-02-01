@@ -78,7 +78,7 @@ Given an 4 but ID code of `1001` the command to turn the fan on "Hi' the packet 
    `0` + `1` + `1001`+ `0` +`0 1 0 0 0 0 0`  -> 0 1 1 0 0 1 0`0 1 0 0 0 0 0
    
 
-The HT12F receiver requires four matching transmissions optionally followed by one all packet with all shorts thus a minimal full transmission is:
+The HT12F receiver requires three matching transmissions optionally followed by one all packet with all shorts thus a minimal full transmission is:
 
 `01100100100000` `01100100100000` `01100100100000` `01100100000000`
 
