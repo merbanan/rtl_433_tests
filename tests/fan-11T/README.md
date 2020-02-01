@@ -75,7 +75,7 @@ packets can be described  as
 
 Given an 4 bit ID code of `1001` the command to turn the fan on "Hi' the packet will be formated as follows
 
-   `0` + `1` + `1001`+ `0` +`0 1 0 0 0 0 0`  -> 0 1 1 0 0 1 0`0 1 0 0 0 0 0
+   `0` + `1` + `1001`+ `0` +`0 1 0 0 0 0 0` -> becomes -> `0 1 1 0 0 1 0 0 1 0 0 0 0 0`
    
 
 The HT12F receiver requires three matching transmissions optionally followed by one all packet with all shorts thus a minimal full transmission is:
