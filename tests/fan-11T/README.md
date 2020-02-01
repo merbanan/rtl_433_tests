@@ -1,6 +1,6 @@
-# FAN-11T Fan Remote
+# FAN-11T Fan Remote #
 
-## Test Files
+## Test Files ##
 
 * 01:
    * g001_302.55M_250k.cu8
@@ -15,7 +15,7 @@
       * Light (Toggle)
       
 
-## Description 
+## Description ##
 
 Remote Control for many Harbor Breeze
 
@@ -26,7 +26,7 @@ FCC ID:  [L3HFAN11T](https://fccid.io/L3HFAN11T)
 Available  on [Amazon](https://www.amazon.com/s?k=Fan-11T)
 
 
-###  Manufacturer Info 
+###  Manufacturer Info ###
 
 Based on the Holtek the [HT12E](https://www.holtek.com/productdetail/-/vg/2_12e) & [HT12F](https://www.holtek.com/productdetail/-/vg/2_12d) chipsets
 
@@ -34,11 +34,11 @@ Based on the Holtek the [HT12E](https://www.holtek.com/productdetail/-/vg/2_12e)
 
 [HT12F 2/12 Series Decoder DataSheet ](https://www.holtek.com/documents/10179/116711/2_12dv120.pdf)
 
-### Protocol Specs
+### Protocol Specs ###
 
 
 
-##### Timing
+##### Timing #####
 
 
 Datarate is approximately 1Kbaud ( 1ms per bit )
@@ -66,14 +66,14 @@ Off  |  `0 0 0 0 0 1 0` | 02 | 0x02
 Lit  |  `0 0 0 0 0 0 1` | 01 | 0x01
 End? |  `0 0 0 0 0 0 0` | 00 | 0x80
 
-##### Packet Format
+##### Packet Format #####
 Each transmission contains 13 bits  with 12bits of info (13 bits Transmitted)
 
 packets can be described  as
 
 **short** + **long** + **4 bit ID** + **short** + **6 bit command code**
 
-Given an 4 but ID code of `1001` the command to turn the fan on "Hi' the packet will be formated as follows
+Given an 4 bit ID code of `1001` the command to turn the fan on "Hi' the packet will be formated as follows
 
    `0` + `1` + `1001`+ `0` +`0 1 0 0 0 0 0`  -> 0 1 1 0 0 1 0`0 1 0 0 0 0 0
    
