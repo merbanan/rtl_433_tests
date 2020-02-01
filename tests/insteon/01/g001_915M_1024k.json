@@ -1,0 +1,1 @@
+{"time" : "@0.058241s", "model" : "Insteon", "pkt_type" : "Direct Message", "from_id" : "2AFF9B", "to_id" : "132580", "command" : "11 01 ", "extended" : 0, "hops" : "1 / 1", "formated" : "45 : 132580 : 2AFF9B : 11 01  AD", "mic" : "CHECKSUM", "payload" : "458025139BFF2A1101AD"}
