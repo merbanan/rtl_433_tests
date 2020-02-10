@@ -1,3 +1,5 @@
+Honeywell Domonial CMI
+
 The verisure_alarm.conf can be used on the sample files.
 
 The bitstream looks scrambled and most likely has two 10 byte
