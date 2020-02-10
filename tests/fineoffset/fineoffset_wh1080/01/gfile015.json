@@ -1,1 +1,1 @@
-{"time" : "@0.294368s", "model" : "Fineoffset-WHx080", "subtype" : 0, "id" : 5, "battery_ok" : 1, "temperature_C" : 6.800, "humidity" : 83, "direction_deg" : 0, "wind_avg_km_h" : 0.000, "wind_max_km_h" : 0.000, "rain_mm" : 183.900, "mic" : "CRC"}
+{"time" : "@0.294368s", "model" : "Fineoffset-WHx080", "subtype" : 0, "id" : 5, "battery_ok" : 1, "temperature_C" : 6.800, "humidity" : 83, "wind_dir_deg" : 0, "wind_avg_km_h" : 0.000, "wind_max_km_h" : 0.000, "rain_mm" : 183.900, "mic" : "CRC"}
