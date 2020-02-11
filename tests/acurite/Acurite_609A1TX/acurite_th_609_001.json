@@ -1,6 +1,6 @@
-{"time" : "@0.165204s", "model" : "Acurite-609TXC", "id" : 202, "battery_ok" : 1, "temperature_C" : 26.200, "humidity" : 76, "status" : 2}
-{"time" : "@0.263880s", "model" : "Acurite-609TXC", "id" : 202, "battery_ok" : 1, "temperature_C" : 26.200, "humidity" : 76, "status" : 2}
-{"time" : "@0.362580s", "model" : "Acurite-609TXC", "id" : 202, "battery_ok" : 1, "temperature_C" : 26.200, "humidity" : 76, "status" : 2}
-{"time" : "@0.461280s", "model" : "Acurite-609TXC", "id" : 202, "battery_ok" : 1, "temperature_C" : 26.200, "humidity" : 76, "status" : 2}
-{"time" : "@0.559976s", "model" : "Acurite-609TXC", "id" : 202, "battery_ok" : 1, "temperature_C" : 26.200, "humidity" : 76, "status" : 2}
-{"time" : "@0.658676s", "model" : "Acurite-609TXC", "id" : 202, "battery_ok" : 1, "temperature_C" : 26.200, "humidity" : 76, "status" : 2}
+{"time" : "@0.165204s", "model" : "Acurite-609TXC", "id" : 202, "battery_ok" : 1, "temperature_C" : 26.200, "humidity" : 76, "status" : 2, "mic" : "CHECKSUM"}
+{"time" : "@0.263880s", "model" : "Acurite-609TXC", "id" : 202, "battery_ok" : 1, "temperature_C" : 26.200, "humidity" : 76, "status" : 2, "mic" : "CHECKSUM"}
+{"time" : "@0.362580s", "model" : "Acurite-609TXC", "id" : 202, "battery_ok" : 1, "temperature_C" : 26.200, "humidity" : 76, "status" : 2, "mic" : "CHECKSUM"}
+{"time" : "@0.461280s", "model" : "Acurite-609TXC", "id" : 202, "battery_ok" : 1, "temperature_C" : 26.200, "humidity" : 76, "status" : 2, "mic" : "CHECKSUM"}
+{"time" : "@0.559976s", "model" : "Acurite-609TXC", "id" : 202, "battery_ok" : 1, "temperature_C" : 26.200, "humidity" : 76, "status" : 2, "mic" : "CHECKSUM"}
+{"time" : "@0.658676s", "model" : "Acurite-609TXC", "id" : 202, "battery_ok" : 1, "temperature_C" : 26.200, "humidity" : 76, "status" : 2, "mic" : "CHECKSUM"}

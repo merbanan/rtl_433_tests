@@ -1,5 +1,5 @@
-{"time" : "@0.190032s", "model" : "Efergy-Optical", "id" : 697018, "pulses" : 4000, "pulsecount" : 7, "energy" : 0.210}
-{"time" : "@0.190032s", "model" : "Efergy-Optical", "id" : 697018, "pulses" : 3200, "pulsecount" : 7, "energy" : 0.263}
-{"time" : "@0.190032s", "model" : "Efergy-Optical", "id" : 697018, "pulses" : 2000, "pulsecount" : 7, "energy" : 0.420}
-{"time" : "@0.190032s", "model" : "Efergy-Optical", "id" : 697018, "pulses" : 1000, "pulsecount" : 7, "energy" : 0.840}
-{"time" : "@0.190032s", "model" : "Efergy-Optical", "id" : 697018, "pulses" : 500, "pulsecount" : 7, "energy" : 1.680}
+{"time" : "@0.190032s", "model" : "Efergy-Optical", "id" : 697018, "pulses" : 4000, "pulsecount" : 7, "energy" : 0.210, "mic" : "CRC"}
+{"time" : "@0.190032s", "model" : "Efergy-Optical", "id" : 697018, "pulses" : 3200, "pulsecount" : 7, "energy" : 0.262, "mic" : "CRC"}
+{"time" : "@0.190032s", "model" : "Efergy-Optical", "id" : 697018, "pulses" : 2000, "pulsecount" : 7, "energy" : 0.420, "mic" : "CRC"}
+{"time" : "@0.190032s", "model" : "Efergy-Optical", "id" : 697018, "pulses" : 1000, "pulsecount" : 7, "energy" : 0.840, "mic" : "CRC"}
+{"time" : "@0.190032s", "model" : "Efergy-Optical", "id" : 697018, "pulses" : 500, "pulsecount" : 7, "energy" : 1.680, "mic" : "CRC"}
