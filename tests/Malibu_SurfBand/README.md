@@ -13,10 +13,10 @@
 There appear to be at least 2 models of this remote, I have the "26DRF8/LR2000" model.
 
 Device Photos:
-* [Exterior - Front](./Exterior_Front.png)
-* [Exterior - Back](./Exterior_Back.png)
-* [Interior - Front](./Interior_Front.png)
-* [Interior - Back](./Interior_Back.png)
+* [Exterior - Front](./Exterior_Front.jpg)
+* [Exterior - Back](./Exterior_Back.jpg)
+* [Interior - Front](./Interior_Front.jpg)
+* [Interior - Back](./Interior_Back.jpg)
 
 FCC ID: [2AFN315RM01](https://fccid.io/2AFN315RM01) _note: FCC pictures appear to be a different model/chipset_
 
