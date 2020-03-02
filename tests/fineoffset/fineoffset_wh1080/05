@@ -1,0 +1,17 @@
+FineOffset WH1080 868.3 branded WX-2008 not recognized by rtl_433
+
+Weatherstation Fine Offset WH1080
+branded WX-2008 
+frequency 868.300 Mhz
+
+
+in_temp 21,0 C
+in_hum 46%
+out_temp 16,9 C
+out_hum 62 %
+991.1 hpa
+wind_dir west
+wind_speed 9.3 - 13.8 knots
+
+
+with CubicSDR I can see two maximums at 868.18Mhz and 868.3Mhz
