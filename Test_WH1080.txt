@@ -1,0 +1,628 @@
+https://groups.google.com/forum/#!topic/rtl_433/tJ3U81aFiP0
+
+Weatherstation Fine Offset WH1080
+branded WX-2008 
+frequency 868.300 Mhz
+
+
+in_temp 21,0 C
+in_hum 46%
+out_temp 16,9 C
+out_hum 62 %
+991.1 hpa
+wind_dir west
+wind_speed 9.3 - 13.8 knots
+
+
+with CubicSDR I can see two maximum at 868.18Mhz and 868.3Mhz
+
+
+utente@HP-Compaq:~/rtl_433/rtl_433_tests$ rtl_433 -f 868.3M -S unknown
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/utente/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+New defaults active, use "-Y classic -s 250k" for the old defaults!
+Registered 122 out of 149 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Found Rafael Micro R820T tuner
+Exact sample rate is: 1000000.026491 Hz
+[R82XX] PLL not locked!
+Sample rate set to 1000000 S/s.
+Tuner gain set to Auto.
+Tuned to 868.300MHz.
+*** Saving signal to file g001_868.3M_1000k.cu8 (79870 samples, 262144 bytes)
+*** Saving signal to file g002_868.3M_1000k.cu8 (180327 samples, 393216 bytes)
+*** Saving signal to file g003_868.3M_1000k.cu8 (184430 samples, 393216 bytes)
+*** Saving signal to file g004_868.3M_1000k.cu8 (79866 samples, 262144 bytes)
+^CSignal caught, exiting!
+
+
+utente@HP-Compaq:~/rtl_433/rtl_433_tests$ rtl_433 -f 868.3M -S unknown -T 120
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/utente/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+New defaults active, use "-Y classic -s 250k" for the old defaults!
+Registered 122 out of 149 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Found Rafael Micro R820T tuner
+Exact sample rate is: 1000000.026491 Hz
+[R82XX] PLL not locked!
+Sample rate set to 1000000 S/s.
+Tuner gain set to Auto.
+Tuned to 868.300MHz.
+*** Saving signal to file g005_868.3M_1000k.cu8 (79920 samples, 262144 bytes)
+*** Saving signal to file g006_868.3M_1000k.cu8 (181640 samples, 393216 bytes)
+Time expired, exiting!
+
+utente@HP-Compaq:~/rtl_433/rtl_433_tests$ rtl_433 -f 868.18M -S unknown -T 120
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/utente/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+New defaults active, use "-Y classic -s 250k" for the old defaults!
+Registered 122 out of 149 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Found Rafael Micro R820T tuner
+Exact sample rate is: 1000000.026491 Hz
+[R82XX] PLL not locked!
+Sample rate set to 1000000 S/s.
+Tuner gain set to Auto.
+Tuned to 868.180MHz.
+*** Saving signal to file g001_868.18M_1000k.cu8 (79869 samples, 262144 bytes)
+*** Saving signal to file g002_868.18M_1000k.cu8 (180210 samples, 393216 bytes)
+*** Saving signal to file g003_868.18M_1000k.cu8 (79873 samples, 262144 bytes)
+Time expired, exiting!
+
+utente@HP-Compaq:~/rtl_433/rtl_433_tests$ rtl_433 -r g001_868.18M_1000k.cu8 -A -a 4
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/utente/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+Registered 122 out of 149 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Test mode active. Reading samples from file: g001_868.18M_1000k.cu8
+Detected FSK package	@0.270348s
+Analyzing pulses...
+Total count:   19,  width: 180.75 ms		(45187 S)
+Pulse width distribution:
+ [ 0] count:    7,  width:   40 us [40;44]	(  10 S)
+ [ 1] count:    1,  width:  252 us [252;252]	(  63 S)
+ [ 2] count:    7,  width:   56 us [56;68]	(  14 S)
+ [ 3] count:    2,  width:  152 us [148;156]	(  38 S)
+ [ 4] count:    1,  width:   88 us [88;88]	(  22 S)
+ [ 5] count:    1,  width:  196 us [196;196]	(  49 S)
+Gap width distribution:
+ [ 0] count:    2,  width:  124 us [120;128]	(  31 S)
+ [ 1] count:    1,  width:   52 us [52;52]	(  13 S)
+ [ 2] count:    2,  width: 1544 us [1528;1560]	( 386 S)
+ [ 3] count:    4,  width: 25076 us [21676;26788]	(6269 S)
+ [ 4] count:    3,  width:  916 us [860;948]	( 229 S)
+ [ 5] count:    2,  width: 36056 us [33564;38548]	(9014 S)
+ [ 6] count:    3,  width:   76 us [68;84]	(  19 S)
+ [ 7] count:    1,  width:  408 us [408;408]	( 102 S)
+Pulse period distribution:
+ [ 0] count:    4,  width:  152 us [136;172]	(  38 S)
+ [ 1] count:    1,  width:  304 us [304;304]	(  76 S)
+ [ 2] count:    2,  width: 1592 us [1584;1600]	( 398 S)
+ [ 3] count:    4,  width: 25152 us [21824;26844]	(6288 S)
+ [ 4] count:    3,  width:  964 us [904;1004]	( 241 S)
+ [ 5] count:    2,  width: 36132 us [33632;38636]	(9033 S)
+ [ 6] count:    1,  width:  232 us [232;232]	(  58 S)
+ [ 7] count:    1,  width:  452 us [452;452]	( 113 S)
+Level estimates [high, low]:  15996,    181
+RSSI: -0.1 dB SNR: 19.5 dB Noise: -19.6 dB
+Frequency offsets [F1, F2]:   28607,  -1699	(+109.1 kHz, -6.5 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package	@0.513592s
+Analyzing pulses...
+Total count:   11,  width: 10.22 ms		( 2555 S)
+Pulse width distribution:
+ [ 0] count:    7,  width:   44 us [40;52]	(  11 S)
+ [ 1] count:    4,  width:   56 us [56;64]	(  14 S)
+Gap width distribution:
+ [ 0] count:    7,  width: 1068 us [1044;1096]	( 267 S)
+ [ 1] count:    3,  width:  720 us [712;728]	( 180 S)
+Pulse period distribution:
+ [ 0] count:    7,  width: 1120 us [1096;1136]	( 280 S)
+ [ 1] count:    3,  width:  772 us [772;776]	( 193 S)
+Level estimates [high, low]:   1000,    121
+RSSI: -12.1 dB SNR: 9.2 dB Noise: -21.3 dB
+Frequency offsets [F1, F2]:    2162,      0	(+8.2 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+*** signal_start = 57623, signal_end = 124680, signal_len = 67057, pulses_found = 1
+Distance coding: Pulse length 47056
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 47056
+bitbuffer:: Number of rows: 0 
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+utente@HP-Compaq:~/rtl_433/rtl_433_tests$ rtl_433 -r g002_868.18M_1000k.cu8 -A -a 4
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/utente/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+Registered 122 out of 149 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Test mode active. Reading samples from file: g002_868.18M_1000k.cu8
+Detected OOK package	@0.131128s
+Analyzing pulses...
+Total count:    3,  width: 189.76 ms		(47441 S)
+Pulse width distribution:
+ [ 0] count:    2,  width:   48 us [44;52]	(  12 S)
+ [ 1] count:    1,  width: 188352 us [188352;188352]	(47088 S)
+Gap width distribution:
+ [ 0] count:    1,  width: 1060 us [1060;1060]	( 265 S)
+ [ 1] count:    1,  width:  256 us [256;256]	(  64 S)
+Pulse period distribution:
+ [ 0] count:    1,  width: 1104 us [1104;1104]	( 276 S)
+ [ 1] count:    1,  width:  308 us [308;308]	(  77 S)
+Level estimates [high, low]:  16010,    112
+RSSI: -0.1 dB SNR: 21.6 dB Noise: -21.7 dB
+Frequency offsets [F1, F2]:     334,      0	(+1.3 kHz, +0.0 kHz)
+Guessing modulation: No clue...
+
+*** signal_start = 23172, signal_end = 90225, signal_len = 67053, pulses_found = 1
+Distance coding: Pulse length 47052
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 47052
+bitbuffer:: Number of rows: 0 
+Detected OOK package	@1.046744s
+Analyzing pulses...
+Total count:    2,  width: 0.80 ms		(  199 S)
+Pulse width distribution:
+ [ 0] count:    2,  width:   48 us [48;48]	(  12 S)
+Gap width distribution:
+ [ 0] count:    1,  width:  700 us [700;700]	( 175 S)
+Pulse period distribution:
+ [ 0] count:    1,  width:  748 us [748;748]	( 187 S)
+Level estimates [high, low]:   1000,     93
+RSSI: -12.1 dB SNR: 10.3 dB Noise: -22.5 dB
+Frequency offsets [F1, F2]:    1584,      0	(+6.0 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+utente@HP-Compaq:~/rtl_433/rtl_433_tests$ rtl_433 -r g003_868.18M_1000k.cu8 -A -a 4
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/utente/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+Registered 122 out of 149 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Test mode active. Reading samples from file: g003_868.18M_1000k.cu8
+Detected FSK package	@0.270332s
+Analyzing pulses...
+Total count:   23,  width: 188.42 ms		(47105 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:    0 us [0;0]	(   0 S)
+ [ 1] count:    1,  width:  360 us [360;360]	(  90 S)
+ [ 2] count:   11,  width:   40 us [40;48]	(  10 S)
+ [ 3] count:    4,  width:  100 us [92;108]	(  25 S)
+ [ 4] count:    4,  width:   56 us [52;68]	(  14 S)
+ [ 5] count:    1,  width:   72 us [72;72]	(  18 S)
+ [ 6] count:    1,  width:    8 us [8;8]	(   2 S)
+Gap width distribution:
+ [ 0] count:    1,  width:   44 us [44;44]	(  11 S)
+ [ 1] count:    1,  width:   68 us [68;68]	(  17 S)
+ [ 2] count:    4,  width: 1872 us [1736;2128]	( 468 S)
+ [ 3] count:    6,  width: 7104 us [6028;8064]	(1776 S)
+ [ 4] count:    4,  width: 11576 us [10416;12636]	(2894 S)
+ [ 5] count:    3,  width: 4292 us [3992;4756]	(1073 S)
+ [ 6] count:    3,  width: 25816 us [23868;29472]	(6454 S)
+Pulse period distribution:
+ [ 0] count:    1,  width:   44 us [44;44]	(  11 S)
+ [ 1] count:    1,  width:  428 us [428;428]	( 107 S)
+ [ 2] count:    4,  width: 1920 us [1784;2168]	( 480 S)
+ [ 3] count:    6,  width: 7168 us [6068;8104]	(1792 S)
+ [ 4] count:    4,  width: 11628 us [10464;12680]	(2907 S)
+ [ 5] count:    3,  width: 4356 us [4044;4848]	(1089 S)
+ [ 6] count:    3,  width: 25888 us [23976;29512]	(6472 S)
+Level estimates [high, low]:  15960,     67
+RSSI: -0.1 dB SNR: 23.8 dB Noise: -23.9 dB
+Frequency offsets [F1, F2]:   25444,   1044	(+97.1 kHz, +4.0 kHz)
+Guessing modulation: No clue...
+
+*** signal_start = 57621, signal_end = 124679, signal_len = 67058, pulses_found = 1
+Distance coding: Pulse length 47057
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 47057
+bitbuffer:: Number of rows: 0 
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+utente@HP-Compaq:~/rtl_433/rtl_433_tests$ rtl_433 -r g001_868.3M_1000k.cu8 -A -a 4
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/utente/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+Registered 122 out of 149 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Test mode active. Reading samples from file: g001_868.3M_1000k.cu8
+Detected FSK package	@0.270344s
+Analyzing pulses...
+Total count:   27,  width: 139.20 ms		(34799 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:    0 us [0;0]	(   0 S)
+ [ 1] count:    7,  width:   44 us [40;52]	(  11 S)
+ [ 2] count:   13,  width:  224 us [224;228]	(  56 S)
+ [ 3] count:    2,  width:  480 us [456;504]	( 120 S)
+ [ 4] count:    1,  width:  132 us [132;132]	(  33 S)
+ [ 5] count:    2,  width:   56 us [56;60]	(  14 S)
+ [ 6] count:    1,  width:   96 us [96;96]	(  24 S)
+Gap width distribution:
+ [ 0] count:    1,  width:  172 us [172;172]	(  43 S)
+ [ 1] count:    4,  width: 2756 us [2452;3300]	( 689 S)
+ [ 2] count:   13,  width:  236 us [236;244]	(  59 S)
+ [ 3] count:    1,  width:  704 us [704;704]	( 176 S)
+ [ 4] count:    2,  width: 26668 us [25860;27480]	(6667 S)
+ [ 5] count:    2,  width: 17388 us [16232;18544]	(4347 S)
+ [ 6] count:    1,  width: 10404 us [10404;10404]	(2601 S)
+ [ 7] count:    1,  width: 7652 us [7652;7652]	(1913 S)
+ [ 8] count:    1,  width: 13448 us [13448;13448]	(3362 S)
+Pulse period distribution:
+ [ 0] count:    1,  width:  172 us [172;172]	(  43 S)
+ [ 1] count:    4,  width: 2820 us [2548;3348]	( 705 S)
+ [ 2] count:   12,  width:  464 us [460;468]	( 116 S)
+ [ 3] count:    1,  width:  928 us [928;928]	( 232 S)
+ [ 4] count:    1,  width:  692 us [692;692]	( 173 S)
+ [ 5] count:    2,  width: 26940 us [25900;27984]	(6735 S)
+ [ 6] count:    2,  width: 17476 us [16364;18592]	(4369 S)
+ [ 7] count:    1,  width: 10444 us [10444;10444]	(2611 S)
+ [ 8] count:    1,  width: 7712 us [7712;7712]	(1928 S)
+ [ 9] count:    1,  width: 13500 us [13500;13500]	(3375 S)
+Level estimates [high, low]:  15894,    255
+RSSI: -0.1 dB SNR: 17.9 dB Noise: -18.1 dB
+Frequency offsets [F1, F2]:   23078,  -6291	(+88.0 kHz, -24.0 kHz)
+Guessing modulation: No clue...
+
+*** signal_start = 57624, signal_end = 124679, signal_len = 67055, pulses_found = 1
+Distance coding: Pulse length 47054
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 47054
+bitbuffer:: Number of rows: 0 
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+utente@HP-Compaq:~/rtl_433/rtl_433_tests$ rtl_433 -r g002_868.3M_1000k.cu8 -A -a 4
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/utente/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+Registered 122 out of 149 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Test mode active. Reading samples from file: g002_868.3M_1000k.cu8
+Detected OOK package	@0.130660s
+Analyzing pulses...
+Total count:    3,  width: 190.23 ms		(47558 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   40 us [40;40]	(  10 S)
+ [ 1] count:    1,  width:   52 us [52;52]	(  13 S)
+ [ 2] count:    1,  width: 188328 us [188328;188328]	(47082 S)
+Gap width distribution:
+ [ 0] count:    1,  width:  728 us [728;728]	( 182 S)
+ [ 1] count:    1,  width: 1084 us [1084;1084]	( 271 S)
+Pulse period distribution:
+ [ 0] count:    1,  width:  768 us [768;768]	( 192 S)
+ [ 1] count:    1,  width: 1136 us [1136;1136]	( 284 S)
+Level estimates [high, low]:  16003,    227
+RSSI: -0.1 dB SNR: 18.5 dB Noise: -18.6 dB
+Frequency offsets [F1, F2]:   -9045,      0	(-34.5 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with sync/delimiter
+Attempting demodulation... short_width: 52, long_width: 188328, reset_limit: 1088, sync_width: 40
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=52,l=188328,r=1088,g=0,t=0,y=40'
+pulse_demod_pwm(): Analyzer Device
+bitbuffer:: Number of rows: 1 
+[00] { 2} 80        : 10
+
+*** signal_start = 23177, signal_end = 90225, signal_len = 67048, pulses_found = 1
+Distance coding: Pulse length 47047
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 47047
+bitbuffer:: Number of rows: 0 
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+utente@HP-Compaq:~/rtl_433/rtl_433_tests$ rtl_433 -r g003_868.3M_1000k.cu8 -A -a 4
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/utente/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+Registered 122 out of 149 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Test mode active. Reading samples from file: g003_868.3M_1000k.cu8
+Detected OOK package	@0.114248s
+Analyzing pulses...
+Total count:   18,  width: 206.64 ms		(51661 S)
+Pulse width distribution:
+ [ 0] count:   11,  width:   44 us [40;52]	(  11 S)
+ [ 1] count:    6,  width:   56 us [52;68]	(  14 S)
+ [ 2] count:    1,  width: 188340 us [188340;188340]	(47085 S)
+Gap width distribution:
+ [ 0] count:   12,  width: 1068 us [952;1096]	( 267 S)
+ [ 1] count:    4,  width:  704 us [692;724]	( 176 S)
+ [ 2] count:    1,  width: 1812 us [1812;1812]	( 453 S)
+Pulse period distribution:
+ [ 0] count:   12,  width: 1116 us [1020;1148]	( 279 S)
+ [ 1] count:    4,  width:  748 us [736;772]	( 187 S)
+ [ 2] count:    1,  width: 1872 us [1872;1872]	( 468 S)
+Level estimates [high, low]:  15957,    124
+RSSI: -0.1 dB SNR: 21.1 dB Noise: -21.2 dB
+Frequency offsets [F1, F2]:   -7524,      0	(-28.7 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with sync/delimiter
+Attempting demodulation... short_width: 44, long_width: 56, reset_limit: 1816, sync_width: 188340
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=44,l=56,r=1816,g=0,t=0,y=188340'
+pulse_demod_pwm(): Analyzer Device
+bitbuffer:: Number of rows: 2 
+[00] {17} cb d2 00  : 11001011 11010010 0
+[01] { 0}           : 
+
+*** signal_start = 23174, signal_end = 90224, signal_len = 67050, pulses_found = 1
+Distance coding: Pulse length 47049
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 47049
+bitbuffer:: Number of rows: 0 
+Detected OOK package	@1.044928s
+Analyzing pulses...
+Total count:    3,  width: 2.34 ms		(  584 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   40 us [40;40]	(  10 S)
+ [ 1] count:    2,  width:   56 us [56;60]	(  14 S)
+Gap width distribution:
+ [ 0] count:    2,  width: 1088 us [1088;1092]	( 272 S)
+Pulse period distribution:
+ [ 0] count:    2,  width: 1140 us [1128;1152]	( 285 S)
+Level estimates [high, low]:   1000,     82
+RSSI: -12.1 dB SNR: 10.9 dB Noise: -23.0 dB
+Frequency offsets [F1, F2]:     -88,      0	(-0.3 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with fixed gap
+Attempting demodulation... short_width: 40, long_width: 56, reset_limit: 1096, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=40,l=56,r=1096,g=0,t=4,y=0'
+
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+utente@HP-Compaq:~/rtl_433/rtl_433_tests$ rtl_433 -r g004_868.3M_1000k.cu8 -A -a 4
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/utente/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+Registered 122 out of 149 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Test mode active. Reading samples from file: g004_868.3M_1000k.cu8
+Detected FSK package	@0.270360s
+Analyzing pulses...
+Total count:   32,  width: 114.26 ms		(28564 S)
+Pulse width distribution:
+ [ 0] count:    2,  width:   80 us [80;80]	(  20 S)
+ [ 1] count:    4,  width:   44 us [44;48]	(  11 S)
+ [ 2] count:   20,  width:  220 us [192;232]	(  55 S)
+ [ 3] count:    1,  width:  464 us [464;464]	( 116 S)
+ [ 4] count:    1,  width:  684 us [684;684]	( 171 S)
+ [ 5] count:    3,  width:   60 us [56;64]	(  15 S)
+ [ 6] count:    1,  width:  916 us [916;916]	( 229 S)
+Gap width distribution:
+ [ 0] count:    1,  width:   92 us [92;92]	(  23 S)
+ [ 1] count:    2,  width: 3484 us [3308;3664]	( 871 S)
+ [ 2] count:   17,  width:  240 us [232;272]	(  60 S)
+ [ 3] count:    2,  width:  668 us [636;704]	( 167 S)
+ [ 4] count:    5,  width:  440 us [376;484]	( 110 S)
+ [ 5] count:    1,  width: 1160 us [1160;1160]	( 290 S)
+ [ 6] count:    1,  width: 61736 us [61736;61736]	(15434 S)
+ [ 7] count:    1,  width: 7212 us [7212;7212]	(1803 S)
+ [ 8] count:    1,  width: 22408 us [22408;22408]	(5602 S)
+Pulse period distribution:
+ [ 0] count:    1,  width:  172 us [172;172]	(  43 S)
+ [ 1] count:    2,  width: 3540 us [3356;3724]	( 885 S)
+ [ 2] count:   17,  width:  460 us [452;468]	( 115 S)
+ [ 3] count:    2,  width:  940 us [928;956]	( 235 S)
+ [ 4] count:    5,  width:  696 us [692;700]	( 174 S)
+ [ 5] count:    1,  width: 2076 us [2076;2076]	( 519 S)
+ [ 6] count:    1,  width: 61928 us [61928;61928]	(15482 S)
+ [ 7] count:    1,  width: 7276 us [7276;7276]	(1819 S)
+ [ 8] count:    1,  width: 22456 us [22456;22456]	(5614 S)
+Level estimates [high, low]:  15944,    137
+RSSI: -0.1 dB SNR: 20.7 dB Noise: -20.8 dB
+Frequency offsets [F1, F2]:   21447,  -8757	(+81.8 kHz, -33.4 kHz)
+Guessing modulation: No clue...
+
+*** signal_start = 57626, signal_end = 124679, signal_len = 67053, pulses_found = 1
+Distance coding: Pulse length 47052
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 47052
+bitbuffer:: Number of rows: 0 
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+utente@HP-Compaq:~/rtl_433/rtl_433_tests$ rtl_433 -r g005_868.3M_1000k.cu8 -A -a 4
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/utente/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+Registered 122 out of 149 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Test mode active. Reading samples from file: g005_868.3M_1000k.cu8
+Detected FSK package	@0.270144s
+Analyzing pulses...
+Total count:   38,  width: 188.61 ms		(47152 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:  116 us [116;116]	(  29 S)
+ [ 1] count:    9,  width:   48 us [40;56]	(  12 S)
+ [ 2] count:    1,  width:   60 us [60;60]	(  15 S)
+ [ 3] count:    1,  width:   80 us [80;80]	(  20 S)
+ [ 4] count:   20,  width:  224 us [208;232]	(  56 S)
+ [ 5] count:    2,  width:  440 us [424;460]	( 110 S)
+ [ 6] count:    1,  width:  684 us [684;684]	( 171 S)
+ [ 7] count:    2,  width: 1040 us [928;1156]	( 260 S)
+ [ 8] count:    1,  width:   12 us [12;12]	(   3 S)
+Gap width distribution:
+ [ 0] count:    1,  width:   52 us [52;52]	(  13 S)
+ [ 1] count:    2,  width: 3176 us [2824;3528]	( 794 S)
+ [ 2] count:    5,  width:  424 us [376;468]	( 106 S)
+ [ 3] count:   18,  width:  236 us [232;256]	(  59 S)
+ [ 4] count:    2,  width:  704 us [704;704]	( 176 S)
+ [ 5] count:    2,  width: 1044 us [932;1160]	( 261 S)
+ [ 6] count:    1,  width: 13492 us [13492;13492]	(3373 S)
+ [ 7] count:    1,  width: 2396 us [2396;2396]	( 599 S)
+ [ 8] count:    1,  width: 20440 us [20440;20440]	(5110 S)
+ [ 9] count:    3,  width: 27764 us [25652;31656]	(6941 S)
+ [10] count:    1,  width: 43788 us [43788;43788]	(10947 S)
+Pulse period distribution:
+ [ 0] count:    1,  width:  168 us [168;168]	(  42 S)
+ [ 1] count:    2,  width: 3228 us [2880;3576]	( 807 S)
+ [ 2] count:   19,  width:  460 us [456;476]	( 115 S)
+ [ 3] count:    3,  width:  928 us [924;932]	( 232 S)
+ [ 4] count:    3,  width:  692 us [692;696]	( 173 S)
+ [ 5] count:    3,  width: 2208 us [2088;2452]	( 552 S)
+ [ 6] count:    1,  width: 13916 us [13916;13916]	(3479 S)
+ [ 7] count:    1,  width: 20496 us [20496;20496]	(5124 S)
+ [ 8] count:    3,  width: 27812 us [25696;31708]	(6953 S)
+ [ 9] count:    1,  width: 43828 us [43828;43828]	(10957 S)
+Level estimates [high, low]:  16012,    165
+RSSI: -0.1 dB SNR: 19.9 dB Noise: -20.0 dB
+Frequency offsets [F1, F2]:   19792,  -8612	(+75.5 kHz, -32.9 kHz)
+Guessing modulation: No clue...
+
+Detected OOK package	@0.524036s
+Analyzing pulses...
+Total count:    1,  width: 0.04 ms		(   11 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   44 us [44;44]	(  11 S)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:   1207,    150
+RSSI: -11.3 dB SNR: 9.1 dB Noise: -20.4 dB
+Frequency offsets [F1, F2]:    1103,      0	(+4.2 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+*** signal_start = 57573, signal_end = 124680, signal_len = 67107, pulses_found = 1
+Distance coding: Pulse length 47106
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 47106
+bitbuffer:: Number of rows: 0 
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+utente@HP-Compaq:~/rtl_433/rtl_433_tests$ rtl_433 -r g006_868.3M_1000k.cu8 -A -a 4
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/utente/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+Registered 122 out of 149 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Test mode active. Reading samples from file: g006_868.3M_1000k.cu8
+Detected OOK package	@0.125408s
+Analyzing pulses...
+Total count:    7,  width: 195.48 ms		(48871 S)
+Pulse width distribution:
+ [ 0] count:    4,  width:   44 us [40;48]	(  11 S)
+ [ 1] count:    2,  width:   68 us [68;72]	(  17 S)
+ [ 2] count:    1,  width: 188340 us [188340;188340]	(47085 S)
+Gap width distribution:
+ [ 0] count:    3,  width: 1076 us [1068;1084]	( 269 S)
+ [ 1] count:    2,  width:  684 us [672;696]	( 171 S)
+ [ 2] count:    1,  width: 2224 us [2224;2224]	( 556 S)
+Pulse period distribution:
+ [ 0] count:    3,  width: 1128 us [1116;1144]	( 282 S)
+ [ 1] count:    2,  width:  744 us [720;768]	( 186 S)
+ [ 2] count:    1,  width: 2264 us [2264;2264]	( 566 S)
+Level estimates [high, low]:  15924,     85
+RSSI: -0.1 dB SNR: 22.7 dB Noise: -22.9 dB
+Frequency offsets [F1, F2]:   -7216,      0	(-27.5 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with sync/delimiter
+Attempting demodulation... short_width: 44, long_width: 68, reset_limit: 2228, sync_width: 188340
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=44,l=68,r=2228,g=0,t=0,y=188340'
+pulse_demod_pwm(): Analyzer Device
+bitbuffer:: Number of rows: 2 
+[00] { 6} d8        : 110110
+[01] { 0}           : 
+
+*** signal_start = 23177, signal_end = 90224, signal_len = 67047, pulses_found = 1
+Distance coding: Pulse length 47046
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 47046
+bitbuffer:: Number of rows: 0 
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0 
+
