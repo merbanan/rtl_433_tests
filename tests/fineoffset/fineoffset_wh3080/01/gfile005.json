@@ -1,3 +1,3 @@
-{"time" : "@0.050636s", "model" : "Fineoffset-WHx080", "subtype" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 92021.797, "wm" : 134.732, "mic" : "CRC"}
-{"time" : "@0.203688s", "model" : "Fineoffset-WHx080", "subtype" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 92021.797, "wm" : 134.732, "mic" : "CRC"}
-{"time" : "@0.356744s", "model" : "Fineoffset-WHx080", "subtype" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 92021.797, "wm" : 134.732, "mic" : "CRC"}
+{"time" : "@0.050636s", "model" : "Fineoffset-WHx080", "subtype" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 92021.800, "wm" : 134.732, "mic" : "CRC"}
+{"time" : "@0.203688s", "model" : "Fineoffset-WHx080", "subtype" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 92021.800, "wm" : 134.732, "mic" : "CRC"}
+{"time" : "@0.356744s", "model" : "Fineoffset-WHx080", "subtype" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 92021.800, "wm" : 134.732, "mic" : "CRC"}
