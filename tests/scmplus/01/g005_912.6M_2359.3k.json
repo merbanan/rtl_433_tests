@@ -1,0 +1,1 @@
+{"time" : "@0.046401s", "model" : "SCM+", "ProtocolID" : "0x1E", "EndpointType" : "0xAB", "EndpointID" : 68211547, "Consumption" : 6886, "Tamper" : "0x4900", "PacketCRC" : "0xD24E", "MeterType" : "Water", "mic" : "CRC"}
