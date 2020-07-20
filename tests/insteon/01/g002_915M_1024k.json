@@ -1,0 +1,1 @@
+{"time" : "@0.094475s", "model" : "Insteon", "from_id" : "2B7811", "to_id" : "226B3F", "msg_type" : 2, "msg_str" : "Group Cleanup Direct Message", "extended" : 0, "hopsmax" : 1, "hopsleft" : 1, "formatted" : "45 : 226B3F : 2B7811 : 13 01  93", "mic" : "CRC", "payload" : "453F6B2211782B130193", "cmd_dat" : [19, 1]}
