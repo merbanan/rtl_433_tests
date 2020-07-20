@@ -1,1 +1,1 @@
-{"time" : "@0.086040s", "model" : "Eurochron-EFTH800", "id" : 1812, "channel" : 1, "battery_ok" : 1, "temperature_C" : 24.600, "humidity" : 40, "mic" : "CRC"}
+{"time" : "@0.086040s", "model" : "Eurochron-EFTH800", "id" : 1812, "channel" : 5, "battery_ok" : 1, "temperature_C" : 24.600, "humidity" : 40, "mic" : "CRC"}
