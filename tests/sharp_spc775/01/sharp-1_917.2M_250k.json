@@ -1,1 +1,1 @@
-{"time" : "@0.003924s", "model" : "Sharp-SPC775", "id" : 192, "battery_ok" : 1, "temperature_C" : 33.400, "humidity" : 16, "mic" : "CHECKSUM"}
+{"time" : "@0.004100s", "model" : "Sharp-SPC775", "id" : 192, "battery_ok" : 1, "temperature_C" : 33.400, "humidity" : 16, "mic" : "CRC"}
