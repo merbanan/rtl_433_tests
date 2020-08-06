@@ -12,15 +12,31 @@ FCC ID is "M48 TOP43XEV" but I could not find this exact reference on fcc.gov se
 Here is attached some pictures of the device and two CU8 samples signals (from the two buttons of the remote control).
 ![back](./back.jpg "back") ![front](./front.jpg "front")
 
-By anaylizing the two signals with `rtl_433 -A -r Button1_433.83M_250k.cu8` we can see the signal is simple. My guess are :
-- there is two pulse and gap lengths : short 330us, long 660us (based on average measure off the two signals).
-- there should be 12 bits somewhere on the signal to encode the 4096 possible codes.
+By anaylizing the two signals with `rtl_433 -A -r Button1_433.83M_250k.cu8` we can see the signal is simple. With the help of a russian site (http://phreakerclub.com/447), we guess the folloing information :
+- there is two pulse and gap lengts : short is 320us, long is 640us
+- there is a start pulse of 320us
+- the start pulse is followed by 12 bits
+- a 0 bit is a short gap (320us) followed by a long pulse (640us)
+- a 1 bit is a long gap (640us) followed by a short pulse (320us)
+- the message is repeated 4 times
+- there is 36 period of 320us between messages (11520us)
+- no CRC, no parity check, no premable.
 
-By looking at the signal with Audacity and PulseView :
-- the signals of button 1 differs from button 2 only by the 2nd pulses. It suggests me the code of button 1 should be close to button 2.
+A flex decoder can be written like this :
+```
+$> ./rtl_433 -r Button2_433.83M_250k.cu8 -X "n=CameRX,m=OOK_PPM,s=320,l=640,r=10000,invert,unique"
+(...)
+data      : 78c
+$> ./rtl_433 -r Button1_433.83M_250k.cu8 -X "n=CameRX,m=OOK_PPM,s=320,l=640,r=10000,invert,unique"
+(...)
+data      : b8c
+```
 
-But i cant figure out how the encoding work and how to make a decoder, because :
-- each frame is made of 13 pulses. Is it sufficient to encode 12 bits + a CRC or a parity ? no preamble ?
-- Because gap and pulse have two different possible lengths (resulting in 4 ways to encode a bits), I suppose a bit is simply encoded by the modulation (when mod is here : it is a 1, no mod it is a zero), without any way to synchronize the stream (maybe only on the first pulse?)
-- rtl_433 suggest the following flex decoder :  ` -X 'n=name,m=OOK_MC_ZEROBIT,s=330,l=0,r=660' ` but it seems to not being compatible with my own analysis.
+If you want to brute force all the combination of a code :
+- 12 bits x (320+640) = 11 520us
+- + the 11520 pause between each msg = 23 040us
+- + send 4 times the message = 92 160us
+- + send it 4096 times = 377 487 360us
+- so it could take up to 6 minutes to test all the code
+- but some optimisation are possible : receive accept pulse/gap of 300ms, and by using the De Bruijn sequence of 1972 bits, this time can be reduced to a few seconds (same principle as https://samy.pl/opensesame/)
 
