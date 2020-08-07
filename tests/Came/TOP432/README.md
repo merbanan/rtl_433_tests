@@ -24,12 +24,20 @@ By anaylizing the two signals with `rtl_433 -A -r Button1_433.83M_250k.cu8` we c
 
 A flex decoder can be written like this :
 ```
-$> ./rtl_433 -r Button2_433.83M_250k.cu8 -X "n=CameRX,m=OOK_PPM,s=320,l=640,r=10000,invert,unique"
+$> ./rtl_433 -r Button2_433.83M_250k.cu8 -X "n=CameTOP,m=OOK_PPM,s=320,l=640,r=10000,unique"
 (...)
 data      : 78c
-$> ./rtl_433 -r Button1_433.83M_250k.cu8 -X "n=CameRX,m=OOK_PPM,s=320,l=640,r=10000,invert,unique"
+$> ./rtl_433 -r Button1_433.83M_250k.cu8 -X "n=CameTOP,m=OOK_PPM,s=320,l=640,r=10000,unique"
 (...)
 data      : b8c
+```
+
+Because there is no CRC, the software decoder is not activated by default. To use it, you have to register the decoder when starting rtl_433 :
+```
+$> ./rtl_433 -R 164 -r Button1_433.83M_250k.cu8
+(...)
+time      : @0.436348s   brand     : CAME
+model     : TOP432       type      : remote control code      : 1139         code_hex  : 473
 ```
 
 If you want to brute force all the combination of a code :
