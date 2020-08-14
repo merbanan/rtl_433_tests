@@ -47,7 +47,7 @@ def convert(root, filename):
     protocol_fn = os.path.join(os.path.dirname(output_fn), "protocol")
     if os.path.isfile(protocol_fn):
         with open(protocol_fn, "r") as protocol_file:
-            protocol = int(protocol_file.readline())
+            protocol = protocol_file.readline().strip()
 
     # Open expected data
     old_data = []
