@@ -1,7 +1,8 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """Refresh rtl_433 JSON outputs."""
 
+import argparse
 import sys
 import os
 import fnmatch
@@ -24,7 +25,7 @@ def run_rtl433(input_fn, samplerate=None, protocol=None, rtl_433_cmd="rtl_433"):
     return (out, err, p.returncode)
 
 
-def convert(root, filename):
+def convert(root, filename, rtl_path):
     output_fn = os.path.join(root, filename)
 
     input_fn = os.path.splitext(output_fn)[0] + ".cu8"
@@ -55,7 +56,7 @@ def convert(root, filename):
         old_data = output_file.read().splitlines()
 
     # Run rtl_433
-    out, _err, exitcode = run_rtl433(input_fn, samplerate, protocol)
+    out, _err, exitcode = run_rtl433(input_fn, samplerate, protocol, rtl_path)
 
     if exitcode:
         print("ERROR: Exited with %d '%s'" % (exitcode, input_fn))
@@ -77,10 +78,16 @@ def convert(root, filename):
 
 def main():
     """Process all reference json files."""
+    parser = argparse.ArgumentParser(description='Update reference json files')
+    parser.add_argument('-c', '--rtl433-cmd', default='rtl_433',
+            help='rtl_433 command')
+    args = parser.parse_args()
+
+    rtl_433_cmd = args.rtl433_cmd
 
     for root, _dirnames, filenames in os.walk('tests'):
         for filename in fnmatch.filter(filenames, '*.json'):
-            convert(root, filename)
+            convert(root, filename, rtl_433_cmd)
 
 
 if __name__ == '__main__':
