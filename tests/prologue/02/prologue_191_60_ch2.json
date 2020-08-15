@@ -1,2 +1,1 @@
 {"time" : "@0.197804s", "model" : "Prologue-TH", "subtype" : 5, "id" : 29, "channel" : 2, "battery_ok" : 1, "temperature_C" : 19.100, "humidity" : 60, "button" : 0}
-{"time" : "@0.197804s", "model" : "Oregon-SL109H", "id" : 60, "channel" : 1, "temperature_C" : -178.100, "humidity" : 23, "status" : 15, "mic" : "CHECKSUM"}
