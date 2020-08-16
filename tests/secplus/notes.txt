@@ -1,0 +1,5 @@
+rtl_433 -S unknown -f 315M -d driver="lime" -g "" -s 2M
+
+secplus 2.0+ (v2)
+g001, g009, g017 - button #2
+b026, g034, g042, g044 - button #3
