@@ -12,3 +12,10 @@
 Obs.: This device operate in OOK or FSK Modulation, it can be selected cutting a contact in the PCB, aparently, this device is only for 
 brazillian market, so, if anyone have some question, feel free to ask.
 
+Obs.2: Tests maded in fsk modulation
+
+bit mapping:
+```
+01010101 01010101 01010101 11010010 00101011 11010100 10111101 11101100 - sensor open
+01010101 01010101 01010101 11010010 00101011 11010100 10111101 11101010 - sensor closed
+```
