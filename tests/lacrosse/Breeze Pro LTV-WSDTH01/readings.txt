@@ -1,0 +1,4 @@
+g001  f82  h55  ws3  wd NE
+g011  f82  h54  ws7  wd WNW
+g012  f81  h54  ws6  wd W
+g050  f82  h55  ws3  wd S

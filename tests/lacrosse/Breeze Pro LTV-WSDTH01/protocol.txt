@@ -1,0 +1,24 @@
+LaCrosse Breeze Pro LTV-WSDTH01 sensor
+(https://www.lacrossetechnology.com/products/ltv-wsdth01)
+
+sensors uses HopeRF CMT2119A ISM transmitter
+console (79400) uses HopeRF CMT2219A ISM receiver
+
+bit length 106.842us
+message length 28.46ms (fixed, includes sync, preamble, postamble and end gap)
+modulation FSK/PCM
+center frequency 914.938MHz
+
+Protocol details
+
+sync       (7 bytes - 0x55)
+preamble   (5 bytes - 0x5A 0x55 0x45 0xBA 0x81)
+device ID  (19 bits - changes when battery is replaced)
+flags??    (8 bits - unknown, possibly battery status?, solar charge?, message type?, test?, flags?, channel?)
+temp °C    (12 bits, offset 400, scale 10, range: -29°C to 60°C per device specifications)
+humidity   (12 bits, range: 10 to 99% relative per device specifications)
+wind speed (12 bits, range: 0 to 178 kMh per device specifications)
+wind dir   (12 bits, range: 0 to 359° per device specifications)
+checksum   (8 bits, ???)
+postamble  (4 bytes - 0x00 0xD2 0xD2 0xD2)
+end gap    (55 bits - all zeros)

@@ -1,0 +1,20 @@
+I'll confess that I'm not much of a signals guy but I did manage to breakout
+most of the protocol on this remote sensor.  There are four sample files
+submitted.  Each captures one packet.  The corresponding sensor readings from
+the LaCrosse 79400 console are provided in the readings.txt file.
+
+The majority of the protocol is described in the protocol.txt file.  There are
+only two bytes of data that I didn't take time to work on.  One byte containing
+flags or status info and the other for the CRC byte.  It's quite possible that
+the CRC is the same one used for the LaCrosse TX145wsdth (CRC-8 poly 0x31 init
+0x00 over preceeding 7 bytes) since the circuit boards (according to photos on
+file at FCC for these sensors) appear to be identical.  But I don't know how
+to verify that.  MCU programming could be different but maybe that doesn't
+matter if the HopeRF tx/rx chips have the ability to generate/check the CRC.
+
+Specifics on sensor hardware are also provided in the protocol.txt file.
+
+If I can supply additional sample files to help wrap this up please let me know
+and I'll do what I can to oblige.
+
+Mike/AJ9X
