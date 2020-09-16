@@ -1,0 +1,10 @@
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "random" : 168, "control" : "Down (4)", "checksum" : "OK", "counter" : 9, "address" : "abc437", "retransmission" : "FALSE"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "random" : 168, "control" : "Down (4)", "checksum" : "OK", "counter" : 9, "address" : "abc437", "retransmission" : "TRUE"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "random" : 168, "control" : "Down (4)", "checksum" : "OK", "counter" : 9, "address" : "abc437", "retransmission" : "TRUE"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "random" : 169, "control" : "Up + Down (6)", "checksum" : "OK", "counter" : 10, "address" : "abc437", "retransmission" : "FALSE"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "random" : 169, "control" : "Up + Down (6)", "checksum" : "OK", "counter" : 10, "address" : "abc437", "retransmission" : "TRUE"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "random" : 169, "control" : "Up + Down (6)", "checksum" : "OK", "counter" : 10, "address" : "abc437", "retransmission" : "TRUE"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "random" : 169, "control" : "Up + Down (6)", "checksum" : "OK", "counter" : 10, "address" : "abc437", "retransmission" : "TRUE"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "random" : 169, "control" : "Up + Down (6)", "checksum" : "OK", "counter" : 10, "address" : "abc437", "retransmission" : "TRUE"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "random" : 169, "control" : "Up + Down (6)", "checksum" : "OK", "counter" : 10, "address" : "abc437", "retransmission" : "TRUE"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "random" : 169, "control" : "Up + Down (6)", "checksum" : "OK", "counter" : 10, "address" : "abc437", "retransmission" : "TRUE"}
