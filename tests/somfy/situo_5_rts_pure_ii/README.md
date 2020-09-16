@@ -8,7 +8,9 @@ More information about the device can be found here:
 - https://shop.somfy.de//situo-5-rts-pure-ii.html (German)
 
 Here is a picture of the device's front:
+
 ![Situo 5 RTS Pure II Front](./front.jpg)
 
 Here is a picture of the device's back:
+
 ![Situo 5 RTS Pure II Back](./back.jpg)
