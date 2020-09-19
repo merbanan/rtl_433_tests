@@ -1,0 +1,12 @@
+on: [push, pull_request]
+jobs:
+  filename_check:
+    runs-on: ubuntu-latest
+    name: check filenames
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Filename Check
+      uses: ./.github/actions/file-check
