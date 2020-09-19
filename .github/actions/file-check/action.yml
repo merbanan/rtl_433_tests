@@ -1,0 +1,5 @@
+name: 'Filename Check'
+description: 'Check for common file name warnings'
+runs:
+  using: 'node12'
+  main: 'index.js'
