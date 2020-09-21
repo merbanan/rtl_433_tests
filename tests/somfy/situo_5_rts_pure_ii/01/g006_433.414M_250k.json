@@ -1,6 +1,6 @@
-{"time" : "@0.079260s", "model" : "Somfy-RTS", "id" : 3654826, "seed" : 175, "control" : "Down (4)", "checksum" : 7, "counter" : 160, "address" : "AAC437", "retransmission" : "FALSE", "mic" : "CHECKSUM"}
-{"time" : "@0.079260s", "model" : "Somfy-RTS", "id" : 3654826, "seed" : 175, "control" : "Down (4)", "checksum" : 7, "counter" : 160, "address" : "AAC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
-{"time" : "@0.079260s", "model" : "Somfy-RTS", "id" : 3654826, "seed" : 175, "control" : "Down (4)", "checksum" : 7, "counter" : 160, "address" : "AAC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
-{"time" : "@0.079260s", "model" : "Somfy-RTS", "id" : 3654826, "seed" : 175, "control" : "Down (4)", "checksum" : 7, "counter" : 160, "address" : "AAC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
-{"time" : "@0.079260s", "model" : "Somfy-RTS", "id" : 3654826, "seed" : 175, "control" : "Down (4)", "checksum" : 7, "counter" : 160, "address" : "AAC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
-{"time" : "@0.079260s", "model" : "Somfy-RTS", "id" : 3654826, "seed" : 175, "control" : "Down (4)", "checksum" : 7, "counter" : 160, "address" : "AAC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
+{"time" : "@0.079260s", "model" : "Somfy-RTS", "id" : 3654826, "control" : "Down (4)", "counter" : 160, "address" : "AAC437", "retransmission" : "FALSE", "mic" : "CHECKSUM"}
+{"time" : "@0.079260s", "model" : "Somfy-RTS", "id" : 3654826, "control" : "Down (4)", "counter" : 160, "address" : "AAC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
+{"time" : "@0.079260s", "model" : "Somfy-RTS", "id" : 3654826, "control" : "Down (4)", "counter" : 160, "address" : "AAC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
+{"time" : "@0.079260s", "model" : "Somfy-RTS", "id" : 3654826, "control" : "Down (4)", "counter" : 160, "address" : "AAC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
+{"time" : "@0.079260s", "model" : "Somfy-RTS", "id" : 3654826, "control" : "Down (4)", "counter" : 160, "address" : "AAC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
+{"time" : "@0.079260s", "model" : "Somfy-RTS", "id" : 3654826, "control" : "Down (4)", "counter" : 160, "address" : "AAC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}

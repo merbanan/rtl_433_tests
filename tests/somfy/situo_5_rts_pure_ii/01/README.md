@@ -17,43 +17,43 @@ The signal is captured in `g015_433.414M_250k.cu8` and the decoders JSON output 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.325252s
 model     : Somfy-RTS    Id        : 3654827
-Seed      : 0xA8         Control   : Down (4)      Checksum  : 0x2           Counter   : 9             Address   : ABC437        Retransmission: FALSE     Integrity : CHECKSUM
+Control   : Down (4)     Counter   : 9             Address   : ABC437        Retransmission: FALSE     Integrity : CHECKSUM
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.325252s
 model     : Somfy-RTS    Id        : 3654827
-Seed      : 0xA8         Control   : Down (4)      Checksum  : 0x2           Counter   : 9             Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
+Control   : Down (4)     Counter   : 9             Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.325252s
 model     : Somfy-RTS    Id        : 3654827
-Seed      : 0xA8         Control   : Down (4)      Checksum  : 0x2           Counter   : 9             Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
+Control   : Down (4)     Counter   : 9             Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.325252s
 model     : Somfy-RTS    Id        : 3654827
-Seed      : 0xA9         Control   : Up + Down (6) Checksum  : 0x2           Counter   : 10            Address   : ABC437        Retransmission: FALSE     Integrity : CHECKSUM
+Control   : Up + Down (6) Counter   : 10           Address   : ABC437        Retransmission: FALSE     Integrity : CHECKSUM
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.325252s
 model     : Somfy-RTS    Id        : 3654827
-Seed      : 0xA9         Control   : Up + Down (6) Checksum  : 0x2           Counter   : 10            Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
+Control   : Up + Down (6) Counter   : 10           Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.325252s
 model     : Somfy-RTS    Id        : 3654827
-Seed      : 0xA9         Control   : Up + Down (6) Checksum  : 0x2           Counter   : 10            Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
+Control   : Up + Down (6) Counter   : 10           Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.325252s
 model     : Somfy-RTS    Id        : 3654827
-Seed      : 0xA9         Control   : Up + Down (6) Checksum  : 0x2           Counter   : 10            Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
+Control   : Up + Down (6) Counter   : 10           Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.325252s
 model     : Somfy-RTS    Id        : 3654827
-Seed      : 0xA9         Control   : Up + Down (6) Checksum  : 0x2           Counter   : 10            Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
+Control   : Up + Down (6) Counter   : 10           Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.325252s
 model     : Somfy-RTS    Id        : 3654827
-Seed      : 0xA9         Control   : Up + Down (6) Checksum  : 0x2           Counter   : 10            Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
+Control   : Up + Down (6) Counter   : 10           Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.325252s
 model     : Somfy-RTS    Id        : 3654827
-Seed      : 0xA9         Control   : Up + Down (6) Checksum  : 0x2           Counter   : 10            Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
+Control   : Up + Down (6) Counter   : 10           Address   : ABC437        Retransmission: TRUE      Integrity : CHECKSUM
 ```
 
 Here, is another capture from the same remote but with a different address. Additonally, the single low bit after the preamble is missing. The signal is captured in `g006_433.414M_250k.cu8` and the decoders JSON output can be found in `g006_433.414M_250k.json`.
@@ -62,25 +62,25 @@ Here, is another capture from the same remote but with a different address. Addi
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.079260s
 model     : Somfy-RTS    Id        : 3654826
-Seed      : 0xAF         Control   : Down (4)      Checksum  : 0x7           Counter   : 160           Address   : AAC437        Retransmission: FALSE     Integrity : CHECKSUM
+Control   : Down (4)     Counter   : 160           Address   : AAC437        Retransmission: FALSE     Integrity : CHECKSUM
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.079260s
 model     : Somfy-RTS    Id        : 3654826
-Seed      : 0xAF         Control   : Down (4)      Checksum  : 0x7           Counter   : 160           Address   : AAC437        Retransmission: TRUE      Integrity : CHECKSUM
+Control   : Down (4)     Counter   : 160           Address   : AAC437        Retransmission: TRUE      Integrity : CHECKSUM
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.079260s
 model     : Somfy-RTS    Id        : 3654826
-Seed      : 0xAF         Control   : Down (4)      Checksum  : 0x7           Counter   : 160           Address   : AAC437        Retransmission: TRUE      Integrity : CHECKSUM
+Control   : Down (4)     Counter   : 160           Address   : AAC437        Retransmission: TRUE      Integrity : CHECKSUM
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.079260s
 model     : Somfy-RTS    Id        : 3654826
-Seed      : 0xAF         Control   : Down (4)      Checksum  : 0x7           Counter   : 160           Address   : AAC437        Retransmission: TRUE      Integrity : CHECKSUM
+Control   : Down (4)     Counter   : 160           Address   : AAC437        Retransmission: TRUE      Integrity : CHECKSUM
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.079260s
 model     : Somfy-RTS    Id        : 3654826
-Seed      : 0xAF         Control   : Down (4)      Checksum  : 0x7           Counter   : 160           Address   : AAC437        Retransmission: TRUE      Integrity : CHECKSUM
+Control   : Down (4)     Counter   : 160           Address   : AAC437        Retransmission: TRUE      Integrity : CHECKSUM
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 time      : @0.079260s
 model     : Somfy-RTS    Id        : 3654826
-Seed      : 0xAF         Control   : Down (4)      Checksum  : 0x7           Counter   : 160           Address   : AAC437        Retransmission: TRUE      Integrity : CHECKSUM
+Control   : Down (4)     Counter   : 160           Address   : AAC437        Retransmission: TRUE      Integrity : CHECKSUM
 ```

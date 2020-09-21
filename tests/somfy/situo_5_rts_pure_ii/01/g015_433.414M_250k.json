@@ -1,10 +1,10 @@
-{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "seed" : 168, "control" : "Down (4)", "checksum" : 2, "counter" : 9, "address" : "ABC437", "retransmission" : "FALSE", "mic" : "CHECKSUM"}
-{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "seed" : 168, "control" : "Down (4)", "checksum" : 2, "counter" : 9, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
-{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "seed" : 168, "control" : "Down (4)", "checksum" : 2, "counter" : 9, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
-{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "seed" : 169, "control" : "Up + Down (6)", "checksum" : 2, "counter" : 10, "address" : "ABC437", "retransmission" : "FALSE", "mic" : "CHECKSUM"}
-{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "seed" : 169, "control" : "Up + Down (6)", "checksum" : 2, "counter" : 10, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
-{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "seed" : 169, "control" : "Up + Down (6)", "checksum" : 2, "counter" : 10, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
-{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "seed" : 169, "control" : "Up + Down (6)", "checksum" : 2, "counter" : 10, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
-{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "seed" : 169, "control" : "Up + Down (6)", "checksum" : 2, "counter" : 10, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
-{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "seed" : 169, "control" : "Up + Down (6)", "checksum" : 2, "counter" : 10, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
-{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "seed" : 169, "control" : "Up + Down (6)", "checksum" : 2, "counter" : 10, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "control" : "Down (4)", "counter" : 9, "address" : "ABC437", "retransmission" : "FALSE", "mic" : "CHECKSUM"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "control" : "Down (4)", "counter" : 9, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "control" : "Down (4)", "counter" : 9, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "control" : "Up + Down (6)", "counter" : 10, "address" : "ABC437", "retransmission" : "FALSE", "mic" : "CHECKSUM"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "control" : "Up + Down (6)", "counter" : 10, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "control" : "Up + Down (6)", "counter" : 10, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "control" : "Up + Down (6)", "counter" : 10, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "control" : "Up + Down (6)", "counter" : 10, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "control" : "Up + Down (6)", "counter" : 10, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
+{"time" : "@0.325252s", "model" : "Somfy-RTS", "id" : 3654827, "control" : "Up + Down (6)", "counter" : 10, "address" : "ABC437", "retransmission" : "TRUE", "mic" : "CHECKSUM"}
