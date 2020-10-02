@@ -20,7 +20,9 @@ const github = {
   base_ref: process.env.GITHUB_BASE_REF,
 }
 
-const refspec = github.base_ref ? `${github.base_ref}..${github.head_ref}` : github.sha
+console.log(`sha: ${github.sha} head_ref: ${github.head_ref} base_ref: ${github.base_ref}`)
+//const refspec = github.base_ref ? `${github.base_ref}..${github.head_ref}` : github.sha // would be master..master
+const refspec = github.base_ref ? 'origin/master..HEAD' : github.sha
 console.log(`refspec: ${refspec}`)
 
 exec(`git diff-tree --no-commit-id --name-only -r ${refspec}`, (error, stdout, stderr) => {
