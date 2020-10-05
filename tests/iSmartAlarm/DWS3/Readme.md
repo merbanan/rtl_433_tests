@@ -1,5 +1,5 @@
-Specifications - Contact Sensor
-- Tuesday, May 24, 2016 5:09 PM
+Contact Sensor
+
 Model: DWS3 (U.S.)
 
 Device dimensions: 1.96" x 1.96" x 0.51" (50mm x 50mm x 13mm)
@@ -20,3 +20,5 @@ Frequency: 908 MHz (U.S.)
 
 
 **************************
+Tested Sensor's Unique Serial Number is :  0003CFE8
+
