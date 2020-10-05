@@ -7,7 +7,7 @@ Additional Information https://blog.seekintoo.com/diy-smart-home-security-meh/
 From the above link, someone already attempted to decode it/receive code using rfcat_receiver.  
 Here is the config used:
 
-def ConfigureD(d, freq):
+# def ConfigureD(d, freq):
     d.setModeIDLE()
     d.setMdmModulation(MOD_GFSK)
     d.setFreq(freq)
