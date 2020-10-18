@@ -25,6 +25,10 @@ def run_rtl433(input_fn, samplerate=None, protocol=None, rtl_433_cmd="rtl_433"):
     # print(" ".join(cmd))
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     out, err = p.communicate()
+    # Pass warning messages through
+    for line in err.split("\n"):
+        if "WARNING:" in line:
+            print(line)
     return (out, err, p.returncode)
 
 
