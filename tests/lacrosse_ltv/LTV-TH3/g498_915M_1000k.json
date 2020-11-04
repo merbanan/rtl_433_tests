@@ -1,1 +1,1 @@
-{time : @0.077933s, model : LaCrosse-TH3, id : 1116241, seq : 4, flags : 0, temperature_C : 5.200, humidity : 85, mic : CRC}
+{"time" : "@0.077933s", "model" : "LaCrosse-TH3", "id" : 1116241, "seq" : 4, "flags" : 0, "temperature_C" : 5.200, "humidity" : 85, "mic" : "CRC"}

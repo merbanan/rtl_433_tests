@@ -1,2 +1,2 @@
-{time : @0.159060s, model : LaCrosse-R1, id : 3670818, seq : 7, flags : 0, rain1 : 170, rain2 : 5226, mic : CRC}
-{time : @0.159060s, model : LaCrosse-R1, id : 3670818, seq : 7, flags : 0, rain1 : 170, rain2 : 5226, mic : CRC}
+{"time" : "@0.127724s", "model" : "LaCrosse-R1", "id" : 3670818, "seq" : 0, "flags" : 0, "rain1" : 170, "rain2" : 6752, "mic" : "CRC"}
+{"time" : "@0.127724s", "model" : "LaCrosse-R1", "id" : 3670818, "seq" : 0, "flags" : 0, "rain1" : 170, "rain2" : 6752, "mic" : "CRC"}
