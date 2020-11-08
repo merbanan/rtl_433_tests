@@ -1,45 +1,15 @@
-{"time" : "@0.079808s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@0.079808s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.079808s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.159860s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@0.159860s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.159860s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.239916s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@0.239916s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.239916s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.319980s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@0.319980s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.319980s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.400052s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@0.400052s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.400052s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.480124s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@0.480124s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.480124s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.560200s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@0.560200s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.560200s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.640264s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@0.640264s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.640264s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.720336s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@0.720336s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.720336s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.800412s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@0.800412s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.800412s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.880488s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@0.880488s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.880488s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.960564s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@0.960564s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@0.960564s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@1.040644s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@1.040644s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@1.040644s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@1.120716s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@1.120716s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@1.120716s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@1.200792s", "model" : "KlikAanKlikUit-Switch", "id" : 10845866, "unit" : 15, "group_call" : "No", "command" : "On", "dim" : "No", "dim_value" : 0}
 {"time" : "@1.200792s", "model" : "Proove-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
-{"time" : "@1.200792s", "model" : "Nexa-Security", "id" : 10845866, "channel" : 0, "state" : "ON", "unit" : 0, "group" : 0}
