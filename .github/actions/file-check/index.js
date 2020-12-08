@@ -26,7 +26,9 @@ console.log(`sha: ${github.sha} head_ref: ${github.head_ref} base_ref: ${github.
 const refspec = github.sha
 console.log(`refspec: ${refspec}`)
 
-exec(`git diff-tree --no-commit-id --name-only -r ${refspec}`, (error, stdout, stderr) => {
+// Get a list of all files that have been changed.
+// Ignore files that have been removed.
+exec(`git diff-tree --no-commit-id --name-only -r ${refspec} --diff-filter d`, (error, stdout, stderr) => {
   if (error) {
     console.log(`::error::${error.message}`)
     process.exit(1)
