@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """Compare actual output lines of rtl_433 with reference json."""
 
