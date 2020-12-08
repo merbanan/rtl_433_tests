@@ -83,10 +83,10 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec} --diff-filter d`, (
       errors++
     }
     else if (ext == '.txt') {
-      console.log(`::warning file=${file}::foo Don't add random .txt files, use the README.md`)
+      console.log(`::warning file=${file}::Don't add random .txt files, use the README.md`)
     }
     else if (ext == '.md') {
-      console.log(`::warning file=${file}::foo Don't add random .md files, use the README.md`)
+      console.log(`::warning file=${file}::Don't add random .md files, use the README.md`)
     }
     else if (ext == '.json') {
       errors += check_json(file)
@@ -101,7 +101,7 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec} --diff-filter d`, (
       errors += check_image(file)
     }
     else {
-      console.log(`::error file=${file}::foo Don't add random files`)
+      console.log(`::error file=${file}::Don't add random files`)
       errors++
     }
   }
