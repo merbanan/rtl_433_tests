@@ -7,3 +7,5 @@ instead of
 
 const float wm = (get_rawlight(br)/6830);
 
+It seems like this is not decoded properly by rtl_433 (as of 2020-12-08).
+
