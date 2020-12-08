@@ -44,7 +44,7 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec} --diff-filter d`, (
   let dirs_checked = []
   for (file of files) {
     const ext = path.extname(file)
-    const dirname = path.basename(file)
+    const dirname = path.dirname(file)
     const basename = path.basename(file)
     const filename = path.basename(file, ext)
 
@@ -111,9 +111,9 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec} --diff-filter d`, (
 
 function check_json(file) {
   const ext = path.extname(file)
-  const dirname = path.basename(file)
+  const dirname = path.dirname(file)
   const filename = path.basename(file, ext)
-  if (!fs.existsSync(path.join(dirname, filename, '.cu8'))) {
+  if (!fs.existsSync(path.join(dirname, `${filename}.cu8`))) {
     console.log(`::error file=${file}::Add .json files only for .cu8 files`)
     return 1
   }
