@@ -46,7 +46,6 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec} --diff-filter d`, (
     const ext = path.extname(file)
     const dirname = path.dirname(file)
     const basename = path.basename(file)
-    const filename = path.basename(file, ext)
 
     if (dirname.startsWith('tests/') && !dirs_checked.includes(dirname)) {
       if (!fs.existsSync(path.join(dirname, 'README.md'))) {
@@ -60,6 +59,9 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec} --diff-filter d`, (
       // not checked
     }
     else if (basename == 'ignore' || basename == 'protocol' || basename == 'samplerate') {
+      // ok
+    }
+    else if (basename === 'README.md') {
       // ok
     }
     else if (dirname == 'tests') {
@@ -78,7 +80,7 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec} --diff-filter d`, (
       console.log(`::error file=${file}::Don't use spaces in filenames`)
       errors++
     }
-    else if (filename.toUpperCase().startsWith('README') && filename != 'README.md') {
+    else if (basename.toUpperCase().startsWith('README') && basename != 'README.md') {
       console.log(`::error file=${file}::Use "README.md" as filename`)
       errors++
     }
@@ -112,8 +114,8 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec} --diff-filter d`, (
 function check_json(file) {
   const ext = path.extname(file)
   const dirname = path.dirname(file)
-  const filename = path.basename(file, ext)
-  if (!fs.existsSync(path.join(dirname, `${filename}.cu8`))) {
+  const filename_no_ext = path.basename(file, ext)
+  if (!fs.existsSync(path.join(dirname, `${filename_no_ext}.cu8`))) {
     console.log(`::error file=${file}::Add .json files only for .cu8 files`)
     return 1
   }
