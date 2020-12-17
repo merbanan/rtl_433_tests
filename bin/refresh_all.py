@@ -9,20 +9,33 @@ import fnmatch
 import subprocess
 import json
 
-
 def run_rtl433(input_fn, samplerate=None, protocol=None, rtl_433_cmd="rtl_433"):
     """Run rtl_433 and return output."""
-    args = ['-c', '0', '-M', 'newmodel']
+    args = ['-c', '0']
     if protocol:
         args.extend(['-R', str(protocol)])
     if samplerate:
         args.extend(['-s', str(samplerate)])
     args.extend(['-F', 'json', '-r', input_fn])
     cmd = [rtl_433_cmd] + args
-    # print(" ".join(cmd))
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     out, err = p.communicate()
     return (out, err, p.returncode)
+
+
+def get_model_from_json(json_str):
+    try:
+        decoded = json.loads(json_str)
+        return decoded["model"]
+    # TODO: what exceptions can we expect?
+    except Exception as e:
+        print("ERROR: exception:", e)
+    return None
+
+
+def matches_model(expected_model, data):
+    model = get_model_from_json(data)
+    return model == expected_model
 
 
 def convert(root, filename, rtl_path):
@@ -55,6 +68,10 @@ def convert(root, filename, rtl_path):
     with open(output_fn, "r") as output_file:
         old_data = output_file.read().splitlines()
 
+    expected_model = None
+    if len(old_data) > 0:
+        expected_model = get_model_from_json(old_data[0])
+
     # Run rtl_433
     out, _err, exitcode = run_rtl433(input_fn, samplerate, protocol, rtl_path)
 
@@ -64,6 +81,20 @@ def convert(root, filename, rtl_path):
     # get JSON results
     out = out.decode('ascii')
     new_data = out.splitlines()
+
+    new_data_without_false_positives = []
+    if expected_model:
+        for item in new_data:
+            if matches_model(expected_model, item):
+                new_data_without_false_positives.append(item)
+            else:
+                # This is a false positive
+                pass
+    if len(new_data_without_false_positives) > 0:
+        false_positives = len(new_data) - len(new_data_without_false_positives)
+        if false_positives:
+            print(f"INFO: {input_fn} ({expected_model}) generated {false_positives} false positives")
+        new_data = new_data_without_false_positives
 
     if len(old_data) != len(new_data):
         print("\nWARNING: Different data for '%s'" % (input_fn))

@@ -26,7 +26,9 @@ console.log(`sha: ${github.sha} head_ref: ${github.head_ref} base_ref: ${github.
 const refspec = github.sha
 console.log(`refspec: ${refspec}`)
 
-exec(`git diff-tree --no-commit-id --name-only -r ${refspec}`, (error, stdout, stderr) => {
+// Get a list of all files that have been changed.
+// Ignore files that have been removed.
+exec(`git diff-tree --no-commit-id --name-only -r ${refspec} --diff-filter d`, (error, stdout, stderr) => {
   if (error) {
     console.log(`::error::${error.message}`)
     process.exit(1)
@@ -42,9 +44,8 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec}`, (error, stdout, s
   let dirs_checked = []
   for (file of files) {
     const ext = path.extname(file)
-    const dirname = path.basename(file)
+    const dirname = path.dirname(file)
     const basename = path.basename(file)
-    const filename = path.basename(file, ext)
 
     if (dirname.startsWith('tests/') && !dirs_checked.includes(dirname)) {
       if (!fs.existsSync(path.join(dirname, 'README.md'))) {
@@ -58,6 +59,9 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec}`, (error, stdout, s
       // not checked
     }
     else if (basename == 'ignore' || basename == 'protocol' || basename == 'samplerate') {
+      // ok
+    }
+    else if (basename === 'README.md') {
       // ok
     }
     else if (dirname == 'tests') {
@@ -76,15 +80,15 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec}`, (error, stdout, s
       console.log(`::error file=${file}::Don't use spaces in filenames`)
       errors++
     }
-    else if (filename.toUpperCase().startsWith('README') && filename != 'README.md') {
+    else if (basename.toUpperCase().startsWith('README') && basename != 'README.md') {
       console.log(`::error file=${file}::Use "README.md" as filename`)
       errors++
     }
     else if (ext == '.txt') {
-      console.log(`::warning file=${file}::foo Don't add random .txt files, use the README.md`)
+      console.log(`::warning file=${file}::Don't add random .txt files, use the README.md`)
     }
     else if (ext == '.md') {
-      console.log(`::warning file=${file}::foo Don't add random .md files, use the README.md`)
+      console.log(`::warning file=${file}::Don't add random .md files, use the README.md`)
     }
     else if (ext == '.json') {
       errors += check_json(file)
@@ -99,7 +103,7 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec}`, (error, stdout, s
       errors += check_image(file)
     }
     else {
-      console.log(`::error file=${file}::foo Don't add random files`)
+      console.log(`::error file=${file}::Don't add random files`)
       errors++
     }
   }
@@ -109,9 +113,9 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec}`, (error, stdout, s
 
 function check_json(file) {
   const ext = path.extname(file)
-  const dirname = path.basename(file)
-  const filename = path.basename(file, ext)
-  if (!fs.existsSync(path.join(dirname, filename, '.cu8'))) {
+  const dirname = path.dirname(file)
+  const filename_no_ext = path.basename(file, ext)
+  if (!fs.existsSync(path.join(dirname, `${filename_no_ext}.cu8`))) {
     console.log(`::error file=${file}::Add .json files only for .cu8 files`)
     return 1
   }

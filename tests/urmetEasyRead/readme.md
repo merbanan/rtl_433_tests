@@ -35,8 +35,6 @@ Actually the tank is at 24-25%
 
 - In folder 03 there are newest files (grabbed the same of folder 02) but renamed including   timestamp
 
-- In folder tool there are: grc flow chart used for demod, python code for demod, python code for decode (work in progress)
-  
 A spanish manual of the device can be found at: https://fccid.io/ANATEL/04171-13-04439/Manual-EASY-READ-SRP-BRA/8D3562AD-1F22-4A62-B89C-6C89D599ADB5
 
 Actual data investigation is stuck on clock recovery. I've found a 101010etc 

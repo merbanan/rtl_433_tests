@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """Compare actual output lines of rtl_433 with reference json."""
 
@@ -12,19 +12,21 @@ import json
 
 from deepdiff import DeepDiff
 
-
 def run_rtl433(input_fn, samplerate=None, protocol=None, rtl_433_cmd="rtl_433"):
     """Run rtl_433 and return output."""
-    args = ['-c', '0', '-M', 'newmodel']
+    args = ['-c', '0']
     if protocol:
         args.extend(['-R', str(protocol)])
     if samplerate:
         args.extend(['-s', str(samplerate)])
     args.extend(['-F', 'json', '-r', input_fn])
     cmd = [rtl_433_cmd] + args
-    # print(" ".join(cmd))
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     out, err = p.communicate()
+    # Pass warning messages through
+    for line in err.decode("utf-8").split("\n"):
+        if "WARNING:" in line:
+            print(line)
     return (out, err, p.returncode)
 
 
@@ -65,6 +67,7 @@ def main():
     expected_json = find_json()
     nb_ok = 0
     nb_fail = 0
+    false_positives = dict()
     for output_fn in expected_json:
         input_fn = os.path.splitext(output_fn)[0] + ".cu8"
         if not os.path.isfile(input_fn):
@@ -115,7 +118,21 @@ def main():
             if not json_line.strip():
                 continue
             try:
-                results.append(json.loads(json_line))
+                data = json.loads(json_line)
+                if "model" in data:
+                    expected_model = expected_data[0]["model"]
+                    actual_model = data["model"]
+                    if actual_model != expected_model:
+                        if actual_model not in false_positives:
+                            false_positives[actual_model] = dict()
+                            false_positives[actual_model]["count"] = 1
+                            false_positives[actual_model]["models"] = set()
+                            false_positives[actual_model]["models"].add(expected_model)
+                        else:
+                            false_positives[actual_model]["count"]  += 1
+                            false_positives[actual_model]["models"].add(expected_model)
+                        continue
+                results.append(data)
             except ValueError:
                 nb_fail += 1
                 # TODO: factorise error print
@@ -144,6 +161,11 @@ def main():
             print("  But got: " + str(results))
         else:
             nb_ok += 1
+
+    for model, values in false_positives.items():
+        count = values["count"]
+        models = values["models"]
+        print(f"WARNING: {model} generated {count} false positive(s) in other decoders: {models}")
 
     # print some summary
     print("%d records tested, %d have failed" % (nb_ok+nb_fail, nb_fail))
