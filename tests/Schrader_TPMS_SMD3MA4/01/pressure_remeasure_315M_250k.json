@@ -1,8 +1,8 @@
-{"time" : "@0.120080s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : "03", "id" : "3F0650", "pressure_PSI" : 31.200}
-{"time" : "@0.280360s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : "03", "id" : "3F0650", "pressure_PSI" : 31.200}
-{"time" : "@0.400572s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : "03", "id" : "3F0650", "pressure_PSI" : 31.200}
-{"time" : "@0.500748s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : "03", "id" : "3F0650", "pressure_PSI" : 31.200}
-{"time" : "@0.610700s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : "03", "id" : "3F0650", "pressure_PSI" : 31.200}
-{"time" : "@0.739700s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : "03", "id" : "3F0650", "pressure_PSI" : 31.200}
-{"time" : "@0.849636s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : "03", "id" : "3F0650", "pressure_PSI" : 31.200}
-{"time" : "@0.959580s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : "03", "id" : "3F0650", "pressure_PSI" : 31.200}
+{"time" : "@0.120080s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 3, "id" : "3F0650", "pressure_PSI" : 31.200}
+{"time" : "@0.280360s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 3, "id" : "3F0650", "pressure_PSI" : 31.200}
+{"time" : "@0.400572s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 3, "id" : "3F0650", "pressure_PSI" : 31.200}
+{"time" : "@0.500748s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 3, "id" : "3F0650", "pressure_PSI" : 31.200}
+{"time" : "@0.610700s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 3, "id" : "3F0650", "pressure_PSI" : 31.200}
+{"time" : "@0.739700s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 3, "id" : "3F0650", "pressure_PSI" : 31.200}
+{"time" : "@0.849636s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 3, "id" : "3F0650", "pressure_PSI" : 31.200}
+{"time" : "@0.959580s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 3, "id" : "3F0650", "pressure_PSI" : 31.200}
