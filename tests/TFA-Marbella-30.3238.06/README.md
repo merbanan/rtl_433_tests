@@ -18,7 +18,7 @@ Radio encoding
 The Marbella sensor operates at 868MHz frequency band.
 Using rtl_433 with -A option indicates: FSK_PCM with s=424,l=424 and r=434176
 
-![Radio analysis using triq.org ](triq.org)
+![Radio analysis using triq.org ](triq.gif)
 
 Data encoding
 
