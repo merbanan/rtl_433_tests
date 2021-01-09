@@ -3,6 +3,7 @@
 TFA Marbella is a wireless pool termomenter with main a display.
 
 Sensor cat no:       30.3238.06
+
 Main display cat no: 3066.01
 
 External links
@@ -11,7 +12,7 @@ https://clientmedia.trade-server.net/1768_tfadost/media/3/52/21352.pdf
 
 
 Analysis
-========
+========    
 
 Radio encoding
 
