@@ -1,5 +1,7 @@
 # TFA Marbella Pool thermometer
 
+![TFA Marbella](tfa_marbella.gif)
+
 TFA Dostmann Marbella is a wireless pool thermomenter with a main display.
 
 Sensor cat no:       30.3238.06
