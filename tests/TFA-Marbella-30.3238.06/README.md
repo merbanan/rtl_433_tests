@@ -1,6 +1,6 @@
 # TFA Marbella Pool thermometer
 
-TFA Marbella is a wireless pool termomenter with main a display.
+TFA Dostmann Marbella is a wireless pool thermomenter with a main display.
 
 Sensor cat no:       30.3238.06
 
@@ -15,6 +15,8 @@ https://clientmedia.trade-server.net/1768_tfadost/media/3/52/21352.pdf
 
 Radio encoding
 ==============
+![Spectrogram using triq.org ](spectrogram.gif)
+
 The Marbella sensor operates at 868MHz frequency band.
 Using rtl_433 with -A option indicates:
 ...
@@ -26,7 +28,7 @@ Using rtl_433 with -A option indicates:
 Data encoding
 =============
 
-Using rtl_443 on the recorded files with option -A gave the following files and temperatures
+Using rtl_443 on the recorded files with option -A gave the following output matched with observed temperatures (in degree Celsius)
 ```
 5555555555555555695516ea341f8b0513a555358 [g001: 22.8]
 5555555555555555695516ea341f8b0613a555310 [g002: 22.8]
@@ -50,13 +52,13 @@ PRE: hhhhhhhhhhhhhhhh ID: bhhhhhhhh SERIAL: hhhhhh ZO: h CTR: 3d  TEMP: 16d POST
 
 (Bitbench notation)
 
-PRE:    Premble 0x55
+PRE:    Preamble 0x55 + 0
 ID:     ID of to indicate TFA Marbella ? (Static even afer a reset)
-SERIAL: ID of the devices: Is printed on the device, se picture belowx
+SERIAL: Serial of the devices: Is printed on the device, se picture below
 Z0:     unknown (always zero)
 CTR:    3 bits counter, +1 for each transmission
 TEMP:   The temperature in 2 bytes. Temp in degree celsius is TEMP * 0,0125 - 40,0625 
-POST:   always 0x55 0
+POST:   always 0x55 + 0
 CHK:    probably checksum. Needs to be invastigated further.
 END:    always "000"
 
@@ -64,6 +66,8 @@ END:    always "000"
 
 ![Data stream analysis using Bitbench ](bitbench.GIF)
 ![Printed serial no ](bit.jpg)
+![Temperature conversion ](temp_conversion.jpg)
+
 
 
 
