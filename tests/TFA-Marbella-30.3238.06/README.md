@@ -26,7 +26,7 @@ Using rtl_433 with -A option indicates:
 Data encoding
 =============
 
-Using rtl_443 on the recorded files with option -A gave the folloing files
+Using rtl_443 on the recorded files with option -A gave the following files and temperatures
 ```
 5555555555555555695516ea341f8b0513a555358 [g001: 22.8]
 5555555555555555695516ea341f8b0613a555310 [g002: 22.8]
@@ -50,9 +50,9 @@ PRE: hhhhhhhhhhhhhhhh ID: bhhhhhhhh SERIAL: hhhhhh ZO: h CTR: 3d  TEMP: 16d POST
 
 (Bitbench notation)
 
-PRE:    Is just premble 0x55 (flipping 0/1)
+PRE:    Premble 0x55
 ID:     ID of to indicate TFA Marbella ? (Static even afer a reset)
-SERIAL: ID of the devices: Is printed on the device 
+SERIAL: ID of the devices: Is printed on the device, se picture below
 Z0:     unknown (always zero)
 CTR:    3 bits counter, +1 for each transmission
 TEMP:   The temperature in 2 bytes. Temp in degree celsius is TEMP * 0,0125 - 40,0625 
