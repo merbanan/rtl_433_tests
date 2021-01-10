@@ -15,7 +15,7 @@ https://clientmedia.trade-server.net/1768_tfadost/media/3/52/21352.pdf
 
 Radio encoding
 ==============
-![Spectrogram using triq.org ](spectrogram.gif)
+![Spectrogram using triq.org ](spectrogram.GIF)
 
 The Marbella sensor operates at 868MHz frequency band.
 Using rtl_433 with -A option indicates:
@@ -66,7 +66,7 @@ END:    always "000"
 
 ![Data stream analysis using Bitbench ](bitbench.GIF)
 ![Printed serial no ](bit.jpg)
-![Temperature conversion ](temp_conversion.jpg)
+![Temperature conversion ](temp_conversion.GIF)
 
 
 
