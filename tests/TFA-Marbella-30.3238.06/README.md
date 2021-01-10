@@ -52,7 +52,7 @@ PRE: hhhhhhhhhhhhhhhh ID: bhhhhhhhh SERIAL: hhhhhh ZO: h CTR: 3d  TEMP: 16d POST
 
 PRE:    Premble 0x55
 ID:     ID of to indicate TFA Marbella ? (Static even afer a reset)
-SERIAL: ID of the devices: Is printed on the device, se picture below
+SERIAL: ID of the devices: Is printed on the device, se picture belowx
 Z0:     unknown (always zero)
 CTR:    3 bits counter, +1 for each transmission
 TEMP:   The temperature in 2 bytes. Temp in degree celsius is TEMP * 0,0125 - 40,0625 
@@ -62,8 +62,8 @@ END:    always "000"
 
 ```
 
-![Data stream analysis using Bitbench ](bitbench.gif)
-![Printed serial no ](bit.gif)
+![Data stream analysis using Bitbench ](bitbench.GIF)
+![Printed serial no ](bit.jpg)
 
 
 
