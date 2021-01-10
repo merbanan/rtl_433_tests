@@ -43,7 +43,7 @@ Using rtl_443 on the recorded files with option -A gave the folloing files
 5555555555555555695516ea341f8b000f6d557a0 [g022: 9.3]
 5555555555555555695516ea341f8b010f3d55060 [g023: 8.7]
 ```
-Using BitBench a analysis of the bitstream resulted in: 
+Using BitBench to analyse the bitstream resulted in: 
 
 ```
 PRE: hhhhhhhhhhhhhhhh ID: bhhhhhhhh SERIAL: hhhhhh ZO: h CTR: 3d  TEMP: 16d POST: hhb CHK:d  END: bbb
@@ -61,6 +61,11 @@ CHK:    probably checksum. Needs to be invastigated further.
 END:    always "000"
 
 ```
+
+![Data stream analysis using Bitbench ](bitbench.gif)
+![Printed serial no ](bit.gif)
+
+
 
 
 
