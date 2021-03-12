@@ -1,0 +1,4 @@
+g006 17.5C
+g009 21.2C
+
+There is a prologue sensor running in the background
