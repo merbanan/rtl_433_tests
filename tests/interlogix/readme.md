@@ -6,12 +6,14 @@ pir motion sensor
 
 door and window contact sensor
 
+smoke detector
+
 *will soon include other devices like key fob and garage door sensors. Do note current code should parse these devices correctly as is.
 
 
-These devices send poll/supervisory messages approxmately every hour (4 messages) and when an event occurs (8 messages). See interlogix.c source for addtional detail.
+These devices send poll/supervisory messages approximately every hour (4 messages) and when an event occurs (8 messages). See interlogix.c source for additional detail.
 
-frequency used is -f 319500000 
+frequency used is -f 319500000
 
 Recordings include:
 
@@ -23,4 +25,4 @@ Recordings include:
 
 04-Door contact sensor #2 - open and close sequence
 
-
+05-Smoke detector - status report, test and smoke
