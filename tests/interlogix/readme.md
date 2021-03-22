@@ -11,7 +11,7 @@ door and window contact sensor
 
 These devices send poll/supervisory messages approxmately every hour (4 messages) and when an event occurs (8 messages). See interlogix.c source for addtional detail.
 
-frequency used is -f 319500000 
+frequency used is -f 319500000
 
 Recordings include:
 
@@ -23,4 +23,4 @@ Recordings include:
 
 04-Door contact sensor #2 - open and close sequence
 
-
+06-Pet immune motion sensor - status report, tamper, motion and tamper with motion.
