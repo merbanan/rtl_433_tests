@@ -26,3 +26,5 @@ Recordings include:
 04-Door contact sensor #2 - open and close sequence
 
 05-Smoke detector - status report, test and smoke
+
+06-Pet immune motion sensor - status report, tamper, motion and tamper with motion.
