@@ -10,14 +10,19 @@ The signal contains "B1 ON":
 - Unit 01
 - Function: Turn On.
 
+Another signal contains "B DIM":
+- House Code: B
+- Unit 00 (invalid) - no unit for dim and bright commands
+- Function: Dim.
+
 NOTE: The encoding is actually the common N.E.C. Infrared (IR) remote
 control protocol that is sent over RF.
 
 ## rtl_433 status
 
-Not currently supported as of June 2015.  There was some rudimentary
-X10 decoding in an earlier version that seems to have been dropped.
-That implementation was forcosed on X10 security sensors.
+Implementation is complete, but operation is not exactly reliable.
+It seems these devices have abysmal signals, full of noise and side bands.
+Another implementation is focused on X10 security sensors.
 
 Previous settings:
 * Short Limit: 150 (600 uS)
@@ -31,7 +36,7 @@ pulse position coded with a long "wake-up" pulse that confuses
 rtl_433's -a mode.
 
 See:
-* http://davehouston.net/rf.htm
-* http://www.homautomation.org/2014/04/25/how-to-decode-x10-rf-protocol/
-* http://home.comcast.net/~ncherry/common/x10.rf.txt
+* https://www.linuxha.com/athome/common/x10.rf.html
+* http://www.wgldesigns.com/protocols/w800rf32_protocol.txt
+
 
