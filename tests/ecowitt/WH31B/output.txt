@@ -1,0 +1,148 @@
+g005_915M_250k.cu8
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2021-06-02 23:12:13.604300
+Protocol  : 113
+model     : AmbientWeather-WH31B
+id        : 6
+Channel   : 4
+Battery   : 1
+Temperature: 72.1 F
+Humidity  : 57 %
+Extra Data: 6a00000000
+Integrity : CRC
+Modulation: ASK
+Freq      : 0.0 MHz
+RSSI      : 0.0 dB
+SNR       : 0.0 dB
+Noise     : 0.0 dB
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2021-06-02 23:12:13.604300
+Protocol  : 113
+model     : AmbientWeather-WH31B
+id        : 6
+Channel   : 4
+Battery   : 1
+Temperature: 72.1 F
+Humidity  : 57 %
+Extra Data: 6a00000000
+Integrity : CRC
+Modulation: ASK
+Freq      : 0.0 MHz
+RSSI      : 0.0 dB
+SNR       : 0.0 dB
+Noise     : 0.0 dB
+
+
+g006_915M_250k.cu8
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2021-06-02 23:12:13.608542
+Protocol  : 113
+model     : AmbientWeather-WH31B
+id        : 92
+Channel   : 3
+Battery   : 1
+Temperature: 78.4 F
+Humidity  : 48 %
+Extra Data: 5b00000000
+Integrity : CRC
+Modulation: ASK
+Freq      : 0.0 MHz
+RSSI      : 0.0 dB
+SNR       : 0.0 dB
+Noise     : 0.0 dB
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2021-06-02 23:12:13.608542
+Protocol  : 113
+model     : AmbientWeather-WH31B
+id        : 92
+Channel   : 3
+Battery   : 1
+Temperature: 78.4 F
+Humidity  : 48 %
+Extra Data: 5b00000000
+Integrity : CRC
+Modulation: ASK
+Freq      : 0.0 MHz
+RSSI      : 0.0 dB
+SNR       : 0.0 dB
+Noise     : 0.0 dB
+
+
+g007_915M_250k.cu8
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2021-06-02 23:12:13.612957
+Protocol  : 113
+model     : AmbientWeather-WH31B
+id        : 154
+Channel   : 2
+Battery   : 1
+Temperature: 73.4 F
+Humidity  : 56 %
+Extra Data: fe00000000
+Integrity : CRC
+Modulation: ASK
+Freq      : 0.0 MHz
+RSSI      : 0.0 dB
+SNR       : 0.0 dB
+Noise     : 0.0 dB
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2021-06-02 23:12:13.612957
+Protocol  : 113
+model     : AmbientWeather-WH31B
+id        : 154
+Channel   : 2
+Battery   : 1
+Temperature: 73.4 F
+Humidity  : 56 %
+Extra Data: fe00000000
+Integrity : CRC
+Modulation: ASK
+Freq      : 0.0 MHz
+RSSI      : 0.0 dB
+SNR       : 0.0 dB
+Noise     : 0.0 dB
+
+
+g008_915M_250k.cu8
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2021-06-02 23:12:13.616899
+Protocol  : 113
+model     : AmbientWeather-WH31B
+id        : 162
+Channel   : 5
+Battery   : 1
+Temperature: 73.9 F
+Humidity  : 56 %
+Extra Data: c200000000
+Integrity : CRC
+Modulation: ASK
+Freq      : 0.0 MHz
+RSSI      : 0.0 dB
+SNR       : 0.0 dB
+Noise     : 0.0 dB
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2021-06-02 23:12:13.616899
+Protocol  : 113
+model     : AmbientWeather-WH31B
+id        : 162
+Channel   : 5
+Battery   : 1
+Temperature: 73.9 F
+Humidity  : 56 %
+Extra Data: c200000000
+Integrity : CRC
+Modulation: ASK
+Freq      : 0.0 MHz
+RSSI      : 0.0 dB
+SNR       : 0.0 dB
+Noise     : 0.0 dB
+
+
