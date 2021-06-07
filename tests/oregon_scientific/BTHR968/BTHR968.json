@@ -1,2 +1,2 @@
-{"time" : "@0.280448s", "brand" : "OS", "model" : "Oregon-BHTR968", "id" : 39, "channel" : 0, "battery_ok" : 1, "temperature_C" : 20.900, "humidity" : 45, "pressure_hPa" : 1005.000}
-{"time" : "@0.526840s", "brand" : "OS", "model" : "Oregon-BHTR968", "id" : 39, "channel" : 0, "battery_ok" : 1, "temperature_C" : 20.900, "humidity" : 45, "pressure_hPa" : 1005.000}
+{"time" : "@0.280448s", "model" : "Oregon-BHTR968", "id" : 39, "channel" : 0, "battery_ok" : 1, "temperature_C" : 20.900, "humidity" : 45, "pressure_hPa" : 1005.000}
+{"time" : "@0.526840s", "model" : "Oregon-BHTR968", "id" : 39, "channel" : 0, "battery_ok" : 1, "temperature_C" : 20.900, "humidity" : 45, "pressure_hPa" : 1005.000}

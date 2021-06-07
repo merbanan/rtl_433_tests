@@ -1,2 +1,2 @@
-{"time" : "@0.150268s", "brand" : "OS", "model" : "Oregon-THN132N", "id" : 206, "channel" : 1, "battery_ok" : 1, "temperature_C" : -9.400}
-{"time" : "@0.150268s", "brand" : "OS", "model" : "Oregon-THN132N", "id" : 206, "channel" : 1, "battery_ok" : 1, "temperature_C" : -9.400}
+{"time" : "@0.150268s", "model" : "Oregon-THN132N", "id" : 206, "channel" : 1, "battery_ok" : 1, "temperature_C" : -9.400}
+{"time" : "@0.150268s", "model" : "Oregon-THN132N", "id" : 206, "channel" : 1, "battery_ok" : 1, "temperature_C" : -9.400}
