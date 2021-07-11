@@ -26,7 +26,7 @@ default_values=("00" "FF" "55")
 test_values=("${@:-${default_values[@]}}")
 
 # build_dir=${HOME}/Projects/rtl_433/build/src/
-def_build_dir=${HOME}/Projects/rtl_433-merbanan/build/src/
+def_build_dir=../../build/src/
 
 build_dir=${BUILD_DIR:-$def_build_dir}
 
