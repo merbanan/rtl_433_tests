@@ -20,3 +20,64 @@ The controller permits :
 - Fan Speed DOWN via the DOWN button
 - Fan Speed Max via UP long press
 - Fan Speed Min via DOWN long press
+
+
+LIGHT ON
+fff
+389cad94f067f9804
+
+LIGHT UP
+fff
+389cad94f07bb044c
+
+LIGHT DOWN
+fff
+389cad94f077b084c
+
+LIGHT OFF
+fff
+389cad94f067f9804
+
+FAN ON
+fff
+389cad94f07ee011c
+
+FAN UP
+fff
+389cad94f06ff100c
+
+FAN DOWN
+fff
+389cad94f06fe9014
+
+FAN OFF
+fff
+389cad94f07ee011c
+
+LIGHT ON
+fff
+389cad94f067f9804
+
+LIGHT UP (LONG)
+fff
+389cad94f07da8254
+
+LIGHT DOWN (LONG)
+fff
+389cad94f07fb004c
+
+LIGHT OFF
+fff
+389cad94f067f9804
+
+FAN ON
+fff
+389cad94f07ee011c
+
+FAN UP (LONG)
+fff
+389cad94f07de8214
+
+FAN DOWN (LONG)
+fff
+389cad94f07fe8014
