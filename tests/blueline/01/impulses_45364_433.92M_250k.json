@@ -1,3 +1,3 @@
-{"time" : "@0.201472s", "model" : "Blueline PowerCost Monitor", "id" : 45364, "impulses" : 8351, "mic" : "CRC"}
-{"time" : "@0.305540s", "model" : "Blueline PowerCost Monitor", "id" : 45364, "impulses" : 8351, "mic" : "CRC"}
-{"time" : "@0.409612s", "model" : "Blueline PowerCost Monitor", "id" : 45364, "gap" : 16457, "mic" : "CRC"}
+{"time" : "@0.201472s", "model" : "Blueline-PowerCost", "id" : 45364, "impulses" : 8351, "mic" : "CRC"}
+{"time" : "@0.305540s", "model" : "Blueline-PowerCost", "id" : 45364, "impulses" : 8351, "mic" : "CRC"}
+{"time" : "@0.409612s", "model" : "Blueline-PowerCost", "id" : 45364, "gap" : 16457, "mic" : "CRC"}
