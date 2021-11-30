@@ -77,7 +77,7 @@ Decoded values are:
 * bits 40-55: 7 (bucket tipping counter)
 * bits 56-63: 0xB3 (valid CRC for bits 24 to 55)
 
-## RTL_433 decoder
+## RTL_433 decoder
 
 A new decoder (`lacrosse_tx34.c`) has been written for this device and the
 `g001_868.3M_1000k.cu8` sample capture can be decoded with it:
