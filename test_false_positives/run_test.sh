@@ -55,6 +55,8 @@ do
     test -f ${data_file} || python3 gen_data.py ${x} > ${data_file}
 
     # -vv 
+    # -K test_pat="0x${x}" 
+
     ${build_dir}/rtl_433 -y @${data_file} \
         -M protocol \
         -F "json:${json_outfile}"  2> ${stderr_outfile}
