@@ -62,7 +62,7 @@ do
         -F "json:${json_outfile}"  2> ${stderr_outfile}
 
     if [ -s "${json_outfile}" ] ; then
-	    echo "Potental False Positives with pattern 0x${x}"
+	    echo "Potential False Positives with pattern 0x${x}"
 	    echo "     Protocol	Model"
 	    jq -r < ${json_outfile} '["", .protocol, .model, .msg] | @tsv' | sort -u -n 
 	    echo "see file ${json_outfile} for details"
