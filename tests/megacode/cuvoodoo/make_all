@@ -16,8 +16,14 @@ done
 
 for f in *.cu8
 do
- o=`echo $f | sed 's/\.cu8$/.json/g'`
+ o=`echo $f | sed 's/\.cu8$/.ook/g'`
+ rtl_433 -w $o $f -F null
+done
+
+for f in *.ook
+do
+ o=`echo $f | sed 's/\.ook$/.json/g'`
  rtl_433 -r $f -F json > $o
 done
 
-rm *.pcm convert
+rm *.pcm *.cu8 convert
