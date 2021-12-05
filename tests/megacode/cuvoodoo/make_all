@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/sh -e
 
 git clone https://git.cuvoodoo.info/megacode
 
@@ -6,7 +6,11 @@ mv megacode/sdr/samples/*.pcm .
 
 rm -fr megacode
 
-go build convert.go
+git clone https://github.com/aaronsp777/pcm_ook.git
+
+go build -o convert pcm_ook/pcm_ook.go
+
+rm -fr pcm_ook
 
 for f in *.pcm
 do
