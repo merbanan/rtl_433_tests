@@ -21,7 +21,7 @@ done
 for f in *.cu8
 do
  o=`echo $f | sed 's/\.cu8$/.ook/g'`
- rtl_433 -w $o $f -F null
+ rtl_433 -f 318M -w $o $f -F null
 done
 
 for f in *.ook
