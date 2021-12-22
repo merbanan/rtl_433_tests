@@ -27,6 +27,7 @@ DVC586 | Vacuum (T-Stak)    | RX
 DWH161 | Vacuum (shoulder)  | RX
 DCV585KV | Remote (keyfob)  | TX
 N69688 | Remote (keyfob)    | TX
+N696881 | Remote (keyfob)    | TX
 DCW200 | Sander             | TX
 DCE800 | Wall grinder       | TX
 DCG200 | Wall chaser        | TX
