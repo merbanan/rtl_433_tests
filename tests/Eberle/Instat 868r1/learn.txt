@@ -1,3 +1,7 @@
+// logged into Arduino by wired connection
+// each one after automatic random ID is created
+// sorted by ID, ascending
+// created IDs not covering all possibilities 000-FFF, but only blocks
 000C54
 0013AA
 002C56
