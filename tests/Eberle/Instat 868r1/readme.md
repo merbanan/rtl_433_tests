@@ -17,7 +17,7 @@ beginning is atypical for FSK:
 this is code part:
 0110011001010110101001100110101010011001010101010110
 
-I'm not sure that a protocol is adequalty captured in uploaded files, because of FSK seems not identified well.
+I'm not sure that a protocol is adequalty captured in uploaded files, because of FSK seems not identified well. This is for version 0204 at the moment, I have also a sender with version 0101 having a different (smaller) delta in FSK and different, but also atypical beginning before code part
 
 A sender has to be learned in to the receiver before use, and 3 modes of sending have been identified:
 - learn
