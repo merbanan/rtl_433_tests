@@ -1,0 +1,107 @@
+Eberle Instat 868r1 Thermostat
+
+https://www.eberle.de/products/underfloor-heating/hydronic/instat-868-r1?language=en
+
+What I know about this item, mainly by analysis using URH and logging data by wire directly into an Arduino
+  
+868MHz, 2-FSK
+Manchester encoded
+Thermostat sends normally only on/off information to receiver unit, to switch heating. Fuzzy logic / timer etc is in controller chip of sender.
+
+each protocol of 52 Bit is send in 3 repetitions, typical protocol:
+0000000000001111111000000011000110011001010110101001100110101010011001010101010110
+
+beginning is atypical for FSK:
+000000000000111111100000001100
+
+this is code part:
+0110011001010110101001100110101010011001010101010110
+
+I'm not sure that a protocol is adequalty captured in uploaded files, because of FSK seems not identified well.
+
+A sender has to be learned in to the receiver before use, and 3 modes of sending have been identified:
+- learn
+- reset
+- switch on / switch off
+
+I found out the following:
+
+after Manchester decoding each data part have in total 26 bit, 2bit Header, 24 bit data in 6 nibbles
+Nibbles for mode of sending clearly depends on parity of ID, in addition a parity nibble is used
+
+(1) learn, 24bit in 6 nibbles
+  xxx   x     x      x
+  ||    ||    ||     ||
+  ||    ||    ||     \/
+  ||    ||    ||    check 0-F
+  ||    ||    \/
+  ||    ||    parity  ID odd: A
+  ||    ||            ID even: 5
+  ||    \/             
+  ||    learn  ID odd: 3
+  ||           ID even: C   
+  \/             
+ ID: 000-FFF, random number for each learning
+
+
+(2) Reset#1, 24bit in 6 nibbles
+  xxx   x     x      x
+  ||    ||    ||     ||
+  ||    ||    ||     \/
+  ||    ||    ||    check 0-F
+  ||    ||    \/
+  ||    ||    Parität ID odd: A
+  ||    ||            ID even: 5
+  ||    \/             
+  ||    Reset ID odd: B
+  ||          ID eben: 4
+  \/             
+ ID: 000-FFF, no change
+
+(2) Reset#2-#9, 8 protocols are send in a sequence, eaach one 24 bit in 6 nibbles
+
+  xxx   x     x      x
+  ||    ||    ||     ||
+  ||    ||    ||     \/
+  ||    ||    ||    check 0-F
+  ||    ||    \/
+  ||    ||    on/off sequence, not fully analyzed yet, just work to do
+  ||    ||           
+  ||    \/             
+  ||    on/off sequence, not fully analyzed yet, just work to do
+  ||    sequence: off-on-off-on-off-on-off-off
+  \/             
+ ID: 000-FFF, no change
+
+
+(3) switch on, 24 bit in 6 nibbles
+  xxx   x     x      x
+  ||    ||    ||     ||
+  ||    ||    ||     \/
+  ||    ||    ||    check 0-F
+  ||    ||    \/
+  ||    ||    rolling code ID odd (1 sender): C, 3, 8, 7, F, 0, A, 5, D, 2, 9, 6, E, 1, B, 4, C
+  ||    ||                 ID even:
+  ||    \/             
+  ||    on ID odd: E
+  ||       ID even: 1
+  \/             
+ ID: 000-FFF, no change
+
+       
+(3) switch off, 24 bit in 6 nibbles
+  xxx   x     x      x
+  ||    ||    ||     ||
+  ||    ||    ||     \/
+  ||    ||    ||    check 0-F
+  ||    ||    \/
+  ||    ||    rolling code ID odd (1 sender): F, 5, A, 2, D, 6, 9, 1, E, 4, B, 3, C, 7, 8, 0, F
+  ||    ||                 ID even:
+  ||    \/             
+  ||    off ID odd: 5
+  ||        ID even: A
+  \/             
+ ID: 000-FFF, no change
+
+
+Lastly I was working on checksum, but found no solution so far. Simple Xor-Checksum works well for a part of data, but not all. Running data through revdgst-tools have not found a result by myself.
