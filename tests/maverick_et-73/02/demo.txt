@@ -1,0 +1,7 @@
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-01-26 14:40:35
+model     : Maverick-ET73
+Random Id : 42
+Temperature 1: 20.0 C
+Temperature 2: -20.1 C
