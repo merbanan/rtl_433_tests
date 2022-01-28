@@ -13,15 +13,13 @@ import json
 from deepdiff import DeepDiff
 
 
-def run_rtl433(input_fn, samplerate=None, protocol=None, config=None, rtl_433_cmd="rtl_433"):
+def run_rtl433(input_fn, protocol=None, config=None, rtl_433_cmd="rtl_433"):
     """Run rtl_433 and return output."""
     args = ['-c', '0']
     if protocol:
         args.extend(['-R', str(protocol)])
     if config:
         args.extend(['-c', str(config)])
-    if samplerate:
-        args.extend(['-s', str(samplerate)])
     args.extend(['-F', 'json', '-r', input_fn])
     cmd = [rtl_433_cmd] + args
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -89,12 +87,6 @@ def main():
             print("WARNING: Ignoring '%s'" % input_fn)
             continue
 
-        samplerate = 250000
-        samplerate_fn = os.path.join(os.path.dirname(output_fn), "samplerate")
-        if os.path.isfile(samplerate_fn):
-            with open(samplerate_fn, "r") as samplerate_file:
-                samplerate = int(samplerate_file.readline())
-
         protocol = None
         protocol_fn = os.path.join(os.path.dirname(output_fn), "protocol")
         if os.path.isfile(protocol_fn):
@@ -120,7 +112,7 @@ def main():
             expected_data = remove_fields(expected_data, ignore_fields)
 
         # Run rtl_433
-        rtl433out, _err, exitcode = run_rtl433(input_fn, samplerate,
+        rtl433out, _err, exitcode = run_rtl433(input_fn,
                                                protocol, config, rtl_433_cmd)
 
         if exitcode:
