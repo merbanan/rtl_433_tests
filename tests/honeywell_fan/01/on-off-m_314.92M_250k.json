@@ -1,23 +1,24 @@
-{"time" : "@0.156028s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.201536s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.247052s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.292564s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.338080s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.383596s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.429112s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.474632s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.520156s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.565700s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.611208s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.656704s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.702220s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.747736s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.793256s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.838796s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.884340s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.975392s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@1.020868s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@1.066376s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@1.111888s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@1.157408s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@1.202928s", "model" : "Honeywell-Remote", "command" : "fan_off", "dimmable" : 1, "mic" : "FIXED_BITS"}
+{"time" : "@0.156028s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.201536s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.247052s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.292564s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.338080s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.383596s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.429112s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.474632s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.520156s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.565700s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.611208s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.656704s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.702220s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.747736s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.793256s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.838796s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@0.884340s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd17", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd17"]}
+{"time" : "@0.929892s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "1fdf35", "id" : 8159, "button" : 6, "dimmable" : "yes"}], "codes" : ["{24}1fdf35"]}
+{"time" : "@0.975392s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@1.020868s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@1.066376s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@1.111888s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@1.157408s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}
+{"time" : "@1.202928s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd15", "id" : 5837, "button" : "fan_off", "dimmable" : "yes"}], "codes" : ["{24}16cd15"]}

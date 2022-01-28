@@ -1,12 +1,12 @@
-{"time" : "@0.176836s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.222400s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.267972s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.313540s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.359328s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.404900s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.450464s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.496012s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.541760s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.587620s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.633128s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 1, "mic" : "FIXED_BITS"}
-{"time" : "@0.678632s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 1, "mic" : "FIXED_BITS"}
+{"time" : "@0.176836s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd75", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "yes"}], "codes" : ["{24}16cd75"]}
+{"time" : "@0.222400s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd75", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "yes"}], "codes" : ["{24}16cd75"]}
+{"time" : "@0.267972s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd75", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "yes"}], "codes" : ["{24}16cd75"]}
+{"time" : "@0.313540s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd75", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "yes"}], "codes" : ["{24}16cd75"]}
+{"time" : "@0.359328s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd75", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "yes"}], "codes" : ["{24}16cd75"]}
+{"time" : "@0.404900s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd75", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "yes"}], "codes" : ["{24}16cd75"]}
+{"time" : "@0.450464s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd75", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "yes"}], "codes" : ["{24}16cd75"]}
+{"time" : "@0.496012s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd75", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "yes"}], "codes" : ["{24}16cd75"]}
+{"time" : "@0.541760s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd75", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "yes"}], "codes" : ["{24}16cd75"]}
+{"time" : "@0.587620s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd75", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "yes"}], "codes" : ["{24}16cd75"]}
+{"time" : "@0.633128s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd75", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "yes"}], "codes" : ["{24}16cd75"]}
+{"time" : "@0.678632s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd75", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "yes"}], "codes" : ["{24}16cd75"]}

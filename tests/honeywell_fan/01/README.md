@@ -16,8 +16,11 @@ Pressing the 'star' button continuously dims or brightens the light. Pressing th
 0/1 power button for 4 seconds (!) sets a 1 minute timer that turns the light off
 when it expires.
 
+Pressing 1+3 for 5 seconds sends a 'learn mode' command to the fan that associates
+this remote with any fans that have power.
+
 There's a small DIP switch in the battery compartment that controls whether or not
 the dim/brighten function works - in the 'CFL' position dimmming is inhibited. In
 the 'D' position dimming works.
 
-The associated decoder is called honeywell_fan.
+The associated decoder is called honeywell_fan.conf.

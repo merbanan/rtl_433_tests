@@ -1,12 +1,12 @@
-{"time" : "@0.169496s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 0, "mic" : "FIXED_BITS"}
-{"time" : "@0.215752s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 0, "mic" : "FIXED_BITS"}
-{"time" : "@0.262012s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 0, "mic" : "FIXED_BITS"}
-{"time" : "@0.308276s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 0, "mic" : "FIXED_BITS"}
-{"time" : "@0.354752s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 0, "mic" : "FIXED_BITS"}
-{"time" : "@0.401016s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 0, "mic" : "FIXED_BITS"}
-{"time" : "@0.447280s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 0, "mic" : "FIXED_BITS"}
-{"time" : "@0.493540s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 0, "mic" : "FIXED_BITS"}
-{"time" : "@0.540004s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 0, "mic" : "FIXED_BITS"}
-{"time" : "@0.586228s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 0, "mic" : "FIXED_BITS"}
-{"time" : "@0.632432s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 0, "mic" : "FIXED_BITS"}
-{"time" : "@0.678636s", "model" : "Honeywell-Remote", "command" : "light_dim_brighten", "dimmable" : 0, "mic" : "FIXED_BITS"}
+{"time" : "@0.169496s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd76", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "no"}], "codes" : ["{24}16cd76"]}
+{"time" : "@0.215752s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd76", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "no"}], "codes" : ["{24}16cd76"]}
+{"time" : "@0.262012s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd76", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "no"}], "codes" : ["{24}16cd76"]}
+{"time" : "@0.308276s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd76", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "no"}], "codes" : ["{24}16cd76"]}
+{"time" : "@0.354752s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd76", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "no"}], "codes" : ["{24}16cd76"]}
+{"time" : "@0.401016s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd76", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "no"}], "codes" : ["{24}16cd76"]}
+{"time" : "@0.447280s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd76", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "no"}], "codes" : ["{24}16cd76"]}
+{"time" : "@0.493540s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd76", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "no"}], "codes" : ["{24}16cd76"]}
+{"time" : "@0.540004s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd76", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "no"}], "codes" : ["{24}16cd76"]}
+{"time" : "@0.586228s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd76", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "no"}], "codes" : ["{24}16cd76"]}
+{"time" : "@0.632432s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd76", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "no"}], "codes" : ["{24}16cd76"]}
+{"time" : "@0.678636s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd76", "id" : 5837, "button" : "light_dim_brighten", "dimmable" : "no"}], "codes" : ["{24}16cd76"]}
