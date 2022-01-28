@@ -12,13 +12,14 @@ import json
 
 from deepdiff import DeepDiff
 
-def run_rtl433(input_fn, samplerate=None, protocol=None, rtl_433_cmd="rtl_433"):
+
+def run_rtl433(input_fn, protocol=None, config=None, rtl_433_cmd="rtl_433"):
     """Run rtl_433 and return output."""
     args = ['-c', '0']
     if protocol:
         args.extend(['-R', str(protocol)])
-    if samplerate:
-        args.extend(['-s', str(samplerate)])
+    if config:
+        args.extend(['-c', str(config)])
     args.extend(['-F', 'json', '-r', input_fn])
     cmd = [rtl_433_cmd] + args
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -53,6 +54,8 @@ def main():
     parser = argparse.ArgumentParser(description='Test rtl_433')
     parser.add_argument('-c', '--rtl433-cmd', default="rtl_433",
                         help='rtl_433 command')
+    parser.add_argument('-C', '--config-path', default="../conf",
+                        help='rtl_433 command')
     parser.add_argument('-I', '--ignore-field', default=[], action="append",
                         help='Field to ignore in JSON data')
     parser.add_argument('--first-line', default=False, action="store_true",
@@ -61,6 +64,7 @@ def main():
     args = parser.parse_args()
 
     rtl_433_cmd = args.rtl433_cmd
+    config_path = args.config_path
     ignore_fields = args.ignore_field
     first_line = args.first_line
 
@@ -83,17 +87,16 @@ def main():
             print("WARNING: Ignoring '%s'" % input_fn)
             continue
 
-        samplerate = 250000
-        samplerate_fn = os.path.join(os.path.dirname(output_fn), "samplerate")
-        if os.path.isfile(samplerate_fn):
-            with open(samplerate_fn, "r") as samplerate_file:
-                samplerate = int(samplerate_file.readline())
-
         protocol = None
         protocol_fn = os.path.join(os.path.dirname(output_fn), "protocol")
         if os.path.isfile(protocol_fn):
             with open(protocol_fn, "r") as protocol_file:
                 protocol = protocol_file.readline().strip()
+
+        config = None
+        if protocol and os.path.isfile(os.path.join(config_path, protocol)):
+            config = os.path.join(config_path, protocol)
+            protocol = None
 
         # Open expected data
         expected_data = []
@@ -109,8 +112,8 @@ def main():
             expected_data = remove_fields(expected_data, ignore_fields)
 
         # Run rtl_433
-        rtl433out, _err, exitcode = run_rtl433(input_fn, samplerate,
-                                               protocol, rtl_433_cmd)
+        rtl433out, _err, exitcode = run_rtl433(input_fn,
+                                               protocol, config, rtl_433_cmd)
 
         if exitcode:
             print("ERROR: Exited with %d '%s'" % (exitcode, input_fn))
