@@ -25,6 +25,8 @@ Flg   : Flags bytes => should be read in binary format :
 	Bit 80 : Leaking pressure detected 1=Leak 0=No leak (nothing to report)
 CRC   : CRC poly 0x31 start value 0xdd final 0x00 from 1st bit 80th bits
 
+NOTA : In the documentation, it is said that the sensor can report low batterie. During my tests/reseach i'm not able to see this behavior. I have fuzzed all bits nothing was reported to the reader.
+
 Flex decoder :
 #-X "n=TMPS,m=OOK_MC_ZEROBIT,s=100,l=100,r=500,preamble=fd5fd5f"
 
