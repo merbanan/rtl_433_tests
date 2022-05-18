@@ -1,1 +1,1 @@
-{"time" : "@0.214012s", "model" : "Ford", "type" : "TPMS", "id" : "45d30b69", "pressure_PSI" : 36.094, "temperature_C" : 9.000, "code" : "8ac146", "mic" : "CHECKSUM"}
+{"time" : "@0.214012s", "model" : "Ford", "type" : "TPMS", "id" : "45d30b69", "pressure_PSI" : 34.500, "moving" : 1, "learn" : 0, "code" : "8ac146", "unknown" : "00", "unknown_3" : "2", "mic" : "CHECKSUM"}
