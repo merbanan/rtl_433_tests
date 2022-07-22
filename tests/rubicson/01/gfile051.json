@@ -1,1 +1,1 @@
-{"time" : "@0.138108s", "model" : "Rubicson-Temperature", "id" : 45, "channel" : 1, "battery_ok" : 1, "temperature_C" : 23.500, "mic" : "CRC"}
+{"time" : "@0.138108s", "model" : "Rubicson or Infactory PT-310 Temperature", "id" : 45, "channel" : 1, "battery_ok" : 1, "temperature_C" : 23.500, "mic" : "CRC"}
