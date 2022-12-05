@@ -1,3 +1,3 @@
 # Quinetic QUGDMK
 
-Device Label: 
+Device Label: EBM1202206181272
