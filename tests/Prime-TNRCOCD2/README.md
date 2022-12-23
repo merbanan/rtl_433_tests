@@ -9,3 +9,5 @@ https://cdn.shopify.com/s/files/1/0007/9029/8742/files/Prime_Catalog_2021-2022-2
 
 FCC ID : QJXTNRCOCD2-T
 https://apps.fcc.gov/oetcf/eas/reports/ViewExhibitReport.cfm?mode=Sum&calledFromFrame=Y&RequestTimeout=500&application_id=vgaB0jItwyAbfpvydNN7Xw%3D%3D&fcc_id=QJXTNRCOCD2-T
+
+Manual: https://www.manualslib.com/manual/2419814/Prime-Wire-And-Cable-Tnrcocd2.html
