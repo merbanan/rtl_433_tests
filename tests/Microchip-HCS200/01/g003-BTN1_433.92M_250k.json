@@ -1,8 +1,8 @@
-{"time" : "@0.162248s", "model" : "Microchip-HCS200", "id" : "08490B00", "id_rev" : "00D09210", "encrypted" : "CE93E10B", "encrypted_rev" : "D087C973", "button1" : "ON", "button2" : "OFF", "button3" : "OFF", "button4" : "OFF", "misc" : "", "battery_ok" : 1}
-{"time" : "@0.265528s", "model" : "Microchip-HCS200", "id" : "08490B00", "id_rev" : "00D09210", "encrypted" : "CE93E10B", "encrypted_rev" : "D087C973", "button1" : "ON", "button2" : "OFF", "button3" : "OFF", "button4" : "OFF", "misc" : "", "battery_ok" : 0}
-{"time" : "@0.368824s", "model" : "Microchip-HCS200", "id" : "08490B00", "id_rev" : "00D09210", "encrypted" : "CE93E10B", "encrypted_rev" : "D087C973", "button1" : "ON", "button2" : "OFF", "button3" : "OFF", "button4" : "OFF", "misc" : "", "battery_ok" : 0}
-{"time" : "@0.472124s", "model" : "Microchip-HCS200", "id" : "08490B00", "id_rev" : "00D09210", "encrypted" : "CE93E10B", "encrypted_rev" : "D087C973", "button1" : "ON", "button2" : "OFF", "button3" : "OFF", "button4" : "OFF", "misc" : "", "battery_ok" : 0}
-{"time" : "@0.575428s", "model" : "Microchip-HCS200", "id" : "08490B00", "id_rev" : "00D09210", "encrypted" : "CE93E10B", "encrypted_rev" : "D087C973", "button1" : "ON", "button2" : "OFF", "button3" : "OFF", "button4" : "OFF", "misc" : "", "battery_ok" : 0}
-{"time" : "@0.678740s", "model" : "Microchip-HCS200", "id" : "08490B00", "id_rev" : "00D09210", "encrypted" : "CE93E10B", "encrypted_rev" : "D087C973", "button1" : "ON", "button2" : "OFF", "button3" : "OFF", "button4" : "OFF", "misc" : "", "battery_ok" : 0}
-{"time" : "@0.782048s", "model" : "Microchip-HCS200", "id" : "08490B00", "id_rev" : "00D09210", "encrypted" : "CE93E10B", "encrypted_rev" : "D087C973", "button1" : "ON", "button2" : "OFF", "button3" : "OFF", "button4" : "OFF", "misc" : "", "battery_ok" : 0}
-{"time" : "@0.885356s", "model" : "Microchip-HCS200", "id" : "08490B00", "id_rev" : "00D09210", "encrypted" : "CE93E10B", "encrypted_rev" : "D087C973", "button1" : "ON", "button2" : "OFF", "button3" : "OFF", "button4" : "OFF", "misc" : "", "battery_ok" : 0}
+{"time" : "@0.162248s", "model" : "Microchip-HCS200", "id" : "00D0921", "battery_ok" : 1, "button" : 1, "learn" : 0, "repeat" : 1, "encrypted" : "D087C973"}
+{"time" : "@0.265528s", "model" : "Microchip-HCS200", "id" : "00D0921", "battery_ok" : 0, "button" : 1, "learn" : 0, "repeat" : 1, "encrypted" : "D087C973"}
+{"time" : "@0.368824s", "model" : "Microchip-HCS200", "id" : "00D0921", "battery_ok" : 0, "button" : 1, "learn" : 0, "repeat" : 1, "encrypted" : "D087C973"}
+{"time" : "@0.472124s", "model" : "Microchip-HCS200", "id" : "00D0921", "battery_ok" : 0, "button" : 1, "learn" : 0, "repeat" : 1, "encrypted" : "D087C973"}
+{"time" : "@0.575428s", "model" : "Microchip-HCS200", "id" : "00D0921", "battery_ok" : 0, "button" : 1, "learn" : 0, "repeat" : 1, "encrypted" : "D087C973"}
+{"time" : "@0.678740s", "model" : "Microchip-HCS200", "id" : "00D0921", "battery_ok" : 0, "button" : 1, "learn" : 0, "repeat" : 1, "encrypted" : "D087C973"}
+{"time" : "@0.782048s", "model" : "Microchip-HCS200", "id" : "00D0921", "battery_ok" : 0, "button" : 1, "learn" : 0, "repeat" : 1, "encrypted" : "D087C973"}
+{"time" : "@0.885356s", "model" : "Microchip-HCS200", "id" : "00D0921", "battery_ok" : 0, "button" : 1, "learn" : 0, "repeat" : 1, "encrypted" : "D087C973"}

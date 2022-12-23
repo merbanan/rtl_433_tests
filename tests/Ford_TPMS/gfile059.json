@@ -1,3 +1,3 @@
-{"time" : "@0.184300s", "model" : "Ford", "type" : "TPMS", "id" : "45bb320f", "pressure_PSI" : 26.800, "temperature_F" : 212.000, "code" : "6ad446", "mic" : "CHECKSUM"}
-{"time" : "@0.336340s", "model" : "Ford", "type" : "TPMS", "id" : "45bb320f", "pressure_PSI" : 26.800, "temperature_F" : 212.000, "code" : "6ad446", "mic" : "CHECKSUM"}
-{"time" : "@0.475924s", "model" : "Ford", "type" : "TPMS", "id" : "45bb320f", "pressure_PSI" : 26.800, "temperature_F" : 212.000, "code" : "6ad446", "mic" : "CHECKSUM"}
+{"time" : "@0.184300s", "model" : "Ford", "type" : "TPMS", "id" : "45bb320f", "pressure_PSI" : 26.500, "moving" : 1, "learn" : 0, "code" : "6ad446", "unknown" : "00", "unknown_3" : "2", "mic" : "CHECKSUM"}
+{"time" : "@0.336340s", "model" : "Ford", "type" : "TPMS", "id" : "45bb320f", "pressure_PSI" : 26.500, "moving" : 1, "learn" : 0, "code" : "6ad446", "unknown" : "00", "unknown_3" : "2", "mic" : "CHECKSUM"}
+{"time" : "@0.475924s", "model" : "Ford", "type" : "TPMS", "id" : "45bb320f", "pressure_PSI" : 26.500, "moving" : 1, "learn" : 0, "code" : "6ad446", "unknown" : "00", "unknown_3" : "2", "mic" : "CHECKSUM"}

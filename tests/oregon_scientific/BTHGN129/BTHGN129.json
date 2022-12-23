@@ -1,2 +1,2 @@
-{"time" : "@0.257652s", "brand" : "OS", "model" : "Oregon-BTHGN129", "id" : 244, "channel" : 1, "battery_ok" : 1, "temperature_C" : 20.200, "humidity" : 53, "pressure_hPa" : 1012.000}
-{"time" : "@0.528536s", "brand" : "OS", "model" : "Oregon-BTHGN129", "id" : 244, "channel" : 1, "battery_ok" : 1, "temperature_C" : 20.200, "humidity" : 53, "pressure_hPa" : 1012.000}
+{"time" : "@0.257652s", "model" : "Oregon-BTHGN129", "id" : 244, "channel" : 1, "battery_ok" : 1, "temperature_C" : 20.200, "humidity" : 53, "pressure_hPa" : 1012.000}
+{"time" : "@0.528536s", "model" : "Oregon-BTHGN129", "id" : 244, "channel" : 1, "battery_ok" : 1, "temperature_C" : 20.200, "humidity" : 53, "pressure_hPa" : 1012.000}
