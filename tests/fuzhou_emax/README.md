@@ -105,7 +105,7 @@ Decoded example:
 
     aa KD:0 CH:4 ID:594 FLAGS:0001 0 TEMP:61f (66.7F) HUM:42 (66%) Wind: 101 ( = 000 * 0.2 = 0 kmh) 0 Direction: 181 ( = 080 = 128°) Rain: 0116 ( 0015 * 0.2  = 4.2 mm) 0 UV: 1 (0 UV) Lux: 0101 (0 Lux) 04 05 ...16 17 xx:9d CHKSUM:ad yy:9e
 
-So I rewrite the decoder in order to get these information, notice that the gap needed to be changed from 900 to 1200.
+So I rewrite the decoder, emax.c, in order to get these information for both devices, notice that the gap needed to be changed from 900 to 1200.
 Because I get the both sensors, Temp/Hum + Rain/Wind, I was able to test the decoding correctly.
-
+- emax.c replace altronics_x7064.c
 
