@@ -1,1 +1,1 @@
-{"time" : "@0.046196s", "model" : "Cotech-367959", "id" : 84, "battery_ok" : 1, "temperature_F" : 73.000, "humidity" : 34, "rain_mm" : 79.200, "wind_dir_deg" : 188, "wind_avg_m_s" : 1.100, "wind_max_m_s" : 1.700, "light_lux" : 69627, "uv" : 251, "mic" : "CRC"}
+{"time" : "@0.046196s", "model" : "Cotech-367959", "id" : 84, "battery_ok" : 1, "temperature_F" : 73.000, "humidity" : 34, "rain_mm" : 79.200, "wind_dir_deg" : 188, "wind_avg_m_s" : 1.100, "wind_max_m_s" : 1.700, "mic" : "CRC"}
