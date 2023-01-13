@@ -1,2 +1,2 @@
-{"time" : "@0.047387s", "model" : "Cotech-367959", "id" : 84, "battery_ok" : 1, "temperature_F" : 73.300, "humidity" : 34, "rain_mm" : 84.000, "wind_dir_deg" : 191, "wind_avg_m_s" : 0.100, "wind_max_m_s" : 0.700, "light_lux" : 69627, "uv" : 251, "mic" : "CRC"}
-{"time" : "@0.047387s", "model" : "Cotech-367959", "id" : 84, "battery_ok" : 1, "temperature_F" : 73.300, "humidity" : 34, "rain_mm" : 84.000, "wind_dir_deg" : 191, "wind_avg_m_s" : 0.100, "wind_max_m_s" : 0.700, "light_lux" : 69627, "uv" : 251, "mic" : "CRC"}
+{"time" : "@0.047387s", "model" : "Cotech-367959", "id" : 84, "battery_ok" : 1, "temperature_F" : 73.300, "humidity" : 34, "rain_mm" : 84.000, "wind_dir_deg" : 191, "wind_avg_m_s" : 0.100, "wind_max_m_s" : 0.700, "mic" : "CRC"}
+{"time" : "@0.047387s", "model" : "Cotech-367959", "id" : 84, "battery_ok" : 1, "temperature_F" : 73.300, "humidity" : 34, "rain_mm" : 84.000, "wind_dir_deg" : 191, "wind_avg_m_s" : 0.100, "wind_max_m_s" : 0.700, "mic" : "CRC"}
