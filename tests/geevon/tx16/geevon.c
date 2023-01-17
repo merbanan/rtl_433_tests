@@ -46,7 +46,7 @@ static int geevon_callback(r_device *decoder, bitbuffer_t *bitbuffer)
     int checksum;
 
     // not entirely sure why "-a 4" always returns a correct bitbuffer, but not how to implement its findings
-    //   when decoded in triq.org or in library as such as PWM, it ends up inverting all the bits.
+    //   when decoded in triq.org or implemented as such as PWM, it ends up inverting all the bits.
     //   sloppy hack fix, thus:
     bitbuffer_invert(bitbuffer);
 
@@ -95,15 +95,15 @@ static int geevon_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 */
 
     // Store the decoded data in a data_t structure
-    data = data_make("model", "", DATA_STRING, "Geevon TX16-3",
-                     "battery", "Battery Good", DATA_INT, battery_low,
-                     "channel", "Channel", DATA_INT, channel,
-                     "temperature_C", "Temperature", DATA_FORMAT, "%.1f C", DATA_DOUBLE, temperature_c,
-                     "temperature_F", "Temperature", DATA_FORMAT, "%.1f F", DATA_DOUBLE, temperature_f,
-                     "humidity", "Humidity", DATA_FORMAT, "%.1f%%", DATA_DOUBLE, humidity,
-                     "integrity_check", "Integrity check", DATA_INT, integrity_check,
-                     "checksum", "Checksum", DATA_INT, checksum,
-                     NULL);
+    data = data_make(
+        /* clang-format off */
+        "model",           "",                DATA_STRING,                        "Geevon TX16-3",
+        "battery",         "Battery Good",    DATA_INT,                           battery_low,
+        "channel",         "Channel",         DATA_INT,                           channel,
+        "temperature_C",   "Temperature",     DATA_FORMAT, "%.1f C", DATA_DOUBLE, temperature_c,
+        "humidity",        "Humidity",        DATA_FORMAT, "%.1f%%", DATA_DOUBLE, humidity,
+        NULL);
+        /* clang-format on */
 
     decoder_output_data(decoder, data);
 
