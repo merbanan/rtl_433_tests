@@ -74,7 +74,7 @@ static int geevon_callback(r_device *decoder, bitbuffer_t *bitbuffer)
 
     // Extract the data from the packet
     battery_low = (b[1] & 0x80)?0:1; // battery good: 1; bad: 0
-    channel = ((b[1] & 0x60) >> 5) + 1; // channel: 1, 2, 3
+    channel = ((b[1] & 0x30) >> 4) + 1; // channel: 1, 2, 3
     temperature_c = ((float)((b[2] << 4) | b[3] >> 4)  - 500) / 10.0; // temperature is ((degrees c + 500) * 10)
     humidity = (float)b[4];
     integrity_check = (b[5] << 16) | (b[6] << 8) | b[7]; // always AA 55 AA
