@@ -1,8 +1,8 @@
-{"time" : "@0.292516s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.050}
-{"time" : "@0.402460s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.050}
-{"time" : "@0.531456s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.050}
-{"time" : "@0.641396s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.050}
-{"time" : "@0.751344s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.050}
-{"time" : "@0.941404s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.050}
-{"time" : "@1.101652s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.050}
-{"time" : "@1.221848s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.050}
+{"time" : "@0.292516s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.000}
+{"time" : "@0.402460s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.000}
+{"time" : "@0.531456s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.000}
+{"time" : "@0.641396s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.000}
+{"time" : "@0.751344s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.000}
+{"time" : "@0.941404s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.000}
+{"time" : "@1.101652s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.000}
+{"time" : "@1.221848s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "flags" : 5, "id" : "3F0650", "pressure_PSI" : 33.000}
