@@ -39,4 +39,13 @@ I ended up running 9 tests on 2 sensors using an e-bike in an isolated warehouse
  Tire 2-5 | 1 | NRZ | 0x54E328 | 53 | 66 | a | 8 | a | c | b | 5 | 4 | b | 4 | b | 2 | d | 5 | 3 | 3 | 3 | 2 | c | d | 3 | 3 | 3 | 4 | c | d | 5 | 4 | b | 2 | c | b | 5 | 5 | 2 | d | 5 | 3 | 3 | 3 | 3 | 5 | 2 | d 
  Tire 2-6 | 1 | NRZ | 0x54E328 | 53 | 68 | a | 8 | a | c | b | 5 | 4 | b | 4 | b | 2 | b | 5 | 3 | 3 | 3 | 2 | c | c | b | 3 | 3 | 4 | d | 5 | 5 | 4 | b | 2 | c | b | 5 | 5 | 2 | d | 5 | 3 | 3 | 3 | 3 | 5 | 3 | 5 
 
-I will try to put together a different computer together to use the command line of the RTL_433 to capture in *.cu8 format in the near future.
+Updated 02-13-23 with 5 tests files captured with rtl_433 -S unknown.
+File | Sensor ID | PSI | Temp |
+:---:|:---:|:---:|:---:|
+g004_433.92M_250k_ID_54E328_34psi_73F.cu8 | 54E328 | 34 | 73 |
+g006_433.92M_250k_ID_54e328_34psi_71F.cu8 | 54E328 | 34 | 71 |
+g022_433.92M_250k_ID_54E328_34psi_104F.cu8 | 54E328 | 34 | 104 |
+g064_433.92M_250k_ID_0D177E_52psi_69F.cu8 | 0D177E | 52 | 69 |
+g065_433.92M_250k_ID_0D177E_49psi_69F.cu8 | 0D177E | 49 | 69 |
+
+Unfortuntely I don't yet understand how to use the tools to disect this data
