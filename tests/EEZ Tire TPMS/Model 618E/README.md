@@ -57,7 +57,7 @@ g185_433.88M_250k_ID_54E328_58psi_95F.cu8 | 54e328 | 58 |95 | 12' | 2/16/23|
 
 Unfortuntely I don't yet understand how to use the tools to disect this data. However FSK demodulation makes sense this time.
 
-Updated again 02/17/23. After horsing around with the gain settings and antenna positions for about an hour, I was able to capture signals that I could drop into https://triq.org/spectrogram-next/ and look at the analogue signal that had rounded peaks and not clipped. the manual gain was between 26 and 30 so I settled on g 27. It would be nice if the file save output in the terminal window had a time stamp on it along with the file name, sample size, etc! Here are the new files and the captured data as recorded on the head unit using the command rtl_433 -4 433.88M -S unknown 1024k -g 27. Below is a subset of the data that was collected.
+Updated again 02/17/23. After horsing around with the gain settings and antenna positions for about an hour, I was able to capture signals that I could drop into https://triq.org/spectrogram-next/ and look at the analogue signal that had rounded peaks and not clipped. the manual gain was between 26 and 30 so I settled on g 27. It would be nice if the file save output in the terminal window had a time stamp on it along with the file name, sample size, etc! Here are the new files and the captured data as recorded on the head unit using the command rtl_433 -4 433.88M -S unknown 1024k -g 27. Reducing the gain also help that stary signal that was being picked up so the data below is from the tire pressure sensor. Below is a subset of the data that was collected.
 
 File | Sensor ID | PSI | Temp | Antenna Dist | Notes |
 :---:|:---:|:---:|:---:|:---:|:---:|
