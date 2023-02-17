@@ -56,3 +56,34 @@ g185_433.88M_250k_ID_54E328_58psi_95F.cu8 | 54e328 | 58 |95 | 12' | 2/16/23|
 
 
 Unfortuntely I don't yet understand how to use the tools to disect this data. However FSK demodulation makes sense this time.
+
+Updated again 02/17/23. After horsing around with the gain settings and antenna positions for about an hour, I was able to capture signals that I could drop into https://triq.org/spectrogram-next/ and look at the analogue signal that had rounded peaks and not clipped. the manual gain was between 26 and 30 so I settled on g 27. It would be nice if the file save output in the terminal window had a time stamp on it along with the file name, sample size, etc! Here are the new files and the captured data as recorded on the head unit using the command rtl_433 -4 433.88M -S unknown 1024k -g 27. Below is a subset of the data that was collected.
+
+File | Sensor ID | PSI | Temp | Antenna Dist | Notes |
+:---:|:---:|:---:|:---:|:---:|:---:|
+g071_433.88M_1024k.cu8 | 0d177e | 55 | 68 | 13' | 2/17/23|
+g077_433.88M_1024k.cu8 | 0d177e | 55 | 114 | 13' | 2/17/23|
+g078_433.88M_1024k.cu8 | 0d177e | 55 | 93 | 13' | 2/17/23|
+g108_433.88M_1024k.cu8 | 0d177e | 49 | 75 | 13' | Alarm |
+g121_433.88M_1024k.cu8 | 0d177e | 0 | 675 | 13' | Alarm |
+g200_433.88M_1024k.cu8 | 54e328 | 59 | 111 | 13' | 2/17/23|
+g203_433.88M_1024k.cu8 | 54e328 | 56 | 6 | 13' | 2/17/23|
+g204_433.88M_1024k.cu8 | 54e328 | 56 | 50 | 13' | 2/17/23|
+g205_433.88M_1024k.cu8 | 0d177e | 54 | -4 | 13' | 2/17/23|
+g207_433.88M_1024k.cu8 | 0d177e | 52 | 46 | 13' | 2/17/23|
+
+
+
+
+
+
+g004_433.88M_250k_ID_0D177E_39psi_64F.cu8 | 0d177e | 39 | 64 | 6' | 2/16/23|
+g006_433.88M_250k_ID_0D177E_39psi_66F.cu8 | 0d177e | 39 | 66 | 6' | 2/16/23|
+g008_433.88M_250k_ID_0D177E_40psi_68F.cu8 | 0d177e | 40 | 68 | 6' | 2/16/23|
+g013_433.88M_250k_ID_0D177E_39psi_68F.cu8 | 0d177e | 39 | 86 | 6' | 2/16/23|
+g018_433.88M_250k_ID_0D177E_39psi_48F.cu8 | 0d177e | 39 | 48 | 6' | 2/16/23|
+g020_433.88M_250k_ID_54E328_63psi_53F.cu8 | 54e328 | 63 | 53 | 6' | 2/16/23|
+g043_433.88M_250k_ID_54E328_63psi_68F.cu8 | 54e328 | 63 | 68 | 6' | 2/16/23|
+g060_433.88M_250k_ID_54E328_63psi_68F.cu8 | 54e328 | 63 | 68 | 12' | 2/16/23|
+g165_433.88M_250k_ID_54E328_58psi_132F.cu8 | 54e328 | 58 |132 | 12' |  2/16/23|
+g185_433.88M_250k_ID_54E328_58psi_95F.cu8 | 54e328 | 58 |95 | 12' | 2/16/23|
