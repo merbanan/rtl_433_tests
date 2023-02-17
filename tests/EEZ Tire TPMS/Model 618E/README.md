@@ -39,21 +39,6 @@ I ended up running 9 tests on 2 sensors using an e-bike in an isolated warehouse
  Tire 2-5 | 1 | NRZ | 0x54E328 | 53 | 66 | a | 8 | a | c | b | 5 | 4 | b | 4 | b | 2 | d | 5 | 3 | 3 | 3 | 2 | c | d | 3 | 3 | 3 | 4 | c | d | 5 | 4 | b | 2 | c | b | 5 | 5 | 2 | d | 5 | 3 | 3 | 3 | 3 | 5 | 2 | d 
  Tire 2-6 | 1 | NRZ | 0x54E328 | 53 | 68 | a | 8 | a | c | b | 5 | 4 | b | 4 | b | 2 | b | 5 | 3 | 3 | 3 | 2 | c | c | b | 3 | 3 | 4 | d | 5 | 5 | 4 | b | 2 | c | b | 5 | 5 | 2 | d | 5 | 3 | 3 | 3 | 3 | 5 | 3 | 5 
 
-Updated 02-16-23 with 11 tests files captured with rtl_433 -f 433.88M -S unknown. Removed old test files and replaced with new test files recorded with an offset frequency and varied distance from sensor to Antenna as the initial tests were clipped based on suggestion received.
-File | Sensor ID | PSI | Temp | Antenna Dist | Recorded |
-:---:|:---:|:---:|:---:|:---:|:---:|
-g001_433.88M_250k_ID_0D177E_39psi_48F.cu8 | 0d177e | 39 | 48 | 6' | 2/16/23|
-g004_433.88M_250k_ID_0D177E_39psi_64F.cu8 | 0d177e | 39 | 64 | 6' | 2/16/23|
-g006_433.88M_250k_ID_0D177E_39psi_66F.cu8 | 0d177e | 39 | 66 | 6' | 2/16/23|
-g008_433.88M_250k_ID_0D177E_40psi_68F.cu8 | 0d177e | 40 | 68 | 6' | 2/16/23|
-g013_433.88M_250k_ID_0D177E_39psi_68F.cu8 | 0d177e | 39 | 86 | 6' | 2/16/23|
-g018_433.88M_250k_ID_0D177E_39psi_48F.cu8 | 0d177e | 39 | 48 | 6' | 2/16/23|
-g020_433.88M_250k_ID_54E328_63psi_53F.cu8 | 54e328 | 63 | 53 | 6' | 2/16/23|
-g043_433.88M_250k_ID_54E328_63psi_68F.cu8 | 54e328 | 63 | 68 | 6' | 2/16/23|
-g060_433.88M_250k_ID_54E328_63psi_68F.cu8 | 54e328 | 63 | 68 | 12' | 2/16/23|
-g165_433.88M_250k_ID_54E328_58psi_132F.cu8 | 54e328 | 58 |132 | 12' |  2/16/23|
-g185_433.88M_250k_ID_54E328_58psi_95F.cu8 | 54e328 | 58 |95 | 12' | 2/16/23|
-
 
 Unfortuntely I don't yet understand how to use the tools to disect this data. However FSK demodulation makes sense this time.
 
