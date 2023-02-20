@@ -60,13 +60,14 @@ g207_433.88M_1024k.cu8 | 0d177e | 52 | 46 | 13' | 2/17/23|
 ## CR1632 Coin Cell Adapter for use with Power Supply
 Things are moving along thanks to great people that are a whole lot smarter than I that jumped in to do the heavy lifting. One question came up with an unknown bit that might be for a low battery alert on the sensor. I modeled up and 3-D printed a CR1632 sized holder to be able to hook up a power supply to the sensor and then adjust the voltage down until the sensor quits sending data. This is the setup and I will post the data after collected on 2/20/23.
 
-![CR1632 v2](https://user-images.githubusercontent.com/35844174/219988834-acae5164-466b-43da-be14-cbf32a90c2f2.png)
+![CR1632 v2](https://github.com/Gliebig/rtl_433_tests/blob/master/tests/EEZ%20Tire%20TPMS/Model%20618E/CR1632%20v2.png)
 ![PS_Adapter_1_320](https://user-images.githubusercontent.com/35844174/219988841-a4e016dc-a629-451b-97ce-bd59819d143b.jpg)
 ![PS Adapter_320](https://user-images.githubusercontent.com/35844174/219988854-4ab2b13c-3110-477a-8f2a-9bc33162387b.jpg)
 
 ## Table of tests Varying Voltage of TPMS Sensor
 
 I was able to successfully change the voltage of the TPMS sensor while on a tire in the same office. The table of test results appears below:
+![Power_Supply_and_Adapter](https://github.com/Gliebig/rtl_433_tests/blob/master/tests/EEZ%20Tire%20TPMS/Model%20618E/PowerSupply_and_Adapter.jpg)
 
 |Sample|File|ID	|PSI|F|V|DATA| |		
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
