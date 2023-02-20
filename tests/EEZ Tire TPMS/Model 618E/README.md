@@ -41,7 +41,7 @@ I ended up running 9 tests on 2 sensors using an e-bike in an isolated warehouse
 
 
 Unfortuntely I don't yet understand how to use the tools to disect this data. However FSK demodulation makes sense this time.
-
+## Setup After Feedback from Smart People
 Updated again 02/17/23. After horsing around with the gain settings and antenna positions for about an hour, I was able to capture signals that I could drop into https://triq.org/spectrogram-next/ and look at the analogue signal that had rounded peaks and not clipped. the manual gain was between 26 and 30 so I settled on g 27. It would be nice if the file save output in the terminal window had a time stamp on it along with the file name, sample size, etc! Here are the new files and the captured data as recorded on the head unit using the command rtl_433 -f 433.88M -S unknown -s 1024k -g 27. Reducing the gain also help that stary signal that was being picked up so the data below is from the tire pressure sensor. Below is a subset of the data that was collected.
 
 File | Sensor ID | PSI | Temp | Antenna Dist | Notes |
@@ -57,7 +57,58 @@ g204_433.88M_1024k.cu8 | 54e328 | 56 | 50 | 13' | 2/17/23|
 g205_433.88M_1024k.cu8 | 0d177e | 54 | -4 | 13' | 2/17/23|
 g207_433.88M_1024k.cu8 | 0d177e | 52 | 46 | 13' | 2/17/23|
 
+## CR1632 Coin Cell Adapter for use with Power Supply
 Things are moving along thanks to great people that are a whole lot smarter than I that jumped in to do the heavy lifting. One question came up with an unknown bit that might be for a low battery alert on the sensor. I modeled up and 3-D printed a CR1632 sized holder to be able to hook up a power supply to the sensor and then adjust the voltage down until the sensor quits sending data. This is the setup and I will post the data after collected on 2/20/23.
+
 ![CR1632 v2](https://user-images.githubusercontent.com/35844174/219988834-acae5164-466b-43da-be14-cbf32a90c2f2.png)
 ![PS_Adapter_1_320](https://user-images.githubusercontent.com/35844174/219988841-a4e016dc-a629-451b-97ce-bd59819d143b.jpg)
 ![PS Adapter_320](https://user-images.githubusercontent.com/35844174/219988854-4ab2b13c-3110-477a-8f2a-9bc33162387b.jpg)
+
+## Table of tests Varying Voltage of TPMS Sensor
+
+I was able to successfully change the voltage of the TPMS sensor while on a tire in the same office. The table of test results appears below:
+
+|Sample|File|ID	|PSI|F|V|DATA| |		
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|g01|_433.88M_1024k.cu8|54e328|49|73|3.00|{80}ffffa054e32888497000|[g001: 54e328 49 PSI 73 F 3.00 V] |
+|g02|_433.88M_1024k.cu8|54e328|49|71|2.99|{80}ffffb054e32889480000|[g002: 54e328 49 PSI 71 F 2.99 V] |
+|g03|_433.88M_1024k.cu8|54e328|49|69|2.95|{80}ffffaf54e32889470000|[g003: 54e328 49 PSI 69 F 2.95 V] |
+|g04|_433.88M_1024k.cu8|54e328|49|69|2.90|{80}ffffaf54e32889470000|[g004: 54e328 49 PSI 69 F 2.90 V] |
+|g05|_433.88M_1024k.cu8|54e328|49|69|2.88|{80}ffffdf54e32889473000|[g005: 54e328 49 PSI 69 F 2.88 V] |
+|g06|_433.88M_1024k.cu8|54e328|49|69|2.87|{80}ffffdf54e32889473000|[g006: 54e328 49 PSI 69 F 2.87 V] |
+|g07|_433.88M_1024k.cu8|54e328|49|69|2.86|{80}ffff9f54e32889477000|[g007: 54e328 49 PSI 69 F 2.86 V] |
+|g08|_433.88M_1024k.cu8|54e328|49|69|2.85|{80}ffffdf54e32889473000|[g008: 54e328 49 PSI 69 F 2.85 V] |
+|g09|_433.88M_1024k.cu8|54e328|49|69|2.84|{80}ffff9f54e32889477000|[g009: 54e328 49 PSI 69 F 2.84 V] |
+|g10|_433.88M_1024k.cu8|54e328|49|69|2.83|{80}ffffe054e32889483000|[g010: 54e328 49 PSI 69 F 2.83 V] |
+|g11|_433.88M_1024k.cu8|54e328|49|69|2.82|{80}ffff9f54e32889477000|[g011: 54e328 49 PSI 69 F 2.82 V] |
+|g12|_433.88M_1024k.cu8|54e328|49|69|2.81|{80}ffffdf54e32889473000|[g012: 54e328 49 PSI 69 F 2.81 V] |
+|g13|_433.88M_1024k.cu8|54e328|49|71|2.80|{80}ffffe054e32889483000|[g013: 54e328 49 PSI 71 F 2.80 V] |
+|g14|_433.88M_1024k.cu8|54e328|49|69|2.79|{80}ffff9f54e32889477000|[g014: 54e328 49 PSI 69 F 2.79 V] |
+|g15|_433.88M_1024k.cu8|54e328|49|69|2.78|{80}ffffdf54e32889473000|[g015: 54e328 49 PSI 69 F 2.78 V] |
+|g16|_433.88M_1024k.cu8|54e328|49|69|2.77|{80}ffffdf54e32889473000|[g016: 54e328 49 PSI 69 F 2.77 V] |
+|g17|_433.88M_1024k.cu8|54e328|49|69|2.76|{80}ffffdf54e32889473000|[g017: 54e328 49 PSI 69 F 2.76 V] |
+|g18|_433.88M_1024k.cu8|54e328|49|69|2.75|{80}ffffdf54e32889473000|[g018: 54e328 49 PSI 69 F 2.75 V] |
+|g19|_433.88M_1024k.cu8|54e328|49|71|2.74|{80}ffffe054e32889483000|[g019: 54e328 49 PSI 71 F 2.74 V] |
+|g20|_433.88M_1024k.cu8|54e328|49|69|2.73|{80}ffffdf54e32889473000|[g020: 54e328 49 PSI 69 F 2.73 V] |
+|g21|_433.88M_1024k.cu8|54e328|49|71|2.72|{80}ffffe054e32889483000|[g021: 54e328 49 PSI 71 F 2.72 V] |
+|g22|_433.88M_1024k.cu8|54e328|49|71|2.71|{80}ffffe054e32889483000|[g022: 54e328 49 PSI 71 F 2.71 V] |
+|g23|_433.88M_1024k.cu8|54e328|49|71|2.70|{80}ffffe054e32889483000|[g023: 54e328 49 PSI 71 F 2.70 V] |
+|g24|_433.88M_1024k.cu8|54e328|49|69|2.69|{80}ffffdf54e32889473000|[g024: 54e328 49 PSI 69 F 2.69 V] |
+|g25|_433.88M_1024k.cu8|54e328|49|69|2.68|{80}ffffdf54e32889473000|[g025: 54e328 49 PSI 69 F 2.68 V] |
+|g26|_433.88M_1024k.cu8|54e328|49|71|2.67|{80}ffffa054e32889487000|[g026: 54e328 49 PSI 71 F 2.67 V] |
+|g27|_433.88M_1024k.cu8|54e328|49|71|2.66|{80}ffffa054e32889487000|[g027: 54e328 49 PSI 71 F 2.66 V] |
+|g28|_433.88M_1024k.cu8|54e328|49|71|2.65|{80}ffffe054e32889483000|[g028: 54e328 49 PSI 71 F 2.65 V] |
+|g29|_433.88M_1024k.cu8|54e328|49|71|2.64|{80}ffffe054e32889483000|[g029: 54e328 49 PSI 71 F 2.64 V] |
+|g30|_433.88M_1024k.cu8|54e328|49|71|2.63|{80}ffffe054e32889483000|[g030: 54e328 49 PSI 71 F 2.63 V] |
+|g31|_433.88M_1024k.cu8|54e328|49|69|2.62|{80}ffff9f54e32889477000|[g031: 54e328 49 PSI 69 F 2.62 V] |
+|g32|_433.88M_1024k.cu8|54e328|49|69|2.61|{80}ffffdf54e32889473000|[g032: 54e328 49 PSI 69 F 2.61 V] |
+|g33|_433.88M_1024k.cu8|54e328|49|71|2.60|{80}ffffe054e32889483000|[g033: 54e328 49 PSI 71 F 2.60 V] |
+|g34|_433.88M_1024k.cu8|54e328|49|69|2.59|{80}ffffdf54e32889473000|[g034: 54e328 49 PSI 69 F 2.59 V] |
+|g35|_433.88M_1024k.cu8|54e328|49|71|2.58|{80}ffffe054e32889483000|[g035: 54e328 49 PSI 71 F 2.58 V] |
+|g36|_433.88M_1024k.cu8|54e328|49|71|2.57|{80}ffffe054e32889483000|[g036: 54e328 49 PSI 71 F 2.57 V] |
+|g37|_433.88M_1024k.cu8|54e328|49|71|2.56|{80}ffffe054e32889483000|[g037: 54e328 49 PSI 71 F 2.56 V] |
+|g38|_433.88M_1024k.cu8|54e328|49|71|2.55|{80}ffffe054e32889483000|[g038: 54e328 49 PSI 71 F 2.55 V] |
+|g39|_433.88M_1024k.cu8|54e328|49|71|2.54|{80}ffffe054e32889483000|[g039: 54e328 49 PSI 71 F 2.54 V] |
+|g40|_433.88M_1024k.cu8|54e328|  |  |2.53|No Signal| |		
+
+My hopes this data will help identify the missing information.
