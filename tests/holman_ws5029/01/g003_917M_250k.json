@@ -1,3 +1,3 @@
-{"time" : "@0.136572s", "model" : "Holman-WS5029", "id" : 53761, "temperature_C" : 16.000, "humidity" : 48, "rain_mm" : 0.790, "wind_avg_km_h" : 1, "wind_dir_deg" : 180}
-{"time" : "@0.156776s", "model" : "Holman-WS5029", "id" : 53761, "temperature_C" : 16.000, "humidity" : 48, "rain_mm" : 0.790, "wind_avg_km_h" : 1, "wind_dir_deg" : 180}
-{"time" : "@0.176980s", "model" : "Holman-WS5029", "id" : 53761, "temperature_C" : 16.000, "humidity" : 48, "rain_mm" : 0.790, "wind_avg_km_h" : 1, "wind_dir_deg" : 180}
+{"time" : "@0.136572s", "model" : "Holman-WS5029", "id" : 53761, "temperature_C" : 16.000, "humidity" : 48, "rain_mm" : 0.790, "wind_avg_km_h" : 1.000, "wind_dir_deg" : 180, "mic" : "CHECKSUM"}
+{"time" : "@0.156776s", "model" : "Holman-WS5029", "id" : 53761, "temperature_C" : 16.000, "humidity" : 48, "rain_mm" : 0.790, "wind_avg_km_h" : 1.000, "wind_dir_deg" : 180, "mic" : "CHECKSUM"}
+{"time" : "@0.176980s", "model" : "Holman-WS5029", "id" : 53761, "temperature_C" : 16.000, "humidity" : 48, "rain_mm" : 0.790, "wind_avg_km_h" : 1.000, "wind_dir_deg" : 180, "mic" : "CHECKSUM"}
