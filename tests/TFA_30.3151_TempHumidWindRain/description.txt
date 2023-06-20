@@ -1,5 +1,6 @@
 describing the captured signals:
-  captured at 868.3M with Nooelec RTLSDR-USB Stick R820T
+  captured at 868.3M with Nooelec RTLSDR-USB Stick R820T with rtl_433-rtlsdr.exe under Windows 10
+  (rtl_433-rtlsdr.exe -f 868.3M -S unknown)
   Sadly no Head Unit is available anymore. So  can't give the Temp/Humid values.
   I can only measure it in parallel with another Temp/Humid Sensor.
 
