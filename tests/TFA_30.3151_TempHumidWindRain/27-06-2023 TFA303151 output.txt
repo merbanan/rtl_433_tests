@@ -1,0 +1,64 @@
+C:\RTLSDR>rtl_433-rtlsdr -f 868.3M -R 0 -X "n=TFA303151,m=FSK_PCM,s=60,l=60,r=2500,bits>=10,preamble=aaaa2dd4"
+rtl_433 version 22.11 branch  at 202211191645 inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "C:\RTLSDR\rtl_433.conf"...
+Trying conf file at "C:\Users\yulian\AppData\Local\rtl_433\rtl_433.conf"...
+Trying conf file at "C:\ProgramData\rtl_433\rtl_433.conf"...
+
+New defaults active, use "-Y classic -s 250k" for the old defaults!
+
+Disabling all device decoders.
+Registered 1 out of 223 device decoding protocols [ ]
+Found Rafael Micro R820T/2 tuner
+Exact sample rate is: 1000000.026491 Hz
+Sample rate set to 1000000 S/s.
+Tuner gain set to Auto.
+Tuned to 868.300MHz.
+Allocating 15 (non-zero-copy) user-space buffers
+baseband_demod_FM: low pass filter for 1000000 Hz at cutoff 200000 Hz, 5.0 us
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2023-06-27 14:20:52
+model     : TFA303151    count     : 1             num_rows  : 1             rows      :
+len       : 699          data      : 51e0da3a00000312fb0015555545ba8a3c1b47400000625f6002aaaaa8b751478368e800000c4bec0055555516ea28f06d1d000001897d800aaaaaa2dd451e0da3a00000312fb0015555545ba8a3c1b47400000625f6000
+codes     : {699}51e0da3a00000312fb0015555545ba8a3c1b47400000625f6002aaaaa8b751478368e800000c4bec0055555516ea28f06d1d000001897d800aaaaaa2dd451e0da3a00000312fb0015555545ba8a3c1b47400000625f6000
+
+---
+Anzeige auf einem TFA Dostmann 30.3126 (Hideki-TS04):
+22.1°C
+52%
+---
+
+
+
+
+
+
+
+
+time      : 2023-06-27 14:30:28
+model     : TFA303151    count     : 1             num_rows  : 1             rows      :
+len       : 699          data      : 51e0db3500000312c90015555545ba8a3c1b66a0000062592002aaaaa8b75147836cd400000c4b240055555516ea28f06d9a8000018964800aaaaaa2dd451e0db3500000312c90015555545ba8a3c1b66a0000062592000
+codes     : {699}51e0db3500000312c90015555545ba8a3c1b66a0000062592002aaaaa8b75147836cd400000c4b240055555516ea28f06d9a8000018964800aaaaaa2dd451e0db3500000312c90015555545ba8a3c1b66a0000062592000
+
+---
+Anzeige auf einem TFA Dostmann 30.3126 (Hideki-TS04):
+22.1°C
+49%
+---
+
+
+
+
+
+
+
+time      : 2023-06-27 14:32:52
+model     : TFA303151    count     : 1             num_rows  : 1             rows      :
+len       : 699          data      : 51e0db34000003121a0015555545ba8a3c1b6680000062434002aaaaa8b75147836cd000000c48680055555516ea28f06d9a000001890d000aaaaaa2dd451e0db34000003121a0015555545ba8a3c1b6680000062434000
+codes     : {699}51e0db34000003121a0015555545ba8a3c1b6680000062434002aaaaa8b75147836cd000000c48680055555516ea28f06d9a000001890d000aaaaaa2dd451e0db34000003121a0015555545ba8a3c1b6680000062434000
+
+---
+Anzeige auf einem TFA Dostmann 30.3126 (Hideki-TS04):
+22.1°C
+48%
+---
