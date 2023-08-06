@@ -1,1 +1,1 @@
-{"time" : "@0.186344s", "model" : "EcoWitt-WH40", "id" : 52591, "rain_mm" : 4.100, "data" : "0002f60000", "mic" : "CRC"}
+{"time" : "@0.186344s", "model" : "EcoWitt-WH40", "id" : 52591, "battery_V" : 1.600, "battery_ok" : 1.000, "rain_mm" : 4.100, "data" : "0002f60000", "mic" : "CRC"}
