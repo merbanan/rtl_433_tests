@@ -2,6 +2,13 @@
 
 Underfloor heating system with wireless thermostats which each have a wheel for setting temperature and a thermistor for sensing the current temp.
 
+https://github.com/merbanan/rtl_433/issues/2230
+
+![Board 1](221439.png)
+![Board 2](252063.png)
+
+![PulseView](pulseview.png)
+
 
 Some pulse details:
 
