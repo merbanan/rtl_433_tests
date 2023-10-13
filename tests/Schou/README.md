@@ -6,6 +6,7 @@
 * Data:
   * Rain: 0.1 mm resolution, tilting cup mechanism
   * Temperature: 0.1 °F resolution with a range of -40 °F to 158 °F
+  * Battery status: Good or low
 * Manual: https://damcache.harald-nyborg.dk/v-637714538838373967/eb/48/ba16-4d51-493f-91cf-76383d70d3b0/18910_478016.pdf
 or https://api.p-lindberg.dk/Perfion/File.aspx?id=193bb670-4d74-4b9f-bf49-e0adeb53e85f
 
