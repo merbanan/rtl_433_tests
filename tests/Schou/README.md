@@ -19,6 +19,11 @@ or https://api.p-lindberg.dk/Perfion/File.aspx?id=193bb670-4d74-4b9f-bf49-e0adeb
   * Row 1: 66 bit
   * Row 1: 70 or 71 bit
 
+Command used to catch signals:
+```
+rtl_433 -R 0 -X "n=Schou_72543_Rain_gauge,m=OOK_PWM,s=972,l=2680,r=2712,g=0,t=0,y=7328,rows=3" -f 433.89M -s 250k -Y minsnr=10 -M level -F csv:sig.csv -F kv -S known
+```
+
 Codes example:
 {66}50fc467b7f9a832a8, {65}a1f88cf6ff3506550, {70}a1f88cf6ff3506557c
 
