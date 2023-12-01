@@ -1,2 +1,2 @@
-{"time" : "@0.126100s", "model" : "Fineoffset-WH1050", "id" : 57, "msg_type" : 0, "battery_ok" : 1, "temperature_C" : 20.100, "humidity" : 74, "wind_avg_km_h" : 0.000, "wind_max_km_h" : 0.000, "rain_mm" : 13.500, "mic" : "CRC"}
-{"time" : "@0.320684s", "model" : "Fineoffset-WH1050", "id" : 57, "msg_type" : 0, "battery_ok" : 1, "temperature_C" : 20.100, "humidity" : 74, "wind_avg_km_h" : 0.000, "wind_max_km_h" : 0.000, "rain_mm" : 13.500, "mic" : "CRC"}
+{"time" : "@0.126100s", "model" : "Fineoffset-WH1050", "id" : 57, "msg_type" : 5, "battery_ok" : 1, "temperature_C" : 20.100, "humidity" : 74, "wind_avg_km_h" : 0.000, "wind_max_km_h" : 0.000, "rain_mm" : 13.500, "mic" : "CRC"}
+{"time" : "@0.320684s", "model" : "Fineoffset-WH1050", "id" : 57, "msg_type" : 5, "battery_ok" : 1, "temperature_C" : 20.100, "humidity" : 74, "wind_avg_km_h" : 0.000, "wind_max_km_h" : 0.000, "rain_mm" : 13.500, "mic" : "CRC"}
