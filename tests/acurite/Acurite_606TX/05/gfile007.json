@@ -1,1 +1,1 @@
-{"time" : "@0.259736s", "model" : "Acurite-606TX", "id" : 163, "battery_ok" : 1, "temperature_C" : -8.300, "mic" : "CHECKSUM"}
+{"time" : "@0.259736s", "model" : "Acurite-606TX", "id" : 163, "channel" : 1, "battery_ok" : 1, "button" : 0, "temperature_C" : -8.300, "mic" : "CHECKSUM"}
