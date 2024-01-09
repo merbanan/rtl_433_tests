@@ -23,37 +23,3 @@ The transmitter uses a rolling code message.
 * Front - Example 2
 
   ![front](pics/front_2.jpg)
-
-## Expected Test Output
-
-* 01/lock_313.8M_1024k.cu8
-  ```
-  model     : Nidec-OUCG8D ID        : CCCE80
-  code      : 4604         Sequence  : 34375         Button Code: 3            Button    : Lock
-  ```
-* 01/trunk_long_press_313.8M_1024k.cu8
-  ```
-  model     : Nidec-OUCG8D ID        : CCCE80
-  code      : 0200         Sequence  : 34378         Button Code: 15           Button    : Trunk Long Press
-  ```
-* 01/trunk_panic_short_press_313.8M_1024k.cu8
-  ```
-  model     : Nidec-OUCG8D ID        : CCCE80
-  code      : 9F00         Sequence  : 34377         Button Code: 5            Button    : Trunk/Panic Short Press
-  ```
-* 01/unlock_313.8M_1024k.cu8
-  ```
-  model     : Nidec-OUCG8D ID        : CCCE80
-  code      : EC00         Sequence  : 34376         Button Code: 4            Button    : Unlock
-  ```
-* 02/lock_313.8M_1024k.cu8
-  ```
-  model     : Nidec-OUCG8D ID        : DD4151
-  code      : C580         Sequence  : 5445          Button Code: 3            Button    : Lock
-  ```
-* 02/panic_long_press_313.8M_1024k.cu8
-  ```
-  model     : Nidec-OUCG8D ID        : DD4151
-  code      : 2D80         Sequence  : 5450          Button Code: 6            Button    : Panic Long Press
-  ```
-
