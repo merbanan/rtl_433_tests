@@ -6,6 +6,7 @@
 
 Arad/Master Meter Dialog3G water utility meter.
 FCC-Id: TKCET-733
+Transmit in 916.2Mhz
 
 Prodact [brochure](https://github.com/avicarmeli/rtl_433_tests/blob/master/tests/arad_ms_meter/Dialog-3G-register-information-sheet_Eng-002.pdf)
 
