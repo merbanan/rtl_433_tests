@@ -7,6 +7,8 @@
 Arad/Master Meter Dialog3G water utility meter.
 FCC-Id: TKCET-733
 
+Prodact [brochure](https://github.com/avicarmeli/rtl_433_tests/blob/master/tests/arad_ms_meter/Dialog-3G-register-information-sheet_Eng-002.pdf)
+
 Massage is being sent once every 30 second.
 
 The massage look like that:
