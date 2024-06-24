@@ -2,7 +2,7 @@
 # ARAD / Master Meter Dialog3G Water utility  meter
 
 
-![image](https://github.com/avicarmeli/rtl_433_tests/assets/32562196/f8b5d2ca-9960-4d50-87aa-c5e46b024c86)
+[![image](https://github.com/avicarmeli/rtl_433_tests/assets/32562196/f8b5d2ca-9960-4d50-87aa-c5e46b024c86)](https://github.com/avicarmeli/rtl_433_tests/blob/master/tests/arad_ms_meter/Dialog3Gs.png)
 
 Arad/Master Meter Dialog3G water utility meter.
 FCC-Id: TKCET-733
