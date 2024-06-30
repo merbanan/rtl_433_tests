@@ -13,6 +13,8 @@ Transmit in 916.3Mhz
 
 Prodact [brochure](https://github.com/avicarmeli/rtl_433_tests/blob/master/tests/arad_ms_meter/Dialog-3G-register-information-sheet_Eng-002.pdf)
 
+From the [inside](https://wiki.recessim.com/view/Master_Meter_3G_Mobile_AMR).
+
 ## Massage Format
 
 Massage is being sent once every 30 second.
@@ -49,7 +51,7 @@ Here is a [link](https://github.com/merbanan/rtl_433/issues/1992) to discustion 
 
 ## To Do
 - [ ] Find which method is used for message integrity check (MIC).
-- [ ] Decode other pasrts of the message
+- [ ] Decode other parts of the message
 
 Here is some collected data maybe someone can figure out the MIC:
 
