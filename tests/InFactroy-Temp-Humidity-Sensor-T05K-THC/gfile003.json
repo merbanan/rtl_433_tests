@@ -1,6 +1,6 @@
-{"time" : "@0.053228s", "model" : "inFactory-TH", "id" : 197, "channel" : 1, "battery_ok" : 1, "temperature_F" : 74.900, "humidity" : 34, "mic" : "CRC"}
-{"time" : "@0.214756s", "model" : "inFactory-TH", "id" : 197, "channel" : 1, "battery_ok" : 1, "temperature_F" : 74.900, "humidity" : 34, "mic" : "CRC"}
-{"time" : "@0.376872s", "model" : "inFactory-TH", "id" : 197, "channel" : 1, "battery_ok" : 1, "temperature_F" : 74.900, "humidity" : 34, "mic" : "CRC"}
-{"time" : "@0.538740s", "model" : "inFactory-TH", "id" : 197, "channel" : 1, "battery_ok" : 1, "temperature_F" : 74.900, "humidity" : 34, "mic" : "CRC"}
-{"time" : "@0.700608s", "model" : "inFactory-TH", "id" : 197, "channel" : 1, "battery_ok" : 1, "temperature_F" : 74.900, "humidity" : 34, "mic" : "CRC"}
-{"time" : "@0.862724s", "model" : "inFactory-TH", "id" : 197, "channel" : 1, "battery_ok" : 1, "temperature_F" : 74.900, "humidity" : 34, "mic" : "CRC"}
+{"time" : "@0.053228s", "model" : "inFactory-TH", "id" : 197, "channel" : 1, "battery_ok" : 1, "button" : 0, "temperature_F" : 74.900, "humidity" : 34, "mic" : "CRC"}
+{"time" : "@0.214756s", "model" : "inFactory-TH", "id" : 197, "channel" : 1, "battery_ok" : 1, "button" : 0, "temperature_F" : 74.900, "humidity" : 34, "mic" : "CRC"}
+{"time" : "@0.376872s", "model" : "inFactory-TH", "id" : 197, "channel" : 1, "battery_ok" : 1, "button" : 0, "temperature_F" : 74.900, "humidity" : 34, "mic" : "CRC"}
+{"time" : "@0.538740s", "model" : "inFactory-TH", "id" : 197, "channel" : 1, "battery_ok" : 1, "button" : 0, "temperature_F" : 74.900, "humidity" : 34, "mic" : "CRC"}
+{"time" : "@0.700608s", "model" : "inFactory-TH", "id" : 197, "channel" : 1, "battery_ok" : 1, "button" : 0, "temperature_F" : 74.900, "humidity" : 34, "mic" : "CRC"}
+{"time" : "@0.862724s", "model" : "inFactory-TH", "id" : 197, "channel" : 1, "battery_ok" : 1, "button" : 0, "temperature_F" : 74.900, "humidity" : 34, "mic" : "CRC"}
