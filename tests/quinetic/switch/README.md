@@ -51,11 +51,11 @@ Signal Summary:
 
 Button Characteristics:
 
-* A switch emits 3-4 pulses when button is pressed.
-* A switch emits 3-4 pulses when button is released.
-* This duplication of packets is expected.
-* Device ID is preserved as 16-bit Hex.
-* It is printed on device rear-label (some models).
+* A switch emits 3-4 transmissions (rows) when a button is pressed (with button ID).
+* A switch emits 3-4 transmissions (rows) when a button is released (without button ID).
+* This retransmission is common.
+* CRC failures are relatively common, perhaps 1 in 20 rows.
+* Buttons are 'push-button / momentary' style, without ON/OFF position (stateless).
 
 ## Debugging
 
@@ -75,14 +75,5 @@ rtl_433 -g 37 -f 433.4M -s 1024k -Y minmax -S all -T 15
 * Flex decoder is only for basic inspection of data.
 
 ```
-rtl_433 -R 0 -c ./quinetic_switch.conf -r <FILE>
-```
-
-### Debug Sample Files
-
-* The following requires the 'quinetic.c' to be included in build.
-* CRC validation included.
-
-```
-rtl_433 -R 268 -Y minmax -r <FILE>
+rtl_433 -c ./quinetic_switch.conf -r <FILE>
 ```
