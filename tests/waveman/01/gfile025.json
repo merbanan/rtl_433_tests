@@ -1,8 +1,8 @@
-{"time" : "@0.245188s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "on"}
-{"time" : "@0.291804s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "on"}
-{"time" : "@0.338424s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "on"}
-{"time" : "@0.385036s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "on"}
-{"time" : "@0.431652s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "on"}
-{"time" : "@0.478264s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "on"}
-{"time" : "@0.524880s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "on"}
-{"time" : "@0.664704s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "on"}
+{"time" : "@0.245188s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "ON"}
+{"time" : "@0.291804s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "ON"}
+{"time" : "@0.338424s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "ON"}
+{"time" : "@0.385036s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "ON"}
+{"time" : "@0.431652s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "ON"}
+{"time" : "@0.478264s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "ON"}
+{"time" : "@0.524880s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "ON"}
+{"time" : "@0.664704s", "model" : "Waveman-Switch", "id" : "C", "channel" : 1, "button" : 4, "state" : "ON"}
