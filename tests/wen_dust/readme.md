@@ -22,4 +22,5 @@ rtl_433 off.cu8 -X 'n=WEN3410,m=OOK_PWM,s=316,l=944,r=9156,g=968,t=253,preamble=
 This will make the whole transmission 1 packet with 4 rows - 1 row for match,
 3 for actual data (duplicated)
 ```
-rtl_433 off.cu8 -X 'n=WEN3410,m=OOK_PWM,s=316,l=944,r=11000,g=1100,match={25}ffffff8,preamble=3c,get=@0:{8}:CMD:[110:OFF 97:ON 200:TIME],unique,repeats>=3'
+rtl_433 off.cu8 -X 'n=WEN3410,m=OOK_PWM,s=316,l=944,r=11000,g=1100,match={25}ffffff8,preamble=3c,get=@0:{8}:CMD:[110:OFF 97:ON 200:TIME],unique'
+```
