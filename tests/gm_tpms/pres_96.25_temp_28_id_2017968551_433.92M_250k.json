@@ -1,6 +1,6 @@
-{"time" : "@5.422164s", "model" : "GM Aftermarket", "type" : "TPMS", "id" : 2017968551, "flags" : "0x4D93", "learn_mode" : 0, "battery_ok" : 1, "pressure_kPa" : 96.250, "temperature_C" : 28.000, "mic" : "CHECKSUM"}
-{"time" : "@5.541756s", "model" : "GM Aftermarket", "type" : "TPMS", "id" : 2017968551, "flags" : "0x4D93", "learn_mode" : 0, "battery_ok" : 1, "pressure_kPa" : 96.250, "temperature_C" : 28.000, "mic" : "CHECKSUM"}
-{"time" : "@5.681396s", "model" : "GM Aftermarket", "type" : "TPMS", "id" : 2017968551, "flags" : "0x4D93", "learn_mode" : 0, "battery_ok" : 1, "pressure_kPa" : 96.250, "temperature_C" : 28.000, "mic" : "CHECKSUM"}
-{"time" : "@5.861160s", "model" : "GM Aftermarket", "type" : "TPMS", "id" : 2017968551, "flags" : "0x4D93", "learn_mode" : 0, "battery_ok" : 1, "pressure_kPa" : 96.250, "temperature_C" : 28.000, "mic" : "CHECKSUM"}
-{"time" : "@5.975756s", "model" : "GM Aftermarket", "type" : "TPMS", "id" : 2017968551, "flags" : "0x4D93", "learn_mode" : 0, "battery_ok" : 1, "pressure_kPa" : 96.250, "temperature_C" : 28.000, "mic" : "CHECKSUM"}
-{"time" : "@6.095324s", "model" : "GM Aftermarket", "type" : "TPMS", "id" : 2017968551, "flags" : "0x4D93", "learn_mode" : 0, "battery_ok" : 1, "pressure_kPa" : 96.250, "temperature_C" : 28.000, "mic" : "CHECKSUM"}
+{"time" : "@5.422164s", "model" : "GM-Aftermarket", "type" : "TPMS", "id" : 2017968551, "flags" : 19859, "learn_mode" : 0, "battery_ok" : 1, "pressure_kPa" : 96.250, "temperature_C" : 28.000, "mic" : "CHECKSUM"}
+{"time" : "@5.541756s", "model" : "GM-Aftermarket", "type" : "TPMS", "id" : 2017968551, "flags" : 19859, "learn_mode" : 0, "battery_ok" : 1, "pressure_kPa" : 96.250, "temperature_C" : 28.000, "mic" : "CHECKSUM"}
+{"time" : "@5.681396s", "model" : "GM-Aftermarket", "type" : "TPMS", "id" : 2017968551, "flags" : 19859, "learn_mode" : 0, "battery_ok" : 1, "pressure_kPa" : 96.250, "temperature_C" : 28.000, "mic" : "CHECKSUM"}
+{"time" : "@5.861160s", "model" : "GM-Aftermarket", "type" : "TPMS", "id" : 2017968551, "flags" : 19859, "learn_mode" : 0, "battery_ok" : 1, "pressure_kPa" : 96.250, "temperature_C" : 28.000, "mic" : "CHECKSUM"}
+{"time" : "@5.975756s", "model" : "GM-Aftermarket", "type" : "TPMS", "id" : 2017968551, "flags" : 19859, "learn_mode" : 0, "battery_ok" : 1, "pressure_kPa" : 96.250, "temperature_C" : 28.000, "mic" : "CHECKSUM"}
+{"time" : "@6.095324s", "model" : "GM-Aftermarket", "type" : "TPMS", "id" : 2017968551, "flags" : 19859, "learn_mode" : 0, "battery_ok" : 1, "pressure_kPa" : 96.250, "temperature_C" : 28.000, "mic" : "CHECKSUM"}
