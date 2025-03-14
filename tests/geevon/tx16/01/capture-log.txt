@@ -1,0 +1,86 @@
+rtl_433 version 22.11-39-gd287cfb7 branch master at 202301160949 inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/Users/falcon/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+[Protocols] Registered 1 out of 224 device decoding protocols [ 224 ]
+[SDR] Found 1 device(s)
+[SDR] trying device  0:  Realtek, RTL2838UHIDIR, SN: 00000001
+Found Rafael Micro R820T tuner
+[SDR] Using device 0: Generic RTL2832U OEM
+Exact sample rate is: 250000.000414 Hz
+[R82XX] PLL not locked!
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2023-01-16 20:52:54
+model     : Geevon TX16-3 Battery Good: 1          Channel   : 1
+Temperature: 18.4 C      Temperature: 65.1 F       Humidity  : 57.0%
+Integrity check: 11163050 Checksum  : 17
+*** Saving signal to file g001_433.92M_250k.cu8 (277274 samples, 655360 bytes)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2023-01-16 20:53:44
+model     : Geevon TX16-3 Battery Good: 1          Channel   : 1
+Temperature: 18.4 C      Temperature: 65.1 F       Humidity  : 57.0%
+Integrity check: 11163050 Checksum  : 17
+*** Saving signal to file g002_433.92M_250k.cu8 (307855 samples, 655360 bytes)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2023-01-16 20:54:34
+model     : Geevon TX16-3 Battery Good: 1          Channel   : 1
+Temperature: 18.4 C      Temperature: 65.1 F       Humidity  : 57.0%
+Integrity check: 11163050 Checksum  : 17
+*** Saving signal to file g003_433.92M_250k.cu8 (239162 samples, 524288 bytes)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2023-01-16 20:55:24
+model     : Geevon TX16-3 Battery Good: 1          Channel   : 1
+Temperature: 18.3 C      Temperature: 64.9 F       Humidity  : 57.0%
+Integrity check: 11163050 Checksum  : 84
+*** Saving signal to file g004_433.92M_250k.cu8 (434593 samples, 917504 bytes)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2023-01-16 20:56:14
+model     : Geevon TX16-3 Battery Good: 1          Channel   : 1
+Temperature: 18.3 C      Temperature: 64.9 F       Humidity  : 57.0%
+Integrity check: 11163050 Checksum  : 84
+*** Saving signal to file g005_433.92M_250k.cu8 (109230 samples, 262144 bytes)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2023-01-16 20:57:04
+model     : Geevon TX16-3 Battery Good: 1          Channel   : 1
+Temperature: 18.3 C      Temperature: 64.9 F       Humidity  : 57.0%
+Integrity check: 11163050 Checksum  : 84
+*** Saving signal to file g006_433.92M_250k.cu8 (109227 samples, 262144 bytes)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2023-01-16 20:57:54
+model     : Geevon TX16-3 Battery Good: 1          Channel   : 1
+Temperature: 18.3 C      Temperature: 64.9 F       Humidity  : 57.0%
+Integrity check: 11163050 Checksum  : 84
+*** Saving signal to file g007_433.92M_250k.cu8 (136498 samples, 393216 bytes)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2023-01-16 20:58:44
+model     : Geevon TX16-3 Battery Good: 1          Channel   : 1
+Temperature: 18.2 C      Temperature: 64.8 F       Humidity  : 57.0%
+Integrity check: 11163050 Checksum  : 40
+*** Saving signal to file g008_433.92M_250k.cu8 (109224 samples, 262144 bytes)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2023-01-16 20:59:34
+model     : Geevon TX16-3 Battery Good: 1          Channel   : 1
+Temperature: 18.1 C      Temperature: 64.6 F       Humidity  : 57.0%
+Integrity check: 11163050 Checksum  : 172
+*** Saving signal to file g009_433.92M_250k.cu8 (109226 samples, 262144 bytes)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2023-01-16 21:00:24
+model     : Geevon TX16-3 Battery Good: 1          Channel   : 1
+Temperature: 18.1 C      Temperature: 64.6 F       Humidity  : 57.0%
+Integrity check: 11163050 Checksum  : 172
+*** Saving signal to file g010_433.92M_250k.cu8 (109222 samples, 262144 bytes)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2023-01-16 21:01:14
+model     : Geevon TX16-3 Battery Good: 1          Channel   : 1
+Temperature: 18.1 C      Temperature: 64.6 F       Humidity  : 57.0%
+Integrity check: 11163050 Checksum  : 172
+*** Saving signal to file g011_433.92M_250k.cu8 (109224 samples, 262144 bytes)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2023-01-16 21:02:04
+model     : Geevon TX16-3 Battery Good: 1          Channel   : 1
+Temperature: 18.1 C      Temperature: 64.6 F       Humidity  : 57.0%
+Integrity check: 11163050 Checksum  : 172
+*** Saving signal to file g012_433.92M_250k.cu8 (109224 samples, 262144 bytes)
+^CSignal caught, exiting!
