@@ -8,7 +8,7 @@ The regtest system is not developed yet, but accepting signal recordings.
 
 ## Installation instructions
 
-Clone this reposity to the root of rtl_433
+Clone this repository to the root of rtl_433
 
 ## Running
 
