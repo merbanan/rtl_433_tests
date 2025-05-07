@@ -1,3 +1,2 @@
-{"time" : "@0.215552s", "type" : "TPMS", "model" : "Steelmate", "id" : "0x1a4e", "pressure_PSI" : 41.500, "temperature_F" : 74.000, "battery_mV" : 266, "mic" : "CHECKSUM"}
-{"time" : "@0.223504s", "type" : "TPMS", "model" : "Steelmate", "id" : "0x1a4e", "pressure_PSI" : 41.500, "temperature_F" : 74.000, "battery_mV" : 266, "mic" : "CHECKSUM"}
-{"time" : "@0.231448s", "type" : "TPMS", "model" : "Steelmate", "id" : "0x1a4e", "pressure_PSI" : 41.500, "temperature_F" : 74.000, "battery_mV" : 266, "mic" : "CHECKSUM"}
+{"time" : "@0.215552s", "type" : "TPMS", "model" : "Steelmate", "id" : "0x1a4e", "pressure_PSI" : 37.619, "temperature_F" : 75.200, "battery_mV" : 2570, "mic" : "CHECKSUM"}
+{"time" : "@0.231448s", "type" : "TPMS", "model" : "Steelmate", "id" : "0x1a4e", "pressure_PSI" : 37.619, "temperature_F" : 75.200, "battery_mV" : 2570, "mic" : "CHECKSUM"}
