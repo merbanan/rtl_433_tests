@@ -1,0 +1,112 @@
+Omni multisensor protocol.
+Created by David Todd, hdtodd@gmail.com, 2025.02
+
+This protocol is for the extensible wireless sensor 'omni':
+-  Single transmission protocol
+-  Flexible 64-bit data payload field structure
+-  Extensible to a total of 16 possible multi-sensor data formats
+
+The 'sensor' is actually a programmed microcontroller (e.g.,
+Raspberry Pi Pico 2 or similar) with multiple possible data-sensor
+attachments.
+
+Example implementions are available for the
+  -  Arduino Uno at http://github.com/hdtodd/WP_433 
+  -  Raspberry Pico2 at http://github.com/hdtodd/omnisensor_433
+
+A message 'format' field indicates the format of the data
+packet being sent, with up to 16 formats available.  Two example
+formats are provided in the base repository.
+
+NOTE: the rtl_433 decoder, omni.c, uses the "fmt" or "Format"
+field, as transmitted by omni.ino, to decode the incoming message.  
+But, through omni.c, rtl_433 reports the packet format-field value
+as "channel" in its published reporting (JSON, for example), 
+in keeping with the standard nomenclature and order of field-name
+precedence used within rtl_433 for data fields.  
+
+The omni protocol is OOK modulated PWM with fixed period of 600μs
+for data bits, preambled by four long startbit pulses of fixed period equal
+to 1200μs. It is similar to the Lacrosse TX141TH-BV2.
+
+A single data packet looks as follows:
+1) preamble - 600μs high followed by 600μs low, repeated 4 times:
+
+     ----      ----      ----      ----
+    |    |    |    |    |    |    |    |
+          ----      ----      ----      ----
+
+2) a train of 80 data pulses with fixed 600μs period follows immediately:
+
+     ---    --     --     ---    ---    --     ---
+    |   |  |  |   |  |   |   |  |   |  |  |   |   |
+         --    ---    ---     --     --    ---     -- ....
+
+A logical 0 is 400μs of high followed by 200μs of low.
+A logical 1 is 200μs of high followed by 400μs of low.
+
+Thus, in the example pictured above the bits are 0 1 1 0 0 1 0 ...
+
+The omni microcontroller sends 4 identical packets of
+4-pulse preamble followed by 80 data bits in a single burst,
+for a total of 336 bits requiring ~212μs.
+
+The last packet in a burst is followed by a postamble low
+of at least 1250μs.
+
+These 4-packet bursts repeat every 30 seconds (adjustable
+in the microcontroller code).
+
+The message in each packet is 10 bytes / 20 nibbles:
+
+    [fmt] [id] 16*[data] [crc8] [crc8]
+
+- fmt is a 4-bit message data format identifier
+- id is a 4-bit device identifier
+- data are 16 nibbles = 8 bytes of data payload fields,
+      interpreted according to 'fmt'
+- crc8 is 2 nibbles = 1 byte of CRC8 checksum of the first 9 bytes:
+      polynomial 0x97, init 0xaa
+
+A format=0 message simply transmits the core temperature and input
+power voltage of the microcontroller and is the format used if
+no data sensor is present.  For format=0 messages, the message
+nibbles are to be read as:
+
+     fi tt t0 00 00 00 00 00 vv cc
+
+     f: format of datagram, 0-15
+     i: id of device, 0-15
+     t: Pico 2 core temperature: °C *10, 12-bit, 2's complement integer
+     0: bytes should be 0 (but not required to be)
+     v: (VCC-3.00)*100, as 8-bit integer, in volts: 3V00..5V55 volts
+     c: CRC8 checksum of bytes 1..9, initial remainder 0xaa,
+        divisor polynomial 0x97, no reflections or inversions
+
+The microcontroller *may* use the full 8-byte payload data for whatever
+purpose if the end-user program decodes the 16 hexadecimal digits
+in a way that corresponds with the microcontroller's field encodings.
+
+A format=1 message format is provided as a more complete example.
+It is an indoor-outdoor temperature/humidity/pressure sensor, with
+light intensity reading, and the message packet has the
+following fields:
+    indoor temp, outdoor temp, indoor humidity, light intensity,
+    barometric pressure, sensor power VCC.
+The data fields are binary values, 2's complement for temperatures.
+For format=1 messages, the message nibbles are to be read as:
+
+     fi 11 12 22 hh ll pp pp vv cc
+
+     f: format of datagram, 0-15
+     i: id of device, 0-15
+     1: sensor 1 temp reading (e.g, indoor),  °C *10, 12-bit, 2's complement integer
+     2: sensor 2 temp reading (e.g, outdoor), °C *10, 12-bit, 2's complement integer
+     h: sensor 1 humidity reading (e.g., indoor),  %RH as 8-bit integer
+     l: light intensity % as 8-bit integer
+     p: barometric pressure * 10, in hPa, as 16-bit integer, 0..6553.5 hPa
+     v: (VCC-3.00)*100, as 8-bit integer, in volts: 3V00..5V55 volts
+     c: CRC8 checksum of bytes 1..9, initial remainder 0xaa,
+            divisor polynomial 0x97, no reflections or inversions
+
+
