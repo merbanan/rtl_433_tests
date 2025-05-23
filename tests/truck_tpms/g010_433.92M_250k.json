@@ -1,2 +1,2 @@
-{"time" : "@0.152388s", "model" : "Truck", "type" : "TPMS", "id" : "0581b281", "wheel" : 2, "pressure_kPa" : 0.000, "temperature_C" : 30.000, "state" : 10, "flags" : 3, "mic" : "CHECKSUM"}
-{"time" : "@0.175740s", "model" : "Truck", "type" : "TPMS", "id" : "0581b281", "wheel" : 2, "pressure_kPa" : 0.000, "temperature_C" : 30.000, "state" : 10, "flags" : 3, "mic" : "CHECKSUM"}
+{"time" : "@0.152388s", "model" : "Truck", "type" : "TPMS", "id" : "0581b281", "wheel" : 2, "pressure_kPa" : 0.000, "temperature_C" : 30.000, "battery_ok" : 1, "flags" : 3, "mic" : "CHECKSUM"}
+{"time" : "@0.175740s", "model" : "Truck", "type" : "TPMS", "id" : "0581b281", "wheel" : 2, "pressure_kPa" : 0.000, "temperature_C" : 30.000, "battery_ok" : 1, "flags" : 3, "mic" : "CHECKSUM"}
