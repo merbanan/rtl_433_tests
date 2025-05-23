@@ -1,1 +1,1 @@
-{"time" : "@0.206472s", "model" : "PMV-107J", "type" : "TPMS", "id" : "079e15a0", "status" : 24, "battery_ok" : 1, "counter" : 3, "failed" : "OK", "pressure_kPa" : 223.200, "temperature_C" : 24.000, "mic" : "CRC"}
+{"time" : "@0.206472s", "model" : "PMV-107J", "type" : "TPMS", "id" : "079e15a0", "status" : 24, "battery_ok" : 1, "counter" : 3, "rapid_change" : 0, "failed" : "OK", "pressure_kPa" : 223.200, "temperature_C" : 24.000, "mic" : "CRC"}

@@ -1,0 +1,3 @@
+{"time" : "@0.253320s", "model" : "Toyota", "type" : "TPMS", "id" : "f20aef4a", "status" : 160, "pressure_PSI" : 0.250, "temperature_C" : 18.000, "mic" : "CRC"}
+{"time" : "@0.364776s", "model" : "Toyota", "type" : "TPMS", "id" : "f20aef4a", "status" : 160, "pressure_PSI" : 0.250, "temperature_C" : 18.000, "mic" : "CRC"}
+{"time" : "@0.476320s", "model" : "Toyota", "type" : "TPMS", "id" : "f20aef4a", "status" : 160, "pressure_PSI" : 0.250, "temperature_C" : 18.000, "mic" : "CRC"}
