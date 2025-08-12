@@ -1,0 +1,3 @@
+{"time" : "@0.186624s", "model" : "Siemens-5WY72XX", "id" : "8D221B7A", "encrypted" : "99606D0A", "button_code" : 3, "button_str" : "Lock; Unlock", "sequence" : 981, "mic" : "CHECKSUM"}
+{"time" : "@0.287152s", "model" : "Siemens-5WY72XX", "id" : "8D221B7A", "encrypted" : "99606D0A", "button_code" : 3, "button_str" : "Lock; Unlock", "sequence" : 981, "mic" : "CHECKSUM"}
+{"time" : "@0.401020s", "model" : "Siemens-5WY72XX", "id" : "8D221B7A", "encrypted" : "1E7C0B02", "button_code" : 1, "button_str" : "Lock", "sequence" : 982, "mic" : "CHECKSUM"}
