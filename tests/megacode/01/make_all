@@ -1,0 +1,33 @@
+#!/bin/sh -e
+
+git clone https://git.cuvoodoo.info/megacode
+
+mv megacode/sdr/samples/*.pcm .
+
+rm -fr megacode
+
+git clone https://github.com/aaronsp777/pcm_ook.git
+
+go build -o convert pcm_ook/pcm_ook.go
+
+rm -fr pcm_ook
+
+for f in *.pcm
+do
+ o=`echo $f | sed -e 's/_/-/g' -e 's/\.pcm$/_318M_250k.cu8/g'`
+ ./convert < $f > $o
+done
+
+for f in *.cu8
+do
+ o=`echo $f | sed 's/\.cu8$/.ook/g'`
+ rtl_433 -f 318M -w $o $f -F null
+done
+
+for f in *.ook
+do
+ o=`echo $f | sed 's/\.ook$/.json/g'`
+ rtl_433 -r $f -F json > $o
+done
+
+rm *.pcm *.cu8 convert
