@@ -1,0 +1,19 @@
+{"time" : "@0.147460s", "model" : "Heatilator-gas-log-remote", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 25, "data" : "388d9b8", "id" : 231641, "state" : "flame_on", "mode" : "thermo"}], "codes" : ["{25}388d9b8"]}
+{"time" : "@0.147460s", "model" : "Generic-Remote", "id" : 51058, "cmd" : 100, "tristate" : "10Z1Z10XZXZ0"}
+{"time" : "@0.205012s", "model" : "Heatilator-gas-log-remote", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 25, "data" : "388d9b8", "id" : 231641, "state" : "flame_on", "mode" : "thermo"}], "codes" : ["{25}388d9b8"]}
+{"time" : "@0.205012s", "model" : "Generic-Remote", "id" : 51058, "cmd" : 100, "tristate" : "10Z1Z10XZXZ0"}
+{"time" : "@0.262608s", "model" : "Heatilator-gas-log-remote", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 25, "data" : "388d9b8", "id" : 231641, "state" : "flame_on", "mode" : "thermo"}], "codes" : ["{25}388d9b8"]}
+{"time" : "@0.262608s", "model" : "Generic-Remote", "id" : 51058, "cmd" : 100, "tristate" : "10Z1Z10XZXZ0"}
+{"time" : "@0.320160s", "model" : "Heatilator-gas-log-remote", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 25, "data" : "388d9b8", "id" : 231641, "state" : "flame_on", "mode" : "thermo"}], "codes" : ["{25}388d9b8"]}
+{"time" : "@0.320160s", "model" : "Generic-Remote", "id" : 51058, "cmd" : 100, "tristate" : "10Z1Z10XZXZ0"}
+{"time" : "@0.377752s", "model" : "Heatilator-gas-log-remote", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 25, "data" : "388d9b8", "id" : 231641, "state" : "flame_on", "mode" : "thermo"}], "codes" : ["{25}388d9b8"]}
+{"time" : "@0.377752s", "model" : "Generic-Remote", "id" : 51058, "cmd" : 100, "tristate" : "10Z1Z10XZXZ0"}
+{"time" : "@0.435304s", "model" : "Heatilator-gas-log-remote", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 25, "data" : "388d9b8", "id" : 231641, "state" : "flame_on", "mode" : "thermo"}], "codes" : ["{25}388d9b8"]}
+{"time" : "@0.435304s", "model" : "Generic-Remote", "id" : 51058, "cmd" : 100, "tristate" : "10Z1Z10XZXZ0"}
+{"time" : "@0.492900s", "model" : "Heatilator-gas-log-remote", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 25, "data" : "388d9b8", "id" : 231641, "state" : "flame_on", "mode" : "thermo"}], "codes" : ["{25}388d9b8"]}
+{"time" : "@0.492900s", "model" : "Generic-Remote", "id" : 51058, "cmd" : 100, "tristate" : "10Z1Z10XZXZ0"}
+{"time" : "@0.550452s", "model" : "Heatilator-gas-log-remote", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 25, "data" : "388d9b8", "id" : 231641, "state" : "flame_on", "mode" : "thermo"}], "codes" : ["{25}388d9b8"]}
+{"time" : "@0.550452s", "model" : "Generic-Remote", "id" : 51058, "cmd" : 100, "tristate" : "10Z1Z10XZXZ0"}
+{"time" : "@0.608048s", "model" : "Heatilator-gas-log-remote", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 25, "data" : "388d9b8", "id" : 231641, "state" : "flame_on", "mode" : "thermo"}], "codes" : ["{25}388d9b8"]}
+{"time" : "@0.608048s", "model" : "Generic-Remote", "id" : 51058, "cmd" : 100, "tristate" : "10Z1Z10XZXZ0"}
+{"time" : "@0.665600s", "model" : "Heatilator-gas-log-remote", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "388d9b", "id" : 231641, "state" : "flame_on", "mode" : "thermo"}], "codes" : ["{24}388d9b"]}
