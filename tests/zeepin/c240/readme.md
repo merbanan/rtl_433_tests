@@ -2,14 +2,32 @@
 
 Each sensor sends data every 5min.
 
+The radio chip used in reciever display is ATA5428 from microchip (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-4841-Transceiver-ICs-ATA5428_Datasheet.pdf). This is a basic ASK/FSK Transceiver with no buildin encryption.
+
+
+The extarnal sensor seems to correspond to this following FCC application : https://fccid.io/2ANZATP620
+
 
 ## Decoding
+
+See https://github.com/merbanan/rtl_433/issues/856
+
 
 For now best decoding seems to be: 
 ```
 $ rtl_433 -s 1024k -S all -X 'n=zeepin,m=OOK_MC_ZEROBIT,s=50,l=50,r=1000,invert'
 ```
 i.e. OOK with manchster encoding (invert is not sure)
+
+Current progress:
+- One long "wake up" with just the carrier and then just some "empty" data (it is in a first record)
+- then (most of time in a second record): two times the same data with a different preamble. OOK. Seems to be MC or DMC. But data looks encrypted or we miss something in the encoding
+
+And also
+- no clear ID section for now
+- same measurements (temperature and pressure) results in same data (it may not be always the case... But at least it is possible), so no rolling code !?
+- a msg is send when sensor is mount on a tire (so when pressure increase quickly) but msg does look the same. At least there is nothing special in the first "wake up" part.
+- when battery are remove and then re-installed on sensor no special action is needed to make the display decode it again. It just works... So at least there shouldn't have a random code generated on sensor start up.
 
 
 
@@ -71,3 +89,28 @@ data      :  3°C 0.1bar
 {86}fc0003838155af52e09b80
 {80}ffffe0e0556bd4b826e0
 
+
+
+
+## Records session 03
+
+Sended just when mounted on a tire:
+
+g001_433.92M_1024k.cu8
+g002_433.92M_1024k.cu8
+time      : 2018-12-29 01:24:24
+data      : 23°C 02psi
+{174}fffffc00000000000000000000000000000000000000
+{86}fc00021a1b0c44b97a0218
+{80}ffff8686c3112e5e8086
+
+
+And then next message (5min later):
+
+g018_433.92M_1024k.cu8
+g019_433.92M_1024k.cu8
+time      : 2018-12-29 01:29:23
+data      : 22°C 02psi
+{163}ffe00000000000000000000000000000000000000
+{100}fffff0000eaea5e75cac21cea
+{80}ffffeaea5e75cac21cea
