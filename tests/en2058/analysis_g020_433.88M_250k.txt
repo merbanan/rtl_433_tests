@@ -1,0 +1,69 @@
+Registered 157 out of 186 device decoding protocols [ 1-4 8 11-12 15-17 19-23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 151-161 163-168 170-175 177-186 ]
+Test mode active. Reading samples from file: g020_433.88M_250k.cu8
+baseband_demod_FM: low pass filter for 250000 Hz at cutoff 25000 Hz, 40.0 us
+pulse_FSK_detect(): Maximum number of pulses reached!
+Detected FSK package    @0.146980s
+Analyzing pulses...
+Total count: 1200,  width: 536.02 ms            (134005 S)
+Pulse width distribution:
+ [ 0] count:    1,  width: 1468 us [1468;1468]  ( 367 S)
+ [ 1] count:  952,  width:   96 us [96;104]     (  24 S)
+ [ 2] count:  141,  width:  196 us [196;204]    (  49 S)
+ [ 3] count:   75,  width:  300 us [296;304]    (  75 S)
+ [ 4] count:   17,  width:  400 us [396;404]    ( 100 S)
+ [ 5] count:   14,  width: 2000 us [2000;2004]  ( 500 S)
+Gap width distribution:
+ [ 0] count:   42,  width: 1552 us [1500;1800]  ( 388 S)
+ [ 1] count:  617,  width:  100 us [96;104]     (  25 S)
+ [ 2] count:  159,  width:  200 us [200;204]    (  50 S)
+ [ 3] count:  126,  width:  300 us [300;304]    (  75 S)
+ [ 4] count:  176,  width:  608 us [500;704]    ( 152 S)
+ [ 5] count:   30,  width:  952 us [900;1004]   ( 238 S)
+ [ 6] count:   48,  width:  400 us [400;404]    ( 100 S)
+ [ 7] count:    1,  width: 2004 us [2004;2004]  ( 501 S)
+Pulse period distribution:
+ [ 0] count:   15,  width: 3472 us [2980;3512]  ( 868 S)
+ [ 1] count:  585,  width:  200 us [196;204]    (  50 S)
+ [ 2] count:  194,  width:  400 us [396;404]    ( 100 S)
+ [ 3] count:   79,  width:  300 us [296;304]    (  75 S)
+ [ 4] count:  162,  width:  592 us [500;704]    ( 148 S)
+ [ 5] count:  106,  width:  796 us [700;804]    ( 199 S)
+ [ 6] count:   15,  width: 1000 us [1000;1004]  ( 250 S)
+ [ 7] count:   39,  width: 1568 us [1400;1900]  ( 392 S)
+ [ 8] count:    4,  width: 2028 us [2000;2104]  ( 507 S)
+Pulse timing distribution:
+ [ 0] count:   43,  width: 1548 us [1468;1800]  ( 387 S)
+ [ 1] count: 1569,  width:  100 us [96;104]     (  25 S)
+ [ 2] count:  300,  width:  200 us [196;204]    (  50 S)
+ [ 3] count:  202,  width:  300 us [296;304]    (  75 S)
+ [ 4] count:   65,  width:  400 us [396;404]    ( 100 S)
+ [ 5] count:   15,  width: 2000 us [2000;2004]  ( 500 S)
+ [ 6] count:  176,  width:  608 us [500;704]    ( 152 S)
+ [ 7] count:   30,  width:  952 us [900;1004]   ( 238 S)
+Level estimates [high, low]:  15921,   1266
+RSSI: -0.1 dB SNR: 11.0 dB Noise: -11.1 dB
+Frequency offsets [F1, F2]:   19249,   1046     (+73.4 kHz, +4.0 kHz)
+Guessing modulation: Pulse Code Modulation (Not Return to Zero)
+view at https://triq.org/pdv/#AAB0130801060C006400C8012C019007D0026003B88055+AAB0300801060C006400C8012C019007D0026003B89191919191919191919191919191919191919191A29191A291929191939655+AAB0140801060C006400C8012C019007D0026003B8B2A655+AAB0160801060C006400C8012C019007D0026003B8B191B19755+AAB0140801060C006400C8012C019007D0026003B8A29655+AAB0150801060C006400C8012C019007D0026003B89193C755+AAB01C0801060C006400C8012C019007D0026003B8A293919191929191919055+AAB0130802060C006400C8012C019007D0026003B89655+AAB0130801060C006400C8012C019007D0026003B8A655+AAB0130801060C006400C8012C019007D0026003B89655+AAB0140801060C006400C8012C019007D0026003B8919655+AAB0130801060C006400C8012C019007D0026003B8A655+AAB0130801060C006400C8012C019007D0026003B8B455+AAB0130801060C006400C8012C019007D0026003B89655+AAB0150801060C006400C8012C019007D0026003B892939655+AAB0160801060C006400C8012C019007D0026003B89393929455+AAB0160801060C006400C8012C019007D0026003B892A3919655+AAB0170801060C006400C8012C019007D0026003B891919391A455+AAB0160801060C006400C8012C019007D0026003B891B3929455+AAB0140801060C006400C8012C019007D0026003B8929055+AAB0130801060C006400C8012C019007D0026003B8D055+AAB0300801060C006400C8012C019007D0026003B89191919191919191919191919191919191919191A29191A291929191939655+AAB0140801060C006400C8012C019007D0026003B8B2A655+AAB0160801060C006400C8012C019007D0026003B8B191B19755+AAB0140801060C006400C8012C019007D0026003B8A29655+AAB0150801060C006400C8012C019007D0026003B89193C755+AAB01C0801060C006400C8012C019007D0026003B8A293919191929191919055+AAB0130802060C006400C8012C019007D0026003B89655+AAB0130801060C006400C8012C019007D0026003B8A655+AAB0130801060C006400C8012C019007D0026003B89655+AAB0140801060C006400C8012C019007D0026003B8919655+AAB0130801060C006400C8012C019007D0026003B8A655
+Too many pulse groups (1058 pulses missed in rfraw)
+Attempting demodulation... short_width: 96, long_width: 96, reset_limit: 98304, sync_width: 0
+Use a flex decoder with -X 'n=name,m=FSK_PCM,s=96,l=96,r=98304'
+pulse_demod_pcm(): Analyzer Device
+bitbuffer:: Number of rows: 1
+[00] {3600} ff fe 00 02 aa aa aa aa ab 2b 29 51 07 30 3a e8 03 20 28 f0 03 22 a9 54 00 04 08 0c 10 14 18 1c 20 24 40 44 48 4c 50 54 58 5c 48 48 00 07 ff ff 80 00 aa aa aa aa aa ca ca 54 41 cc 0e ba 00 c8 0a 3c 00 c8 aa 55 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 14 14 00 01 ff ff e0 00 2a aa aa aa aa b2 b2 95 10 73 03 ae 80 32 02 8f 00 32 2a 95 40 00 40 80 c1 01 41 81 c2 02 44 04 44 84 c5 05 45 85 c5 85 80 00 7f ff f8 00 0a aa aa aa aa ac ac a5 44 1c c0 eb a0 0c 80 a3 c0 0c 8a a5 50 00 10 20 30 40 50 60 70 80 91 01 11 21 31 41 51 61 71 81 80 00 1f ff fe 00 02 aa aa aa aa ab 2b 29 51 07 30 3a e8 03 20 28 f0 03 22 a9 54 00 04 08 0c 10 14 18 1c 20 24 40 44 48 4c 50 54 58 5c 68 68 00 07 ff ff 80 00 aa aa aa aa aa ca ca 54 41 cc 0e ba 00 c8 0a 3c 00 c8 aa 55 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 1c 1c 00 01 ff ff e0 00 2a aa aa aa aa b2 b2 95 10 73 03 ae 80 32 02 8f 00 32 2a 95 40 00 40 80 c1 01 41 81 c2 02 44 04 44 84 c5 05 45 85 c7 87 80 00 7f ff f8 00 0a aa aa aa aa ac ac a5 44 1c c0 eb a0 0c 80 a3 c0 0c 8a a5 50 00 10 20 30 40 50 60 70 80 91 01 11 21 31 41 51 61 72 02 00 00 1f ff fe 00 02 aa aa aa aa ab 2b 29 51 07 30 3a e8 03 20 28 f0 03 22 a9 54 00 04 08 0c 10 14 18 1c 20 24 40 44 48 4c 50 54 58 5c 88 88 00 07 ff ff 80 00 aa aa aa aa aa ca ca 54 41 cc 0e ba 00 c8 0a 3c 00 c8 aa 55 00 01 02 03 04 05 06 07 08 09
+
+*** signal_start = 26751, signal_end = 190210, signal_len = 163459, pulses_found = 1
+Distance coding: Pulse length 143458
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 143458
+bitbuffer:: Number of rows: 0
+Iteration 1. t: 0    min: 0 (0)    max: 0 (0)    delta 3567587328
+Iteration 2. t: 0    min: 0 (0)    max: 0 (0)    delta 0
+Distance coding: Pulse length 0
+
+Short distance: 1000000, long distance: 0, packet distance: 0
+
+p_limit: 0
+bitbuffer:: Number of rows: 0
