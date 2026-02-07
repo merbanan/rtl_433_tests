@@ -10,12 +10,12 @@ and CL7001 ([Amazon.com](https://www.amazon.com/dp/B0BYNJW532), [US-WallarGe.com
 
 The provided recordings are faithful recreations of the kind of signals the CLTX001 transmits, emitted using a [D-LIFE 433.92 MHz transmitter module](https://www.amazon.com/dp/B0BZRRBBNK) and recorded with rtl_433. Both the CL6007 and CL7001 clocks interpret these signals as expected. Note that the original transmitter shows less overshoot and has a cleaner waveform than these recordings.
 
-| Test | Files                                                                    | Sensor ID | Channel | Temperature | Low Battery | Test Mode |
+| Test | Files                                                                    | Sensor ID | Channel | Low Battery | Temperature | Test Mode |
 | ---- | ------------------------------------------------------------------------ | --------- | ------- | ----------- | ----------- | --------- |
-|    1 | [CU8](01/test_1_433.92M_1000k.cu8), [JSON](01/test_1_433.92M_1000k.json) |     12345 | A       |      12.3°C |             |           |
-|    2 | [CU8](01/test_2_433.92M_1000k.cu8), [JSON](01/test_2_433.92M_1000k.json) |     12345 | A       |      12.3°C |             |           |
-|    3 | [CU8](01/test_3_433.92M_1000k.cu8), [JSON](01/test_3_433.92M_1000k.json) |     12345 | B       |     -12.3°C | Yes         |           |
-|    4 | [CU8](01/test_4_433.92M_1000k.cu8), [JSON](01/test_4_433.92M_1000k.json) |     54321 | C       |       0.0°C |             | Yes       |
+|    1 | [CU8](01/test_1_433.92M_1000k.cu8), [JSON](01/test_1_433.92M_1000k.json) |     12345 | 1       |             |      12.3°C |           |
+|    2 | [CU8](01/test_2_433.92M_1000k.cu8), [JSON](01/test_2_433.92M_1000k.json) |     12345 | 1       |             |      12.3°C |           |
+|    3 | [CU8](01/test_3_433.92M_1000k.cu8), [JSON](01/test_3_433.92M_1000k.json) |     12345 | 2       | Yes         |     -12.3°C |           |
+|    4 | [CU8](01/test_4_433.92M_1000k.cu8), [JSON](01/test_4_433.92M_1000k.json) |     54321 | 3       |             |       0.0°C | Yes       |
 
 **Test 1:** The kind of signal sent right after changing the channel on the sensor, including a recreation of [a bug](#bugs) in the transmitter.<br>
 The pulse in the preamble is too short for rtl_433 and therefore has no effect. The last bit in the payload being 0 creates an additional gap that exceeds the gap limit of 650 µs, resulting in a second empty row between rows with data.

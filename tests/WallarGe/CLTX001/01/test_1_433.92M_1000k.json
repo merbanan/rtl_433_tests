@@ -1,1 +1,1 @@
-{ "model": "WallarGe CLTX001", "id": 12345, "temperature_C":  12.300, "channel": "A",                             "mic": "CHECKSUM" }
+{ "model": "WallarGe-CLTX001", "id": 12345, "channel": 1, "temperature_C":  12.300, "mic": "CHECKSUM" }
