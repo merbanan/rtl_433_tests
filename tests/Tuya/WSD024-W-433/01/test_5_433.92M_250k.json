@@ -1,0 +1,4 @@
+{ "model": "Tuya-WSD024W433", "id": 14170486, "battery_pct":  19, "temperature_C":  26.5, "humidity": 20, "cycle": 62, "count": 1, "mic": "CHECKSUM", "battery_ok": 0 }
+{ "model": "Tuya-WSD024W433", "id":  9467682, "battery_pct":  80, "temperature_C":  -8.4, "humidity": 75, "cycle":  1, "count": 2, "mic": "CHECKSUM" }
+{ "model": "Tuya-WSD024W433", "id": 16385541, "battery_pct": 109, "temperature_C":   5.1, "humidity": 89, "cycle": 33, "count": 2, "mic": "CHECKSUM" }
+{ "model": "Tuya-WSD024W433", "id":  3545960, "battery_pct": 101, "temperature_C":  13.9, "humidity": 34, "cycle": 19, "count": 1, "mic": "CHECKSUM" }
