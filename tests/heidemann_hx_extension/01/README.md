@@ -1,9 +1,18 @@
-# Heidemann HX Extension
+# Heidemann HX series wireless door bells
 
-Testdata for Heidemann HX Extension. The original manufacturer is probably Quhwa.
-This is a range extender for Heidemann HX door bells.
-The sender product IDs are   HX 70372, HX 70835, HX 70836.
-The receiver product IDs are HX 70825, HX 70835, HX 70873.
+Testdata for Heidemann HX series wireless door bells.
+Tested with Heidemann Funkklingel Komplett-Set 70835 HX Action (Heidemann HX Extension)
+EANs 08711252236056, 04011150708353 and 8711252236056.
+
+This is a range extender set for door bells using a microphone.
+The sender product IDs are HX 70372, HX 70835, HX 70836.
+The receiver product IDs are HX 70825, HX 70835, HX 70873. The EAN is 4011150708353.
+[Manufacturer home page](https://heidemann.gmbh/produkt/hx-action-funk-klingel-weiterleitung/)
+
+The following products and other HX series products are most probably also compatibe, but not tested:
+- Funkklingel Komplett-Set Heidemann 70825 HX Flashlight, EAN 4011150708254
+- Funkklingel Komplett-Set Heidemann 70836 HX Connect, EAN 4011150708360
+- Heidemann HX Flashlight (70824/70825)
 
 The device uses OOK modulation with Pulse Width Coding (PWM) on 433.92 MHz:
 - '1' bit: Long gap (479 us) followed by short pulse (332 us)
@@ -14,7 +23,9 @@ The frame length is 13 bits, it is repeated 97 times with a gap of 6200 us betwe
 The frame contains the following information (MSB sent first):
 - Melody (bits 12 to 9): which of the 16 melodies the receiver should play.
 - Device-ID (bits 8 to 1): It is randomly generated on each power on
-- Constant (bit 0): always 1
+- Constant (bit 0): always 1, purpose unknown
+
+Written by Michael Dreher <michael(a)5dot1.de> 2026-03-27, nospam2000 at github.com
 
 ## Test files and their decoded values
 
