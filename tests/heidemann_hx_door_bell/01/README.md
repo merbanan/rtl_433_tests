@@ -43,22 +43,23 @@ Written by Michael Dreher <michael(a)5dot1.de> 2026-03-27, nospam2000 at github.
 ## Run tests
 
 ```bash
-for i in *.cu8 ; do ../../../../rtl_433/build/src/rtl_433 -F json -R 0 -c ../../../../rtl_433/conf/heidemann_hx_extension.conf -r $i 2>/dev/null  | jq -c ".filename=\"$i\""; done
+for i in *.cu8 ; do ../../../../rtl_433/build/src/rtl_433 -F json -R 0 -c ../../../../rtl_433/conf/heidemann_hx_door_bell.conf -r $i 2>/dev/null  | jq -c ".filename=\"$i\""; done
 ```
 
 ## Output of tests
 
 ```json
-{"time":"@0.289840s","model":"Heidemann-HX-Extension-Cfg","count":49,"num_rows":50,"len":13,"data":"da08","id":180,"melody":1,"filename":"g002_433.92M_250k.cu8"}
-{"time":"@0.272996s","model":"Heidemann-HX-Extension-Cfg","count":25,"num_rows":25,"len":13,"data":"da08","id":180,"melody":1,"filename":"g004_433.92M_250k.cu8"}
-{"time":"@0.287588s","model":"Heidemann-HX-Extension-Cfg","count":49,"num_rows":50,"len":13,"data":"da18","id":180,"melody":3,"filename":"g017_433.92M_250k.cu8"}
-{"time":"@0.287436s","model":"Heidemann-HX-Extension-Cfg","count":49,"num_rows":50,"len":13,"data":"da28","id":180,"melody":5,"filename":"g040_433.92M_250k.cu8"}
-{"time":"@0.314844s","model":"Heidemann-HX-Extension-Cfg","count":49,"num_rows":50,"len":13,"data":"da28","id":180,"melody":5,"filename":"g041_433.92M_250k.cu8"}
-{"time":"@0.070564s","model":"Heidemann-HX-Extension-Cfg","count":34,"num_rows":35,"len":13,"data":"da28","id":180,"melody":5,"filename":"g042_433.92M_250k.cu8"}
-{"time":"@0.086368s","model":"Heidemann-HX-Extension-Cfg","count":50,"num_rows":50,"len":13,"data":"da28","id":180,"melody":5,"filename":"g043_433.92M_250k.cu8"}
-{"time":"@0.286468s","model":"Heidemann-HX-Extension-Cfg","count":49,"num_rows":50,"len":13,"data":"da48","id":180,"melody":9,"filename":"g071_433.92M_250k.cu8"}
-{"time":"@0.284824s","model":"Heidemann-HX-Extension-Cfg","count":49,"num_rows":50,"len":13,"data":"da70","id":180,"melody":14,"filename":"g116_433.92M_250k.cu8"}
-{"time":"@0.286372s","model":"Heidemann-HX-Extension-Cfg","count":49,"num_rows":50,"len":13,"data":"da30","id":180,"melody":6,"filename":"g124_433.92M_250k.cu8"}
-{"time":"@0.289360s","model":"Heidemann-HX-Extension-Cfg","count":49,"num_rows":50,"len":13,"data":"ee88","id":221,"melody":1,"filename":"g127_433.92M_250k.cu8"}
-{"time":"@0.284008s","model":"Heidemann-HX-Extension-Cfg","count":49,"num_rows":50,"len":13,"data":"ee98","id":221,"melody":3,"filename":"g144_433.92M_250k.cu8"}
+{"time":"@0.289840s","model":"Heidemann-HX-door-bell","count":49,"num_rows":50,"len":13,"data":"da08","unknown":1,"id":180,"melody":1,"filename":"g002_433.92M_250k.cu8"}
+{"time":"@0.272996s","model":"Heidemann-HX-door-bell","count":25,"num_rows":25,"len":13,"data":"da08","unknown":1,"id":180,"melody":1,"filename":"g004_433.92M_250k.cu8"}
+{"time":"@0.287588s","model":"Heidemann-HX-door-bell","count":49,"num_rows":50,"len":13,"data":"da18","unknown":1,"id":180,"melody":3,"filename":"g017_433.92M_250k.cu8"}
+{"time":"@0.287436s","model":"Heidemann-HX-door-bell","count":49,"num_rows":50,"len":13,"data":"da28","unknown":1,"id":180,"melody":5,"filename":"g040_433.92M_250k.cu8"}
+{"time":"@0.314844s","model":"Heidemann-HX-door-bell","count":49,"num_rows":50,"len":13,"data":"da28","unknown":1,"id":180,"melody":5,"filename":"g041_433.92M_250k.cu8"}
+{"time":"@0.070564s","model":"Heidemann-HX-door-bell","count":34,"num_rows":35,"len":13,"data":"da28","unknown":1,"id":180,"melody":5,"filename":"g042_433.92M_250k.cu8"}
+{"time":"@0.086368s","model":"Heidemann-HX-door-bell","count":50,"num_rows":50,"len":13,"data":"da28","unknown":1,"id":180,"melody":5,"filename":"g043_433.92M_250k.cu8"}
+{"time":"@0.286468s","model":"Heidemann-HX-door-bell","count":49,"num_rows":50,"len":13,"data":"da48","unknown":1,"id":180,"melody":9,"filename":"g071_433.92M_250k.cu8"}
+{"time":"@0.284824s","model":"Heidemann-HX-door-bell","count":49,"num_rows":50,"len":13,"data":"da70","unknown":1,"id":180,"melody":14,"filename":"g116_433.92M_250k.cu8"}
+{"time":"@0.286372s","model":"Heidemann-HX-door-bell","count":49,"num_rows":50,"len":13,"data":"da30","unknown":1,"id":180,"melody":6,"filename":"g124_433.92M_250k.cu8"}
+{"time":"@0.289360s","model":"Heidemann-HX-door-bell","count":49,"num_rows":50,"len":13,"data":"ee88","unknown":1,"id":221,"melody":1,"filename":"g127_433.92M_250k.cu8"}
+{"time":"@0.284008s","model":"Heidemann-HX-door-bell","count":49,"num_rows":50,"len":13,"data":"ee98","unknown":1,"id":221,"melody":3,"filename":"g144_433.92M_250k.cu8"}
+{"time":"@0.005332s","model":"Heidemann-HX-door-bell","count":40,"num_rows":40,"len":13,"data":"ee98","unknown":1,"id":221,"melody":3,"filename":"g145_433.92M_250k.cu8"}
 ```
