@@ -2,8 +2,10 @@
 
 Testdata for Heidemann HX Extension. The original manufacturer is probably Quhwa.
 This is a range extender for Heidemann HX door bells.
+The sender product IDs are   HX 70372, HX 70835, HX 70836.
+The receiver product IDs are HX 70825, HX 70835, HX 70873.
 
-The device uses OOK modulation with Pulse Width Coding (PWM):
+The device uses OOK modulation with Pulse Width Coding (PWM) on 433.92 MHz:
 - '1' bit: Long gap (479 us) followed by short pulse (332 us)
 - '0' bit: Short gap (135 us) followed by long pulse (676 us)
 
