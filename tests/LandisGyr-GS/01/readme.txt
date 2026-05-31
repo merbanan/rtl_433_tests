@@ -19,7 +19,7 @@ Decode
 These frames are GFSK and only slice with the min-max FSK detector. The default
 detector does not pick them up, so -Y minmax is required:
 
-  rtl_433 -r tests/LandisGyr-GS/g001_903.2M_250k.cu8 -Y minmax -M level
+  rtl_433 -r tests/LandisGyr-GS/01/g001_903.2M_250k.cu8 -Y minmax -M level
 
 Because bin/run_test.py invokes rtl_433 without -Y minmax, there is no expected-
 output .json here (the harness skips sample dirs that have no .json, the same as
