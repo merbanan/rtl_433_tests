@@ -31,10 +31,10 @@ def run_rtl433(input_fn, protocol=None, config=None, rtl_433_cmd="rtl_433"):
     return (out, err, p.returncode)
 
 
-def find_json():
+def find_json(test_path="tests"):
     """Find all reference json files recursive."""
     matches = []
-    for root, _dirnames, filenames in os.walk('tests'):
+    for root, _dirnames, filenames in os.walk(test_path):
         for filename in fnmatch.filter(filenames, '*.json'):
             matches.append(os.path.join(root, filename))
     return matches
@@ -61,14 +61,17 @@ def main():
     parser.add_argument('--first-line', default=False, action="store_true",
                         help='Only compare the first outputed line of rtl433'
                              ' with first line of reference json')
+    parser.add_argument('-t', '--test-path', default="tests",
+                        help='path to the tests location')
     args = parser.parse_args()
 
     rtl_433_cmd = args.rtl433_cmd
     config_path = args.config_path
     ignore_fields = args.ignore_field
     first_line = args.first_line
+    test_path = args.test_path
 
-    expected_json = find_json()
+    expected_json = find_json(test_path)
     nb_ok = 0
     nb_fail = 0
     false_positives = dict()
