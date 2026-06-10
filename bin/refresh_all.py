@@ -9,13 +9,16 @@ import fnmatch
 import subprocess
 import json
 
-def run_rtl433(input_fn, samplerate=None, protocol=None, rtl_433_cmd="rtl_433"):
+from sample_params import rtl433_args
+
+def run_rtl433(input_fn, protocol=None, rtl_433_cmd="rtl_433"):
     """Run rtl_433 and return output."""
     args = ['-c', '0']
     if protocol:
         args.extend(['-R', str(protocol)])
-    if samplerate:
-        args.extend(['-s', str(samplerate)])
+    # Derive -f/-s from the filename (and per-dir override files), identical to
+    # run_test.py, so regenerated references match what the test harness runs.
+    args.extend(rtl433_args(input_fn))
     args.extend(['-F', 'json', '-r', input_fn])
     cmd = [rtl_433_cmd] + args
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -51,12 +54,6 @@ def convert(root, filename, rtl_path):
         print("WARNING: Ignoring '%s'" % input_fn)
         return
 
-    samplerate = 250000
-    samplerate_fn = os.path.join(os.path.dirname(output_fn), "samplerate")
-    if os.path.isfile(samplerate_fn):
-        with open(samplerate_fn, "r") as samplerate_file:
-            samplerate = int(samplerate_file.readline())
-
     protocol = None
     protocol_fn = os.path.join(os.path.dirname(output_fn), "protocol")
     if os.path.isfile(protocol_fn):
@@ -73,7 +70,7 @@ def convert(root, filename, rtl_path):
         expected_model = get_model_from_json(old_data[0])
 
     # Run rtl_433
-    out, _err, exitcode = run_rtl433(input_fn, samplerate, protocol, rtl_path)
+    out, _err, exitcode = run_rtl433(input_fn, protocol, rtl_path)
 
     if exitcode:
         print("ERROR: Exited with %d '%s'" % (exitcode, input_fn))

@@ -12,6 +12,8 @@ import json
 
 from deepdiff import DeepDiff
 
+from sample_params import rtl433_args
+
 
 def run_rtl433(input_fn, protocol=None, config=None, rtl_433_cmd="rtl_433"):
     """Run rtl_433 and return output."""
@@ -20,6 +22,10 @@ def run_rtl433(input_fn, protocol=None, config=None, rtl_433_cmd="rtl_433"):
         args.extend(['-R', str(protocol)])
     if config:
         args.extend(['-c', str(config)])
+    # Derive -f/-s from the filename so the FSK slicer auto-selects correctly
+    # (min/max above 800 MHz); otherwise file replay defaults to 433.92 MHz
+    # and the min/max code path is never exercised.
+    args.extend(rtl433_args(input_fn))
     args.extend(['-F', 'json', '-r', input_fn])
     cmd = [rtl_433_cmd] + args
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
