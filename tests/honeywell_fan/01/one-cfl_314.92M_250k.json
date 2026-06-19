@@ -1,0 +1,5 @@
+{"time" : "@0.231696s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd86", "id" : 5837, "button" : "fan_low", "dimmable" : "no"}], "codes" : ["{24}16cd86"]}
+{"time" : "@0.277892s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd86", "id" : 5837, "button" : "fan_low", "dimmable" : "no"}], "codes" : ["{24}16cd86"]}
+{"time" : "@0.324096s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd86", "id" : 5837, "button" : "fan_low", "dimmable" : "no"}], "codes" : ["{24}16cd86"]}
+{"time" : "@0.370304s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd86", "id" : 5837, "button" : "fan_low", "dimmable" : "no"}], "codes" : ["{24}16cd86"]}
+{"time" : "@0.416512s", "model" : "Honeywell-Fan", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 24, "data" : "16cd86", "id" : 5837, "button" : "fan_low", "dimmable" : "no"}], "codes" : ["{24}16cd86"]}
