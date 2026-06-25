@@ -25,16 +25,19 @@ be swapped.
 |------|----------|--------------|-------|
 | g001 | Periodic | `0x04069cb2` | Autonomous 10-minute broadcast (msg_class 0x13). Includes 10-record history buffer. Both probes at room temperature; display-confirmed 23.6 °C on both probes at capture time. |
 | g002 | Triggered | `0x08139cb2` | Gateway-triggered status response (msg_class 0x71). Sent in reply to a 0x70 network-test command. No history buffer. |
-| g003 | Periodic | `0x0b279cb2` | Autonomous 10-minute broadcast, second physical unit (id_wire high-word 0x0b27). Probe 1 in refrigerator (~2.3 °C), probe 2 temperature shown as 1.6 °C (k=0 cold-start value; probe 2 was physically in a freezer at approximately −24 °C but rtl_433 had just started so wrap-count k was seeded to 0 rather than −1). |
+| g003 | Periodic | `0x0b279cb2` | Autonomous 10-minute broadcast, second physical unit (id_wire high-word 0x0b27). Probe 1 in refrigerator (~2.3 °C), probe 2 physically in a freezer at approximately −24 °C, read correctly as `temperature_2_C` ≈ −24.0 °C directly from the frame. |
 
 ## Probe 2 temperature encoding
 
-Probe 2 uses a modular 8-bit encoding that wraps every 25.6 °C. The decoder
-maintains a per-device wrap-count k and applies `T_abs = T_mod + k × 25.6`.
-k is seeded on first decode using `T1 ≈ T2` (correct when both probes start
-at room temperature, which is the normal setup procedure). If rtl_433 restarts
-while probe 2 is already in a cold environment, k is seeded from the current
-frame and may be off by ±1 until a 25.6 °C boundary crossing self-corrects it.
+Both probe temperatures and humidity are packed by the device's firmware into
+one 32-bit little-endian word (`dec[6..9]`): an 11-bit field for probe 2, an
+11-bit field for probe 1, and a 10-bit field for humidity, each at 0.1
+units/count, zero-anchored at −40 °C for the temperature fields. Probe 2 is
+read directly as an absolute value -- no per-device state, no wrap-count
+tracking, no cold-start dependency. This is confirmed bit-exact against the
+device's dumped/disassembled firmware (which contains the identical packing
+function) as well as against real app-displayed readings spanning multiple
+25.6 °C bands; see merbanan/rtl_433 PR #3568 for the full derivation.
 
 ## Device IDs
 
