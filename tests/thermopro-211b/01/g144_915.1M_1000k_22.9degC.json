@@ -1,1 +1,1 @@
-{"time" : "@0.074021s", "model" : "ThermoPro-TP211B", "id" : 75507, "temperature_C" : 22.900, "mic" : "CHECKSUM"}
+{"time" : "@0.074021s", "model" : "ThermoPro-TP211B", "id" : 75507, "battery_ok" : 1, "temperature_C" : 22.900, "mic" : "CHECKSUM"}
