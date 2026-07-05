@@ -1,0 +1,2 @@
+{"time" : "@0.218008s", "model" : "ESAx000WZ", "id" : 21250, "impulses" : 6, "impulses_total" : 17193, "impulse_constant" : 375, "total_kWh" : 45.848, "impulse_kWh" : 0.016, "sequence_id" : 113, "is_retry" : 0, "mic" : "CRC"}
+{"time" : "@1.048316s", "model" : "ESAx000WZ", "id" : 21250, "impulses" : 6, "impulses_total" : 17193, "impulse_constant" : 375, "total_kWh" : 45.848, "impulse_kWh" : 0.016, "sequence_id" : 113, "is_retry" : 1, "mic" : "CRC"}
