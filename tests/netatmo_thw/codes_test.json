@@ -1,0 +1,3 @@
+{"model" : "NetAtmo-TH", "id" : 22712578, "battery_mV" : 6830, "signal_dB" : -83, "temperature_C" : 11.800, "humidity" : 88, "mic" : "CRC"}
+{"model" : "NetAtmo-TH", "id" : 22712578, "signal_dB" : -83, "mic" : "CRC"}
+{"model" : "NetAtmo-Wind", "id" : 22712579, "battery_mV" : 6166, "signal_dB" : -65, "raw_a_315" : 41, "raw_b_315" : -28, "raw_c_045" : -46, "raw_d_045" : -16, "wind_spd_km_h" : 3.167, "wind_dir_deg" : 236, "mic" : "CRC"}
