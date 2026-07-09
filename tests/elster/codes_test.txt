@@ -1,0 +1,22 @@
+# Elster/Honeywell R2S/REXU power meters
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/1196
+#
+# These are NOT raw IQ captures -- no usable .cu8/.cs16 sample was found
+# (see README.md in this directory for details). Each code below is the
+# full Manchester-decoded bitstream for one real transmission (preamble,
+# sync, and frame all included, untrimmed), converted from RfRaw
+# pulse-timing data that users posted directly in the issue thread.
+# rtl_433's own manchester demod was used for the conversion; the decoder
+# then locates the frame itself via its internal bit-position search.
+# Verified against the reference gr-elster decode logic (CRC-16/X-25
+# over LEN..last DATA byte, low byte first, whitened with 0x55).
+#
+# Posted by @greyltc, comment https://github.com/merbanan/rtl_433/issues/1196#issuecomment-3196963290
+# id 15635596 (0x00ee948c), dst 18722972 (0x011db09c), flags 0x08
+{889}0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007fffffff865ebbaeaadde0ecaa2472e4edaaaa9e720f2aaaaaaaaaaaaaaaaaaaa92eb8aaaa8ab3db1f310
+
+# Posted by @cliv (g042_902.4M_1000k.cu8), comment https://github.com/merbanan/rtl_433/issues/1196#issuecomment-1258867613
+# id 14330840 (0x00daabd8), dst 0, flags 0x08
+{1172}0000000001ffffffffffffffffffffffffffffffffffffffffffffffffffbffffffffffffffffffeffffffffffffffffffffffffffffffffffffff7fffffffffeffffbfffffffffff865ebeaeaac7ff46aaaaaaaae22abaefa4ed2aaaaaaaaaaaaaaa8aaaa92aaf2eba2abaeafeea9dcda92b9845aa5555555555555555555555555555555555555555555555555555555555
