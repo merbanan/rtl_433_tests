@@ -1,0 +1,2 @@
+{"model" : "Omni-Multisensor", "id" : 9, "channel" : 0, "temperature_C" : 27.300, "voltage_V" : 4.190, "payload" : "1112223344556677", "mic" : "CRC"}
+{"model" : "Omni-Multisensor", "id" : 9, "channel" : 1, "temperature_C" : 30.500, "temperature_2_C" : 29.000, "humidity" : 49.000, "light_pct" : 50.000, "pressure_hPa" : 995.000, "voltage_V" : 4.880, "mic" : "CRC"}
