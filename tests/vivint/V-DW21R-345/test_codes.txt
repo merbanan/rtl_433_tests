@@ -1,0 +1,92 @@
+# Vivint V-DW21R-345 Sensor Codes
+# {96}<hex>   <annotation>
+# Source: GitHub issue #1504
+#
+{96}00012f00f0cffec840a0285f  # Battery Insert, Device ID 0019-050-7743
+{96}00012fcbf0bffec841259bef  # Battery Insert, Device ID 0019-050-7610
+{96}00012fdff0bffec84125e2ff  # Battery Insert, Device ID 0019-050-7610 (2nd)
+{96}00012fe6f0bffec840a0467f  # Battery Insert, Device ID 0019-050-7743
+{96}00012ff1f0bffec840a0956f  # Battery Insert, Device ID 0019-050-7743
+{96}0001857bfc1bfec840a05826  # Open (Sensor 2)
+{96}0001857bfd2bfec840a0ed4c  # Closed (Sensor 2)
+{96}000185ffbdeffec84125bac3  # Initial capture (spaced hex in original post)
+{96}000185ffc153fec841254fb7  # 
+{96}000185ffc23ffec841258aeb  # 
+{96}000185ffc2bffec8412581d8  # 
+{96}000185ffc32ffec841258ced  # 
+{96}000185ffc3abfec8412583c6  # 
+{96}000185ffc407fec841251c54  # 
+{96}000185ffc483fec84125137f  # 
+{96}000185ffc53ffec84125638e  # 
+{96}000185ffc5bbfec841256ca5  # 
+{96}000185ffc65bfec841250d22  # 
+{96}000185ffc6dffec841250209  # 
+{96}000185ffc72bfec841257353  # 
+{96}000185ffc7abfec841257860  # 
+{96}000185ffc857fec8412556a6  # 
+{96}000185ffc8d7fec841255d95  # 
+{96}000185ffc96ffec84125505f  # 
+{96}000185ffc9ebfec841255f74  # 
+{96}000185ffca3ffec84125d002  # 
+{96}000185ffcabbfec84125df29  # 
+{96}000185ffcb57fec8412586e5  # 
+{96}000185ffcbd3fec8412589ce  # 
+{96}000185ffcc23fec841257aca  # 
+{96}000185ffcca3fec8412571f9  # 
+{96}000185ffcd4ffec841252835  # 
+{96}000185ffcdcffec841252306  # 
+{96}000185ffce5bfec84125676b  # 
+{96}000185ffcedbfec841256c58  # 
+{96}000185ffcf5bfec84125102b  # 
+{96}000185ffcfdbfec841251b18  # 
+{96}000185ffd003fec84125bc1d  # 
+{96}000185ffd083fec84125b72e  # 
+{96}000185ffd103fec84125e39e  # 
+{96}000185ffd187fec84125ecb5  # 
+{96}000185ffd237fec841258ccc  # 
+{96}000185ffd2b7fec8412587ff  # 
+{96}000185ffd303fec841255cfe  # 
+{96}000185ffd387fec8412553d5  # 
+{96}000185ffd47ffec84125f901  # 
+{96}000185ffd4fbfec84125f62a  # 
+{96}000185ffd55bfec841258296  # 
+{96}000185ffd5dffec841258dbd  # 
+{96}000185ffd68bfec84125aa38  # 
+{96}000185ffd733fec841253492  # 
+{96}000185ffd86ffec84125608b  # 
+{96}000185ffd8effec841256bb8  # 
+{96}000185ffd95ffec841255ee2  # 
+{96}000185ffd9dffec8412555d1  # 
+{96}000185ffda43fec84125486c  # 
+{96}000185ffdac3fec84125435f  # 
+{96}000185ffdb13fec841251611  # 
+{96}000185ffdb93fec841251d22  # 
+{96}000185ffdc1ffec84125a2bc  # 
+{96}000185ffdc9ffec84125a98f  # 
+{96}000185ffdd5ffec84125a544  # 
+{96}000185ffdddffec84125ae77  # 
+{96}000185ffde67fec84125341e  # 
+{96}000185ffdee3fec841253b35  # 
+{96}000185ffdf2bfec84125fd4e  # 
+{96}000185ffdfabfec84125f67d  # 
+{96}000185ffe043fec841259779  # (unlabeled, in continuous open/close sequence)
+{96}000185ffe0c7fec841259852  # (unlabeled, in continuous open/close sequence)
+{96}000185ffe18bfec840a0bca4  # Open
+{96}000185ffe1abfec84125abed  # Open
+{96}000185ffe1affec84125aff5  # Open? (unlabeled, in sequence)
+{96}000185ffe227fec840a0d890  # Closed
+{96}000185ffe273fec841255190  # Open (Sensor 1)
+{96}000185ffe2f3fec841255aa3  # Closed
+{96}000185ffe303fec84125ed61  # (unlabeled, in continuous open/close sequence)
+{96}000185ffe307fec84125e979  # open
+{96}000185ffe33bfec840a09b3d  # Open
+{96}000185ffe33ffec840a09f25  # open
+{96}000185ffe387fec84125e24a  # Closed (Sensor 1)
+{96}000185ffe413fec8412524a2  # Closed
+{96}000185ffe417fec8412520ba  # closed
+{96}000185ffe457fec840a0dce4  # closed
+{96}000185ffe55ffec841252f72  # After battery insert (Sensor 1 / Device 7610)
+{96}000185ffe5b7fec840a08900  # After battery insert (Sensor 2 / Device 7743)
+{96}000185ffe60bfec840a06e52  # After battery insert (Sensor 2 / Device 7743)
+{96}000185ffe617fec841254539  # After battery insert (Sensor 1 / Device 7610)
+{96}000186b0dd43fec5c3f3e91c  # Unknown sensor/state (different device)
