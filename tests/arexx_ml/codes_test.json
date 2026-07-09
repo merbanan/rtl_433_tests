@@ -1,0 +1,5 @@
+{"model" : "Arexx-ML", "id" : 199197, "humidity" : 48.806, "sensor_raw" : 1481, "mic" : "CRC"}
+{"model" : "Arexx-ML", "id" : 199197, "humidity" : 48.774, "sensor_raw" : 1480, "mic" : "CRC"}
+{"model" : "Arexx-ML", "id" : 18821, "humidity" : 49.541, "sensor_raw" : 1504, "mic" : "CRC"}
+{"model" : "Arexx-ML", "id" : 199196, "temperature_C" : 23.010, "sensor_raw" : 6301, "mic" : "CRC"}
+{"model" : "Arexx-ML", "id" : 18820, "temperature_C" : 23.000, "sensor_raw" : 6300, "mic" : "CRC"}
