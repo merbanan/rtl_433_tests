@@ -1,0 +1,75 @@
+# OWL CM130 energy monitor
+#
+# Source: https://github.com/merbanan/rtl_433/issues/1493
+#
+# Oregon-Scientific v3 family, OOK Manchester, 97-bit message, preamble
+# 00 00 00 60. Codes below are the message as printed by the prototype
+# feat-cm130 decoder ("orig" form, MSB nibble order); byte 0 reads 0x00
+# because the prototype masks the 0x60 sync nibble (real wire byte is 0x60).
+#
+# No CM130 decoder is merged yet, so these are documentation only (there is
+# no codes_test.json). Known field decoding, worked out from this data:
+#
+#   after reflecting nibbles of the message:
+#   - id        = byte 2
+#   - power_W   = ((b[3] << 8) | (b[5] >> 4)) / 16      (confirmed vs display)
+#   - energy    = 36-bit LE counter in bytes 6..9 (+ low nibble of b5),
+#                 ~256 J per count; absolute kWh offset still unknown
+#   - byte 11   = checksum, provably linear over GF(2) but formula unsolved
+#
+# See ../readme.txt for the full status. The reset-button captures in 01/
+# carry no meaningful reading and are documented in 01/readme.txt.
+
+## @mzealey readings (rflink cross-reference), house code 0x0085
+# WATT / KWATT are the rflink-reported values
+{97} 00 83 58 d2 00 21 7f 50 00 00 00 85 10  # WATT=02d1 KWATT=0000006d
+{97} 00 83 58 a2 00 e0 10 60 00 00 00 b5 10  # WATT=02a0 KWATT=0000006d
+{97} 00 83 58 82 00 6b 31 60 00 00 00 be 10  # WATT=028b KWATT=0000006f
+{97} 00 83 58 a2 00 60 72 60 00 00 00 fd 10  # WATT=027f KWATT=00000070
+{97} 00 83 58 72 00 2a 03 60 00 00 00 c1 10  # WATT=027a KWATT=00000071
+{97} 00 83 58 a2 00 8f c4 60 00 00 00 46 10  # WATT=02ad KWATT=00000074
+{97} 00 83 58 a2 00 0d 65 60 00 00 00 b4 10  # WATT=027f KWATT=00000074
+{97} 00 83 58 72 00 21 06 60 00 00 00 5c 10  # WATT=0271 KWATT=00000074
+{97} 00 83 58 a2 00 89 3a 60 00 00 00 9c 10  # WATT=09d7 KWATT=00000079
+{97} 00 83 58 79 00 c1 9e 60 00 00 00 57 10  # WATT=0971 KWATT=0000007e
+{97} 00 83 58 0b 00 ad c0 70 00 00 00 fb 10  # WATT=09e8 KWATT=00000081
+{97} 00 83 58 e9 00 4c 13 70 00 00 00 7d 10  # WATT=09ec KWATT=00000083
+{97} 00 83 58 d9 00 c9 65 70 00 00 00 a3 10  # WATT=09d9 KWATT=00000086
+{97} 00 83 58 59 00 ae a7 70 00 00 00 c8 10  # WATT=095e KWATT=00000088
+{97} 00 83 58 a2 00 a3 d9 70 00 00 00 51 10  # WATT=02a3 KWATT=0000008b
+
+## @synx508 readings (webcam-logged display), house code 0x0c43
+# "kW, kWh" are the values shown on the OWL display; a few are off due to
+# ~1s webcam lag while power was fluctuating (see issue comment #12)
+{97} 00 0c 43 61 00 0c 82 dc 70 00 00 42 10  # 0.35 kW, 27.38 kWh
+{97} 00 0c 43 51 00 a9 d2 dc 70 00 00 dd 10  # 0.33 kW, 27.38 kWh
+{97} 00 0c 43 ab 00 c5 a4 dc 70 00 00 a2 10  # 2.99 kW, 27.39 kWh
+{97} 00 0c 43 6b 00 25 57 dc 70 00 00 74 10  # 2.93 kW, 27.39 kWh
+{97} 00 0c 43 31 00 0c 49 dc 70 00 00 f2 10  # 0.30 kW, 27.40 kWh
+{97} 00 0c 43 9b 00 65 1a dc 70 00 00 73 10  # 2.97 kW, 27.40 kWh
+{97} 00 0c 43 c1 00 ef 7a dc 70 00 00 f3 10  # 0.45 kW, 27.40 kWh
+{97} 00 0c 43 a1 00 00 5b dc 70 00 00 ab 10  # 0.41 kW, 27.40 kWh
+{97} 00 0c 43 a1 00 42 bb dc 70 00 00 5a 10  # 0.41 kW, 27.40 kWh
+{97} 00 0c 43 ba 00 61 fc dc 70 00 00 e9 10  # 2.75 kW, 27.40 kWh
+{97} 00 0c 43 9a 00 cd 6f dc 70 00 00 fc 10  # 2.75 kW, 27.40 kWh
+{97} 00 0c 43 9a 00 66 e1 ec 70 00 00 04 10  # 2.72 kW, 27.41 kWh
+{97} 00 0c 43 aa 00 e0 64 ec 70 00 00 97 10  # 2.73 kW, 27.42 kWh
+{97} 00 0c 43 9a 00 e9 d6 ec 70 00 00 34 10  # 2.72 kW, 27.42 kWh
+{97} 00 0c 43 8a 00 43 59 ec 70 00 00 91 10  # 2.70 kW, 27.43 kWh
+{97} 00 0c 43 0a 00 8e 0e ec 70 00 00 d2 10  # 2.57 kW, 27.43 kWh
+{97} 00 0c 43 31 00 a1 30 fc 70 00 00 11 10  # 0.30 kW, 27.44 kWh
+{97} 00 0c 43 0a 00 42 e0 fc 70 00 00 25 10  # 2.57 kW, 27.44 kWh
+{97} 00 0c 43 7a 00 2f 33 fc 70 00 00 39 10  # 2.68 kW, 27.44 kWh
+{97} 00 0c 43 60 10 64 94 fc 70 00 00 15 10  # 4.21 kW, 27.45 kWh
+{97} 00 0c 43 87 00 e4 38 fc 70 00 00 f7 10  # 1.93 kW, 27.45 kWh
+{97} 00 0c 43 70 10 64 3a fc 70 00 00 7c 10  # 4.23 kW, 27.46 kWh
+{97} 00 0c 43 40 10 a5 0e fc 70 00 00 4f 10  # 4.18 kW, 27.46 kWh
+{97} 00 0c 43 40 10 22 63 0d 70 00 00 a8 10  # 4.18 kW, 27.47 kWh
+{97} 00 0c 43 87 00 27 55 0d 70 00 00 3d 10  # 1.93 kW, 27.48 kWh
+{97} 00 0c 43 50 10 2d 88 0d 70 00 00 9a 10  # 4.20 kW, 27.48 kWh
+{97} 00 0c 43 87 00 0a ba 0d 70 00 00 12 10  # 1.93 kW, 27.49 kWh
+{97} 00 0c 43 67 00 ee 5d 0d 70 00 00 b3 10  # 1.89 kW, 27.49 kWh
+{97} 00 0c 43 77 00 8c 8f 0d 70 00 00 ab 10  # 1.91 kW, 27.50 kWh
+{97} 00 0c 43 77 00 8b 41 1d 70 00 00 f0 10  # 1.91 kW, 27.50 kWh
+{97} 00 0c 43 11 00 ea 42 1d 70 00 00 51 10  # 0.27 kW, 27.50 kWh
+{97} 00 0c 43 21 00 ec 82 1d 70 00 00 5e 10  # 0.28 kW, 27.50 kWh
