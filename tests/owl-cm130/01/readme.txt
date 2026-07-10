@@ -1,15 +1,15 @@
 OWL CM130 energy monitor, from https://github.com/merbanan/rtl_433/issues/1493
 (out.zip attached by @mzealey). Captures taken while pressing the reset button,
-so they carry no meaningful power/energy readings.
+so power and energy read 0.
 
-Oregon-Scientific v3 family, OOK Manchester, preamble 00 00 00 60.
+Oregon-Scientific v3 family, OOK Manchester, preamble 00 00 00 60. These now
+decode as model "Oregon-CM130" (protocol 12); see the .json reference files
+and ../readme.txt for the message format and checksum.
 
-Raw messages (flex decoder, m=OOK_MC_ZEROBIT,s=490,l=490,r=2000), the message
-proper starts at the 0x60 sync nibble:
+Raw messages after the decoder's reflect_nibbles() normalization (these match
+zuckschwerdt's original example codes in the issue), with the checksum byte
+last:
 
-    g002 : {121}0000006031df0000000000000000698
-    g004 : {121}00000060320f0000000000000000238
-    g006 : {121}0000006033fb00000000000000009b8
-
-No CM130 decoder is merged yet (see ../readme.txt), so there are no reference
-.json files for these captures.
+    g002 : 60 c8 bf 00 00 00 00 00 00 00 00 69
+    g004 : 60 c4 0f 00 00 00 00 00 00 00 00 4c
+    g006 : 60 cc fd 00 00 00 00 00 00 00 00 9d

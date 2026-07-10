@@ -3,29 +3,34 @@ OWL CM130 energy monitor
 See https://github.com/merbanan/rtl_433/issues/1493.
 
 Sister device to the CM160/CM180, Oregon-Scientific v3 family, OOK
-Manchester, 97-bit message, preamble 00 00 00 60.
+Manchester, 97-bit message, preamble 00 00 00 60. Decoded as model
+"Oregon-CM130" by the oregon_scientific decoder (protocol 12).
 
 Contents:
-- 01/       three raw .cu8 captures (reset-button presses, no reading)
-- codes.txt all known raw messages with their reference readings:
-            @mzealey's 15 rflink cross-referenced codes and @synx508's
-            32 webcam-logged display readings
+- 01/           three raw .cu8 captures (reset-button presses)
+- codes_test.*  all 47 known readings, as on-wire frames for `rtl_433 -y`
+                plus their reference decodes
 
-No CM130 decoder is merged into rtl_433 yet (there is an unmerged
-feat-cm130 branch with partial, power-only decoding). The data here is
-kept for whoever finishes the decoder. What is known so far, from
-analysing codes.txt:
+Message format (12 bytes, after the decoder's reflect_nibbles(), then a
+per-byte nibble swap as the CM130 branch applies):
 
-- power_W = ((b[3] << 8) | (b[5] >> 4)) / 16 after nibble reflection;
-  confirmed against the display (the feat-cm130 branch is missing the
-  /16 and so reads 16x too high, as reported in the issue)
-- energy is a 36-bit little-endian counter in bytes 6..9 (plus the low
-  nibble of byte 5), incrementing ~256 J per count; the absolute kWh
-  offset/scale is still unknown
-- byte 11 is a checksum: it is provably linear over GF(2) (rank 31, no
-  contradictions over 50 messages) but does not match any standard CRC-8
-  or Oregon/LFSR digest, so the exact formula is still open
+    60 II II PL PH 0. EE EE EE EE XX
+    -- sync (0x60)
+    II II  house code (id = byte 2)
+    PL PH  power, 16-bit little endian, in units of 16 W
+           power_W = ((byte4 << 8) | byte3) * 16
+    EE..   32-bit little-endian cumulative energy counter (bytes 6..9),
+           reported as energy_kWh = counter / 8192 (8192 = 2^13 = 16 * 512,
+           matching the power scale of 16). This is the meter's absolute
+           lifetime total, so it reads higher than the console, which shows a
+           relative value with a device-specific offset (~35 kWh here).
+    XX     checksum, byte 11
 
-To finish this, more captures with matching meter readings across a
-wider power/energy range are needed (as the maintainer noted in the
-issue).
+Checksum (was unsolved in the issue for years, now solved): CRC-8 with
+polynomial 0x07, init 0x00, non-reflected, no final XOR, computed over
+message bytes 1..10 in the reflect_nibbles() domain; the stored value is
+that CRC with its two nibbles swapped, i.e.
+
+    crc8(&msg[1], 10, 0x07, 0x00) == swap_nibbles(msg[11])
+
+Validated against all 47 readings here and the 3 reset captures.
