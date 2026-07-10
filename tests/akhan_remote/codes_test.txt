@@ -1,0 +1,22 @@
+# Akhan 100F14 (HS1527 OTP encoder) wall switches
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/1458
+# ("Akhan 100F14 three-button variant is not decoded")
+#
+# Extracted from the six .cu8 samples attached to the issue (wallsw_cu8.zip)
+# using the decoder's own OOK_PWM framing parameters, before the decoder's
+# internal bit-inversion. Feed with `rtl_433 -y`.
+#
+# g001 - single-button wall switch, id 0x8819f
+{25}77e60e8
+# g002 - two-button wall switch, button 1, id 0x91c32
+{25}6e3cdb8
+# g003 - two-button wall switch, button 2, id 0x91c32
+{25}6e3cdd8
+# g004 - three-button wall switch, button 1, id 0x9062e
+{25}6f9d1b8
+# g005 - three-button wall switch, button 2, id 0x9062e
+{25}6f9d1e8
+# g006 - three-button wall switch, button 3, id 0x9062e
+{25}6f9d1d8
