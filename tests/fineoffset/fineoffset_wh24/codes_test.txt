@@ -1,0 +1,16 @@
+# Fine Offset WH24 / WH65B classification ambiguity, s.a. #1220
+# {N}<hex>
+#
+# WH24 and WH65B send bit-identical payloads and only differ in overall
+# packet length, so the decoder's classification heuristic (preamble/
+# postamble bit timing) is unreliable -- these two example frames from
+# src/devices/fineoffset.c's own doc-comment demonstrate the default
+# (heuristic) decode. Try with -R 78:wh24 / -R 78:wh65b to see the
+# override force the model (and the different wind/rain scale factors)
+# regardless of which side of the heuristic a given capture lands on.
+
+# nominal WH24 framing (196 bit periods): id 191, temp 11.8 C, humidity 78 %
+{196}d55555555516ea125f8571032704010025000080000047839
+
+# nominal WH65B framing (209 bit periods): id 80, temp 24.7 C, humidity 65 %
+{209}55555555555 16ea122833f143a0800000008001000000460a1008
