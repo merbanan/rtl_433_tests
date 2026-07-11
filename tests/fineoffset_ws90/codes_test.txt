@@ -1,0 +1,12 @@
+# Fine Offset Electronics WS90 weather station
+# {N}<hex>
+#
+# Source: real captures originally gathered while investigating
+# https://github.com/merbanan/rtl_433/issues/3599 and
+# https://github.com/merbanan/rtl_433/issues/3600 (both turned out to be
+# this same WS90 station, id 77656, misidentified by the reporter as a
+# WH40BH rain gauge / WH57 lightning sensor respectively -- see those
+# issues for the full story).
+
+{426}55555555555516ea480097ac0b194e51629f801900141fffd4c001011e1aed17fff7ff000050aa6137d0e09c8f87de0000000000000
+{428}55555555555516ea480097ac04bdce51671d029c83051fffd4c001011e1aed17ffeffe80005091da3850e1918f88c78000000000000
