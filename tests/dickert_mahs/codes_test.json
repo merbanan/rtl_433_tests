@@ -1,0 +1,12 @@
+{"model" : "Dickert-MAHS433", "id" : 1003271, "dipswitch" : "++0-++--0+", "facswitch" : "0000-000"}
+{"model" : "Dickert-MAHS433", "id" : 0, "dipswitch" : "----------", "facswitch" : "0000-000"}
+{"model" : "Dickert-MAHS433", "id" : 262192, "dipswitch" : "0------+--", "facswitch" : "0000-000"}
+{"model" : "Dickert-MAHS433", "id" : 786432, "dipswitch" : "+---------", "facswitch" : "0000-000"}
+{"model" : "Dickert-MAHS433", "id" : 1, "dipswitch" : "---------0", "facswitch" : "0000-000"}
+{"model" : "Dickert-MAHS433", "id" : 3, "dipswitch" : "---------+", "facswitch" : "0000-000"}
+{"model" : "Dickert-MAHS433", "id" : 4, "dipswitch" : "--------0-", "facswitch" : "0000-000"}
+{"model" : "Dickert-MAHS433", "id" : 12, "dipswitch" : "--------+-", "facswitch" : "0000-000"}
+{"model" : "Dickert-MAHS433", "id" : 16, "dipswitch" : "-------0--", "facswitch" : "0000-000"}
+{"model" : "Dickert-MAHS433", "id" : 48, "dipswitch" : "-------+--", "facswitch" : "0000-000"}
+{"model" : "Dickert-MAHS433", "id" : 349525, "dipswitch" : "0000000000", "facswitch" : "0000-000"}
+{"model" : "Dickert-MAHS433", "id" : 1048575, "dipswitch" : "++++++++++", "facswitch" : "0000-000"}

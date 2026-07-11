@@ -1,0 +1,19 @@
+# Dickert MAHS433-01 garage door remote control
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/2983 (BitBench examples)
+# Each code is the 37-bit raw decoded stream: a leading "1" pulse symbol
+# followed by the 36 logical bits (10 dip switches + 8 factory symbols).
+
+{37}fa783aa8a8
+{37}800002a8a8
+{37}a00182a8a8
+{37}e00002a8a8
+{37}80000aa8a8
+{37}80001aa8a8
+{37}800022a8a8
+{37}800062a8a8
+{37}800082a8a8
+{37}800182a8a8
+{37}aaaaaaa8a8
+{37}fffffaa8a8
