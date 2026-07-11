@@ -1,0 +1,4 @@
+{"time" : "@0.072590s", "model" : "EcoWitt-WN20", "id" : 11399, "battery_V" : 3.040, "battery_ok" : 1, "battery_pct" : 100, "rain_mm" : 1.900, "data" : "0000000000", "mic" : "CRC"}
+{"time" : "@0.072590s", "model" : "LaCrosse-TX22UIT", "id" : 32, "flags" : 0, "rain_mm" : 1661.226, "mic" : "CRC"}
+{"time" : "@0.106322s", "model" : "EcoWitt-WN20", "id" : 11399, "battery_V" : 3.040, "battery_ok" : 1, "battery_pct" : 100, "rain_mm" : 1.900, "data" : "0000000000", "mic" : "CRC"}
+{"time" : "@0.106322s", "model" : "LaCrosse-TX22UIT", "id" : 32, "flags" : 0, "rain_mm" : 1661.226, "mic" : "CRC"}
