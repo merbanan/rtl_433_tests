@@ -1,0 +1,24 @@
+# EMOS E6016 weatherstation with DCF77, EMOS E6018 temperature/humidity sensor
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/1692
+#
+# Codes are the on-wire pre-invert bit pattern (decoder inverts internally),
+# tripled with `/` since the decoder requires bitbuffer_find_repeated_prefix(3, 112).
+# The E6018 (simpler variant, no wind sensor or DCF77 receiver) was confirmed
+# by @a-r-m-e-n; the discriminator (byte 4, top 2 bits: 0 for E6018, 2 for
+# E6016) and the real E6016 comparison codes were captured/posted by @kuenkin.
+
+# E6018, house code 177, fake fixed-date clock, no wind
+{120}555a7c4ef0ef62ff3ecfe1fffbadfe/{120}555a7c4ef0ef62ff3ecfe1fffbadfe/{120}555a7c4ef0ef62ff3ecfe1fffbadfe
+{120}555a7c4ef0ef62efbecfe1fffb1dfc/{120}555a7c4ef0ef62efbecfe1fffb1dfc/{120}555a7c4ef0ef62efbecfe1fffb1dfc
+{120}555a7c4ef0ef62ebfecfe1fffb59fe/{120}555a7c4ef0ef62ebfecfe1fffb59fe/{120}555a7c4ef0ef62ebfecfe1fffb59fe
+{120}555a7c4ef0ef6128bed0e2fffb57fe/{120}555a7c4ef0ef6128bed0e2fffb57fe/{120}555a7c4ef0ef6128bed0e2fffb57fe
+{120}555a7c4ef0ef61193ed0e2fffbc8fe/{120}555a7c4ef0ef61193ed0e2fffbc8fe/{120}555a7c4ef0ef61193ed0e2fffbc8fe
+
+# E6016, house code 255 (from the decoder's own doc-comment example), real clock + wind
+{120}555a7c006aa560e73f36daff5d38ff/{120}555a7c006aa560e73f36daff5d38ff/{120}555a7c006aa560e73f36daff5d38ff
+
+# E6016, house code 117, real clock + wind
+{120}555a7c8a687ea293feede7ffbd6afe/{120}555a7c8a687ea293feede7ffbd6afe/{120}555a7c8a687ea293feede7ffbd6afe
+{120}555a7c8a687ea2847eeee7ffbddcfe/{120}555a7c8a687ea2847eeee7ffbddcfe/{120}555a7c8a687ea2847eeee7ffbddcfe
