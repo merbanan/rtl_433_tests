@@ -1,0 +1,3 @@
+{"model" : "Watts-WFHTLCDRF", "id" : "34:9E:48", "mode" : "heat", "pairing" : "true", "temperature_C" : 26.000, "setpoint_C" : 17.600, "call_for_heat" : 0, "mic" : "CRC"}
+{"model" : "Watts-WFHTLCDRF", "id" : "34:9E:48", "mode" : "heat", "pairing" : "false", "temperature_C" : 25.500, "setpoint_C" : 0.000, "call_for_heat" : 0, "mic" : "CRC"}
+{"model" : "Watts-WFHTLCDRF", "id" : "34:9E:48", "mode" : "heat", "pairing" : "false", "temperature_C" : 25.500, "setpoint_C" : 17.500, "call_for_heat" : 0, "mic" : "CRC"}

@@ -1,0 +1,7 @@
+{"time" : "@0.543860s", "model" : "Watts-WFHTLCDRF", "id" : "34:9E:48", "mode" : "heat", "pairing" : "true", "temperature_C" : 26.000, "setpoint_C" : 17.600, "call_for_heat" : 0, "mic" : "CRC"}
+{"time" : "@1.043540s", "model" : "Watts-WFHTLCDRF", "id" : "34:9E:48", "mode" : "heat", "pairing" : "true", "temperature_C" : 26.000, "setpoint_C" : 17.500, "call_for_heat" : 0, "mic" : "CRC"}
+{"time" : "@1.543524s", "model" : "Watts-WFHTLCDRF", "id" : "34:9E:48", "mode" : "heat", "pairing" : "true", "temperature_C" : 26.000, "setpoint_C" : 17.600, "call_for_heat" : 0, "mic" : "CRC"}
+{"time" : "@2.043512s", "model" : "Watts-WFHTLCDRF", "id" : "34:9E:48", "mode" : "heat", "pairing" : "true", "temperature_C" : 26.000, "setpoint_C" : 17.500, "call_for_heat" : 0, "mic" : "CRC"}
+{"time" : "@2.543496s", "model" : "Watts-WFHTLCDRF", "id" : "34:9E:48", "mode" : "heat", "pairing" : "true", "temperature_C" : 26.000, "setpoint_C" : 17.600, "call_for_heat" : 0, "mic" : "CRC"}
+{"time" : "@3.043484s", "model" : "Watts-WFHTLCDRF", "id" : "34:9E:48", "mode" : "heat", "pairing" : "true", "temperature_C" : 26.000, "setpoint_C" : 17.500, "call_for_heat" : 0, "mic" : "CRC"}
+{"time" : "@3.543472s", "model" : "Watts-WFHTLCDRF", "id" : "34:9E:48", "mode" : "heat", "pairing" : "true", "temperature_C" : 26.000, "setpoint_C" : 17.600, "call_for_heat" : 0, "mic" : "CRC"}
