@@ -1,0 +1,34 @@
+# TFA Dostmann 30.390X T/H sensors series
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/pull/3446 (protocol reverse engineering
+# and byte layout by Jacob Maxa; CRC-32 parameters confirmed by zuckschwerdt in review).
+#
+# No real .cu8 captures exist for this device anywhere (checked this repo and the
+# rtl_433/rtl_433_tests issue trackers). The first 5 codes below are, however, real
+# device data: hand-transcribed hex worked examples from the PR's own doc-comment,
+# each independently confirmed valid by recomputing its CRC-32 (poly 0x04c11db7,
+# reflected, init/xorout 0xffffffff) over the exact bytes shown. The 3 ID-A4 frames
+# are sequential real readings from the same sensor -- each one's "current" reading
+# matches the next frame's "1 reading ago" and so on, an internal consistency check
+# that a fabricated example could not satisfy by coincidence.
+#
+# No genuine ID-A6 example exists in the PR (it duplicates the ID-A0 example under
+# an ID-A6 heading by copy-paste error -- the ID byte itself says ID-A0); the last
+# code below is a synthetic ID-A6 frame instead, built from the documented layout.
+
+# ID-A0 (30.3908.02), real: id A051FC6C, temp 21.7/21.7/21.5 C, humidity 29.0/29.0/30.0 %
+{272}4b2dd42b1ea051fc6c220c00d90022010500d90022011900d7002c010d00cb27fa60
+# ID-A3 (30.3902.02), real: id A3B02F72, temp 23.2/22.6/22.4 C, ext temp 24.4/24.0/23.0 C
+{272}4b2dd42b1ea3b02f72723419e800f4003f00e200f0002800e000e600b800b5abcc2c
+# ID-A4 (30.3905.02), real, reading 1/3: id A4903B64, seq 24414, temp 20.7/20.7/20.7 C,
+# humidity 36.0/36.0/36.0 %, ext temp 19.8/19.8/19.8 C
+{320}4b2dd42b24a4903b64105e5fcf006801c6003c00cf006801c6003c00cf006801c6003c006bf5483c
+# ID-A4, real, reading 2/3 (seq 24415, one tick later): temp 20.6/20.7/20.7 C
+{320}4b2dd42b24a4903b64105f5fce006801c6003c00cf006801c6003c00cf006801c6003c00db36705a
+# ID-A4, real, reading 3/3 (seq 24416): temp 20.7/20.6/20.7 C
+{320}4b2dd42b24a4903b6410605fcf006801c6003c00ce006801c6003c00cf006801c6003c003e7f50dd
+# ID-A5 (30.3901.02), real: id A529D739, temp 22.7/22.7/21.7 C
+{224}4b2dd42b18a529d739420200e3000800e3003700d9000200857b7d7b
+# ID-A6 (30.3906.02), synthetic (no real example exists in the PR): temp 10.0/10.1/10.2 C, humidity 45.0/45.1/45.2 %
+{272}4b2dd42b1ea651fc6c020c006400c20100006500c30100006600c4010000892210ee
