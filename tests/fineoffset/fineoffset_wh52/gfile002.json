@@ -1,0 +1,2 @@
+{"time" : "@0.011008s", "model" : "Fineoffset-WH52", "id" : "005cb5", "temperature_C" : 20.700, "moisture" : 25, "conductivity" : 56.172, "battery_V" : 1.580, "boost" : 0, "mic" : "CRC"}
+{"time" : "@0.042116s", "model" : "Fineoffset-WH52", "id" : "005b45", "temperature_C" : 21.000, "moisture" : 34, "conductivity" : 25.508, "battery_V" : 1.580, "boost" : 0, "mic" : "CRC"}
