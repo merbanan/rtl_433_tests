@@ -1,0 +1,1 @@
+Needs -Y minmax to decode at all; bin/run_test.py has no per-directory way to pass extra demod flags (see README.md). Not a decoder bug.
