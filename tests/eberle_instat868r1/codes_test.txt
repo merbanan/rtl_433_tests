@@ -1,0 +1,1935 @@
+# Eberle Instat 868r1 floor heating thermostat remote
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/1951, real captures and protocol
+# analysis by dottoreD (https://github.com/dottoreD/rtl_433_tests, tests/Eberle/Instat 868r1/
+# readme.md, protocol.txt, on_off.txt, learn.txt/learn_Bitstream.txt). Decoder and checksum
+# reverse engineered from that data; see readme.txt.
+#
+# Each code is the 82 raw bits captured by dottoreD's Arduino-based receiver (30 bit fixed
+# preamble + 52 bit differential-Manchester-encoded payload), used directly as a -y test
+# vector. All distinct real examples available in that data are included below: real On/Off
+# captures for one physical sender (from on_off.txt), then real Learn events each with
+# a distinct random ID (from learn.txt/learn_Bitstream.txt). All match the decoder's output
+# exactly (see codes_test.json). Annotations give the decoded command/id/data for each.
+# (A handful of on_off.txt's rolling-code captures repeat exactly, since the 16 step
+# rolling code cycled back around within the recorded sample window; duplicates removed.)
+
+# On, id=969, data=c
+{82}000fe031a59a65aa695980
+# On, id=969, data=3
+{82}000fe031a59a65aa569980
+# On, id=969, data=8
+{82}000fe031a59a65aa655540
+# On, id=969, data=7
+{82}000fe031a59a65aa5a9540
+# On, id=969, data=f
+{82}000fe031a59a65aa6aa540
+# On, id=969, data=0
+{82}000fe031a59a65aa556540
+# On, id=969, data=a
+{82}000fe031a59a65aa665680
+# On, id=969, data=5
+{82}000fe031a59a65aa599680
+# On, id=969, data=d
+{82}000fe031a59a65aa69a680
+# On, id=969, data=2
+{82}000fe031a59a65aa566680
+# On, id=969, data=9
+{82}000fe031a59a65aa65aa40
+# On, id=969, data=6
+{82}000fe031a59a65aa5a6a40
+# On, id=969, data=e
+{82}000fe031a59a65aa6a5a40
+# On, id=969, data=1
+{82}000fe031a59a65aa559a40
+# On, id=969, data=b
+{82}000fe031a59a65aa66a980
+# On, id=969, data=4
+{82}000fe031a59a65aa596980
+# Off, id=969, data=f
+{82}000fe031a59a6599aaa980
+# Off, id=969, data=5
+{82}000fe031a59a6599999640
+# Off, id=969, data=a
+{82}000fe031a59a6599a65980
+# Off, id=969, data=2
+{82}000fe031a59a6599966640
+# Off, id=969, data=d
+{82}000fe031a59a6599a9aa80
+# Off, id=969, data=6
+{82}000fe031a59a65999a6a80
+# Off, id=969, data=9
+{82}000fe031a59a6599a5a540
+# Off, id=969, data=1
+{82}000fe031a59a6599959a80
+# Off, id=969, data=e
+{82}000fe031a59a6599aa5680
+# Off, id=969, data=4
+{82}000fe031a59a6599996940
+# Off, id=969, data=b
+{82}000fe031a59a6599a6a680
+# Off, id=969, data=3
+{82}000fe031a59a6599969940
+# Off, id=969, data=c
+{82}000fe031a59a6599a95580
+# Off, id=969, data=7
+{82}000fe031a59a65999a9580
+# Off, id=969, data=8
+{82}000fe031a59a6599a55a40
+# Off, id=969, data=0
+{82}000fe031a59a6599956580
+# Learn, id=000, data=5
+{82}000fe03195555569599940
+# Learn, id=001, data=a
+{82}000fe03195555596a66640
+# Learn, id=002, data=5
+{82}000fe03195555669599a40
+# Learn, id=003, data=a
+{82}000fe03195555696a66540
+# Learn, id=004, data=5
+{82}000fe03195555969599540
+# Learn, id=005, data=a
+{82}000fe03195555996a66a40
+# Learn, id=006, data=5
+{82}000fe03195555a69599640
+# Learn, id=007, data=a
+{82}000fe03195555a96a66940
+# Learn, id=008, data=5
+{82}000fe0319555656959a940
+# Learn, id=009, data=a
+{82}000fe03195556596a65640
+# Learn, id=00a, data=5
+{82}000fe0319555666959aa40
+# Learn, id=00b, data=a
+{82}000fe03195556696a65540
+# Learn, id=00c, data=5
+{82}000fe0319555696959a540
+# Learn, id=00d, data=a
+{82}000fe03195556996a65a40
+# Learn, id=00e, data=5
+{82}000fe03195556a6959a640
+# Learn, id=00f, data=a
+{82}000fe03195556a96a65940
+# Learn, id=050, data=5
+{82}000fe0319559956959aa40
+# Learn, id=051, data=a
+{82}000fe03195599596a65540
+# Learn, id=052, data=5
+{82}000fe0319559966959a980
+# Learn, id=053, data=a
+{82}000fe03195599696a65680
+# Learn, id=054, data=5
+{82}000fe0319559996959a540
+# Learn, id=055, data=a
+{82}000fe03195599996a65a40
+# Learn, id=056, data=5
+{82}000fe03195599a6959a640
+# Learn, id=057, data=a
+{82}000fe03195599a96a65940
+# Learn, id=058, data=5
+{82}000fe0319559a569599940
+# Learn, id=059, data=a
+{82}000fe0319559a596a66640
+# Learn, id=05a, data=5
+{82}000fe0319559a669599a40
+# Learn, id=05b, data=a
+{82}000fe0319559a696a66540
+# Learn, id=05c, data=5
+{82}000fe0319559a969599680
+# Learn, id=05d, data=a
+{82}000fe0319559a996a66980
+# Learn, id=05e, data=5
+{82}000fe0319559aa69599540
+# Learn, id=05f, data=a
+{82}000fe0319559aa96a66a40
+# Learn, id=0a0, data=5
+{82}000fe0319566556959aa40
+# Learn, id=0a1, data=a
+{82}000fe03195665596a65540
+# Learn, id=0a2, data=5
+{82}000fe0319566566959a980
+# Learn, id=0a3, data=a
+{82}000fe03195665696a65680
+# Learn, id=0a4, data=5
+{82}000fe0319566596959a540
+# Learn, id=0a5, data=a
+{82}000fe03195665996a65a40
+# Learn, id=0a6, data=5
+{82}000fe03195665a6959a640
+# Learn, id=0a7, data=a
+{82}000fe03195665a96a65940
+# Learn, id=0a8, data=5
+{82}000fe03195666569599680
+# Learn, id=0a9, data=a
+{82}000fe03195666596a66980
+# Learn, id=0aa, data=5
+{82}000fe03195666669599580
+# Learn, id=0ab, data=a
+{82}000fe03195666696a66a80
+# Learn, id=0ac, data=5
+{82}000fe03195666969599a80
+# Learn, id=0ad, data=a
+{82}000fe03195666996a66580
+# Learn, id=0ae, data=5
+{82}000fe03195666a69599980
+# Learn, id=0af, data=a
+{82}000fe03195666a96a66680
+# Learn, id=0d0, data=5
+{82}000fe03195699569599580
+# Learn, id=0d1, data=a
+{82}000fe03195699596a66a80
+# Learn, id=0d2, data=5
+{82}000fe03195699669599640
+# Learn, id=0d3, data=a
+{82}000fe03195699696a66940
+# Learn, id=0d5, data=a
+{82}000fe03195699996a66580
+# Learn, id=0d6, data=5
+{82}000fe03195699a69599980
+# Learn, id=0d7, data=a
+{82}000fe03195699a96a66680
+# Learn, id=0d8, data=5
+{82}000fe0319569a56959aa40
+# Learn, id=0d9, data=a
+{82}000fe0319569a596a65540
+# Learn, id=0da, data=5
+{82}000fe0319569a66959a980
+# Learn, id=0db, data=a
+{82}000fe0319569a696a65680
+# Learn, id=0dc, data=5
+{82}000fe0319569a96959a680
+# Learn, id=0dd, data=a
+{82}000fe0319569a996a65980
+# Learn, id=0de, data=5
+{82}000fe0319569aa6959a540
+# Learn, id=0df, data=a
+{82}000fe0319569aa96a65a40
+# Learn, id=120, data=5
+{82}000fe0319596556959a540
+# Learn, id=121, data=a
+{82}000fe03195965596a65a40
+# Learn, id=122, data=5
+{82}000fe0319596566959a680
+# Learn, id=123, data=a
+{82}000fe03195965696a65980
+# Learn, id=124, data=5
+{82}000fe0319596596959a980
+# Learn, id=125, data=a
+{82}000fe03195965996a65680
+# Learn, id=126, data=5
+{82}000fe03195965a6959aa40
+# Learn, id=127, data=a
+{82}000fe03195965a96a65540
+# Learn, id=128, data=5
+{82}000fe03195966569599980
+# Learn, id=129, data=a
+{82}000fe03195966596a66680
+# Learn, id=12a, data=5
+{82}000fe03195966669599a80
+# Learn, id=12b, data=a
+{82}000fe03195966696a66580
+# Learn, id=12c, data=5
+{82}000fe03195966969599640
+# Learn, id=12d, data=a
+{82}000fe03195966996a66940
+# Learn, id=12e, data=5
+{82}000fe03195966a69599580
+# Learn, id=12f, data=a
+{82}000fe03195966a96a66a80
+# Learn, id=150, data=5
+{82}000fe03195999569599980
+# Learn, id=151, data=a
+{82}000fe03195999596a66680
+# Learn, id=152, data=5
+{82}000fe03195999669599a80
+# Learn, id=153, data=a
+{82}000fe03195999696a66580
+# Learn, id=154, data=5
+{82}000fe03195999969599580
+# Learn, id=155, data=a
+{82}000fe03195999996a66a80
+# Learn, id=156, data=5
+{82}000fe03195999a69599680
+# Learn, id=157, data=a
+{82}000fe03195999a96a66980
+# Learn, id=158, data=5
+{82}000fe0319599a56959a640
+# Learn, id=159, data=a
+{82}000fe0319599a596a65940
+# Learn, id=15a, data=5
+{82}000fe0319599a66959a540
+# Learn, id=15b, data=a
+{82}000fe0319599a696a65a40
+# Learn, id=15c, data=5
+{82}000fe0319599a96959a980
+# Learn, id=15d, data=a
+{82}000fe0319599a996a65680
+# Learn, id=15e, data=5
+{82}000fe0319599aa6959aa40
+# Learn, id=15f, data=a
+{82}000fe0319599aa96a65540
+# Learn, id=180, data=5
+{82}000fe03195a55569599640
+# Learn, id=183, data=a
+{82}000fe03195a55696a66a40
+# Learn, id=184, data=5
+{82}000fe03195a55969599940
+# Learn, id=185, data=a
+{82}000fe03195a55996a66640
+# Learn, id=188, data=5
+{82}000fe03195a5656959a580
+# Learn, id=189, data=a
+{82}000fe03195a56596a65a80
+# Learn, id=18a, data=5
+{82}000fe03195a5666959a640
+# Learn, id=18b, data=a
+{82}000fe03195a56696a65940
+# Learn, id=18d, data=a
+{82}000fe03195a56996a65540
+# Learn, id=18e, data=5
+{82}000fe03195a56a6959a940
+# Learn, id=1a0, data=5
+{82}000fe03195a65569599540
+# Learn, id=1a1, data=a
+{82}000fe03195a65596a66a40
+# Learn, id=1a2, data=5
+{82}000fe03195a65669599680
+# Learn, id=1a3, data=a
+{82}000fe03195a65696a66980
+# Learn, id=1a4, data=5
+{82}000fe03195a65969599a40
+# Learn, id=1a5, data=a
+{82}000fe03195a65996a66540
+# Learn, id=1a6, data=5
+{82}000fe03195a65a69599940
+# Learn, id=1a7, data=a
+{82}000fe03195a65a96a66640
+# Learn, id=1a8, data=5
+{82}000fe03195a6656959a640
+# Learn, id=1a9, data=a
+{82}000fe03195a66596a65940
+# Learn, id=1aa, data=5
+{82}000fe03195a6666959a540
+# Learn, id=1ab, data=a
+{82}000fe03195a66696a65a40
+# Learn, id=1ac, data=5
+{82}000fe03195a6696959a980
+# Learn, id=1ad, data=a
+{82}000fe03195a66996a65680
+# Learn, id=1ae, data=5
+{82}000fe03195a66a6959aa40
+# Learn, id=1af, data=a
+{82}000fe03195a66a96a65540
+# Learn, id=1f9, data=a
+{82}000fe03195aaa596a66940
+# Learn, id=1fc, data=5
+{82}000fe03195aaa969599a40
+# Learn, id=220, data=5
+{82}000fe03196565569599980
+# Learn, id=221, data=a
+{82}000fe03196565596a66680
+# Learn, id=222, data=5
+{82}000fe03196565669599a80
+# Learn, id=223, data=a
+{82}000fe03196565696a66580
+# Learn, id=225, data=a
+{82}000fe03196565996a66a80
+# Learn, id=227, data=a
+{82}000fe03196565a96a66980
+# Learn, id=229, data=a
+{82}000fe03196566596a65680
+# Learn, id=22a, data=5
+{82}000fe0319656666959aa80
+# Learn, id=22b, data=a
+{82}000fe03196566696a65580
+# Learn, id=22c, data=5
+{82}000fe0319656696959a580
+# Learn, id=22d, data=a
+{82}000fe03196566996a65a80
+# Learn, id=22e, data=5
+{82}000fe03196566a6959a680
+# Learn, id=22f, data=a
+{82}000fe03196566a96a65980
+# Learn, id=250, data=5
+{82}000fe0319659956959a980
+# Learn, id=251, data=a
+{82}000fe03196599596a65680
+# Learn, id=252, data=5
+{82}000fe0319659966959aa80
+# Learn, id=253, data=a
+{82}000fe03196599696a65580
+# Learn, id=254, data=5
+{82}000fe0319659996959a680
+# Learn, id=255, data=a
+{82}000fe03196599996a65980
+# Learn, id=256, data=5
+{82}000fe03196599a6959a540
+# Learn, id=257, data=a
+{82}000fe03196599a96a65a40
+# Learn, id=259, data=a
+{82}000fe0319659a596a66540
+# Learn, id=25a, data=5
+{82}000fe0319659a669599980
+# Learn, id=25b, data=a
+{82}000fe0319659a696a66680
+# Learn, id=25c, data=5
+{82}000fe0319659a969599580
+# Learn, id=25d, data=a
+{82}000fe0319659a996a66a80
+# Learn, id=25e, data=5
+{82}000fe0319659aa69599680
+# Learn, id=25f, data=a
+{82}000fe0319659aa96a66980
+# Learn, id=2a0, data=5
+{82}000fe0319666556959a980
+# Learn, id=2a1, data=a
+{82}000fe03196665596a65680
+# Learn, id=2a2, data=5
+{82}000fe0319666566959aa80
+# Learn, id=2a3, data=a
+{82}000fe03196665696a65580
+# Learn, id=2a4, data=5
+{82}000fe0319666596959a680
+# Learn, id=2a5, data=a
+{82}000fe03196665996a65980
+# Learn, id=2a6, data=5
+{82}000fe03196665a6959a540
+# Learn, id=2a7, data=a
+{82}000fe03196665a96a65a40
+# Learn, id=2a8, data=5
+{82}000fe03196666569599580
+# Learn, id=2a9, data=a
+{82}000fe03196666596a66a80
+# Learn, id=2aa, data=5
+{82}000fe03196666669599640
+# Learn, id=2ab, data=a
+{82}000fe03196666696a66940
+# Learn, id=2ac, data=5
+{82}000fe03196666969599940
+# Learn, id=2ad, data=a
+{82}000fe03196666996a66640
+# Learn, id=2ae, data=5
+{82}000fe03196666a69599a80
+# Learn, id=2af, data=a
+{82}000fe03196666a96a66580
+# Learn, id=2d0, data=5
+{82}000fe03196699569599640
+# Learn, id=2d1, data=a
+{82}000fe03196699596a66940
+# Learn, id=2d2, data=5
+{82}000fe03196699669599540
+# Learn, id=2d3, data=a
+{82}000fe03196699696a66a40
+# Learn, id=2d4, data=5
+{82}000fe03196699969599940
+# Learn, id=2d5, data=a
+{82}000fe03196699996a66640
+# Learn, id=2d6, data=5
+{82}000fe03196699a69599a80
+# Learn, id=2d7, data=a
+{82}000fe03196699a96a66580
+# Learn, id=2d8, data=5
+{82}000fe0319669a56959a980
+# Learn, id=2d9, data=a
+{82}000fe0319669a596a65680
+# Learn, id=2da, data=5
+{82}000fe0319669a66959aa80
+# Learn, id=2db, data=a
+{82}000fe0319669a696a65580
+# Learn, id=2dc, data=5
+{82}000fe0319669a96959a580
+# Learn, id=2dd, data=a
+{82}000fe0319669a996a65a80
+# Learn, id=2de, data=5
+{82}000fe0319669aa6959a680
+# Learn, id=2df, data=a
+{82}000fe0319669aa96a65980
+# Learn, id=321, data=a
+{82}000fe03196965596a65980
+# Learn, id=322, data=5
+{82}000fe0319696566959a580
+# Learn, id=323, data=a
+{82}000fe03196965696a65a80
+# Learn, id=324, data=5
+{82}000fe0319696596959aa80
+# Learn, id=325, data=a
+{82}000fe03196965996a65580
+# Learn, id=326, data=5
+{82}000fe03196965a6959a980
+# Learn, id=327, data=a
+{82}000fe03196965a96a65680
+# Learn, id=328, data=5
+{82}000fe03196966569599a80
+# Learn, id=329, data=a
+{82}000fe03196966596a66580
+# Learn, id=32a, data=5
+{82}000fe03196966669599940
+# Learn, id=32b, data=a
+{82}000fe03196966696a66640
+# Learn, id=32c, data=5
+{82}000fe03196966969599540
+# Learn, id=32d, data=a
+{82}000fe03196966996a66a40
+# Learn, id=32e, data=5
+{82}000fe03196966a69599640
+# Learn, id=32f, data=a
+{82}000fe03196966a96a66940
+# Learn, id=350, data=5
+{82}000fe03196999569599a80
+# Learn, id=351, data=a
+{82}000fe03196999596a66580
+# Learn, id=352, data=5
+{82}000fe03196999669599940
+# Learn, id=353, data=a
+{82}000fe03196999696a66640
+# Learn, id=354, data=5
+{82}000fe03196999969599640
+# Learn, id=355, data=a
+{82}000fe03196999996a66940
+# Learn, id=356, data=5
+{82}000fe03196999a69599580
+# Learn, id=357, data=a
+{82}000fe03196999a96a66a80
+# Learn, id=358, data=5
+{82}000fe0319699a56959a540
+# Learn, id=359, data=a
+{82}000fe0319699a596a65a40
+# Learn, id=35a, data=5
+{82}000fe0319699a66959a680
+# Learn, id=35b, data=a
+{82}000fe0319699a696a65980
+# Learn, id=35c, data=5
+{82}000fe0319699a96959aa80
+# Learn, id=35d, data=a
+{82}000fe0319699a996a65580
+# Learn, id=35e, data=5
+{82}000fe0319699aa6959a980
+# Learn, id=35f, data=a
+{82}000fe0319699aa96a65680
+# Learn, id=3a0, data=5
+{82}000fe03196a65569599680
+# Learn, id=3a1, data=a
+{82}000fe03196a65596a66980
+# Learn, id=3a2, data=5
+{82}000fe03196a65669599580
+# Learn, id=3a3, data=a
+{82}000fe03196a65696a66a80
+# Learn, id=3a4, data=5
+{82}000fe03196a65969599980
+# Learn, id=3a5, data=a
+{82}000fe03196a65996a66680
+# Learn, id=3a6, data=5
+{82}000fe03196a65a69599a40
+# Learn, id=3a7, data=a
+{82}000fe03196a65a96a66540
+# Learn, id=3a9, data=a
+{82}000fe03196a66596a65a40
+# Learn, id=3aa, data=5
+{82}000fe03196a6666959a680
+# Learn, id=3ab, data=a
+{82}000fe03196a66696a65980
+# Learn, id=3ac, data=5
+{82}000fe03196a6696959aa80
+# Learn, id=3ad, data=a
+{82}000fe03196a66996a65580
+# Learn, id=3ae, data=5
+{82}000fe03196a66a6959a980
+# Learn, id=3af, data=a
+{82}000fe03196a66a96a65680
+# Learn, id=3f0, data=5
+{82}000fe03196aa956959a540
+# Learn, id=3f3, data=a
+{82}000fe03196aa9696a65980
+# Learn, id=3f4, data=5
+{82}000fe03196aa996959a980
+# Learn, id=3f6, data=5
+{82}000fe03196aa9a6959aa40
+# Learn, id=3f7, data=a
+{82}000fe03196aa9a96a65540
+# Learn, id=3fc, data=5
+{82}000fe03196aaa969599980
+# Learn, id=3fd, data=a
+{82}000fe03196aaa996a66680
+# Learn, id=403, data=a
+{82}000fe03199555696a66980
+# Learn, id=404, data=5
+{82}000fe03199555969599a40
+# Learn, id=406, data=5
+{82}000fe03199555a69599940
+# Learn, id=409, data=a
+{82}000fe03199556596a65940
+# Learn, id=40f, data=a
+{82}000fe03199556a96a65540
+# Learn, id=450, data=5
+{82}000fe0319959956959a540
+# Learn, id=451, data=a
+{82}000fe03199599596a65a40
+# Learn, id=452, data=5
+{82}000fe0319959966959a680
+# Learn, id=453, data=a
+{82}000fe03199599696a65980
+# Learn, id=454, data=5
+{82}000fe0319959996959a980
+# Learn, id=455, data=a
+{82}000fe03199599996a65680
+# Learn, id=456, data=5
+{82}000fe03199599a6959aa40
+# Learn, id=457, data=a
+{82}000fe03199599a96a65540
+# Learn, id=458, data=5
+{82}000fe0319959a569599540
+# Learn, id=459, data=a
+{82}000fe0319959a596a66a40
+# Learn, id=45a, data=5
+{82}000fe0319959a669599680
+# Learn, id=45b, data=a
+{82}000fe0319959a696a66980
+# Learn, id=45c, data=5
+{82}000fe0319959a969599980
+# Learn, id=45d, data=a
+{82}000fe0319959a996a66680
+# Learn, id=45e, data=5
+{82}000fe0319959aa69599a40
+# Learn, id=45f, data=a
+{82}000fe0319959aa96a66540
+# Learn, id=4a0, data=5
+{82}000fe0319966556959a540
+# Learn, id=4a1, data=a
+{82}000fe03199665596a65a40
+# Learn, id=4a2, data=5
+{82}000fe0319966566959a680
+# Learn, id=4a3, data=a
+{82}000fe03199665696a65980
+# Learn, id=4a4, data=5
+{82}000fe0319966596959a980
+# Learn, id=4a5, data=a
+{82}000fe03199665996a65680
+# Learn, id=4a6, data=5
+{82}000fe03199665a6959aa40
+# Learn, id=4a7, data=a
+{82}000fe03199665a96a65540
+# Learn, id=4a8, data=5
+{82}000fe03199666569599980
+# Learn, id=4a9, data=a
+{82}000fe03199666596a66680
+# Learn, id=4aa, data=5
+{82}000fe03199666669599a80
+# Learn, id=4ab, data=a
+{82}000fe03199666696a66580
+# Learn, id=4ac, data=5
+{82}000fe03199666969599640
+# Learn, id=4ad, data=a
+{82}000fe03199666996a66940
+# Learn, id=4ae, data=5
+{82}000fe03199666a69599580
+# Learn, id=4af, data=a
+{82}000fe03199666a96a66a80
+# Learn, id=4d0, data=5
+{82}000fe03199699569599a80
+# Learn, id=4d1, data=a
+{82}000fe03199699596a66580
+# Learn, id=4d2, data=5
+{82}000fe03199699669599940
+# Learn, id=4d3, data=a
+{82}000fe03199699696a66640
+# Learn, id=4d4, data=5
+{82}000fe03199699969599640
+# Learn, id=4d5, data=a
+{82}000fe03199699996a66940
+# Learn, id=4d6, data=5
+{82}000fe03199699a69599580
+# Learn, id=4d7, data=a
+{82}000fe03199699a96a66a80
+# Learn, id=4d8, data=5
+{82}000fe0319969a56959a540
+# Learn, id=4d9, data=a
+{82}000fe0319969a596a65a40
+# Learn, id=4da, data=5
+{82}000fe0319969a66959a680
+# Learn, id=4db, data=a
+{82}000fe0319969a696a65980
+# Learn, id=4dc, data=5
+{82}000fe0319969a96959aa80
+# Learn, id=4dd, data=a
+{82}000fe0319969a996a65580
+# Learn, id=4de, data=5
+{82}000fe0319969aa6959a980
+# Learn, id=4df, data=a
+{82}000fe0319969aa96a65680
+# Learn, id=520, data=5
+{82}000fe0319996556959a980
+# Learn, id=521, data=a
+{82}000fe03199965596a65680
+# Learn, id=522, data=5
+{82}000fe0319996566959aa80
+# Learn, id=523, data=a
+{82}000fe03199965696a65580
+# Learn, id=524, data=5
+{82}000fe0319996596959a680
+# Learn, id=525, data=a
+{82}000fe03199965996a65980
+# Learn, id=526, data=5
+{82}000fe03199965a6959a540
+# Learn, id=527, data=a
+{82}000fe03199965a96a65a40
+# Learn, id=528, data=5
+{82}000fe03199966569599580
+# Learn, id=529, data=a
+{82}000fe03199966596a66a80
+# Learn, id=52a, data=5
+{82}000fe03199966669599640
+# Learn, id=52b, data=a
+{82}000fe03199966696a66940
+# Learn, id=52c, data=5
+{82}000fe03199966969599940
+# Learn, id=52d, data=a
+{82}000fe03199966996a66640
+# Learn, id=52e, data=5
+{82}000fe03199966a69599a80
+# Learn, id=52f, data=a
+{82}000fe03199966a96a66580
+# Learn, id=550, data=5
+{82}000fe03199999569599580
+# Learn, id=551, data=a
+{82}000fe03199999596a66a80
+# Learn, id=552, data=5
+{82}000fe03199999669599640
+# Learn, id=553, data=a
+{82}000fe03199999696a66940
+# Learn, id=554, data=5
+{82}000fe03199999969599a80
+# Learn, id=555, data=a
+{82}000fe03199999996a66580
+# Learn, id=556, data=5
+{82}000fe03199999a69599980
+# Learn, id=557, data=a
+{82}000fe03199999a96a66680
+# Learn, id=558, data=5
+{82}000fe0319999a56959aa40
+# Learn, id=559, data=a
+{82}000fe0319999a596a65540
+# Learn, id=55a, data=5
+{82}000fe0319999a66959a980
+# Learn, id=55b, data=a
+{82}000fe0319999a696a65680
+# Learn, id=55c, data=5
+{82}000fe0319999a96959a680
+# Learn, id=55d, data=a
+{82}000fe0319999a996a65980
+# Learn, id=55e, data=5
+{82}000fe0319999aa6959a540
+# Learn, id=55f, data=a
+{82}000fe0319999aa96a65a40
+# Learn, id=5a0, data=5
+{82}000fe03199a65569599a40
+# Learn, id=5a1, data=a
+{82}000fe03199a65596a66540
+# Learn, id=5a2, data=5
+{82}000fe03199a65669599980
+# Learn, id=5a3, data=a
+{82}000fe03199a65696a66680
+# Learn, id=5a4, data=5
+{82}000fe03199a65969599680
+# Learn, id=5a5, data=a
+{82}000fe03199a65996a66980
+# Learn, id=5a6, data=5
+{82}000fe03199a65a69599540
+# Learn, id=5a7, data=a
+{82}000fe03199a65a96a66a40
+# Learn, id=5a8, data=5
+{82}000fe03199a6656959aa40
+# Learn, id=5a9, data=a
+{82}000fe03199a66596a65540
+# Learn, id=5aa, data=5
+{82}000fe03199a6666959a980
+# Learn, id=5ab, data=a
+{82}000fe03199a66696a65680
+# Learn, id=5ac, data=5
+{82}000fe03199a6696959a680
+# Learn, id=5ad, data=a
+{82}000fe03199a66996a65980
+# Learn, id=5ae, data=5
+{82}000fe03199a66a6959a540
+# Learn, id=5af, data=a
+{82}000fe03199a66a96a65a40
+# Learn, id=5d0, data=5
+{82}000fe03199a9956959a980
+# Learn, id=5d1, data=a
+{82}000fe03199a99596a65680
+# Learn, id=5d2, data=5
+{82}000fe03199a9966959aa80
+# Learn, id=5d3, data=a
+{82}000fe03199a99696a65580
+# Learn, id=5d4, data=5
+{82}000fe03199a9996959a680
+# Learn, id=5d5, data=a
+{82}000fe03199a99996a65980
+# Learn, id=5d6, data=5
+{82}000fe03199a99a6959a540
+# Learn, id=5d7, data=a
+{82}000fe03199a99a96a65a40
+# Learn, id=5d8, data=5
+{82}000fe03199a9a569599a40
+# Learn, id=5d9, data=a
+{82}000fe03199a9a596a66540
+# Learn, id=5da, data=5
+{82}000fe03199a9a669599980
+# Learn, id=5db, data=a
+{82}000fe03199a9a696a66680
+# Learn, id=5dc, data=5
+{82}000fe03199a9a969599580
+# Learn, id=5dd, data=a
+{82}000fe03199a9a996a66a80
+# Learn, id=5de, data=5
+{82}000fe03199a9aa69599680
+# Learn, id=5df, data=a
+{82}000fe03199a9aa96a66980
+# Learn, id=650, data=5
+{82}000fe0319a59956959a640
+# Learn, id=651, data=a
+{82}000fe0319a599596a65940
+# Learn, id=652, data=5
+{82}000fe0319a59966959a540
+# Learn, id=653, data=a
+{82}000fe0319a599696a65a40
+# Learn, id=654, data=5
+{82}000fe0319a59996959aa40
+# Learn, id=655, data=a
+{82}000fe0319a599996a65540
+# Learn, id=656, data=5
+{82}000fe0319a599a6959a940
+# Learn, id=657, data=a
+{82}000fe0319a599a96a65640
+# Learn, id=658, data=5
+{82}000fe0319a59a569599640
+# Learn, id=659, data=a
+{82}000fe0319a59a596a66940
+# Learn, id=65b, data=a
+{82}000fe0319a59a696a66a40
+# Learn, id=65c, data=5
+{82}000fe0319a59a969599a40
+# Learn, id=65d, data=a
+{82}000fe0319a59a996a66540
+# Learn, id=65e, data=5
+{82}000fe0319a59aa69599940
+# Learn, id=65f, data=a
+{82}000fe0319a59aa96a66640
+# Learn, id=67a, data=5
+{82}000fe0319a5aa669599640
+# Learn, id=6a0, data=5
+{82}000fe0319a66556959a640
+# Learn, id=6a1, data=a
+{82}000fe0319a665596a65940
+# Learn, id=6a2, data=5
+{82}000fe0319a66566959a540
+# Learn, id=6a3, data=a
+{82}000fe0319a665696a65a40
+# Learn, id=6a4, data=5
+{82}000fe0319a66596959aa40
+# Learn, id=6a5, data=a
+{82}000fe0319a665996a65540
+# Learn, id=6a6, data=5
+{82}000fe0319a665a6959a940
+# Learn, id=6a7, data=a
+{82}000fe0319a665a96a65640
+# Learn, id=6a8, data=5
+{82}000fe0319a666569599a40
+# Learn, id=6a9, data=a
+{82}000fe0319a666596a66540
+# Learn, id=6aa, data=5
+{82}000fe0319a666669599980
+# Learn, id=6ab, data=a
+{82}000fe0319a666696a66680
+# Learn, id=6ac, data=5
+{82}000fe0319a666969599580
+# Learn, id=6ad, data=a
+{82}000fe0319a666996a66a80
+# Learn, id=6ae, data=5
+{82}000fe0319a666a69599680
+# Learn, id=6af, data=a
+{82}000fe0319a666a96a66980
+# Learn, id=6d0, data=5
+{82}000fe0319a699569599980
+# Learn, id=6d1, data=a
+{82}000fe0319a699596a66680
+# Learn, id=6d2, data=5
+{82}000fe0319a699669599a80
+# Learn, id=6d3, data=a
+{82}000fe0319a699696a66580
+# Learn, id=6d4, data=5
+{82}000fe0319a699969599580
+# Learn, id=6d5, data=a
+{82}000fe0319a699996a66a80
+# Learn, id=6d6, data=5
+{82}000fe0319a699a69599680
+# Learn, id=6d7, data=a
+{82}000fe0319a699a96a66980
+# Learn, id=6d8, data=5
+{82}000fe0319a69a56959a640
+# Learn, id=6d9, data=a
+{82}000fe0319a69a596a65940
+# Learn, id=6da, data=5
+{82}000fe0319a69a66959a540
+# Learn, id=6db, data=a
+{82}000fe0319a69a696a65a40
+# Learn, id=6dc, data=5
+{82}000fe0319a69a96959a980
+# Learn, id=6dd, data=a
+{82}000fe0319a69a996a65680
+# Learn, id=6de, data=5
+{82}000fe0319a69aa6959aa40
+# Learn, id=6df, data=a
+{82}000fe0319a69aa96a65540
+# Learn, id=720, data=5
+{82}000fe0319a96556959aa40
+# Learn, id=721, data=a
+{82}000fe0319a965596a65540
+# Learn, id=722, data=5
+{82}000fe0319a96566959a980
+# Learn, id=723, data=a
+{82}000fe0319a965696a65680
+# Learn, id=724, data=5
+{82}000fe0319a96596959a540
+# Learn, id=725, data=a
+{82}000fe0319a965996a65a40
+# Learn, id=726, data=5
+{82}000fe0319a965a6959a640
+# Learn, id=727, data=a
+{82}000fe0319a965a96a65940
+# Learn, id=728, data=5
+{82}000fe0319a966569599680
+# Learn, id=72a, data=5
+{82}000fe0319a966669599580
+# Learn, id=72b, data=a
+{82}000fe0319a966696a66a80
+# Learn, id=72c, data=5
+{82}000fe0319a966969599a80
+# Learn, id=72d, data=a
+{82}000fe0319a966996a66580
+# Learn, id=72e, data=5
+{82}000fe0319a966a69599980
+# Learn, id=72f, data=a
+{82}000fe0319a966a96a66680
+# Learn, id=750, data=5
+{82}000fe0319a999569599680
+# Learn, id=751, data=a
+{82}000fe0319a999596a66980
+# Learn, id=752, data=5
+{82}000fe0319a999669599580
+# Learn, id=753, data=a
+{82}000fe0319a999696a66a80
+# Learn, id=754, data=5
+{82}000fe0319a999969599980
+# Learn, id=755, data=a
+{82}000fe0319a999996a66680
+# Learn, id=756, data=5
+{82}000fe0319a999a69599a40
+# Learn, id=757, data=a
+{82}000fe0319a999a96a66540
+# Learn, id=758, data=5
+{82}000fe0319a99a56959a940
+# Learn, id=759, data=a
+{82}000fe0319a99a596a65640
+# Learn, id=75a, data=5
+{82}000fe0319a99a66959aa40
+# Learn, id=75b, data=a
+{82}000fe0319a99a696a65540
+# Learn, id=75c, data=5
+{82}000fe0319a99a96959a540
+# Learn, id=75d, data=a
+{82}000fe0319a99a996a65a40
+# Learn, id=75e, data=5
+{82}000fe0319a99aa6959a640
+# Learn, id=75f, data=a
+{82}000fe0319a99aa96a65940
+# Learn, id=7a0, data=5
+{82}000fe0319aa65569599940
+# Learn, id=7a1, data=a
+{82}000fe0319aa65596a66640
+# Learn, id=7a2, data=5
+{82}000fe0319aa65669599a40
+# Learn, id=7a3, data=a
+{82}000fe0319aa65696a66540
+# Learn, id=7a5, data=a
+{82}000fe0319aa65996a66a40
+# Learn, id=7a6, data=5
+{82}000fe0319aa65a69599640
+# Learn, id=7a7, data=a
+{82}000fe0319aa65a96a66940
+# Learn, id=7a8, data=5
+{82}000fe0319aa6656959a940
+# Learn, id=7a9, data=a
+{82}000fe0319aa66596a65640
+# Learn, id=7aa, data=5
+{82}000fe0319aa6666959aa40
+# Learn, id=7ab, data=a
+{82}000fe0319aa66696a65540
+# Learn, id=7ac, data=5
+{82}000fe0319aa6696959a540
+# Learn, id=7ad, data=a
+{82}000fe0319aa66996a65a40
+# Learn, id=7ae, data=5
+{82}000fe0319aa66a6959a640
+# Learn, id=7af, data=a
+{82}000fe0319aa66a96a65940
+# Learn, id=7f0, data=5
+{82}000fe0319aaa956959a940
+# Learn, id=7f1, data=a
+{82}000fe0319aaa9596a65640
+# Learn, id=7f2, data=5
+{82}000fe0319aaa966959aa40
+# Learn, id=7f3, data=a
+{82}000fe0319aaa9696a65540
+# Learn, id=7f4, data=5
+{82}000fe0319aaa996959a640
+# Learn, id=7f5, data=a
+{82}000fe0319aaa9996a65940
+# Learn, id=7f6, data=5
+{82}000fe0319aaa9a6959a580
+# Learn, id=7f7, data=a
+{82}000fe0319aaa9a96a65a80
+# Learn, id=7f8, data=5
+{82}000fe0319aaaa569599a80
+# Learn, id=7f9, data=a
+{82}000fe0319aaaa596a66580
+# Learn, id=7fa, data=5
+{82}000fe0319aaaa669599940
+# Learn, id=7fb, data=a
+{82}000fe0319aaaa696a66640
+# Learn, id=7fc, data=5
+{82}000fe0319aaaa969599540
+# Learn, id=7fd, data=a
+{82}000fe0319aaaa996a66a40
+# Learn, id=7fe, data=5
+{82}000fe0319aaaaa69599640
+# Learn, id=7ff, data=a
+{82}000fe0319aaaaa96a66940
+# Learn, id=800, data=5
+{82}000fe031a555556959a680
+# Learn, id=801, data=a
+{82}000fe031a5555596a65980
+# Learn, id=802, data=5
+{82}000fe031a555566959a580
+# Learn, id=803, data=a
+{82}000fe031a5555696a65a80
+# Learn, id=804, data=5
+{82}000fe031a555596959aa80
+# Learn, id=805, data=a
+{82}000fe031a5555996a65580
+# Learn, id=806, data=5
+{82}000fe031a5555a6959a980
+# Learn, id=807, data=a
+{82}000fe031a5555a96a65680
+# Learn, id=808, data=5
+{82}000fe031a5556569599a80
+# Learn, id=809, data=a
+{82}000fe031a5556596a66580
+# Learn, id=80a, data=5
+{82}000fe031a5556669599940
+# Learn, id=80b, data=a
+{82}000fe031a5556696a66640
+# Learn, id=80c, data=5
+{82}000fe031a5556969599540
+# Learn, id=80d, data=a
+{82}000fe031a5556996a66a40
+# Learn, id=80e, data=5
+{82}000fe031a5556a69599640
+# Learn, id=80f, data=a
+{82}000fe031a5556a96a66940
+# Learn, id=850, data=5
+{82}000fe031a5599569599940
+# Learn, id=851, data=a
+{82}000fe031a5599596a66640
+# Learn, id=852, data=5
+{82}000fe031a5599669599a40
+# Learn, id=853, data=a
+{82}000fe031a5599696a66540
+# Learn, id=854, data=5
+{82}000fe031a5599969599540
+# Learn, id=855, data=a
+{82}000fe031a5599996a66a40
+# Learn, id=856, data=5
+{82}000fe031a5599a69599640
+# Learn, id=857, data=a
+{82}000fe031a5599a96a66940
+# Learn, id=858, data=5
+{82}000fe031a559a56959a680
+# Learn, id=859, data=a
+{82}000fe031a559a596a65980
+# Learn, id=85a, data=5
+{82}000fe031a559a66959a580
+# Learn, id=85b, data=a
+{82}000fe031a559a696a65a80
+# Learn, id=85c, data=5
+{82}000fe031a559a96959a940
+# Learn, id=85d, data=a
+{82}000fe031a559a996a65640
+# Learn, id=85e, data=5
+{82}000fe031a559aa6959aa80
+# Learn, id=85f, data=a
+{82}000fe031a559aa96a65580
+# Learn, id=8a0, data=5
+{82}000fe031a5665569599940
+# Learn, id=8a1, data=a
+{82}000fe031a5665596a66640
+# Learn, id=8a2, data=5
+{82}000fe031a5665669599a40
+# Learn, id=8a3, data=a
+{82}000fe031a5665696a66540
+# Learn, id=8a4, data=5
+{82}000fe031a5665969599540
+# Learn, id=8a5, data=a
+{82}000fe031a5665996a66a40
+# Learn, id=8a6, data=5
+{82}000fe031a5665a69599640
+# Learn, id=8a7, data=a
+{82}000fe031a5665a96a66940
+# Learn, id=8a8, data=5
+{82}000fe031a566656959a940
+# Learn, id=8a9, data=a
+{82}000fe031a5666596a65640
+# Learn, id=8aa, data=5
+{82}000fe031a566666959aa40
+# Learn, id=8ab, data=a
+{82}000fe031a5666696a65540
+# Learn, id=8ac, data=5
+{82}000fe031a566696959a540
+# Learn, id=8ad, data=a
+{82}000fe031a5666996a65a40
+# Learn, id=8ae, data=5
+{82}000fe031a5666a6959a640
+# Learn, id=8af, data=a
+{82}000fe031a5666a96a65940
+# Learn, id=8d0, data=5
+{82}000fe031a569956959aa40
+# Learn, id=8d1, data=a
+{82}000fe031a5699596a65540
+# Learn, id=8d2, data=5
+{82}000fe031a569966959a980
+# Learn, id=8d3, data=a
+{82}000fe031a5699696a65680
+# Learn, id=8d4, data=5
+{82}000fe031a569996959a540
+# Learn, id=8d5, data=a
+{82}000fe031a5699996a65a40
+# Learn, id=8d6, data=5
+{82}000fe031a5699a6959a640
+# Learn, id=8d7, data=a
+{82}000fe031a5699a96a65940
+# Learn, id=8d8, data=5
+{82}000fe031a569a569599940
+# Learn, id=8d9, data=a
+{82}000fe031a569a596a66640
+# Learn, id=8da, data=5
+{82}000fe031a569a669599a40
+# Learn, id=8db, data=a
+{82}000fe031a569a696a66540
+# Learn, id=8dc, data=5
+{82}000fe031a569a969599680
+# Learn, id=8dd, data=a
+{82}000fe031a569a996a66980
+# Learn, id=8de, data=5
+{82}000fe031a569aa69599540
+# Learn, id=8df, data=a
+{82}000fe031a569aa96a66a40
+# Learn, id=920, data=5
+{82}000fe031a5965569599540
+# Learn, id=921, data=a
+{82}000fe031a5965596a66a40
+# Learn, id=922, data=5
+{82}000fe031a5965669599680
+# Learn, id=923, data=a
+{82}000fe031a5965696a66980
+# Learn, id=924, data=5
+{82}000fe031a5965969599a40
+# Learn, id=925, data=a
+{82}000fe031a5965996a66540
+# Learn, id=926, data=5
+{82}000fe031a5965a69599940
+# Learn, id=927, data=a
+{82}000fe031a5965a96a66640
+# Learn, id=928, data=5
+{82}000fe031a596656959a640
+# Learn, id=929, data=a
+{82}000fe031a5966596a65940
+# Learn, id=92a, data=5
+{82}000fe031a596666959a540
+# Learn, id=92b, data=a
+{82}000fe031a5966696a65a40
+# Learn, id=92c, data=5
+{82}000fe031a596696959a980
+# Learn, id=92d, data=a
+{82}000fe031a5966996a65680
+# Learn, id=92e, data=5
+{82}000fe031a5966a6959aa40
+# Learn, id=92f, data=a
+{82}000fe031a5966a96a65540
+# Learn, id=950, data=5
+{82}000fe031a599956959a640
+# Learn, id=951, data=a
+{82}000fe031a5999596a65940
+# Learn, id=952, data=5
+{82}000fe031a599966959a540
+# Learn, id=953, data=a
+{82}000fe031a5999696a65a40
+# Learn, id=954, data=5
+{82}000fe031a599996959aa40
+# Learn, id=955, data=a
+{82}000fe031a5999996a65540
+# Learn, id=956, data=5
+{82}000fe031a5999a6959a940
+# Learn, id=957, data=a
+{82}000fe031a5999a96a65640
+# Learn, id=958, data=5
+{82}000fe031a599a569599640
+# Learn, id=959, data=a
+{82}000fe031a599a596a66940
+# Learn, id=95a, data=5
+{82}000fe031a599a669599540
+# Learn, id=95b, data=a
+{82}000fe031a599a696a66a40
+# Learn, id=95c, data=5
+{82}000fe031a599a969599a40
+# Learn, id=95d, data=a
+{82}000fe031a599a996a66540
+# Learn, id=95e, data=5
+{82}000fe031a599aa69599940
+# Learn, id=95f, data=a
+{82}000fe031a599aa96a66640
+# Learn, id=983, data=a
+{82}000fe031a5a55696a65580
+# Learn, id=988, data=5
+{82}000fe031a5a56569599580
+# Learn, id=98b, data=a
+{82}000fe031a5a56696a66940
+# Learn, id=98e, data=5
+{82}000fe031a5a56a69599a80
+# Learn, id=9a0, data=5
+{82}000fe031a5a6556959aa80
+# Learn, id=9a1, data=a
+{82}000fe031a5a65596a65580
+# Learn, id=9a2, data=5
+{82}000fe031a5a6566959a940
+# Learn, id=9a3, data=a
+{82}000fe031a5a65696a65640
+# Learn, id=9a4, data=5
+{82}000fe031a5a6596959a580
+# Learn, id=9a5, data=a
+{82}000fe031a5a65996a65a80
+# Learn, id=9a6, data=5
+{82}000fe031a5a65a6959a680
+# Learn, id=9a7, data=a
+{82}000fe031a5a65a96a65980
+# Learn, id=9a8, data=5
+{82}000fe031a5a66569599640
+# Learn, id=9a9, data=a
+{82}000fe031a5a66596a66940
+# Learn, id=9aa, data=5
+{82}000fe031a5a66669599540
+# Learn, id=9ab, data=a
+{82}000fe031a5a66696a66a40
+# Learn, id=9ac, data=5
+{82}000fe031a5a66969599a40
+# Learn, id=9ad, data=a
+{82}000fe031a5a66996a66540
+# Learn, id=9ae, data=5
+{82}000fe031a5a66a69599940
+# Learn, id=9af, data=a
+{82}000fe031a5a66a96a66640
+# Learn, id=a20, data=5
+{82}000fe031a656556959a640
+# Learn, id=a21, data=a
+{82}000fe031a6565596a65940
+# Learn, id=a22, data=5
+{82}000fe031a656566959a540
+# Learn, id=a23, data=a
+{82}000fe031a6565696a65a40
+# Learn, id=a24, data=5
+{82}000fe031a656596959aa40
+# Learn, id=a25, data=a
+{82}000fe031a6565996a65540
+# Learn, id=a26, data=5
+{82}000fe031a6565a6959a940
+# Learn, id=a27, data=a
+{82}000fe031a6565a96a65640
+# Learn, id=a28, data=5
+{82}000fe031a6566569599a40
+# Learn, id=a29, data=a
+{82}000fe031a6566596a66540
+# Learn, id=a2a, data=5
+{82}000fe031a6566669599980
+# Learn, id=a2b, data=a
+{82}000fe031a6566696a66680
+# Learn, id=a2c, data=5
+{82}000fe031a6566969599580
+# Learn, id=a2d, data=a
+{82}000fe031a6566996a66a80
+# Learn, id=a2e, data=5
+{82}000fe031a6566a69599680
+# Learn, id=a2f, data=a
+{82}000fe031a6566a96a66980
+# Learn, id=a50, data=5
+{82}000fe031a6599569599a40
+# Learn, id=a51, data=a
+{82}000fe031a6599596a66540
+# Learn, id=a52, data=5
+{82}000fe031a6599669599980
+# Learn, id=a53, data=a
+{82}000fe031a6599696a66680
+# Learn, id=a54, data=5
+{82}000fe031a6599969599680
+# Learn, id=a55, data=a
+{82}000fe031a6599996a66980
+# Learn, id=a56, data=5
+{82}000fe031a6599a69599540
+# Learn, id=a57, data=a
+{82}000fe031a6599a96a66a40
+# Learn, id=a58, data=5
+{82}000fe031a659a56959a580
+# Learn, id=a59, data=a
+{82}000fe031a659a596a65a80
+# Learn, id=a5a, data=5
+{82}000fe031a659a66959a640
+# Learn, id=a5b, data=a
+{82}000fe031a659a696a65940
+# Learn, id=a5c, data=5
+{82}000fe031a659a96959aa40
+# Learn, id=a5d, data=a
+{82}000fe031a659a996a65540
+# Learn, id=a5e, data=5
+{82}000fe031a659aa6959a940
+# Learn, id=a5f, data=a
+{82}000fe031a659aa96a65640
+# Learn, id=a74, data=5
+{82}000fe031a65a9969599540
+# Learn, id=a76, data=5
+{82}000fe031a65a9a69599640
+# Learn, id=a7e, data=5
+{82}000fe031a65aaa6959aa80
+# Learn, id=aa0, data=5
+{82}000fe031a6665569599a40
+# Learn, id=aa2, data=5
+{82}000fe031a6665669599980
+# Learn, id=aa3, data=a
+{82}000fe031a6665696a66680
+# Learn, id=aa4, data=5
+{82}000fe031a6665969599680
+# Learn, id=aa5, data=a
+{82}000fe031a6665996a66980
+# Learn, id=aa6, data=5
+{82}000fe031a6665a69599540
+# Learn, id=aa7, data=a
+{82}000fe031a6665a96a66a40
+# Learn, id=aa8, data=5
+{82}000fe031a666656959aa40
+# Learn, id=aa9, data=a
+{82}000fe031a6666596a65540
+# Learn, id=aaa, data=5
+{82}000fe031a666666959a980
+# Learn, id=aab, data=a
+{82}000fe031a6666696a65680
+# Learn, id=aac, data=5
+{82}000fe031a666696959a680
+# Learn, id=aad, data=a
+{82}000fe031a6666996a65980
+# Learn, id=aae, data=5
+{82}000fe031a6666a6959a540
+# Learn, id=aaf, data=a
+{82}000fe031a6666a96a65a40
+# Learn, id=ad0, data=5
+{82}000fe031a669956959a980
+# Learn, id=ad1, data=a
+{82}000fe031a6699596a65680
+# Learn, id=ad2, data=5
+{82}000fe031a669966959aa80
+# Learn, id=ad3, data=a
+{82}000fe031a6699696a65580
+# Learn, id=ad4, data=5
+{82}000fe031a669996959a680
+# Learn, id=ad5, data=a
+{82}000fe031a6699996a65980
+# Learn, id=ad6, data=5
+{82}000fe031a6699a6959a540
+# Learn, id=ad7, data=a
+{82}000fe031a6699a96a65a40
+# Learn, id=ad8, data=5
+{82}000fe031a669a569599a40
+# Learn, id=ad9, data=a
+{82}000fe031a669a596a66540
+# Learn, id=ada, data=5
+{82}000fe031a669a669599980
+# Learn, id=adb, data=a
+{82}000fe031a669a696a66680
+# Learn, id=adc, data=5
+{82}000fe031a669a969599580
+# Learn, id=add, data=a
+{82}000fe031a669a996a66a80
+# Learn, id=ade, data=5
+{82}000fe031a669aa69599680
+# Learn, id=adf, data=a
+{82}000fe031a669aa96a66980
+# Learn, id=b20, data=5
+{82}000fe031a6965569599680
+# Learn, id=b21, data=a
+{82}000fe031a6965596a66980
+# Learn, id=b22, data=5
+{82}000fe031a6965669599580
+# Learn, id=b23, data=a
+{82}000fe031a6965696a66a80
+# Learn, id=b24, data=5
+{82}000fe031a6965969599980
+# Learn, id=b25, data=a
+{82}000fe031a6965996a66680
+# Learn, id=b26, data=5
+{82}000fe031a6965a69599a40
+# Learn, id=b27, data=a
+{82}000fe031a6965a96a66540
+# Learn, id=b28, data=5
+{82}000fe031a696656959a540
+# Learn, id=b29, data=a
+{82}000fe031a6966596a65a40
+# Learn, id=b2a, data=5
+{82}000fe031a696666959a680
+# Learn, id=b2b, data=a
+{82}000fe031a6966696a65980
+# Learn, id=b2c, data=5
+{82}000fe031a696696959aa80
+# Learn, id=b2d, data=a
+{82}000fe031a6966996a65580
+# Learn, id=b2f, data=a
+{82}000fe031a6966a96a65680
+# Learn, id=b50, data=5
+{82}000fe031a699956959a540
+# Learn, id=b51, data=a
+{82}000fe031a6999596a65a40
+# Learn, id=b52, data=5
+{82}000fe031a699966959a680
+# Learn, id=b53, data=a
+{82}000fe031a6999696a65980
+# Learn, id=b54, data=5
+{82}000fe031a699996959a980
+# Learn, id=b55, data=a
+{82}000fe031a6999996a65680
+# Learn, id=b56, data=5
+{82}000fe031a6999a6959aa40
+# Learn, id=b57, data=a
+{82}000fe031a6999a96a65540
+# Learn, id=b58, data=5
+{82}000fe031a699a569599540
+# Learn, id=b59, data=a
+{82}000fe031a699a596a66a40
+# Learn, id=b5a, data=5
+{82}000fe031a699a669599680
+# Learn, id=b5b, data=a
+{82}000fe031a699a696a66980
+# Learn, id=b5c, data=5
+{82}000fe031a699a969599980
+# Learn, id=b5d, data=a
+{82}000fe031a699a996a66680
+# Learn, id=b5e, data=5
+{82}000fe031a699aa69599a40
+# Learn, id=b5f, data=a
+{82}000fe031a699aa96a66540
+# Learn, id=ba0, data=5
+{82}000fe031a6a6556959a940
+# Learn, id=ba1, data=a
+{82}000fe031a6a65596a65640
+# Learn, id=ba3, data=a
+{82}000fe031a6a65696a65540
+# Learn, id=ba4, data=5
+{82}000fe031a6a6596959a640
+# Learn, id=ba5, data=a
+{82}000fe031a6a65996a65940
+# Learn, id=ba6, data=5
+{82}000fe031a6a65a6959a580
+# Learn, id=ba7, data=a
+{82}000fe031a6a65a96a65a80
+# Learn, id=ba8, data=5
+{82}000fe031a6a66569599540
+# Learn, id=ba9, data=a
+{82}000fe031a6a66596a66a40
+# Learn, id=baa, data=5
+{82}000fe031a6a66669599680
+# Learn, id=bab, data=a
+{82}000fe031a6a66696a66980
+# Learn, id=bac, data=5
+{82}000fe031a6a66969599980
+# Learn, id=bad, data=a
+{82}000fe031a6a66996a66680
+# Learn, id=bae, data=5
+{82}000fe031a6a66a69599a40
+# Learn, id=baf, data=a
+{82}000fe031a6a66a96a66540
+# Learn, id=bf0, data=5
+{82}000fe031a6aa9569599540
+# Learn, id=bf1, data=a
+{82}000fe031a6aa9596a66a40
+# Learn, id=bf2, data=5
+{82}000fe031a6aa9669599680
+# Learn, id=bf5, data=a
+{82}000fe031a6aa9996a66540
+# Learn, id=bf6, data=5
+{82}000fe031a6aa9a69599940
+# Learn, id=bfd, data=a
+{82}000fe031a6aaa996a65940
+# Learn, id=c00, data=5
+{82}000fe031a955556959a940
+# Learn, id=c02, data=5
+{82}000fe031a955566959aa40
+# Learn, id=c03, data=a
+{82}000fe031a9555696a65540
+# Learn, id=c04, data=5
+{82}000fe031a955596959a640
+# Learn, id=c06, data=5
+{82}000fe031a9555a6959a580
+# Learn, id=c07, data=a
+{82}000fe031a9555a96a65a80
+# Learn, id=c0a, data=5
+{82}000fe031a9556669599680
+# Learn, id=c0b, data=a
+{82}000fe031a9556696a66980
+# Learn, id=c0c, data=5
+{82}000fe031a9556969599980
+# Learn, id=c0e, data=5
+{82}000fe031a9556a69599a40
+# Learn, id=c50, data=5
+{82}000fe031a9599569599680
+# Learn, id=c51, data=a
+{82}000fe031a9599596a66980
+# Learn, id=c52, data=5
+{82}000fe031a9599669599580
+# Learn, id=c53, data=a
+{82}000fe031a9599696a66a80
+# Learn, id=c54, data=5
+{82}000fe031a9599969599980
+# Learn, id=c55, data=a
+{82}000fe031a9599996a66680
+# Learn, id=c56, data=5
+{82}000fe031a9599a69599a40
+# Learn, id=c57, data=a
+{82}000fe031a9599a96a66540
+# Learn, id=c58, data=5
+{82}000fe031a959a56959a940
+# Learn, id=c59, data=a
+{82}000fe031a959a596a65640
+# Learn, id=c5a, data=5
+{82}000fe031a959a66959aa40
+# Learn, id=c5b, data=a
+{82}000fe031a959a696a65540
+# Learn, id=c5c, data=5
+{82}000fe031a959a96959a540
+# Learn, id=c5d, data=a
+{82}000fe031a959a996a65a40
+# Learn, id=c5e, data=5
+{82}000fe031a959aa6959a640
+# Learn, id=c5f, data=a
+{82}000fe031a959aa96a65940
+# Learn, id=ca0, data=5
+{82}000fe031a9665569599680
+# Learn, id=ca1, data=a
+{82}000fe031a9665596a66980
+# Learn, id=ca2, data=5
+{82}000fe031a9665669599580
+# Learn, id=ca3, data=a
+{82}000fe031a9665696a66a80
+# Learn, id=ca4, data=5
+{82}000fe031a9665969599980
+# Learn, id=ca5, data=a
+{82}000fe031a9665996a66680
+# Learn, id=ca6, data=5
+{82}000fe031a9665a69599a40
+# Learn, id=ca7, data=a
+{82}000fe031a9665a96a66540
+# Learn, id=ca8, data=5
+{82}000fe031a966656959a540
+# Learn, id=ca9, data=a
+{82}000fe031a9666596a65a40
+# Learn, id=caa, data=5
+{82}000fe031a966666959a680
+# Learn, id=cab, data=a
+{82}000fe031a9666696a65980
+# Learn, id=cac, data=5
+{82}000fe031a966696959aa80
+# Learn, id=cad, data=a
+{82}000fe031a9666996a65580
+# Learn, id=cae, data=5
+{82}000fe031a9666a6959a980
+# Learn, id=caf, data=a
+{82}000fe031a9666a96a65680
+# Learn, id=cd0, data=5
+{82}000fe031a969956959a680
+# Learn, id=cd1, data=a
+{82}000fe031a9699596a65980
+# Learn, id=cd2, data=5
+{82}000fe031a969966959a580
+# Learn, id=cd3, data=a
+{82}000fe031a9699696a65a80
+# Learn, id=cd4, data=5
+{82}000fe031a969996959aa80
+# Learn, id=cd5, data=a
+{82}000fe031a9699996a65580
+# Learn, id=cd6, data=5
+{82}000fe031a9699a6959a980
+# Learn, id=cd7, data=a
+{82}000fe031a9699a96a65680
+# Learn, id=cd8, data=5
+{82}000fe031a969a569599680
+# Learn, id=cd9, data=a
+{82}000fe031a969a596a66980
+# Learn, id=cda, data=5
+{82}000fe031a969a669599580
+# Learn, id=cdb, data=a
+{82}000fe031a969a696a66a80
+# Learn, id=cdc, data=5
+{82}000fe031a969a969599a80
+# Learn, id=cdd, data=a
+{82}000fe031a969a996a66580
+# Learn, id=cde, data=5
+{82}000fe031a969aa69599980
+# Learn, id=cdf, data=a
+{82}000fe031a969aa96a66680
+# Learn, id=d20, data=5
+{82}000fe031a9965569599980
+# Learn, id=d21, data=a
+{82}000fe031a9965596a66680
+# Learn, id=d22, data=5
+{82}000fe031a9965669599a80
+# Learn, id=d23, data=a
+{82}000fe031a9965696a66580
+# Learn, id=d24, data=5
+{82}000fe031a9965969599580
+# Learn, id=d25, data=a
+{82}000fe031a9965996a66a80
+# Learn, id=d26, data=5
+{82}000fe031a9965a69599680
+# Learn, id=d27, data=a
+{82}000fe031a9965a96a66980
+# Learn, id=d28, data=5
+{82}000fe031a996656959a980
+# Learn, id=d29, data=a
+{82}000fe031a9966596a65680
+# Learn, id=d2a, data=5
+{82}000fe031a996666959aa80
+# Learn, id=d2b, data=a
+{82}000fe031a9966696a65580
+# Learn, id=d2c, data=5
+{82}000fe031a996696959a580
+# Learn, id=d2d, data=a
+{82}000fe031a9966996a65a80
+# Learn, id=d2e, data=5
+{82}000fe031a9966a6959a680
+# Learn, id=d2f, data=a
+{82}000fe031a9966a96a65980
+# Learn, id=d50, data=5
+{82}000fe031a999956959a980
+# Learn, id=d51, data=a
+{82}000fe031a9999596a65680
+# Learn, id=d52, data=5
+{82}000fe031a999966959aa80
+# Learn, id=d53, data=a
+{82}000fe031a9999696a65580
+# Learn, id=d54, data=5
+{82}000fe031a999996959a680
+# Learn, id=d55, data=a
+{82}000fe031a9999996a65980
+# Learn, id=d56, data=5
+{82}000fe031a9999a6959a540
+# Learn, id=d57, data=a
+{82}000fe031a9999a96a65a40
+# Learn, id=d58, data=5
+{82}000fe031a999a569599a40
+# Learn, id=d59, data=a
+{82}000fe031a999a596a66540
+# Learn, id=d5a, data=5
+{82}000fe031a999a669599980
+# Learn, id=d5b, data=a
+{82}000fe031a999a696a66680
+# Learn, id=d5c, data=5
+{82}000fe031a999a969599580
+# Learn, id=d5d, data=a
+{82}000fe031a999a996a66a80
+# Learn, id=d5e, data=5
+{82}000fe031a999aa69599680
+# Learn, id=d5f, data=a
+{82}000fe031a999aa96a66980
+# Learn, id=da0, data=5
+{82}000fe031a9a6556959a640
+# Learn, id=da1, data=a
+{82}000fe031a9a65596a65940
+# Learn, id=da2, data=5
+{82}000fe031a9a6566959a540
+# Learn, id=da3, data=a
+{82}000fe031a9a65696a65a40
+# Learn, id=da5, data=a
+{82}000fe031a9a65996a65540
+# Learn, id=da6, data=5
+{82}000fe031a9a65a6959a940
+# Learn, id=da7, data=a
+{82}000fe031a9a65a96a65640
+# Learn, id=da8, data=5
+{82}000fe031a9a66569599a40
+# Learn, id=da9, data=a
+{82}000fe031a9a66596a66540
+# Learn, id=daa, data=5
+{82}000fe031a9a66669599980
+# Learn, id=dab, data=a
+{82}000fe031a9a66696a66680
+# Learn, id=dac, data=5
+{82}000fe031a9a66969599580
+# Learn, id=dad, data=a
+{82}000fe031a9a66996a66a80
+# Learn, id=dae, data=5
+{82}000fe031a9a66a69599680
+# Learn, id=daf, data=a
+{82}000fe031a9a66a96a66980
+# Learn, id=dd1, data=a
+{82}000fe031a9a99596a66680
+# Learn, id=dd2, data=5
+{82}000fe031a9a99669599a80
+# Learn, id=dd8, data=5
+{82}000fe031a9a9a56959a640
+# Learn, id=dda, data=5
+{82}000fe031a9a9a66959a540
+# Learn, id=ddb, data=a
+{82}000fe031a9a9a696a65a40
+# Learn, id=ddc, data=5
+{82}000fe031a9a9a96959a980
+# Learn, id=ddd, data=a
+{82}000fe031a9a9a996a65680
+# Learn, id=dde, data=5
+{82}000fe031a9a9aa6959aa40
+# Learn, id=ddf, data=a
+{82}000fe031a9a9aa96a65540
+# Learn, id=e02, data=5
+{82}000fe031aa55566959a940
+# Learn, id=e04, data=5
+{82}000fe031aa55596959a580
+# Learn, id=e06, data=5
+{82}000fe031aa555a6959a680
+# Learn, id=e0c, data=5
+{82}000fe031aa556969599a40
+# Learn, id=e51, data=a
+{82}000fe031aa599596a66a40
+# Learn, id=e52, data=5
+{82}000fe031aa599669599680
+# Learn, id=e53, data=a
+{82}000fe031aa599696a66980
+# Learn, id=e54, data=5
+{82}000fe031aa599969599a40
+# Learn, id=e55, data=a
+{82}000fe031aa599996a66540
+# Learn, id=e56, data=5
+{82}000fe031aa599a69599940
+# Learn, id=e57, data=a
+{82}000fe031aa599a96a66640
+# Learn, id=e58, data=5
+{82}000fe031aa59a56959aa80
+# Learn, id=e59, data=a
+{82}000fe031aa59a596a65580
+# Learn, id=e5a, data=5
+{82}000fe031aa59a66959a940
+# Learn, id=e5b, data=a
+{82}000fe031aa59a696a65640
+# Learn, id=e5c, data=5
+{82}000fe031aa59a96959a640
+# Learn, id=e5d, data=a
+{82}000fe031aa59a996a65940
+# Learn, id=e5e, data=5
+{82}000fe031aa59aa6959a580
+# Learn, id=e5f, data=a
+{82}000fe031aa59aa96a65a80
+# Learn, id=e70, data=5
+{82}000fe031aa5a9569599640
+# Learn, id=e71, data=a
+{82}000fe031aa5a9596a66940
+# Learn, id=e77, data=a
+{82}000fe031aa5a9a96a66580
+# Learn, id=e7d, data=a
+{82}000fe031aa5aa996a65a80
+# Learn, id=e7e, data=5
+{82}000fe031aa5aaa6959a680
+# Learn, id=e7f, data=a
+{82}000fe031aa5aaa96a65980
+# Learn, id=ea0, data=5
+{82}000fe031aa665569599540
+# Learn, id=ea1, data=a
+{82}000fe031aa665596a66a40
+# Learn, id=ea2, data=5
+{82}000fe031aa665669599680
+# Learn, id=ea3, data=a
+{82}000fe031aa665696a66980
+# Learn, id=ea4, data=5
+{82}000fe031aa665969599a40
+# Learn, id=ea5, data=a
+{82}000fe031aa665996a66540
+# Learn, id=ea6, data=5
+{82}000fe031aa665a69599940
+# Learn, id=ea7, data=a
+{82}000fe031aa665a96a66640
+# Learn, id=ea8, data=5
+{82}000fe031aa66656959a640
+# Learn, id=ea9, data=a
+{82}000fe031aa666596a65940
+# Learn, id=eaa, data=5
+{82}000fe031aa66666959a540
+# Learn, id=eab, data=a
+{82}000fe031aa666696a65a40
+# Learn, id=eac, data=5
+{82}000fe031aa66696959a980
+# Learn, id=ead, data=a
+{82}000fe031aa666996a65680
+# Learn, id=eae, data=5
+{82}000fe031aa666a6959aa40
+# Learn, id=eaf, data=a
+{82}000fe031aa666a96a65540
+# Learn, id=ed0, data=5
+{82}000fe031aa69956959a540
+# Learn, id=ed1, data=a
+{82}000fe031aa699596a65a40
+# Learn, id=ed2, data=5
+{82}000fe031aa69966959a680
+# Learn, id=ed3, data=a
+{82}000fe031aa699696a65980
+# Learn, id=ed4, data=5
+{82}000fe031aa69996959a980
+# Learn, id=ed5, data=a
+{82}000fe031aa699996a65680
+# Learn, id=ed6, data=5
+{82}000fe031aa699a6959aa40
+# Learn, id=ed7, data=a
+{82}000fe031aa699a96a65540
+# Learn, id=ed8, data=5
+{82}000fe031aa69a569599540
+# Learn, id=ed9, data=a
+{82}000fe031aa69a596a66a40
+# Learn, id=eda, data=5
+{82}000fe031aa69a669599680
+# Learn, id=edb, data=a
+{82}000fe031aa69a696a66980
+# Learn, id=edc, data=5
+{82}000fe031aa69a969599980
+# Learn, id=edd, data=a
+{82}000fe031aa69a996a66680
+# Learn, id=ede, data=5
+{82}000fe031aa69aa69599a40
+# Learn, id=edf, data=a
+{82}000fe031aa69aa96a66540
+# Learn, id=f20, data=5
+{82}000fe031aa965569599a40
+# Learn, id=f21, data=a
+{82}000fe031aa965596a66540
+# Learn, id=f22, data=5
+{82}000fe031aa965669599980
+# Learn, id=f23, data=a
+{82}000fe031aa965696a66680
+# Learn, id=f24, data=5
+{82}000fe031aa965969599680
+# Learn, id=f25, data=a
+{82}000fe031aa965996a66980
+# Learn, id=f28, data=5
+{82}000fe031aa96656959aa40
+# Learn, id=f29, data=a
+{82}000fe031aa966596a65540
+# Learn, id=f2b, data=a
+{82}000fe031aa966696a65680
+# Learn, id=f2c, data=5
+{82}000fe031aa96696959a680
+# Learn, id=f2e, data=5
+{82}000fe031aa966a6959a540
+# Learn, id=f2f, data=a
+{82}000fe031aa966a96a65a40
+# Learn, id=f50, data=5
+{82}000fe031aa99956959aa40
+# Learn, id=f51, data=a
+{82}000fe031aa999596a65540
+# Learn, id=f52, data=5
+{82}000fe031aa99966959a980
+# Learn, id=f53, data=a
+{82}000fe031aa999696a65680
+# Learn, id=f54, data=5
+{82}000fe031aa99996959a540
+# Learn, id=f55, data=a
+{82}000fe031aa999996a65a40
+# Learn, id=f56, data=5
+{82}000fe031aa999a6959a640
+# Learn, id=f57, data=a
+{82}000fe031aa999a96a65940
+# Learn, id=f58, data=5
+{82}000fe031aa99a569599940
+# Learn, id=f59, data=a
+{82}000fe031aa99a596a66640
+# Learn, id=f5a, data=5
+{82}000fe031aa99a669599a40
+# Learn, id=f5b, data=a
+{82}000fe031aa99a696a66540
+# Learn, id=f5c, data=5
+{82}000fe031aa99a969599680
+# Learn, id=f5d, data=a
+{82}000fe031aa99a996a66980
+# Learn, id=f5e, data=5
+{82}000fe031aa99aa69599540
+# Learn, id=f5f, data=a
+{82}000fe031aa99aa96a66a40
+# Learn, id=fa0, data=5
+{82}000fe031aaa6556959a580
+# Learn, id=fa1, data=a
+{82}000fe031aaa65596a65a80
+# Learn, id=fa3, data=a
+{82}000fe031aaa65696a65940
+# Learn, id=fa4, data=5
+{82}000fe031aaa6596959a940
+# Learn, id=fa5, data=a
+{82}000fe031aaa65996a65640
+# Learn, id=fa6, data=5
+{82}000fe031aaa65a6959aa80
+# Learn, id=fa7, data=a
+{82}000fe031aaa65a96a65580
+# Learn, id=fa8, data=5
+{82}000fe031aaa66569599940
+# Learn, id=fa9, data=a
+{82}000fe031aaa66596a66640
+# Learn, id=faa, data=5
+{82}000fe031aaa66669599a40
+# Learn, id=fab, data=a
+{82}000fe031aaa66696a66540
+# Learn, id=fac, data=5
+{82}000fe031aaa66969599680
+# Learn, id=fad, data=a
+{82}000fe031aaa66996a66980
+# Learn, id=fae, data=5
+{82}000fe031aaa66a69599540
+# Learn, id=faf, data=a
+{82}000fe031aaa66a96a66a40
+# Learn, id=ff0, data=5
+{82}000fe031aaaa9569599940
+# Learn, id=ff1, data=a
+{82}000fe031aaaa9596a66640
+# Learn, id=ff2, data=5
+{82}000fe031aaaa9669599a40
+# Learn, id=ff3, data=a
+{82}000fe031aaaa9696a66540
+# Learn, id=ff4, data=5
+{82}000fe031aaaa9969599540
+# Learn, id=ff5, data=a
+{82}000fe031aaaa9996a66a40
+# Learn, id=ff6, data=5
+{82}000fe031aaaa9a69599640
+# Learn, id=ff7, data=a
+{82}000fe031aaaa9a96a66940
+# Learn, id=ff8, data=5
+{82}000fe031aaaaa56959a680
+# Learn, id=ff9, data=a
+{82}000fe031aaaaa596a65980
+# Learn, id=ffa, data=5
+{82}000fe031aaaaa66959a580
+# Learn, id=ffb, data=a
+{82}000fe031aaaaa696a65a80
+# Learn, id=ffc, data=5
+{82}000fe031aaaaa96959a940
+# Learn, id=ffd, data=a
+{82}000fe031aaaaa996a65640
+# Learn, id=ffe, data=5
+{82}000fe031aaaaaa6959aa80
+# Learn, id=fff, data=a
+{82}000fe031aaaaaa96a65580
