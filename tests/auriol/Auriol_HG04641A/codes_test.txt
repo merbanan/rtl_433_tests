@@ -1,0 +1,24 @@
+# Auriol HG04641A temperature station
+# {N}<hex>/{N}<hex> (two repeats, matching bitbuffer_find_repeated_row(2, 36))
+#
+# Source: https://github.com/merbanan/rtl_433/issues/2014
+#
+# All from mantielero's captures, decoded via the -A analyzer's raw bit
+# dump (no .cu8 IQ file was ever attached, only these text dumps).
+
+# 15.3 C
+{36}12f4109990/{36}12f4109990
+# 22.8 C
+{36}12f410e490/{36}12f410e490
+# 22.6 C -- originally posted as -22.6 C, before the encoding below was worked out
+{36}12f410e270/{36}12f410e270
+# -14.1 C, freezer test
+{36}12f41f7300/{36}12f41f7300
+# after removing batteries, no ground-truth reading given
+{36}12f41f9540/{36}12f41f9540
+# old batteries, no ground-truth reading given
+{36}12f410c470/{36}12f410c470
+# old batteries, low battery flag set
+{36}12f490ec90/{36}12f490ec90
+# neighbor's device (different id), low battery flag set
+{36}36d4908b60/{36}36d4908b60
