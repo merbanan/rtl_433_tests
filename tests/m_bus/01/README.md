@@ -13,16 +13,18 @@ off the physical meter label.
 ## Does not decode out of the box
 
 Default settings (`rtl_433 -r g001_868.9M_1000k.cu8`) produce nothing --
-not even a detected package under `-A`. Plain `-Y minmax` also fails: it
-just produces noise-chatter garbage (hundreds of 1-9us spurious pulses,
-misidentified as "Non Return to Zero coding").
+not even a detected package under `-A`.
 
-**The combination that works**: `-Y minmax -Y magest` (`magest` selects
-the magnitude estimator instead of the default amplitude estimator).
-Found by @ProfBoc75 in the issue thread:
+**`-Y minmax` alone is sufficient** -- `-Y magest` (found alongside it by
+@ProfBoc75 in the issue thread) turned out not to be necessary; verified
+against this file and all other real captures from both issues #1807 and
+#3393. (Running `-Y minmax -A`, the generic pulse *analyzer*'s own
+guess-and-decode, does produce garbage on this signal -- but that's the
+analyzer's naive heuristic slicer, unrelated to whether the real M-Bus
+decoder can decode it.)
 
 ```
-$ rtl_433 -r g001_868.9M_1000k.cu8 -Y minmax -Y magest -F json
+$ rtl_433 -r g001_868.9M_1000k.cu8 -Y minmax -F json
 {"time" : "@0.037023s", "model" : "Wireless-MBus", "mode" : "T", "M" : "DME",
  "id" : 84850129, "version" : 118, "type" : 7, "type_string" : "Water",
  "C" : 68, "data" : "5344a5112901858476078c00ae900f002c25f00c2f005d8c2c1dac2ca7c07a3a80310710a7f26ca73e8a384744684fe6a79dd0844ebe8c89debb0615906f9f9581b60dbf73e59f525cbc0182172ac76923f254d4",
