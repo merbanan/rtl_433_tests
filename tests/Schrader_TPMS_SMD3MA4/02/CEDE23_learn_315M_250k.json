@@ -1,5 +1,5 @@
-{"time" : "@0.624228s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "id" : "CEDE23", "flags" : 0, "learn" : 1, "pressure_PSI" : 25.600, "pressure_NIS_PSI" : 32.000, "mic" : "PARITY"}
-{"time" : "@0.687724s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "id" : "CEDE23", "flags" : 0, "learn" : 1, "pressure_PSI" : 25.600, "pressure_NIS_PSI" : 32.000, "mic" : "PARITY"}
-{"time" : "@0.751220s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "id" : "CEDE23", "flags" : 0, "learn" : 1, "pressure_PSI" : 25.600, "pressure_NIS_PSI" : 32.000, "mic" : "PARITY"}
-{"time" : "@0.814720s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "id" : "CEDE23", "flags" : 0, "learn" : 1, "pressure_PSI" : 25.600, "pressure_NIS_PSI" : 32.000, "mic" : "PARITY"}
-{"time" : "@0.878216s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "id" : "CEDE23", "flags" : 0, "learn" : 1, "pressure_PSI" : 25.600, "pressure_NIS_PSI" : 32.000, "mic" : "PARITY"}
+{"time" : "@0.624228s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "id" : "CEDE23", "flags" : 0, "learn" : 1, "pressure_PSI" : 25.600, "mic" : "PARITY"}
+{"time" : "@0.687724s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "id" : "CEDE23", "flags" : 0, "learn" : 1, "pressure_PSI" : 25.600, "mic" : "PARITY"}
+{"time" : "@0.751220s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "id" : "CEDE23", "flags" : 0, "learn" : 1, "pressure_PSI" : 25.600, "mic" : "PARITY"}
+{"time" : "@0.814720s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "id" : "CEDE23", "flags" : 0, "learn" : 1, "pressure_PSI" : 25.600, "mic" : "PARITY"}
+{"time" : "@0.878216s", "model" : "Schrader-SMD3MA4", "type" : "TPMS", "id" : "CEDE23", "flags" : 0, "learn" : 1, "pressure_PSI" : 25.600, "mic" : "PARITY"}

@@ -1,15 +1,16 @@
 # Schrader SMD3MA4 / Nissan-Infiniti-Renault MRXNIS315G3 TPMS
 
-See `01/README.md` for the original Subaru SMD3MA4 protocol writeup and
+See `01/README.md` for the original Subaru SMD3MA4 protocol writeup,
 `02/README.md` for the Nissan/Infiniti/Renault (MRXNIS315G3, aka aftermarket
-Redi-Sensor SE10001HP/SE10001HPR) captures.
+Redi-Sensor SE10001HP/SE10001HPR) captures, and `03/` for dedicated
+Schrader-NIS315G3 decoder fixtures (same captures as `02/`, restricted to
+protocol 352 via the `protocol` file).
 
 ## The pressure-scaling discrepancy
 
 Both sensor families share the exact same preamble, Manchester timing and
-frame layout, and are both decoded by `schrader_SMD3MA4_decode()`. They
-differ only in how many bits of the 10-bit pressure field are meaningful,
-and its scaling:
+frame layout. They differ only in how many bits of the 10-bit pressure
+field are meaningful, and its scaling:
 
 - SMD3MA4 (Subaru): all 8 usable bits, PSI * 5 (after the low 2 bits, once
   assumed to be low-order pressure bits, were identified as a checksum --
@@ -18,9 +19,15 @@ and its scaling:
 
 There is no reliable way to tell which sensor produced a given packet from
 the wire data alone -- IDs, preamble and timing all overlap between the two.
-The decoder therefore outputs both interpretations: `pressure_PSI` (/5,
-SMD3MA4 assumption) and `pressure_NIS_PSI` (/4, MRXNIS315G3 assumption).
-Pick whichever matches your vehicle.
+This is decoded as two separate decoders, `schrader_SMD3MA4` and
+`schrader_NIS315G3`, both enabled by default, each reporting a single
+`pressure_PSI` under its own model name -- rather than one decoder
+emitting both interpretations, per the maintainers' preference in
+https://github.com/merbanan/rtl_433/issues/1734#issuecomment-4957207247
+("the model key should denote the protocol", not several interpretations
+of one payload). This means a single physical transmission produces two
+output records, one per decoder; use -R to select just one of them if
+that duplication is undesirable.
 
 Full discussion: https://github.com/merbanan/rtl_433/issues/1734
 
