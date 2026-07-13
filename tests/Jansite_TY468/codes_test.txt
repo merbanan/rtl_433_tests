@@ -1,0 +1,37 @@
+# Jansite TPMS TY-468-eu2 / KKMOON TPMS
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/2025, comment #32
+# (the "RL sensor", checksum 0x64) -- captured with
+# `rtl_433 -s 1000k -X 'n=name,m=OOK_PCM,s=50,l=50,r=150,bits>=20'`.
+# Ground truth (bracketed) is the sensor's own display readout, read
+# alongside each capture.
+
+# ground truth [27C,19PSI]
+{164}aaaaaaaa56a656a69665aa96699aa999999956a60
+# ground truth [27C,22PSI]
+{164}aaaaaaaa5956aa569655aaa6696aa9a996a659560
+# ground truth [28C,22PSI]
+{164}aaaaaaaa556a556a9996a95a9556a6659a95556a0
+# ground truth [28C,25PSI]
+{164}aaaaaaaa56665666969aaa566a5aa959995a56660
+# ground truth [28C,27PSI]
+{164}aaaaaaaa6956695665aa5aa6596a59a9665969560
+# ground truth [28C,29PSI]
+{164}aaaaaaaa5656565696aaa9a66a6aa6a996a556560
+# ground truth [28C,26PSI]
+{164}aaaaaaaa659a659a6966596a5aa656956996659a0
+# ground truth [28C,23PSI]
+{164}aaaaaaaa6a5a6a5a5aa665aa5666655565966a5a0
+# ground truth [28C,21PSI]
+{164}aaaaaaaa555a555a99a6a6aa9566a6559aaa555a0
+# ground truth [27C,25PSI]
+{164}aaaaaaaa569656969695aa6669aaa96996a956960
+# ground truth [27C,27PSI]
+{164}aaaaaaaa69a669a665656596569a5a99656669a60
+# ground truth [26C,23PSI]
+{164}aaaaaaaa65a665a6696659965a9a56996a5565a60
+# ground truth [26C,21PSI]
+{164}aaaaaaaa5566556699a6a956955aa6599aa655660
+# ground truth [26C,19PSI]
+{164}aaaaaaaa659a659a696a596a5aa656956aa6659a0
