@@ -1,0 +1,5 @@
+# LaCrosse TX141TH-Bv2, single-CRC-valid-row-without-repeats fix, issue #2206.
+# 4 rows, only the first is CRC-valid; the other 3 are mutually distinct
+# (simulating noise-corrupted repeats, not just a differing "bogus" 41st bit).
+# Only decodes with the fix from commit 081de0ba applied.
+{41}18eed3f56180 {41}19eed3f56180 {41}18eed2f56180 {41}18eed3f46180
