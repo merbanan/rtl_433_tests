@@ -1,0 +1,15 @@
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 160.000, "temperature_C" : 27.000, "code" : "f80855da565149", "mic" : "CHECKSUM"}
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 175.000, "temperature_C" : 27.000, "code" : "baea939c94138d", "mic" : "CHECKSUM"}
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 180.000, "temperature_C" : 25.000, "code" : "d6e675b8782f73", "mic" : "CHECKSUM"}
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 187.500, "temperature_C" : 26.000, "code" : "a0d0ac82aef9ac", "mic" : "CHECKSUM"}
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 200.000, "temperature_C" : 24.000, "code" : "f40456d65a4d5d", "mic" : "CHECKSUM"}
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 215.000, "temperature_C" : 24.000, "code" : "daea70bc74337d", "mic" : "CHECKSUM"}
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 225.000, "temperature_C" : 24.000, "code" : "b6e69498980fa5", "mic" : "CHECKSUM"}
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 230.000, "temperature_C" : 25.000, "code" : "bcec8f9e9215a1", "mic" : "CHECKSUM"}
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 242.500, "temperature_C" : 25.000, "code" : "c8d883aa86219a", "mic" : "CHECKSUM"}
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 240.000, "temperature_C" : 26.000, "code" : "d0e07cb27e2991", "mic" : "CHECKSUM"}
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 252.500, "temperature_C" : 24.000, "code" : "c6d684a8881fa0", "mic" : "CHECKSUM"}
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 247.500, "temperature_C" : 27.000, "code" : "f42459d65a4d70", "mic" : "CHECKSUM"}
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 262.500, "temperature_C" : 24.000, "code" : "98c8b27ab6f1d2", "mic" : "CHECKSUM"}
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 267.500, "temperature_C" : 24.000, "code" : "d4e476b67a2d98", "mic" : "CHECKSUM"}
+{"model" : "Jansite-TY588", "type" : "TPMS", "pressure_kPa" : 280.000, "temperature_C" : 24.000, "code" : "fc2c4ede525575", "mic" : "CHECKSUM"}
