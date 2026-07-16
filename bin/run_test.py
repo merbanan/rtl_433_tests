@@ -76,14 +76,14 @@ def main():
     nb_fail = 0
     false_positives = dict()
     for output_fn in expected_json:
-        input_fn = os.path.splitext(output_fn)[0] + ".cu8"
-        inook_fn = os.path.splitext(output_fn)[0] + ".ook"
-        if not os.path.isfile(input_fn):
-            if os.path.isfile(inook_fn):
-                input_fn = inook_fn
-            else:
-                print("WARNING: Missing '%s'" % input_fn)
-                continue
+        input_exts = ['.cu8', '.cs8', '.cs16', '.ook']
+        for input_ext in input_exts:
+            input_fn = os.path.splitext(output_fn)[0] + input_ext
+            if os.path.isfile(input_fn):
+                break
+        else:
+            print("WARNING: Missing for '%s'" % output_fn)
+            continue
 
         ignore_fn = os.path.join(os.path.dirname(output_fn), "ignore")
         if os.path.isfile(ignore_fn):
