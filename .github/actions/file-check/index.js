@@ -96,6 +96,12 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec} --diff-filter d`, (
     else if (ext == '.cu8') {
       errors += check_cu8(file)
     }
+    else if (ext == '.cs8') {
+      errors += check_cs8(file)
+    }
+    else if (ext == '.cs16') {
+      errors += check_cs16(file)
+    }
     else if (ext == '.jpg') {
       errors += check_image(file)
     }
@@ -115,21 +121,47 @@ function check_json(file) {
   const ext = path.extname(file)
   const dirname = path.dirname(file)
   const filename_no_ext = path.basename(file, ext)
-  if (!fs.existsSync(path.join(dirname, `${filename_no_ext}.cu8`))) {
-    console.log(`::error file=${file}::Add .json files only for .cu8 files`)
+  if (!fs.existsSync(path.join(dirname, `${filename_no_ext}.cu8`))
+      && !fs.existsSync(path.join(dirname, `${filename_no_ext}.cs8`))
+      && !fs.existsSync(path.join(dirname, `${filename_no_ext}.cs16`))
+      && !fs.existsSync(path.join(dirname, `${filename_no_ext}.ook`))) {
+    console.log(`::error file=${file}::Add .json files only for .cu8/.cs8/.cs16/.ook files`)
+    return 1
+  }
+  return 0
+}
+
+function check_max_size(file, max_size) {
+  const stats = fs.statSync(file)
+  if (stats.size > max_size) {
+    console.log(`::error file=${file}::The file is too big, don't add raw captures`)
+    return 1
+  }
+  return 0
+}
+
+function check_tags_present(file) {
+  // check that frequency and samplerate tags are present...
+  const freq_re = /\b[0-9]+\.?[0-9]*M\b/
+  const rate_re = /\b[0-9]+\.?[0-9]*k\b/
+  const file_split = file.replace(/[_-]/g, ' ')
+  if (!file_split.match(freq_re) || !file_split.match(rate_re)) {
+    console.log(`::error file=${file}::The file is missing meta data tags`)
     return 1
   }
   return 0
 }
 
 function check_cu8(file) {
-  const stats = fs.statSync(file)
-  if (!stats.size > 1024*1024) {
-    console.log(`::error file=${file}::The file is too big, don't add raw captures`)
-    return 1
-  }
-  // check that frequency and samplerate tags are present...
-  return 0
+  return check_max_size(file, 1024 * 1024) + check_tags_present(file)
+}
+
+function check_cs8(file) {
+  return check_max_size(file, 1024 * 1024) + check_tags_present(file)
+}
+
+function check_cs16(file) {
+  return check_max_size(file, 2 * 1024 * 1024) + check_tags_present(file)
 }
 
 function check_image(file) {
