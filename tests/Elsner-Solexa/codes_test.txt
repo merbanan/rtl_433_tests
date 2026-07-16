@@ -3,11 +3,21 @@
 #
 # Source: https://github.com/merbanan/rtl_433/issues/2798
 #
-# All 60 known-good messages recovered from the issue's elsner.zip captures
-# (rauar's 2024-01-20 comment), decoded with `-Y minmax -R 364:vv`. CRC-16
-# (poly 0x1021, init 0x68b3) validates on all of them; the payload itself is
-# not decoded (see elsner_solexa.c), so annotations are just the button/label
-# each capture's directory name recorded.
+# The first 60 are known-good messages recovered from the issue's elsner.zip
+# captures (rauar's 2024-01-20 comment), decoded with `-Y minmax -R 364:vv`.
+# The remaining 38 are additional CRC-valid messages from a later BitBench
+# comment in the same issue, from a second, unlabeled population (see the
+# `family1` note in elsner_solexa.c) -- prefixed here with the anchor byte
+# 0x0a since they were not captured as a demodulated burst.
+#
+# CRC-16 (poly 0x1021, init 0x68b3) validates on all 98. The decoder's
+# reported `data` is the payload after removing a self-synchronizing
+# transform G(x) = x^7 + x^5 + 1 (see elsner_solexa.c), which is why every
+# resulting frame shares the marker 0xc945a400 before the payload; `rolling`
+# and `counter` are recovered from the raw on-air bytes and validate on all
+# 98. `command` is reported only for the first 60 (see elsner_solexa.c for
+# the token derivation); annotations for those are the button/label of each
+# capture's directory.
 
 # automode
 # g001_868.25M_1000k.cu8
@@ -135,3 +145,45 @@
 {314}02b3ab64eeb657d505dbf7e632d1f3e794eaf06ca5162f149014343434343474b576f9bf4a829ec
 # g006_868.25M_1000k.cu8
 {314}02b3ab64eeacc4af39c3c7c632d1f3a713e92ca51638331ca0343434343474b576f9bf4aa15ee44
+
+# unlabeled (family1=0), from the issue's later BitBench comment; no button
+# label available, and this decoder does not report a command for family1=0
+# (see elsner_solexa.c); rolling/counter still validate on all of them.
+{312}0acead93bab980e9176fdfd6ab47ce9c11a381c2620cc2413d80b3b2b28cbed5dae4f92275e71b
+{312}0acead93ba9c417228902057ac48d1a21dbbb5212089bc3f27555d075cdf6522751a64f923b854
+{312}0acead93ba72ebcad8f0e0d7ac49d3a728d1dd7bd4f18cdf67d55d075de26b2f8e4cc8c1b32f28
+{312}0acead93bae4ce9268102057ac48d0a01ab5a409f029fcc727555d075ce06624792274196316c7
+{312}0acead93ba234a91670f1f56ab46cd9b0fa07fb446d4527b7d00b3b2b38ec3deec0942b59a040a
+{312}0acead93ba7bf0f0278f1f56ab46cc9809936183e513d19d79ffb2b1b088b6c5baa47820702ef6
+{312}0acead93badaaa691870e0d7ac48d0a11cbaae1c17769761902a085c0735107820711254d946a2
+{312}0acead93bab45dd1e8102057ac48d1a320c1bc3950e97cb226555d075cdf6420711254d9e3e072
+{312}0acead93ba68c4a18850a057ac49d3a727cfd972c3ce476951aa085c06330c711254d9e3f6d344
+{312}0acead93baa0328148d0a057ac48d1a31fc0ba3548d95cdba6555d075cdf642173165ce90315bf
+{312}0acead93ba1f2c8047cf9f56ab46cd9a0d9b70a01e84b243fd00b3b2b38ec2ddea053aa57ad1f7
+{312}0acead93ba3e68f938b060d7ac49d2a421c3c0405f06b777122a085c06340e751a65fa2479335d
+{312}0acead93ba7ce3f128902057ac49d3a728d2df7edbfea74ad2aa085c06330c701050d1d3d654b0
+{312}0acead93baf8dae10850a057ac48d0a019b3a102e30ec75852aa085c0735117a257b267c29703d
+{312}0acead93bae3af90670f1f56ab47cf9f17b09af4c6d452277c00b3b2b28bbcd1d3d6ddea05ae6b
+{312}0acead93bac67319783060d7ac48d0a11bb8ab170c616c71e6d55d075ce067267c2880319326bb
+{312}0acead93ba1a19691870e0d7ac49d2a524cace5c977697d2922a085c06340f771f6e0d4bc67322
+{312}0acead93ba354fd8f72f5fd6ab46cd9b10a17cb951eb81b83c7fb2b1b087b4c0b19254d8e094d7
+{312}0acead93ba81e00857efdfd6ab47ce9d13a88ad5895b6174bc7fb2b1b189b8c9c3b69c680033e1
+{312}0acead93bacd6e38b7af5fd6ab47cf9e16ae9ceebabc22dbbd80b3b2b28bbdd3d7dfee0d4a2a7d
+{312}0acead93ba567959f83060d7ac49d3a625ccd867aca1ecd4e8d55d075de26a2d8b47bfae8cec02
+{312}0acead93ba8cda31a8902057ac48d1a21ebebc2e3bbe27d0d2aa085c0736127c288031935636a3
+{312}0acead93ba678ea0874f9f56ab46cc980a956988ee24f262fd00b3b2b38dc1dbe6fd2a853a4fd5
+{312}0acead93bace5a39b8b060d7ac48d0a11bb7ad10ff4637ec122a085c0735107922751a64f9576d
+{312}0acead93ba9df87837af5fd6ab47ce9d14aa94de9a7ca2c2bd80b3b2b28cbfd7dfef0e4dca5d5f
+{312}0acead93baa2f78958f0e0d7ac48d1a31fc0bf3447d6573c922a085c0736137e2c8942b4991f1c
+{312}0acead93ba18db610850a057ac49d2a524cad35d98799caea7555d075de1682880319356dcb66e
+{312}0acead93ba340dd1e8102057ac49d2a421c4c8466b1ee758d2aa085c06340e751b67fe2c895af2
+{312}0acead93baa5ed98772f5fd6ab47ce9c12a589c9712b01aa3d7fb2b1b189b9cbc6bdab873f20d5
+{312}0acead93ba28efa18850a057ac49d2a422c6cb4d78391ce0a8555d075de1692b873eac8943c6a5
+{312}0acead93baa2e18958f0e0d7ac48d1a31fc0bf3447d65755932a085c0736137e2c8942b4990b08
+{312}0acead93ba452718772f5fd6ab46cc990b9870960a5c626bbe80b3b2b38dc0d9e3f71e6d0adfab
+{312}0acead93ba93ba50e70f1f56ab47ce9d14a992db957391ca7dffb2b1b189b8c8c1b3975fefd413
+{312}0acead93ba34f7d1e8102057ac49d2a421c4c8466b1ee78fd3aa085c06340e751b67fe2c89fe54
+{312}0acead93ba4f2a40c7cf9f56ab46cc990b976d90fe443235fe00b3b2b38dc0d9e2f51a65fab1a7
+{312}0acead93ba3d04f837af5fd6ab46cd9b10a284be5afca284be80b3b2b38ec3dfef0f4ecdca2c72
+{312}0acead93ba7b7ff0278f1f56ab46cc9809936683e513d11e7dffb2b1b088b6c5baa47820704c4a
+{312}0acead93ba2b7891a78f1f56fa46cd9b0f448912254a952b56ad5bb66bd6ac59b264c78d1a46e4

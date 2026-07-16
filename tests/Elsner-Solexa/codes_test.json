@@ -1,60 +1,98 @@
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "66768578306099cc49d3a765d00b36bead8a45baa57a257b277f2e8c48c0b193", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "cd4424b7af5f98cb47cf9e54aec7beac881c11c050d0d0d0d0d1d3d7dfee0d4a", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "9adc551870e099cc48d1a25bbbe1d6165dea053aa57a257a247922751b67fe2c", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "340fbde8102019cc49d2a45fc4f3165deae19bd57a257a247922751b67fe2c89", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "697994976fdf98cb46cc984896964ceb073faf8f4fcfcfcecdcac4b8a173175f", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "d24935d8f0e099cc48d0a15ab9ddeb063d86e66aa57a257a257b277e2c8841b3", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "a4ec7d68102019cc48d1a35dc0ebe93daa853aa57a257a257b277e2c8841b396", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "48330d8850a019cc49d3a664ce063daa851606aa257a257b277e2c8841b3965c", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "91c534d7efdf98cb47ce9d52a9bd998438a0701050d0d0d0d1d3d7deec0942b5", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "23e87c670f1f18cb46cd9b4da0aa8438a04c7180d0d0d0d1d3d7deec0942b59a", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "472f0c874f9f18cb46cc9949989b4aff2f8f4fcfcfcfcfcecdcbc6bca8803090", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "8ebb25b8b06099cc48d1a25cbee7ff2e8d2626eaa57a257a247923771f6f0e4c", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "81caf457efdf98cb47ce9d51a886a57b277f2f8f4fcfcfcfceccc9c3b69c6800", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "03cdfc670f1f18cb46cd9a4c9da57b277f0bf17fcfcfcfceccc9c3b69c680030", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "06d10578306099cc49d2a561c8b8277e2d8a45baa57a257b267c2983379f6e0c", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "0cdc1da8902019cc49d2a561c7f821721536472a257a257b267c2982359b66fc", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "19f654176fdf98cb46cd9a4b9b6d721458e0f01050d0d0d1d3d6ddea0439a275", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "3226b5d8f0e099cc49d2a45fc4af1459e2f51a65fa257a247922751b66fd2b86", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "658c84772f5f98cb46cc9848959459e3f7fbd13f4fcfcfcecdcac4b9a2741860", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "ca54159870e099cc48d0a159b7a5e3f61d6a053aa57a257a257b267d2b873eac", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "94e73de8102019cc48d1a25bbce3f61d6ae19cd57a257a257b267d2b873eac89", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "291194976fdf98cb46cd9b4d9f6682349860f01050d0d0d1d3d7deed0b46bdaa", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "526135d8f0e099cc49d3a663cc02349962d17c95fa257a247821721459e2f419", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "a50784772f5f98cb47ce9c50a5809963f71f6f0f4fcfcfcfcecdcbc6bdab873f", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "4a4f159870e099cc49d3a664ce063ca98211fc95fa257a24782173175eed0b46", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "95e544f72f5f98cb47ce9d52a979a983379f6f0f4fcfcfcfceccc8c1b29458e0", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "2a0d959870e099cc49d2a460c6f61c690211fc95fa257a247922741861f21459", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "54603de8102019cc49d3a663cccf369d6a053aa57a257a247821721458e1f316", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "a8078d8850a019cc48d1a35dbfe902359a415c557a257a257b277e2d8b46bca9", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "515934d7efdf98cb46cc994a995a6a0438a0701050d0d0d1d2d4d8e1f3165dea", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "a2f97558f0e099cc48d1a35dc0ea0439a2517c95fa257a257b277e2c8942b499", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "0ef925b8b06099cc49d2a561c7b320711255dae5fa257a247923761d6a053ba6", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "1c145d28902019cc49d2a562cabc2e8d4ac5baa57a257a247923771f6f0e4cc9", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "394ed4176fdf98cb46cd9b4ea2ae8d4bc79b11bf4fcfcfceccc8c0b09153d7df", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "73c1bce70f1f18cb46cc9847944d54d8e0f01050d0d0d0d1d2d5dae4f922751a", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "e7a88c874f9f18cb47cf9f55b088c7bfaf8f4fcfcfcfcfcfcfcfceccc8c0b090", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "cf772cc7cf9f18cb47cf9e54aec7bfaf8f2b31ffcfcfcfcfcfceccc8c0b09050", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "9f166c47cf9f18cb47ce9d52aa7aaf8f4fcfcfcfcfcfcfcfceccc8c0b09050d0", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "3e52e538b06099cc49d2a45fc3f01051d2b13c15fa257a247922751a65fa2479", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "7dd0e437af5f98cb46cc9847934d51d3d7dfef0f4fcfcfcecdcac5baa57b277f", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "fac8d51870e099cc48d0a057b3d1d3d6ddc6676aa57a257a257a257a24782173", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "f5bec4f72f5f98cb47cf9f56b187c9c3b79f6f0f4fcfcfcfcfcfcfcecdcbc7bf", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "eaa6959870e099cc48d0a058b6d6dce90211fc95fa257a257a257b277e2d8b46", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "d4793de8102019cc48d0a15ab999e902359a65fa257a257a257b277e2d8b46bc", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "a8208d8850a019cc48d1a35dbfe902359a415c557a257a257b277e2d8b46bca9", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "1dd96437af5f98cb46cd9a4b9ba0711357bb503f4fcfcfceccc9c2b59a64f820", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "506f2dc8d0a019cc49d3a663ccbf359a65fa257a257a257b277e2d8b46bca983", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "a1117457efdf98cb47ce9c50a5b59a64f8fcd24050d0d0d0d1d2d4d9e3f61d6a", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "4251f558f0e099cc49d3a664cdc23ba67d2a853aa57a257b277e2c8943b79e6c", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "84d4fd68102019cc48d1a25cbde4f92275f6c72a257a257a247923761d6b063c", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "08db0d8850a019cc49d2a561c7b622751a65fa257a257a247923761d6b063ca9", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "10ea2dc8d0a019cc49d2a562c9fd2a853a81dc557a257a247923771e6c0943b6", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "20096d48d0a019cc49d2a460c5b21a65fa257a257a257a247922741963f61c69", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "4048ed48d0a019cc49d3a664cd053aa57a01dc557a257a24782173165ce90336", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "4d4b24b7af5f98cb46cc9949979861f3173b513f4fcfcfcecdcbc6bdaa8438a0", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "9be65c278f1f18cb47ce9d52aabeac88408cf280d0d0d0d0d1d3d7dfee0d4ac5", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "361ac5f8306099cc49d2a45fc4f3175eede6a7eaa57a257b267d2a8438a07113", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "6c859da8902019cc49d3a765cf0841b29536472a257a257b277f2e8d4ac4b9a3", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "d95f54176fdf98cb47cf9e53abc1b29458bc524050d0d0d0d0d1d2d5dbe6fd2a", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "b312bce70f1f18cb47ce9c4fa4b29458e0cc7280d0d0d0d0d1d2d5dbe6fd2a85", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "66", "counter" : 170, "command" : "automode_a", "data" : "c189dc5901835c31b30e9d10352b796625bd031c051b001a080a29a53217357c", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "cd", "counter" : 169, "command" : "automode_companion", "data" : "6eb48ddb7d7bdb3c8b7e7d9aa2ec0c24b54cc96dd2f7f7f7f7f6feeeceaea13a", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "9a", "counter" : 168, "command" : "automode_b", "data" : "3b3f0f1a83865c31b2068c0dd1491b0ac3be8119051b001b01121922598a0e21", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "34", "counter" : 167, "command" : "automode_companion", "data" : "91c7df7c80815931b30f9435855d68c3be63543c7b001b01121922598a0e21b4", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "69", "counter" : 166, "command" : "automode_a", "data" : "cee0ab1afa7edb3c8a7765ba430fd21589082dac2b2e2e2f263f0714153a69cb", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "d2", "counter" : 165, "command" : "automode_companion", "data" : "717fee1d86865c31b2078512d960bf880011dc95251b001b001a080b21b5133d", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "a4", "counter" : 164, "command" : "automode_b", "data" : "0482c67980815931b2068d01956d61a63c8419051b001b001a080b21b5133d6d", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "48", "counter" : 163, "command" : "automode_companion", "data" : "eee2f3ff02845931b30e9c1b21ea003c84349a92201b001a080b21b5133d6dc2", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "91", "counter" : 162, "command" : "automode_a", "data" : "30689718ff7edb3c8b7f748299a30e7b11143370f2f7f7f7f6feeecfa6b11a25", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "23", "counter" : 161, "command" : "automode_companion", "data" : "86b0ef7cf979de3c8a766ca156ee8511140e8aefd7f7f7f6feeecfa6b11a255d", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "47", "counter" : 160, "command" : "automode_b", "data" : "e1982afa7b7cde3c8a7764b1476ea63d28ac2b2e2e2e2e2f263e0f0434953175", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "8e", "counter" : 159, "command" : "automode_companion", "data" : "2fd38ade04835c31b2068c0ae26d0f29a4555b90251b001b0112182a49aaa822", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "81", "counter" : 199, "command" : "close", "data" : "20c7361dff7edb3c8b7f748186939d1a080a28ac2b2e2e2e2f27361e2c45b390", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "03", "counter" : 198, "command" : "filler", "data" : "a7d4087cf979de3c8a766daa60731a080a0db916ce2e2e2f27361e2c45b39031", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "06", "counter" : 197, "command" : "stop_or_release", "data" : "a2ea2f5901835c31b30f9500056c960b20bd031c051b001a0903309c284caba0", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "0c", "counter" : 196, "command" : "filler", "data" : "a8a3457e85815931b30f95000a48103b61b5999d201b001a0903309d205c8b06", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "19", "counter" : 195, "command" : "close", "data" : "bd0a0a1ffa7edb3c8a766dad5080c360d2963670f2f7f7f6feefc6be80101c22", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "32", "counter" : 194, "command" : "stop_or_release", "data" : "97d3cd1d86865c31b30f9435850332d39e2758821e001b01121922598b07388d", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "65", "counter" : 193, "command" : "filler", "data" : "c26bf95c787bdb3c8a7765ba4013d39f2fabf814cb2e2e2f263f07151c235093", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "ca", "counter" : 192, "command" : "close", "data" : "69921d1f83865c31b2078511c977872e41bb8119051b001b001a0902388c0924", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "94", "counter" : 191, "command" : "filler", "data" : "3569ca7c80815931b2068c0dd67d2e41bb63530a7b001b001a0902388c0924b4", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "29", "counter" : 190, "command" : "stop_or_release", "data" : "8c0b3b1afa7edb3c8a766ca168a37b2155933670f2f7f7f6feeecfa7b90a053c", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "52", "counter" : 189, "command" : "filler", "data" : "f456fe1d86865c31b30e9c1c15fa21549b0255887e001b0113103b60d39e2651", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "a5", "counter" : 188, "command" : "close", "data" : "0565b75c787bdb3c8b7f758a81e79c9a2f49aaa92b2e2e2e2f263e0f053d8c08", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "4a", "counter" : 187, "command" : "filler", "data" : "ec89f31f83865c31b30e9c1b21ea01359d0550887e001b0113103a69caa7b90a", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "95", "counter" : 186, "command" : "stop_or_release", "data" : "3461a459787bdb3c8b7f74829960979c284caaa92b2e2e2e2f2737163c65d296", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "2a", "counter" : 185, "command" : "filler", "data" : "8f09e21f83865c31b30f940b014c40b2980550887e001b0112192350923e60d3", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "54", "counter" : 184, "command" : "close", "data" : "f26bfc7c80815931b30e9c1c1530d144bb8119051b001b0113103b60d2973f68", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "a8", "counter" : 183, "command" : "filler", "data" : "0817beff02845931b2068d01e96998205da7d40f7b001b001a080b20bc0a0435", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "51", "counter" : 182, "command" : "stop_or_release", "data" : "f7714f18ff7edb3c8a7764b258a20d8011143370f2f7f7f6ffe7d7973f68c3be", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "a2", "counter" : 181, "command" : "filler", "data" : "02ab4c1886865c31b2068d01956c80101c0755887e001b001a080b21b41a2454", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "0e", "counter" : 221, "command" : "open", "data" : "aa931ede04835c31b30f95000a01df3278e3df871e001b0112182b41bb81180c", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "1c", "counter" : 220, "command" : "stop_or_release", "data" : "b8ccd77b85815931b30f9503197cb7a43a061c051b001b0112182a49aaa82236", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "39", "counter" : 219, "command" : "filler", "data" : "9cf63f1ffa7edb3c8a766ca24afea43b0e28ff11cb2e2e2f2737173474fbeece", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "73", "counter" : 218, "command" : "open", "data" : "d4b83279f979de3c8a7765b527c7a4d7963670f2f7f7f7f6ffe6df8617192258", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "e7", "counter" : 217, "command" : "stop_or_release", "data" : "455a99fa7b7cde3c8b7e7c91b66d900d2dac2b2e2e2e2e2e2e2e2f2737173475", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "cf", "counter" : 216, "command" : "filler", "data" : "6c927bf87e7cde3c8b7e7d9aa2ec0d2dac4c3e13ce2e2e2e2e2f2737173475f2", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "9f", "counter" : 215, "command" : "open", "data" : "3ed0f3fd7e7cde3c8b7f74829a7d8fac2b2e2e2e2e2e2e2e2f2737173475f2f7", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "3e", "counter" : 214, "command" : "filler", "data" : "9bdcd7db04835c31b30f9435826870f3ff81d78d7e001b0112192258821e0112", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "7d", "counter" : 213, "command" : "stop_or_release", "data" : "dac5c2de7d7bdb3c8a7765b520f1a1feeeceafa92b2e2e2f263f061c051a080a", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "fa", "counter" : 212, "command" : "filler", "data" : "58eb021a83865c31b2078415a128feefc693d89f251b001b001b001b0113103a", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "f5", "counter" : 211, "command" : "open", "data" : "57f84f59787bdb3c8b7e7c92a968f81e2d4caaa92b2e2e2e2e2e2e2f263e0e0d", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "ea", "counter" : 210, "command" : "filler", "data" : "4826ec1f83865c31b207841ac20dc7b7980550887e001b001b001a080b20bc0a", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "d4", "counter" : 209, "command" : "stop_or_release", "data" : "7772067c80815931b2078512d9261598205d821e001b001b001a080b20bc0a04", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "a8", "counter" : 208, "command" : "filler", "data" : "0831c8ff02845931b2068d01e96998205da7d40f7b001b001a080b20bc0a0435", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "1d", "counter" : 158, "command" : "automode_companion", "data" : "b90c1dde7d7bdb3c8a766dad504a3279eba9fc1ecb2e2e2f27361f255d831611", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "50", "counter" : 207, "command" : "stop_or_release", "data" : "f64c8afd07845931b30e9c1c1543b25d821e001b001b001a080b20bc0a04359c", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "a1", "counter" : 206, "command" : "filler", "data" : "015bdd1dff7edb3c8b7f758a81d35d8316cacd76d2f7f7f7f6ffe7d69f2e41bb", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "42", "counter" : 205, "command" : "stop_or_release", "data" : "e4c7d91886865c31b30e9c1b2237ae0c02398419051b001a080b21b41b2d4da3", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "84", "counter" : 204, "command" : "filler", "data" : "25fbf37980815931b2068c0ae170171922b29c9d201b001b0112182b41ba8801", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "08", "counter" : 203, "command" : "stop_or_release", "data" : "ac8c63ff02845931b30f95000a04ff2258821e001b001b0112182b41ba880135", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "10", "counter" : 202, "command" : "filler", "data" : "b44ca8fd07845931b30f95031a2139841920d10f7b001b0112182a48a3b11b2c", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "20", "counter" : 201, "command" : "stop_or_release", "data" : "854934f807845931b30f940b0214ee821e001b001b001b01121923519a2e40b2", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "40", "counter" : 200, "command" : "filler", "data" : "e6ca3bf807845931b30e9c1b22f719051b25d10f7b001b0113103a68c2b79929", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "4d", "counter" : 176, "command" : "filler", "data" : "ebbbebdb7d7bdb3c8a7764b1480b923f69acfd14cb2e2e2f263e0f053c851114", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "9b", "counter" : 175, "command" : "filler", "data" : "3a0ea27efc79de3c8b7f74829abe24b512098cf1d7f7f7f7f6feeeceaea13a06", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "36", "counter" : 174, "command" : "filler", "data" : "93c6265c01835c31b30f9435855d69caa7525f9a251b001a0902398511143279", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "6c", "counter" : 173, "command" : "filler", "data" : "cb38ba7e85815931b30e9d102aee133c64b5999d201b001a080a29a43a07151d", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "d9", "counter" : 172, "command" : "filler", "data" : "7a27101ffa7edb3c8b7e7d9d91c83c65d2c8c876d2f7f7f7f7f6ffe6de8e0739", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "b3", "counter" : 171, "command" : "filler", "data" : "13ec0c79f979de3c8b7f759546de65d2960b89f1d7f7f7f7f6ffe6de8e073984", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "b9", "counter" : 13, "data" : "193fef8dfa7e97b34b7f75c90ddacff5d8bdd7b617b748427dc25edf86171922", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "9c", "counter" : 9, "data" : "3d9bfb5d858115be72068c496d1fe26bcce2a6a0215d55688020c12258831718", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "72", "counter" : 7, "data" : "d599431b868610be730e9d5fc6f02afdffe3a022245d5569b6bca0ad2237163d", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "e4", "counter" : 6, "data" : "46217bdf808115be7207845a556261ac48e0d890215d5568bea5d9121923519a", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "23", "counter" : 3, "data" : "861650cef97992b34a766ce1c23cb68c6f584c5012b7484375a847a6b11a255d", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "7b", "counter" : 249, "data" : "dcd89646fc7992b34a7765f9ccdc4cfdf168b2a8c3b0415e6de21e1c04131133", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "da", "counter" : 246, "data" : "79ca6e82838610be72078556660e30cfe3cef45f8b0c0e5f02d2db113278e2d6", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "b4", "counter" : 245, "data" : "149784c4808115be72068d7f8632a0e8cfe5aed32b5d55688021c93278e2d69f", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "68", "counter" : 244, "data" : "cf530dc7028415be730e9d50be380bb057a9dcc9840c0e5e0ef20a78e2d69f2e", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "a0", "counter" : 242, "data" : "00737040078415be72068d41013e90880e2484cc2b5d55688021c83a68c2b799", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "1f", "counter" : 237, "data" : "bbebbd457e7c92b34a766de9ec9dc45e4d9eb56512b7484375a94ebe8119051b", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "3e", "counter" : 236, "data" : "9be76f03048310be730f94488e59c2dd408fa2449f0c0e5e09c61a58821e0112", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "7c", "counter" : 235, "data" : "dbfd2943858115be730e9d5fc5ec3bd096af3e119a0c0e5e0ef20b70f2f6feef", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "f8", "counter" : 234, "data" : "5aed83c2028415be720784594d5b48f1d0acec209a0c0e5f02d3d3001a090330", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "e3", "counter" : 232, "data" : "4175b3c4f97992b34b7e7cd1227f16896f58120918b748427af64efeefc6be81", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "c6", "counter" : 231, "data" : "65cc6781018310be72078551521f199a1aa5ca8a2e5d5568bea4d1033195307c", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "1a", "counter" : 229, "data" : "befd9082838610be730f9547a50db2cae3ce43a39f0c0e5e09c71249aba13b0f", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "35", "counter" : 228, "data" : "908f3981787b97b34a766cfe0535a5e9c70ab68de4b0415e62860f357de2d796", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "81", "counter" : 221, "data" : "20ecc805ff7e97b34b7f74c1129f968e030cbdf0e4b0415f66e67e1e2c45b390", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "cd", "counter" : 211, "data" : "6e9f95037d7b97b34b7e7dda36b530121cbb88d717b748427af746eeceaea13a", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "56", "counter" : 205, "data" : "f0666184018310be730e9c58a927145e9da06be6425d5569b6bda8bc0b0d2ca5", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "8c", "counter" : 194, "data" : "2da55446858115be72068c4a7634b71614aaa1f59a0c0e5f01cecb3195307cea", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "67", "counter" : 191, "data" : "c07dc8c27b7c92b34a7765fad4e817b8899c152f12b7484376b4568e07398419", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "ce", "counter" : 190, "data" : "6db45c06048310be720785515d7f2259428a3caa9f0c0e5f02d2da1922588317", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "9d", "counter" : 189, "data" : "3c2c4b067d7b97b34b7f74c6269551d39bbe912d17b748427dc356ceafa8233f", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "a2", "counter" : 179, "data" : "02a5da00868610be72068d41013bb38d67492b0f9f0c0e5f01cfc321b41a2454", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "18", "counter" : 171, "data" : "bc2c0cc2028415be730f9547a51061cf8aa3728f215d5569b5a1b995307ceac7", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "34", "counter" : 165, "data" : "91c5a4c4808115be730f9448896794d4902daca59a0c0e5e09c61a598a0e21b4", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "a5", "counter" : 162, "data" : "05892f84787b97b34b7f75ca15ee94a8400fa438eeb0415f66e7760f053d8c08", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "28", "counter" : 159, "data" : "8df903c7028415be730f944b9570818908a63e6c475d5569b5a0b08c0924b41b", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "a2", "counter" : 157, "data" : "02b34600868610be72068d41013bb38d67494194950c0e5f01cfc321b41a2454", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "45", "counter" : 156, "data" : "e3846e84787b97b34a7764f1d383f3961a39bc3409b7484376b55e9f2f48a2b8", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "93", "counter" : 147, "data" : "3200f6c1f97992b34b7f74c6258d68fef2ea67baebb0415f66e67f163d6ccbaf", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "34", "counter" : 143, "data" : "913980c4808115be730f9448896794d4902d7cb2900c0e5e09c61a598a0e21b4", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "4f", "counter" : 139, "data" : "e9cd46407e7c92b34a7764f1dcf827584a9bc03a0cb7484376b55e9e2758821e", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "3d", "counter" : 137, "data" : "9896d6067d7b97b34a766cfe06d592d49ebed59209b7484375a846afa92a263f", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "7b", "counter" : 136, "data" : "dc52f046fc7992b34a7765f9ccdb7afdf16834b2ebb0415e6de21e1c04131133", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "2b", "counter" : 33, "data" : "8e75a409fc7992e060766ce1202448902a54a85ab56bdcb45fb463cc93283e68", "mic" : "CRC"}

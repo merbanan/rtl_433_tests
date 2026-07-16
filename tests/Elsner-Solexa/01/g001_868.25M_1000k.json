@@ -1,3 +1,3 @@
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "0ef925b8b06099cc49d2a561c7b320711255dae5fa257a247923761d6a053ba6", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "1c145d28902019cc49d2a562cabc2e8d4ac5baa57a257a247923771f6f0e4cc9", "mic" : "CRC"}
-{"model" : "Elsner-Solexa", "id" : "cead93ba", "data" : "394ed4176fdf98cb46cd9b4ea2ae8d4bc79b11bf4fcfcfceccc8c0b09153d7df", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "0e", "counter" : 221, "command" : "open", "data" : "aa931ede04835c31b30f95000a01df3278e3df871e001b0112182b41bb81180c", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "1c", "counter" : 220, "command" : "stop_or_release", "data" : "b8ccd77b85815931b30f9503197cb7a43a061c051b001b0112182a49aaa82236", "mic" : "CRC"}
+{"model" : "Elsner-Solexa", "id" : "c945a400", "rolling" : "39", "counter" : 219, "command" : "filler", "data" : "9cf63f1ffa7edb3c8a766ca24afea43b0e28ff11cb2e2e2f2737173474fbeece", "mic" : "CRC"}
