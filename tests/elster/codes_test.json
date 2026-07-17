@@ -1,2 +1,2 @@
-{"model" : "Elster-PowerMeter", "id" : 15635596, "dst" : 18722972, "flags" : 8, "mic" : "CRC"}
-{"model" : "Elster-PowerMeter", "id" : 14330840, "dst" : 0, "flags" : 8, "mic" : "CRC"}
+{"model" : "Elster-PowerMeter", "id" : "15635596", "dst" : "18722972", "flags" : 8, "data_raw" : "8e000069b14b0000000000000000000007082400004032e3", "mic" : "CRC"}
+{"model" : "Elster-PowerMeter", "id" : "14330840", "dst" : "0", "flags" : 8, "frame_type" : "beacon", "data_raw" : "9100208a1c8f0000000000000000400007000b0821002080a8806ece0702", "mic" : "CRC"}
