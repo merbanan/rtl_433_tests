@@ -1,0 +1,7 @@
+Requires a lower manual FSK detection level (e.g. `-Y level=-14`) to
+decode; the default auto-level pulse detector does not recover any
+messages from these captures (the signal is weak in the source
+recordings -- see the extensive capture-quality discussion in issue
+#2562). `run_test.py` has no mechanism to pass extra rtl_433 flags, so
+this directory can't be run through the automated regression harness;
+verify manually instead.

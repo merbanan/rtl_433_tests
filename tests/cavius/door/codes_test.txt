@@ -1,0 +1,16 @@
+# Cavius door/window sensor
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/2562
+#
+# Two frames manually transcribed (from PulseView bit-level analysis) in
+# the issue thread by ProfBoc75, from captures too weak to decode
+# automatically even at the time. No .cu8 captures are available for
+# these two; the door/ directory has two real (but likewise weak,
+# see ignore) .cu8 captures for the other two known-good frames instead.
+
+# open, from the issue's first ProfBoc75 comment (g022)
+{120}aaaaaad31527ffdc3ce312653325f8
+
+# closed, from the issue's first ProfBoc75 comment (g025)
+{120}aaaaaad31527fedc3ce312653324ec
