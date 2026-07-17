@@ -1,1 +1,1 @@
-{"time" : "@0.035427s", "model" : "Nidec-OUCG8D", "id" : "CCCE80", "code" : "0200", "sequence" : 34378, "button_code" : 15, "button_str" : "Trunk Long Press"}
+{"time" : "@0.035427s", "model" : "Nidec-OUCG8D", "id" : "CCCE80", "security" : "0200", "security_bits" : 9, "sequence" : 34378, "button_code" : 15, "button_str" : "Trunk Long Press"}
