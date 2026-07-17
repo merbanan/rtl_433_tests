@@ -1,0 +1,111 @@
+# Cotech FT0203 / 18-3676 anemometer
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/2569
+#
+# All 50 unique hex codes hand-transcribed across the issue thread
+# (triq.net bitbench links), never previously decoded by a committed
+# decoder. 80 bits as posted; the decoder brute-force searches for the
+# 72-bit CRC-valid frame within. Labels are the thread's annotations;
+# "checksum-only" codes had no independently-verified reading attached.
+
+# DIR=South
+{80}002938c0000169ffff70
+# DIR=South-West
+{80}002938c00007c3fffe3a
+# DIR=North-West
+{80}002938c8000077ffff62
+# DIR=North
+{80}002938c0000001ffff32
+# DIR=North-East
+{80}002938c000005bffffba
+# DIR=East
+{80}002938c00206b5fffebc
+# DIR=South-East
+{80}002938c000010fffff5e
+# AVG 0.7 GUST 0.1 North
+{80}002938c0020e01ffffb0
+# AVG 8.9 GUST 2.1 North
+{80}002938c0146a01ffffda
+# AVG 1.5 GUST 3.6 South
+{80}002938c01e4969ffff46
+# AVG 1.2 GUST 1.4 East (orig, ProfBoc75 later says expected AVG1.8/GUST2.0)
+{80}002938c02428b5ffff98
+# AVG 11.9 GUST 5.9 North
+{80}002938c076ee01fffeba
+# AVG 0.0 GUST 0.0 West
+{80}002938c800001dfffe06
+# AVG 10.9 GUST 3.6 West
+{80}002938c848da1dfffffa
+# AVG 7.3 GUST 5.1 West
+{80}002938c866921dffff48
+# checksum-only
+{80}002938c00000b5fffe22
+# checksum-only
+{80}002938c00006b5ffff1a
+# checksum-only
+{80}002938c0020769ffffee
+# checksum-only
+{80}002938c00a14b5ffff8c
+# checksum-only
+{80}002938c00a1a01ffffb8
+# checksum-only
+{80}002938c00c22b5fffe74
+# checksum-only
+{80}002938c0102801ffff22
+# checksum-only
+{80}002938c01234b5ffffbe
+# checksum-only
+{80}002938c01a3c01fffe8c
+# checksum-only
+{80}002938c0203c01ffff90
+# checksum-only
+{80}002938c0223cb5ffff26
+# checksum-only
+{80}002938c80a141dffffa8
+# checksum-only
+{80}002938c80e1a1dffffa2
+# checksum-only
+{80}002938c80e221dfffff6
+# checksum-only
+{80}002938c8121a1dfffece
+# checksum-only
+{80}002938c812281dffffb0
+# checksum-only
+{80}002938c81a3c1dffffb8
+# checksum-only
+{80}002938c824341dffff96
+# checksum-only
+{80}002938c8263c1dfffe2c
+# battery_low (old batt)
+{80}002938c0141a01ffff72
+# new battery
+{80}00293b600c0eb5fffffa
+# post-battery-replacement checksum-only
+{80}00293b6014225bfffe42
+# post-battery-replacement checksum-only
+{80}00293b60284201ffffce
+# post-battery-replacement checksum-only
+{80}00293b602a4201fffe68
+# post-battery-replacement checksum-only
+{80}00293b602a49c3ffff72
+# post-battery-replacement checksum-only
+{80}00293b603049c3fffe96
+# post-battery-replacement checksum-only
+{80}00293b603650b5ffff1a
+# post-battery-replacement checksum-only
+{80}00293b60467601fffe36
+# post-battery-replacement checksum-only
+{80}00293b681a2277fffe2c
+# post-battery-replacement checksum-only
+{80}00293b681c281dfffeea
+# post-battery-replacement checksum-only
+{80}00293b681e341dffff66
+# post-battery-replacement checksum-only
+{80}00293b6820481dffffee
+# post-battery-replacement checksum-only
+{80}00293b682a5077ffff36
+# post-battery-replacement checksum-only
+{80}00293b68323c1dfffe92
+# post-battery-replacement checksum-only
+{80}00293b683c501dfffea6
