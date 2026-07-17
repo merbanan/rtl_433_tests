@@ -31,13 +31,54 @@ def run_rtl433(input_fn, protocol=None, config=None, rtl_433_cmd="rtl_433"):
     return (out, err, p.returncode)
 
 
+def run_rtl433_y(code, protocol=None, config=None, rtl_433_cmd="rtl_433"):
+    """Run rtl_433 -y <code> and return output."""
+    args = ['-c', '0']
+    if protocol:
+        args.extend(['-R', str(protocol)])
+    if config:
+        args.extend(['-c', str(config)])
+    args.extend(['-F', 'json', '-y', code])
+    cmd = [rtl_433_cmd] + args
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    out, err = p.communicate()
+    for line in err.decode("utf-8").split("\n"):
+        if "WARNING:" in line:
+            print(line)
+    return (out, err, p.returncode)
+
+
 def find_json(test_path="tests"):
-    """Find all reference json files recursive."""
+    """Find all reference json files recursive, except codes_test.json
+    (handled separately, paired with codes_test.txt rather than a capture)."""
     matches = []
     for root, _dirnames, filenames in os.walk(test_path):
         for filename in fnmatch.filter(filenames, '*.json'):
+            if filename == 'codes_test.json':
+                continue
             matches.append(os.path.join(root, filename))
     return matches
+
+
+def find_codes_test(test_path="tests"):
+    """Find all codes_test.txt files recursive."""
+    matches = []
+    for root, _dirnames, filenames in os.walk(test_path):
+        if 'codes_test.txt' in filenames:
+            matches.append(os.path.join(root, 'codes_test.txt'))
+    return matches
+
+
+def parse_codes_test(path):
+    """Return the list of non-blank, non-comment code lines from a codes_test.txt."""
+    codes = []
+    with open(path, "r") as f:
+        for line in f.readlines():
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            codes.append(line)
+    return codes
 
 
 def remove_fields(data, fields):
@@ -47,6 +88,37 @@ def remove_fields(data, fields):
             if field in outline:
                 del outline[field]
     return data
+
+
+def extract_results(rtl433out, expected_model, false_positives, input_fn):
+    """Parse rtl_433's json-lines output, splitting out lines whose model
+    doesn't match the expected one into false_positives (tracked by actual
+    model seen), returning the remaining (matching or model-less) results."""
+    results = []
+    rtl433out = rtl433out.decode('utf8').strip()
+    for json_line in rtl433out.split("\n"):
+        if not json_line.strip():
+            continue
+        try:
+            data = json.loads(json_line)
+            if "model" in data:
+                actual_model = data["model"]
+                if actual_model != expected_model:
+                    if actual_model not in false_positives:
+                        false_positives[actual_model] = dict()
+                        false_positives[actual_model]["count"] = 1
+                        false_positives[actual_model]["models"] = set()
+                        false_positives[actual_model]["models"].add(expected_model)
+                    else:
+                        false_positives[actual_model]["count"] += 1
+                        false_positives[actual_model]["models"].add(expected_model)
+                    continue
+            results.append(data)
+        except ValueError:
+            print("## Fail with '%s': invalid json output" % input_fn)
+            print("%s" % json_line)
+            results.append(None)  # caller counts this as a failure
+    return results
 
 
 def main():
@@ -122,33 +194,10 @@ def main():
             print("ERROR: Exited with %d '%s'" % (exitcode, input_fn))
 
         # get JSON results
-        rtl433out = rtl433out.decode('utf8').strip()
-        results = []
-        for json_line in rtl433out.split("\n"):
-            if not json_line.strip():
-                continue
-            try:
-                data = json.loads(json_line)
-                if "model" in data:
-                    expected_model = expected_data[0]["model"]
-                    actual_model = data["model"]
-                    if actual_model != expected_model:
-                        if actual_model not in false_positives:
-                            false_positives[actual_model] = dict()
-                            false_positives[actual_model]["count"] = 1
-                            false_positives[actual_model]["models"] = set()
-                            false_positives[actual_model]["models"].add(expected_model)
-                        else:
-                            false_positives[actual_model]["count"]  += 1
-                            false_positives[actual_model]["models"].add(expected_model)
-                        continue
-                results.append(data)
-            except ValueError:
-                nb_fail += 1
-                # TODO: factorise error print
-                print("## Fail with '%s': invalid json output" % input_fn)
-                print("%s" % json_line)
-                continue
+        expected_model = expected_data[0]["model"] if expected_data else None
+        results = extract_results(rtl433out, expected_model, false_positives, input_fn)
+        nb_fail += results.count(None)
+        results = [r for r in results if r is not None]
         results = remove_fields(results, ignore_fields)
 
         if first_line:
@@ -171,6 +220,76 @@ def main():
             print("  But got: " + str(results))
         else:
             nb_ok += 1
+
+    # codes_test.txt / codes_test.json: dense corpora of already-demodulated
+    # {N}<hex> codes fed through `-y`, one code per expected json line.
+    for codes_fn in find_codes_test(test_path):
+        output_fn = os.path.join(os.path.dirname(codes_fn), "codes_test.json")
+        if not os.path.isfile(output_fn):
+            print("WARNING: Missing '%s'" % output_fn)
+            continue
+
+        ignore_fn = os.path.join(os.path.dirname(codes_fn), "ignore")
+        if os.path.isfile(ignore_fn):
+            print("WARNING: Ignoring '%s'" % codes_fn)
+            continue
+
+        protocol = None
+        protocol_fn = os.path.join(os.path.dirname(codes_fn), "protocol")
+        if os.path.isfile(protocol_fn):
+            with open(protocol_fn, "r") as protocol_file:
+                protocol = protocol_file.readline().strip()
+
+        config = None
+        if protocol and os.path.isfile(os.path.join(config_path, protocol)):
+            config = os.path.join(config_path, protocol)
+            protocol = None
+
+        codes = parse_codes_test(codes_fn)
+
+        expected_lines = []
+        with open(output_fn, "r") as output_file:
+            try:
+                for json_line in output_file.readlines():
+                    if not json_line.strip():
+                        continue
+                    expected_lines.append(json.loads(json_line))
+            except ValueError:
+                print("ERROR: invalid json: '%s'" % output_fn)
+                continue
+        expected_lines = remove_fields(expected_lines, ignore_fields)
+
+        if len(codes) != len(expected_lines):
+            nb_fail += 1
+            print("## Fail with '%s': %d codes but %d expected lines in '%s'"
+                  % (codes_fn, len(codes), len(expected_lines), output_fn))
+            continue
+
+        for i, (code, expected_data) in enumerate(zip(codes, expected_lines)):
+            label = "%s [%d] '%s'" % (codes_fn, i, code)
+
+            rtl433out, _err, exitcode = run_rtl433_y(code, protocol, config, rtl_433_cmd)
+            if exitcode:
+                print("ERROR: Exited with %d '%s'" % (exitcode, label))
+
+            results = extract_results(rtl433out, expected_data.get("model"), false_positives, label)
+            nb_fail += results.count(None)
+            results = [r for r in results if r is not None]
+            results = remove_fields(results, ignore_fields)
+            result = results[0] if results else {}
+
+            diff = DeepDiff(expected_data, result)
+            if diff:
+                nb_fail += 1
+                print("## Fail with '%s':" % label)
+                for error, details in diff.items():
+                    print(" %s" % error)
+                    for detail in details:
+                        print("  * %s" % detail)
+                print(" Expected: " + str(expected_data))
+                print("  But got: " + str(result))
+            else:
+                nb_ok += 1
 
     for model, values in false_positives.items():
         count = values["count"]
