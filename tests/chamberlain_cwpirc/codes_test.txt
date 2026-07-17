@@ -6,8 +6,13 @@
 # 85 unique hex codes hand-transcribed across the issue thread (triq.net
 # bitbench links, -X flex-decoder dumps), independently verified against
 # CRC-16/XMODEM. Preamble 552dd4 prepended (the thread's flex-decoder
-# preamble= option stripped it from what was originally posted). msg0/msg1
-# semantics (motion/battery/sensor ID) are unresolved -- see model docstring.
+# preamble= option stripped it from what was originally posted).
+#
+# The payload (id/battery_ok/rolling) reuses secplus_v2.c's Security+ 2.0
+# joint-message permutation -- see the model docstring. 10 of these 85
+# codes have an order/invert nibble outside the 9 values that scheme
+# actually uses (same restriction secplus_v2.c itself enforces), so they
+# CRC-validate but produce no decode; this is expected, not a bug.
 
 {136}552dd4000143a4ff7d01152e977f7dd854
 {136}552dd4000a459412880128334bec330e0d
