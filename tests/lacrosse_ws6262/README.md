@@ -3,7 +3,7 @@
 See https://github.com/merbanan/rtl_433/pull/3199 for the original decoder
 submission (unmerged as of this writing).
 
-`test_codes.txt` contains the 6 payloads embedded in that PR's decoder file
+`codes_test.txt` contains the 6 payloads embedded in that PR's decoder file
 comment, from 2 distinct physical stations (id `0xb61` and id `0x694`). All
 6 decode with a valid checksum.
 

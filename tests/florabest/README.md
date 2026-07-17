@@ -8,7 +8,7 @@ worked out together with @zuckschwerdt).
 captures from the issue's attached `samples.zip`, both at room
 temperature (id 0x4909, ~22 C).
 
-`test_codes.txt`/`test_codes.json` contain a spread of temperature
+`codes_test.txt`/`codes_test.json` contain a spread of temperature
 readings (21-229 C) extracted from the bitbench links posted across the
 issue discussion, useful for exercising a wider range of the 13-bit
 temperature field than the two real captures alone. Expect small

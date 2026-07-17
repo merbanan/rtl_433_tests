@@ -8,7 +8,7 @@ Captures g001/g002 are a closed-state transmission, g003/g004 are the
 matching open-state transmission from the same sensor (per the original
 reporter's ground truth, not derived by the decoder — see below).
 
-`test_codes.txt` contains 88 additional payloads (as `{96}<hex>` bitbuffer
+`codes_test.txt` contains 88 additional payloads (as `{96}<hex>` bitbuffer
 codes), all transcribed from the issue thread, covering battery-insert,
 open, and closed events across multiple sensors. All 88 decode
 successfully with a valid CRC when fed to the decoder without the

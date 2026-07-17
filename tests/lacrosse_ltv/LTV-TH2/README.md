@@ -8,7 +8,7 @@ decoder discussion (LTV-TH2i support).
 final merge, from sensor id `3335511`. `g001` uses the newer LTV-TH2i
 CRC-8 init `0xb2` variant; `g002` uses the original LTV-TH2 init `0xac`.
 
-`test_codes.txt` additionally recovers 5 codes from a second, independent
+`codes_test.txt` additionally recovers 5 codes from a second, independent
 sensor (id `1306551`) that were posted in the PR discussion but dropped
 from the final merged tree (the PR went through several rounds of
 uploading and deleting `g001`-`g012` before settling on the final two
