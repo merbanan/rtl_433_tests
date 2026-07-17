@@ -1,0 +1,62 @@
+# Fan On/Off
+{25}8001800
+# Fan speed 1 (low)
+{25}8001a08
+# Fan speed
+{25}8001a18
+# Fan speed
+{25}8001a28
+# Fan speed
+{25}8001a38
+# Fan speed
+{25}8001a48
+# Fan speed
+{25}8001a58
+# Fan speed
+{25}8001a68
+# Fan speed
+{25}8001a78
+# Fan speed
+{25}8001a88
+# Fan speed
+{25}8001a98
+# Fan speed
+{25}8001aa8
+# Fan speed
+{25}8001ab8
+# Fan speed
+{25}8001ac8
+# Fan speed
+{25}8001ad8
+# Fan speed
+{25}8001ae8
+# Fan speed 16 (high)
+{25}8001af8
+# Light Off
+{25}8001c00
+# Light brightness (max)
+{25}8001d90
+# Light brightness (min)
+{25}8001c38
+# Light ColorTemp
+{25}8001b30
+# 1 Hour Timer
+{25}8001908
+# 3 Hour Timer
+{25}8001910
+# 6 Hour Timer
+{25}8001918
+# Away Mode
+{25}8001b20
+# Natural Breeze
+{25}80019d0
+# 1 Minute Timer
+{25}8001b28
+# Winter (CCW)
+{25}8001b18
+# Summer (CW)
+{25}8001b10
+# dip all off
+{25}8000000
+# dip all on
+{25}800f800

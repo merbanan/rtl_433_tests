@@ -1,0 +1,53 @@
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1800", "id" : 3, "cmd" : 0}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1a08", "id" : 3, "cmd" : 65}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 95, "tristate" : "Z111111XZZ11"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1a18", "id" : 3, "cmd" : 67}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 94, "tristate" : "Z111111XZZ1X"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1a28", "id" : 3, "cmd" : 69}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 93, "tristate" : "Z111111XZZ1Z"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1a38", "id" : 3, "cmd" : 71}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 92, "tristate" : "Z111111XZZ10"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1a48", "id" : 3, "cmd" : 73}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 91, "tristate" : "Z111111XZZX1"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1a58", "id" : 3, "cmd" : 75}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 90, "tristate" : "Z111111XZZXX"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1a68", "id" : 3, "cmd" : 77}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 89, "tristate" : "Z111111XZZXZ"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1a78", "id" : 3, "cmd" : 79}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 88, "tristate" : "Z111111XZZX0"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1a88", "id" : 3, "cmd" : 81}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 87, "tristate" : "Z111111XZZZ1"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1a98", "id" : 3, "cmd" : 83}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 86, "tristate" : "Z111111XZZZX"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1aa8", "id" : 3, "cmd" : 85}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 85, "tristate" : "Z111111XZZZZ"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1ab8", "id" : 3, "cmd" : 87}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 84, "tristate" : "Z111111XZZZ0"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1ac8", "id" : 3, "cmd" : 89}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 83, "tristate" : "Z111111XZZ01"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1ad8", "id" : 3, "cmd" : 91}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 82, "tristate" : "Z111111XZZ0X"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1ae8", "id" : 3, "cmd" : 93}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 81, "tristate" : "Z111111XZZ0Z"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1af8", "id" : 3, "cmd" : 95}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 80, "tristate" : "Z111111XZZ00"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1c00", "id" : 3, "cmd" : 128}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1d90", "id" : 3, "cmd" : 178}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1c38", "id" : 3, "cmd" : 135}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 60, "tristate" : "Z111111X0110"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1b30", "id" : 3, "cmd" : 102}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1908", "id" : 3, "cmd" : 33}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 111, "tristate" : "Z111111XZX11"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1910", "id" : 3, "cmd" : 34}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1918", "id" : 3, "cmd" : 35}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 110, "tristate" : "Z111111XZX1X"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1b20", "id" : 3, "cmd" : 100}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "19d0", "id" : 3, "cmd" : 58}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1b28", "id" : 3, "cmd" : 101}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 77, "tristate" : "Z111111XZ01Z"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1b18", "id" : 3, "cmd" : 99}
+{"model" : "Generic-Remote", "id" : 32766, "cmd" : 78, "tristate" : "Z111111XZ01X"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "1b10", "id" : 3, "cmd" : 98}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "0000", "id" : 0, "cmd" : 0}
+{"model" : "Audiovox-PROOE3B", "id" : "7FFF", "button_str" : "Lock; Unlock; Option; Trunk"}
+{"model" : "Fanimation-Fan", "count" : 1, "num_rows" : 1, "len" : 13, "data" : "f800", "id" : 31, "cmd" : 0}
