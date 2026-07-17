@@ -1,0 +1,4 @@
+{"model" : "Somfy-RTS", "id" : 12916042, "control" : "Down (8)", "counter" : 1086, "retransmission" : 1, "mic" : "CHECKSUM"}
+{"model" : "Somfy-RTS", "id" : 12916042, "control" : "Stop (5)", "counter" : 1088, "retransmission" : 1, "mic" : "CHECKSUM"}
+{"model" : "Somfy-RTS", "id" : 12916042, "control" : "Up (6)", "counter" : 1089, "retransmission" : 1, "mic" : "CHECKSUM"}
+{"model" : "Somfy-RTS", "id" : 12916042, "control" : "Prog (12)", "counter" : 1091, "retransmission" : 1, "mic" : "CHECKSUM"}
