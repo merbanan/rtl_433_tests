@@ -1,0 +1,5 @@
+Requires `-Y minmax` (the default FSK pulse detector mode does not recover
+any messages from these captures) -- see the top-level README.md in this
+directory. `run_test.py` has no mechanism to pass extra rtl_433 flags, so
+this directory can't be run through the automated regression harness;
+verify manually instead.

@@ -1,0 +1,16 @@
+# Watts Vision thermostat (CC110L-based FSK protocol)
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/2885
+#
+# Long (0x22 length byte) status reports, hand-transcribed from the issue
+# thread and confirmed against both the on-air CRC-16/MODBUS and CRC-16/CMS.
+# No .cu8 captures are available for these two frames, only the demodulated
+# code recovered from the issue's -vvv log dumps; the 01/ directory has real
+# .cu8 captures for the short (0x14) command message type instead.
+
+# endpoint d0374654: measured 70.3 F, Reduced/ECO setpoint bank 64.4 F
+{336}aad391d39122d0374654c6d0904d898d0011018a0284034b02bfcc000000008e0a24934c0000310d98a4
+
+# endpoint d0374655: measured 71.9 F, Comfort setpoint bank 71.6 F
+{336}aad391d39122d0374655c6d0904d898d0010088a02cc004b02cfcc000000008e0a24934c00007492faf3
