@@ -35,3 +35,30 @@ which the decoder's old `ELSTER_MAX_LEN` bound (64) was silently
 rejecting before the CRC was ever checked -- fixed by raising it to 200.
 Still no `.cu8`/`.cs16` capture was posted, so the decoder remains
 `.disabled = 1`.
+
+## Update: type-2 frames and real `.cu8` captures (issue #3618)
+
+@ther3zz followed up with `elster_report.zip`: 32 real type-2 `.cu8`
+captures plus a manifest listing each one's independently-computed frame
+hex. This is a genuinely different physical layer from type-1 above (not
+Manchester, whitened with 0xaa not 0x55, 16 bit length, ~4x the bit rate
+-- confirmed at 7 us/bit by brute-force testing bit alignments against the
+manifest's own frame hex until the CRC validated), decoded by a new
+second device in the same file, `elster_power_meter2`.
+
+`01/`-`04/` are one real capture each of the four frame classes in the
+bundle (neighbour table, cleartext status, AES-encrypted, mesh/collector),
+all `ignore`d for the same `-Y minmax` reason as above. `codes_test.txt`'s
+type-2 section covers 29 of the 32 real captures (demodulated by rtl_433
+itself, not hand-derived) -- the other 3 didn't produce a CRC-valid decode
+here even though the reporter's own tool decoded 2 of them, likely a gap
+between rtl_433's plain FSK_PCM demod and their more elaborate
+self-centering analyzer on marginal signal.
+
+Only the neighbour table's 4-byte-per-record neighbour address is decoded
+(as `nbr_ids`); the remaining 16 bytes of each 20-byte record, and the
+handful of varying bytes in the cleartext status frame, don't have a
+confidently-attributable meaning from 8 samples each and are left in
+`data_raw`. No cmd 0x23/0xce usage frame -- encrypted or clear -- has
+ever been observed on this deployment (~900 captures/~30 meters/4 days),
+so type-1's speculative `reading_kWh` remains just that.
