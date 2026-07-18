@@ -1,0 +1,26 @@
+# McPower Kinetic battery-less wall switch
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/3102
+#
+# No raw IQ capture was ever attached to the issue -- these codes are
+# built from 9 demodulated hex rows @Sola85 pasted directly in the
+# thread (6 bytes each: ID, BUTTON/COUNTER, FLAGS, CRC16), prefixed with
+# the 0xaaaa preamble @Sola85's own working -X flex config searched for.
+# CRC-16 (poly 0x1021, init 0xaa55) was cracked by @ProfBoc75 with
+# reveng against these same 9 codes, and independently reconfirmed here
+# before writing the decoder. Button labels are @Sola85's own captures,
+# taken separately for left, right, and no button held (residual
+# harvested energy only).
+
+# BUTTON=left
+{64}aaaa0ea84040c48c
+{64}aaaa0ea84140f7bd
+{64}aaaa0ea84240a2ee
+{64}aaaa0ea8434091df
+{64}aaaa0ea844400848
+# BUTTON=right
+{64}aaaa0ea82040cfa6
+{64}aaaa0ea82140fc97
+{64}aaaa0ea82240a9c4
+{64}aaaa0ea823409af5
