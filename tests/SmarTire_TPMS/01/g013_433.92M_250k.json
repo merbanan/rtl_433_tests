@@ -1,1 +1,10 @@
 {"time" : "@0.153028s", "model" : "SmarTire-AM", "type" : "TPMS", "id" : 17489, "pressure_kPa" : 0.000, "flags" : 3, "mic" : "CRC"}
+{"time" : "@0.208116s", "model" : "SmarTire-AM", "type" : "TPMS", "id" : 17489, "temperature_C" : 24.000, "flags" : 0, "mic" : "CRC"}
+{"time" : "@0.271284s", "model" : "SmarTire-AM", "type" : "TPMS", "id" : 17489, "pressure_kPa" : 0.000, "flags" : 3, "mic" : "CRC"}
+{"time" : "@0.319260s", "model" : "SmarTire-AM", "type" : "TPMS", "id" : 17489, "temperature_C" : 24.000, "flags" : 0, "mic" : "CRC"}
+{"time" : "@0.382424s", "model" : "SmarTire-AM", "type" : "TPMS", "id" : 17489, "pressure_kPa" : 0.000, "flags" : 3, "mic" : "CRC"}
+{"time" : "@0.430388s", "model" : "SmarTire-AM", "type" : "TPMS", "id" : 17489, "temperature_C" : 24.000, "flags" : 0, "mic" : "CRC"}
+{"time" : "@0.485424s", "model" : "SmarTire-AM", "type" : "TPMS", "id" : 17489, "pressure_kPa" : 0.000, "flags" : 3, "mic" : "CRC"}
+{"time" : "@0.558756s", "model" : "SmarTire-AM", "type" : "TPMS", "id" : 17489, "temperature_C" : 24.000, "flags" : 0, "mic" : "CRC"}
+{"time" : "@0.618864s", "model" : "SmarTire-AM", "type" : "TPMS", "id" : 17489, "pressure_kPa" : 0.000, "flags" : 3, "mic" : "CRC"}
+{"time" : "@0.692192s", "model" : "SmarTire-AM", "type" : "TPMS", "id" : 17489, "temperature_C" : 24.000, "flags" : 0, "mic" : "CRC"}
