@@ -1,0 +1,60 @@
+# Sefis M3 / Careud / Sykik SRTP300 TPMS
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/3342
+#
+# 24 real frames from a controlled 2.6->0.1 bar deflation series
+# (@ivantichy). The issue only posted the 9-byte decoded payload
+# (7 data bytes + CRC16); these codes reconstruct the on-air
+# Manchester-encoded FSK_PCM bitstream (preamble + sync + data) from
+# that payload, matching the decoder's own bitbuffer_search()/
+# bitbuffer_manchester_decode() handling -- not literal raw IQ.
+
+# pressure=2.6 bar, temp=26 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6aa5566a9a6556aa966696a9aa959a9a6a55a
+# pressure=2.3 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6aaaa6656a95995a665666995aa5596559a66
+# pressure=2.2 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6aaa96655a95695a565656996a9a95559a9a5
+# pressure=2.1 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6a96a9696aa999a669aa6665559555966aaa9
+# pressure=2.0 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6a9699695aa969a659aa5665659a999669669
+# pressure=1.9 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6a966995aaa65a55a9a9a66695695a9969599
+# pressure=1.8 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6a9a99955aa56a6a59a65669669a999595566
+# pressure=1.7 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6a69996a5aaa6a5959a5565a666a969566a95
+# pressure=1.6 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6a65aaa6655695656999665655a959aa99696
+# pressure=1.5 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6a659aa6555665655999565665aa99aaaaa96
+# pressure=1.4 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6a59a95a655a99a9699565aa566956a9aaaa9
+# pressure=1.3 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6a5a59599559a9a9999595aaa66995aa95a56
+# pressure=1.2 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6a5959569566a996996a95a5a6659669a6656
+# pressure=1.1 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6a566955a5665995a969a5a69669556669559
+# pressure=1.0 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a69a5696aa56559aaa966a5a996a5555969a6a
+# pressure=0.9 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a69a996aa556a69995965559a696a969aa5965
+# pressure=0.8 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a69a6969955996956595a5595695a99aa69955
+# pressure=0.7 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a69a66965a59659a5a959a59696a95aa9566a5
+# pressure=0.6 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6995699aa5955a5aa956a599966555a9a9996
+# pressure=0.5 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a6999969a559a69695955556a696a959655999
+# pressure=0.4 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a69996a66a5a95aa6aaaaa56595955a5a59566
+# pressure=0.3 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a69965a9595a5a5559aa99566a56995569a996
+# pressure=0.2 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a69655a9a95aaa55a9aa69559aa95955a55a55
+# pressure=0.1 bar, temp=24 C (real, issue #3342 deflation series)
+{224}aaaaaaaaaaaa669996a696a5a6995a9a5599aa5955aaa699965aa6a9
