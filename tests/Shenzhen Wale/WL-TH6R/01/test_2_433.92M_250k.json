@@ -1,1 +1,1 @@
-{ "model": "WL-TH6R", "id": 11220054, "battery_pct": 245, "temperature_C": -12.3, "humidity": 12, "cycle": 43, "mic": "CHECKSUM", "pairing": 1 }
+{"time" : "@0.073376s", "model" : "WL-TH6R", "id" : 11220054, "battery_pct" : 245, "temperature_C" : -12.300, "humidity" : 12, "pairing" : 1, "cycle" : 43, "mic" : "CHECKSUM"}
