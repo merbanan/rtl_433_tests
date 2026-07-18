@@ -130,9 +130,10 @@ def main():
             try:
                 data = json.loads(json_line)
                 if "model" in data:
-                    expected_model = expected_data[0]["model"]
+                    expected_models = {d["model"] for d in expected_data if "model" in d}
                     actual_model = data["model"]
-                    if actual_model != expected_model:
+                    if actual_model not in expected_models:
+                        expected_model = expected_data[0]["model"]
                         if actual_model not in false_positives:
                             false_positives[actual_model] = dict()
                             false_positives[actual_model]["count"] = 1
