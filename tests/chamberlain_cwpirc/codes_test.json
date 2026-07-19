@@ -1,75 +1,85 @@
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 5174, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "7000471404", "battery_ok" : 1, "rolling" : 635, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "0a360b1400", "battery_ok" : 1, "rolling" : 125144633, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d82001a2c5", "battery_ok" : 1, "rolling" : 173222080, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 4219, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 5173, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "70004985c5", "battery_ok" : 1, "rolling" : 164037888, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "7000471404", "battery_ok" : 1, "rolling" : 632, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 4519, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 0, "rolling" : 5395, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 5174, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 4245, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 4244, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 4521, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "7000471404", "battery_ok" : 1, "rolling" : 389, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "0a360b1400", "battery_ok" : 1, "rolling" : 125144633, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "5a360b1400", "battery_ok" : 1, "rolling" : 85990456, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d82002a6c5", "battery_ok" : 1, "rolling" : 158153408, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200a06c5", "battery_ok" : 1, "rolling" : 182945428, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d82001a2c5", "battery_ok" : 1, "rolling" : 173222080, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 4219, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 5173, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 4251, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 4250, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200666c5", "battery_ok" : 1, "rolling" : 222957204, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "21b60b1400", "battery_ok" : 1, "rolling" : 135570664, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 5170, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "70004985c5", "battery_ok" : 1, "rolling" : 164037888, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "7000471404", "battery_ok" : 1, "rolling" : 632, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 4519, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 0, "rolling" : 5394, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200886c5", "battery_ok" : 1, "rolling" : 138111306, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200886c5", "battery_ok" : 1, "rolling" : 138111306, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 4521, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "7000471404", "battery_ok" : 1, "rolling" : 635, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "7000471404", "battery_ok" : 1, "rolling" : 634, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 4251, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "21b60b1400", "battery_ok" : 1, "rolling" : 135570664, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "0a360b1400", "battery_ok" : 1, "rolling" : 125144633, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "0a360b1400", "battery_ok" : 1, "rolling" : 125144633, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "5a360b1400", "battery_ok" : 1, "rolling" : 85990456, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "099c071404", "battery_ok" : 1, "rolling" : 31381561, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 4519, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d82002a6c5", "battery_ok" : 1, "rolling" : 158153408, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d82001a2c5", "battery_ok" : 1, "rolling" : 173222080, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d82001a2c5", "battery_ok" : 1, "rolling" : 173222080, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 5173, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 5172, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 5172, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 5170, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "70004985c5", "battery_ok" : 1, "rolling" : 164037888, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "70004985c5", "battery_ok" : 1, "rolling" : 164037888, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "7000471404", "battery_ok" : 1, "rolling" : 632, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "7000471404", "battery_ok" : 1, "rolling" : 632, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 0, "rolling" : 5395, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 0, "rolling" : 5394, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 0, "rolling" : 5394, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200886c5", "battery_ok" : 1, "rolling" : 138111306, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 5174, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "7000471404", "battery_ok" : 1, "rolling" : 635, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "7000471404", "battery_ok" : 1, "rolling" : 635, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "7000471404", "battery_ok" : 1, "rolling" : 634, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "7000471404", "battery_ok" : 1, "rolling" : 634, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "0a360b1400", "battery_ok" : 1, "rolling" : 125144633, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "0a360b1400", "battery_ok" : 1, "rolling" : 125144633, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "099c071404", "battery_ok" : 1, "rolling" : 31381561, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d82002a6c5", "battery_ok" : 1, "rolling" : 158153408, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 5173, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 1, "rolling" : 5172, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "70004985c5", "battery_ok" : 1, "rolling" : 164037888, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "7000471404", "battery_ok" : 1, "rolling" : 632, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "7000471404", "battery_ok" : 1, "rolling" : 632, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d8200b1400", "battery_ok" : 0, "rolling" : 5395, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "0a360b1400", "battery_ok" : 1, "rolling" : 125144633, "mic" : "CRC"}
-{"model" : "Chamberlain-CWPIRC", "id" : "d82001a2c5", "battery_ok" : 1, "rolling" : 173222080, "mic" : "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 5174, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "7000471404", "battery_ok": 1, "rolling": 635, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "0a360b1400", "battery_ok": 1, "rolling": 125144633, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d82001a2c5", "battery_ok": 1, "rolling": 173222080, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 4219, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 5173, "mic": "CRC"}
+{}
+{"model": "Chamberlain-CWPIRC", "id": "70004985c5", "battery_ok": 1, "rolling": 164037888, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "7000471404", "battery_ok": 1, "rolling": 632, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 4519, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 0, "rolling": 5395, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 5174, "mic": "CRC"}
+{}
+{}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 4245, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 4244, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 4521, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "7000471404", "battery_ok": 1, "rolling": 389, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "0a360b1400", "battery_ok": 1, "rolling": 125144633, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "5a360b1400", "battery_ok": 1, "rolling": 85990456, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d82002a6c5", "battery_ok": 1, "rolling": 158153408, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200a06c5", "battery_ok": 1, "rolling": 182945428, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d82001a2c5", "battery_ok": 1, "rolling": 173222080, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 4219, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 5173, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 4251, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 4250, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200666c5", "battery_ok": 1, "rolling": 222957204, "mic": "CRC"}
+{}
+{"model": "Chamberlain-CWPIRC", "id": "21b60b1400", "battery_ok": 1, "rolling": 135570664, "mic": "CRC"}
+{}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 5170, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "70004985c5", "battery_ok": 1, "rolling": 164037888, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "7000471404", "battery_ok": 1, "rolling": 632, "mic": "CRC"}
+{}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 4519, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 0, "rolling": 5394, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200886c5", "battery_ok": 1, "rolling": 138111306, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200886c5", "battery_ok": 1, "rolling": 138111306, "mic": "CRC"}
+{}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 4521, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "7000471404", "battery_ok": 1, "rolling": 635, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "7000471404", "battery_ok": 1, "rolling": 634, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 4251, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "21b60b1400", "battery_ok": 1, "rolling": 135570664, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "0a360b1400", "battery_ok": 1, "rolling": 125144633, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "0a360b1400", "battery_ok": 1, "rolling": 125144633, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "5a360b1400", "battery_ok": 1, "rolling": 85990456, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "099c071404", "battery_ok": 1, "rolling": 31381561, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 4519, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d82002a6c5", "battery_ok": 1, "rolling": 158153408, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d82001a2c5", "battery_ok": 1, "rolling": 173222080, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d82001a2c5", "battery_ok": 1, "rolling": 173222080, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 5173, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 5172, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 5172, "mic": "CRC"}
+{}
+{}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 5170, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "70004985c5", "battery_ok": 1, "rolling": 164037888, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "70004985c5", "battery_ok": 1, "rolling": 164037888, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "7000471404", "battery_ok": 1, "rolling": 632, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "7000471404", "battery_ok": 1, "rolling": 632, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 0, "rolling": 5395, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 0, "rolling": 5394, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 0, "rolling": 5394, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200886c5", "battery_ok": 1, "rolling": 138111306, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 5174, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "7000471404", "battery_ok": 1, "rolling": 635, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "7000471404", "battery_ok": 1, "rolling": 635, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "7000471404", "battery_ok": 1, "rolling": 634, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "7000471404", "battery_ok": 1, "rolling": 634, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "0a360b1400", "battery_ok": 1, "rolling": 125144633, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "0a360b1400", "battery_ok": 1, "rolling": 125144633, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "099c071404", "battery_ok": 1, "rolling": 31381561, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d82002a6c5", "battery_ok": 1, "rolling": 158153408, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 5173, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 1, "rolling": 5172, "mic": "CRC"}
+{}
+{"model": "Chamberlain-CWPIRC", "id": "70004985c5", "battery_ok": 1, "rolling": 164037888, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "7000471404", "battery_ok": 1, "rolling": 632, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "7000471404", "battery_ok": 1, "rolling": 632, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d8200b1400", "battery_ok": 0, "rolling": 5395, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "0a360b1400", "battery_ok": 1, "rolling": 125144633, "mic": "CRC"}
+{"model": "Chamberlain-CWPIRC", "id": "d82001a2c5", "battery_ok": 1, "rolling": 173222080, "mic": "CRC"}
