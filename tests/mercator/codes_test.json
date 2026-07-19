@@ -1,5 +1,5 @@
-{"model" : "Mercator", "rows" : [{"Button" : "MED"}]}
-{"model" : "Mercator", "rows" : [{"Button" : "LOW"}]}
-{"model" : "Mercator", "rows" : [{"Button" : "OFF"}]}
-{"model" : "Mercator", "rows" : [{"Button" : "HI"}]}
-{"model" : "Mercator", "rows" : [{"Button" : "LIGHT"}]}
+{"model" : "Mercator", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 12, "data" : "f90", "Button" : "MED"}], "codes" : ["{12}f90"]}
+{"model" : "Mercator", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 12, "data" : "f88", "Button" : "LOW"}], "codes" : ["{12}f88"]}
+{"model" : "Mercator", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 12, "data" : "f82", "Button" : "OFF"}], "codes" : ["{12}f82"]}
+{"model" : "Mercator", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 12, "data" : "fa0", "Button" : "HI"}], "codes" : ["{12}fa0"]}
+{"model" : "Mercator", "count" : 1, "num_rows" : 1, "rows" : [{"len" : 12, "data" : "f81", "Button" : "LIGHT"}], "codes" : ["{12}f81"]}
