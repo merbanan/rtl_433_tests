@@ -1,1 +1,1 @@
-{"time" : "@0.086864s", "model" : "Govee-H5059", "id" : -1666017661, "id_wire" : -1769759566, "event" : "Water Leak", "msg_class" : 17, "subtype" : 6, "detect_wet" : 1, "leak_top" : 1, "leak_bottom" : 0, "mic" : "CRC"}
+{"time": "@0.086864s", "model": "Govee-H5059", "id": "9cb29683", "id_wire": "96839cb2", "event": "Water Leak", "msg_class": 17, "subtype": 6, "detect_wet": 1, "leak_top": 1, "leak_bottom": 0, "mic": "CRC"}

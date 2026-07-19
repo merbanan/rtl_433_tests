@@ -1,1 +1,1 @@
-{"time" : "@0.067656s", "model" : "Govee-H5310", "id" : -1665992537, "id_wire" : -123233102, "event" : "Periodic Update", "battery_ok" : 1, "battery_pct" : 100, "temperature_C" : 20.700, "mic" : "CRC"}
+{"time": "@0.067656s", "model": "Govee-H5310", "id": "9cb2f8a7", "id_wire": "f8a79cb2", "event": "Periodic Update", "battery_ok": 1, "battery_pct": 100, "temperature_C": 20.7, "mic": "CRC"}
