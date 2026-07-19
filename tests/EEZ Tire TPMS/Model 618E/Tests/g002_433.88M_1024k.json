@@ -1,0 +1,2 @@
+{"time": "@0.075336s", "model": "EezTire-E618", "type": "TPMS", "id": "54e328", "battery_ok": 1, "pressure_kPa": 342.5, "temperature_C": 22.0, "flags": "0000", "fast_leak": 0, "inflate": 0, "mic": "CHECKSUM"}
+{"time": "@0.093725s", "model": "EezTire-E618", "type": "TPMS", "id": "54e328", "battery_ok": 1, "pressure_kPa": 342.5, "temperature_C": 22.0, "flags": "0000", "fast_leak": 0, "inflate": 0, "mic": "CHECKSUM"}
