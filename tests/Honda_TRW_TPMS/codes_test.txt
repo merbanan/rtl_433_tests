@@ -1,0 +1,41 @@
+# Honda (TRW PPA-GF33) TPMS
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/3447
+#
+# First 3 codes are raw captures posted directly in the issue body (all
+# from the same sensor, unmounted/0 PSI). The remaining 7 are a pressure
+# sweep the reporter ran against a commercial TPMS tool for ground
+# truth -- only the already-Manchester-decoded 8 bytes were posted, not
+# a raw capture, so these are reconstructed by re-encoding those bytes
+# (marker + IEEE 802.3 Manchester), not hand-transcribed. Verified this
+# round-trips exactly against the real capture's own raw bits for the
+# first 151 (of 154) bits -- the real capture's 3 extra trailing bits
+# are just capture padding, not part of the frame.
+#
+# Confirms the pressure_PSI = raw * 0.2 formula across a wide range
+# (0.7-40.3 PSI actual); see README.md for the one low-pressure point
+# that didn't fit and is treated as an open question.
+
+# raw capture, id 8d3f6d67, 0 PSI, 19 C
+{154}dae35555553532d4b34aab2cb32d2aad52d5550
+# raw capture, id 8d3f6d67, 0 PSI, 18 C
+{154}dae35555553534d4b34aab2cb32d2aad52ccd30
+# raw capture, id 8d3f6d67, 0 PSI, 18 C
+{154}dae35555553534d4b34aab2cb32d2aad52ccd34
+
+# pressure sweep, reconstructed from decoded bytes (see header note)
+# tool reading: 0.7 PSI, 62 F -- decodes to 14.6 PSI (the one outlier, see README.md)
+{151}dae35534d3354ad4b34aab2cb32d2aad53552c
+# tool reading: 10.3 PSI, 62 F
+{151}dae3554b35354ad4b34aab2cb32d2aad532b52
+# tool reading: 15.9 PSI, 62 F
+{151}dae3553353354ad4b34aab2cb32d2aad534aaa
+# tool reading: 23.2 PSI, 62 F
+{151}dae3552b33354ad4b34aab2cb32d2aad52acca
+# tool reading: 27.7 PSI, 62 F
+{151}dae354d4b5354ad4b34aab2cb32d2aad532d4a
+# tool reading: 38.3 PSI, 64 F
+{151}dae354b5533534d4b34aab2cb32d2aad52cad2
+# tool reading: 40.3 PSI, 62 F
+{151}dae354b4cb354ad4b34aab2cb32d2aad534b32
