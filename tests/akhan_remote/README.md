@@ -12,4 +12,5 @@ slicer to intermittently mis-frame the message. Fixed by raising
 `tolerance` from 80 to 100 us in `akhan_100F14.c`. The codes cover the
 single-button unit, both buttons of the two-button unit, and all three
 buttons of the three-button unit, extracted from the six `.cu8` samples
-attached to the issue.
+attached to the issue. Also uses a top-level `protocol` file (48) since
+the decoder is disabled by default.

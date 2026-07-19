@@ -10,7 +10,8 @@ confirmed by ProfBoc75 to be a different, unrelated signal), so the
 decoder ships `.disabled = 1`.
 
 `codes_test.txt`/`codes_test.json` hold all 50 unique hex codes
-transcribed across the thread. The 15 with an annotated reading
+transcribed across the thread, plus a top-level `protocol` file (369)
+since the decoder is disabled by default. The 15 with an annotated reading
 independently verify direction (all 8 compass points) and average/gust
 wind speed (scale x0.1) against the values the issue reporters observed
 on their display; the rest are checksum-only or confirm the id/battery

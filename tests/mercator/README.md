@@ -16,4 +16,6 @@ preamble. Button is a 6 bit one-hot field at bit offset 6.
   g004=HI, g005=LIGHT), as raw pre-symbol-decode frames captured from all 5
   real files posted in the issue (not just the one kept as a full .cu8
   above). Verified with
-  `rtl_433 -R 0 -c conf/Mercator.conf -y '<code>' -F json`.
+  `rtl_433 -R 0 -c conf/Mercator.conf -y '<code>' -F json`. Also uses a
+  top-level `protocol` file pointing at `Mercator.conf`, same reason as
+  `01/`'s.

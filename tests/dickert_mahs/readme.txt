@@ -13,4 +13,5 @@ Contents:
   position and the all-`-`/all-`0`/all-`+` extremes, taken from the BitBench in the
   issue. 11 of the 12 match the issue author's own hand-typed expectation exactly;
   `400305515` decodes to `0------+--` rather than the issue's typo'd `0---------`
-  (verified independently against the decoder logic, byte by byte).
+  (verified independently against the decoder logic, byte by byte). Also uses a
+  top-level `protocol` file (344) since the decoder is disabled by default.

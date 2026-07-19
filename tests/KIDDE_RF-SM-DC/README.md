@@ -30,4 +30,5 @@ repeat is always its own separate single-row capture.
   same reporter's earlier `g001_434M_1024k.zip`, at a different sample
   rate, superseded by the 3dif capture for the same DIP range but kept
   here since it's the original capture that started the reverse
-  engineering).
+  engineering). Also uses a top-level `protocol` file (361) for the same
+  reason as `01/`'s.
