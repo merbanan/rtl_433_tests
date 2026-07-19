@@ -1,1 +1,1 @@
-{"time" : "2020-08-09 17:37:06", "model" : "Inkbird ITH-20R", "id" : 8610, "battery" : 52, "sensor_num" : 1, "mic" : "CRC", "temperature_C" : 30.200, "temperature2_C" : 130.000, "humidity" : 62.000}
+{"time": "@0.304152s", "model": "Inkbird-ITH20R", "id": 8610, "battery_ok": 0.52, "sensor_num": 1, "temperature_C": 30.2, "temperature_2_C": 130.0, "humidity": 62.0, "mic": "CRC"}
