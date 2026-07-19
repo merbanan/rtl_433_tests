@@ -1,0 +1,4 @@
+{"time" : "@6.243828s", "model" : "Honeywell-ActivLink", "subtype" : "Doorbell", "id" : 581456, "battery_ok" : 1, "alert" : "Normal", "secret_knock" : 0, "open" : -1, "tampered" : 0, "relay" : 0, "mic" : "PARITY"}
+{"time" : "@6.829212s", "model" : "Honeywell-ActivLink", "subtype" : "Doorbell", "id" : 581456, "battery_ok" : 1, "alert" : "Normal", "secret_knock" : 0, "open" : -1, "tampered" : 0, "relay" : 0, "mic" : "PARITY"}
+{"time" : "@7.606408s", "model" : "Honeywell-ActivLink", "subtype" : "Doorbell", "id" : 581456, "battery_ok" : 1, "alert" : "Normal", "secret_knock" : 0, "open" : -1, "tampered" : 0, "relay" : 1, "mic" : "PARITY"}
+{"time" : "@8.194144s", "model" : "Honeywell-ActivLink", "subtype" : "Doorbell", "id" : 581456, "battery_ok" : 1, "alert" : "Normal", "secret_knock" : 0, "open" : -1, "tampered" : 0, "relay" : 1, "mic" : "PARITY"}
