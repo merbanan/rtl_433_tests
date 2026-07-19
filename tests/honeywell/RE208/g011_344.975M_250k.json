@@ -1,8 +1,8 @@
-{"time" : "@0.000000s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
-{"time" : "@0.000000s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
-{"time" : "@0.524288s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
-{"time" : "@0.524288s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
-{"time" : "@0.524288s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
-{"time" : "@1.048576s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
-{"time" : "@1.048576s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
-{"time" : "@1.048576s", "model" : "Honeywell-Security", "id" : 183889, "channel" : 8, "event" : 32, "state" : "closed", "heartbeat" : "no"}
+{"time": "@0.261588s", "model": "Honeywell-Security", "id": 183889, "channel": 8, "event": 32, "state": "closed", "contact_open": 0, "reed_open": 1, "alarm": 0, "tamper": 0, "battery_ok": 1, "heartbeat": 0, "mic": "CRC"}
+{"time": "@0.440792s", "model": "Honeywell-Security", "id": 183889, "channel": 8, "event": 32, "state": "closed", "contact_open": 0, "reed_open": 1, "alarm": 0, "tamper": 0, "battery_ok": 1, "heartbeat": 0, "mic": "CRC"}
+{"time": "@0.620012s", "model": "Honeywell-Security", "id": 183889, "channel": 8, "event": 32, "state": "closed", "contact_open": 0, "reed_open": 1, "alarm": 0, "tamper": 0, "battery_ok": 1, "heartbeat": 0, "mic": "CRC"}
+{"time": "@0.799220s", "model": "Honeywell-Security", "id": 183889, "channel": 8, "event": 32, "state": "closed", "contact_open": 0, "reed_open": 1, "alarm": 0, "tamper": 0, "battery_ok": 1, "heartbeat": 0, "mic": "CRC"}
+{"time": "@0.978428s", "model": "Honeywell-Security", "id": 183889, "channel": 8, "event": 32, "state": "closed", "contact_open": 0, "reed_open": 1, "alarm": 0, "tamper": 0, "battery_ok": 1, "heartbeat": 0, "mic": "CRC"}
+{"time": "@1.157636s", "model": "Honeywell-Security", "id": 183889, "channel": 8, "event": 32, "state": "closed", "contact_open": 0, "reed_open": 1, "alarm": 0, "tamper": 0, "battery_ok": 1, "heartbeat": 0, "mic": "CRC"}
+{"time": "@1.336844s", "model": "Honeywell-Security", "id": 183889, "channel": 8, "event": 32, "state": "closed", "contact_open": 0, "reed_open": 1, "alarm": 0, "tamper": 0, "battery_ok": 1, "heartbeat": 0, "mic": "CRC"}
+{"time": "@1.516048s", "model": "Honeywell-Security", "id": 183889, "channel": 8, "event": 32, "state": "closed", "contact_open": 0, "reed_open": 1, "alarm": 0, "tamper": 0, "battery_ok": 1, "heartbeat": 0, "mic": "CRC"}
