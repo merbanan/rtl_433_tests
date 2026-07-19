@@ -1,0 +1,3 @@
+{"time" : "@0.119492s", "model" : "Shenzhen-EGQQ85", "type" : "TPMS", "id" : "07627907", "flags" : "ac", "pressure_kPa" : 105.000, "temperature_C" : 26.000, "status" : 27, "mic" : "CRC"}
+{"time" : "@0.148872s", "model" : "Shenzhen-EGQQ85", "type" : "TPMS", "id" : "07627907", "flags" : "ac", "pressure_kPa" : 105.000, "temperature_C" : 26.000, "status" : 27, "mic" : "CRC"}
+{"time" : "@0.178252s", "model" : "Shenzhen-EGQQ85", "type" : "TPMS", "id" : "07627907", "flags" : "ac", "pressure_kPa" : 105.000, "temperature_C" : 26.000, "status" : 27, "mic" : "CRC"}
