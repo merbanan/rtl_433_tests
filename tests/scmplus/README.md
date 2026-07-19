@@ -19,4 +19,8 @@ g005_912.6M_2359.3k.cu8
 {"time" : "@0.046401s", "model" : "SCM+", "ProtocolID" : "0x1E", "EndpointType" : "0xAB", "EndpointID" : 68211547, "Consumption" : 6886, "Tamper" : "0x4900", "PacketCRC" : "0xD24E", "MeterType" : "Water", "mic" : "CRC"}
 ```
 
+Current rtl_433 demodulation only recovers a 98-bit pulse row from
+g005_912.6M_2359.3k.cu8, shorter than the 128-bit SCMplus frame required
+by the decoder, so its JSON fixture is intentionally empty.
+
 see https://github.com/bemasher/rtlamr/wiki/Protocol
