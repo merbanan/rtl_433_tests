@@ -80,6 +80,35 @@ def remove_fields(data, fields):
     return data
 
 
+def parse_results(raw_out, ignore_fields, expected_data, false_positives):
+    """Parse rtl_433's json-lines stdout into a list of dicts, splitting
+    off any output whose model doesn't match one of expected_data's models
+    into false_positives instead. Returns (results, nb_invalid_json)."""
+    expected_models = {d["model"] for d in expected_data if "model" in d}
+    results = []
+    nb_invalid = 0
+    for json_line in raw_out.decode('utf8').strip().split("\n"):
+        if not json_line.strip():
+            continue
+        try:
+            data = json.loads(json_line)
+        except ValueError:
+            nb_invalid += 1
+            print("## Fail: invalid json output")
+            print("%s" % json_line)
+            continue
+        if "model" in data:
+            actual_model = data["model"]
+            if actual_model not in expected_models:
+                expected_model = expected_data[0]["model"]
+                fp = false_positives.setdefault(actual_model, {"count": 0, "models": set()})
+                fp["count"] += 1
+                fp["models"].add(expected_model)
+                continue
+        results.append(data)
+    return remove_fields(results, ignore_fields), nb_invalid
+
+
 def main():
     """Check all reference json files vs actual output."""
     parser = argparse.ArgumentParser(description='Test rtl_433')
@@ -146,36 +175,8 @@ def main():
         if exitcode:
             print("ERROR: Exited with %d '%s'" % (exitcode, input_fn))
 
-        # get JSON results
-        rtl433out = rtl433out.decode('utf8').strip()
-        results = []
-        for json_line in rtl433out.split("\n"):
-            if not json_line.strip():
-                continue
-            try:
-                data = json.loads(json_line)
-                if "model" in data:
-                    expected_models = {d["model"] for d in expected_data if "model" in d}
-                    actual_model = data["model"]
-                    if actual_model not in expected_models:
-                        expected_model = expected_data[0]["model"]
-                        if actual_model not in false_positives:
-                            false_positives[actual_model] = dict()
-                            false_positives[actual_model]["count"] = 1
-                            false_positives[actual_model]["models"] = set()
-                            false_positives[actual_model]["models"].add(expected_model)
-                        else:
-                            false_positives[actual_model]["count"]  += 1
-                            false_positives[actual_model]["models"].add(expected_model)
-                        continue
-                results.append(data)
-            except ValueError:
-                nb_fail += 1
-                # TODO: factorise error print
-                print("## Fail with '%s': invalid json output" % input_fn)
-                print("%s" % json_line)
-                continue
-        results = remove_fields(results, ignore_fields)
+        results, nb_invalid = parse_results(rtl433out, ignore_fields, expected_data, false_positives)
+        nb_fail += nb_invalid
 
         if first_line:
             if len(results) == 0:
