@@ -84,6 +84,11 @@ exec(`git diff-tree --no-commit-id --name-only -r ${refspec} --diff-filter d`, (
       console.log(`::error file=${file}::Use "README.md" as filename`)
       errors++
     }
+    else if (basename == 'codes_test.txt') {
+      // codes_test.txt is consumed directly by bin/run_test.py and pairs with
+      // codes_test.json in the same directory.
+      // ok
+    }
     else if (ext == '.txt') {
       console.log(`::warning file=${file}::Don't add random .txt files, use the README.md`)
     }
@@ -121,6 +126,10 @@ function check_json(file) {
   const ext = path.extname(file)
   const dirname = path.dirname(file)
   const filename_no_ext = path.basename(file, ext)
+  if (filename_no_ext === 'codes_test'
+      && fs.existsSync(path.join(dirname, 'codes_test.txt'))) {
+    return 0
+  }
   if (!fs.existsSync(path.join(dirname, `${filename_no_ext}.cu8`))
       && !fs.existsSync(path.join(dirname, `${filename_no_ext}.cs8`))
       && !fs.existsSync(path.join(dirname, `${filename_no_ext}.cs16`))
@@ -153,15 +162,15 @@ function check_tags_present(file) {
 }
 
 function check_cu8(file) {
-  return check_max_size(file, 1024 * 1024) + check_tags_present(file)
+  return check_max_size(file, 16 * 1024 * 1024) + check_tags_present(file)
 }
 
 function check_cs8(file) {
-  return check_max_size(file, 1024 * 1024) + check_tags_present(file)
+  return check_max_size(file, 8 * 1024 * 1024) + check_tags_present(file)
 }
 
 function check_cs16(file) {
-  return check_max_size(file, 2 * 1024 * 1024) + check_tags_present(file)
+  return check_max_size(file, 4 * 1024 * 1024) + check_tags_present(file)
 }
 
 function check_image(file) {

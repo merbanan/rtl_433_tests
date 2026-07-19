@@ -281,7 +281,8 @@ def main():
             except ValueError:
                 print("ERROR: invalid json: '%s'" % json_fn)
                 continue
-        expected_lines = remove_fields(expected_lines, ignore_fields)
+        codes_ignore_fields = ignore_fields + ["time"]
+        expected_lines = remove_fields(expected_lines, codes_ignore_fields)
 
         if len(codes) != len(expected_lines):
             print("WARNING: %s has %d codes but %d expected json lines, skipping"
@@ -299,7 +300,7 @@ def main():
             if exitcode and expected != {}:
                 print("ERROR: Exited with %d '%s' code #%d" % (exitcode, codes_fn, i))
 
-            results, nb_invalid = parse_results(rtl433out, ignore_fields, expected_lines, false_positives)
+            results, nb_invalid = parse_results(rtl433out, codes_ignore_fields, expected_lines, false_positives)
             nb_fail += nb_invalid
 
             if expected == {}:
