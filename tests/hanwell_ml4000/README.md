@@ -18,13 +18,9 @@ locking on:
 
     rtl_433 -r g001_434.052M_1000k.cs8 -R 371 -Y minmax -Y magest -Y filter=100
 
-The standard `run_test.py` harness has no way to pass those extra `-Y`
-flags per-fixture (only `-R`/`-c` via the `protocol` file), so this
-fixture will not actually decode when run through the normal automated
-suite -- it's included for manual verification and to document a real,
-reproducible capture, not as a passing regression test. A `protocol`
-file pointing at 371 is present anyway for convenience if that
-limitation is ever lifted.
+A `demod` file carries those extra `-Y` flags (alongside the `protocol`
+file pointing at 371), so `run_test.py` passes them through and this
+fixture runs as a normal regression test.
 
 Of the 15 packets in the original recording, only 5 are complete 40-bit
 frames (the rest are truncated mid-transmission, likely due to marginal

@@ -27,5 +27,5 @@ device's key regardless of this fix; ground-truth readings from the
 issue's screenshots (total volume 669.000 m3, flow 0 l/h at capture time)
 can't be cross-checked against decoder output for that reason.
 
-Marked `ignore`, same demod-settings reason as `../01/`. The `.json` here
-is a reference for the `-Y minmax` output above, not run automatically.
+Carries a `demod` file (`-Y minmax`), same as `../01/`, so this runs as a
+normal regression test.

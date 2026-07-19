@@ -24,9 +24,8 @@ rough estimate. See the decoder's doc comment for the full derivation.
   humidity/temperature aren't independently checkable against a known
   display reading -- but its CRC is valid and its values are physically
   plausible). **Needs `-Y minmax`** for the classic pulse detector to lock
-  onto this FSK signal at all; `bin/run_test.py` has no per-directory way to
-  pass that, so this directory has an `ignore` file (same situation as
-  `../oil_watchman_sonic_advanced/03/`).
+  onto this FSK signal at all; a `demod` file supplies that flag to
+  `bin/run_test.py` (same situation as `../oil_watchman_sonic_advanced/03/`).
 - codes_test.txt/json - 7 real messages from the reference session
   mentioned above, spread from its start (7.1 C/59%) to its end (9.9 C/49%),
   confirming the humidity formula and testing the temperature formula's

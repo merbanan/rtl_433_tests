@@ -35,8 +35,8 @@ default, gated on the on-air CRC-16.
 - 01/ - one representative `.cu8` capture (an "open" button press, 3
   repeats), from the issue's `elsner.zip` attachment. **Requires
   `-Y minmax`** -- the default FSK pulse detector mode recovers nothing
-  from this capture, which is also why this directory has an `ignore`
-  marker (the regression harness has no way to pass that flag).
+  from this capture, so a `demod` file supplies that flag to
+  `run_test.py`.
 - `codes_test.txt`/`codes_test.json` - 98 known-good messages: 60 labeled
   ones from every capture in `elsner.zip` (open/close/stop/automode/
   switchdisplaymeasures/sensor-report), extracted via `-Y minmax -R 364:vv`

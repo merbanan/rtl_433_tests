@@ -61,9 +61,8 @@ Directory contents:
 - `watts_vision_bt-d03-rf.jpg` -- the device photo attached to the issue.
 - `01/` -- three real `.cu8` captures of short/command messages (source
   `d0904d89`). These need `-Y minmax`; the default FSK pulse detector mode
-  does not recover any messages from them (see `01/ignore`), so this
-  subdirectory is excluded from the automated regression harness --
-  verify manually with `-Y minmax`.
+  does not recover any messages from them, so `01/demod` supplies that
+  flag to the regression harness.
 - `codes_test.txt` / `codes_test.json` -- two long/status messages
   hand-transcribed from the linked issue thread (no `.cu8` captures were
   available for these), covering the `4b`/`8a` temperature and setpoint

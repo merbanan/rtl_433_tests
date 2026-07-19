@@ -47,13 +47,16 @@ manifest's own frame hex until the CRC validated), decoded by a new
 second device in the same file, `elster_power_meter2`.
 
 `01/`-`04/` are one real capture each of the four frame classes in the
-bundle (neighbour table, cleartext status, AES-encrypted, mesh/collector),
-all `ignore`d for the same `-Y minmax` reason as above. `codes_test.txt`'s
-type-2 section covers 29 of the 32 real captures (demodulated by rtl_433
-itself, not hand-derived) -- the other 3 didn't produce a CRC-valid decode
-here even though the reporter's own tool decoded 2 of them, likely a gap
-between rtl_433's plain FSK_PCM demod and their more elaborate
-self-centering analyzer on marginal signal.
+bundle (neighbour table, cleartext status, AES-encrypted, mesh/collector).
+Of these, only `02/` (cleartext status) actually needs `-Y minmax` to
+demodulate -- checked individually, not assumed from the batch -- so only
+`02/` carries a `demod` file; `01/`, `03/`, `04/`, `05/` decode fine under
+the default pulse detector. `codes_test.txt`'s type-2 section covers 29 of
+the 32 real captures (demodulated by rtl_433 itself, not hand-derived) --
+the other 3 didn't produce a CRC-valid decode here even though the
+reporter's own tool decoded 2 of them, likely a gap between rtl_433's
+plain FSK_PCM demod and their more elaborate self-centering analyzer on
+marginal signal.
 
 Only the neighbour table's 4-byte-per-record neighbour address is decoded
 (as `nbr_ids`); the remaining 16 bytes of each 20-byte record, and the

@@ -26,6 +26,5 @@ rtl_433 -r g002_433.92M_250k.cu8 -R 234 -Y minmax -F json
 {"model":"Oil-SonicAdv","id":5486027,"version":"1.7.3.0","temperature_C":13.0,"depth_cm":103,"status":144,"mic":"CRC"}
 ```
 
-Note: `bin/run_test.py` runs with default settings (no `-Y minmax`), so it
-will currently report this fixture as failing -- the test suite doesn't
-yet have a way to pass `-Y minmax` per-directory. To be fixed later.
+A `demod` file supplies `-Y minmax` to `bin/run_test.py`, so this
+directory runs as a normal regression test.

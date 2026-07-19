@@ -22,8 +22,8 @@ rtl_433's automatic pulse detector at default settings (extensively
 discussed: wrong tuner, clipping, gain, distance). Two captures here
 (`OPEN_g031_868.68M_250k.cu8`, `CLOSE_g036_868.68M_250k.cu8`) do decode,
 but only with a lower manual detection level (`-Y level=-14` or similar)
--- see `ignore`, which excludes this directory from the automated
-regression harness (no mechanism to pass extra flags). Verify manually:
+-- a `demod` file supplies that flag to `run_test.py`, so this directory
+runs in the normal regression suite. Verify manually:
 
     rtl_433 -r OPEN_g031_868.68M_250k.cu8 -Y level=-14 -F json
     rtl_433 -r CLOSE_g036_868.68M_250k.cu8 -Y level=-14 -F json

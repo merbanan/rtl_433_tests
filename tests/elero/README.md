@@ -5,10 +5,9 @@ Silent Gliss SG11490 5-channel wall switch; the wire protocol is Elero's
 general bidirectional 868/915 MHz protocol, also used by other Elero-based
 motor brands.
 
-`ignore` is present on `01/`-`03/`: this GFSK signal only demodulates with
-the non-default `-Y minmax` FSK pulse detector, which `run_test.py` has no
-mechanism to pass per fixture (see `tests/hanwell_ml4000/` for the same
-situation). Test manually with:
+`01/`-`03/` each carry a `demod` file (`-Y minmax`): this GFSK signal only
+demodulates with the non-default FSK pulse detector, and `run_test.py`
+reads that file to pass it through to rtl_433. Test manually with:
 
 ```
 rtl_433 -r 01/g003_869.4M_2048k.cu8 -Y minmax -R 372 -F json
