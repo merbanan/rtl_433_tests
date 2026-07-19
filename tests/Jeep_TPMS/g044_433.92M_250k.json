@@ -1,0 +1,3 @@
+{"time" : "@0.176812s", "model" : "Jeep", "type" : "TPMS", "id" : "705761be", "state" : "dc", "flags" : 0, "repeat" : 9, "pressure_kPa" : 223.696, "temperature_C" : 23.000, "maybe_battery" : 36, "mic" : "CHECKSUM"}
+{"time" : "@0.292492s", "model" : "Jeep", "type" : "TPMS", "id" : "705761be", "state" : "dc", "flags" : 0, "repeat" : 10, "pressure_kPa" : 223.696, "temperature_C" : 23.000, "maybe_battery" : 36, "mic" : "CHECKSUM"}
+{"time" : "@0.448152s", "model" : "Jeep", "type" : "TPMS", "id" : "705761be", "state" : "dc", "flags" : 0, "repeat" : 11, "pressure_kPa" : 223.696, "temperature_C" : 23.000, "maybe_battery" : 36, "mic" : "CHECKSUM"}
