@@ -1,0 +1,2 @@
+{"time": "2026-07-19 18:19:25", "model": "Watts-WFHTLCDRF", "id": "34:9E:48", "mode": "heat", "pairing": "false", "temperature_C": 25.5, "setpoint_C": 0.0, "call_for_heat": 0, "mic": "CRC"}
+{"time": "2026-07-19 18:19:27", "model": "Watts-WFHTLCDRF", "id": "34:9E:48", "mode": "heat", "pairing": "true", "temperature_C": 26.0, "setpoint_C": 17.6, "call_for_heat": 0, "mic": "CRC"}
