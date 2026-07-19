@@ -1,0 +1,2 @@
+{"time": "@0.139808s", "model": "ThermoPro-TempSpikeXR", "id": 138, "color": "black", "temperature_int_C": 31.9, "temperature_amb_C": 32.3, "is_probe": 1, "probe_batery": 3, "mic": "CRC"}
+{"time": "@0.161949s", "model": "ThermoPro-TempSpikeXR", "id": 138, "color": "black", "temperature_int_C": 31.9, "temperature_amb_C": 32.3, "is_booster": 1, "booster_battery": 3, "mic": "CRC"}
