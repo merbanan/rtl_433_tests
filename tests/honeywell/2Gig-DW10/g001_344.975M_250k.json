@@ -1,6 +1,6 @@
-{"time" : "@0.000000s", "model" : "Honeywell-Security", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
-{"time" : "@0.000000s", "model" : "Honeywell-Security", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
-{"time" : "@0.000000s", "model" : "Honeywell-Security", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
-{"time" : "@0.000000s", "model" : "Honeywell-Security", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
-{"time" : "@0.524288s", "model" : "Honeywell-Security", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
-{"time" : "@0.524288s", "model" : "Honeywell-Security", "id" : 73942, "channel" : 10, "event" : 160, "state" : "open", "heartbeat" : "no"}
+{"time": "@0.085432s", "model": "Honeywell-Security", "id": 73942, "channel": 10, "event": 160, "state": "open", "contact_open": 1, "reed_open": 1, "alarm": 0, "tamper": 0, "battery_ok": 1, "heartbeat": 0, "mic": "CRC"}
+{"time": "@0.214312s", "model": "Honeywell-Security", "id": 73942, "channel": 10, "event": 160, "state": "open", "contact_open": 1, "reed_open": 1, "alarm": 0, "tamper": 0, "battery_ok": 1, "heartbeat": 0, "mic": "CRC"}
+{"time": "@0.343188s", "model": "Honeywell-Security", "id": 73942, "channel": 10, "event": 160, "state": "open", "contact_open": 1, "reed_open": 1, "alarm": 0, "tamper": 0, "battery_ok": 1, "heartbeat": 0, "mic": "CRC"}
+{"time": "@0.472060s", "model": "Honeywell-Security", "id": 73942, "channel": 10, "event": 160, "state": "open", "contact_open": 1, "reed_open": 1, "alarm": 0, "tamper": 0, "battery_ok": 1, "heartbeat": 0, "mic": "CRC"}
+{"time": "@0.600932s", "model": "Honeywell-Security", "id": 73942, "channel": 10, "event": 160, "state": "open", "contact_open": 1, "reed_open": 1, "alarm": 0, "tamper": 0, "battery_ok": 1, "heartbeat": 0, "mic": "CRC"}
+{"time": "@0.729804s", "model": "Honeywell-Security", "id": 73942, "channel": 10, "event": 160, "state": "open", "contact_open": 1, "reed_open": 1, "alarm": 0, "tamper": 0, "battery_ok": 1, "heartbeat": 0, "mic": "CRC"}
