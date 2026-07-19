@@ -46,7 +46,7 @@ def find_json(test_path="tests"):
     for root, _dirnames, filenames in os.walk(test_path):
         for filename in fnmatch.filter(filenames, '*.json'):
             # codes_test.json is handled separately, by find_codes_test()
-            if filename == 'codes_test.json':
+            if filename in ('codes_test.json', 'known_false_positives.json'):
                 continue
             matches.append(os.path.join(root, filename))
     return matches
@@ -113,6 +113,20 @@ def read_repeat_count(dirname):
         return 1
     with open(repeat_fn, "r") as repeat_file:
         return int(repeat_file.read().strip())
+
+
+def read_known_false_positives(test_path):
+    """Read the optional known false-positive baseline.
+
+    The runner filters unexpected model output away before comparing the
+    target fixture. This baseline keeps the known overlaps documented while
+    still warning on new or count/model changes.
+    """
+    known_fn = os.path.join(test_path, "known_false_positives.json")
+    if not os.path.isfile(known_fn):
+        return {}
+    with open(known_fn, "r") as known_file:
+        return json.load(known_file)
 
 
 def remove_fields(data, fields):
@@ -192,7 +206,7 @@ def main():
 
         ignore_fn = os.path.join(dirname, "ignore")
         if os.path.isfile(ignore_fn):
-            print("WARNING: Ignoring '%s'" % input_fn)
+            print("SKIP: Ignoring '%s'" % input_fn)
             continue
 
         protocol, config = read_protocol(dirname, config_path)
@@ -252,7 +266,7 @@ def main():
 
         ignore_fn = os.path.join(dirname, "ignore")
         if os.path.isfile(ignore_fn):
-            print("WARNING: Ignoring '%s'" % codes_fn)
+            print("SKIP: Ignoring '%s'" % codes_fn)
             continue
 
         json_fn = os.path.join(dirname, "codes_test.json")
@@ -282,11 +296,22 @@ def main():
             rtl433out, _err, exitcode = run_rtl433(test_data=code * repeat, protocol=protocol,
                                                    demod_args=demod_args, config=config,
                                                    rtl_433_cmd=rtl_433_cmd)
-            if exitcode:
+            if exitcode and expected != {}:
                 print("ERROR: Exited with %d '%s' code #%d" % (exitcode, codes_fn, i))
 
             results, nb_invalid = parse_results(rtl433out, ignore_fields, expected_lines, false_positives)
             nb_fail += nb_invalid
+
+            if expected == {}:
+                if len(results) != 0:
+                    nb_fail += 1
+                    print("## Fail with '%s' code #%d: expected no output, got %d output line(s)"
+                          % (codes_fn, i, len(results)))
+                    print(" code: %s" % code)
+                    print("  But got: " + str(results))
+                else:
+                    nb_ok += 1
+                continue
 
             if len(results) != 1:
                 nb_fail += 1
@@ -310,9 +335,15 @@ def main():
             else:
                 nb_ok += 1
 
+    known_false_positives = read_known_false_positives(test_path)
     for model, values in false_positives.items():
         count = values["count"]
         models = values["models"]
+        known = known_false_positives.get(model)
+        if (known
+                and known.get("count") == count
+                and set(known.get("models", [])) == models):
+            continue
         print(f"WARNING: {model} generated {count} false positive(s) in other decoders: {models}")
 
     # print some summary
