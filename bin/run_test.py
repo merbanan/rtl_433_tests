@@ -40,6 +40,23 @@ def find_json(test_path="tests"):
     return matches
 
 
+def read_protocol(dirname, config_path):
+    """Read a directory's optional 'protocol' file, resolving it to either
+    a -R protocol arg or a -c config file path."""
+    protocol = None
+    protocol_fn = os.path.join(dirname, "protocol")
+    if os.path.isfile(protocol_fn):
+        with open(protocol_fn, "r") as protocol_file:
+            protocol = protocol_file.readline().strip()
+
+    config = None
+    if protocol and os.path.isfile(os.path.join(config_path, protocol)):
+        config = os.path.join(config_path, protocol)
+        protocol = None
+
+    return protocol, config
+
+
 def remove_fields(data, fields):
     """Remove all data fields to be ignored."""
     for outline in data:
@@ -76,6 +93,7 @@ def main():
     nb_fail = 0
     false_positives = dict()
     for output_fn in expected_json:
+        dirname = os.path.dirname(output_fn)
         input_exts = ['.cu8', '.cs8', '.cs16', '.ook']
         for input_ext in input_exts:
             input_fn = os.path.splitext(output_fn)[0] + input_ext
@@ -85,21 +103,12 @@ def main():
             print("WARNING: Missing for '%s'" % output_fn)
             continue
 
-        ignore_fn = os.path.join(os.path.dirname(output_fn), "ignore")
+        ignore_fn = os.path.join(dirname, "ignore")
         if os.path.isfile(ignore_fn):
             print("WARNING: Ignoring '%s'" % input_fn)
             continue
 
-        protocol = None
-        protocol_fn = os.path.join(os.path.dirname(output_fn), "protocol")
-        if os.path.isfile(protocol_fn):
-            with open(protocol_fn, "r") as protocol_file:
-                protocol = protocol_file.readline().strip()
-
-        config = None
-        if protocol and os.path.isfile(os.path.join(config_path, protocol)):
-            config = os.path.join(config_path, protocol)
-            protocol = None
+        protocol, config = read_protocol(dirname, config_path)
 
         # Open expected data
         expected_data = []
