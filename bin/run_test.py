@@ -7,17 +7,20 @@ import os
 import argparse
 
 import fnmatch
+import shlex
 import subprocess
 import json
 
 from deepdiff import DeepDiff
 
 
-def run_rtl433(input_fn, protocol=None, config=None, rtl_433_cmd="rtl_433"):
+def run_rtl433(input_fn, protocol=None, demod_args=None, config=None, rtl_433_cmd="rtl_433"):
     """Run rtl_433 and return output."""
     args = ['-c', '0']
     if protocol:
         args.extend(['-R', str(protocol)])
+    if demod_args:
+        args.extend(demod_args)
     if config:
         args.extend(['-c', str(config)])
     args.extend(['-F', 'json', '-r', input_fn])
@@ -55,6 +58,17 @@ def read_protocol(dirname, config_path):
         protocol = None
 
     return protocol, config
+
+
+def read_demod_args(dirname):
+    """Read a directory's optional 'demod' file: extra rtl_433 args (e.g.
+    '-Y minmax' or '-Y level=-14') needed to demodulate its capture(s),
+    for signals the default pulse detector can't recover on its own."""
+    demod_fn = os.path.join(dirname, "demod")
+    if not os.path.isfile(demod_fn):
+        return None
+    with open(demod_fn, "r") as demod_file:
+        return shlex.split(demod_file.read())
 
 
 def remove_fields(data, fields):
@@ -109,6 +123,7 @@ def main():
             continue
 
         protocol, config = read_protocol(dirname, config_path)
+        demod_args = read_demod_args(dirname)
 
         # Open expected data
         expected_data = []
@@ -124,8 +139,9 @@ def main():
             expected_data = remove_fields(expected_data, ignore_fields)
 
         # Run rtl_433
-        rtl433out, _err, exitcode = run_rtl433(input_fn,
-                                               protocol, config, rtl_433_cmd)
+        rtl433out, _err, exitcode = run_rtl433(input_fn, protocol=protocol,
+                                               demod_args=demod_args, config=config,
+                                               rtl_433_cmd=rtl_433_cmd)
 
         if exitcode:
             print("ERROR: Exited with %d '%s'" % (exitcode, input_fn))
