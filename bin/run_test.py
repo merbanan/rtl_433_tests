@@ -14,8 +14,10 @@ import json
 from deepdiff import DeepDiff
 
 
-def run_rtl433(input_fn, protocol=None, demod_args=None, config=None, rtl_433_cmd="rtl_433"):
-    """Run rtl_433 and return output."""
+def run_rtl433(input_fn=None, test_data=None, protocol=None, demod_args=None,
+                config=None, rtl_433_cmd="rtl_433"):
+    """Run rtl_433 on a file (input_fn) or a literal bitbuffer code
+    (test_data, via -y) and return its output."""
     args = ['-c', '0']
     if protocol:
         args.extend(['-R', str(protocol)])
@@ -23,7 +25,11 @@ def run_rtl433(input_fn, protocol=None, demod_args=None, config=None, rtl_433_cm
         args.extend(demod_args)
     if config:
         args.extend(['-c', str(config)])
-    args.extend(['-F', 'json', '-r', input_fn])
+    args.extend(['-F', 'json'])
+    if test_data is not None:
+        args.extend(['-y', test_data])
+    else:
+        args.extend(['-r', input_fn])
     cmd = [rtl_433_cmd] + args
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     out, err = p.communicate()
@@ -39,8 +45,32 @@ def find_json(test_path="tests"):
     matches = []
     for root, _dirnames, filenames in os.walk(test_path):
         for filename in fnmatch.filter(filenames, '*.json'):
+            # codes_test.json is handled separately, by find_codes_test()
+            if filename == 'codes_test.json':
+                continue
             matches.append(os.path.join(root, filename))
     return matches
+
+
+def find_codes_test(test_path="tests"):
+    """Find all codes_test.txt files recursive."""
+    matches = []
+    for root, _dirnames, filenames in os.walk(test_path):
+        if 'codes_test.txt' in filenames:
+            matches.append(os.path.join(root, 'codes_test.txt'))
+    return matches
+
+
+def parse_codes_test(codes_fn):
+    """Parse a codes_test.txt file into a list of {N}<hex> bitbuffer codes,
+    stripping blank lines and comments (a bare '#' and anything after it)."""
+    codes = []
+    with open(codes_fn, "r") as codes_file:
+        for line in codes_file:
+            line = line.split('#', 1)[0].strip()
+            if line.startswith('{'):
+                codes.append(line)
+    return codes
 
 
 def read_protocol(dirname, config_path):
@@ -69,6 +99,20 @@ def read_demod_args(dirname):
         return None
     with open(demod_fn, "r") as demod_file:
         return shlex.split(demod_file.read())
+
+
+def read_repeat_count(dirname):
+    """Read a directory's optional 'repeat' file: how many identical rows
+    each codes_test.txt code must be expanded to before decoding, for
+    decoders that require multiple repeated rows to trust a message
+    (e.g. bitbuffer_find_repeated_prefix with min_repeats > 1). A single
+    {N}<hex> code is exactly one row, so such decoders never trigger on
+    it unless it's repeated here first."""
+    repeat_fn = os.path.join(dirname, "repeat")
+    if not os.path.isfile(repeat_fn):
+        return 1
+    with open(repeat_fn, "r") as repeat_file:
+        return int(repeat_file.read().strip())
 
 
 def remove_fields(data, fields):
@@ -198,6 +242,73 @@ def main():
             print("  But got: " + str(results))
         else:
             nb_ok += 1
+
+    # codes_test.txt / codes_test.json: each line is an independent
+    # {N}<hex> bitbuffer code fed to rtl_433 via -y, one code per expected
+    # json line. Directories where the two counts don't match are skipped
+    # (can't be aligned automatically) rather than guessed at.
+    for codes_fn in find_codes_test(test_path):
+        dirname = os.path.dirname(codes_fn)
+
+        ignore_fn = os.path.join(dirname, "ignore")
+        if os.path.isfile(ignore_fn):
+            print("WARNING: Ignoring '%s'" % codes_fn)
+            continue
+
+        json_fn = os.path.join(dirname, "codes_test.json")
+        if not os.path.isfile(json_fn):
+            print("WARNING: Missing codes_test.json for '%s'" % codes_fn)
+            continue
+
+        codes = parse_codes_test(codes_fn)
+        with open(json_fn, "r") as json_file:
+            try:
+                expected_lines = [json.loads(l) for l in json_file if l.strip()]
+            except ValueError:
+                print("ERROR: invalid json: '%s'" % json_fn)
+                continue
+        expected_lines = remove_fields(expected_lines, ignore_fields)
+
+        if len(codes) != len(expected_lines):
+            print("WARNING: %s has %d codes but %d expected json lines, skipping"
+                  % (codes_fn, len(codes), len(expected_lines)))
+            continue
+
+        protocol, config = read_protocol(dirname, config_path)
+        demod_args = read_demod_args(dirname)
+        repeat = read_repeat_count(dirname)
+
+        for i, (code, expected) in enumerate(zip(codes, expected_lines)):
+            rtl433out, _err, exitcode = run_rtl433(test_data=code * repeat, protocol=protocol,
+                                                   demod_args=demod_args, config=config,
+                                                   rtl_433_cmd=rtl_433_cmd)
+            if exitcode:
+                print("ERROR: Exited with %d '%s' code #%d" % (exitcode, codes_fn, i))
+
+            results, nb_invalid = parse_results(rtl433out, ignore_fields, expected_lines, false_positives)
+            nb_fail += nb_invalid
+
+            if len(results) != 1:
+                nb_fail += 1
+                print("## Fail with '%s' code #%d: expected 1 output line, got %d"
+                      % (codes_fn, i, len(results)))
+                print(" code: %s" % code)
+                print(" Expected: " + str(expected))
+                print("  But got: " + str(results))
+                continue
+
+            diff = DeepDiff(expected, results[0])
+            if diff:
+                nb_fail += 1
+                print("## Fail with '%s' code #%d:" % (codes_fn, i))
+                for error, details in diff.items():
+                    print(" %s" % error)
+                    for detail in details:
+                        print("  * %s" % detail)
+                print(" Expected: " + str(expected))
+                print("  But got: " + str(results[0]))
+            else:
+                nb_ok += 1
 
     for model, values in false_positives.items():
         count = values["count"]
