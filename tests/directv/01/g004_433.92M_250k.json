@@ -1,0 +1,5 @@
+{"time" : "@0.147444s", "model" : "DirecTV-RC66RX", "id" : 123456, "button_id" : 48, "button_name" : "VCR PLAY", "event" : "INITIAL", "mic" : "CHECKSUM"}
+{"time" : "@0.217644s", "model" : "DirecTV-RC66RX", "id" : 123456, "button_id" : 48, "button_name" : "VCR PLAY", "event" : "REPEAT", "mic" : "CHECKSUM"}
+{"time" : "@0.284880s", "model" : "DirecTV-RC66RX", "id" : 123456, "button_id" : 48, "button_name" : "VCR PLAY", "event" : "REPEAT", "mic" : "CHECKSUM"}
+{"time" : "@0.352112s", "model" : "DirecTV-RC66RX", "id" : 123456, "button_id" : 48, "button_name" : "VCR PLAY", "event" : "REPEAT", "mic" : "CHECKSUM"}
+{"time" : "@0.419348s", "model" : "DirecTV-RC66RX", "id" : 123456, "button_id" : 48, "button_name" : "VCR PLAY", "event" : "REPEAT", "mic" : "CHECKSUM"}
