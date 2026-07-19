@@ -1,0 +1,2 @@
+{"time": "2026-07-19 18:19:19", "model": "Abarth-124Spider", "type": "TPMS", "id": "0f5476e8", "flags": "b7", "pressure_kPa": 117.3, "temperature_C": 18.0, "status": 1, "mic": "CHECKSUM"}
+{"time": "2026-07-19 18:20:14", "model": "Abarth-124Spider", "type": "TPMS", "id": "0f5476ea", "flags": "b7", "pressure_kPa": 200.1, "temperature_C": 14.0, "status": 1, "mic": "CHECKSUM"}
