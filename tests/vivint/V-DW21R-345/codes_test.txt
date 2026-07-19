@@ -2,6 +2,10 @@
 # {96}<hex>   <annotation>
 # Source: GitHub issue #1504
 #
+# Known seeds (see README.md), for decrypting open/closed via -R N:args:
+#   0019-0507610 (Sensor 1) = 0x05c9
+#   0019-0507743 (Sensor 2) = 0xdda9
+#
 {96}00012f00f0cffec840a0285f  # Battery Insert, Device ID 0019-050-7743
 {96}00012fcbf0bffec841259bef  # Battery Insert, Device ID 0019-050-7610
 {96}00012fdff0bffec84125e2ff  # Battery Insert, Device ID 0019-050-7610 (2nd)
