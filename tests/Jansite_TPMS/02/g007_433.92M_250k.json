@@ -1,0 +1,6 @@
+{"time" : "@0.116208s", "model" : "Jansite-Solar", "type" : "TPMS", "id" : "db1502", "flags" : 0, "pressure_kPa" : 134.400, "temperature_C" : 21.000, "code" : "db1502004c5400b3a1", "mic" : "CRC"}
+{"time" : "@0.144764s", "model" : "Jansite-Solar", "type" : "TPMS", "id" : "db1502", "flags" : 0, "pressure_kPa" : 134.400, "temperature_C" : 21.000, "code" : "db1502004c5400b3a1", "mic" : "CRC"}
+{"time" : "@0.173324s", "model" : "Jansite-Solar", "type" : "TPMS", "id" : "db1502", "flags" : 0, "pressure_kPa" : 134.400, "temperature_C" : 21.000, "code" : "db1502004c5400b3a1", "mic" : "CRC"}
+{"time" : "@0.344868s", "model" : "Jansite-Solar", "type" : "TPMS", "id" : "a6d800", "flags" : 0, "pressure_kPa" : 129.600, "temperature_C" : 21.000, "code" : "a6d800004c51000f42", "mic" : "CRC"}
+{"time" : "@0.384368s", "model" : "Jansite-Solar", "type" : "TPMS", "id" : "a6d800", "flags" : 0, "pressure_kPa" : 129.600, "temperature_C" : 21.000, "code" : "a6d800004c51000f42", "mic" : "CRC"}
+{"time" : "@0.423864s", "model" : "Jansite-Solar", "type" : "TPMS", "id" : "a6d800", "flags" : 0, "pressure_kPa" : 129.600, "temperature_C" : 21.000, "code" : "a6d800004c51000f42", "mic" : "CRC"}
