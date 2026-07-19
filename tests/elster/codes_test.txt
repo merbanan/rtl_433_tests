@@ -91,3 +91,17 @@
 {460}03c3c3fc2aa628cae8ad87aa979ae228eaaeabca40e79a2aaa2abf2aeab62aaaaaaaa3418482c1d48f19d7d5c79c3d72643567b2d633b1490c6
 # elster_t2_mesh_collector_08_910M_2048k.cu8
 {456}0f0f0ff0aa98a32ba2b61eaa5e6b88a3aaba3f72c59e6baaa8aafcabaad8aaaaaaaa4069e3d67eb4fac8ed4561800f27a51ea3524fc0bc35aa
+
+# --- msg 0x7f neighbour table (issue #3618, @ther3zz follow-up) ---
+#
+# Source: https://github.com/merbanan/rtl_433/issues/3618#issuecomment-5013613748,
+# elster_msg7f.zip. A second cleartext neighbour-table class alongside 0x57
+# above (see 05/ for the untrimmed .cu8, README.md for the one-byte
+# record-offset difference between the two). Demodulated with rtl_433
+# itself the same way as the rest of this section, trimmed to ~32 bits of
+# leading preamble context plus the frame. Verified CRC-16/X-25 valid and
+# cross-checked against the reporter's own hand-reconstructed neighbour
+# addresses, which it matches exactly.
+
+# elster_t2_cleartext_nbrtable_msg7f_910M_2048k.cu8
+{1560}0f0f0ff0aa17abaa2337ba2ba2b61ea3aaaaaaaad5aaaaa8eaaaadaa0ea384aaa9af615a23a1a2aa6a9e68abfac8aaaaa06ab816a3af615ab1a7a2aa6a9e68abfac9aaaaa06ab86ea3a8a7512192a2aa6a9e68abfacbaaaaa26ab869a3aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadfaa
