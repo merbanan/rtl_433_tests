@@ -1,0 +1,3 @@
+{"time" : "@0.151160s", "model" : "BurnhardBBQ", "id" : 31, "channel" : 0, "temperature_C" : 22.700, "setpoint_C" : 70.000, "temperature_alarm" : 0, "timer" : "00:00", "timer_active" : 0, "timer_alarm" : 0, "meat" : "free"}
+{"time" : "@0.604772s", "model" : "BurnhardBBQ", "id" : 31, "channel" : 1, "temperature_C" : 23.000, "setpoint_C" : 58.000, "temperature_alarm" : 0, "timer" : "00:00", "timer_active" : 0, "timer_alarm" : 0, "meat" : "beef", "taste" : "medium"}
+{"time" : "@1.038852s", "model" : "BurnhardBBQ", "id" : 31, "channel" : 2, "temperature_C" : 24.100, "setpoint_C" : 80.000, "temperature_alarm" : 0, "timer" : "90:52", "timer_active" : 0, "timer_alarm" : 0, "meat" : "chicken", "taste" : "well done"}
