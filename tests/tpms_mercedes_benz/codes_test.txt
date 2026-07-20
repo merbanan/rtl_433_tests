@@ -1,0 +1,13 @@
+# Mercedes Benz Sprinter 4500 TPMS sensor
+# {N}<hex>
+# 9 real frames extracted from the issue #3539 reporter's real .cu8
+# captures (g030-g038), stationary front driver's side tire, ~65 PSI.
+{97}00050648fd016d669292d73d8
+{97}00050648fd016d669294d7158
+{96}00050648fd016d689296d633
+{97}00050648fd016d66929cd6bf0
+{96}00050648fd016d66929ed76d
+{97}00050648fd016d6892a0d75b8
+{96}00050648fd016d6892a2d689
+{97}00050648fd016d6892a6d7738
+{97}00050648fd016d6892a8d6f10
