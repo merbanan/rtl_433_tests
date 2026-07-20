@@ -158,10 +158,11 @@ def parse_results(raw_out, ignore_fields, expected_data, false_positives):
         if "model" in data:
             actual_model = data["model"]
             if actual_model not in expected_models:
-                expected_model = expected_data[0]["model"]
+                expected_model = next((d["model"] for d in expected_data if "model" in d), None)
                 fp = false_positives.setdefault(actual_model, {"count": 0, "models": set()})
                 fp["count"] += 1
-                fp["models"].add(expected_model)
+                if expected_model:
+                    fp["models"].add(expected_model)
                 continue
         results.append(data)
     return remove_fields(results, ignore_fields), nb_invalid
