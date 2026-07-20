@@ -1,0 +1,2 @@
+# Clipped Apollo Smart packet; must not decode as Oil-SonicStd.
+{88}5555589965956595a96aa9
