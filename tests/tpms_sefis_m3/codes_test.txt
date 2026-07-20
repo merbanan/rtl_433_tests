@@ -58,3 +58,7 @@
 {224}aaaaaaaaaaaa669996a69655a9a95aaa55a9aa69559aa95955a55a55
 # pressure=0.1 bar, temp=24 C (real, issue #3342 deflation series)
 {224}aaaaaaaaaaaa669996a696a5a6995a9a5599aa5955aaa699965aa6a9
+# letter a, pressure=0 kPa, temp=26 C (real .cu8 capture, see 01/g001)
+{419}aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa669996a6965aa5566595aa56a996566559a56656a666e
+# letter b, pressure=259.16 kPa, temp=25 C (real .cu8 capture, see 01/g002)
+{419}aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa669996a6aaaa55aaa65659a66666999995a9a565a565e

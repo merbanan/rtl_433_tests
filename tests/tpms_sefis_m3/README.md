@@ -15,10 +15,26 @@ hex the issue posted). One real bug was caught and fixed in the
 process: the ported pressure formula's divisor (1024) gave tenths of a
 bar, not bar -- corrected (and later converted to kPa, divisor 102.4).
 
-`codes_test.txt`/`codes_test.json` cover all 24 frames, reconstructed
+`codes_test.txt`/`codes_test.json` cover the 24 frames reconstructed
 as on-air Manchester-encoded FSK_PCM bitstreams from the issue's
-posted decoded payload bytes (no raw IQ was ever attached for this
-device).
+posted decoded payload bytes (no raw IQ was attached for those), plus
+2 more codes extracted directly from real `.cu8` captures (see below):
+letter `a` (0 kPa, 26 C) and letter `b` (259.16 kPa, 25 C).
+
+## Real .cu8 captures (`01/`)
+
+@ivantichy later linked a Google Drive folder of 7 real captures (one
+per lettered reading `a`-`g` from the issue's original bitbench link,
+~20-45 MB each, 433.92 MHz at 1024 kHz), each independently confirmed
+by exact payload match against the issue's bitbench codes. `01/`
+keeps 2 of these 7 -- letters `a` (0 kPa, 26 C) and `b` (259.16 kPa,
+25 C), the pressure extremes of the set -- each trimmed to a single
+~600 KB window (0.3 s: 0.1 s before the packet, 0.2 s after) around
+one clean packet; the decoder doesn't require repeated rows, so one
+packet per file is enough. The other 5 letters (and an 8th real
+reading found alongside `g` that doesn't match any lettered code) were
+dropped from the .cu8 fixtures, but `a` and `b`'s raw on-air bitstream
+is also captured directly in `codes_test.txt` above.
 
 ## Known accuracy gaps (decoder is enabled by default despite these)
 
