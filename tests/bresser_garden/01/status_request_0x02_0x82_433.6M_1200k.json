@@ -1,0 +1,2 @@
+{"time" : "@0.049938s", "model" : "Bresser-WaterTimer", "status" : "Status request", "id" : 520097180, "target_id" : 16780994, "msg_counter" : 6, "msg_type" : 2, "msg_length" : 15, "msg" : "060e01009f00000000810000ad0000", "mic" : "CRC"}
+{"time" : "@0.118814s", "model" : "Bresser-Gateway", "status" : "Status response", "id" : 16780994, "target_id" : 520097180, "msg_counter" : 6, "gateway_time" : 15269896, "msg" : "00370800e91901", "mic" : "CRC"}

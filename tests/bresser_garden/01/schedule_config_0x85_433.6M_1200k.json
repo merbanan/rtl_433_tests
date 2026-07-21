@@ -1,0 +1,1 @@
+{"time" : "@0.118813s", "model" : "Bresser-Gateway", "status" : "Schedule config", "id" : 16780994, "target_id" : 520097180, "sensor_number" : 6, "msg_counter" : 29, "default_duration_s" : 120, "mist_run_s" : 197, "mist_interval_s" : 807, "stop_moisture" : 62, "flow_rate" : 20, "unknown" : 66, "mic" : "CRC"}
