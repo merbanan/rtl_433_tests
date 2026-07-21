@@ -51,11 +51,16 @@ def convert(root, filename, rtl_path):
         print("WARNING: Ignoring '%s'" % input_fn)
         return
 
-    samplerate = 250000
     samplerate_fn = os.path.join(os.path.dirname(output_fn), "samplerate")
-    if os.path.isfile(samplerate_fn):
+    if not os.path.isfile(samplerate_fn) or os.path.getsize(samplerate_fn) == 0:
+        samplerate = 250000
+    else:
         with open(samplerate_fn, "r") as samplerate_file:
-            samplerate = int(samplerate_file.readline())
+            try:
+                samplerate = int(samplerate_file.readline())
+            except ValueError:
+                print("WARNING: Invalid samplerate value in '%s'" % samplerate_fn)
+                samplerate = 250000
 
     protocol = None
     protocol_fn = os.path.join(os.path.dirname(output_fn), "protocol")
