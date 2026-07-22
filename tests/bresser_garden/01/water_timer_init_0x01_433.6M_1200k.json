@@ -1,0 +1,1 @@
+{"time" : "@0.052205s", "model" : "Bresser-WaterTimer", "status" : "Init Pairing", "id" : 520097180, "target_id" : 0, "msg_counter" : 1, "device_type" : 6, "firmware" : 93, "msg_type" : 1, "msg_length" : 7, "msg" : "06ff1f1f00075d", "mic" : "CRC"}
