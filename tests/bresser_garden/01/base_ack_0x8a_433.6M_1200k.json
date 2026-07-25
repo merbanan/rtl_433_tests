@@ -1,1 +1,2 @@
-{"time" : "@0.118812s", "model" : "Bresser-Gateway", "status" : "Acknowledgement", "id" : 16780994, "target_id" : 520097180, "msg_counter" : 35, "acknowledgement" : 1, "msg_type" : 10, "msg_length" : 1, "mic" : "CRC"}
+{"time" : "@0.033114s", "model" : "Bresser-WaterTimer", "msg_name" : "Beacon", "id" : 520097180, "target_id" : 16780994, "msg_counter" : 61, "msg_type" : 161, "acknowledgement" : 1, "msg" : "02", "mic" : "CRC"}
+{"time" : "@0.118812s", "model" : "Bresser-Gateway", "msg_name" : "Acknowledgement", "id" : 16780994, "target_id" : 520097180, "msg_counter" : 35, "acknowledgement" : 1, "msg_type" : 138, "msg_length" : 1, "mic" : "CRC"}

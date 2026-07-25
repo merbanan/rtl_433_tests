@@ -1,0 +1,2 @@
+{"time" : "@0.079388s", "model" : "Bresser-Gateway", "msg_name" : "Run start", "id" : 16780994, "target_id" : 520097180, "msg_counter" : 12, "msg_type" : 33, "mode" : 2, "duration_s" : 120, "msg" : "0102027800", "mic" : "CRC"}
+{"time" : "@0.410104s", "model" : "Bresser-WaterTimer", "msg_name" : "Run response", "id" : 520097180, "target_id" : 16780994, "msg_counter" : 12, "msg_type" : 161, "trigger" : 34, "duration_s" : 120, "remaining_s" : 121, "water_usage_l" : 1.000, "acknowledgement" : 1, "msg" : "00229f0a000000817900ad7800", "mic" : "CRC"}

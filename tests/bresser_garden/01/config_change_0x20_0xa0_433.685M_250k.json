@@ -1,0 +1,2 @@
+{"time" : "@0.109284s", "model" : "Bresser-Gateway", "msg_name" : "Config change", "id" : 16780994, "target_id" : 520097180, "msg_counter" : 8, "msg_type" : 32, "config_counter" : 76, "mic" : "CRC"}
+{"time" : "@0.428940s", "model" : "Bresser-WaterTimer", "msg_name" : "Acknowledgement", "id" : 520097180, "target_id" : 16780994, "msg_counter" : 8, "msg_type" : 160, "acknowledgement" : 1, "msg" : "00", "mic" : "CRC"}

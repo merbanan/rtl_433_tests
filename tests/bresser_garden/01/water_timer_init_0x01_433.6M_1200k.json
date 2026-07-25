@@ -1,1 +1,2 @@
-{"time" : "@0.052205s", "model" : "Bresser-WaterTimer", "status" : "Init Pairing", "id" : 520097180, "target_id" : 0, "msg_counter" : 1, "device_type" : 6, "firmware" : 93, "msg_type" : 1, "msg_length" : 7, "msg" : "06ff1f1f00075d", "mic" : "CRC"}
+{"time" : "@0.052205s", "model" : "Bresser-WaterTimer", "msg_name" : "Init Pairing", "id" : 520097180, "target_id" : 0, "msg_counter" : 1, "device_type" : 6, "firmware" : 93, "msg_type" : 1, "msg_length" : 7, "msg" : "06ff1f1f00075d", "mic" : "CRC"}
+{"time" : "@0.118814s", "model" : "Bresser-Gateway", "msg_name" : "Unknown msg", "id" : 16780994, "target_id" : 520097180, "msg_counter" : 1, "acknowledgement" : 1, "msg_type" : 129, "msg_length" : 11, "msg" : "000506e00110c7e8190137", "mic" : "CRC"}
