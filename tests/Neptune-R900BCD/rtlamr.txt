@@ -1,0 +1,6 @@
+{Time:2026-08-15T10:53:31.896 R900BCD:{ID:1481640152 Unkn1:0xA1 NoUse: 0 BackFlow:0 Consumption:  223700 Unkn3:0x00 Leak:15 LeakNow:3}}
+{Time:2026-08-15T10:54:43.840 R900BCD:{ID:1481640152 Unkn1:0xA1 NoUse: 0 BackFlow:0 Consumption:  223700 Unkn3:0x00 Leak:15 LeakNow:3}}
+{Time:2026-08-15T10:55:31.786 R900BCD:{ID:1481640152 Unkn1:0xA1 NoUse: 0 BackFlow:0 Consumption:  223700 Unkn3:0x00 Leak:15 LeakNow:3}}
+{Time:2026-08-15T10:55:55.784 R900BCD:{ID:1481640152 Unkn1:0xA1 NoUse: 0 BackFlow:0 Consumption:  223700 Unkn3:0x00 Leak:15 LeakNow:3}}
+{Time:2026-08-15T10:56:19.780 R900BCD:{ID:1481640152 Unkn1:0xA1 NoUse: 0 BackFlow:0 Consumption:  223700 Unkn3:0x00 Leak:15 LeakNow:3}}
+{Time:2026-08-15T10:56:43.730 R900BCD:{ID:1481640152 Unkn1:0xA1 NoUse: 0 BackFlow:0 Consumption:  223700 Unkn3:0x00 Leak:15 LeakNow:3}}

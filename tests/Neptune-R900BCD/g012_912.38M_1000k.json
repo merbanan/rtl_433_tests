@@ -1,0 +1,2 @@
+{"time" : "@0.032104s", "model" : "Neptune-R900", "id" : 1481640152, "unkn1" : 10, "metertype" : 1, "unkn2" : 0, "nouse" : 0, "backflow" : 0, "consumption" : 19019520, "leak" : 7, "leaknow" : 3, "extra" : "7a0aa5"}
+{"time" : "@0.032104s", "model" : "Neptune-R900BCD", "id" : 1481640152, "unkn1" : 10, "metertype" : 1, "unkn2" : 0, "nouse" : 0, "backflow" : 0, "consumption" : 223700, "leak" : 7, "leaknow" : 3, "extra" : "7a0aa5"}
