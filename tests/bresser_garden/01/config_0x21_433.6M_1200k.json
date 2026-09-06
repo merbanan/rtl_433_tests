@@ -1,1 +1,1 @@
-{"time" : "@0.014812s", "model" : "Bresser-Gateway", "status" : "Heartbeat", "id" : 16780994, "target_id" : 520097180, "msg_counter" : 57, "heartbeat_interval_s" : 60, "msg" : "0109013c000a00", "mic" : "CRC"}
+{"time" : "@0.014812s", "model" : "Bresser-Gateway", "msg_name" : "Heartbeat", "id" : 16780994, "target_id" : 520097180, "msg_counter" : 57, "msg_type" : 33, "heartbeat_interval_s" : 60, "msg" : "0109013c000a00", "mic" : "CRC"}
