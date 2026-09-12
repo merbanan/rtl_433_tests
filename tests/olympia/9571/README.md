@@ -27,6 +27,17 @@ Decoded by `olympia_9571` (protocol 386), preamble `aa aa 2d d4` followed by a
   battery just inserted
 - `keyfob_arm_home_only_19e755_868.5M_1200k.cu8`: Keyfob remote, ID 19e755,
   "arm home only" command
+- `pir_motion_d6f84d_868.42M_1000k.cu8`: PIR-Motion, motion,
+  868.42 MHz capture at 1000 kHz. Detector regression sample: a leading
+  ~84 us carrier blip precedes the FSK data, so a detector that only
+  evaluates the first OOK pulse misclassifies the transmission as OOK.
+- `pir_motion_d6f84d_868.465M_250k.cu8`: PIR-Motion, motion,
+  868.465 MHz capture at 250 kHz. Detector regression sample: a short
+  blip precedes each ~38 ms FSK burst, so the data only appears in
+  non-leading pulses — the detector must evaluate later pulses afresh
+  but only trust sustained (> 1 ms) ones.
+- `pir_idle_d6f84d_868.465M_250k.cu8`: same PIR-Motion, idle, 868.465 MHz
+  at 250 kHz.
 
 Verify manually with:
 
@@ -34,3 +45,6 @@ Verify manually with:
     rtl_433 -r pir_idle_d6f84d_868.3M_1000k.cu8
     rtl_433 -r door_open_4ddf3b_868.4M_2048k.cu8
     rtl_433 -r keyfob_arm_home_only_19e755_868.5M_1200k.cu8
+    rtl_433 -r pir_motion_d6f84d_868.42M_1000k.cu8
+    rtl_433 -r pir_motion_d6f84d_868.465M_250k.cu8
+    rtl_433 -r pir_idle_d6f84d_868.465M_250k.cu8
