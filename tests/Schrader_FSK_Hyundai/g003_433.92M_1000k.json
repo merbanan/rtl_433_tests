@@ -1,0 +1,4 @@
+{"time" : "@0.152206s", "model" : "Schrader-FSK", "type" : "TPMS", "id" : "861cd397", "pressure_PSI" : 30.500, "temperature_C" : 31.000, "burst_repeat" : 0, "sequence" : 1, "mode" : 28, "mic" : "CHECKSUM"}
+{"time" : "@0.314112s", "model" : "Schrader-FSK", "type" : "TPMS", "id" : "861cd397", "pressure_PSI" : 30.500, "temperature_C" : 31.000, "burst_repeat" : 1, "sequence" : 1, "mode" : 28, "mic" : "CHECKSUM"}
+{"time" : "@0.435911s", "model" : "Schrader-FSK", "type" : "TPMS", "id" : "861cd397", "pressure_PSI" : 30.500, "temperature_C" : 31.000, "burst_repeat" : 2, "sequence" : 1, "mode" : 28, "mic" : "CHECKSUM"}
+{"time" : "@0.537821s", "model" : "Schrader-FSK", "type" : "TPMS", "id" : "861cd397", "pressure_PSI" : 30.500, "temperature_C" : 31.000, "burst_repeat" : 3, "sequence" : 1, "mode" : 28, "mic" : "CHECKSUM"}
