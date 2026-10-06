@@ -22,3 +22,17 @@ Contents:
 
 No dedicated WS90 test fixtures existed in this repo before; both captures
 decode cleanly with a valid CRC.
+
+Firmware 1.6.2 codes (added with the "Decode the remaining fields" change):
+- codes_test.txt entries 3-9 are real frames from two firmware 1.6.2 stations
+  (ids 91123 and 91304) received during overnight rain at 915 MHz and 250 kS/s.
+  They are 39-byte frames: bytes 32-38 carry an uncompensated temperature, a
+  second temperature sensor, the 0.01 C temperature digit and the ultrasonic
+  configuration, with their own CRC (byte 37) and checksum (byte 38).
+- They cover rain state changes in both directions (wet -> dry when both
+  resistive ADC readings are >= 4000 for 4 reports, dry -> wet when one is
+  below 4000 with a slope magnitude above 29), rain total increments, a frame
+  whose final checksum bit was lost at reception (extension accepted on its
+  CRC), and a frame with a corrupted extension (extension fields omitted).
+- Field meanings were taken from the Ecowitt V1.6.2 firmware image and
+  checked against 14 hours of live data.
