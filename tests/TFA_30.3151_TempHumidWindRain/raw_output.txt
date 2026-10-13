@@ -1,0 +1,20 @@
+Output from rtl_433 -R 0 -X 'n=name,m=FSK_PCM,s=60,l=60,g=500,r=2500'
+
+
+
+time      : 2023-06-20 23:44:41
+model     : name         count     : 13            num_rows  : 13            rows      :
+len       : 80           data      : aaaaaa2dd451e0e14900,
+len       : 26           data      : c499c00,
+len       : 80           data      : aaaaaa2dd451e0e14900,
+len       : 26           data      : c499c00,
+len       : 80           data      : aaaaaa2dd451e0e14900,
+len       : 26           data      : c499c00,
+len       : 80           data      : aaaaaa2dd451e0e14900,
+len       : 26           data      : c499c00,
+len       : 80           data      : aaaaaa2dd451e0e14900,
+len       : 26           data      : c499c00,
+len       : 80           data      : aaaaaa2dd451e0e14900,
+len       : 26           data      : c499c00,
+len       : 0            data      :
+codes     : {80}aaaaaa2dd451e0e14900, {26}c499c00, {80}aaaaaa2dd451e0e14900, {26}c499c00, {80}aaaaaa2dd451e0e14900, {26}c499c00, {80}aaaaaa2dd451e0e14900, {26}c499c00, {80}aaaaaa2dd451e0e14900, {26}c499c00, {80}aaaaaa2dd451e0e14900, {26}c499c00, {0}
