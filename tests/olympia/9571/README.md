@@ -34,10 +34,33 @@ Decoded by `olympia_9571` (protocol 386), preamble `aa aa 2d d4` followed by a
 - `pir_motion_d6f84d_868.465M_250k.cu8`: PIR-Motion, motion,
   868.465 MHz capture at 250 kHz. Detector regression sample: a short
   blip precedes each ~38 ms FSK burst, so the data only appears in
-  non-leading pulses — the detector must evaluate later pulses afresh
-  but only trust sustained (> 1 ms) ones.
+  the second OOK pulse.
 - `pir_idle_d6f84d_868.465M_250k.cu8`: same PIR-Motion, idle, 868.465 MHz
   at 250 kHz.
+- `door_closed_4ddf3b_868.465M_250k.cu8`: Contact, ID 4ddf3b, closed,
+  868.465 MHz capture at 250 kHz. Detector regression sample: the pulse
+  detector measures the leading blip at ~160 us (38-41 samples), wider
+  than in the PIR captures, so it guards the blip width limit. 12 of
+  the 14 bursts decode.
+- `keyfob_disarm_19e755_868.465M_250k.cu8`: Keyfob remote, ID 19e755,
+  "disarm" command, 868.465 MHz capture at 250 kHz. Same ~160 us blip
+  before each burst; all 19 bursts decode.
+
+## Leading blip handling
+
+Each transmission starts with a short carrier blip, then a gap of
+~0.7 ms, then the FSK burst. The pulse detector only runs FSK
+demodulation during the first OOK pulse, so without special handling
+the blip is the only pulse checked for FSK and the burst is
+misclassified as OOK.
+
+`pulse_detect.c` absorbs such a blip: when the first OOK pulse is
+shorter than `BLIP_MAX_US` (200 us) and the gap after it is shorter
+than `BLIP_GAP_MAX_US` (1 ms), the FSK detector is reset at the start
+of the second pulse and FSK demodulation continues through that pulse.
+FSK data from the blip itself is discarded and the OOK pulse data is
+left untouched. The FSK package then starts at the burst, so its pulse
+data is the same as for a capture without the blip.
 
 Verify manually with:
 
@@ -48,3 +71,5 @@ Verify manually with:
     rtl_433 -r pir_motion_d6f84d_868.42M_1000k.cu8
     rtl_433 -r pir_motion_d6f84d_868.465M_250k.cu8
     rtl_433 -r pir_idle_d6f84d_868.465M_250k.cu8
+    rtl_433 -r door_closed_4ddf3b_868.465M_250k.cu8
+    rtl_433 -r keyfob_disarm_19e755_868.465M_250k.cu8
