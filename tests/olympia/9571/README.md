@@ -54,13 +54,18 @@ demodulation during the first OOK pulse, so without special handling
 the blip is the only pulse checked for FSK and the burst is
 misclassified as OOK.
 
-`pulse_detect.c` absorbs such a blip: when the first OOK pulse is
-shorter than `BLIP_MAX_US` (200 us) and the gap after it is shorter
-than `BLIP_GAP_MAX_US` (1 ms), the FSK detector is reset at the start
-of the second pulse and FSK demodulation continues through that pulse.
-FSK data from the blip itself is discarded and the OOK pulse data is
-left untouched. The FSK package then starts at the burst, so its pulse
-data is the same as for a capture without the blip.
+`pulse_detect.c` treats such a blip as a transmitter key-up transient:
+when the first OOK pulse is shorter than `PD_FSK_MAX_LEADIN_US`
+(200 us) and the gap after it is at least `PD_FSK_MIN_LEADIN_GAP_US`
+(200 us), FSK detection is restarted on the second pulse. FSK data
+from the blip itself is discarded and the OOK pulse data is left
+untouched. The FSK package then starts at the burst, so its pulse data
+is the same as for a capture without the blip.
+
+The minimum gap keeps dense OOK data, whose first pulse is also short
+(e.g. IDM meters), from being split into bogus FSK packages. There is
+no explicit maximum gap: after a pulse this short the package ends
+once the gap exceeds 10 ms (`PD_MIN_GAP_MS`), which bounds the window.
 
 Verify manually with:
 
