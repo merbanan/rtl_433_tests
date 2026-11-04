@@ -1,0 +1,23 @@
+# EN2058 four probe temperature sensor
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433_tests/pull/400 (real captures and ground
+# truth posted by nitrag), used to fix and confirm the checksum in
+# https://github.com/merbanan/rtl_433/pull/3498 (decoder by Steven Walter).
+#
+# One repeat extracted from each of the 6 captures in 01/ and files/ (30 bit preamble
+# through the checksum byte, 190 bits). All 6 match the ground truth readout in
+# README.md exactly.
+
+# g004_433.92M_250k: probe1=259F probe2=NA probe3=104F probe4=NA
+{190}fffe0002aaaaaaaaab2b295107b0368803201e500322aac4
+# g007_433.92M_250k: probe1=261F probe2=NA probe3=111F probe4=NA
+{190}fffe0002aaaaaaaaab2b295107b036d803201f680322a82c
+# g014_433.96M_250k: probe1=288F probe2=NA probe3=172F probe4=NA
+{190}fffe0002aaaaaaaaab2b295107303b10032028f00322a97c
+# g020_433.88M_250k: probe1=287F probe2=NA probe3=172F probe4=NA
+{190}fffe0002aaaaaaaaab2b295107303ae8032028f00322a954
+# g021_433.92M_250k: probe1=259F probe2=87F probe3=112F probe4=173F
+{190}fffe0002aaaaaaaaab2b295107b036881ba81f90291aaac4
+# g023_433.92M_250k: probe1=258F probe2=95F probe3=113F probe4=178F
+{190}fffe0002aaaaaaaaab2b295107b036601ce81fb829e2a8d0

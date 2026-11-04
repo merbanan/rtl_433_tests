@@ -1,0 +1,52 @@
+# Arad/Master Meter Dialog3G water utility meter
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/3459 (raw codes extracted from
+# -R 260:v verbose logs posted by Lantryy, AkaBoing, and ProfBoc75/assafms during the
+# multi-month reverse-engineering of the XOR checksum), covering 14 distinct real
+# meters across three hardware variants. All validate with a clean checksum
+# (no bit correction needed) against the decoder added in PR #3489.
+#
+# Two of these (id 09750998-27 and 13461653-27) are known to report the wrong
+# volume against the physical meter reading -- see readme.txt.
+
+{218}000000001832dea270a6f68d52e65b1fee1c5fdfffecad39878be03f
+{218}000000001832dea270a6f6820421db1ffde33f7fffe92b59df18e03f
+{219}7fffffffff832dea270a6f69a336451f5e4e8fa7ffe7c33108df1e1f
+{219}7fffffffff832dea270a6f69153a451f5e27d9c7ffe63a56fed0fe1f
+{219}000000001832dea270a6f68d52e65b1fee1c5fdfffecad39878be01f
+{219}000000001832dea270a6f6820421db1ffde33f7fffe92b59df18e01f
+{220}7fffffffff832dea270a6f69a336451f5e4e8fa7ffe7c33108df1e0f
+{220}7fffffffff832dea270a6f69551a451f5f3a57c3ffe60777a8b99e0f
+{220}7fffffffff832dea270a6f69153a451f5e27d9c7ffe63a56fed0fe0f
+{220}7fffffffff832dea270a6f68e162491f5f86db37ffe60ffa7ec6ae0f
+{220}7fffffffff832dea270a6f68d50a451f5e5f6fc5ffe6ddaea1217e0f
+{220}0000000000032dea270a6f69c544451f5f4d13f1ffe69d119cb2ae0f
+{220}0000000000032dea270a6f68d50a451f5e5f6fc5ffe6ddaea1217e0f
+{221}7fffffffffc196f5138537b4e2a2228fafa289f8fff38849ef4c9f07
+{221}7fffffffffc196f5138537b4dfa2228fafde97d6fff3408ea2773707
+{221}7fffffffff832dea270a6f69551a451f5f3a57c3ffe60777a8b99e0f
+{221}7fffffffff832dea270a6f69551a451f5f3a57c3ffe60777a8b99e07
+{221}7fffffffff832dea270a6f69153a451f5e25d9c7ffe6f927c1bdbe07
+{221}57fffffffffe0cb7a89c29bda149b35ec7fedf8ffffffda3cf83223f
+{221}43fffffffffe0cb7a89c29bda149b35ec7fedf8ffffffda3cf83223f
+{221}37fffffffffe0cb7a89c29bda149b35ec7fedf8ffffffda3cf83223f
+{221}0000000000032dea270a6f69c544451f5f5713f1ffe688c5e4358e0f
+{221}0000000000032dea270a6f69bf44451f5fbd2fadffe6811d44ee6e07
+{222}7fffffffff832dea270a6f283158451f5e941795ffee948992704e07
+{222}5a0000000003065bd44e14ded0a4d9af63ff6fc7fffffed1e7c1911f
+{222}2c0000000003065bd44e14ded0a4d9af63ff6fc7fffffed1e7c1911f
+{222}2a0000000003065bd44e14ded0a4d9af63ff6fc7fffffed1e7c1911f
+{223}7fffffffff832dea270a6f283158451f5e901795ffef5249f3767e03
+{223}0000000000032dea270a6f283158451f5e941795ffee948992704e07
+{224}5ffffffffff832dea270a6f696958431f5fd9c3a9ffe764e976aeae0
+{226}6ffffffffffe0cb7a89c29bda5ed690c7d7d453f57ff9ddc64e4bb783f
+{227}7bffffffffff065bd44e14ded2e02347fefcbf6fffffcf45787c423c1f
+{227}77ffffffffff065bd44e14ded2f6b4863ebea29fabffceee32725dbc1f
+{227}77ffffffffff065bd44e14ded2d2b0863ebfb38753ffcec9d2ed5d5c1f
+{227}63ffffffffff065bd44e14ded2d2b0863ebfb38753ffcec9d2ed5d5c1f
+{227}580000000000065bd44e14ded2f6b4863ebea29fabffceee32725dbc1f
+{227}4fffffffffff065bd44e14ded2d2b0863ebfb38753ffcec9d2ed5d5c1f
+{228}3fffffffffff832dea270a6f697011a3ff7e5fb7ffffe7a2bc3e211e0f
+{228}3a1fffffffff832dea270a6f697011a3ff7e5fb7ffffe7a2bc3e211e0f
+{228}27ffffffffff832dea270a6f696958431f5fd9c3a9ffe764e976aeae0f

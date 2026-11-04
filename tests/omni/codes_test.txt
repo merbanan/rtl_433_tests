@@ -1,0 +1,14 @@
+# Omni Multisensor
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/pull/3278
+#
+# Format 0 (core temp + voltage only), posted by @zuckschwerdt:
+# id 9, channel 0, temperature_C 27.3, voltage_V 4.19
+# (repeated twice: the decoder requires at least 2 repeated rows)
+{80}091112223344556677eb{80}091112223344556677eb
+
+# Format 1 (BME688 indoor/outdoor temp/humidity/pressure/light), posted by
+# @zuckschwerdt: id 9, channel 1, temperature_C 30.5, temperature_2_C 29.0,
+# humidity 49, light_pct 50, pressure_hPa 995, voltage_V 4.88
+{80}19131122313226DEBC8E{80}19131122313226DEBC8E

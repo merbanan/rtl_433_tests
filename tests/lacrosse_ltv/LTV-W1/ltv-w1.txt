@@ -1,0 +1,69 @@
+﻿LTV-W1 Sensor ID: 0FB220
+LTV-TH2 Sensor ID: 13EFB7
+
+
+
+rtl-w1 % rtl_433 -f915M -S unknown
+
+rtl_433 version 21.05-122-g4bb75b4c branch master at 202110291420 inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/Users/X/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+
+New defaults active, use "-Y classic -s 250k" for the old defaults!
+
+Registered 169 out of 200 device decoding protocols [ 1-4 8 11-12 15-17 19-23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 151-161 163-168 170-175 177-197 199 ]
+Found Rafael Micro R820T tuner
+Exact sample rate is: 1000000.026491 Hz
+[R82XX] PLL not locked!
+Sample rate set to 1000000 S/s.
+Tuner gain set to Auto.
+Tuned to 915.000MHz.
+baseband_demod_FM: low pass filter for 1000000 Hz at cutoff 200000 Hz, 5.0 us
+*** Saving signal to file g001_915M_1000k.cu8 (88345 samples, 262144 bytes)
+
+Wind speed : 0 km/h
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2021-11-08 15:41:57
+model     : LaCrosse-R3  Sensor ID : 0fb220
+Sequence  : 3            unknown   : 0             Total Rain: 2796202.50 mm
+Total Rain2: 682.50 mm   Integrity : CRC
+
+
+Wind speed : 3 km/h
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2021-11-08 15:42:29
+model     : LaCrosse-R3  Sensor ID : 0fb220
+Sequence  : 4            unknown   : 0             Total Rain: 3495253.00 mm
+Total Rain2: 68949.25 mm Integrity : CRC
+*** Saving signal to file g002_915M_1000k.cu8 (59515 samples, 131072 bytes)
+
+Wind speed : 6 km/h
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2021-11-08 15:43:00
+model     : LaCrosse-R3  Sensor ID : 0fb220
+Sequence  : 5            unknown   : 0             Total Rain: 2796202.50 mm
+Total Rain2: 66218.50 mm Integrity : CRC
+*** Saving signal to file g004_915M_1000k.cu8 (59514 samples, 131072 bytes)
+
+Wind speed : 15 km/h
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2021-11-08 15:43:32
+model     : LaCrosse-R3  Sensor ID : 0fb220
+Sequence  : 6            unknown   : 0             Total Rain: 2796202.50 mm
+Total Rain2: 157354.50 mm Integrity : CRC
+*** Saving signal to file g005_915M_1000k.cu8 (42798 samples, 131072 bytes)
+
+
+Wind speed : 0 km/h
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2021-11-08 15:47:44
+model     : LaCrosse-R3  Sensor ID : 0fb220
+Sequence  : 6            unknown   : 0             Total Rain: 2796202.50 mm
+Total Rain2: 682.50 mm   Integrity : CRC
+*** Saving signal to file g012_915M_1000k.cu8 (310337 samples, 655360 bytes)
+^CSignal caught, exiting!

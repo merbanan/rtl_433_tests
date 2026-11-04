@@ -1,0 +1,3 @@
+{"time" : "@0.198592s", "type" : "TPMS", "model" : "Steelmate", "id" : "0x1a4e", "pressure_kPa" : 259.375, "temperature_C" : 25, "battery_mV" : 2570, "mic" : "CHECKSUM"}
+{"time" : "@0.206540s", "type" : "TPMS", "model" : "Steelmate", "id" : "0x1a4e", "pressure_kPa" : 259.375, "temperature_C" : 25, "battery_mV" : 2570, "mic" : "CHECKSUM"}
+{"time" : "@0.214480s", "type" : "TPMS", "model" : "Steelmate", "id" : "0x1a4e", "pressure_kPa" : 259.375, "temperature_C" : 25, "battery_mV" : 2570, "mic" : "CHECKSUM"}

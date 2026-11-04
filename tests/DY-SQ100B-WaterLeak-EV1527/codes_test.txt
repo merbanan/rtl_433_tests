@@ -1,0 +1,15 @@
+# DY-SQ100B water leak detector (EV1527 variant)
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/2606
+#
+# Only 2 unique codes were ever observed across both real captures
+# (g002/g003) attached to the issue -- a fixed EV1527-style code, with
+# or without an extra leading sync bit depending on capture alignment.
+# Use conf/DY-SQ100B-WaterLeak-EV1527.conf (this is a flex decoder, not
+# a compiled-in protocol): rtl_433 -y "<code>" -c conf/DY-SQ100B-WaterLeak-EV1527.conf
+
+# 24 bit, no leading sync bit
+{24}0f0065
+# 25 bit, with leading sync bit (same underlying code as above)
+{25}8780328

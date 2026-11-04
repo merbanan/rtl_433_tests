@@ -1,0 +1,2 @@
+{"time" : "@0.084612s", "model" : "LaCrosse-WS700022", "id" : 16, "channel" : 0, "temperature_C" : 9.400, "humidity" : 84, "mic" : "CHECKSUM"}
+{"time" : "@0.084612s", "model" : "LaCrosse-WS700016", "id" : 39, "channel" : 7, "rain_mm" : 339.000, "mic" : "CHECKSUM"}

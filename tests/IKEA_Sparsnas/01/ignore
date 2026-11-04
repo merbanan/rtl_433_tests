@@ -1,0 +1,4 @@
+Current rtl_433 does not recover these CPFSK captures under the standard
+test harness or with explicit classic/minmax/ampest/autolevel demod
+directives. The decoder source notes this signal needs shorter minimum
+pulse handling than the current default path provides.

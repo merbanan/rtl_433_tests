@@ -1,0 +1,3 @@
+{"time" : "@0.050396s", "model" : "Malibu-SurfBand", "button" : 2, "button_name" : "Wedge Up", "mic" : "CRC"}
+{"time" : "@0.181540s", "model" : "Malibu-SurfBand", "button" : 170, "button_name" : "Hold", "mic" : "CRC"}
+{"time" : "@0.495288s", "model" : "Malibu-SurfBand", "button" : 0, "button_name" : "Release", "mic" : "CRC"}

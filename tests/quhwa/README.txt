@@ -1,0 +1,13 @@
+01:
+
+Recorded by kajksa
+
+02:
+
+Taken from https://github.com/merbanan/rtl_433/issues/20 by luigough, see also
+
+http://goughlui.com/2013/12/20/rtl-sdr-433-92mhz-askook-decoding-of-various-devices-with-rtl_433/
+
+03:
+
+Recorded by peteakalad

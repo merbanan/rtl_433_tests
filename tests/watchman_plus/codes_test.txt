@@ -1,0 +1,52 @@
+# Kingspan/Watchman Plus (Niveau) oil tank monitor
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/2133 and the earlier
+# https://groups.google.com/g/rtl_433/c/VJSPl7h0848 thread. Decoder and protocol
+# reverse engineered from that data; see readme.md.
+#
+# Each code is the demodulated logical bitstream (already collapsed from the
+# underlying OOK PWM), used directly as a -y test vector -- this bypasses pulse
+# detection, since the real short_width/long_width have not been confirmed
+# end-to-end against the raw .cu8 captures in 01/ (see readme.md). All 18 real
+# messages available across the GitHub issue and Google Groups thread are
+# included below, covering 3 independent physical devices and all 10 display
+# digits (0-9), the "F" (full) state, and a battery-low reading. All match the
+# decoder's output exactly (see codes_test.json).
+
+# Scoff123 (id 05073745), display level 0
+{64}fff53ddd14401043
+# Scoff123 (id 05073745), display level 1
+{64}fff53ddd14501783
+# Scoff123 (id 05073745), display level 2
+{64}fff53ddd14481383
+# Scoff123 (id 05073745), display level 3
+{64}fff53ddd14581583
+# Scoff123 (id 05073745), display level 4
+{64}fff53ddd14441183
+# Scoff123 (id 05073745), display level 5
+{64}fff53ddd14541683
+# Scoff123 (id 05073745), display level 6
+{64}fff53ddd144c1283
+# Scoff123 (id 05073745), display level 7
+{64}fff53ddd145c1483
+# Scoff123 (id 05073745), display level 8
+{64}fff53ddd14421083
+# Scoff123 (id 05073745), display level 9
+{64}fff53ddd14521703
+# Scoff123 (id 05073745), display F, bund alarm off
+{64}fff53ddd144a1303
+# Scoff123 (id 05073745), display level 3, battery low
+{64}fff53ddd14583581
+# arfond (id 05404105), display level 3
+{64}fff51421345812c3
+# arfond (id 05404105), display level 2
+{64}fff51421344816c3
+# arfond (id 05404105), display level 1
+{64}fff51421345011c3
+# arfond (id 05404105), display level 0
+{64}fff51421344015c3
+# arfond (id 05404105), display level 3, after reseating batteries
+{64}fff5142134581266
+# Carl S (id 07353167), display level 3
+{72}fff774d75c5912853d

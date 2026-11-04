@@ -1,0 +1,1 @@
+{"time" : "@0.042742s", "model" : "Wireless-MBus", "mode" : "C", "M" : "KAM", "id" : 63264176, "version" : 27, "type" : 22, "type_string" : "Cold Water", "C" : 68, "data" : "23442d2c764126631b168d20ad11f7d922c002c09569ca823f4a38dbf5c8b41a4520", "ell_ci" : 141, "ell_cc" : 32, "ell_acc" : 173, "payload_encrypted" : 1, "mic" : "CRC"}

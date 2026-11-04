@@ -1,0 +1,10 @@
+g002_915M_250k.cu8 {"temperature_C": "6.9",  "flag": "1", "id": "195", "channel": "1", "humidity": "92"}
+g003_915M_250k.cu8 {"temperature_C": "15.9", "flag": "1", "id": "53",  "channel": "5", "humidity": "60"}
+g005_915M_250k.cu8 {"temperature_C": "15.8", "flag": "1", "id": "53",  "channel": "5", "humidity": "60"}
+g006_915M_250k.cu8 {"temperature_C": "14.2", "flag": "1", "id": "201", "channel": "3", "humidity": "64"}
+g008_915M_250k.cu8 {"temperature_C": "13.2", "flag": "1", "id": "43",  "channel": "4", "humidity": "61"}
+g009_915M_250k.cu8 {"temperature_C": "14.3", "flag": "1", "id": "201", "channel": "3", "humidity": "64"}
+g039_915M_250k.cu8 {"temperature_C": "13.1", "flag": "1", "id": "68",  "channel": "2", "humidity": "62"}
+g049_915M_250k.cu8 {"temperature_C": "13.3", "flag": "1", "id": "68",  "channel": "2", "humidity": "61"}
+g051_915M_250k.cu8 {"temperature_C": "7.0",  "flag": "1", "id": "195", "channel": "1", "humidity": "91"}
+g053_915M_250k.cu8 {"temperature_C": "13.2", "flag": "1", "id": "43",  "channel": "4", "humidity": "61"}

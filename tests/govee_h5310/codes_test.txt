@@ -1,0 +1,23 @@
+# Govee Pool/Spa Thermometer H5310
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/pull/3564 (decoder by Paul Antaki) and
+# https://github.com/merbanan/rtl_433_tests/pull/503 (real captures, same author).
+#
+# One frame extracted from each of the Status/Temperature-Update captures (the
+# Periodic Update and one Temperature Update are covered by the 2 .cu8 samples
+# g002/g006 kept in this directory). Covers both physical units (Pool id_wire
+# 0xf8a79cb2, Spa id_wire 0x71b09cb2).
+#
+# The original g001/g004 Ping captures are NOT included here: rtl_433#3568
+# removed ping-frame decoding from this decoder entirely, after discovering
+# the marker/length combination is shared with other Govee gateway devices
+# (confirmed on the H5112 dual-probe thermometer) with no way to disambiguate
+# by frame structure alone -- see the decoder's own doc-comment.
+
+# g003: Spa, Status, temperature 1.3 C
+{280}2c4c4a1fa72621e7abd42fcbebb5cd6f41603675694b55336c5a43486d3632565995e1
+# g005: Pool, Temperature Update, temperature 20.5 C
+{160}2c4c4a105044bcf5cce45e1419d08d8c68356d31
+# g007: Pool, Status, temperature 20.5 C
+{280}2c4c4a1f4f49ade3cee23207f288ad41735d35456459713145346a346d6f724a3374d4

@@ -1,0 +1,2 @@
+{"time": "2026-07-19 18:19:23", "model": "GM-Aftermarket", "type": "TPMS", "id": 2017968551, "flags": 19600, "learn_mode": 1, "battery_ok": 1, "pressure_kPa": 0.0, "temperature_C": 27.0, "mic": "CHECKSUM"}
+{"time": "2026-07-19 18:19:23", "model": "GM-Aftermarket", "type": "TPMS", "id": 2017968551, "flags": 19859, "learn_mode": 0, "battery_ok": 1, "pressure_kPa": 96.25, "temperature_C": 28.0, "mic": "CHECKSUM"}

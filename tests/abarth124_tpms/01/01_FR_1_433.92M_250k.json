@@ -1,0 +1,3 @@
+{"time" : "@0.174840s", "model" : "Abarth-124Spider", "type" : "TPMS", "id" : "0f5476e8", "flags" : "b7", "pressure_kPa" : 114.540, "temperature_C" : 18.000, "status" : 1, "mic" : "CHECKSUM"}
+{"time" : "@0.291576s", "model" : "Abarth-124Spider", "type" : "TPMS", "id" : "0f5476e8", "flags" : "b7", "pressure_kPa" : 114.540, "temperature_C" : 18.000, "status" : 1, "mic" : "CHECKSUM"}
+{"time" : "@0.448492s", "model" : "Abarth-124Spider", "type" : "TPMS", "id" : "0f5476e8", "flags" : "b7", "pressure_kPa" : 114.540, "temperature_C" : 18.000, "status" : 1, "mic" : "CHECKSUM"}

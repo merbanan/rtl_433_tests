@@ -1,0 +1,22 @@
+{"model" : "LaCrosse-TX232TH", "id" : 1048576, "channel" : 2, "battery_ok" : 1, "test" : 0, "counter" : 0, "temperature_C" : 20.1, "humidity" : 56, "mic" : "CRC"}
+{"model" : "LaCrosse-TX232TH", "id" : 1048576, "channel" : 2, "battery_ok" : 1, "test" : 0, "counter" : 1, "temperature_C" : 20.3, "humidity" : 55, "mic" : "CRC"}
+{"model" : "LaCrosse-TX232TH", "id" : 1048576, "channel" : 2, "battery_ok" : 1, "test" : 0, "counter" : 2, "temperature_C" : 20.5, "humidity" : 55, "mic" : "CRC"}
+{"model" : "LaCrosse-TX232TH", "id" : 1048576, "channel" : 2, "battery_ok" : 1, "test" : 0, "counter" : 3, "temperature_C" : 20.6, "humidity" : 54, "mic" : "CRC"}
+{"model" : "LaCrosse-TX232TH", "id" : 1048576, "channel" : 2, "battery_ok" : 1, "test" : 0, "counter" : 4, "temperature_C" : 20.7, "humidity" : 54, "mic" : "CRC"}
+{"model" : "LaCrosse-TX232TH", "id" : 1048576, "channel" : 2, "battery_ok" : 1, "test" : 0, "counter" : 5, "temperature_C" : 20.8, "humidity" : 54, "mic" : "CRC"}
+{"model" : "LaCrosse-TX232TH", "id" : 1048576, "channel" : 2, "battery_ok" : 1, "test" : 0, "counter" : 6, "temperature_C" : 20.9, "humidity" : 54, "mic" : "CRC"}
+{"model" : "LaCrosse-TX232TH", "id" : 1048576, "channel" : 2, "battery_ok" : 1, "test" : 0, "counter" : 7, "temperature_C" : 21.0, "humidity" : 53, "mic" : "CRC"}
+{"model" : "LaCrosse-TX232TH", "id" : 1048576, "channel" : 2, "battery_ok" : 1, "test" : 0, "counter" : 0, "temperature_C" : 21.1, "humidity" : 53, "mic" : "CRC"}
+{"model" : "LaCrosse-TX232TH", "id" : 1048576, "channel" : 2, "battery_ok" : 1, "test" : 0, "counter" : 1, "temperature_C" : 21.1, "humidity" : 53, "mic" : "CRC"}
+{"model" : "LaCrosse-TX231RW", "id" : 1688616, "channel" : 1, "battery_ok" : 1, "test" : 0, "counter" : 5, "data_raw" : "0000c5000aaa", "mic" : "CHECKSUM"}
+{"model" : "LaCrosse-TX231RW", "id" : 1688616, "channel" : 1, "battery_ok" : 1, "test" : 0, "counter" : 6, "data_raw" : "0000c5000aaa", "mic" : "CHECKSUM"}
+{"model" : "LaCrosse-TX231RW", "id" : 1688616, "channel" : 1, "battery_ok" : 1, "test" : 0, "counter" : 7, "data_raw" : "0000c5000aaa", "mic" : "CHECKSUM"}
+{"model" : "LaCrosse-TX231RW", "id" : 1688616, "channel" : 1, "battery_ok" : 1, "test" : 0, "counter" : 0, "data_raw" : "0000c5000aaa", "mic" : "CHECKSUM"}
+{"model" : "LaCrosse-TX231RW", "id" : 1688616, "channel" : 1, "battery_ok" : 1, "test" : 0, "counter" : 1, "data_raw" : "0000c5000aaa", "mic" : "CHECKSUM"}
+{"model" : "LaCrosse-TX231RW", "id" : 1688616, "channel" : 1, "battery_ok" : 1, "test" : 0, "counter" : 2, "data_raw" : "0000c5000aaa", "mic" : "CHECKSUM"}
+{"model" : "LaCrosse-TX231RW", "id" : 1688616, "channel" : 1, "battery_ok" : 1, "test" : 0, "counter" : 3, "data_raw" : "0000c5000aaa", "mic" : "CHECKSUM"}
+{"model" : "LaCrosse-TX231RW", "id" : 1688616, "channel" : 1, "battery_ok" : 1, "test" : 0, "counter" : 4, "data_raw" : "0000c5000aaa", "mic" : "CHECKSUM"}
+{"model" : "LaCrosse-TX231RW", "id" : 1688616, "channel" : 1, "battery_ok" : 1, "test" : 0, "counter" : 5, "data_raw" : "0000c5000aaa", "mic" : "CHECKSUM"}
+{"model" : "LaCrosse-TX231RW", "id" : 1688616, "channel" : 1, "battery_ok" : 1, "test" : 0, "counter" : 6, "data_raw" : "0000c5000aaa", "mic" : "CHECKSUM"}
+{"model" : "LaCrosse-TX231RW", "id" : 1688616, "channel" : 1, "battery_ok" : 1, "test" : 0, "counter" : 7, "data_raw" : "0000c5000aaa", "mic" : "CHECKSUM"}
+{"model" : "LaCrosse-TX231RW", "id" : 1688616, "channel" : 1, "battery_ok" : 1, "test" : 0, "counter" : 0, "data_raw" : "0000c5000aaa", "mic" : "CHECKSUM"}

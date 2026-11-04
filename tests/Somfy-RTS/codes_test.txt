@@ -1,0 +1,20 @@
+# Somfy RTS
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/3038
+#
+# A roller-shade remote hitting the same "seed is the actual button code,
+# control nibble fixed to 0xf" quirk documented for the TEL-FIX wall-mount
+# remote (see the decoder's docstring), but with a different seed high
+# nibble (0x9. instead of 0x8.). Down/Stop/Up were already decoded (just
+# without a friendly label); Prog is new -- sent repeatedly while holding
+# the pairing button, previously showed up as the unmapped "? (12)".
+
+# Down (retransmission)
+{179}f0f0f0f0f0f0f0fe696a965a966a9996a95aaa695a5a0
+# Stop (retransmission)
+{180}f0f0f0f0f0f0f0fe6999969996a9a6a99665955665650
+# Up (retransmission)
+{180}f0f0f0f0f0f0f0fe6996969a96aaa6a99665955665650
+# Prog (pairing button held, retransmission)
+{180}f0f0f0f0f0f0f0fe695a969696a6a6a99665955665650

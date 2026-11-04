@@ -1,0 +1,62 @@
+# Eco-Eye solar PV/grid current monitor
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/1757
+#
+# The first 16 codes are the raw demodulated codes for g033-g048 in 01/,
+# as originally posted (BitBench link) by @zuckschwerdt in the issue.
+# The last 7 are additional real readings posted later in the thread
+# (comment by @teb1880, 2021-07-16) specifically to confirm the checksum
+# works for used > 255, a range the first 16 never reach; no raw capture
+# was posted for those, so the code is reconstructed by prepending the
+# aa2dd4 sync word to the decoder-facing data that was posted (pv/used/
+# checksum bytes are unaffected by this, since the sync word is a fixed
+# constant unrelated to payload).
+
+# pv=0.31 A used=1.29 A
+{92}f55555516ea000f8040d055
+# pv=0.31 A used=1.20 A
+{92}f55555516ea000f803c4bd5
+# pv=0.32 A used=1.26 A
+{92}f55555516ea0010003f4f55
+# pv=0.31 A used=1.19 A
+{93}faaaaaa8b750007c01de5aa8
+# pv=0.30 A used=1.20 A
+{92}f55555516ea000f003c4b55
+# pv=0.31 A used=1.18 A
+{93}faaaaaa8b750007c01da56a8
+# pv=0.30 A used=1.26 A
+{92}f55555516ea000f003f4e55
+# pv=0.30 A used=1.24 A
+{92}f55555516ea000f003e4d55
+# pv=0.31 A used=1.23 A
+{93}faaaaaa8b750007c01ee6aa8
+# pv=0.30 A used=1.30 A
+{92}f55555516ea000f00415055
+# pv=0.30 A used=1.20 A
+{93}faaaaaa8b750007801e25aa8
+# pv=0.30 A used=1.17 A
+{92}f55555516ea000f003ac9d5
+# pv=0.30 A used=1.24 A
+{92}f55555516ea000f003e4d55
+# pv=0.29 A used=1.25 A
+{92}f55555516ea000e803ecd55
+# pv=0.30 A used=1.25 A
+{92}f55555516ea000f003ecdd5
+# pv=0.29 A used=1.22 A
+{93}faaaaaa8b750007401ea5ea8
+
+# pv=0.00 A used=23.48 A (checksum confirmed above 255)
+{64}aa2dd40000092c35
+# pv=0.00 A used=23.57 A (checksum confirmed above 255)
+{64}aa2dd4000009353e
+# pv=0.00 A used=23.40 A (checksum confirmed above 255)
+{64}aa2dd4000009242d
+# pv=0.00 A used=23.53 A (checksum confirmed above 255)
+{64}aa2dd4000009313a
+# pv=0.00 A used=23.54 A (checksum confirmed above 255)
+{64}aa2dd4000009323b
+# pv=0.00 A used=2.15 A
+{64}aa2dd4000000d7d7
+# pv=0.00 A used=2.14 A
+{64}aa2dd4000000d6d6

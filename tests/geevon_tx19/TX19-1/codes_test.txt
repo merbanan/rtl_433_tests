@@ -1,0 +1,94 @@
+# Geevon TX19-1 outdoor sensor
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/pull/3109
+# (posted by @anarsoul in the PR discussion, 2024-12-09)
+#
+# Decodes with protocol 291 (src/devices/geevon_tx19.c), merged separately
+# as commit 8d92cdd6 "Add support for Geevon TX19-1 temperature humidity
+# sensor (#3442)". PR #3109 itself remains open/unmerged.
+#
+# Each line below is padded to {73} bits (the decoder requires exactly 73
+# bits per row, the 73rd bit lies outside the 9-byte checksum span) and
+# bit-inverted relative to the hex the PR comment posted, since rtl_433's
+# -y test input represents raw (pre-invert) captured bits while the PR
+# comments listed the already-inverted payload bytes. Test with e.g.:
+#
+#   rtl_433 -R 291 -y "{73}<hex>{73}<hex>{73}<hex>" -F json
+#
+# (3 repeated rows are required for bitbuffer_find_repeated_prefix to match)
+#
+# Batch 1: sensor id 127
+{73}80ffd24f9c55aa55870  # 7f002db063aa55aa78
+{73}80ffd21f9c55aa553a0  # 7f002de063aa55aac5
+{73}80ffd1ff9c55aa552c0  # 7f002e0063aa55aad3
+{73}80ffd26f9f55aa55860  # 7f002d9060aa55aa79
+{73}80ffd2ffd755aa55e50  # 7f002d0028aa55aa1a
+{73}80ffd39fd955aa555e0  # 7f002c6026aa55aaa1
+{73}80ffd3ffd555aa55d00  # 7f002c002aaa55aa2f
+{73}80ffd43fd555aa55300  # 7f002bc02aaa55aacf
+{73}80ffd47fd455aa55a60  # 7f002b802baa55aa59
+{73}80ffd4afd455aa55a80  # 7f002b502baa55aa57
+{73}80ffd4dfd355aa55790  # 7f002b202caa55aa86
+{73}80ffd51fd255aa55c70  # 7f002ae02daa55aa38
+{73}80ffd54fd155aa55830  # 7f002ab02eaa55aa7c
+{73}80ffd56fd155aa557b0  # 7f002a902eaa55aa84
+{73}80ffd59fcf55aa55110  # 7f002a6030aa55aaee
+{73}80ffd5afcf55aa55950  # 7f002a5030aa55aa6a
+{73}80ffd5dfce55aa55870  # 7f002a2031aa55aa78
+{73}80ffd5ffcf55aa55280  # 7f002a0030aa55aad7
+{73}80ffd62fce55aa55ed0  # 7f0029d031aa55aa12
+{73}80ffd64fcd55aa552d0  # 7f0029b032aa55aad2
+{73}80ffd65fcc55aa55060  # 7f0029a033aa55aaf9
+{73}80ffd66fcc55aa55820  # 7f00299033aa55aa7d
+{73}80ffd67fcc55aa55fe0  # 7f00298033aa55aa01
+{73}80ffd69fcc55aa55740  # 7f00296033aa55aa8b
+{73}80ffd6afcc55aa55f00  # 7f00295033aa55aa0f
+{73}80ffd6bfcb55aa55180  # 7f00294034aa55aae7
+{73}80ffd6cfcb55aa555d0  # 7f00293034aa55aaa2
+{73}80ffd6dfcb55aa55210  # 7f00292034aa55aade
+{73}80ffd6ffcb55aa55d90  # 7f00290034aa55aa26
+{73}80ffd5bfa655aa55290  # 7f002a4059aa55aad6
+{73}80ffd6dfa255aa55e10  # 7f0029205daa55aa1e
+{73}80ffd6efba55aa553a0  # 7f00291045aa55aac5
+{73}80ffd6ffc855aa55200  # 7f00290037aa55aadf
+{73}80ffd6ffca55aa558e0  # 7f00290035aa55aa71
+{73}80ffd70fca55aa55e30  # 7f0028f035aa55aa1c
+{73}80ffd71fca55aa559f0  # 7f0028e035aa55aa60
+{73}80ffd72fca55aa551b0  # 7f0028d035aa55aae4
+{73}80ffd73fcb55aa55300  # 7f0028c034aa55aacf
+{73}80ffd74fcb55aa55750  # 7f0028b034aa55aa8a
+{73}80ffd74fca55aa55220  # 7f0028b035aa55aadd
+{73}80ffd75fcb55aa55090  # 7f0028a034aa55aaf6
+{73}80ffd77fcd55aa55320  # 7f00288032aa55aacd
+
+# Batch 2: sensor id 84
+{73}abffd77fc755aa55800  # 5400288038aa55aa7f
+{73}abffd72fc655aa556a0  # 540028d039aa55aa95
+{73}abffd6ffc655aa55ff0  # 5400290039aa55aa00
+{73}abffd6bfc755aa55690  # 5400294038aa55aa96
+{73}abffd67fc755aa551b0  # 5400298038aa55aae4
+{73}abffd63fc855aa55940  # 540029c037aa55aa6b
+{73}abffd5ffc955aa552d0  # 54002a0036aa55aad2
+{73}abffd5bfca55aa55150  # 54002a4035aa55aaea
+{73}abffd57fcb55aa55300  # 54002a8034aa55aacf
+{73}abffd54fcb55aa55b40  # 54002ab034aa55aa4b
+{73}abffd50fcc55aa55e10  # 54002af033aa55aa1e
+{73}abffd4dfcd55aa55230  # 54002b2032aa55aadc
+{73}abffd49fce55aa551b0  # 54002b6031aa55aae4
+{73}abffd46fce55aa55ed0  # 54002b9031aa55aa12
+{73}abffd43fd055aa55cc0  # 54002bc02faa55aa33
+{73}abffd40fd055aa55480  # 54002bf02faa55aab7
+{73}abffd3dfd155aa55830  # 54002c202eaa55aa7c
+{73}abffd3bfd155aa55ba0  # 54002c402eaa55aa45
+{73}abffd38fd255aa55c70  # 54002c702daa55aa38
+{73}abffd35fd355aa559e0  # 54002ca02caa55aa61
+{73}abffd33fd455aa55330  # 54002cc02baa55aacc
+{73}abffd31fd455aa55cb0  # 54002ce02baa55aa34
+{73}abffd2ffd555aa558d0  # 54002d002aaa55aa72
+{73}abffd2dfd655aa558c0  # 54002d2029aa55aa73
+{73}abffd2bfd655aa55b50  # 54002d4029aa55aa4a
+{73}abffd29fd755aa551a0  # 54002d6028aa55aae5
+{73}abffd27fd755aa55900  # 54002d8028aa55aa6f
+{73}abffd25fd855aa55260  # 54002da027aa55aad9
+{73}abffd24fd855aa555a0  # 54002db027aa55aaa5

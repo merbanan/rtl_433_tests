@@ -1,0 +1,4 @@
+{"time": "@0.241568s", "model": "Nissan", "type": "TPMS", "id": "e0263c", "mode": 5, "pressure_PSI": 24.0, "unknown": 3, "mic": "CHECKSUM"}
+{"time": "@0.280520s", "model": "Nissan", "type": "TPMS", "id": "71503c", "mode": 3, "pressure_PSI": 26.25, "unknown": 1, "mic": "CHECKSUM"}
+{"time": "@0.343244s", "model": "Nissan", "type": "TPMS", "id": "e0263c", "mode": 5, "pressure_PSI": 24.0, "unknown": 3, "mic": "CHECKSUM"}
+{"time": "@0.444932s", "model": "Nissan", "type": "TPMS", "id": "e0263c", "mode": 5, "pressure_PSI": 24.0, "unknown": 3, "mic": "CHECKSUM"}

@@ -1,0 +1,3 @@
+{"time" : "@0.267548s", "model" : "Acurite-6045M", "id" : 151, "channel" : "B", "battery_ok" : 1, "temperature_F" : 70.000, "humidity" : 75, "strike_count" : 190, "storm_dist" : 10, "active" : 0, "rfi" : 0, "exception" : 0, "raw_msg" : "80976f4b11845f0acf"}
+{"time" : "@0.267548s", "model" : "Acurite-6045M", "id" : 151, "channel" : "B", "battery_ok" : 1, "temperature_F" : 70.000, "humidity" : 75, "strike_count" : 190, "storm_dist" : 10, "active" : 0, "rfi" : 0, "exception" : 0, "raw_msg" : "80976f4b11845f0acf"}
+{"time" : "@0.267548s", "model" : "Acurite-6045M", "id" : 151, "channel" : "B", "battery_ok" : 1, "temperature_F" : 70.000, "humidity" : 75, "strike_count" : 190, "storm_dist" : 10, "active" : 0, "rfi" : 0, "exception" : 0, "raw_msg" : "80976f4b11845f0acf"}

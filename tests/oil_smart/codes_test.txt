@@ -1,0 +1,6 @@
+# Apollo Smart at a nominal 40 cm
+{160}5555589965956595a96aa999969956a66a555a3c
+# Apollo Smart at a nominal 50 cm (the payload reports 51 cm)
+{160}5555589965956595a96aa999969956a5a59aa9fc
+# Apollo Smart at a nominal 60 cm
+{160}5555589965956595a96aa999969956a55aaaaa3c

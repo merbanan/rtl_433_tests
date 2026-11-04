@@ -1,0 +1,2 @@
+g001 - {Time:2019-02-07T22:00:28.481 Offset:0 Length:40960 SCM:{ID:54585868 Type:12 Tamper:{Phy:03 Enc:00} Consumption:  562456 CRC:0x101A}}
+g002 - {Time:2019-02-07T22:03:37.099 Offset:0 Length:40960 SCM:{ID:56355785 Type:12 Tamper:{Phy:02 Enc:00} Consumption:  727018 CRC:0xDBFC}}

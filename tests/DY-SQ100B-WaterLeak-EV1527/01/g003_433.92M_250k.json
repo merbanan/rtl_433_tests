@@ -1,0 +1,49 @@
+{"time" : "@0.043120s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 24, "data" : "0f0065", "code" : 983141}
+{"time" : "@0.107252s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 24, "data" : "0f0065", "code" : 983141}
+{"time" : "@0.107252s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@0.107252s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@0.107252s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@0.107252s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@0.107252s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@0.107252s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@0.107252s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@0.107252s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@0.107252s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@0.107252s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@0.492244s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 24, "data" : "0f0065", "code" : 983141}
+{"time" : "@0.556388s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 24, "data" : "0f0065", "code" : 983141}
+{"time" : "@0.620568s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 24, "data" : "0f0065", "code" : 983141}
+{"time" : "@0.620568s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@0.620568s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@0.620568s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@0.620568s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@0.620568s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@0.620568s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@0.620568s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@0.620568s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@0.941420s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 24, "data" : "0f0065", "code" : 983141}
+{"time" : "@1.005504s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 24, "data" : "0f0065", "code" : 983141}
+{"time" : "@1.069608s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 24, "data" : "0f0065", "code" : 983141}
+{"time" : "@1.069608s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@1.069608s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@1.069608s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@1.069608s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@1.069608s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@1.069608s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@1.069608s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@1.069608s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@1.069608s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@1.069608s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@1.069608s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@1.069608s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@1.069608s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@1.069608s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@1.069608s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@1.069608s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@1.069608s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@1.069608s", "model" : "Generic-Remote", "id" : 30847, "cmd" : 205, "tristate" : "Z1X0Z111101Z"}
+{"time" : "@1.711320s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 24, "data" : "0f0065", "code" : 983141}
+{"time" : "@1.775464s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 24, "data" : "0f0065", "code" : 983141}
+{"time" : "@1.775464s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@1.775464s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}
+{"time" : "@1.775464s", "model" : "DY-SQ100B-WaterLeak-EV1527", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "8780328", "code" : 8880178}

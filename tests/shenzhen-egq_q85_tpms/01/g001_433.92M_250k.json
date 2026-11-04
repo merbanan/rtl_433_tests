@@ -1,0 +1,6 @@
+{"time" : "@0.305032s", "model" : "Shenzhen-EGQQ85", "type" : "TPMS", "id" : "07627907", "flags" : "ac", "pressure_kPa" : 105.000, "temperature_C" : 25.000, "status" : 27, "mic" : "CRC"}
+{"time" : "@0.334408s", "model" : "Shenzhen-EGQQ85", "type" : "TPMS", "id" : "07627907", "flags" : "ac", "pressure_kPa" : 105.000, "temperature_C" : 25.000, "status" : 27, "mic" : "CRC"}
+{"time" : "@0.363788s", "model" : "Shenzhen-EGQQ85", "type" : "TPMS", "id" : "07627907", "flags" : "ac", "pressure_kPa" : 105.000, "temperature_C" : 25.000, "status" : 27, "mic" : "CRC"}
+{"time" : "@0.643772s", "model" : "Shenzhen-EGQQ85", "type" : "TPMS", "id" : "07627907", "flags" : "ac", "pressure_kPa" : 105.000, "temperature_C" : 26.000, "status" : 27, "mic" : "CRC"}
+{"time" : "@0.673152s", "model" : "Shenzhen-EGQQ85", "type" : "TPMS", "id" : "07627907", "flags" : "ac", "pressure_kPa" : 105.000, "temperature_C" : 26.000, "status" : 27, "mic" : "CRC"}
+{"time" : "@0.702532s", "model" : "Shenzhen-EGQQ85", "type" : "TPMS", "id" : "07627907", "flags" : "ac", "pressure_kPa" : 105.000, "temperature_C" : 26.000, "status" : 27, "mic" : "CRC"}

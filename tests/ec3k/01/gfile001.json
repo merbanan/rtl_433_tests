@@ -1,0 +1,2 @@
+{"time" : "@0.252580s", "model" : "Voltcraft-EC3k", "id" : 58027, "power" : 32.300, "energy" : 118.801, "energy2" : 1.514, "time_total" : 16542097, "time_on" : 16542097, "power_max" : 122.800, "reset_counter" : 1, "flags" : 8, "mic" : "CRC"}
+{"time" : "@0.456656s", "model" : "Voltcraft-EC3k", "id" : 58000, "power" : 2.400, "energy" : 33.062, "energy2" : 0.496, "time_total" : 10242485, "time_on" : 10145423, "power_max" : 2064.300, "reset_counter" : 1, "flags" : 8, "mic" : "CRC"}

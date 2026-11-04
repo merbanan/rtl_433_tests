@@ -1,0 +1,19 @@
+# Oregon Scientific WMR500 weather station, issue #2407.
+# Real "long" (LEN=25) messages from one real sensor, spread across a
+# session where the display showed 7.1 C/59% humidity at the start and
+# 9.9 C/49% humidity at the end. Raw pre-invert bits, prefixed with the
+# raw (non-inverted) preamble/sync aad391d391.
+# 11:02:03, session start (7.1 C, 59% reported)
+{264}aad391d391e6013ddae2062220ea7ac0390cb04cec6a7f4c7836f2453c5743b203
+# 11:13:22
+{264}aad391d391e6013fdae2062220ea7a12391db04c8c6a7f4c7836f2453c5702f88d
+# 11:24:41
+{264}aad391d391e6013ddae2062220ea7afe6915b04b7c687f4c7836f2453c57a58944
+# 11:34:03
+{264}aad391d391e6013fdae2062220ea7afe6915b04acc6c7f4c7836f2453c5712da00
+# 11:43:25
+{264}aad391d391e6013ddae2062220ea7af06935b0484c617f4c7836f2453c57c75039
+# 11:54:44
+{264}aad391d391e6013fdae2062220ea7a126975b0482c677f4c7836f2453c5785ab32
+# 12:03:36, session end (9.9 C, 49% reported)
+{264}aad391d391e6013fdae2062220ec7a126975b0482c607f4c7836f2453c57baf3a2

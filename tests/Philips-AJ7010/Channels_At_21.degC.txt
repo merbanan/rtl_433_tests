@@ -1,0 +1,9 @@
+[rec_philips_21.1_ch2_B] {40}ffbaddd6b1
+{40}ffbaddd698
+{40}ffbaddd6b1
+[rec_philips_21.4_ch1_B] {40}ffa588d6fb
+{40}ffa588d6d2
+{40}ffa588d6fb
+[rec_philips_21.4_ch1_C] {40}ffa583d6f0
+{40}ffa583d6d9
+{40}ffa583d6f0

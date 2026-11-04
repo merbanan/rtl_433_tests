@@ -1,0 +1,18 @@
+# NetAtmo outdoor temp/hum and wind sensors
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/pull/3396 (src/devices/netatmo_thw.c)
+# These three codes are the example frames from the decoder's own doc
+# comment, prefixed with the aaaae712 preamble+syncword. Each is CRC16
+# (poly=0x8005, init=0xffff) verified.
+#
+# TH data message (every 50s): id 015a9102, battery 6830 mV, signal -83 dB,
+# temperature 11.8 C, humidity 88 %
+{256}aaaae71219015a91027dad570d0000000000000000350000000076000158693c
+
+# TH status message (every 6s): id 015a9102, signal -83 dB
+{104}aaaae71206015a91027dade52a
+
+# Wind data message (every 6s): id 015a9103, battery 6166 mV, signal -65 dB,
+# wind_spd_km_h 3.167, wind_dir_deg 236
+{448}aaaae71231015a910300bf161800000000000000001b000000000000022900e4ffd2fff0ff118e1f2a008e1f2a0067ae2900c4af2900a152

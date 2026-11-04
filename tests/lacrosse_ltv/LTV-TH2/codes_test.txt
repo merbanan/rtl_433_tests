@@ -1,0 +1,27 @@
+# LaCrosse Technology View LTV-TH2 / LTV-TH2i Thermo/Hygro Sensor
+# {N}<hex>
+# Source: https://github.com/merbanan/rtl_433_tests/pull/404
+#
+# g001/g002 below are extracted from g001/g002_915M_1000k.cu8 in this
+# directory (the files that made it into the final merge). Both are from
+# the same sensor (id 3335511), consecutive sequence numbers. g001 uses the
+# LTV-TH2i CRC-8 init 0xb2 variant (fails to decode without that check),
+# g002 uses the original LTV-TH2 CRC-8 init 0xac variant.
+#
+# The remaining 5 codes are from a second, independent sensor (id 1306551)
+# posted by @zuckschwerdt in the PR discussion, from an earlier round of
+# g001-g012 captures that were replaced before the final merge (recovered
+# from https://github.com/merbanan/rtl_433_tests/pull/404#issuecomment-964905961,
+# originally g002/g004/g009/g010/g011_915M_1000k.cu8, no longer in the repo
+# history's final tree). These decode at 250 bits (below the 280-bit
+# TH2/TH3 length heuristic), so the decoder reports them as "LaCrosse-TH3"
+# even though the sensor hardware is TH2 -- a pre-existing length-heuristic
+# quirk, not a decode error (CRC-8 init 0xac validates correctly).
+#
+{283}555555555555555a5545ba865caae1452c09b27a5a5a5a5a40000000000000000000000  # g001 (final), seq 5, CRC init 0xb2 (TH2i)
+{283}555555555555555a5545ba865caae1852c09acba5a5a5a5a40000000000000000000000  # g002 (final), seq 6, CRC init 0xac (TH2)
+{250}555555555555555a5545ba827df6e0c48c06203a5a5a5a5a400000000000000  # id 1306551, seq 3
+{250}555555555555555a5545ba827df6e1048c06229a5a5a5a5a400000000000000  # id 1306551, seq 4
+{250}555555555555555a5545ba827df6e1c48e062e7a5a5a5a5a400000000000000  # id 1306551, seq 7
+{250}555555555555555a5545ba827df6e0048e062cda5a5a5a5a400000000000000  # id 1306551, seq 0
+{250}555555555555555a5545ba827df6e0448e062c3a5a5a5a5a400000000000000  # id 1306551, seq 1

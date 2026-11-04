@@ -1,0 +1,195 @@
+{
+  "Acurite-609TXC": {
+    "count": 10,
+    "models": [
+      "Esun-EN2053",
+      "Oregon-SL109H"
+    ]
+  },
+  "Acurite-985": {
+    "count": 1,
+    "models": [
+      "TFA-303225"
+    ]
+  },
+  "Ambientweather-F007TH": {
+    "count": 10,
+    "models": [
+      "Typhur-SyncGold"
+    ]
+  },
+  "Chrysler-CarRemote": {
+    "count": 1,
+    "models": [
+      "iMars-T240"
+    ]
+  },
+  "Conrad-S3318P": {
+    "count": 1,
+    "models": [
+      "Vauno-EN8822C"
+    ]
+  },
+  "Cotech-367959": {
+    "count": 1,
+    "models": [
+      "Typhur-SyncGold"
+    ]
+  },
+  "EcoEye": {
+    "count": 1,
+    "models": [
+      "LaCrosse-TX232TH"
+    ]
+  },
+  "EezTire-E618": {
+    "count": 2,
+    "models": [
+      "iMars-T240"
+    ]
+  },
+  "Fineoffset-WH0530": {
+    "count": 1,
+    "models": [
+      "GT-WT02"
+    ]
+  },
+  "Ford": {
+    "count": 2,
+    "models": [
+      "Schrader-SMD3MA4"
+    ]
+  },
+  "Geevon-TX163": {
+    "count": 9,
+    "models": [
+      "Geevon-TX191"
+    ]
+  },
+  "Generic-Remote": {
+    "count": 1,
+    "models": [
+      "DY-SQ100B-WaterLeak-EV1527"
+    ]
+  },
+  "KlikAanKlikUit-Switch": {
+    "count": 154,
+    "models": [
+      "Nexa-Security",
+      "Proove-Security"
+    ]
+  },
+  "LaCrosse-R1": {
+    "count": 12,
+    "models": [
+      "LaCrosse-TH3",
+      "LaCrosse-TX232TH"
+    ]
+  },
+  "LaCrosse-R3": {
+    "count": 16,
+    "models": [
+      "LaCrosse-BreezePro",
+      "LaCrosse-TX232TH"
+    ]
+  },
+  "LaCrosse-TH3": {
+    "count": 10,
+    "models": [
+      "LaCrosse-TX232TH"
+    ]
+  },
+  "LaCrosse-TX22UIT": {
+    "count": 1,
+    "models": [
+      "EcoWitt-WN20"
+    ]
+  },
+  "LaCrosse-TX232TH": {
+    "count": 1,
+    "models": [
+      "LaCrosse-TH2"
+    ]
+  },
+  "Marlec-Solar": {
+    "count": 3,
+    "models": [
+      "Watts-WFHTLCDRF"
+    ]
+  },
+  "NETIDM": {
+    "count": 1,
+    "models": [
+      "IDM"
+    ]
+  },
+  "Nexa-Security": {
+    "count": 125,
+    "models": [
+      "KlikAanKlikUit-Switch",
+      "Proove-Security"
+    ]
+  },
+  "Proove-Security": {
+    "count": 67,
+    "models": [
+      "KlikAanKlikUit-Switch",
+      "Nexa-Security"
+    ]
+  },
+  "Schrader-EG53MA4": {
+    "count": 12,
+    "models": [
+      "Schrader-SMD3MA4"
+    ]
+  },
+  "Schrader-NIS315G3": {
+    "count": 34,
+    "models": [
+      "Schrader-SMD3MA4"
+    ]
+  },
+  "TFA-TwinPlus": {
+    "count": 1,
+    "models": [
+      "Auriol-HG04641A"
+    ]
+  },
+  "UniFan-24V": {
+    "count": 5,
+    "models": [
+      "Geevon-TX191"
+    ]
+  },
+  "Vauno-EN8822C": {
+    "count": 2,
+    "models": [
+      "Auriol-AHFL"
+    ]
+  },
+  "WEC-2103": {
+    "count": 1,
+    "models": [
+      "Basics-Meat"
+    ]
+  },
+  "Watchman-Plus": {
+    "count": 1,
+    "models": [
+      "Typhur-SyncGold"
+    ]
+  },
+  "emonTx-Energy": {
+    "count": 1,
+    "models": [
+      "Oil-SonicSmart"
+    ]
+  },
+  "inFactory-TH": {
+    "count": 5,
+    "models": [
+      "Alecto-WS1200v2",
+      "Esun-EN2053"
+    ]
+  }
+}

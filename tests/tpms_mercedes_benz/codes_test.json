@@ -1,0 +1,9 @@
+{"model" : "MercedesBenz-Sprinter", "type" : "TPMS", "id" : "247e80b6", "pressure_PSI" : 65.091, "temperature_C" : 22.000, "counter" : 9, "flags1" : 2, "flags2" : 107, "mic" : "CRC"}
+{"model" : "MercedesBenz-Sprinter", "type" : "TPMS", "id" : "247e80b6", "pressure_PSI" : 65.091, "temperature_C" : 22.000, "counter" : 10, "flags1" : 2, "flags2" : 107, "mic" : "CRC"}
+{"model" : "MercedesBenz-Sprinter", "type" : "TPMS", "id" : "247e80b6", "pressure_PSI" : 65.455, "temperature_C" : 22.000, "counter" : 11, "flags1" : 2, "flags2" : 107, "mic" : "CRC"}
+{"model" : "MercedesBenz-Sprinter", "type" : "TPMS", "id" : "247e80b6", "pressure_PSI" : 65.091, "temperature_C" : 22.000, "counter" : 14, "flags1" : 2, "flags2" : 107, "mic" : "CRC"}
+{"model" : "MercedesBenz-Sprinter", "type" : "TPMS", "id" : "247e80b6", "pressure_PSI" : 65.091, "temperature_C" : 22.000, "counter" : 15, "flags1" : 2, "flags2" : 107, "mic" : "CRC"}
+{"model" : "MercedesBenz-Sprinter", "type" : "TPMS", "id" : "247e80b6", "pressure_PSI" : 65.455, "temperature_C" : 22.000, "counter" : 16, "flags1" : 2, "flags2" : 107, "mic" : "CRC"}
+{"model" : "MercedesBenz-Sprinter", "type" : "TPMS", "id" : "247e80b6", "pressure_PSI" : 65.455, "temperature_C" : 22.000, "counter" : 17, "flags1" : 2, "flags2" : 107, "mic" : "CRC"}
+{"model" : "MercedesBenz-Sprinter", "type" : "TPMS", "id" : "247e80b6", "pressure_PSI" : 65.455, "temperature_C" : 22.000, "counter" : 19, "flags1" : 2, "flags2" : 107, "mic" : "CRC"}
+{"model" : "MercedesBenz-Sprinter", "type" : "TPMS", "id" : "247e80b6", "pressure_PSI" : 65.455, "temperature_C" : 22.000, "counter" : 20, "flags1" : 2, "flags2" : 107, "mic" : "CRC"}

@@ -1,0 +1,12 @@
+# Kidde RF-SM-DC wireless-interconnect smoke alarm, issue #2240.
+# Raw DMC chips (dominant repeated pulse_slicer_pcm code, by a wide margin,
+# in each reporter's real capture -- see 01/README.md), one per real
+# DIP switch setting. Verified with `rtl_433 -R 361 -y '<code>' -F json`.
+# DIP 00000000 (also backed by a full real .cu8 capture in 01/)
+{67}aa155555999955500
+# DIP 11110000
+{66}aa155665999956600
+# DIP 10000000
+{66}aa15555a6666aaa00
+# DIP 11111111
+{66}aa166665999a66600

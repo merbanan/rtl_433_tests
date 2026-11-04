@@ -1,0 +1,2 @@
+{"time" : "@0.031971s", "type" : "TPMS", "model" : "Steelmate", "id" : "0x5133", "pressure_kPa" : 112.500, "temperature_C" : 22, "alarm" : "fast leak", "mic" : "CHECKSUM"}
+{"time" : "@0.039924s", "type" : "TPMS", "model" : "Steelmate", "id" : "0x5133", "pressure_kPa" : 112.500, "temperature_C" : 22, "alarm" : "fast leak", "mic" : "CHECKSUM"}

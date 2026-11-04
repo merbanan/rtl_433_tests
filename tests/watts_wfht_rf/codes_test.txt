@@ -1,0 +1,17 @@
+# Watts WFHT-RF / WFHC-MASTERH&C-RF underfloor heating thermostat
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/pull/3561 (decoder by Steven Bontius) and
+# https://github.com/merbanan/rtl_433_tests/pull/502 (real captures, same author).
+# Protocol documented at
+# https://github.com/StevenBontius/watts-wfht-ha/blob/main/docs/WATTS_WFHT_RF_PROTOCOL.md
+#
+# One frame extracted from each of the 3 captures in 01/ (both CRC-8 and CRC-16/CMS
+# verified independently in Python against the documented algorithms before adding).
+
+# pairing_thermostat: pairing=true, mode=heat, temp=26.0C, setpoint=17.6C
+{192}2aaaaaaad391d3910dfffffe03349e48010400b000d08f7f
+# turning_thermostat_off: setpoint=0.0C (thermostat off)
+{192}2aaaaaaad391d3910dfffffe02349e4800ff00000092b6ef
+# turning_thermostat_on: setpoint=17.5C
+{192}2aaaaaaad391d3910dfffffe02349e4800ff00af002abd33

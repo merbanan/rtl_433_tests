@@ -1,0 +1,6 @@
+{"time" : "@0.077704s", "model" : "DirecTV-RC66RX", "id" : 0, "button_id" : 37, "button_name" : "SELECT", "event" : "INITIAL", "mic" : "CHECKSUM"}
+{"time" : "@0.144332s", "model" : "DirecTV-RC66RX", "id" : 0, "button_id" : 37, "button_name" : "SELECT", "event" : "REPEAT", "mic" : "CHECKSUM"}
+{"time" : "@0.207984s", "model" : "DirecTV-RC66RX", "id" : 0, "button_id" : 37, "button_name" : "SELECT", "event" : "REPEAT", "mic" : "CHECKSUM"}
+{"time" : "@0.271640s", "model" : "DirecTV-RC66RX", "id" : 0, "button_id" : 37, "button_name" : "SELECT", "event" : "REPEAT", "mic" : "CHECKSUM"}
+{"time" : "@0.335300s", "model" : "DirecTV-RC66RX", "id" : 0, "button_id" : 37, "button_name" : "SELECT", "event" : "REPEAT", "mic" : "CHECKSUM"}
+{"time" : "@0.418752s", "model" : "DirecTV-RC66RX", "id" : 0, "button_id" : 214, "button_name" : "SELECT RELEASE", "event" : "INITIAL", "mic" : "CHECKSUM"}

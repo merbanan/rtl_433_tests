@@ -1,0 +1,12 @@
+# Malibu Surf Band frames: sync word, then length, payload and CRC-16.
+# One code per button, plus the Hold (repeat) and Release frames.
+{104}2dd408425501014f4e010d7557 # Surf Left (SW1)
+{104}2dd408425507074f4e070df042 # Surf Right (SW3)
+{104}2dd40842550a0a4f4e0a0d8416 # Volume Up (SW4)
+{104}2dd408425503034f4e030d09a4 # Volume Down (SW9)
+{104}2dd408425502024f4e020df7df # Wedge Up (SW5)
+{104}2dd408425505054f4e050d8cb1 # Wedge Down (SW6)
+{104}2dd408425508084f4e080df8e5 # Speed Up (SW7)
+{104}2dd40842550b0b4f4e0b0d7a6d # Speed Down (SW8)
+{104}2dd4084255aaaa4f4eaa0d77b6 # Hold
+{104}2dd408425500004f4e000d8b2c # Release

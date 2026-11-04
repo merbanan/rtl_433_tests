@@ -1,0 +1,20 @@
+Protocol
+
+Proove packet structure (32 bits):  
+HHHH HHHH HHHH HHHH HHHH HHHH HHGO CCEE  
+H = The first 26 bits are transmitter unique codes, and it is this code that the reciever “learns” to recognize.  
+G = Group code. Set to 0 for on, 1 for off.  
+O = On/Off bit. Set to 0 for on, 1 for off.  
+C = Channel bits.  
+E = Unit bits. Device to be turned on or off. Unit #1 = 00, #2 = 01, #3 = 10.
+
+Physical layer.
+Every bit in the packets structure is sent as two physical bits.
+Where the second bit is the inverse of the first, i.e. 0 -> 01 and 1 -> 10.
+Example: 10101110 is sent as 1001100110101001
+The sent packet length is thus 64 bits.
+A message is made up by a Sync bit followed by the Packet bits and ended by a Pause bit.
+Every message is repeated four times.
+
+http://elektronikforumet.com/wiki/index.php/RF_Protokoll_-_Proove_self_learning
+

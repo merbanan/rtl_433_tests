@@ -1,0 +1,62 @@
+# Holman WS5029 (older PWM), OOK variant, sold as
+# BIOWIN / 2measure / Bioterm No. 270208 weather station
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/1476
+#
+# Extracted from the BitBench-annotated codes posted in the issue (raw wire
+# bytes, the decoder inverts internally). Each code is repeated 3x with `/`
+# since the decoder requires bitbuffer_find_repeated_row(3, 96).
+#
+# Annotations are the weather-station console's own on-screen readings as
+# posted by the reporter; they cross-validate temperature, humidity, wind
+# speed, wind direction (compass point), and the rain counter. Barometric
+# pressure could not be located in the frame (see README.md) -- it is
+# likely computed locally by the console, not transmitted over RF.
+
+# 24C 36%
+{96}555a67a3ff0fdbf7bf996eff/{96}555a67a3ff0fdbf7bf996eff/{96}555a67a3ff0fdbf7bf996eff
+# 24.3C 36%
+{96}555a67a3ff0cdbf7bf996dff/{96}555a67a3ff0cdbf7bf996dff/{96}555a67a3ff0cdbf7bf996dff
+# 23.6C 36%
+{96}555a67a3ff13dbf7bf9972ff/{96}555a67a3ff13dbf7bf9972ff/{96}555a67a3ff13dbf7bf9972ff
+# 22.8C 37% 1006hPa
+{96}555a67a3ff1bdaf7bfa97bff/{96}555a67a3ff1bdaf7bfa97bff/{96}555a67a3ff1bdaf7bfa97bff
+# 22.9C 37% 1006hPa 5km/h
+{96}555a67a3ff1adaf7bfa675ff/{96}555a67a3ff1adaf7bfa675ff/{96}555a67a3ff1adaf7bfa675ff
+# 23C 37% 1006hPa 4km/h
+{96}555a67a3ff19daf7bfb565ff/{96}555a67a3ff19daf7bfb565ff/{96}555a67a3ff19daf7bfb565ff
+# 23.1C 37% 1006hPa 5km/h
+{96}555a67a3ff18daf7bfa677ff/{96}555a67a3ff18daf7bfa677ff/{96}555a67a3ff18daf7bfa677ff
+# 23.2C 37% 1006hPa 5km/h
+{96}555a67a3ff17daf7bfa47aff/{96}555a67a3ff17daf7bfa47aff/{96}555a67a3ff17daf7bfa47aff
+# 23.4C 37% 1006hPa 5km/h
+{96}555a67a3ff15daf7bfa874ff/{96}555a67a3ff15daf7bfa874ff/{96}555a67a3ff15daf7bfa874ff
+# 26.4C 34% 1005hPa 5km/h
+{96}555a67a3fef7ddf7bfa9317f/{96}555a67a3fef7ddf7bfa9317f/{96}555a67a3fef7ddf7bfa9317f
+# 27.5C 33% 1005hPa 13km/h
+{96}555a67a3feecdef7bf26f6ff/{96}555a67a3feecdef7bf26f6ff/{96}555a67a3feecdef7bf26f6ff
+# 28.8C 35% 1005hPa 5km/h SE
+{96}555a67a3fedfdcf7bfa928ff/{96}555a67a3fedfdcf7bfa928ff/{96}555a67a3fedfdcf7bfa928ff
+# 28.5C 35% 1005hPa 4km/h SSE
+{96}555a67a3fee2dcf7bfb8047f/{96}555a67a3fee2dcf7bfb8047f/{96}555a67a3fee2dcf7bfb8047f
+# 28.0C 35% 1005hPa 4km/h S
+{96}555a67a3fee7dcf7bfb70eff/{96}555a67a3fee7dcf7bfb70eff/{96}555a67a3fee7dcf7bfb70eff
+# 29.1C 34% 8km/h SE
+{96}555a67a3fedcddf7bf79ca7f/{96}555a67a3fedcddf7bf79ca7f/{96}555a67a3fedcddf7bf79ca7f
+# rain event, rain counter 132 -> 135
+{96}555a67a3fee6ddf78f9b227f/{96}555a67a3fee6ddf78f9b227f/{96}555a67a3fee6ddf78f9b227f
+# more rain, rain counter 135 -> 139
+{96}555a67a3fedcdcf74fb8ca7f/{96}555a67a3fedcdcf74fb8ca7f/{96}555a67a3fedcdcf74fb8ca7f
+# RAIN 24h 5.5mm 1004hPa, rain counter 139
+{96}555a67a3fee4ddf74f69127f/{96}555a67a3fee4ddf74f69127f/{96}555a67a3fee4ddf74f69127f
+# Rain 24h 19.7mm total 111.3mm, rain counter 157
+{96}555a67a3fee1ddf62fa7b8ff/{96}555a67a3fee1ddf62fa7b8ff/{96}555a67a3fee1ddf62fa7b8ff
+# last hour 0.7mm more rain, rain counter 158
+{96}555a67a3fedbe1f61f7d147f/{96}555a67a3fedbe1f61f7d147f/{96}555a67a3fedbe1f61f7d147f
+# last hour 1.5mm, last 24h 21.3mm, total 112.9mm, rain counter 159
+{96}555a67a3fedae1f60f97ef7f/{96}555a67a3fedae1f60f97ef7f/{96}555a67a3fedae1f60f97ef7f
+# wind E
+{96}555a67a3fed8e2f60f8ba2ff/{96}555a67a3fed8e2f60f8ba2ff/{96}555a67a3fed8e2f60f8ba2ff
+# 1004hPa SSE
+{96}555a67a3fed9e1f60f58237f/{96}555a67a3fed9e1f60f58237f/{96}555a67a3fed9e1f60f58237f

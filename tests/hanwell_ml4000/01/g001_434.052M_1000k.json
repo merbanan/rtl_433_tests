@@ -1,0 +1,4 @@
+{"time" : "@0.042562s", "model" : "Hanwell-ML4000", "id" : 1, "temperature_raw" : 941, "humidity_raw" : 1658, "mic" : "CHECKSUM"}
+{"time" : "@0.302211s", "model" : "Hanwell-ML4000", "id" : 1, "temperature_raw" : 941, "humidity_raw" : 1658, "mic" : "CHECKSUM"}
+{"time" : "@0.564463s", "model" : "Hanwell-ML4000", "id" : 1, "temperature_raw" : 944, "humidity_raw" : 1658, "mic" : "CHECKSUM"}
+{"time" : "@1.037458s", "model" : "Hanwell-ML4000", "id" : 1, "temperature_raw" : 944, "humidity_raw" : 1661, "mic" : "CHECKSUM"}

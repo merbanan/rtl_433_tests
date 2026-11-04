@@ -1,0 +1,4 @@
+{"model" : "Watts-WFHTRF", "id" : 28082, "pairing" : 0, "temperature_C" : 26.200, "setpoint_C" : 22.100, "flags" : 0, "mic" : "CHECKSUM"}
+{"model" : "Watts-WFHTRF", "id" : 28252, "pairing" : 1, "temperature_C" : 24.600, "setpoint_C" : 16.900, "flags" : 1, "mic" : "CHECKSUM"}
+{"model" : "Watts-WFHTRF", "id" : 28252, "pairing" : 0, "temperature_C" : 24.600, "setpoint_C" : 18.600, "flags" : 0, "mic" : "CHECKSUM"}
+{"model" : "Watts-WFHTRF", "id" : 28252, "pairing" : 0, "temperature_C" : 24.800, "setpoint_C" : 30.300, "flags" : 0, "mic" : "CHECKSUM"}

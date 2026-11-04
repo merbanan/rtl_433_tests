@@ -1,0 +1,87 @@
+# Esun EN2053 two-channel BBQ thermometer
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/1478
+#
+# The first 26 codes are the annotated table from the issue body plus the
+# codes decoded from the 40 s AM audio recording attached to the issue
+# (433.927_2020-08-22_17-33-18_feelle_us_02_x0028wrohl.wav.gz); the last
+# 2 are from the .cu8 samples in ch1_around_72-to-73F.tar.gz (also in 01/).
+# Annotations are the display console's readings ("LLL" = probe
+# disconnected, transmitted as 0xfd6). Each code is repeated 2x with `/`
+# since the decoder requires bitbuffer_find_repeated_row(2, 40).
+
+# ch1 LLL, ch2 84F
+{40}c0fd605451/{40}c0fd605451
+# ch1 LLL, ch2 83F
+{40}c0fd6053d0/{40}c0fd6053d0
+# ch1 LLL, ch2 86F
+{40}c0fd6056d3/{40}c0fd6056d3
+# ch1 LLL, ch2 88F
+{40}c0fd605855/{40}c0fd605855
+# ch1 LLL, ch2 87F
+{40}c0fd605754/{40}c0fd605754
+# ch1 LLL, ch2 85F
+{40}c0fd6055d2/{40}c0fd6055d2
+# ch1 LLL, ch2 90F
+{40}c0fd605ad7/{40}c0fd605ad7
+# ch1 LLL, ch2 89F
+{40}c0fd6059d6/{40}c0fd6059d6
+# ch1 LLL, ch2 72F
+{40}c0fd6048d5/{40}c0fd6048d5
+# ch1 LLL, ch2 70F
+{40}c0fd604653/{40}c0fd604653
+# ch1 LLL, ch2 69F
+{40}c0fd604552/{40}c0fd604552
+# ch1 LLL, ch2 68F
+{40}c0fd6044d1/{40}c0fd6044d1
+# ch1 LLL, ch2 67F
+{40}c0fd604350/{40}c0fd604350
+# ch1 LLL, ch2 58F
+{40}c0fd603ad7/{40}c0fd603ad7
+# ch1 LLL, ch2 56F
+{40}c0fd603855/{40}c0fd603855
+# ch1 LLL, ch2 55F
+{40}c0fd603754/{40}c0fd603754
+# ch1 LLL, ch2 54F
+{40}c0fd6036d3/{40}c0fd6036d3
+# ch1 LLL, ch2 35F
+{40}c0fd602350/{40}c0fd602350
+# ch1 LLL, ch2 37F
+{40}c0fd602552/{40}c0fd602552
+# ch1 LLL, ch2 36F
+{40}c0fd6024d1/{40}c0fd6024d1
+# both probes disconnected
+{40}c0fd6fd652/{40}c0fd6fd652
+# ch1 38F, ch2 LLL
+{40}c0026fd657/{40}c0026fd657
+# ch1 37F, ch2 LLL
+{40}c0025fd657/{40}c0025fd657
+# ch1 36F, ch2 LLL
+{40}c0024fd617/{40}c0024fd617
+# ch1 35F, ch2 LLL
+{40}c0023fd657/{40}c0023fd657
+# ch1 84F, ch2 LLL
+{40}c0054fd632/{40}c0054fd632
+# ch1 83F, ch2 LLL
+{40}c0053fd672/{40}c0053fd672
+# ch1 91F, ch2 LLL
+{40}c005bfd632/{40}c005bfd632
+# ch1 89F, ch2 LLL
+{40}c0059fd672/{40}c0059fd672
+# ch1 90F, ch2 LLL (from wav)
+{40}c005afd672/{40}c005afd672
+# ch1 92F, ch2 LLL (from wav)
+{40}c005cfd672/{40}c005cfd672
+# ch1 93F, ch2 LLL (from wav)
+{40}c005dfd632/{40}c005dfd632
+# ch1 LLL, ch2 91F (from wav)
+{40}c0fd605b50/{40}c0fd605b50
+# ch1 LLL, ch2 92F (from wav)
+{40}c0fd605cd1/{40}c0fd605cd1
+# ch1 LLL, ch2 167F (from wav)
+{40}c0fd60a754/{40}c0fd60a754
+# ch1 73F, ch2 LLL (from cu8)
+{40}c0049fd651/{40}c0049fd651
+# ch1 72F, ch2 LLL (from cu8)
+{40}c0048fd611/{40}c0048fd611

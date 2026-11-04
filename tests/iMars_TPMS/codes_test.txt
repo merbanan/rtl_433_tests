@@ -1,0 +1,53 @@
+# iMars T240 TPMS
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/issues/1820
+#
+# These 37 codes are the deduplicated raw OOK_PCM codes from
+# sensor-a.txt (comment attached to the issue, "around 80 valid data
+# packages" from one physical sensor), captured with
+# `rtl_433 -s 1M -R 0 -X 'n=name,m=OOK_PCM,s=50,l=50,r=130,bits>=100'`.
+# This is the second of the two physical sensor units confirmed in the
+# issue (checksum 0x3c, see ../README.md) -- distinct from the unit in
+# 01/'s real .cu8 captures (checksum 0x41).
+#
+# No ground-truth pressure/temperature reading exists for any of these
+# (see ../README.md), so only the validated raw `code` is checked.
+
+{164}aaaaaaaa555655569a59999a96569565a55955560
+{164}aaaaaaaa555a555a9a5aa669699a9699aa9a555a0
+{164}aaaaaaaa555aa65a9a5599a695aa9569a966555a0
+{164}aaaaaaaa5566a66699a999aa95a69595a9a955660
+{164}aaaaaaaa55aaa6aa99669a96955a9659a95655aa0
+{164}aaaaaaaa565a565a99569aa66aaa96699a9a565a0
+{164}aaaaaaaa5666566696a69aaa6aa69695a6aa56660
+{164}aaaaaaaa56a655a69669a56a6a669955a95556a60
+{164}aaaaaaaa56aaa9aa965aa5966a5a99599a9956aa0
+{164}aaaaaaaa5966596695a9a5aa69a699959a5559660
+{164}aaaaaaaa59a659a6956aa66a69669a559a5659a60
+{164}aaaaaaaa59aa59aa955aa696695a9a59996659aa0
+{164}aaaaaaaa5a965a966a99a95a66969aa595aa5a960
+{164}aaaaaaaa5aa659a66a6aa96a6666a555a5555aa60
+{164}aaaaaaaa5aa65aa66a6aa96a6666a555965a5aa60
+{164}aaaaaaaa655a655a6a55a9a665aaa569965a655a0
+{164}aaaaaaaa656a656a69a6aa56659aa5996a9a656a0
+{164}aaaaaaaa65965a966996aa5a6596a5a599a565960
+{164}aaaaaaaa65965a96699aaa5a6596a5a599a965960
+{164}aaaaaaaa65a665a6696aaa6a6566a6556aa665a60
+{164}aaaaaaaa65aa56aa6965aa96655aa659966a65aa0
+{164}aaaaaaaa665a665a6955aaa65aaaa6699596665a0
+{164}aaaaaaaa6666666666a9aaaa5aa6a6956a9966660
+{164}aaaaaaaa66966696669a555a5a96a6a5955566960
+{164}aaaaaaaa669a659a669655665a6aa6a99956669a0
+{164}aaaaaaaa669a669a669555665a6aa6a96956669a0
+{164}aaaaaaaa66a666a6666a556a5a66a955956a66a60
+{164}aaaaaaaa66a666a6666a556a5a66a95595a566a60
+{164}aaaaaaaa66aa66aa666655965a5aa95969a666aa0
+{164}aaaaaaaa696a696a65a55656599aa99966a6696a0
+{164}aaaaaaaa699666966599565a5996a9a5965a69960
+{164}aaaaaaaa6a566a566556569a5956aa65696a6a560
+{164}aaaaaaaa6a566a566556569a5956aa6595a56a560
+{164}aaaaaaaa6a566a56655a569a5956aa6569566a560
+{164}aaaaaaaa6a5a655a655556a656aaaa69699a6a5a0
+{164}aaaaaaaa6a666a665aa956aa56a6aa9566566a660
+{164}aaaaaaaa6aaa69aa5a655996565a555969aa6aaa0

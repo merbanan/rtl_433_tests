@@ -1,0 +1,2 @@
+{"time" : "@0.187932s", "model" : "AmbientWeather-WH31E", "id" : 40, "channel" : 4, "battery_ok" : 1, "temperature_C" : -2.600, "humidity" : 33, "data" : "1000000000", "mic" : "CRC"}
+{"time" : "@0.187932s", "model" : "AmbientWeather-WH31E", "id" : 40, "channel" : 4, "battery_ok" : 1, "temperature_C" : -2.600, "humidity" : 33, "data" : "1000000000", "mic" : "CRC"}

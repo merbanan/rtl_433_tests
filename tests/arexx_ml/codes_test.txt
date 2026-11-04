@@ -1,0 +1,26 @@
+# Arexx Multilogger TSN-70E, extended (24-bit) ID variant
+# {N}<hex>
+#
+# Source: https://github.com/merbanan/rtl_433/pull/3488
+# (posted by @inonoob in the PR discussion, 2026-03-08)
+#
+# rtl_433's own "codes" debug field (as printed by -M level/-M protocol,
+# and as pasted verbatim in the PR) reflects the bitbuffer *after* the
+# decoder's internal bitbuffer_invert() has already run once, so each
+# code below is the bit-inverted form of what was posted, to end up back
+# in the right polarity after the decoder inverts it again.
+
+# id 199197 (0x030a1d), humidity 48.8 % -- original bug report code
+{121}2aaaaaaad57c717afe5ffd1b7807fff
+
+# id 199197 (0x030a1d), humidity 48.8 % -- second capture, same sensor
+{121}2aaaaaaad57c717afe5ffd1bd728fff
+
+# id 18821 (0x004985), humidity 49.5 %
+{138}2aaaaaaad57d3d5b7d0fee7ffd7bbd9cdb7
+
+# id 199196 (0x030a1c), temperature 23.01 C
+{121}2aaaaaaad57c71fafe5ff3b10c73fff
+
+# id 18820 (0x004984), temperature 23.00 C
+{137}2aaaaaaad57d3ddb73b1b6fffd7bbde25cf

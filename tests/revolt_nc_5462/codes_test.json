@@ -1,0 +1,2 @@
+{"time": "2026-07-19 18:19:24", "model": "Revolt-NC5462", "id": 545, "voltage_V": 233, "current_A": 0.0, "frequency_Hz": 50, "power_W": 0.4, "power_factor_VA": 1.0, "energy_kWh": 307.12, "button": 0, "mic": "CHECKSUM"}
+{"time": "2026-07-19 18:19:24", "model": "Revolt-NC5462", "id": 545, "voltage_V": 233, "current_A": 0.31, "frequency_Hz": 50, "power_W": 65.4, "power_factor_VA": 0.9, "energy_kWh": 307.13, "button": 1, "mic": "CHECKSUM"}

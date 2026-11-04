@@ -1,0 +1,4 @@
+{"time" : "@0.075779s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c000033", "id" : "A2CA2A", "pressure_kPa" : 2.500, "temperature_F" : 86.000, "mic" : "CHECKSUM"}
+{"time" : "@0.236481s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c000033", "id" : "A2CA2A", "pressure_kPa" : 2.500, "temperature_F" : 86.000, "mic" : "CHECKSUM"}
+{"time" : "@0.356986s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c000033", "id" : "A2CA2A", "pressure_kPa" : 2.500, "temperature_F" : 86.000, "mic" : "CHECKSUM"}
+{"time" : "@0.457391s", "model" : "Schrader-EG53MA4", "type" : "TPMS", "flags" : "4c000033", "id" : "A2CA2A", "pressure_kPa" : 2.500, "temperature_F" : 86.000, "mic" : "CHECKSUM"}

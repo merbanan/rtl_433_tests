@@ -1,0 +1,4 @@
+{"time" : "@0.117120s", "model" : "Elantra2012", "type" : "TPMS", "id" : "801a2d39", "pressure_kPa" : 62.000, "temperature_C" : 28.000, "battery_ok" : 1, "triggered" : 1, "storage" : 0, "flags" : "c1", "mic" : "CRC"}
+{"time" : "@0.159284s", "model" : "Elantra2012", "type" : "TPMS", "id" : "801a2d39", "pressure_kPa" : 62.000, "temperature_C" : 28.000, "battery_ok" : 1, "triggered" : 1, "storage" : 0, "flags" : "c1", "mic" : "CRC"}
+{"time" : "@0.233540s", "model" : "Elantra2012", "type" : "TPMS", "id" : "801a2d39", "pressure_kPa" : 62.000, "temperature_C" : 28.000, "battery_ok" : 1, "triggered" : 1, "storage" : 0, "flags" : "c1", "mic" : "CRC"}
+{"time" : "@0.371936s", "model" : "Elantra2012", "type" : "TPMS", "id" : "801a2d39", "pressure_kPa" : 62.000, "temperature_C" : 28.000, "battery_ok" : 1, "triggered" : 1, "storage" : 0, "flags" : "c1", "mic" : "CRC"}

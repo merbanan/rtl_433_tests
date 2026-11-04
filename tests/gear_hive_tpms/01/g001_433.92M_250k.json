@@ -1,0 +1,11 @@
+{"time" : "@0.036824s", "model" : "Gear-Hive", "type" : "TPMS", "id" : "2b4ea1", "counter" : 1888, "pressure_kPa" : 112.500, "temperature_C" : 33.000, "mic" : "CHECKSUM"}
+{"time" : "@0.036824s", "model" : "Gear-Hive", "type" : "TPMS", "id" : "29b6a2", "counter" : 327, "pressure_kPa" : 143.750, "temperature_C" : 29.000, "mic" : "CHECKSUM"}
+{"time" : "@0.148396s", "model" : "Gear-Hive", "type" : "TPMS", "id" : "29b6a2", "counter" : 327, "pressure_kPa" : 143.750, "temperature_C" : 29.000, "mic" : "CHECKSUM"}
+{"time" : "@0.357780s", "model" : "Gear-Hive", "type" : "TPMS", "id" : "29b6a2", "counter" : 327, "pressure_kPa" : 143.750, "temperature_C" : 29.000, "mic" : "CHECKSUM"}
+{"time" : "@0.496216s", "model" : "Gear-Hive", "type" : "TPMS", "id" : "29b6a2", "counter" : 327, "pressure_kPa" : 143.750, "temperature_C" : 29.000, "mic" : "CHECKSUM"}
+{"time" : "@0.637688s", "model" : "Gear-Hive", "type" : "TPMS", "id" : "29b6a2", "counter" : 327, "pressure_kPa" : 143.750, "temperature_C" : 29.000, "mic" : "CHECKSUM"}
+{"time" : "@0.698080s", "model" : "Gear-Hive", "type" : "TPMS", "id" : "29b6a2", "counter" : 327, "pressure_kPa" : 143.750, "temperature_C" : 29.000, "mic" : "CHECKSUM"}
+{"time" : "@5.940344s", "model" : "Gear-Hive", "type" : "TPMS", "id" : "2b4ea1", "counter" : 1888, "pressure_kPa" : 112.500, "temperature_C" : 33.000, "mic" : "CHECKSUM"}
+{"time" : "@6.006228s", "model" : "Gear-Hive", "type" : "TPMS", "id" : "2b4ea1", "counter" : 1888, "pressure_kPa" : 112.500, "temperature_C" : 33.000, "mic" : "CHECKSUM"}
+{"time" : "@6.092284s", "model" : "Gear-Hive", "type" : "TPMS", "id" : "2b4ea1", "counter" : 1888, "pressure_kPa" : 112.500, "temperature_C" : 33.000, "mic" : "CHECKSUM"}
+{"time" : "@6.174060s", "model" : "Gear-Hive", "type" : "TPMS", "id" : "2b4ea1", "counter" : 1888, "pressure_kPa" : 112.500, "temperature_C" : 33.000, "mic" : "CHECKSUM"}

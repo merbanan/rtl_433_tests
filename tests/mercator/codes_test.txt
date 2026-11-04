@@ -1,0 +1,18 @@
+# Mercator ceiling fan remote control, all 5 buttons.
+#
+# Raw frames (preamble + sync + PCM-encoded button data, pre-symbol-decode),
+# one per button, extracted from the real captures in 01/ and the other
+# captures from the same reporter in
+# https://github.com/merbanan/rtl_433/issues/2200 (g001-g005). All verified
+# against `rtl_433 -R 0 -c conf/Mercator.conf -y '<code>' -F json`.
+
+# g001: MED
+{43}b6db2592480
+# g002: LOW
+{43}b6db24b2480
+# g003: OFF
+{43}b6db2492c80
+# g004: HI
+{43}b6db2c92480
+# g005: LIGHT
+{43}b6db2492580

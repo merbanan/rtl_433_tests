@@ -1,0 +1,3 @@
+{"time" : "@0.301188s", "model" : "Fineoffset-WHx080", "subtype" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 90240.000, "wm" : 132.123, "mic" : "CRC"}
+{"time" : "@0.458100s", "model" : "Fineoffset-WHx080", "subtype" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 90240.000, "wm" : 132.123, "mic" : "CRC"}
+{"time" : "@0.615016s", "model" : "Fineoffset-WHx080", "subtype" : 2, "uv_sensor_id" : 6, "uv_status" : "OK", "uv_index" : 5, "lux" : 90240.000, "wm" : 132.123, "mic" : "CRC"}

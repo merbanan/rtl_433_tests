@@ -1,0 +1,4 @@
+{"time" : "@0.268660s", "model" : "AmbientWeather-WH31E", "id" : 232, "channel" : 3, "battery_ok" : 1, "temperature_C" : 26.800, "humidity" : 66, "data" : "1700000000", "mic" : "CRC"}
+{"time" : "@0.268660s", "model" : "AmbientWeather-WH31E", "id" : 232, "channel" : 3, "battery_ok" : 1, "temperature_C" : 26.800, "humidity" : 66, "data" : "1700000000", "mic" : "CRC"}
+{"time" : "@0.405124s", "model" : "AmbientWeather-WH31E", "id" : 160, "channel" : 7, "battery_ok" : 1, "temperature_C" : 22.400, "humidity" : 68, "data" : "7b00000000", "mic" : "CRC"}
+{"time" : "@0.405124s", "model" : "AmbientWeather-WH31E", "id" : 160, "channel" : 7, "battery_ok" : 1, "temperature_C" : 22.400, "humidity" : 68, "data" : "7b00000000", "mic" : "CRC"}

@@ -1,0 +1,2 @@
+{"time" : "@0.033906s", "model" : "LaCrosse-TX31UIT", "id" : 55, "battery_ok" : 1, "temperature_C" : 24.600, "wind_dir_deg" : 270.000, "wind_avg_km_h" : 0.000, "mic" : "CRC"}
+{"time" : "@0.033906s", "model" : "LaCrosse-TX22UIT", "id" : 173, "flags" : 195, "temperature_C" : 24.600, "rain_mm" : 0.000, "wind_avg_km_h" : 0.000, "wind_dir_deg" : 270, "mic" : "CRC"}

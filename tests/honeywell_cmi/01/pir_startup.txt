@@ -1,0 +1,62 @@
+PIR sensor CC1100 startup, logging the spi pins at 4MHz
+analyzsis of the log is that the CC1100 chip is only used as
+data pipe, not surprising when other sensors use other tranceiver chips.
+
+The correct sync word could be verifyed from this operation. And it looks
+like the system uses 2 frequencies to implement communication both ways
+and that it cycles the rx and tx frequencies.
+
+30, Strobe SRES, reset chip
+00 0B, IOCFG2(0B), Page 34 in specs, clock
+01 0C, IOCFG1(0C), Page 34 in specs, Serial Synchronous Data Output
+02 2E, IOCFG0(2E), High impedance (3-state)
+03 07, FIFOTHR(07), 33 bytes in TX FIFO and 32 bytes in RX FIFO
+04 FF, SYNC1(FF), 
+05 FE, SYNC0(FE),FFFE as 16 bit sync word
+06 FF, PKTLEN(FF), max packet length
+07 04, PKTCTRL1(04), no address check, append status, page 66
+08 12, PKTCTRL0(12), no whitening, data in on GDO0, infinite packet length mode, no CRC
+09 00, ADDR(00), Broadcast 0x00
+0A 00, CHANNR(00), Channel 0
+0B 06, FSCTRL1(06), frequency controls
+0C 00, FSCTRL0(00), frequency controls
+0D 21, FREQ2(21), frequency syntheziser settings
+0E 75, FREQ1(75), frequency syntheziser settings
+0F 21, FREQ0(6A), frequency syntheziser settings
+10 A7, MDMCFG4(A7), channel bandwidth and symbol rate
+11 83, MDMCFG3(83), channel bandwidth and symbol rate
+12 02, MDMCFG2(02), 2-FSK modulation, 16/16 sync word bits detected 
+13 22, MDMCFG1(22), no fec, 4 preamble bytes
+14 F8, MDMCFG0(F8), channel settings
+15 40, DEVIATN(40), modem settings
+16 07, MCSM2(7), radio state machine
+17 30, MCSM1(30), radio state machine
+18 18, MCSM0(18), radio state machine
+19 16, FOCCFG(16), frequency offset configuration
+1A 6C, BSCFG(6C), bit synchronization
+1B 43, AGCCTRL2(43), agc controls
+1C 40, AGCCTRL1(40), agc controls
+1D 91, AGCCTRL0(91), agc controls
+1E 87, WOREVT1(87), event timer
+1F 6B, WOREVT0(6B), event timer
+20 F8, WORCTRL
+21 56, FREND1
+22 10, FREND0
+73 C3, Burst write: PATABLE 3E(?) unknown
+39, Strobe SPWD, enter power down
+
+loop:
+    36, Strobe SIDLE
+    0E 69, Set frequency
+    0F DA, -""-
+    31, Strobe SFSTXON
+    33, Strobe SCAL
+    35, Strobe STX, Enable TX
+    3D, Strobe SNOP
+
+    36, Strobe SIDLE
+    36
+    0E 6A, Set frequency
+    0F D6
+    34, Strobe SRX
+    3D, Strobe SNOP

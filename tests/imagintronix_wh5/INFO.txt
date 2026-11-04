@@ -1,0 +1,8 @@
+I purchased the WH5 from ebay in the UK here: http://www.ebay.co.uk/itm/261788376051 unfortunately I'm not able to view actual readings for the device as the screen/base unit I bought it for doesn't detect it like I thought it would. I can only supply the indoor temp/hum at the start of data gathering supplied by the WH2 base unit.
+
+Starting room temp/hum was 25.3C 60% (give or take this won't be accurate but it should be close). I then placed the sensor into the fridge for 5 minutes then in the freezer for a further 5 minutes & finally left it to warm up.
+
+Please note the data here will also include data from two other sensors a WH2 (which is detected fine) and another which is incorrectly identified as the Esperanza EWS (see: https://github.com/merbanan/rtl_433/issues/103 for more info on that).
+
+Link to info about the device:
+https://www.pitt-pladdy.com/blog/_20140102-173814_0000_Watson_Temperature_Humidity_Sesnor_Protocol_8683-HTT_WH2_for_W-8683_/
