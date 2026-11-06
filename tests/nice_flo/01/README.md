@@ -1,7 +1,7 @@
 # Nice FLO samples
 
 Flipper Zero transmissions (Nice FLO protocol) with made-up codes, recorded with an RTL-SDR at
-433.92 MHz, 250 kHz, RSSI about -6 dB, SNR 31-36 dB. `protocol` selects the Nice FLO decoder.
+433.92 MHz, 250 kHz, RSSI about -6 dB, SNR 31-36 dB. `protocol` loads `conf/Nice-FLO.conf`.
 
 | File | Bits | Code |
 |---|---|---|
