@@ -1,3 +1,3 @@
-{"time" : "@0.111076s", "model" : "Generic-Remote", "id" : 27937, "cmd" : 167, "tristate" : "ZX1Z0X0ZXXZ1"}
-{"time" : "@0.111076s", "model" : "Generic-Remote", "id" : 27937, "cmd" : 167, "tristate" : "ZX1Z0X0ZXXZ1"}
-{"time" : "@0.111076s", "model" : "Generic-Remote", "id" : 27937, "cmd" : 167, "tristate" : "ZX1Z0X0ZXXZ1"}
+{"time" : "@0.111076s", "model" : "Generic-Remote-TE180", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "6d21a70", "id" : 27937, "cmd" : 167}
+{"time" : "@0.111076s", "model" : "Generic-Remote-TE180", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "6d21a70", "id" : 27937, "cmd" : 167}
+{"time" : "@0.111076s", "model" : "Generic-Remote-TE180", "count" : 1, "num_rows" : 1, "len" : 25, "data" : "6d21a70", "id" : 27937, "cmd" : 167}

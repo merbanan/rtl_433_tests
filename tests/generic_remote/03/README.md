@@ -9,7 +9,7 @@ Recorded with an RTL-SDR at 433.92 MHz, 250 kHz, gain 10, three frames per file.
 Measured: short pulse ~190 us, long pulse ~615 us, guard gap ~7780 us.
 
 The default Generic-Remote range (TE 401-535 us) does not decode this,
-it needs the TE 180-305 us range (protocol 387).
+it needs `conf/Generic-Remote-TE-ranges.conf` (Generic-Remote-TE180), named in `protocol`.
 
 | File | Code | id | cmd |
 |---|---|---|---|
