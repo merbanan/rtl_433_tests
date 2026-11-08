@@ -12,4 +12,4 @@ PWM, 1 = 800 us pulse + 300 us gap, 0 = 300 us pulse + 800 us gap, 7.5 ms betwee
 | `nord_ice_1a2b3c4_b02_433.92M_250k.cu8` | `1a2b3c4` | `02` |
 | `nord_ice_5c0ffee_b10_433.92M_250k.cu8` | `5c0ffee` | `10` |
 
-The decoder is disabled by default (no integrity check), the `protocol` file enables it.
+The `protocol` file selects the flex conf (`conf/NordICE.conf`), which outputs the serial as `serial_hi` and `serial_lo` (serial = serial_hi * 512 + serial_lo).
