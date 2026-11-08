@@ -1,1 +1,1 @@
-{"time" : "@0.221040s", "model" : "EN2058", "id" : 5521900, "temperature1_F" : 259.000, "temperature3_F" : 104.000, "sequence" : 206, "mic" : "CHECKSUM"}
+{"time" : "@0.221040s", "model" : "EN2058", "id" : 5521900, "temperature_1_F" : 259.000, "temperature_3_F" : 104.000, "sequence" : 206, "mic" : "CHECKSUM"}

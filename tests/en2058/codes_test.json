@@ -1,6 +1,6 @@
-{"model" : "EN2058", "id" : 5521900, "temperature1_F" : 259.000, "temperature2_F" : -70.000, "temperature3_F" : 104.000, "temperature4_F" : -70.000, "mic" : "CHECKSUM"}
-{"model" : "EN2058", "id" : 5521900, "temperature1_F" : 261.000, "temperature2_F" : -70.000, "temperature3_F" : 111.000, "temperature4_F" : -70.000, "mic" : "CHECKSUM"}
-{"model" : "EN2058", "id" : 5521868, "temperature1_F" : 288.000, "temperature2_F" : -70.000, "temperature3_F" : 172.000, "temperature4_F" : -70.000, "mic" : "CHECKSUM"}
-{"model" : "EN2058", "id" : 5521868, "temperature1_F" : 287.000, "temperature2_F" : -70.000, "temperature3_F" : 172.000, "temperature4_F" : -70.000, "mic" : "CHECKSUM"}
-{"model" : "EN2058", "id" : 5521900, "temperature1_F" : 259.000, "temperature2_F" : 87.000, "temperature3_F" : 112.000, "temperature4_F" : 173.000, "mic" : "CHECKSUM"}
-{"model" : "EN2058", "id" : 5521900, "temperature1_F" : 258.000, "temperature2_F" : 95.000, "temperature3_F" : 113.000, "temperature4_F" : 178.000, "mic" : "CHECKSUM"}
+{"model": "EN2058", "id": 5521900, "temperature_1_F": 259.0, "temperature_3_F": 104.0, "sequence": 206, "mic": "CHECKSUM"}
+{"model": "EN2058", "id": 5521900, "temperature_1_F": 261.0, "temperature_3_F": 111.0, "sequence": 156, "mic": "CHECKSUM"}
+{"model": "EN2058", "id": 5521868, "temperature_1_F": 288.0, "temperature_3_F": 172.0, "sequence": 170, "mic": "CHECKSUM"}
+{"model": "EN2058", "id": 5521868, "temperature_1_F": 287.0, "temperature_3_F": 172.0, "sequence": 34, "mic": "CHECKSUM"}
+{"model": "EN2058", "id": 5521900, "temperature_1_F": 259.0, "temperature_2_F": 87.0, "temperature_3_F": 112.0, "temperature_4_F": 173.0, "sequence": 152, "mic": "CHECKSUM"}
+{"model": "EN2058", "id": 5521900, "temperature_1_F": 258.0, "temperature_2_F": 95.0, "temperature_3_F": 113.0, "temperature_4_F": 178.0, "sequence": 2, "mic": "CHECKSUM"}
