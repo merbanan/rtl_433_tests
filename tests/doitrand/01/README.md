@@ -12,4 +12,4 @@ at 433.92 MHz, 250 kHz, RSSI about -12 dB. Six messages per file, 24.8 ms apart.
 | `doitrand_0001001010_b1_433.92M_250k.cu8` | `0001001010` | 1 | `0a5c042f5f` |
 | `doitrand_1111111111_b2_433.92M_250k.cu8` | `1111111111` | 2 | `1fe208af5f` |
 
-The decoder is disabled by default (no integrity check), the `protocol` file enables it.
+The `protocol` file selects the flex conf (`conf/Doitrand.conf`), which outputs the code as `code_hi` and `code_lo`.
