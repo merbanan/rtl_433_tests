@@ -1,0 +1,1 @@
+{"time" : "@0.052933s", "model" : "LoRaWAN", "message_type" : "Join Request", "major" : 0, "join_eui" : "0000000000000000", "dev_eui" : "a81758fffe04979c", "dev_nonce" : 36703, "mic_raw" : "af7c8c20"}
