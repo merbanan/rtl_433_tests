@@ -1,0 +1,53 @@
+# Auriol 4-LD6654 frames, additional to the .cu8 samples.
+# Captured from one unit; see README.md.
+# Each code is repeated 3x on the line because the decoder
+# requires a repeated row in place of a checksum.
+#
+# {52}<hex> x3    temperature / humidity / rain tips
+{52}b18101f2d009e {52}b18101f2d009e {52}b18101f2d009e  # +25.7 C  45 %  158 tips
+{52}b18100f2e009e {52}b18100f2e009e {52}b18100f2e009e  # +25.6 C  46 %  158 tips
+{52}b180fef2e009e {52}b180fef2e009e {52}b180fef2e009e  # +25.4 C  46 %  158 tips
+{52}b180fbf2f009e {52}b180fbf2f009e {52}b180fbf2f009e  # +25.1 C  47 %  158 tips
+{52}b180f9f2f009f {52}b180f9f2f009f {52}b180f9f2f009f  # +24.9 C  47 %  159 tips
+{52}b180f7f2f00a3 {52}b180f7f2f00a3 {52}b180f7f2f00a3  # +24.7 C  47 %  163 tips
+{52}b180f5f3000b0 {52}b180f5f3000b0 {52}b180f5f3000b0  # +24.5 C  48 %  176 tips
+{52}b180f3f2f00b0 {52}b180f3f2f00b0 {52}b180f3f2f00b0  # +24.3 C  47 %  176 tips
+{52}b180f0f2d00b0 {52}b180f0f2d00b0 {52}b180f0f2d00b0  # +24.0 C  45 %  176 tips
+{52}b180e9f2900b0 {52}b180e9f2900b0 {52}b180e9f2900b0  # +23.3 C  41 %  176 tips
+{52}b180def2500b0 {52}b180def2500b0 {52}b180def2500b0  # +22.2 C  37 %  176 tips
+{52}b180d0f2200b0 {52}b180d0f2200b0 {52}b180d0f2200b0  # +20.8 C  34 %  176 tips
+{52}b180bff2000b0 {52}b180bff2000b0 {52}b180bff2000b0  # +19.1 C  32 %  176 tips
+{52}b180aef2100b0 {52}b180aef2100b0 {52}b180aef2100b0  # +17.4 C  33 %  176 tips
+{52}b180a1f2300b0 {52}b180a1f2300b0 {52}b180a1f2300b0  # +16.1 C  35 %  176 tips
+{52}b18096f2300b0 {52}b18096f2300b0 {52}b18096f2300b0  # +15.0 C  35 %  176 tips
+{52}b18089f2100b0 {52}b18089f2100b0 {52}b18089f2100b0  # +13.7 C  33 %  176 tips
+{52}b1807cf2000b0 {52}b1807cf2000b0 {52}b1807cf2000b0  # +12.4 C  32 %  176 tips
+{52}b1806ef2000b0 {52}b1806ef2000b0 {52}b1806ef2000b0  # +11.0 C  32 %  176 tips
+{52}b1805ff1f00b0 {52}b1805ff1f00b0 {52}b1805ff1f00b0  # +9.5 C  31 %  176 tips
+{52}b18050f1f00b0 {52}b18050f1f00b0 {52}b18050f1f00b0  # +8.0 C  31 %  176 tips
+{52}b18042f1f00b0 {52}b18042f1f00b0 {52}b18042f1f00b0  # +6.6 C  31 %  176 tips
+{52}b18035f1f00b0 {52}b18035f1f00b0 {52}b18035f1f00b0  # +5.3 C  31 %  176 tips
+{52}b18029f1f00b0 {52}b18029f1f00b0 {52}b18029f1f00b0  # +4.1 C  31 %  176 tips
+{52}b1801df1f00b0 {52}b1801df1f00b0 {52}b1801df1f00b0  # +2.9 C  31 %  176 tips
+{52}b18012f1f00b0 {52}b18012f1f00b0 {52}b18012f1f00b0  # +1.8 C  31 %  176 tips
+{52}b18009f1f00b0 {52}b18009f1f00b0 {52}b18009f1f00b0  # +0.9 C  31 %  176 tips
+{52}b18ff5f1e00b0 {52}b18ff5f1e00b0 {52}b18ff5f1e00b0  # -1.1 C  30 %  176 tips
+{52}b18fecf1e00b0 {52}b18fecf1e00b0 {52}b18fecf1e00b0  # -2.0 C  30 %  176 tips
+{52}b18fe4f1e00b0 {52}b18fe4f1e00b0 {52}b18fe4f1e00b0  # -2.8 C  30 %  176 tips
+{52}b18fdcf1d00b0 {52}b18fdcf1d00b0 {52}b18fdcf1d00b0  # -3.6 C  29 %  176 tips
+{52}b18fd5f1d00b0 {52}b18fd5f1d00b0 {52}b18fd5f1d00b0  # -4.3 C  29 %  176 tips
+{52}b18fd0f1d00b1 {52}b18fd0f1d00b1 {52}b18fd0f1d00b1  # -4.8 C  29 %  177 tips
+{52}b18fcef2200b1 {52}b18fcef2200b1 {52}b18fcef2200b1  # -5.0 C  34 %  177 tips
+{52}b18fd1f2600b1 {52}b18fd1f2600b1 {52}b18fd1f2600b1  # -4.7 C  38 %  177 tips
+{52}b18fd8f2800b1 {52}b18fd8f2800b1 {52}b18fd8f2800b1  # -4.0 C  40 %  177 tips
+{52}b18fdff2b00b1 {52}b18fdff2b00b1 {52}b18fdff2b00b1  # -3.3 C  43 %  177 tips
+{52}b18feaf2e00b1 {52}b18feaf2e00b1 {52}b18feaf2e00b1  # -2.2 C  46 %  177 tips
+{52}b18ff6f3100b1 {52}b18ff6f3100b1 {52}b18ff6f3100b1  # -1.0 C  49 %  177 tips
+{52}b18001f3300b1 {52}b18001f3300b1 {52}b18001f3300b1  # +0.1 C  51 %  177 tips
+{52}b1800cf3400b1 {52}b1800cf3400b1 {52}b1800cf3400b1  # +1.2 C  52 %  177 tips
+{52}b18016f3400b1 {52}b18016f3400b1 {52}b18016f3400b1  # +2.2 C  52 %  177 tips
+{52}b18021f3500b1 {52}b18021f3500b1 {52}b18021f3500b1  # +3.3 C  53 %  177 tips
+{52}b1802af3500b1 {52}b1802af3500b1 {52}b1802af3500b1  # +4.2 C  53 %  177 tips
+{52}b18033f3500b1 {52}b18033f3500b1 {52}b18033f3500b1  # +5.1 C  53 %  177 tips
+{52}b1803bf3500b1 {52}b1803bf3500b1 {52}b1803bf3500b1  # +5.9 C  53 %  177 tips
+{52}b18042f3600b1 {52}b18042f3600b1 {52}b18042f3600b1  # +6.6 C  54 %  177 tips
