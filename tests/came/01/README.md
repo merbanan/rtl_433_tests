@@ -1,7 +1,7 @@
 # CAME, Airforce samples
 
 Flipper Zero transmissions (CAME protocol) with made-up codes, recorded with an RTL-SDR at
-433.92 MHz, 250 kHz, RSSI about -9 dB, SNR about 28 dB. `protocol` selects the CAME decoder.
+433.92 MHz, 250 kHz, RSSI about -9 dB, SNR about 28 dB. `protocol` selects the flex conf (`conf/CAME.conf`).
 
 | File | Bits | Code | Model |
 |---|---|---|---|
