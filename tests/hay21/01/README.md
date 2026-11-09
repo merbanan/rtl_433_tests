@@ -12,4 +12,4 @@ PWM, 1 = 700 us pulse + 300 us gap, 0 = 300 us pulse + 700 us gap.
 | `hay21_3e_mode_cnt2_433.92M_250k.cu8` | `3e` | `c3` (mode) | 2 |
 | `hay21_d7_hold_cnt9_433.92M_250k.cu8` | `d7` | `88` (hold) | 9 |
 
-The decoder is disabled by default (no integrity check), the `protocol` file enables it.
+The `protocol` file selects the flex conf (`conf/Hay21.conf`), which outputs each message (no repeat check).
