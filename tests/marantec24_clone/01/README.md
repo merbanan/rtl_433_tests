@@ -1,8 +1,8 @@
 # Marantec24 clone remote
 
 Not a Marantec protocol: a fixed code clone remote sold as a Marantec replacement, named
-Marantec24 by the Flipper Zero firmware. Decoded by `Marantec24-Clone` (disabled by default,
-`protocol` selects it).
+Marantec24 by the Flipper Zero firmware. Decoded by the flex conf `conf/Marantec24.conf`
+(`protocol` selects it).
 
 PWM, 4000 us per bit: a 1 bit is an 800 us pulse and a 3200 us gap, a 0 bit is a 1600 us pulse
 and a 2400 us gap. 24 bits (20 bit serial, 4 bit button), repeated after a 15200 us gap.
@@ -16,6 +16,6 @@ RSSI about -12 dB, SNR about 24 dB.
 | `button_4_433.92M_250k.cu8` | `5B21E4` | 5B21E | 4 |
 | `button_c_433.92M_250k.cu8` | `93A70C` | 93A70 | 12 |
 
-Flex decoder:
+Usage:
 
-    rtl_433 -X 'n=marantec24,m=OOK_PWM,s=800,l=1600,g=5000,r=20000,t=200,bits=24,repeats>=2'
+    rtl_433 -c conf/Marantec24.conf
