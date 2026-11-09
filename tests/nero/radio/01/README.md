@@ -2,7 +2,7 @@
 
 Flipper Zero RAW transmissions (Nero Radio message format, 56 bit) with made-up codes, recorded
 with an RTL-SDR at 433.92 MHz, 250 kHz, RSSI about -7 dB. Three messages per file. `protocol`
-enables the Nero Radio decoder (disabled by default).
+selects the flex conf (`conf/Nero-Radio.conf`), which outputs the id as `id_hi` and `id_lo`.
 
 | File | id | Button | Check byte |
 |---|---|---|---|
