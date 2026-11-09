@@ -45,6 +45,14 @@ Decoded by `olympia_9571` (protocol 386), preamble `aa aa 2d d4` followed by a
 - `keyfob_disarm_19e755_868.465M_250k.cu8`: Keyfob remote, ID 19e755,
   "disarm" command, 868.465 MHz capture at 250 kHz. Same ~160 us blip
   before each burst; all 19 bursts decode.
+- `keyfob_disarm_interferer_19e755_868.5M_1000k.cu8`: Keyfob remote, ID
+  19e755, "disarm" command, 868.5 MHz capture at 1000 kHz, cut from a
+  longer recording. Detector regression sample: the file starts 10 ms
+  before the end of a burst, and a carrier ~380 kHz above the keyfob
+  follows it with no gap for ~3.4 ms. Then come the usual blip and the
+  next burst, all in one OOK pulse package, so the burst is only found
+  by FSK detection on a later pulse of the package. Both following
+  bursts decode.
 
 ## Leading blip handling
 
@@ -78,3 +86,4 @@ Verify manually with:
     rtl_433 -r pir_idle_d6f84d_868.465M_250k.cu8
     rtl_433 -r door_closed_4ddf3b_868.465M_250k.cu8
     rtl_433 -r keyfob_disarm_19e755_868.465M_250k.cu8
+    rtl_433 -r keyfob_disarm_interferer_19e755_868.5M_1000k.cu8
