@@ -1,0 +1,10 @@
+{"model": "Malibu-SurfBand", "button": 1, "button_name": "Surf Left", "mic": "CRC"}
+{"model": "Malibu-SurfBand", "button": 7, "button_name": "Surf Right", "mic": "CRC"}
+{"model": "Malibu-SurfBand", "button": 10, "button_name": "Volume Up", "mic": "CRC"}
+{"model": "Malibu-SurfBand", "button": 3, "button_name": "Volume Down", "mic": "CRC"}
+{"model": "Malibu-SurfBand", "button": 2, "button_name": "Wedge Up", "mic": "CRC"}
+{"model": "Malibu-SurfBand", "button": 5, "button_name": "Wedge Down", "mic": "CRC"}
+{"model": "Malibu-SurfBand", "button": 8, "button_name": "Speed Up", "mic": "CRC"}
+{"model": "Malibu-SurfBand", "button": 11, "button_name": "Speed Down", "mic": "CRC"}
+{"model": "Malibu-SurfBand", "button": 170, "button_name": "Hold", "mic": "CRC"}
+{"model": "Malibu-SurfBand", "button": 0, "button_name": "Release", "mic": "CRC"}
