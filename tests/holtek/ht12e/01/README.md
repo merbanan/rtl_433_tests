@@ -2,7 +2,7 @@
 
 Flipper Zero transmissions (Holtek HT12E protocol) with made-up codes, recorded with an RTL-SDR
 at 433.92 MHz, 250 kHz, RSSI about -5 dB, SNR 37 dB. Six repeats per file.
-`protocol` enables the Holtek HT12E decoder (disabled by default).
+`protocol` selects the flex conf (`conf/Holtek-HT12E.conf`).
 
 | File | TE | Code | Address (id) | Data (button) |
 |---|---|---|---|---|
