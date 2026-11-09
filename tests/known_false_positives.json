@@ -36,6 +36,12 @@
       "Typhur-SyncGold"
     ]
   },
+  "CurrentCost-TX": {
+    "count": 1,
+    "models": [
+      "Oregon-THGR122N"
+    ]
+  },
   "EcoEye": {
     "count": 1,
     "models": [
