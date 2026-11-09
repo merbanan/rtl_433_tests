@@ -12,4 +12,4 @@ PWM, 1 = 900 us pulse + 300 us gap, 0 = 300 us pulse + 900 us gap, 6 ms between 
 | `treadmill37_1a2b3_0a50_433.92M_250k.cu8` | `1a2b3` | `0a50` |
 | `treadmill37_c0ffe_f00d_433.92M_250k.cu8` | `c0ffe` | `f00d` |
 
-The decoder is disabled by default (no integrity check), the `protocol` file enables it.
+The `protocol` file selects the flex conf (`conf/Treadmill37.conf`).
