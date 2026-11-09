@@ -2,7 +2,8 @@
 
 Signal generated from the FAAC SLH protocol with a made-up code and transmitted by a Flipper Zero
 as a RAW file, recorded with an RTL-SDR at 868.35 MHz, 1024 kHz, RSSI about -5 dB, SNR about 37 dB.
-`protocol` selects the FAAC SLH decoder.
+`protocol` selects the flex conf (`conf/FAAC-SLH.conf`), which outputs the encrypted part as
+`encrypted_hi` and `encrypted_lo`.
 
 | File | Serial | Button | Encrypted |
 |---|---|---|---|
