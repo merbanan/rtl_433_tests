@@ -1,0 +1,6 @@
+# Additional TX-2B transmissions, one 36-bit row each, from captures not
+# shipped as .cu8 files (see README.md). The decoder needs four repeats.
+{36}99290c13d  # id 146, ch 2, 19.3 C, 61 %
+{36}99790c93b  # id 151, ch 2, 20.1 C, 59 %
+{36}9dd90ca3a  # id 221, ch 2, 20.2 C, 58 %
+{36}96da0ce45  # id 109, ch 3, 20.6 C, 69 % (higher humidity)

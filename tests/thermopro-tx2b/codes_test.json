@@ -1,0 +1,4 @@
+{"time" : "2026-08-30 07:28:47", "model" : "Thermopro-TX2C", "id" : 146, "channel" : 2, "battery_ok" : 0, "temperature_C" : 19.300, "humidity" : 61, "button" : 0}
+{"time" : "2026-08-30 07:28:47", "model" : "Thermopro-TX2C", "id" : 151, "channel" : 2, "battery_ok" : 0, "temperature_C" : 20.100, "humidity" : 59, "button" : 0}
+{"time" : "2026-08-30 07:28:47", "model" : "Thermopro-TX2C", "id" : 221, "channel" : 2, "battery_ok" : 0, "temperature_C" : 20.200, "humidity" : 58, "button" : 0}
+{"time" : "2026-08-30 07:28:47", "model" : "Thermopro-TX2C", "id" : 109, "channel" : 3, "battery_ok" : 0, "temperature_C" : 20.600, "humidity" : 69, "button" : 0}
