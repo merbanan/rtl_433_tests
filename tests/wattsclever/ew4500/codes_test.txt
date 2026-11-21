@@ -1,0 +1,46 @@
+# Watts Clever EW4500 (Hideki WAC22) Optical Energy Meter
+# Two-frame Burst B bitbuffer pairs ({64}<hex> {64}<hex>, pre-invert on-wire DMC)
+# Each Burst B pair uniquely locks the whitening solver and deduplicates the
+# repeated 56-bit gap frame into a single JSON output line.
+
+# Calibrated power sweep on ID 1063, CH 1 (1000 imp/kWh optical LED pulser)
+# 0 W (no load, gap = 0)
+{64}05d541690ecb1e6b {64}05e0b5fcd7cdd0d2
+# ~56 W (64000 ms period, gap = 65535)
+{64}0598ea0b86a61288 {64}05e0b5f3283dd03f
+# ~112 W (32000 ms period, gap = 32767)
+{64}05c5732207c707ff {64}05fb3b24d550c951
+# ~225 W (16000 ms period, gap = 16383)
+{64}05a8c828b5a42091 {64}05bec01d0151e15a
+# ~450 W (8000 ms period, gap = 8191)
+{64}05da12ac52cc6bba {64}05b16ade968eaa44
+# 900 W (4000 ms period, gap = 4096)
+{64}05e0facc788c9c21 {64}058f8ab2b3ae501b
+# 1800 W (2000 ms period, gap = 2048)
+{64}05d46a3ce836165d {64}05e1b5fcd6cdd090
+# 1819 W (1980 ms period, gap = 2027)
+{64}05b296d49bc1665f {64}05bb605210f4ad1e
+# 3600 W (1000 ms period, gap = 1024)
+{64}05958993e2dc15fd {64}05b636e26c3dd759
+# 7200 W (500 ms period, gap = 512)
+{64}05c7418da7a511e7 {64}05874e17b969d6af
+# 14400 W (250 ms period, gap = 256)
+{64}05d96a3ce13616a5 {64}0590fc31c5a3d3b8
+# 28800 W (125 ms period, gap = 128)
+{64}05c5732de82707e7 {64}05fb3b2b3ab0c949
+# 56714 W (64 ms period, gap = 65)
+{64}05b9bec2c1c33f04 {64}05c9d748b752f735
+# 69555 W (52 ms period, gap = 53)
+{64}05ba3658ae3dd7ed {64}05b528e0b16919ec
+
+# Additional transmitter IDs (CH 1, 0 W)
+# ID 7844
+{64}05b83c84c2495a24 {64}05992c3b7a3294a4
+# ID 5784
+{64}05c8700c161e6855 {64}058e6c6c603ea3ef
+
+# Negative tests (must produce no output)
+# Idle post-reset Packet B pair (valid CRC-8, not whitened payload)
+{64}05f62f21ab5d3f0e {64}05f62f21ab5d3f0e
+# Corrupted CRC-8 (last bit flipped on both frames)
+{64}05d541690ecb1e6a {64}05e0b5fcd7cdd0d3
