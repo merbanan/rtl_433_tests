@@ -1,4 +1,4 @@
-# Watts Clever (Hideki WAC22) Optical Energy Meter
+# Watts Clever EW4500 (Hideki WAC22) Optical Energy Meter
 # Two-frame Burst B bitbuffer pairs ({64}<hex> {64}<hex>, pre-invert on-wire DMC)
 # Each Burst B pair uniquely locks the whitening solver and deduplicates the
 # repeated 56-bit gap frame into a single JSON output line.

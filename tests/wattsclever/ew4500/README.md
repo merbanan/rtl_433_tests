@@ -1,6 +1,6 @@
-# Watts Clever WAC22 (Hideki WAC22) Optical Energy Meter Reader
+# Watts Clever EW4500 (Hideki WAC22) Optical Energy Meter Reader
 
-![Watts Clever Display Unit, Power Transmitter, and Optical LED Sensor](wac22_front.jpg)
+![Watts Clever EW4500 Display Unit, Power Transmitter, and Optical LED Sensor](ew4500_front.jpg)
 
 433.92 MHz (measured ~433.85 MHz) optical pulse reader for electricity meters
 with flashing LED pulse outputs. Direct protocol sibling of the Norgo NGE101
