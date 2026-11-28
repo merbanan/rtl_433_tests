@@ -5,9 +5,9 @@ Silent Gliss SG11490 5-channel wall switch; the wire protocol is Elero's
 general bidirectional 868/915 MHz protocol, also used by other Elero-based
 motor brands.
 
-`01/`-`03/` each carry a `demod` file (`-Y minmax`): this GFSK signal only
-demodulates with the non-default FSK pulse detector, and `run_test.py`
-reads that file to pass it through to rtl_433. Test manually with:
+Directory `04/` contains receiver packet examples for addressed commands, motor replies, and preset recall. Each example has an expected JSON record. [Movement and status tests](04/README.md)
+
+The default detector and `-Y minmax` both decoded the Silent Gliss recordings on the build tested for these examples. To replay one file:
 
 ```
 rtl_433 -r 01/g003_869.4M_2048k.cu8 -Y minmax -R 372 -F json

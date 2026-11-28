@@ -1,0 +1,9 @@
+{"model": "Elero", "id": "ABCDEF", "channel": "06", "command": "Stop", "command_code": 16, "counter": 147, "mic": "CRC", "destinations": ["123456"]}
+{"model": "Elero", "id": "123456", "request_counter": 147, "state": "Stopped", "state_code": 13, "counter": 244, "mic": "CRC", "destinations": ["ABCDEF"]}
+{"model": "Elero", "id": "ABCDEF", "channel": "06", "command": "Continuous up", "command_code": 33, "counter": 154, "mic": "CRC", "destinations": ["123456"]}
+{"model": "Elero", "id": "ABCDEF", "channel": "06", "command": "Continuous down", "command_code": 65, "counter": 159, "mic": "CRC", "destinations": ["123456"]}
+{"model": "Elero", "id": "ABCDEF", "channel": "06", "command": "Release", "counter": 168, "mic": "CRC"}
+{"model": "Elero", "id": "ABCDEF", "channel": "06", "command": "Intermediate", "counter": 179, "mic": "CRC"}
+{"model": "Elero", "id": "ABCDEF", "channel": "06", "command": "Status request", "command_code": 0, "counter": 185, "mic": "CRC", "destinations": ["123456"]}
+{"model": "Elero", "id": "123456", "request_counter": 185, "state": "Intermediate", "state_code": 3, "counter": 31, "mic": "CRC", "destinations": ["ABCDEF"]}
+{"model": "Elero", "id": "ABCDEF", "channel": "06", "command": "Continuous up", "command_code": 33, "counter": 154, "mic": "CRC", "destinations": ["123456", "789ABC"]}
