@@ -1,0 +1,6 @@
+{"time" : "@0.050392s", "model" : "Malibu-SurfBand", "button" : 10, "button_name" : "Volume Up", "mic" : "CRC"}
+{"time" : "@0.181544s", "model" : "Malibu-SurfBand", "button" : 170, "button_name" : "Hold", "mic" : "CRC"}
+{"time" : "@0.312696s", "model" : "Malibu-SurfBand", "button" : 170, "button_name" : "Hold", "mic" : "CRC"}
+{"time" : "@0.443848s", "model" : "Malibu-SurfBand", "button" : 170, "button_name" : "Hold", "mic" : "CRC"}
+{"time" : "@0.574996s", "model" : "Malibu-SurfBand", "button" : 170, "button_name" : "Hold", "mic" : "CRC"}
+{"time" : "@0.888800s", "model" : "Malibu-SurfBand", "button" : 0, "button_name" : "Release", "mic" : "CRC"}
